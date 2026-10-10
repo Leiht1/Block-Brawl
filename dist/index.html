@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#10131d"><title>方块乱斗 · 手感实验室</title><meta name="description" content="拖动、交换、消除。方块乱斗第一阶段手感原型。"><link rel="stylesheet" href="style.css"></head>
+<body>
+<main>
+  <header><a class="brand" href="./" aria-label="方块乱斗首页"><span class="brandmark">▦</span><span>方块乱斗<small>BLOCK BRAWL</small></span></a><span class="build">PHASE 01 <i></i> 手感原型</span></header>
+  <div class="layout">
+    <section class="intro"><span class="eyebrow">PLAYGROUND / 自由练习</span><h1>轻轻一划。<br><span>连锁，停不下来。</span></h1><p class="lead">相邻交换，三个同色就能消除。<br>让方块落下，再抓住下一次连锁。</p><div class="instructions"><div><b>01</b><p><strong>拖动一个方块</strong><span>上下左右，交换相邻格</span></p></div><div><b>02</b><p><strong>凑出三个或更多同色</strong><span>四连更亮，五连更炸</span></p></div><div><b>03</b><p><strong>继续操作空闲区域</strong><span>一边落下，一边寻找下一步</span></p></div></div><div class="note"><span>✦</span><p>没有倒计时。先找到你的节奏。<br><small>本阶段专注单人手感，实时对战后续接入。</small></p></div></section>
+    <section class="play" aria-label="三消练习">
+      <div class="stats"><div><span>当前得分</span><strong id="score">0</strong></div><div><span>最高连锁</span><strong id="chain">—</strong></div><div class="status"><span id="mode-label">自由练习</span><small><i></i><span id="fps">60</span> FPS</small></div></div>
+      <div class="board-wrap" id="board-wrap"><canvas id="board" tabindex="0" aria-label="8乘8三消棋盘，可拖动方块或点击相邻两个格交换，方向键选择，回车选中" role="application"></canvas><div id="toast" aria-live="polite"></div></div>
+      <div class="board-caption"><span id="message">拖动交换 · 点击相邻两格也可以</span><span><i class="dot"></i>可连续操作</span></div>
+      <div class="tools"><button id="hint">✧ 提示一步</button><button id="restart">↻ 重新开始</button><button id="sound" aria-pressed="false">♫ 音效关</button></div>
+      <div class="practice"><span>试试反馈</span><div class="modes" aria-label="练习盘选择"><button data-mode="free" class="active">自由</button><button data-mode="three">三连</button><button data-mode="four">四连</button><button data-mode="five">五连</button><button data-mode="chain">连锁</button></div></div>
+    </section>
+  </div>
+  <footer><span>小动作，大连锁。</span><span>路线 A · 相邻交换三消 <span class="version">v0.1</span></span></footer>
+</main><script type="module" src="app.mjs"></script>
+</body></html>
