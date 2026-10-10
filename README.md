@@ -1,6 +1,20 @@
 # 方块乱斗 · 第一阶段 H5 原型
 
-打开发布后的试玩链接即可操作。源代码无需安装依赖，`dist/` 可以部署在普通静态服务器上。
+试玩地址：https://block-brawl-prototype.lht1996317.chatgpt.site （私有访问）。源代码无需安装项目依赖，`dist/` 可以部署在普通静态服务器上。
+
+## 在其他设备继续开发
+
+先安装 Git、Python 和 Node.js，再执行：
+
+```sh
+git clone https://github.com/Leiht1/Block-Brawl.git
+cd Block-Brawl
+python -m http.server 5173 --directory dist
+```
+
+访问 `http://localhost:5173`。macOS／Linux 如果没有 `python` 命令，使用 `python3`。修改页面文件后刷新浏览器即可。另开一个终端，在项目目录执行 `node --test tests/engine.test.mjs` 验证规则。
+
+`.openai/hosting.json` 是现有 Sites 部署标识与静态目录配置，不含登录凭据；普通本地开发无需修改它。
 
 本地运行：在项目目录执行 `python -m http.server 5173 --directory dist`，访问 `http://localhost:5173`。规则测试：`node --test tests/engine.test.mjs`。
 
