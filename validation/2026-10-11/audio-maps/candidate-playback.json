@@ -1,0 +1,247 @@
+{
+  "files": [
+    {
+      "file": "cliff-warning-A.wav",
+      "seconds": 1.1,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "cliff-warning-B.wav",
+      "seconds": 1.1,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "cliff-warning-C.wav",
+      "seconds": 1.1,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "cliff-fall-A.wav",
+      "seconds": 0.62,
+      "volume": 0.34,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "cliff-fall-B.wav",
+      "seconds": 0.62,
+      "volume": 0.34,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "cliff-fall-C.wav",
+      "seconds": 0.62,
+      "volume": 0.34,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "cliff-impact-A.wav",
+      "seconds": 0.48,
+      "volume": 0.25,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "cliff-impact-B.wav",
+      "seconds": 0.48,
+      "volume": 0.25,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "cliff-impact-C.wav",
+      "seconds": 0.48,
+      "volume": 0.25,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ice-freeze-A.wav",
+      "seconds": 0.7,
+      "volume": 0.29,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ice-freeze-B.wav",
+      "seconds": 0.7,
+      "volume": 0.29,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ice-freeze-C.wav",
+      "seconds": 0.7,
+      "volume": 0.29,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ice-break-A.wav",
+      "seconds": 0.6,
+      "volume": 0.31,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ice-break-B.wav",
+      "seconds": 0.6,
+      "volume": 0.31,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ice-break-C.wav",
+      "seconds": 0.6,
+      "volume": 0.31,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ruins-activate-A.wav",
+      "seconds": 1.05,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ruins-activate-B.wav",
+      "seconds": 1.05,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "ruins-activate-C.wav",
+      "seconds": 1.05,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "furnace-warning-A.wav",
+      "seconds": 0.55,
+      "volume": 0.26,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "furnace-warning-B.wav",
+      "seconds": 0.55,
+      "volume": 0.26,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "furnace-warning-C.wav",
+      "seconds": 0.55,
+      "volume": 0.26,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "furnace-spread-A.wav",
+      "seconds": 0.66,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "furnace-spread-B.wav",
+      "seconds": 0.66,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "file": "furnace-spread-C.wav",
+      "seconds": 0.66,
+      "volume": 0.3,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    }
+  ],
+  "errors": [],
+  "audibleVerdict": "Not an ear-listening verdict; decode, playback, duration and gain inspection only.",
+  "success": true
+}

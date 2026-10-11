@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "map": "cliff",
+      "shape": "wide",
+      "completeLifecycle": true,
+      "pairedCount": 2,
+      "firstDelay": 6000,
+      "interval": [
+        10000,
+        13000
+      ],
+      "duration": 5000,
+      "themeFrames": 4
+    },
+    {
+      "map": "cliff",
+      "shape": "massive",
+      "completeLifecycle": true,
+      "pairedCount": 4,
+      "firstDelay": 6000,
+      "interval": [
+        10000,
+        13000
+      ],
+      "duration": 5000,
+      "themeFrames": 4
+    },
+    {
+      "map": "crystal",
+      "shape": null,
+      "completeLifecycle": true,
+      "pairedCount": 4,
+      "firstDelay": 5000,
+      "interval": [
+        9000,
+        12000
+      ],
+      "duration": 5000,
+      "themeFrames": 6
+    },
+    {
+      "map": "ruins",
+      "shape": null,
+      "completeLifecycle": true,
+      "pairedCount": 2,
+      "firstDelay": 7000,
+      "interval": [
+        11000,
+        14000
+      ],
+      "duration": 5000,
+      "themeFrames": 4
+    },
+    "actual exit clears event storage, future deadlines and themed visuals"
+  ],
+  "errors": []
+}

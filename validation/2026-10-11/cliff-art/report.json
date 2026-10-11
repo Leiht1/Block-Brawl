@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "geometryUnchanged": true,
+      "player": {
+        "x": 86.5,
+        "y": 323.5,
+        "width": 480,
+        "height": 480,
+        "top": 323.5,
+        "right": 566.5,
+        "bottom": 803.5,
+        "left": 86.5
+      },
+      "opponent": {
+        "x": 858.5,
+        "y": 323.5,
+        "width": 480,
+        "height": 480,
+        "top": 323.5,
+        "right": 1338.5,
+        "bottom": 803.5,
+        "left": 858.5
+      },
+      "cells": 48,
+      "transparentCanvasHoles": 16,
+      "realPlayerScore": 90,
+      "realBotScore": 150,
+      "wellPixel": [
+        155,
+        157,
+        143,
+        255
+      ]
+    },
+    "Existing paired rock warning / fall / blockage / restoration remains visible and preserves original tile",
+    "Cliff stage styling is removed on exit"
+  ],
+  "errors": []
+}

@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "map": "forest",
+      "cells": 64,
+      "obstacles": 0,
+      "geometry": {
+        "x": 86.5,
+        "y": 323.5,
+        "width": 480,
+        "height": 480,
+        "top": 323.5,
+        "right": 566.5,
+        "bottom": 803.5,
+        "left": 86.5
+      }
+    },
+    {
+      "map": "cliff",
+      "cells": 48,
+      "obstacles": 0,
+      "geometry": {
+        "x": 86.5,
+        "y": 323.5,
+        "width": 480,
+        "height": 480,
+        "top": 323.5,
+        "right": 566.5,
+        "bottom": 803.5,
+        "left": 86.5
+      }
+    },
+    {
+      "map": "crystal",
+      "cells": 40,
+      "obstacles": 0,
+      "geometry": {
+        "x": 86.5,
+        "y": 323.5,
+        "width": 480,
+        "height": 480,
+        "top": 323.5,
+        "right": 566.5,
+        "bottom": 803.5,
+        "left": 86.5
+      }
+    },
+    {
+      "map": "ruins",
+      "cells": 54,
+      "obstacles": 10,
+      "geometry": {
+        "x": 86.5,
+        "y": 323.5,
+        "width": 480,
+        "height": 480,
+        "top": 323.5,
+        "right": 566.5,
+        "bottom": 803.5,
+        "left": 86.5
+      }
+    },
+    "four maps retain both 480px boards, all toolbar/title/score positions, transparent holes and real bot actions",
+    "20s warning / 1.5s / 0.3s / 5s paired event preserves original tile and score",
+    "exit during blockage restores forest and clears old clocks, blocks, warnings and animations"
+  ],
+  "errors": []
+}

@@ -1,0 +1,131 @@
+{
+  "assets": [
+    {
+      "id": "cliff.warning",
+      "file": "maps/cliff/cliff-warning-v1.wav",
+      "sha256": "47d03e5d4bb5eb44d352629dfd7cd222416641c8cbcc1ac0f1c006a50b391855",
+      "seconds": 1.1,
+      "peak": 0.6500244140625,
+      "rms": 0.08315479708103105,
+      "volume": 0.3,
+      "effectivePeak": 0.19500732421875,
+      "effectiveRms": 0.024946439124309314,
+      "duckedRms": 0.008731253693508259,
+      "exactAuditionCopy": true
+    },
+    {
+      "id": "cliff.fall",
+      "file": "maps/cliff/cliff-fall-v1.wav",
+      "sha256": "29028d9897f0f32b2eca63b170eb35d877a929ecad67db4e610008fcbaeded82",
+      "seconds": 0.62,
+      "peak": 0.63525390625,
+      "rms": 0.1400002906800556,
+      "volume": 0.34,
+      "effectivePeak": 0.21598632812500002,
+      "effectiveRms": 0.04760009883121891,
+      "duckedRms": 0.016660034590926617,
+      "exactAuditionCopy": true
+    },
+    {
+      "id": "cliff.impact",
+      "file": "maps/cliff/cliff-impact-v1.wav",
+      "sha256": "ff9b94f67357000ca0fe8b01a8b69d1654cfdc2f77411e06f03b2455957e0cde",
+      "seconds": 0.48,
+      "peak": 0.649993896484375,
+      "rms": 0.08483213892619994,
+      "volume": 0.25,
+      "effectivePeak": 0.16249847412109375,
+      "effectiveRms": 0.021208034731549984,
+      "duckedRms": 0.007422812156042494,
+      "exactAuditionCopy": true
+    },
+    {
+      "id": "ice.freeze",
+      "file": "maps/ice/ice-freeze-v1.wav",
+      "sha256": "01fa7553382ca77b7f21dd522b4abbdf8fe2d4e52efc5ef4b6260efd1cd1c1f3",
+      "seconds": 0.7,
+      "peak": 0.6500244140625,
+      "rms": 0.02593013150327436,
+      "volume": 0.29,
+      "effectivePeak": 0.188507080078125,
+      "effectiveRms": 0.007519738135949563,
+      "duckedRms": 0.002631908347582347,
+      "exactAuditionCopy": true
+    },
+    {
+      "id": "ice.break",
+      "file": "maps/ice/ice-break-v1.wav",
+      "sha256": "8c381b232d040d3e044e4b9c45efcd3de6456278ca46da89d31c34c25f2f7ccf",
+      "seconds": 0.6,
+      "peak": 0.649993896484375,
+      "rms": 0.04493657417034526,
+      "volume": 0.31,
+      "effectivePeak": 0.20149810791015624,
+      "effectiveRms": 0.01393033799280703,
+      "duckedRms": 0.0048756182974824605,
+      "exactAuditionCopy": true
+    },
+    {
+      "id": "ruins.activate",
+      "file": "maps/ruins/ruins-activate-v1.wav",
+      "sha256": "15fa7d007df325d845a118f2239b9483bd5a91ea53266262841d0700687d6bb8",
+      "seconds": 1.05,
+      "peak": 0.649993896484375,
+      "rms": 0.1377384087352942,
+      "volume": 0.3,
+      "effectivePeak": 0.1949981689453125,
+      "effectiveRms": 0.041321522620588254,
+      "duckedRms": 0.014462532917205888,
+      "exactAuditionCopy": true
+    },
+    {
+      "id": "furnace.warning",
+      "file": "maps/furnace/furnace-warning-v1.wav",
+      "sha256": "87d8b6dcdb0c267703a54262e319ebe652c5e9640aae2553b292b94943aa6f63",
+      "seconds": 0.55,
+      "peak": 0.6500244140625,
+      "rms": 0.07772085313511252,
+      "volume": 0.26,
+      "effectivePeak": 0.16900634765625,
+      "effectiveRms": 0.020207421815129255,
+      "duckedRms": 0.007072597635295239,
+      "exactAuditionCopy": true
+    },
+    {
+      "id": "furnace.spread",
+      "file": "maps/furnace/furnace-spread-v1.wav",
+      "sha256": "2fadb5d1aba9a8396ff738e29ad8c996f2fec6305b8249d2550c509cbce23f26",
+      "seconds": 0.66,
+      "peak": 0.649993896484375,
+      "rms": 0.06558739434396271,
+      "volume": 0.3,
+      "effectivePeak": 0.1949981689453125,
+      "effectiveRms": 0.019676218303188813,
+      "duckedRms": 0.006886676406116084,
+      "exactAuditionCopy": true
+    }
+  ],
+  "coreReferences": [
+    {
+      "file": "block/block-match3-v2.wav",
+      "effectiveRms": 0.052089724232901806,
+      "effectivePeak": 0.30358764648437503
+    },
+    {
+      "file": "combo/combo3-v2.wav",
+      "effectiveRms": 0.05583911534873062,
+      "effectivePeak": 0.3887841796875
+    },
+    {
+      "file": "special/special-line-v3.wav",
+      "effectiveRms": 0.08360248907983642,
+      "effectivePeak": 0.43560241699218755
+    }
+  ],
+  "checks": [
+    "Eight unique hashes; selected and installed bytes identical; source hashes match",
+    "Finite mono PCM16 44.1kHz, peak headroom",
+    "Environment effective RMS below representative clear, highest chain and line skill; 35% overlap duck"
+  ],
+  "audibleVerdict": "Numerical hierarchy only; human audible masking verdict not claimed"
+}

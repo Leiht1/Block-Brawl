@@ -1,0 +1,315 @@
+{
+  "checks": [
+    "Only line+blast source changes; deployed cue exactly equals selected D; all other 15 WAVs/configuration and 11 gameplay/presentation/manager files unchanged",
+    "Actual horizontal and vertical line+blast swaps play selected D/v5 once, load/play/end at 1.2s/.78 gain and settle unchanged transactions",
+    "100 rapid line+blast requests accept one; subsequent stronger combo cannot interrupt it; no queued replay",
+    "Muted line+blast still settles and scores without constructing sound objects",
+    {
+      "nativeClockPlay": [
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 418.2999999523163
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-blast"
+          },
+          "accepted": true,
+          "at": 515.7999999523163
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 935.7999999523163
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "at": 1185.5999999046326
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1468.7999999523163
+        }
+      ]
+    }
+  ],
+  "files": [],
+  "gameplay": [
+    {
+      "mode": "combo-cross",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-blast"
+          },
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 550
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "at": 800
+        },
+        {
+          "id": "special.create",
+          "accepted": false,
+          "at": 800
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": false,
+          "at": 800
+        },
+        {
+          "id": "special.create",
+          "accepted": false,
+          "at": 800
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1100
+        },
+        {
+          "id": "block.fall",
+          "accepted": false,
+          "at": 1100
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo2"
+          },
+          "accepted": false,
+          "at": 1350
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1650
+        }
+      ],
+      "score": 650,
+      "transactions": 0,
+      "media": [
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/block/block-swap-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.58,
+          "duration": 0.12
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/special/special-combo-line-blast-v5.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.78,
+          "duration": 1.2
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/block/block-fall-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.24,
+          "duration": 0.1
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/combo/combo1-v2.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.48,
+          "duration": 0.15
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/block/block-fall-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.24,
+          "duration": 0.1
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/block/block-fall-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.24,
+          "duration": 0.1
+        }
+      ]
+    },
+    {
+      "mode": "combo-column",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-blast"
+          },
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 550
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "at": 800
+        },
+        {
+          "id": "special.create",
+          "accepted": false,
+          "at": 800
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1100
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo2"
+          },
+          "accepted": false,
+          "at": 1350
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1650
+        }
+      ],
+      "score": 590,
+      "transactions": 0,
+      "media": [
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/block/block-swap-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.58,
+          "duration": 0.12
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/special/special-combo-line-blast-v5.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.78,
+          "duration": 1.2
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/block/block-fall-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.24,
+          "duration": 0.1
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/combo/combo1-v2.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.48,
+          "duration": 0.15
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/block/block-fall-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.24,
+          "duration": 0.1
+        },
+        {
+          "src": "http://127.0.0.1:54694/assets/audio/block/block-fall-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.24,
+          "duration": 0.1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "mediaErrors": [],
+  "audioRequests": [],
+  "subjectiveListening": "Pending human listening; browser playing/ended and numerical headroom are not an audible style/fatigue verdict.",
+  "success": true
+}

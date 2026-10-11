@@ -1,0 +1,63 @@
+{
+  "selectedBy": "agent",
+  "checkedOn": "2026-10-11",
+  "basis": "Author material descriptions, three distinct source candidates per event, short phase-aligned recording structure, numerical headroom and successful browser audition playback. Human audible preference/fatigue verdict not claimed.",
+  "choices": [
+    {
+      "id": "cliff.warning",
+      "candidate": "A",
+      "sha256": "47d03e5d4bb5eb44d352629dfd7cd222416641c8cbcc1ac0f1c006a50b391855",
+      "reason": "用户明确选择备选 A；保持原录音，适当提高环境播放音量。",
+      "approvedBy": "user"
+    },
+    {
+      "id": "cliff.fall",
+      "candidate": "F",
+      "sha256": "b3fb58adb5eb4a2e1394574dd84fd9639199f0f16d8245ca330069fe7a934625",
+      "reason": "用户明确选择F",
+      "approvedBy": "user",
+      "review": "validation/2026-10-11/audio-maps/cliff-reselection/candidates.json",
+      "targetFile": "maps/cliff/cliff-fall-v2.wav"
+    },
+    {
+      "id": "cliff.impact",
+      "candidate": "D",
+      "sha256": "8a36bade9ead94b277bbf1f8c990f5e8558e367cfdada53a1a519ae901b195c1",
+      "reason": "用户明确选择D",
+      "approvedBy": "user",
+      "review": "validation/2026-10-11/audio-maps/cliff-reselection/candidates.json",
+      "targetFile": "maps/cliff/cliff-impact-v2.wav"
+    },
+    {
+      "id": "ice.freeze",
+      "candidate": "A",
+      "sha256": "01fa7553382ca77b7f21dd522b4abbdf8fe2d4e52efc5ef4b6260efd1cd1c1f3",
+      "reason": "CC0冰系成品，连续细裂纹与晶体尾，冻结声音区别于爆破技能。"
+    },
+    {
+      "id": "ice.break",
+      "candidate": "A",
+      "sha256": "8c381b232d040d3e044e4b9c45efcd3de6456278ca46da89d31c34c25f2f7ccf",
+      "reason": "三层原始冰材质：先裂纹，120ms破冰主体，260ms起碎片余声；不使用电子sparkle。"
+    },
+    {
+      "id": "ruins.activate",
+      "candidate": "A",
+      "sha256": "15fa7d007df325d845a118f2239b9483bd5a91ea53266262841d0700687d6bb8",
+      "reason": "石门深沉摩擦为主体，轻量录音微光仅作符文点缀，无马达、金属机器和提示音。"
+    },
+    {
+      "id": "furnace.warning",
+      "candidate": "A",
+      "sha256": "87d8b6dcdb0c267703a54262e319ebe652c5e9640aae2553b292b94943aa6f63",
+      "reason": "真实火杖录音主体在约480ms增强，施加渐入表达升温，550ms短尾也适合650ms扩散预告。"
+    },
+    {
+      "id": "furnace.spread",
+      "candidate": "A",
+      "sha256": "2fadb5d1aba9a8396ff738e29ad8c996f2fec6305b8249d2550c509cbce23f26",
+      "reason": "独立真实火杖掠过录音，快速火浪与燃烧尾区分于升温及爆破技能。"
+    }
+  ],
+  "pendingReplacement": []
+}

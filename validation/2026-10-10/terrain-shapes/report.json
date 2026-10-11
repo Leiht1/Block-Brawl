@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "name": "standard",
+      "width": 8,
+      "height": 8,
+      "score": 30,
+      "holes": 0,
+      "obstacles": 0
+    },
+    {
+      "name": "cliff",
+      "width": 8,
+      "height": 8,
+      "score": 30,
+      "holes": 16,
+      "obstacles": 0
+    },
+    {
+      "name": "crystal",
+      "width": 8,
+      "height": 8,
+      "score": 30,
+      "holes": 24,
+      "obstacles": 0
+    },
+    {
+      "name": "ruins",
+      "width": 8,
+      "height": 8,
+      "score": 60,
+      "holes": 0,
+      "obstacles": 10
+    },
+    "sandbox geometry and transparent hole pixels match every preset",
+    "all arena titles, toolbar, central scores and equal board boxes remain stationary",
+    {
+      "realBotOnRuinsScore": 180
+    }
+  ],
+  "background": [
+    {
+      "label": "home",
+      "width": "1440px",
+      "height": "900px",
+      "position": "fixed",
+      "background": "rgba(0, 0, 0, 0) url(\"http://127.0.0.1:56592/assets/jungle-scenery.webp\") no-repeat scroll 50% 50% / cover padding-box border-box",
+      "bodyHeight": 919.9375,
+      "scrollY": 0
+    },
+    {
+      "label": "levels",
+      "width": "1440px",
+      "height": "900px",
+      "position": "fixed",
+      "background": "rgba(0, 0, 0, 0) url(\"http://127.0.0.1:56592/assets/jungle-scenery.webp\") no-repeat scroll 50% 50% / cover padding-box border-box",
+      "bodyHeight": 900,
+      "scrollY": 0
+    },
+    {
+      "label": "tutorial",
+      "width": "1440px",
+      "height": "900px",
+      "position": "fixed",
+      "background": "rgba(0, 0, 0, 0) url(\"http://127.0.0.1:56592/assets/jungle-scenery.webp\") no-repeat scroll 50% 50% / cover padding-box border-box",
+      "bodyHeight": 900,
+      "scrollY": 0
+    },
+    {
+      "label": "difficulty",
+      "width": "1440px",
+      "height": "900px",
+      "position": "fixed",
+      "background": "rgba(0, 0, 0, 0) url(\"http://127.0.0.1:56592/assets/jungle-scenery.webp\") no-repeat scroll 50% 50% / cover padding-box border-box",
+      "bodyHeight": 900,
+      "scrollY": 0
+    },
+    {
+      "label": "sandbox",
+      "width": "1440px",
+      "height": "900px",
+      "position": "fixed",
+      "background": "rgba(0, 0, 0, 0) url(\"http://127.0.0.1:56592/assets/jungle-scenery.webp\") no-repeat scroll 50% 50% / cover padding-box border-box",
+      "bodyHeight": 900,
+      "scrollY": 0
+    }
+  ],
+  "errors": []
+}

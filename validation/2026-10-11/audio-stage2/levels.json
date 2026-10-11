@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "file": "ui/countdown-tick-v1.wav",
+      "peak": 0.65,
+      "mixedPeak": 0.299,
+      "energyAtManifestVolume": 0.0001432
+    },
+    {
+      "file": "ui/countdown-start-v1.wav",
+      "peak": 0.72,
+      "mixedPeak": 0.396,
+      "energyAtManifestVolume": 0.0009494
+    },
+    {
+      "file": "block/block-swap-v1.wav",
+      "peak": 0.72,
+      "mixedPeak": 0.4176,
+      "energyAtManifestVolume": 0.0003162
+    },
+    {
+      "file": "block/block-invalid-v1.wav",
+      "peak": 0.6,
+      "mixedPeak": 0.192,
+      "energyAtManifestVolume": 0.0005876
+    },
+    {
+      "file": "block/block-match3-v1.wav",
+      "peak": 0.72,
+      "mixedPeak": 0.3744,
+      "energyAtManifestVolume": 0.0006521
+    },
+    {
+      "file": "combo/combo1-v1.wav",
+      "peak": 0.72,
+      "mixedPeak": 0.3456,
+      "energyAtManifestVolume": 0.0005568
+    },
+    {
+      "file": "combo/combo2-v1.wav",
+      "peak": 0.72,
+      "mixedPeak": 0.3672,
+      "energyAtManifestVolume": 0.0006752
+    },
+    {
+      "file": "combo/combo3-v1.wav",
+      "peak": 0.72,
+      "mixedPeak": 0.3888,
+      "energyAtManifestVolume": 0.0006991
+    },
+    {
+      "file": "block/block-fall-v1.wav",
+      "peak": 0.6,
+      "mixedPeak": 0.144,
+      "energyAtManifestVolume": 3.68e-05
+    },
+    {
+      "file": "special/special-create-v1.wav",
+      "peak": 0.66,
+      "mixedPeak": 0.2244,
+      "energyAtManifestVolume": 0.0007419
+    },
+    {
+      "file": "special/special-line-v1.wav",
+      "peak": 0.66,
+      "mixedPeak": 0.2574,
+      "energyAtManifestVolume": 0.0004828
+    },
+    {
+      "file": "special/special-bomb-v1.wav",
+      "peak": 0.68,
+      "mixedPeak": 0.2856,
+      "energyAtManifestVolume": 0.0005369
+    },
+    {
+      "file": "special/special-combo-v1.wav",
+      "peak": 0.72,
+      "mixedPeak": 0.3312,
+      "energyAtManifestVolume": 0.0011392
+    }
+  ],
+  "comboIntegratedEnergyIncreasing": true,
+  "audibleVerdict": "Pending human listening; peak and energy checks cannot certify comfort or masking."
+}

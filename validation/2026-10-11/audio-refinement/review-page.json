@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "clips": 17,
+  "tiers": [
+    {
+      "file": "block/block-match3-v2.wav",
+      "volume": 0.46
+    },
+    {
+      "file": "special/special-line-v2.wav",
+      "volume": 0.66
+    },
+    {
+      "file": "special/special-combo-line-blast-v2.wav",
+      "volume": 0.78
+    },
+    {
+      "file": "special/special-combo-blasts-v2.wav",
+      "volume": 0.9
+    }
+  ],
+  "countdown": [
+    {
+      "file": "ui/countdown-3-v2.wav",
+      "volume": 0.42
+    },
+    {
+      "file": "ui/countdown-2-v2.wav",
+      "volume": 0.44
+    },
+    {
+      "file": "ui/countdown-1-v2.wav",
+      "volume": 0.46
+    },
+    {
+      "file": "ui/countdown-start-v2.wav",
+      "volume": 0.64
+    }
+  ],
+  "errors": []
+}

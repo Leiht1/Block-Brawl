@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "clips": 17,
+  "reveal": [
+    {
+      "file": "special/special-create-v3.wav",
+      "volume": 0.4
+    },
+    {
+      "file": "special/special-line-v3.wav",
+      "volume": 0.66
+    }
+  ],
+  "tiers": [
+    {
+      "file": "block/block-match3-v2.wav",
+      "volume": 0.46
+    },
+    {
+      "file": "special/special-line-v3.wav",
+      "volume": 0.66
+    },
+    {
+      "file": "special/special-combo-line-blast-v3.wav",
+      "volume": 0.78
+    },
+    {
+      "file": "special/special-combo-blasts-v3.wav",
+      "volume": 0.9
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,1291 @@
+{
+  "viewport": "1440x960 desktop",
+  "clock": "controlled actual app frames; not a recording",
+  "captures": [
+    {
+      "file": "specials-static.png",
+      "mode": "special-chain",
+      "time": 0,
+      "snapshot": {
+        "score": 0,
+        "bestChain": 0,
+        "busyColumns": [],
+        "transactions": 0,
+        "mode": "special-chain",
+        "specials": [
+          {
+            "index": 27,
+            "type": 1,
+            "special": "blast"
+          },
+          {
+            "index": 28,
+            "type": 2,
+            "special": "row"
+          },
+          {
+            "index": 30,
+            "type": 4,
+            "special": "column"
+          }
+        ],
+        "animations": 0,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 9
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 0,
+      "rings": 0,
+      "floats": 0,
+      "effects": [],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "four-active.png",
+      "mode": "four",
+      "time": 158,
+      "snapshot": {
+        "score": 60,
+        "bestChain": 1,
+        "busyColumns": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "transactions": 1,
+        "mode": "four",
+        "specials": [
+          {
+            "index": 3,
+            "type": 0,
+            "special": "row"
+          }
+        ],
+        "animations": 4,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 10
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 48,
+      "rings": 3,
+      "floats": 1,
+      "effects": [],
+      "combos": [],
+      "formations": [
+        {
+          "index": 3,
+          "special": "row"
+        }
+      ]
+    },
+    {
+      "file": "four-late.png",
+      "mode": "four",
+      "time": 225,
+      "snapshot": {
+        "score": 60,
+        "bestChain": 1,
+        "busyColumns": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "transactions": 1,
+        "mode": "four",
+        "specials": [
+          {
+            "index": 3,
+            "type": 0,
+            "special": "row"
+          }
+        ],
+        "animations": 4,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 10
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 48,
+      "rings": 3,
+      "floats": 1,
+      "effects": [],
+      "combos": [],
+      "formations": [
+        {
+          "index": 3,
+          "special": "row"
+        }
+      ]
+    },
+    {
+      "file": "five-active.png",
+      "mode": "five",
+      "time": 158,
+      "snapshot": {
+        "score": 100,
+        "bestChain": 1,
+        "busyColumns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "transactions": 1,
+        "mode": "five",
+        "specials": [
+          {
+            "index": 3,
+            "type": 0,
+            "special": "blast"
+          }
+        ],
+        "animations": 5,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 11
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 96,
+      "rings": 4,
+      "floats": 1,
+      "effects": [],
+      "combos": [],
+      "formations": [
+        {
+          "index": 3,
+          "special": "blast"
+        }
+      ]
+    },
+    {
+      "file": "five-late.png",
+      "mode": "five",
+      "time": 225,
+      "snapshot": {
+        "score": 100,
+        "bestChain": 1,
+        "busyColumns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "transactions": 1,
+        "mode": "five",
+        "specials": [
+          {
+            "index": 3,
+            "type": 0,
+            "special": "blast"
+          }
+        ],
+        "animations": 5,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 11
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 96,
+      "rings": 4,
+      "floats": 1,
+      "effects": [],
+      "combos": [],
+      "formations": [
+        {
+          "index": 3,
+          "special": "blast"
+        }
+      ]
+    },
+    {
+      "file": "row-active.png",
+      "mode": "row",
+      "time": 185,
+      "snapshot": {
+        "score": 80,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "transactions": 1,
+        "mode": "row",
+        "specials": [],
+        "animations": 9,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 12
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 72,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "start": 100,
+          "duration": 160
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "row-late.png",
+      "mode": "row",
+      "time": 225,
+      "snapshot": {
+        "score": 80,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "transactions": 1,
+        "mode": "row",
+        "specials": [],
+        "animations": 9,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 12
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 72,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "start": 100,
+          "duration": 160
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "column-active.png",
+      "mode": "column",
+      "time": 185,
+      "snapshot": {
+        "score": 80,
+        "bestChain": 1,
+        "busyColumns": [
+          2,
+          3
+        ],
+        "transactions": 1,
+        "mode": "column",
+        "specials": [],
+        "animations": 9,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 72,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            2,
+            10,
+            18,
+            26,
+            34,
+            42,
+            50,
+            58
+          ],
+          "start": 100,
+          "duration": 160
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "column-late.png",
+      "mode": "column",
+      "time": 225,
+      "snapshot": {
+        "score": 80,
+        "bestChain": 1,
+        "busyColumns": [
+          2,
+          3
+        ],
+        "transactions": 1,
+        "mode": "column",
+        "specials": [],
+        "animations": 9,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 72,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            2,
+            10,
+            18,
+            26,
+            34,
+            42,
+            50,
+            58
+          ],
+          "start": 100,
+          "duration": 160
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "blast-active.png",
+      "mode": "blast",
+      "time": 185,
+      "snapshot": {
+        "score": 130,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "transactions": 1,
+        "mode": "blast",
+        "specials": [],
+        "animations": 14,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 117,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            10,
+            17,
+            18,
+            19,
+            24,
+            25,
+            26,
+            27,
+            28,
+            33,
+            34,
+            35,
+            42
+          ],
+          "start": 100,
+          "duration": 160
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "blast-late.png",
+      "mode": "blast",
+      "time": 225,
+      "snapshot": {
+        "score": 130,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "transactions": 1,
+        "mode": "blast",
+        "specials": [],
+        "animations": 14,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 117,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            10,
+            17,
+            18,
+            19,
+            24,
+            25,
+            26,
+            27,
+            28,
+            33,
+            34,
+            35,
+            42
+          ],
+          "start": 100,
+          "duration": 160
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "edge-active.png",
+      "mode": "edge",
+      "time": 185,
+      "snapshot": {
+        "score": 60,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2
+        ],
+        "transactions": 1,
+        "mode": "edge",
+        "specials": [],
+        "animations": 7,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 54,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            0,
+            1,
+            2,
+            8,
+            9,
+            16
+          ],
+          "start": 100,
+          "duration": 160
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "edge-late.png",
+      "mode": "edge",
+      "time": 225,
+      "snapshot": {
+        "score": 60,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2
+        ],
+        "transactions": 1,
+        "mode": "edge",
+        "specials": [],
+        "animations": 7,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 54,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            0,
+            1,
+            2,
+            8,
+            9,
+            16
+          ],
+          "start": 100,
+          "duration": 160
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "combo-lines-active.png",
+      "mode": "combo-lines",
+      "time": 185,
+      "snapshot": {
+        "score": 150,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "transactions": 1,
+        "mode": "combo-lines",
+        "specials": [],
+        "animations": 1,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 90,
+      "rings": 0,
+      "floats": 1,
+      "effects": [],
+      "combos": [
+        {
+          "cells": [
+            3,
+            11,
+            19,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            35,
+            43,
+            51,
+            59
+          ],
+          "type": "line-line"
+        }
+      ],
+      "formations": []
+    },
+    {
+      "file": "combo-lines-late.png",
+      "mode": "combo-lines",
+      "time": 225,
+      "snapshot": {
+        "score": 150,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "transactions": 1,
+        "mode": "combo-lines",
+        "specials": [],
+        "animations": 1,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 90,
+      "rings": 0,
+      "floats": 1,
+      "effects": [],
+      "combos": [
+        {
+          "cells": [
+            3,
+            11,
+            19,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            35,
+            43,
+            51,
+            59
+          ],
+          "type": "line-line"
+        }
+      ],
+      "formations": []
+    },
+    {
+      "file": "combo-cross-active.png",
+      "mode": "combo-cross",
+      "time": 185,
+      "snapshot": {
+        "score": 240,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "transactions": 1,
+        "mode": "combo-cross",
+        "specials": [],
+        "animations": 1,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 240,
+      "rings": 0,
+      "floats": 1,
+      "effects": [],
+      "combos": [
+        {
+          "cells": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "type": "line-blast"
+        }
+      ],
+      "formations": []
+    },
+    {
+      "file": "combo-cross-late.png",
+      "mode": "combo-cross",
+      "time": 225,
+      "snapshot": {
+        "score": 240,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "transactions": 1,
+        "mode": "combo-cross",
+        "specials": [],
+        "animations": 1,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 13
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 240,
+      "rings": 0,
+      "floats": 1,
+      "effects": [],
+      "combos": [
+        {
+          "cells": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "type": "line-blast"
+        }
+      ],
+      "formations": []
+    },
+    {
+      "file": "combo-column-active.png",
+      "mode": "combo-column",
+      "time": 185,
+      "snapshot": {
+        "score": 240,
+        "bestChain": 1,
+        "busyColumns": [
+          2,
+          3,
+          4
+        ],
+        "transactions": 1,
+        "mode": "combo-column",
+        "specials": [],
+        "animations": 1,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 14
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 240,
+      "rings": 0,
+      "floats": 1,
+      "effects": [],
+      "combos": [
+        {
+          "cells": [
+            2,
+            3,
+            4,
+            10,
+            11,
+            12,
+            18,
+            19,
+            20,
+            26,
+            27,
+            28,
+            34,
+            35,
+            36,
+            42,
+            43,
+            44,
+            50,
+            51,
+            52,
+            58,
+            59,
+            60
+          ],
+          "type": "line-blast"
+        }
+      ],
+      "formations": []
+    },
+    {
+      "file": "combo-column-late.png",
+      "mode": "combo-column",
+      "time": 225,
+      "snapshot": {
+        "score": 240,
+        "bestChain": 1,
+        "busyColumns": [
+          2,
+          3,
+          4
+        ],
+        "transactions": 1,
+        "mode": "combo-column",
+        "specials": [],
+        "animations": 1,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 14
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 240,
+      "rings": 0,
+      "floats": 1,
+      "effects": [],
+      "combos": [
+        {
+          "cells": [
+            2,
+            3,
+            4,
+            10,
+            11,
+            12,
+            18,
+            19,
+            20,
+            26,
+            27,
+            28,
+            34,
+            35,
+            36,
+            42,
+            43,
+            44,
+            50,
+            51,
+            52,
+            58,
+            59,
+            60
+          ],
+          "type": "line-blast"
+        }
+      ],
+      "formations": []
+    },
+    {
+      "file": "combo-blasts-charge.png",
+      "mode": "combo-blasts",
+      "time": 75,
+      "snapshot": {
+        "score": 0,
+        "bestChain": 0,
+        "busyColumns": [
+          2,
+          3
+        ],
+        "transactions": 1,
+        "mode": "combo-blasts",
+        "specials": [
+          {
+            "index": 26,
+            "type": 1,
+            "special": "blast"
+          },
+          {
+            "index": 27,
+            "type": 0,
+            "special": "blast"
+          }
+        ],
+        "animations": 3,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 14
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 0,
+      "rings": 0,
+      "floats": 0,
+      "effects": [],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "combo-blasts-active.png",
+      "mode": "combo-blasts",
+      "time": 185,
+      "snapshot": {
+        "score": 250,
+        "bestChain": 1,
+        "busyColumns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "transactions": 1,
+        "mode": "combo-blasts",
+        "specials": [],
+        "animations": 1,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 14
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 400,
+      "rings": 0,
+      "floats": 1,
+      "effects": [],
+      "combos": [
+        {
+          "cells": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            17,
+            18,
+            19,
+            20,
+            21,
+            25,
+            26,
+            27,
+            28,
+            29,
+            33,
+            34,
+            35,
+            36,
+            37,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "type": "blast-blast"
+        }
+      ],
+      "formations": []
+    },
+    {
+      "file": "combo-blasts-late.png",
+      "mode": "combo-blasts",
+      "time": 225,
+      "snapshot": {
+        "score": 250,
+        "bestChain": 1,
+        "busyColumns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "transactions": 1,
+        "mode": "combo-blasts",
+        "specials": [],
+        "animations": 1,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 14
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 400,
+      "rings": 0,
+      "floats": 1,
+      "effects": [],
+      "combos": [
+        {
+          "cells": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            17,
+            18,
+            19,
+            20,
+            21,
+            25,
+            26,
+            27,
+            28,
+            29,
+            33,
+            34,
+            35,
+            36,
+            37,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "type": "blast-blast"
+        }
+      ],
+      "formations": []
+    },
+    {
+      "file": "special-chain-active.png",
+      "mode": "special-chain",
+      "time": 185,
+      "snapshot": {
+        "score": 230,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "transactions": 1,
+        "mode": "special-chain",
+        "specials": [],
+        "animations": 26,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 14
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 207,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            10,
+            17,
+            18,
+            19,
+            24,
+            25,
+            26,
+            27,
+            28,
+            33,
+            34,
+            35,
+            42
+          ],
+          "start": 100,
+          "duration": 160
+        },
+        {
+          "cells": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "start": 112,
+          "duration": 148
+        },
+        {
+          "cells": [
+            6,
+            14,
+            22,
+            30,
+            38,
+            46,
+            54,
+            62
+          ],
+          "start": 124,
+          "duration": 136
+        }
+      ],
+      "combos": [],
+      "formations": []
+    },
+    {
+      "file": "special-chain-late.png",
+      "mode": "special-chain",
+      "time": 225,
+      "snapshot": {
+        "score": 230,
+        "bestChain": 1,
+        "busyColumns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "transactions": 1,
+        "mode": "special-chain",
+        "specials": [],
+        "animations": 26,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 14
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 207,
+      "rings": 0,
+      "floats": 1,
+      "effects": [
+        {
+          "cells": [
+            10,
+            17,
+            18,
+            19,
+            24,
+            25,
+            26,
+            27,
+            28,
+            33,
+            34,
+            35,
+            42
+          ],
+          "start": 100,
+          "duration": 160
+        },
+        {
+          "cells": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "start": 112,
+          "duration": 148
+        },
+        {
+          "cells": [
+            6,
+            14,
+            22,
+            30,
+            38,
+            46,
+            54,
+            62
+          ],
+          "start": 124,
+          "duration": 136
+        }
+      ],
+      "combos": [],
+      "formations": []
+    }
+  ],
+  "errors": []
+}

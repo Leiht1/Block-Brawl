@@ -1,0 +1,11 @@
+{
+  "viewport": "1440x960",
+  "checks": [
+    "scenery clear on home and difficulty selection",
+    "frost only during arena, removed on exit",
+    "green player and red opponent labels retained, no extra frame outlines",
+    "equal 480px boards retained",
+    "sandbox and tutorial backgrounds clear"
+  ],
+  "errors": []
+}

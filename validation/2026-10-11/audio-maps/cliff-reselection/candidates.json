@@ -1,0 +1,470 @@
+[
+  {
+    "id": "cliff.fall",
+    "candidate": "D",
+    "label": "重石滚坠",
+    "description": "风切后接花岗岩／混凝土石块滚落录音；主体短而厚。",
+    "file": "cliff-fall-D-v2.wav",
+    "seconds": 0.62,
+    "volume": 0.44,
+    "sha256": "3dd31420c5f71927c37548065465ee64dbfdbe652a93f7322a316ac24f9e64c7",
+    "peak": 0.65,
+    "rms": 0.09271029474185642,
+    "effectiveRms": 0.04079252968641683,
+    "sources": [
+      {
+        "slug": "swish-02",
+        "author": "qubodup / Iwan Gabovitch",
+        "title": "Swish bamboo stick",
+        "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "file": "references/audio-stage2/swishes/swosh-02.flac",
+        "sha256": "6148210eed26653d305eedc7f43e0f623864d434f0f4d8e3a540f623a823ff26"
+      },
+      {
+        "slug": "stubb",
+        "author": "_stubb",
+        "title": "Rock Tumble 2.wav",
+        "page": "https://freesound.org/people/_stubb/sounds/389618/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "stubb.html",
+        "evidenceSha256": "458c77dbd2b26a6e20df60e32a49012af441eb0bb7a7bd3bdc9f1d310ff8cce8",
+        "download": "https://cdn.freesound.org/previews/389/389618_6068748-hq.mp3",
+        "file": "stubb.mp3",
+        "sha256": "199521191be552261d6e604c8d34e40cfeac4b3d7f3075906dd27182c73adb4a",
+        "formatNote": "public HQ MP3 preview (not original WAV)",
+        "checkedOn": "2026-10-11"
+      }
+    ],
+    "edits": [
+      {
+        "slug": "swish-02",
+        "seconds": 0.27,
+        "delay": 0,
+        "gain": 1,
+        "start": 0,
+        "speed": 0.78,
+        "lowpass": 2500
+      },
+      {
+        "slug": "stubb",
+        "seconds": 0.35,
+        "delay": 0.25,
+        "gain": 1,
+        "start": 0.05612,
+        "speed": 0.82,
+        "lowpass": 3600
+      }
+    ],
+    "status": "not-selected",
+    "installed": false
+  },
+  {
+    "id": "cliff.fall",
+    "candidate": "E",
+    "label": "洞顶岩块坠落",
+    "description": "风切接洞塌落石录音，岩块撞散的颗粒更多。",
+    "file": "cliff-fall-E-v2.wav",
+    "seconds": 0.62,
+    "volume": 0.44,
+    "sha256": "da4c04e84d78d0874978cc7c146356b9635ffc7debef2da97dcdb451020222a6",
+    "peak": 0.65,
+    "rms": 0.10023042977926773,
+    "effectiveRms": 0.0441013891028778,
+    "sources": [
+      {
+        "slug": "swish-30",
+        "author": "qubodup / Iwan Gabovitch",
+        "title": "Swish bamboo stick",
+        "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "file": "references/audio-stage2/swishes/swosh-30.flac",
+        "sha256": "83559d4d9af8bcf02b8feca60132afb3536f511edbeb8323f7ce4c99b40d8b9b"
+      },
+      {
+        "slug": "falling-rock",
+        "author": "spookymodem",
+        "title": "Falling Rock",
+        "page": "https://opengameart.org/content/falling-rock",
+        "license": "CC-BY-3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "evidence": "falling-rock.html",
+        "evidenceSha256": "8cd47d609eee021bb14780f24126504e6c4112746934f756d880056429ce8e5d",
+        "download": "https://opengameart.org/sites/default/files/Falling%20Rock.wav",
+        "file": "falling-rock.wav",
+        "sha256": "99106501d15c9ebec1e57ce1a092531ec201157c74354c488366737a055be96f",
+        "formatNote": "original WAV",
+        "checkedOn": "2026-10-11"
+      }
+    ],
+    "edits": [
+      {
+        "slug": "swish-30",
+        "seconds": 0.26,
+        "delay": 0,
+        "gain": 1,
+        "start": 0,
+        "speed": 1,
+        "lowpass": 3000
+      },
+      {
+        "slug": "falling-rock",
+        "seconds": 0.35,
+        "delay": 0.25,
+        "gain": 1,
+        "start": 1.5705,
+        "speed": 0.92,
+        "lowpass": 4200
+      }
+    ],
+    "status": "not-selected",
+    "installed": false
+  },
+  {
+    "id": "cliff.fall",
+    "candidate": "F",
+    "label": "自然崖壁落石",
+    "description": "实录悬崖落石和小石级联，保留自然石质撞击。",
+    "file": "cliff-fall-F-v2.wav",
+    "seconds": 0.62,
+    "volume": 0.44,
+    "sha256": "b3fb58adb5eb4a2e1394574dd84fd9639199f0f16d8245ca330069fe7a934625",
+    "peak": 0.65,
+    "rms": 0.08615663269540037,
+    "effectiveRms": 0.03790891838597617,
+    "sources": [
+      {
+        "slug": "swish-04",
+        "author": "qubodup / Iwan Gabovitch",
+        "title": "Swish bamboo stick",
+        "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "file": "references/audio-stage2/swishes/swosh-04.flac",
+        "sha256": "651afe743f1713c01b46a43a8fe099e5f866b46c22a98682c7d05728cfa4f5ae"
+      },
+      {
+        "slug": "alancat",
+        "author": "AlanCat",
+        "title": "rockfall2a.wav",
+        "page": "https://freesound.org/people/AlanCat/sounds/389303/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "alancat.html",
+        "evidenceSha256": "977ec5e119a2cc1f9ed0cb2cd0a3d14c0016d1871f8eee8882a7890ff82a30f6",
+        "download": "https://cdn.freesound.org/previews/389/389303_5486695-hq.mp3",
+        "file": "alancat.mp3",
+        "sha256": "db15885029d027756ef2b90114c202f4837f10a128371f493904b4886818ffcd",
+        "formatNote": "public HQ MP3 preview (not original WAV)",
+        "checkedOn": "2026-10-11"
+      }
+    ],
+    "edits": [
+      {
+        "slug": "swish-04",
+        "seconds": 0.27,
+        "delay": 0,
+        "gain": 1,
+        "start": 0,
+        "speed": 0.85,
+        "lowpass": 2700
+      },
+      {
+        "slug": "alancat",
+        "seconds": 0.35,
+        "delay": 0.25,
+        "gain": 1,
+        "start": 7.11218,
+        "speed": 0.9,
+        "lowpass": 4000
+      }
+    ],
+    "status": "installed",
+    "installed": true
+  },
+  {
+    "id": "cliff.fall",
+    "candidate": "G",
+    "label": "碎岩重落",
+    "description": "另一组石块录音，略降速增加块体感，与当前设计岩石素材区分。",
+    "file": "cliff-fall-G-v2.wav",
+    "seconds": 0.62,
+    "volume": 0.44,
+    "sha256": "ba09bfc24307fc929df8b189d145564b0d9b9fc321fd3ad2917f242670161817",
+    "peak": 0.65,
+    "rms": 0.09492767746988795,
+    "effectiveRms": 0.0417681780867507,
+    "sources": [
+      {
+        "slug": "swish-26",
+        "author": "qubodup / Iwan Gabovitch",
+        "title": "Swish bamboo stick",
+        "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "file": "references/audio-stage2/swishes/swosh-26.flac",
+        "sha256": "7159ba26b74840da53965989c1472807891298528f94d720119777c251b3109e"
+      },
+      {
+        "slug": "adamgryu",
+        "author": "adamgryu",
+        "title": "Rocks.wav",
+        "page": "https://freesound.org/people/adamgryu/sounds/336023/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "adamgryu.html",
+        "evidenceSha256": "da729c32b5a5cccedd305d95d15cc9650747c2d729a96e67f5a9b1556c7122be",
+        "download": "https://cdn.freesound.org/previews/336/336023_4054883-hq.mp3",
+        "file": "adamgryu.mp3",
+        "sha256": "55857f7eca1d95fd4826e643c7ed9d95944145d945398b652e25f0d9d8c9e358",
+        "formatNote": "public HQ MP3 preview (not original WAV)",
+        "checkedOn": "2026-10-11"
+      }
+    ],
+    "edits": [
+      {
+        "slug": "swish-26",
+        "seconds": 0.27,
+        "delay": 0,
+        "gain": 1,
+        "start": 0,
+        "speed": 0.85,
+        "lowpass": 3000
+      },
+      {
+        "slug": "adamgryu",
+        "seconds": 0.35,
+        "delay": 0.25,
+        "gain": 1,
+        "start": 2.24882,
+        "speed": 0.78,
+        "lowpass": 3800
+      }
+    ],
+    "status": "not-selected",
+    "installed": false
+  },
+  {
+    "id": "cliff.impact",
+    "candidate": "D",
+    "label": "沙尘散开",
+    "description": "以细沙落沙录音为主，少量石粒尾；避免第二次重撞。",
+    "file": "cliff-impact-D-v2.wav",
+    "seconds": 0.48,
+    "volume": 0.33,
+    "sha256": "8a36bade9ead94b277bbf1f8c990f5e8558e367cfdada53a1a519ae901b195c1",
+    "peak": 0.65,
+    "rms": 0.03621574235962908,
+    "effectiveRms": 0.011951194978677597,
+    "sources": [
+      {
+        "slug": "sand",
+        "author": "martinimeniscus / Florentine Films SFX",
+        "title": "sand pour on sand FF662.aif",
+        "page": "https://freesound.org/people/martinimeniscus/sounds/199332/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "sand.html",
+        "evidenceSha256": "0a42b1fea01edeca4004bbdca7a5df1ed0241df53fba31f3062f45fbf4dd2aa0",
+        "download": "https://cdn.freesound.org/previews/199/199332_2320755-hq.mp3",
+        "file": "sand.mp3",
+        "sha256": "819a0c32f19ce02a3d6728f9521028d60e47b3b2984b8ab16096a7d63d3c1296",
+        "formatNote": "public HQ MP3 preview (not original WAV)",
+        "checkedOn": "2026-10-11"
+      },
+      {
+        "slug": "stubb",
+        "author": "_stubb",
+        "title": "Rock Tumble 2.wav",
+        "page": "https://freesound.org/people/_stubb/sounds/389618/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "stubb.html",
+        "evidenceSha256": "458c77dbd2b26a6e20df60e32a49012af441eb0bb7a7bd3bdc9f1d310ff8cce8",
+        "download": "https://cdn.freesound.org/previews/389/389618_6068748-hq.mp3",
+        "file": "stubb.mp3",
+        "sha256": "199521191be552261d6e604c8d34e40cfeac4b3d7f3075906dd27182c73adb4a",
+        "formatNote": "public HQ MP3 preview (not original WAV)",
+        "checkedOn": "2026-10-11"
+      }
+    ],
+    "edits": [
+      {
+        "slug": "sand",
+        "seconds": 0.48,
+        "delay": 0,
+        "gain": 1,
+        "start": 2.6,
+        "speed": 1,
+        "lowpass": 5800
+      },
+      {
+        "slug": "stubb",
+        "seconds": 0.27,
+        "delay": 0.12,
+        "gain": 0.16,
+        "start": 0.7,
+        "speed": 1,
+        "lowpass": 4400
+      }
+    ],
+    "status": "installed",
+    "installed": true
+  },
+  {
+    "id": "cliff.impact",
+    "candidate": "E",
+    "label": "小石级联",
+    "description": "实录落石中的小石尾段，颗粒滚动比沙尘更清晰。",
+    "file": "cliff-impact-E-v2.wav",
+    "seconds": 0.48,
+    "volume": 0.33,
+    "sha256": "4aeca989c17759c9c9534e40824e6c07c9f5af11620856a8a9afaa5b5c9aa178",
+    "peak": 0.65,
+    "rms": 0.025017322016685866,
+    "effectiveRms": 0.008255716265506335,
+    "sources": [
+      {
+        "slug": "alancat",
+        "author": "AlanCat",
+        "title": "rockfall2a.wav",
+        "page": "https://freesound.org/people/AlanCat/sounds/389303/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "alancat.html",
+        "evidenceSha256": "977ec5e119a2cc1f9ed0cb2cd0a3d14c0016d1871f8eee8882a7890ff82a30f6",
+        "download": "https://cdn.freesound.org/previews/389/389303_5486695-hq.mp3",
+        "file": "alancat.mp3",
+        "sha256": "db15885029d027756ef2b90114c202f4837f10a128371f493904b4886818ffcd",
+        "formatNote": "public HQ MP3 preview (not original WAV)",
+        "checkedOn": "2026-10-11"
+      }
+    ],
+    "edits": [
+      {
+        "slug": "alancat",
+        "seconds": 0.48,
+        "delay": 0,
+        "gain": 1,
+        "start": 8.0,
+        "speed": 1,
+        "lowpass": 5000
+      }
+    ],
+    "status": "not-selected",
+    "installed": false
+  },
+  {
+    "id": "cliff.impact",
+    "candidate": "F",
+    "label": "洞塌碎屑尾",
+    "description": "洞塌录音的碎屑散落段，更粗一些，不加爆炸。",
+    "file": "cliff-impact-F-v2.wav",
+    "seconds": 0.48,
+    "volume": 0.33,
+    "sha256": "64bcf9e99852af28d0d80fc57d78d76cc28ecda77133fee0e52f077cba88391d",
+    "peak": 0.65,
+    "rms": 0.11120597664985003,
+    "effectiveRms": 0.036697972294450515,
+    "sources": [
+      {
+        "slug": "falling-rock",
+        "author": "spookymodem",
+        "title": "Falling Rock",
+        "page": "https://opengameart.org/content/falling-rock",
+        "license": "CC-BY-3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "evidence": "falling-rock.html",
+        "evidenceSha256": "8cd47d609eee021bb14780f24126504e6c4112746934f756d880056429ce8e5d",
+        "download": "https://opengameart.org/sites/default/files/Falling%20Rock.wav",
+        "file": "falling-rock.wav",
+        "sha256": "99106501d15c9ebec1e57ce1a092531ec201157c74354c488366737a055be96f",
+        "formatNote": "original WAV",
+        "checkedOn": "2026-10-11"
+      }
+    ],
+    "edits": [
+      {
+        "slug": "falling-rock",
+        "seconds": 0.48,
+        "delay": 0,
+        "gain": 1,
+        "start": 2.2,
+        "speed": 1,
+        "lowpass": 4800
+      }
+    ],
+    "status": "not-selected",
+    "installed": false
+  },
+  {
+    "id": "cliff.impact",
+    "candidate": "G",
+    "label": "砂砾混散",
+    "description": "较粗石粒与细沙尾混合，中间材质层次。",
+    "file": "cliff-impact-G-v2.wav",
+    "seconds": 0.48,
+    "volume": 0.33,
+    "sha256": "60ad97e8f4cabceb7b7ec82ea6abce43c51cf58d96df9f49812d2ef2f4a97877",
+    "peak": 0.5559617988289975,
+    "rms": 0.14,
+    "effectiveRms": 0.046200000000000005,
+    "sources": [
+      {
+        "slug": "adamgryu",
+        "author": "adamgryu",
+        "title": "Rocks.wav",
+        "page": "https://freesound.org/people/adamgryu/sounds/336023/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "adamgryu.html",
+        "evidenceSha256": "da729c32b5a5cccedd305d95d15cc9650747c2d729a96e67f5a9b1556c7122be",
+        "download": "https://cdn.freesound.org/previews/336/336023_4054883-hq.mp3",
+        "file": "adamgryu.mp3",
+        "sha256": "55857f7eca1d95fd4826e643c7ed9d95944145d945398b652e25f0d9d8c9e358",
+        "formatNote": "public HQ MP3 preview (not original WAV)",
+        "checkedOn": "2026-10-11"
+      },
+      {
+        "slug": "sand",
+        "author": "martinimeniscus / Florentine Films SFX",
+        "title": "sand pour on sand FF662.aif",
+        "page": "https://freesound.org/people/martinimeniscus/sounds/199332/",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "sand.html",
+        "evidenceSha256": "0a42b1fea01edeca4004bbdca7a5df1ed0241df53fba31f3062f45fbf4dd2aa0",
+        "download": "https://cdn.freesound.org/previews/199/199332_2320755-hq.mp3",
+        "file": "sand.mp3",
+        "sha256": "819a0c32f19ce02a3d6728f9521028d60e47b3b2984b8ab16096a7d63d3c1296",
+        "formatNote": "public HQ MP3 preview (not original WAV)",
+        "checkedOn": "2026-10-11"
+      }
+    ],
+    "edits": [
+      {
+        "slug": "adamgryu",
+        "seconds": 0.38,
+        "delay": 0,
+        "gain": 1,
+        "start": 1.0,
+        "speed": 1,
+        "lowpass": 4400
+      },
+      {
+        "slug": "sand",
+        "seconds": 0.35,
+        "delay": 0.12,
+        "gain": 0.5,
+        "start": 5.0,
+        "speed": 1,
+        "lowpass": 5400
+      }
+    ],
+    "status": "not-selected",
+    "installed": false
+  }
+]

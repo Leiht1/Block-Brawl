@@ -1,0 +1,16 @@
+{
+  "key": "D",
+  "event": "special.combo",
+  "variant": "line-blast",
+  "targetFile": "special/special-combo-line-blast-v5.wav",
+  "volume": 0.78,
+  "selectedFile": "choices/selected/line-blast-d.wav",
+  "sha256": "4b5118336ba662480348f424d8f692caf62c16d7df872d0fc8136bfd91ab4c4b",
+  "source": "magic/virix/Healing Full.wav",
+  "originalSha256": "ad60bc48be1ac7451771505c0e169590af18241d38ff79b93aa6e5f186b1e54b",
+  "edits": "Mono; remove DC/leading silence; retain first 1.2s; 2ms attack/120ms release; RMS target .16 with peak cap .76; no EQ, pitch shift or layering; exact user-selected D audition, no further sample changes",
+  "selectedOn": "2026-10-11",
+  "page": "https://opengameart.org/content/magic-sfx-sample",
+  "author": "ViRiX Dreamcore (David Mckee)",
+  "license": "CC-BY-3.0"
+}

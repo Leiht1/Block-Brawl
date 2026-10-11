@@ -1,0 +1,269 @@
+{
+  "checks": [
+    "selection shows map scenery, terrain, environment rules and 60s timer",
+    "third card of a category is rejected with persistent visible feedback",
+    "AI progress uses card backs only; specific choices never appear in selection DOM",
+    "selected card slots support explicit replacement and removal",
+    "cross-category replacement cannot exceed cap; map and ready button fit a laptop screen",
+    "both ready restores synchronized 3-2-1 countdown with energy and cards held at zero",
+    "real energy accrual generates first card and AI begins playing earned cards",
+    "six-card hand overflows into preview and newer overflow replaces older one",
+    "six hands fan out with distinct rotations and real overlap",
+    "hover enlarges and foregrounds one card while all neighbors remain fixed",
+    "wrong-side release returns the card and consumes nothing",
+    "minimum drag distance enforced with return animation",
+    "valid enemy cast consumes one card, animates out and promotes overflow into hand",
+    "yellow card drag buffs only own board",
+    "blue freeze displays on enemy board and expires exactly after 3s",
+    "red attack marks three enemy cells and resolves delayed destruction",
+    "click selects persistently; energy draws preserve selection and live drag until successful release",
+    "four desktop sizes show larger equal boards, compact cards, right-side tools and upper-left logo",
+    "60s timeout preserves choices, fills valid 2-2-2 decks and starts after 3s with zero hand",
+    "real legal swap crossing 15000 ends the match, stops cards and shows result",
+    "restart, result return and selection cancellation clean old effects and deadlines",
+    "rebuilt standalone HTML works offline with selection, countdown and natural first draw"
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scrollX": false,
+      "scrollY": false,
+      "board": {
+        "x": 53.75,
+        "y": 190,
+        "width": 476,
+        "height": 476,
+        "top": 190,
+        "right": 529.75,
+        "bottom": 666,
+        "left": 53.75
+      },
+      "opponent": {
+        "x": 753.25,
+        "y": 190,
+        "width": 476,
+        "height": 476,
+        "top": 190,
+        "right": 1229.25,
+        "bottom": 666,
+        "left": 753.25
+      },
+      "dock": {
+        "x": 24,
+        "y": 754.75,
+        "width": 1235,
+        "height": 157,
+        "top": 754.75,
+        "right": 1259,
+        "bottom": 911.75,
+        "left": 24
+      },
+      "tools": {
+        "x": 1281,
+        "y": 353.5,
+        "width": 120,
+        "height": 148,
+        "top": 353.5,
+        "right": 1401,
+        "bottom": 501.5,
+        "left": 1281
+      },
+      "logo": {
+        "x": 22,
+        "y": 15,
+        "width": 135,
+        "height": 52,
+        "top": 15,
+        "right": 157,
+        "bottom": 67,
+        "left": 22
+      },
+      "dockBackground": "none",
+      "cardWidth": 96
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "scrollX": false,
+      "scrollY": false,
+      "board": {
+        "x": 127.71875,
+        "y": 146.21875,
+        "width": 371.5625,
+        "height": 371.5625,
+        "top": 146.21875,
+        "right": 499.28125,
+        "bottom": 517.78125,
+        "left": 127.71875
+      },
+      "opponent": {
+        "x": 709.71875,
+        "y": 146.21875,
+        "width": 371.5625,
+        "height": 371.5625,
+        "top": 146.21875,
+        "right": 1081.28125,
+        "bottom": 517.78125,
+        "left": 709.71875
+      },
+      "dock": {
+        "x": 104.5,
+        "y": 600,
+        "width": 1000,
+        "height": 157,
+        "top": 600,
+        "right": 1104.5,
+        "bottom": 757,
+        "left": 104.5
+      },
+      "tools": {
+        "x": 1126.5,
+        "y": 257.5,
+        "width": 120,
+        "height": 148,
+        "top": 257.5,
+        "right": 1246.5,
+        "bottom": 405.5,
+        "left": 1126.5
+      },
+      "logo": {
+        "x": 22,
+        "y": 15,
+        "width": 135,
+        "height": 52,
+        "top": 15,
+        "right": 157,
+        "bottom": 67,
+        "left": 22
+      },
+      "dockBackground": "none",
+      "cardWidth": 96
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scrollX": false,
+      "scrollY": false,
+      "board": {
+        "x": 289.5,
+        "y": 248,
+        "width": 480,
+        "height": 480,
+        "top": 248,
+        "right": 769.5,
+        "bottom": 728,
+        "left": 289.5
+      },
+      "opponent": {
+        "x": 993.5,
+        "y": 248,
+        "width": 480,
+        "height": 480,
+        "top": 248,
+        "right": 1473.5,
+        "bottom": 728,
+        "left": 993.5
+      },
+      "dock": {
+        "x": 259.5,
+        "y": 817,
+        "width": 1244,
+        "height": 157,
+        "top": 817,
+        "right": 1503.5,
+        "bottom": 974,
+        "left": 259.5
+      },
+      "tools": {
+        "x": 1525.5,
+        "y": 413.5,
+        "width": 120,
+        "height": 148,
+        "top": 413.5,
+        "right": 1645.5,
+        "bottom": 561.5,
+        "left": 1525.5
+      },
+      "logo": {
+        "x": 22,
+        "y": 15,
+        "width": 135,
+        "height": 52,
+        "top": 15,
+        "right": 157,
+        "bottom": 67,
+        "left": 22
+      },
+      "dockBackground": "none",
+      "cardWidth": 96
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "scrollX": false,
+      "scrollY": false,
+      "board": {
+        "x": 42.1875,
+        "y": 186.4375,
+        "width": 291.125,
+        "height": 291.125,
+        "top": 186.4375,
+        "right": 333.3125,
+        "bottom": 477.5625,
+        "left": 42.1875
+      },
+      "opponent": {
+        "x": 533.6875,
+        "y": 186.4375,
+        "width": 291.125,
+        "height": 291.125,
+        "top": 186.4375,
+        "right": 824.8125,
+        "bottom": 477.5625,
+        "left": 533.6875
+      },
+      "dock": {
+        "x": 24,
+        "y": 554.75,
+        "width": 819,
+        "height": 157,
+        "top": 554.75,
+        "right": 843,
+        "bottom": 711.75,
+        "left": 24
+      },
+      "tools": {
+        "x": 865,
+        "y": 257.5,
+        "width": 120,
+        "height": 148,
+        "top": 257.5,
+        "right": 985,
+        "bottom": 405.5,
+        "left": 865
+      },
+      "logo": {
+        "x": 22,
+        "y": 15,
+        "width": 135,
+        "height": 52,
+        "top": 15,
+        "right": 157,
+        "bottom": 67,
+        "left": 22
+      },
+      "dockBackground": "none",
+      "cardWidth": 96
+    }
+  ]
+}

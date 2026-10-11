@@ -1,0 +1,110 @@
+{
+  "viewport": "1440x960",
+  "levels": [
+    {
+      "screen": "tutorial",
+      "index": 0,
+      "status": "won",
+      "moves": 3,
+      "counts": {
+        "triples": 3,
+        "lineCreated": 0,
+        "lineActivated": 0,
+        "blastCreated": 0,
+        "blastActivated": 0,
+        "active": 0,
+        "combos": 0,
+        "score": 90
+      }
+    },
+    {
+      "screen": "tutorial",
+      "index": 1,
+      "status": "won",
+      "moves": 2,
+      "counts": {
+        "triples": 0,
+        "lineCreated": 1,
+        "lineActivated": 1,
+        "blastCreated": 0,
+        "blastActivated": 0,
+        "active": 1,
+        "combos": 0,
+        "score": 140
+      }
+    },
+    {
+      "screen": "tutorial",
+      "index": 2,
+      "status": "won",
+      "moves": 2,
+      "counts": {
+        "triples": 0,
+        "lineCreated": 0,
+        "lineActivated": 0,
+        "blastCreated": 1,
+        "blastActivated": 1,
+        "active": 1,
+        "combos": 0,
+        "score": 250
+      }
+    },
+    {
+      "screen": "tutorial",
+      "index": 3,
+      "status": "won",
+      "moves": 2,
+      "counts": {
+        "triples": 0,
+        "lineCreated": 0,
+        "lineActivated": 0,
+        "blastCreated": 0,
+        "blastActivated": 0,
+        "active": 2,
+        "combos": 0,
+        "score": 220
+      }
+    },
+    {
+      "screen": "tutorial",
+      "index": 4,
+      "status": "won",
+      "moves": 1,
+      "counts": {
+        "triples": 0,
+        "lineCreated": 0,
+        "lineActivated": 0,
+        "blastCreated": 1,
+        "blastActivated": 0,
+        "active": 0,
+        "combos": 1,
+        "score": 600
+      }
+    },
+    {
+      "screen": "tutorial",
+      "index": 5,
+      "status": "won",
+      "moves": 2,
+      "counts": {
+        "triples": 0,
+        "lineCreated": 1,
+        "lineActivated": 0,
+        "blastCreated": 0,
+        "blastActivated": 0,
+        "active": 1,
+        "combos": 1,
+        "score": 570
+      }
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "home and disabled future modes",
+    "six real pointer-driven completions",
+    "restart cancels pending exchange",
+    "return, sequential unlock and replay",
+    "refresh persistence and qualification",
+    "all 16 sandbox entries retained; reentry resets free mode"
+  ]
+}

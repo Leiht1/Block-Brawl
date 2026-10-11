@@ -1,0 +1,641 @@
+{
+  "checks": [
+    "Embedded sources match the latest files and music gains",
+    "Direct file opening shows one-page home and shared controls",
+    "Trusted input starts embedded lobby music at the latest gain",
+    "Tutorial and actual battle work offline; battle BGM loops at the latest gain",
+    "Music and effects toggles remain independent",
+    "All 68 embedded images and recordings decode without local side files",
+    "No missing resources, external requests, page errors or audio errors",
+    "Offline mobile home remains one viewport tall"
+  ],
+  "errors": [],
+  "requests": [
+    "file:///D:/codex%E9%A1%B9%E7%9B%AE/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97-%E6%9C%80%E6%96%B0%E7%89%88.html",
+    "blob:null/6b3bcf91-78d3-4584-826b-5e7d384ea5d2",
+    "blob:null/fe3742e3-330e-4fe7-a581-c3ebb668ebc8",
+    "blob:null/e58f9639-4082-46cc-aaf5-3733e5259454",
+    "blob:null/22f890c2-aef2-4a89-852b-9de9417094eb",
+    "blob:null/b337082e-f714-4b9f-b511-ee7f640bbb1b",
+    "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+    "blob:null/a5e2ffcf-d9bb-42d1-9e6b-4faac81280f3",
+    "blob:null/39c0e92b-22ea-41b7-9c21-be0739f2af32",
+    "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+    "blob:null/a2e1ba04-5477-45da-80a4-fa1bb8d8e84f",
+    "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+    "blob:null/a2e1ba04-5477-45da-80a4-fa1bb8d8e84f",
+    "blob:null/ce5c2a25-9a62-4592-a7af-92db4fee44a1",
+    "blob:null/d95b35e9-8cea-435b-aa10-86996a86aafb",
+    "blob:null/38295aa3-5f6c-4196-a77e-20d53d936689",
+    "blob:null/2b6f70db-3b94-4679-871b-6f7445bf8930",
+    "blob:null/76a75b2a-062c-4d00-be93-a72f94a4692f",
+    "blob:null/b6b4c101-1cf2-477f-80a0-dc2c015d8af1",
+    "blob:null/d95b35e9-8cea-435b-aa10-86996a86aafb",
+    "blob:null/862e1210-b47a-4987-9b3f-37e319769b4a",
+    "blob:null/3aa085a1-d55b-4079-8b86-62791ce19137",
+    "blob:null/a1e177f1-24e1-4ccc-aa15-1d521a6811c5",
+    "blob:null/029b9a50-8376-44f2-b1b6-682483a73e20",
+    "blob:null/d95b35e9-8cea-435b-aa10-86996a86aafb",
+    "blob:null/a0c4315d-c00c-4a31-9fd4-36fa2c1150d3",
+    "blob:null/3cf989e9-a665-4330-a152-44578dc8c037",
+    "blob:null/e336b949-9438-42dd-8c4d-a4a0b11dfff9",
+    "blob:null/08712313-3fb6-4673-b15a-6dbe873935a9",
+    "blob:null/896d6844-97e7-4002-9ce1-3479bc3ca9dc",
+    "blob:null/46d28b85-fa5b-4161-8cdc-010fadc62d9e",
+    "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+    "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+    "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+    "blob:null/a2e1ba04-5477-45da-80a4-fa1bb8d8e84f",
+    "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+    "blob:null/117b00df-b016-45d8-bc71-1db69b14d390",
+    "blob:null/896d6844-97e7-4002-9ce1-3479bc3ca9dc",
+    "blob:null/b337082e-f714-4b9f-b511-ee7f640bbb1b",
+    "blob:null/080a5599-b5fa-4c24-adee-2d736c8c1f9b",
+    "blob:null/3b68717c-6686-42e3-bb48-6d331404a77c",
+    "blob:null/23a3b69e-2aa6-4fb2-998d-d3a7afd23fd9",
+    "blob:null/dfcd435e-6820-48b8-a9cc-335a91d33816",
+    "blob:null/c3fae1b4-e5f8-4137-b835-e68f1417c394",
+    "blob:null/9d8bcb63-707f-45c5-b226-1c1ace8a77c1",
+    "blob:null/48cc86cd-e9d6-4fb4-9dd1-d6677bc8eeee",
+    "blob:null/9a709709-4741-45e6-b9e9-1ea79797fcfd",
+    "blob:null/17fdd9ef-daf8-422c-bc0b-ce29b6979499",
+    "blob:null/5809ec1e-d15c-46ac-9e50-d961ff3f117b",
+    "blob:null/cfbfe1f4-238e-4b55-9526-d6a0b0582ecd",
+    "blob:null/8c211001-5ac0-4bc8-b63b-567fe8f1a827",
+    "blob:null/70aa2b2d-7de2-4666-b511-9ed3dc9ca3f3",
+    "blob:null/c1230370-17b1-449f-be60-89c9435022a0",
+    "blob:null/41f0ce98-95ad-4de9-b471-3e155f04dcec",
+    "blob:null/7a67beb1-0d08-43da-b6c8-f8930225d20c",
+    "blob:null/c2516c25-6cd4-4dae-afee-de639917470e",
+    "blob:null/aa8e5089-11cd-437b-81d4-38b0ab0ff61b",
+    "blob:null/7ebaa2ac-3fd8-4acd-a1b5-3c860b01c884",
+    "blob:null/150db5c0-e846-41c8-a6db-ba225e75b501",
+    "blob:null/54437f5d-0a7e-4e77-87a4-050765dbfd62",
+    "blob:null/08712313-3fb6-4673-b15a-6dbe873935a9",
+    "blob:null/e336b949-9438-42dd-8c4d-a4a0b11dfff9",
+    "blob:null/3cf989e9-a665-4330-a152-44578dc8c037",
+    "blob:null/46d28b85-fa5b-4161-8cdc-010fadc62d9e",
+    "blob:null/a0c4315d-c00c-4a31-9fd4-36fa2c1150d3",
+    "blob:null/d95b35e9-8cea-435b-aa10-86996a86aafb",
+    "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+    "blob:null/a2e1ba04-5477-45da-80a4-fa1bb8d8e84f",
+    "blob:null/eea9960e-e924-4762-bf70-87248e4baaf5",
+    "blob:null/6acd2df7-da8a-4f58-bb28-5575ee0da5f2",
+    "blob:null/38295aa3-5f6c-4196-a77e-20d53d936689",
+    "blob:null/c0013ef1-220f-491e-9632-8f6b0e6cf117",
+    "blob:null/66241c13-2725-430d-a5e3-fe9897dd1c84",
+    "blob:null/2b6f70db-3b94-4679-871b-6f7445bf8930",
+    "blob:null/051f26b9-8675-4b98-9273-d590ede4ae2b",
+    "blob:null/fab6d5ca-43f5-4452-b995-947c80808019",
+    "blob:null/e7b0d9de-2ebd-4e03-b881-974a843d3e87",
+    "blob:null/bf8721df-9fb8-4c12-8e2e-540800f444fa",
+    "blob:null/a9b7895d-935c-44e8-8275-b3e6cd7ae8aa",
+    "blob:null/862e1210-b47a-4987-9b3f-37e319769b4a",
+    "blob:null/63934d53-e49e-4775-82a7-aebdb408fbb6",
+    "blob:null/3aa085a1-d55b-4079-8b86-62791ce19137",
+    "blob:null/902df8c8-8f3f-4105-954e-ca40303711bc",
+    "blob:null/a252d7ad-2c05-42d9-8882-9568d1dfc9a9",
+    "blob:null/32953b1c-13b4-4ed8-97b1-392db17e2141",
+    "blob:null/09aa86e4-f414-4c6e-a9b6-f5dcd71d5d5f",
+    "blob:null/76a75b2a-062c-4d00-be93-a72f94a4692f",
+    "blob:null/b6b4c101-1cf2-477f-80a0-dc2c015d8af1",
+    "blob:null/e9f42346-fa1d-4d33-aa95-e5e24347690d",
+    "blob:null/60fdb962-3217-43a6-934c-d270684837a6",
+    "blob:null/73bc1ad0-581b-41a7-b272-24459aaf92d9",
+    "blob:null/0f86a250-2f91-47f4-a266-cabc59343671",
+    "blob:null/803e7401-bf5b-454a-83a4-3474117367c0",
+    "blob:null/029b9a50-8376-44f2-b1b6-682483a73e20",
+    "blob:null/918cf09d-cae8-4cea-8112-08c313aa5365",
+    "blob:null/7c6e0aab-af4b-4861-b6cd-4fc1ec04c7ac",
+    "blob:null/a1e177f1-24e1-4ccc-aa15-1d521a6811c5",
+    "file:///D:/codex%E9%A1%B9%E7%9B%AE/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97-%E6%9C%80%E6%96%B0%E7%89%88.html",
+    "blob:null/76f80057-e561-49de-80fe-a6e65541abd8",
+    "blob:null/49640f1d-9fb4-4f35-af4e-e179e3e375ab",
+    "blob:null/3a36d3f3-071f-4bcf-90df-2589ebea7c76",
+    "blob:null/f84c03b2-956a-4730-be10-cf96904ef04a"
+  ],
+  "assets": [
+    {
+      "src": "./assets/arcade-backdrop.svg",
+      "type": "image",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "src": "./assets/audio/bgm/battle/bgm-battle-v1.ogg",
+      "type": "audio",
+      "seconds": 120
+    },
+    {
+      "src": "./assets/audio/bgm/lobby/bgm-lobby-v1.ogg",
+      "type": "audio",
+      "seconds": 153.6
+    },
+    {
+      "src": "./assets/audio/block/block-fall-v1.wav",
+      "type": "audio",
+      "seconds": 0.1
+    },
+    {
+      "src": "./assets/audio/block/block-invalid-v1.wav",
+      "type": "audio",
+      "seconds": 0.22
+    },
+    {
+      "src": "./assets/audio/block/block-match3-v2.wav",
+      "type": "audio",
+      "seconds": 0.09
+    },
+    {
+      "src": "./assets/audio/block/block-swap-v1.wav",
+      "type": "audio",
+      "seconds": 0.12
+    },
+    {
+      "src": "./assets/audio/block/block-swap-v2.wav",
+      "type": "audio",
+      "seconds": 0.11
+    },
+    {
+      "src": "./assets/audio/combo/combo1-v2.wav",
+      "type": "audio",
+      "seconds": 0.15
+    },
+    {
+      "src": "./assets/audio/combo/combo2-v2.wav",
+      "type": "audio",
+      "seconds": 0.17497916666666666
+    },
+    {
+      "src": "./assets/audio/combo/combo3-v2.wav",
+      "type": "audio",
+      "seconds": 0.2
+    },
+    {
+      "src": "./assets/audio/maps/cliff/cliff-fall-v2.wav",
+      "type": "audio",
+      "seconds": 0.62
+    },
+    {
+      "src": "./assets/audio/maps/cliff/cliff-impact-v2.wav",
+      "type": "audio",
+      "seconds": 0.48
+    },
+    {
+      "src": "./assets/audio/maps/cliff/cliff-warning-v1.wav",
+      "type": "audio",
+      "seconds": 1.1
+    },
+    {
+      "src": "./assets/audio/maps/furnace/furnace-spread-v1.wav",
+      "type": "audio",
+      "seconds": 0.66
+    },
+    {
+      "src": "./assets/audio/maps/furnace/furnace-warning-v1.wav",
+      "type": "audio",
+      "seconds": 0.55
+    },
+    {
+      "src": "./assets/audio/maps/ice/ice-break-v1.wav",
+      "type": "audio",
+      "seconds": 0.6
+    },
+    {
+      "src": "./assets/audio/maps/ice/ice-freeze-v1.wav",
+      "type": "audio",
+      "seconds": 0.7
+    },
+    {
+      "src": "./assets/audio/maps/ruins/ruins-activate-v1.wav",
+      "type": "audio",
+      "seconds": 1.05
+    },
+    {
+      "src": "./assets/audio/special/special-bomb-v3.wav",
+      "type": "audio",
+      "seconds": 0.5
+    },
+    {
+      "src": "./assets/audio/special/special-combo-blasts-v3.wav",
+      "type": "audio",
+      "seconds": 0.95
+    },
+    {
+      "src": "./assets/audio/special/special-combo-line-blast-v5.wav",
+      "type": "audio",
+      "seconds": 1.2
+    },
+    {
+      "src": "./assets/audio/special/special-create-v3.wav",
+      "type": "audio",
+      "seconds": 0.36
+    },
+    {
+      "src": "./assets/audio/special/special-line-v3.wav",
+      "type": "audio",
+      "seconds": 0.4
+    },
+    {
+      "src": "./assets/audio/ui/countdown-1-v2.wav",
+      "type": "audio",
+      "seconds": 0.21
+    },
+    {
+      "src": "./assets/audio/ui/countdown-2-v2.wav",
+      "type": "audio",
+      "seconds": 0.21
+    },
+    {
+      "src": "./assets/audio/ui/countdown-3-v2.wav",
+      "type": "audio",
+      "seconds": 0.21
+    },
+    {
+      "src": "./assets/audio/ui/countdown-start-v2.wav",
+      "type": "audio",
+      "seconds": 0.4
+    },
+    {
+      "src": "./assets/audio/ui/map-reveal-v1.wav",
+      "type": "audio",
+      "seconds": 0.66
+    },
+    {
+      "src": "./assets/audio/ui/map-shuffle-v1.wav",
+      "type": "audio",
+      "seconds": 0.42
+    },
+    {
+      "src": "./assets/audio/ui/ui-click-v1.wav",
+      "type": "audio",
+      "seconds": 0.09
+    },
+    {
+      "src": "./assets/audio/ui/ui-confirm-v1.wav",
+      "type": "audio",
+      "seconds": 0.32
+    },
+    {
+      "src": "./assets/brandmark.svg",
+      "type": "image",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "./assets/game-logo.svg",
+      "type": "image",
+      "width": 300,
+      "height": 150
+    },
+    {
+      "src": "./assets/jungle-frame.webp",
+      "type": "image",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "src": "./assets/jungle-scenery.webp",
+      "type": "image",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "src": "./assets/maps/cliff-board.svg",
+      "type": "image",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/cliff-canyon.svg",
+      "type": "image",
+      "width": 240,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/cliff-canyon.webp",
+      "type": "image",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "src": "./assets/maps/cliff-frame.svg",
+      "type": "image",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "src": "./assets/maps/cliff-preview.svg",
+      "type": "image",
+      "width": 163,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/cliff-scenery.webp",
+      "type": "image",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "src": "./assets/maps/cliff-stage-left.svg",
+      "type": "image",
+      "width": 163,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/cliff-stage-right.svg",
+      "type": "image",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/crystal-board.svg",
+      "type": "image",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/crystal-frame.svg",
+      "type": "image",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "src": "./assets/maps/crystal-landscape.svg",
+      "type": "image",
+      "width": 240,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/crystal-obstacle.svg",
+      "type": "image",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "src": "./assets/maps/crystal-preview.svg",
+      "type": "image",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/crystal-scenery.webp",
+      "type": "image",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "src": "./assets/maps/crystal-stage.svg",
+      "type": "image",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/falling-rock.svg",
+      "type": "image",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "src": "./assets/maps/forest-preview.svg",
+      "type": "image",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/furnace-board.svg",
+      "type": "image",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/furnace-hall.svg",
+      "type": "image",
+      "width": 240,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/furnace-preview.svg",
+      "type": "image",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/furnace-rock.svg",
+      "type": "image",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/furnace-stage.svg",
+      "type": "image",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/ruins-board.svg",
+      "type": "image",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/ruins-frame.svg",
+      "type": "image",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "src": "./assets/maps/ruins-pillar.svg",
+      "type": "image",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/ruins-preview.svg",
+      "type": "image",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/ruins-scenery.webp",
+      "type": "image",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "src": "./assets/maps/ruins-stage.svg",
+      "type": "image",
+      "width": 160,
+      "height": 150
+    },
+    {
+      "src": "./assets/maps/ruins-temple.svg",
+      "type": "image",
+      "width": 240,
+      "height": 150
+    },
+    {
+      "src": "./assets/toy-atlas.svg",
+      "type": "image",
+      "width": 640,
+      "height": 512
+    },
+    {
+      "src": "./assets/toy-board.svg",
+      "type": "image",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "src": "./assets/wood-plaque.svg",
+      "type": "image",
+      "width": 300,
+      "height": 65
+    }
+  ],
+  "media": [
+    {
+      "src": "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/a2e1ba04-5477-45da-80a4-fa1bb8d8e84f",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/a2e1ba04-5477-45da-80a4-fa1bb8d8e84f",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/d95b35e9-8cea-435b-aa10-86996a86aafb",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/d95b35e9-8cea-435b-aa10-86996a86aafb",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/d95b35e9-8cea-435b-aa10-86996a86aafb",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/a0c4315d-c00c-4a31-9fd4-36fa2c1150d3",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/3cf989e9-a665-4330-a152-44578dc8c037",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/e336b949-9438-42dd-8c4d-a4a0b11dfff9",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/08712313-3fb6-4673-b15a-6dbe873935a9",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/46d28b85-fa5b-4161-8cdc-010fadc62d9e",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+      "events": [
+        "loadeddata",
+        "playing"
+      ]
+    },
+    {
+      "src": "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/a2e1ba04-5477-45da-80a4-fa1bb8d8e84f",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "blob:null/735a91f3-eeba-4719-8f8f-ebd028e10399",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    }
+  ]
+}

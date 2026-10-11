@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "clips": 17,
+  "plays": [
+    {
+      "file": "special/special-combo-line-blast-v4.wav",
+      "volume": 0.78
+    }
+  ],
+  "ended": true,
+  "errors": []
+}

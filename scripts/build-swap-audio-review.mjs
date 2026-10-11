@@ -1,0 +1,30 @@
+import fs from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {AUDIO_MANIFEST} from '../dist/audio-manifest.mjs';
+const out=fileURLToPath(new URL('../validation/2026-10-11/audio-swap/',import.meta.url));
+const candidates=JSON.parse(await fs.readFile(out+'candidates.json','utf8'));
+const adopted=candidates.find(a=>a.installed);
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const controls=letter=>`<div class="buttons"><button data-choice="${letter}" data-count="1">听一次</button><button data-choice="${letter}" data-count="6">连续交换 × 6</button></div>`;
+const cards=candidates.map(a=>`<article><div class="heading"><h2><b>${a.candidate}</b> ${a.label}</h2><span>${Math.round(a.seconds*1000)} ms</span></div><p>${a.description}</p>${controls(a.candidate)}<audio id="audio-${a.candidate}" preload="none" src="${a.file}"></audio><details><summary>来源与授权</summary><p><a href="${a.source.page}">${escape(a.source.title)}</a><br>${escape(a.source.author)} · <a href="${a.source.licenseUrl}">CC0</a><br>单条实录剪辑、淡入淡出、轻度频段整理；未加入打击层。${a.source.formatNote.includes('MP3')?'原素材为公开 HQ MP3 预览。':''}</p></details></article>`).join('');
+let html=`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>交换方块 · 唰声试听</title><style>
+*{box-sizing:border-box}body{margin:0;background:#152025;color:#edf4ef;font:16px/1.65 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1160px;margin:auto;padding:30px 26px 55px}h1{font-size:29px;margin:0 0 8px}h2{font-size:19px;margin:0}h2 b{display:inline-block;background:#7cc8a4;color:#12342c;border-radius:8px;text-align:center;min-width:31px;margin-right:8px}p{color:#bcd0cc;margin:12px 0}.toolbar{position:sticky;top:10px;z-index:2;background:#234338;border:1px solid #688b7a;border-radius:12px;padding:12px 16px;display:flex;gap:15px;align-items:center;margin:24px 0 18px}button{font:inherit;font-size:15px;background:#416953;color:#f1fff6;border:1px solid #8db69f;border-radius:8px;padding:8px 14px;cursor:pointer}button:hover{background:#527f65}button:focus-visible{outline:3px solid #efd797;outline-offset:3px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}article,.reference{background:#22353d;border:1px solid #405b64;border-radius:14px;padding:20px}.heading{display:flex;justify-content:space-between;align-items:center;gap:8px}.heading span{font-size:13px;color:#b3c4bd;white-space:nowrap}.buttons{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0 12px}details{font-size:13px;margin-top:12px}summary{cursor:pointer}a{color:#a5e1c4}.reference{margin-top:22px;border-color:#817657}.reference h2{color:#f1d899}footer{margin-top:24px;color:#bcd0cc}#status{flex:1;color:#dbf1df}article[data-playing="true"],.reference[data-playing="true"]{border-color:#ace9c6;box-shadow:0 0 0 2px #7cc8a455}@media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.grid{grid-template-columns:1fr}main{padding:22px 16px}.toolbar{top:0}h1{font-size:25px}}
+</style><main><h1>交换方块 · “唰”声候选</h1><p>6 个短音候选：轻挥、竹棍风切、布料拂动。当前游戏声音放在下方，可以来回对比。</p><p>所有候选按同一试听音量播放。连续试听每 0.35 秒交换一次，方便判断频繁操作时的感觉。</p><div class="toolbar"><span id="status" role="status">点击“听一次”或“连续交换”。</span><button id="stop">停止</button></div><div class="grid">${cards}</div><section class="reference"><h2>当前交换声音 · 对照</h2><p>游戏中正在使用的版本，保留原文件和音量。</p>${controls('current')}<audio id="audio-current" preload="none" src="../../../dist/assets/audio/block/block-swap-v1.wav"></audio></section><footer>候选已核验 CC0 授权，暂时只在本页试听，尚未替换游戏。<br>听完直接回复“选 A”等即可。<a href="../../../dist/index.html?audio=cliff-fd">打开当前游戏</a></footer></main><script>
+const candidates=${JSON.stringify(candidates)},volumes=Object.fromEntries(candidates.map(a=>[a.candidate,a.volume]));volumes.current=${AUDIO_MANIFEST['block.swap'].volume};
+let generation=0;const timers=new Set(),status=document.querySelector('#status');
+function stop(){generation++;for(const t of timers)clearTimeout(t);timers.clear();for(const a of document.querySelectorAll('audio')){a.pause();a.currentTime=0;a.closest('article,section').dataset.playing='false';}status.textContent='已停止';}
+function play(choice,count){stop();const epoch=generation,a=document.querySelector('#audio-'+choice),label=choice==='current'?'当前交换声音':choice+' · '+candidates.find(c=>c.candidate===choice).label;a.volume=volumes[choice];let played=0;
+ const trigger=()=>{if(epoch!==generation)return;a.pause();a.currentTime=0;played++;a.closest('article,section').dataset.playing='true';status.textContent=label+' · '+played+'/'+count;a.play().catch(e=>{if(epoch===generation&&e.name!=='AbortError'){stop();status.textContent='播放失败，请重新点击';}});};
+ a.onended=()=>{if(epoch===generation){a.closest('article,section').dataset.playing='false';if(played===count)status.textContent=label+' · 播放完成';}};
+ trigger();for(let i=1;i<count;i++){const timer=setTimeout(()=>{timers.delete(timer);trigger();},i*350);timers.add(timer);}}
+for(const b of document.querySelectorAll('[data-choice]'))b.onclick=()=>play(b.dataset.choice,Number(b.dataset.count));document.querySelector('#stop').onclick=stop;document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});window.addEventListener('pagehide',stop);
+</script></html>`;
+if(adopted)html=html.replace('当前游戏声音放在下方，可以来回对比。',`你选的 ${adopted.candidate} 已正式接入，下方保留旧声音作对照。`)
+ .replace(`<b>${adopted.candidate}</b> ${adopted.label}</h2>`,`<b>${adopted.candidate}</b> ${adopted.label} · 已选</h2>`)
+ .replace('当前交换声音 · 对照','原交换声音 · 历史对照')
+ .replace('游戏中正在使用的版本，保留原文件和音量。','替换前的版本，仅供对照；游戏现在使用已选 A。')
+ .replace('候选已核验 CC0 授权，暂时只在本页试听，尚未替换游戏。<br>听完直接回复“选 A”等即可。',`已按你的选择接入 ${adopted.candidate}，音频与试听版一致。其他候选保留对比。<br>`)
+ .replace('index.html?audio=cliff-fd','index.html?audio=swap-a')
+ .replace("choice==='current'?'当前交换声音'","choice==='current'?'原交换声音'");
+await fs.writeFile(out+'index.html',html);
+console.log('Built swap audition page with 6 candidates and current reference.');

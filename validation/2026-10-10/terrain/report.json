@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "name": "standard",
+      "width": 8,
+      "height": 8,
+      "score": 180
+    },
+    {
+      "name": "stairs",
+      "width": 7,
+      "height": 9,
+      "score": 30
+    },
+    {
+      "name": "hollow",
+      "width": 8,
+      "height": 8,
+      "score": 30
+    },
+    {
+      "name": "pillars",
+      "width": 9,
+      "height": 8,
+      "score": 90
+    },
+    "obstacle column clear and segmented fall",
+    "actual opponent renderer accepts 7×9 terrain",
+    "normal arena and sandbox return to standard topology"
+  ],
+  "errors": []
+}

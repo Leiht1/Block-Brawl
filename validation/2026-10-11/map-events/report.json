@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "map": "cliff",
+      "completeLifecycle": true,
+      "pairedCount": 1,
+      "duration": 5000,
+      "themeFrames": 4
+    },
+    {
+      "map": "crystal",
+      "completeLifecycle": true,
+      "pairedCount": 1,
+      "duration": 5000,
+      "themeFrames": 5
+    },
+    {
+      "map": "ruins",
+      "completeLifecycle": true,
+      "pairedCount": 1,
+      "duration": 5000,
+      "themeFrames": 4
+    },
+    "actual exit clears event storage, future deadlines and themed visuals"
+  ],
+  "errors": []
+}

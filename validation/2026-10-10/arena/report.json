@@ -1,0 +1,137 @@
+{
+  "viewport": "1440x960",
+  "difficulties": [
+    {
+      "difficulty": "easy",
+      "screen": "arena",
+      "status": "playing",
+      "winner": null,
+      "target": 3000,
+      "player": 30,
+      "opponent": 30,
+      "result": null,
+      "bot": true,
+      "due": null,
+      "tx": 0,
+      "opponentTx": 1,
+      "view": {
+        "motions": 0,
+        "effects": 0,
+        "ghosts": 3,
+        "formations": 0,
+        "charges": 0
+      },
+      "same": false,
+      "playerBoardWidth": 480,
+      "opponentBoardWidth": 220.46875
+    },
+    {
+      "difficulty": "normal",
+      "screen": "arena",
+      "status": "playing",
+      "winner": null,
+      "target": 3000,
+      "player": 100,
+      "opponent": 100,
+      "result": null,
+      "bot": true,
+      "due": null,
+      "tx": 0,
+      "opponentTx": 1,
+      "view": {
+        "motions": 0,
+        "effects": 0,
+        "ghosts": 4,
+        "formations": 1,
+        "charges": 0
+      },
+      "same": false,
+      "playerBoardWidth": 480,
+      "opponentBoardWidth": 220.46875
+    },
+    {
+      "difficulty": "hard",
+      "screen": "arena",
+      "status": "playing",
+      "winner": null,
+      "target": 3000,
+      "player": 30,
+      "opponent": 130,
+      "result": null,
+      "bot": true,
+      "due": null,
+      "tx": 0,
+      "opponentTx": 1,
+      "view": {
+        "motions": 0,
+        "effects": 0,
+        "ghosts": 7,
+        "formations": 1,
+        "charges": 0
+      },
+      "same": false,
+      "playerBoardWidth": 480,
+      "opponentBoardWidth": 220.46875
+    }
+  ],
+  "checks": [
+    "three difficulties: same initial boards, countdown input gate, real player and bot animations",
+    "full-size player board and miniature opponent",
+    "restart during opponent clear cancels transaction and visuals",
+    "default 3000 target: real pointer win, bot win, committed transactions finish",
+    "result replay and return; no old bot after exit",
+    "six tutorial entries and all 16 sandbox modes retained"
+  ],
+  "playerWin": {
+    "actions": 23,
+    "screen": "arena",
+    "status": "finished",
+    "winner": "player",
+    "target": 3000,
+    "player": 3680,
+    "opponent": 420,
+    "result": {
+      "winner": "player",
+      "player": 3680,
+      "opponent": 420
+    },
+    "bot": false,
+    "due": null,
+    "tx": 0,
+    "opponentTx": 0,
+    "view": {
+      "motions": 0,
+      "effects": 0,
+      "ghosts": 0,
+      "formations": 0,
+      "charges": 0
+    },
+    "same": false
+  },
+  "opponentWin": {
+    "screen": "arena",
+    "status": "finished",
+    "winner": "opponent",
+    "target": 3000,
+    "player": 0,
+    "opponent": 3010,
+    "result": {
+      "winner": "opponent",
+      "player": 0,
+      "opponent": 3010
+    },
+    "bot": false,
+    "due": null,
+    "tx": 0,
+    "opponentTx": 0,
+    "view": {
+      "motions": 0,
+      "effects": 0,
+      "ghosts": 0,
+      "formations": 0,
+      "charges": 0
+    },
+    "same": false
+  },
+  "errors": []
+}

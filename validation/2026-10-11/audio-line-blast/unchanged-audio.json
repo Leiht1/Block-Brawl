@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "file": "block/block-swap-v1.wav",
+      "sha256": "29e3bd93d8b8e16d7f0dedb38e7187e41ecf15346a96767da509f5f8391dab30",
+      "unchanged": true
+    },
+    {
+      "file": "block/block-invalid-v1.wav",
+      "sha256": "50136ace4641c1ff63ae791b142bf7979c94049726d49eae74c91c65746f9539",
+      "unchanged": true
+    },
+    {
+      "file": "block/block-fall-v1.wav",
+      "sha256": "8080abb38c30b4b122356a6b1c1b166feccac93267a924435b844ac5b6876394",
+      "unchanged": true
+    },
+    {
+      "file": "block/block-match3-v2.wav",
+      "sha256": "cec025367d5fb93c936fa2cf5c8c19832fee29aac67d40dd1e5f4b31271ed896",
+      "unchanged": true
+    },
+    {
+      "file": "combo/combo1-v2.wav",
+      "sha256": "1c50fcec4403c5222b19518815de7c30eaba50122fabb90c406a3a25407b55d5",
+      "unchanged": true
+    },
+    {
+      "file": "combo/combo2-v2.wav",
+      "sha256": "08f80f02117531014e3678a13c1d76308e53dbc38d61230ba7c923373a8a9fff",
+      "unchanged": true
+    },
+    {
+      "file": "combo/combo3-v2.wav",
+      "sha256": "60a1708dea0bbe63f0fdde9405fc0755ccd285f2c06d53f4a6785eb1225deab1",
+      "unchanged": true
+    },
+    {
+      "file": "special/special-line-v3.wav",
+      "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63",
+      "unchanged": true
+    },
+    {
+      "file": "special/special-create-v3.wav",
+      "sha256": "0c522a3ddcbcb52ae417919e331875778ea3029b454e16c28aa216b9065a2cbc",
+      "unchanged": true
+    },
+    {
+      "file": "special/special-bomb-v3.wav",
+      "sha256": "1c3b0b9f892f374d4cf178fc8127e0edc03a803c10a239975c5329d644c20a20",
+      "unchanged": true
+    },
+    {
+      "file": "special/special-combo-lines-v3.wav",
+      "sha256": "ecedd894575529540b0b02b0413d2f53f75e2d3b99f7849800704652f027b252",
+      "unchanged": true
+    },
+    {
+      "file": "special/special-combo-blasts-v3.wav",
+      "sha256": "d8cd5cde2a4293a0f2a4587ca5f8a82fec4ad86a99fe1c1d3f14000e805a939c",
+      "unchanged": true
+    },
+    {
+      "file": "ui/countdown-3-v2.wav",
+      "sha256": "49d6eacea17e941326a676bdedf4548870711a0f8990b9a5347d4626e3c7504f",
+      "unchanged": true
+    },
+    {
+      "file": "ui/countdown-2-v2.wav",
+      "sha256": "97536a4d58dfe44c2f237fa37d6efca3b1962358f9a3a1ab296745d04c9219c9",
+      "unchanged": true
+    },
+    {
+      "file": "ui/countdown-1-v2.wav",
+      "sha256": "8b2acc2336f5eecf85cbd8150686f08f6d4e5bc0c75ffb8b7c4afabe04a12e61",
+      "unchanged": true
+    },
+    {
+      "file": "ui/countdown-start-v2.wav",
+      "sha256": "a9cb51f6a0c45a21cc85e09d154ff10974000737b36aeac0181976ae8e92a2c9",
+      "unchanged": true
+    }
+  ],
+  "configurationUnchanged": true,
+  "comparison": [
+    {
+      "file": "special-combo-line-blast-v3.wav",
+      "spectralCentroidHz": 501.7539957983234,
+      "energyBelow300Hz": 0.3644076893922829,
+      "effectiveRms": 0.15006464602887773
+    },
+    {
+      "file": "special-combo-line-blast-v4.wav",
+      "spectralCentroidHz": 4881.877212032375,
+      "energyBelow300Hz": 0.07987063941147145,
+      "effectiveRms": 0.12237840619098268
+    }
+  ],
+  "limitation": "Spectral direction only; not subjective listening."
+}

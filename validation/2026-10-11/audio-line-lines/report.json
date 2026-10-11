@@ -1,0 +1,99 @@
+{
+  "checks": [
+    "Actual line+line pointer swap plays the approved line cue once, loads/plays/ends at .4s/.72 gain and settles transactions",
+    "100 rapid line+line requests accept one; subsequent stronger combo cannot interrupt it; no queued replay",
+    "Muted line+line still settles and scores without constructing sound objects",
+    {
+      "nativeClockPlay": [
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 340.5
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-line"
+          },
+          "accepted": true,
+          "at": 436.80000019073486
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 856.3000001907349
+        }
+      ]
+    }
+  ],
+  "files": [],
+  "gameplay": [
+    {
+      "mode": "combo-lines",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-line"
+          },
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 550
+        }
+      ],
+      "score": 150,
+      "transactions": 0,
+      "media": [
+        {
+          "src": "http://127.0.0.1:60597/assets/audio/block/block-swap-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.58,
+          "duration": 0.12
+        },
+        {
+          "src": "http://127.0.0.1:60597/assets/audio/special/special-line-v3.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.72,
+          "duration": 0.4
+        },
+        {
+          "src": "http://127.0.0.1:60597/assets/audio/block/block-fall-v1.wav",
+          "events": [
+            "loadeddata",
+            "playing",
+            "ended"
+          ],
+          "volume": 0.24,
+          "duration": 0.1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "mediaErrors": [],
+  "audioRequests": [],
+  "subjectiveListening": "Pending human listening; browser playing/ended and numerical headroom are not an audible style/fatigue verdict.",
+  "success": true
+}

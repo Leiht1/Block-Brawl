@@ -1,0 +1,13 @@
+{
+  "name": "block-brawl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "方块乱斗：三消教学、地图事件与卡牌人机竞技",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build:offline": "node scripts/build-offline-html.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}

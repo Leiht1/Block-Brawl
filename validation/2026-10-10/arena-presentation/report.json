@@ -1,0 +1,103 @@
+{
+  "viewport": "1440x960",
+  "difficulties": [
+    {
+      "difficulty": "easy",
+      "screen": "arena",
+      "status": "playing",
+      "winner": null,
+      "target": 3000,
+      "player": 30,
+      "opponent": 30,
+      "result": null,
+      "bot": true,
+      "due": null,
+      "tx": 0,
+      "opponentTx": 1,
+      "view": {
+        "motions": 0,
+        "effects": 0,
+        "ghosts": 3,
+        "formations": 0,
+        "charges": 0
+      },
+      "mainFx": {
+        "combos": 0,
+        "effects": 0,
+        "motions": 0
+      },
+      "same": false,
+      "playerBoardWidth": 480,
+      "opponentBoardWidth": 480
+    },
+    {
+      "difficulty": "normal",
+      "screen": "arena",
+      "status": "playing",
+      "winner": null,
+      "target": 6000,
+      "player": 320,
+      "opponent": 30,
+      "result": null,
+      "bot": true,
+      "due": null,
+      "tx": 0,
+      "opponentTx": 1,
+      "view": {
+        "motions": 0,
+        "effects": 0,
+        "ghosts": 3,
+        "formations": 0,
+        "charges": 0
+      },
+      "mainFx": {
+        "combos": 0,
+        "effects": 0,
+        "motions": 0
+      },
+      "same": false,
+      "playerBoardWidth": 480,
+      "opponentBoardWidth": 480
+    },
+    {
+      "difficulty": "hard",
+      "screen": "arena",
+      "status": "playing",
+      "winner": null,
+      "target": 10000,
+      "player": 30,
+      "opponent": 60,
+      "result": null,
+      "bot": true,
+      "due": null,
+      "tx": 0,
+      "opponentTx": 1,
+      "view": {
+        "motions": 0,
+        "effects": 0,
+        "ghosts": 6,
+        "formations": 0,
+        "charges": 0
+      },
+      "mainFx": {
+        "combos": 0,
+        "effects": 0,
+        "motions": 0
+      },
+      "same": false,
+      "playerBoardWidth": 480,
+      "opponentBoardWidth": 480
+    }
+  ],
+  "checks": [
+    "three difficulty targets retained, central green/red scores without progress bars",
+    "both synchronized shrinking countdowns and countdown input gate",
+    "central scores sit between equal boards with more than 200px separation",
+    "white point feedback uses shared size scaling",
+    "480x480 equal-size boards side by side and actual player input",
+    "real bot animation, restart and exit cleanup",
+    "combo remains visible at 300ms, clears at 520ms before gravity",
+    "browser errors empty"
+  ],
+  "errors": []
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "author": "Kenney",
+    "title": "Impact Sounds 1.0",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "evidence": "impact-sounds.html",
+    "archive": "impact-sounds.zip",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "files": [
+      {
+        "file": "impact-sounds/Audio/impactWood_light_000.ogg",
+        "sha256": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3",
+        "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip"
+      },
+      {
+        "file": "impact-sounds/Audio/impactWood_light_002.ogg",
+        "sha256": "b183cf7a5bd783817e0e4b82af34ac6658fa1927049089dadc8b15c2ecc771dc",
+        "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip"
+      },
+      {
+        "file": "impact-sounds/Audio/impactGlass_light_001.ogg",
+        "sha256": "05e513fbd42829060eb37855f8c3866722ec5c39a8937c9bfde518cc609effa2",
+        "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip"
+      }
+    ],
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "a11927c176d68d67a22d76e4650f5539f40b5078039ef64153fa2277cb5f32d6",
+    "archiveSha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8"
+  },
+  {
+    "author": "trezegames",
+    "title": "Pop effect sounds",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/pop-effect-sounds",
+    "evidence": "pop-effect-sounds.html",
+    "files": [
+      {
+        "file": "p_1.ogg",
+        "sha256": "189b05f2a278053f9b29b70f79746bf2d81e34b5e01502c10eb3691892a73b68",
+        "download": "https://opengameart.org/sites/default/files/p_1.ogg"
+      },
+      {
+        "file": "p_2.ogg",
+        "sha256": "191935b3c7a1ec3b09a6ae98fa830a86049edc177e670383b780fb5694aaff1e",
+        "download": "https://opengameart.org/sites/default/files/p_2.ogg"
+      },
+      {
+        "file": "p_3.ogg",
+        "sha256": "1d4f456714c70b83de02efe4d54f65ff6dfb2c74fec3a7ecd4aa8dde137424f3",
+        "download": "https://opengameart.org/sites/default/files/p_3.ogg"
+      }
+    ],
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "7f88a078f1cd58b3ccfc9a23f054f891c16b286dfd3f06a06a0223828f8953c4"
+  },
+  {
+    "author": "Sam Gossner & Simon Dalzell; sample cutting: Elan Hickler / Soundemote",
+    "title": "VSCO 2 Community Edition — Marimba",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://github.com/sgossner/VSCO-2-CE/blob/440300901dfe9275fd84e0b7763af1f8443ae62e/LICENSE",
+    "page": "https://github.com/sgossner/VSCO-2-CE",
+    "evidence": "vsco-README.md",
+    "licenseEvidence": "vsco-LICENSE.txt",
+    "revision": "440300901dfe9275fd84e0b7763af1f8443ae62e",
+    "files": [
+      {
+        "file": "marimba-c4.wav",
+        "sha256": "4af539d47a452d7fad26e171b1c8adcca272cee97191f040d192680462c880b8",
+        "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav"
+      },
+      {
+        "file": "marimba-g4.wav",
+        "sha256": "36f39f9f24789001add2b4c440defb7641178b0e8449c5cb7f1960bccaf0aaaf",
+        "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav"
+      }
+    ],
+    "downloads": {
+      "marimba-c4.wav": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav",
+      "marimba-g4.wav": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav"
+    },
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "8fbf399338661e6c76585ad9e75eb10324f823935168e0567553293a83f200a0",
+    "licenseEvidenceSha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+  },
+  {
+    "author": "Blender Foundation / YoFrankie! (c) 2008",
+    "title": "Funny Comic Cartoon Bounce Sound",
+    "license": "CC-BY-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://opengameart.org/content/funny-comic-cartoon-bounce-sound",
+    "evidence": "funny-comic-cartoon-bounce-sound.html",
+    "files": [
+      {
+        "file": "BounceYoFrankie.flac",
+        "sha256": "80abfe50382c0fb16a8fa1b1444bc703ab3101d18978311eda9b4e44a66618ab",
+        "download": "https://opengameart.org/sites/default/files/BounceYoFrankie.flac"
+      }
+    ],
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "0a74268fa952d3e68323c442d94c9c3313726ccc40b673def76b8bd825b57be9"
+  },
+  {
+    "author": "The Berklee College of Music",
+    "title": "Shimmer glitter magic",
+    "license": "CC-BY-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://opengameart.org/content/shimmer-glitter-magic",
+    "evidence": "shimmer-glitter-magic.html",
+    "files": [
+      {
+        "file": "shimmer_1.flac",
+        "sha256": "b6802e6ef22189058a4406ae5c7bda9a54c47e908fad3fd6212650c1aa0170af",
+        "download": "https://opengameart.org/sites/default/files/shimmer_1.flac"
+      }
+    ],
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "27a4bc25ef0bf686124e789afb87c62094836b98b3272b17feba70ede70cf29a"
+  },
+  {
+    "author": "ViRiX Dreamcore (David Mckee)",
+    "title": "Magic SFX Sample — individual finished magic cues",
+    "license": "CC-BY-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://opengameart.org/content/magic-sfx-sample",
+    "evidence": "magic/magic-sfx-sample.html",
+    "archive": "magic/magic-sfx.zip",
+    "download": "https://opengameart.org/sites/default/files/Magic%20SFX%20Preview%20Pack.zip",
+    "files": [
+      {
+        "file": "magic/virix/Misc 02.wav",
+        "sha256": "21728538d4220720df0beceeb3d39da60c0b0ade9f6296ec493982755e9fe272",
+        "download": "https://opengameart.org/sites/default/files/Magic%20SFX%20Preview%20Pack.zip"
+      },
+      {
+        "file": "magic/virix/Ice attack 2.wav",
+        "sha256": "148e143241e6516c7229c366bb5574a29d556179ee2021c7e40bd3d5e5066311",
+        "download": "https://opengameart.org/sites/default/files/Magic%20SFX%20Preview%20Pack.zip"
+      },
+      {
+        "file": "magic/virix/Fire impact 1.wav",
+        "sha256": "0fa4afbf37b12dc6c54f33cdded356b5f344a0156b84af94b70d843886c1efad",
+        "download": "https://opengameart.org/sites/default/files/Magic%20SFX%20Preview%20Pack.zip"
+      }
+    ],
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "10fd4c3d1d264164924ef7cb9ccbbd40c902321771d6bbeef3af55abc8fc8858",
+    "archiveSha256": "77f964847ade8e84728a64cfc901d1d18b51459963c68e9f48bd19b0d0d8aa4e"
+  },
+  {
+    "author": "spookymodem",
+    "title": "Magic Smite",
+    "license": "CC-BY-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://opengameart.org/content/magic-smite",
+    "evidence": "magic/magic-smite.html",
+    "files": [
+      {
+        "file": "magic/magic-smite.wav",
+        "sha256": "a9a3a71a1ec4512cff71d5d892a72626b988fa13f52b67152a8f22f475ce1ad5",
+        "download": "https://opengameart.org/sites/default/files/Magic%20Smite.wav"
+      }
+    ],
+    "downloads": {
+      "magic/magic-smite.wav": "https://opengameart.org/sites/default/files/Magic%20Smite.wav"
+    },
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "a35426bd9999122703db7bff5b93cc846d0aa8df6a84123918e655f9a62992ab"
+  },
+  {
+    "author": "Iwan 'qubodup' Gabovitch",
+    "title": "Ice & Electricity Magic — IceDamage03b",
+    "license": "CC-BY-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://opengameart.org/content/ice-electricity-magic",
+    "evidence": "line-blast/ice-electricity-magic.html",
+    "archive": "line-blast/ice-electricity.7z",
+    "download": "https://opengameart.org/sites/default/files/qubodupIceAndElectricitySpells.7z",
+    "files": [
+      {
+        "file": "line-blast/qubodupIceAndElectricitySpells/qubodupIceDamage03b.flac",
+        "sha256": "6857dfc6cdd3efee4aa164f8b8402d9e7d7bc2289daf98bd9defc0e823474c64",
+        "download": "https://opengameart.org/sites/default/files/qubodupIceAndElectricitySpells.7z"
+      }
+    ],
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "2f521296683041b84d2f9d8008b1da3eb1d2e6c9af892a19ab6849567c9e5dae",
+    "archiveSha256": "e38bf3046f1503d7bad52894ff6d3d4d2e18d595746ab68151667c84a1b12a8d"
+  }
+]

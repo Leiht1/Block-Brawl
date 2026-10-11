@@ -1,0 +1,395 @@
+{
+  "bgm.lobby": {
+    "src": "./assets/audio/bgm/lobby/bgm-lobby-v1.ogg",
+    "channel": "bgm",
+    "type": "bgm",
+    "loop": true,
+    "volume": 0.66,
+    "cooldownMs": 100,
+    "maxDurationMs": 8000,
+    "bpm": 100,
+    "seconds": 153.6,
+    "source": {
+      "title": "方块乱斗原创编排 · VSCO 2 Community Edition acoustic recordings",
+      "author": "Project arrangement; samples Sam Gossner & Simon Dalzell / Elan Hickler",
+      "url": "https://github.com/sgossner/VSCO-2-CE",
+      "license": "Project-original arrangement; samples CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence": "references/audio-stage4/sources.json"
+    },
+    "license": "Project-original arrangement; samples CC0-1.0"
+  },
+  "bgm.battle": {
+    "src": "./assets/audio/bgm/battle/bgm-battle-v1.ogg",
+    "channel": "bgm",
+    "type": "bgm",
+    "loop": true,
+    "volume": 0.6,
+    "cooldownMs": 100,
+    "maxDurationMs": 8000,
+    "bpm": 128,
+    "seconds": 120,
+    "source": {
+      "title": "方块乱斗原创编排 · VSCO 2 Community Edition acoustic recordings",
+      "author": "Project arrangement; samples Sam Gossner & Simon Dalzell / Elan Hickler",
+      "url": "https://github.com/sgossner/VSCO-2-CE",
+      "license": "Project-original arrangement; samples CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence": "references/audio-stage4/sources.json"
+    },
+    "license": "Project-original arrangement; samples CC0-1.0"
+  },
+  "ui.click": {
+    "src": "./assets/audio/ui/ui-click-v1.wav",
+    "channel": "ui",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.38,
+    "cooldownMs": 85,
+    "maxDurationMs": 590,
+    "seconds": 0.09,
+    "voiceLimit": 1,
+    "mergeGroup": "ui-action",
+    "source": {
+      "title": "Pop effect sounds — p_2",
+      "author": "trezegames",
+      "url": "https://opengameart.org/content/pop-effect-sounds",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "license": "CC0-1.0"
+  },
+  "ui.confirm": {
+    "src": "./assets/audio/ui/ui-confirm-v1.wav",
+    "channel": "ui",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.34,
+    "cooldownMs": 350,
+    "maxDurationMs": 820,
+    "seconds": 0.32,
+    "voiceLimit": 1,
+    "mergeGroup": "ui-confirm",
+    "source": {
+      "title": "方块乱斗原创编排 · VSCO 2 Community Edition acoustic recordings",
+      "author": "Project arrangement; samples Sam Gossner & Simon Dalzell / Elan Hickler",
+      "url": "https://github.com/sgossner/VSCO-2-CE",
+      "license": "Project-original arrangement; samples CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence": "references/audio-stage4/sources.json"
+    },
+    "license": "CC0-1.0"
+  },
+  "map.shuffle": {
+    "src": "./assets/audio/ui/map-shuffle-v1.wav",
+    "channel": "ui",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.42,
+    "cooldownMs": 550,
+    "maxDurationMs": 920,
+    "seconds": 0.42,
+    "voiceLimit": 1,
+    "mergeGroup": "map-selection",
+    "source": {
+      "title": "Casino Audio — card-fan-1",
+      "author": "Kenney",
+      "url": "https://kenney.nl/assets/casino-audio",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "license": "CC0-1.0"
+  },
+  "map.reveal": {
+    "src": "./assets/audio/ui/map-reveal-v1.wav",
+    "channel": "ui",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.38,
+    "cooldownMs": 550,
+    "maxDurationMs": 1160,
+    "seconds": 0.66,
+    "voiceLimit": 1,
+    "mergeGroup": "map-selection",
+    "source": {
+      "title": "方块乱斗原创编排 · VSCO 2 Community Edition acoustic recordings",
+      "author": "Project arrangement; samples Sam Gossner & Simon Dalzell / Elan Hickler",
+      "url": "https://github.com/sgossner/VSCO-2-CE",
+      "license": "Project-original arrangement; samples CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence": "references/audio-stage4/sources.json"
+    },
+    "license": "CC0-1.0"
+  },
+  "ui.countdown": {
+    "src": "./assets/audio/ui/countdown-3-v2.wav",
+    "channel": "ui",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.3,
+    "cooldownMs": 500,
+    "maxDurationMs": 1600,
+    "mergeGroup": "countdown",
+    "voiceLimit": 1,
+    "variants": {
+      "1": {
+        "src": "./assets/audio/ui/countdown-1-v2.wav",
+        "volume": 0.34
+      },
+      "2": {
+        "src": "./assets/audio/ui/countdown-2-v2.wav",
+        "volume": 0.32
+      },
+      "3": {
+        "src": "./assets/audio/ui/countdown-3-v2.wav",
+        "volume": 0.3
+      },
+      "start": {
+        "src": "./assets/audio/ui/countdown-start-v2.wav",
+        "volume": 0.4
+      }
+    }
+  },
+  "ui.win": {
+    "src": null,
+    "channel": "ui",
+    "type": "sfx",
+    "loop": false,
+    "volume": 1,
+    "cooldownMs": 100,
+    "maxDurationMs": 8000
+  },
+  "ui.lose": {
+    "src": null,
+    "channel": "ui",
+    "type": "sfx",
+    "loop": false,
+    "volume": 1,
+    "cooldownMs": 100,
+    "maxDurationMs": 8000
+  },
+  "block.swap": {
+    "src": "./assets/audio/block/block-swap-v2.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.42,
+    "cooldownMs": 70,
+    "maxDurationMs": 1600,
+    "mergeGroup": "operation",
+    "voiceLimit": 2
+  },
+  "block.invalid": {
+    "src": "./assets/audio/block/block-invalid-v1.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.32,
+    "cooldownMs": 100,
+    "maxDurationMs": 1600,
+    "mergeGroup": "operation",
+    "voiceLimit": 2
+  },
+  "block.match3": {
+    "src": "./assets/audio/block/block-match3-v2.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.46,
+    "cooldownMs": 120,
+    "maxDurationMs": 1600,
+    "mergeGroup": "match",
+    "voiceLimit": 1
+  },
+  "block.combo": {
+    "src": "./assets/audio/combo/combo1-v2.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.48,
+    "cooldownMs": 120,
+    "maxDurationMs": 1600,
+    "mergeGroup": "match",
+    "voiceLimit": 1,
+    "variants": {
+      "combo1": {
+        "src": "./assets/audio/combo/combo1-v2.wav",
+        "volume": 0.48
+      },
+      "combo2": {
+        "src": "./assets/audio/combo/combo2-v2.wav",
+        "volume": 0.51
+      },
+      "combo3": {
+        "src": "./assets/audio/combo/combo3-v2.wav",
+        "volume": 0.54
+      }
+    }
+  },
+  "block.fall": {
+    "src": "./assets/audio/block/block-fall-v1.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.24,
+    "cooldownMs": 160,
+    "maxDurationMs": 1600,
+    "mergeGroup": "operation",
+    "voiceLimit": 2
+  },
+  "special.create": {
+    "src": "./assets/audio/special/special-create-v3.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.34,
+    "cooldownMs": 100,
+    "maxDurationMs": 1600,
+    "mergeGroup": "special",
+    "voiceLimit": 1
+  },
+  "special.line": {
+    "src": "./assets/audio/special/special-line-v3.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.46,
+    "cooldownMs": 100,
+    "maxDurationMs": 1600,
+    "mergeGroup": "special",
+    "voiceLimit": 1
+  },
+  "special.bomb": {
+    "src": "./assets/audio/special/special-bomb-v3.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.48,
+    "cooldownMs": 100,
+    "maxDurationMs": 1600,
+    "mergeGroup": "special",
+    "voiceLimit": 1
+  },
+  "special.combo": {
+    "src": "./assets/audio/special/special-line-v3.wav",
+    "channel": "effect",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.5,
+    "cooldownMs": 150,
+    "maxDurationMs": 1600,
+    "mergeGroup": "special",
+    "voiceLimit": 1,
+    "variants": {
+      "line-line": {
+        "src": "./assets/audio/special/special-line-v3.wav",
+        "volume": 0.5
+      },
+      "line-blast": {
+        "src": "./assets/audio/special/special-combo-line-blast-v5.wav",
+        "volume": 0.56
+      },
+      "blast-blast": {
+        "src": "./assets/audio/special/special-combo-blasts-v3.wav",
+        "volume": 0.28
+      }
+    }
+  },
+  "cliff.warning": {
+    "src": "./assets/audio/maps/cliff/cliff-warning-v1.wav",
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.4,
+    "cooldownMs": 900,
+    "maxDurationMs": 1750,
+    "mergeGroup": "environment:cliff:warning",
+    "voiceLimit": 1
+  },
+  "cliff.fall": {
+    "src": "./assets/audio/maps/cliff/cliff-fall-v2.wav",
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.44,
+    "cooldownMs": 350,
+    "maxDurationMs": 1270,
+    "mergeGroup": "environment:cliff:fall",
+    "voiceLimit": 1
+  },
+  "cliff.impact": {
+    "src": "./assets/audio/maps/cliff/cliff-impact-v2.wav",
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.33,
+    "cooldownMs": 350,
+    "maxDurationMs": 1130,
+    "mergeGroup": "environment:cliff:impact",
+    "voiceLimit": 1
+  },
+  "ice.freeze": {
+    "src": "./assets/audio/maps/ice/ice-freeze-v1.wav",
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.39,
+    "cooldownMs": 500,
+    "maxDurationMs": 1350,
+    "mergeGroup": "environment:ice:freeze",
+    "voiceLimit": 1
+  },
+  "ice.break": {
+    "src": "./assets/audio/maps/ice/ice-break-v1.wav",
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.4,
+    "cooldownMs": 180,
+    "maxDurationMs": 1250,
+    "mergeGroup": "environment:ice:break",
+    "voiceLimit": 1
+  },
+  "ruins.activate": {
+    "src": "./assets/audio/maps/ruins/ruins-activate-v1.wav",
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.39,
+    "cooldownMs": 900,
+    "maxDurationMs": 1700,
+    "mergeGroup": "environment:ruins:activate",
+    "voiceLimit": 1
+  },
+  "ruins.pillar": {
+    "src": null,
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 1,
+    "cooldownMs": 100,
+    "maxDurationMs": 8000
+  },
+  "furnace.warning": {
+    "src": "./assets/audio/maps/furnace/furnace-warning-v1.wav",
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.35,
+    "cooldownMs": 400,
+    "maxDurationMs": 1200,
+    "mergeGroup": "environment:furnace:warning",
+    "voiceLimit": 1
+  },
+  "furnace.spread": {
+    "src": "./assets/audio/maps/furnace/furnace-spread-v1.wav",
+    "channel": "environment",
+    "type": "sfx",
+    "loop": false,
+    "volume": 0.39,
+    "cooldownMs": 500,
+    "maxDurationMs": 1310,
+    "mergeGroup": "environment:furnace:spread",
+    "voiceLimit": 1
+  }
+}

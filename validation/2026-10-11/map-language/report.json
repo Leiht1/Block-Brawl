@@ -1,0 +1,143 @@
+{
+  "checks": [
+    {
+      "map": "cliff",
+      "targets": [
+        [
+          24,
+          25,
+          32,
+          33
+        ],
+        [
+          5,
+          6,
+          13,
+          14
+        ]
+      ],
+      "duration": 5000,
+      "dynamicFire": false,
+      "stages": [
+        "Environment",
+        "Camera",
+        "Board",
+        "Gameplay"
+      ],
+      "camera": true
+    },
+    {
+      "map": "crystal",
+      "persistentPast6000": true,
+      "thawedByActualSwap": {
+        "a": 3,
+        "b": 11,
+        "ice": [
+          13
+        ]
+      },
+      "stages": [
+        "Environment",
+        "Board",
+        "Gameplay"
+      ],
+      "camera": false
+    },
+    {
+      "map": "ruins",
+      "targets": [
+        [
+          5,
+          6,
+          13,
+          14
+        ],
+        [
+          5,
+          6,
+          13,
+          14
+        ]
+      ],
+      "structureChanges": true,
+      "newObstacles": 0,
+      "stages": [
+        "Environment",
+        "Board",
+        "Gameplay"
+      ],
+      "camera": false
+    },
+    {
+      "map": "furnace",
+      "targets": [
+        [
+          11,
+          31,
+          12
+        ],
+        [
+          53,
+          58,
+          27
+        ]
+      ],
+      "duration": 9000,
+      "dynamicFire": true,
+      "stages": [
+        "Environment",
+        "Board",
+        "Gameplay"
+      ],
+      "camera": false
+    },
+    "Actual restart/exit cleanup, reduced motion, identical 480×480 geometry and restored drawing transforms"
+  ],
+  "frames": [
+    "cliff-before.png",
+    "cliff-environment.png",
+    "cliff-mountain-shake.png",
+    "cliff-warning.png",
+    "cliff-arrival.png",
+    "cliff-execute.png",
+    "cliff-landing.png",
+    "cliff-active.png",
+    "cliff-event.png",
+    "cliff-recovery.png",
+    "cliff-restored.png",
+    "crystal-before.png",
+    "crystal-environment.png",
+    "crystal-warning.png",
+    "crystal-arrival.png",
+    "crystal-execute.png",
+    "crystal-landing.png",
+    "crystal-active.png",
+    "crystal-event.png",
+    "crystal-persistent.png",
+    "crystal-cracks.png",
+    "crystal-shards.png",
+    "crystal-recovered.png",
+    "ruins-before.png",
+    "ruins-environment.png",
+    "ruins-warning.png",
+    "ruins-arrival.png",
+    "ruins-execute.png",
+    "ruins-event.png",
+    "ruins-landing.png",
+    "ruins-active.png",
+    "ruins-changed.png",
+    "furnace-before.png",
+    "furnace-environment.png",
+    "furnace-warning.png",
+    "furnace-arrival.png",
+    "furnace-execute.png",
+    "furnace-landing.png",
+    "furnace-active.png",
+    "furnace-event.png",
+    "furnace-flame-motion.png",
+    "furnace-still-burning.png",
+    "furnace-recovery.png",
+    "furnace-restored.png"
+  ],
+  "errors": []
+}

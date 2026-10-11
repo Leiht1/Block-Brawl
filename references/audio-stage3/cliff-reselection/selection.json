@@ -1,0 +1,141 @@
+{
+  "approvedBy": "user",
+  "warning": "A",
+  "choices": [
+    {
+      "id": "cliff.fall",
+      "candidate": "F",
+      "label": "自然崖壁落石",
+      "description": "实录悬崖落石和小石级联，保留自然石质撞击。",
+      "file": "maps/cliff/cliff-fall-v2.wav",
+      "seconds": 0.62,
+      "volume": 0.44,
+      "sha256": "b3fb58adb5eb4a2e1394574dd84fd9639199f0f16d8245ca330069fe7a934625",
+      "peak": 0.65,
+      "rms": 0.08615663269540037,
+      "effectiveRms": 0.03790891838597617,
+      "sources": [
+        {
+          "slug": "swish-04",
+          "author": "qubodup / Iwan Gabovitch",
+          "title": "Swish bamboo stick",
+          "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "file": "references/audio-stage2/swishes/swosh-04.flac",
+          "sha256": "651afe743f1713c01b46a43a8fe099e5f866b46c22a98682c7d05728cfa4f5ae"
+        },
+        {
+          "slug": "alancat",
+          "author": "AlanCat",
+          "title": "rockfall2a.wav",
+          "page": "https://freesound.org/people/AlanCat/sounds/389303/",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": "alancat.html",
+          "evidenceSha256": "977ec5e119a2cc1f9ed0cb2cd0a3d14c0016d1871f8eee8882a7890ff82a30f6",
+          "download": "https://cdn.freesound.org/previews/389/389303_5486695-hq.mp3",
+          "file": "alancat.mp3",
+          "sha256": "db15885029d027756ef2b90114c202f4837f10a128371f493904b4886818ffcd",
+          "formatNote": "public HQ MP3 preview (not original WAV)",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "edits": [
+        {
+          "slug": "swish-04",
+          "seconds": 0.27,
+          "delay": 0,
+          "gain": 1,
+          "start": 0,
+          "speed": 0.85,
+          "lowpass": 2700
+        },
+        {
+          "slug": "alancat",
+          "seconds": 0.35,
+          "delay": 0.25,
+          "gain": 1,
+          "start": 7.11218,
+          "speed": 0.9,
+          "lowpass": 4000
+        }
+      ],
+      "status": "installed",
+      "installed": true,
+      "auditionFile": "cliff-reselection/cliff-fall-F-v2.wav",
+      "selectedBy": "user",
+      "selectionBasis": "User explicitly chose cliff fall F and dust/impact D."
+    },
+    {
+      "id": "cliff.impact",
+      "candidate": "D",
+      "label": "沙尘散开",
+      "description": "以细沙落沙录音为主，少量石粒尾；避免第二次重撞。",
+      "file": "maps/cliff/cliff-impact-v2.wav",
+      "seconds": 0.48,
+      "volume": 0.33,
+      "sha256": "8a36bade9ead94b277bbf1f8c990f5e8558e367cfdada53a1a519ae901b195c1",
+      "peak": 0.65,
+      "rms": 0.03621574235962908,
+      "effectiveRms": 0.011951194978677597,
+      "sources": [
+        {
+          "slug": "sand",
+          "author": "martinimeniscus / Florentine Films SFX",
+          "title": "sand pour on sand FF662.aif",
+          "page": "https://freesound.org/people/martinimeniscus/sounds/199332/",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": "sand.html",
+          "evidenceSha256": "0a42b1fea01edeca4004bbdca7a5df1ed0241df53fba31f3062f45fbf4dd2aa0",
+          "download": "https://cdn.freesound.org/previews/199/199332_2320755-hq.mp3",
+          "file": "sand.mp3",
+          "sha256": "819a0c32f19ce02a3d6728f9521028d60e47b3b2984b8ab16096a7d63d3c1296",
+          "formatNote": "public HQ MP3 preview (not original WAV)",
+          "checkedOn": "2026-10-11"
+        },
+        {
+          "slug": "stubb",
+          "author": "_stubb",
+          "title": "Rock Tumble 2.wav",
+          "page": "https://freesound.org/people/_stubb/sounds/389618/",
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "evidence": "stubb.html",
+          "evidenceSha256": "458c77dbd2b26a6e20df60e32a49012af441eb0bb7a7bd3bdc9f1d310ff8cce8",
+          "download": "https://cdn.freesound.org/previews/389/389618_6068748-hq.mp3",
+          "file": "stubb.mp3",
+          "sha256": "199521191be552261d6e604c8d34e40cfeac4b3d7f3075906dd27182c73adb4a",
+          "formatNote": "public HQ MP3 preview (not original WAV)",
+          "checkedOn": "2026-10-11"
+        }
+      ],
+      "edits": [
+        {
+          "slug": "sand",
+          "seconds": 0.48,
+          "delay": 0,
+          "gain": 1,
+          "start": 2.6,
+          "speed": 1,
+          "lowpass": 5800
+        },
+        {
+          "slug": "stubb",
+          "seconds": 0.27,
+          "delay": 0.12,
+          "gain": 0.16,
+          "start": 0.7,
+          "speed": 1,
+          "lowpass": 4400
+        }
+      ],
+      "status": "installed",
+      "installed": true,
+      "auditionFile": "cliff-reselection/cliff-impact-D-v2.wav",
+      "selectedBy": "user",
+      "selectionBasis": "User explicitly chose cliff fall F and dust/impact D."
+    }
+  ]
+}

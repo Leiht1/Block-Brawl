@@ -1,0 +1,4749 @@
+{
+  "removedFiles": 854,
+  "retained": "Production assets, source art, stage4 composition samples, provenance/license records, QA reports. Offline HTML is local-only and rebuildable.",
+  "removedBytes": 595548221,
+  "date": "2026-10-11",
+  "removed": [
+    {
+      "sha256": "5d1fc30231b78e8df3e5a43385bc2449d808484875d085b7cad716bda1f532fd",
+      "path": "validation/2026-10-10/before-concept-alignment.png",
+      "bytes": 148736
+    },
+    {
+      "sha256": "9249fc1c2f71cf3d42120443f2d9977ba8e11d9eca825d81889b9ecd84f4c585",
+      "path": "validation/2026-10-10/forest-beam-frame.png",
+      "bytes": 250816
+    },
+    {
+      "sha256": "5fe094908124c0178f3d5287f19e36f96ecbb2a046b1b06522a6557f373f6a1a",
+      "path": "validation/2026-10-10/forest-blast-frame.png",
+      "bytes": 254963
+    },
+    {
+      "sha256": "32f7fc0dc6d5c06b9ef8fac93619aa40b6c76f5f18944de62ccb4af60c5c8671",
+      "path": "validation/2026-10-10/forest-desktop.png",
+      "bytes": 252626
+    },
+    {
+      "sha256": "645c4e79e764c7c27d39b0cea4e97a027d233e22acd2c0552e3ad7cf03a12116",
+      "path": "validation/2026-10-10/forest-mobile-320.png",
+      "bytes": 69500
+    },
+    {
+      "sha256": "b601790d03ed2baa590727a11bf72fa05ae30cf192fc4661e1d3e25bd6deeccd",
+      "path": "validation/2026-10-10/forest-mobile-390.png",
+      "bytes": 86138
+    },
+    {
+      "sha256": "b1e10df93eb21cf6d9bb97d216bd97078b956a9d2fa97af3bae8968512f26cf6",
+      "path": "validation/2026-10-10/arena/arena.png",
+      "bytes": 1516239
+    },
+    {
+      "sha256": "e7e5e68c4d83bccd025fecc1f7de9341b2941be2fdb9f92eb633298d85ca0dc8",
+      "path": "validation/2026-10-10/arena/result.png",
+      "bytes": 1162243
+    },
+    {
+      "sha256": "8bf937ab97aa906bc9262db770b63a9a3376948925435667f258e2f86850b227",
+      "path": "validation/2026-10-10/arena-identity/home.png",
+      "bytes": 1755741
+    },
+    {
+      "sha256": "8ca1a965d10aa53af883bebaa1b84f93c1c1e6d62835686a00ea3990b45cc58e",
+      "path": "validation/2026-10-10/arena-identity/teams.png",
+      "bytes": 916575
+    },
+    {
+      "sha256": "56c2c54f01ffcfe5fa582f8593e579f79a27c74fc845e4f7188efd62780fcc3f",
+      "path": "validation/2026-10-10/arena-presentation/arena.png",
+      "bytes": 969400
+    },
+    {
+      "sha256": "1719d66acc0bd9eed37951617b5d820a38960195f5b3ddc10ce86a0cebef099a",
+      "path": "validation/2026-10-10/arena-presentation/combo-300ms.png",
+      "bytes": 1244333
+    },
+    {
+      "sha256": "4cec67eabc6644fb8da193348ce499f81e96f61e5e8cbe8616fda0f66260afe3",
+      "path": "validation/2026-10-10/arena-presentation/countdown.png",
+      "bytes": 928097
+    },
+    {
+      "sha256": "32a3800f0c2b2ab8198a73133ef3a85f779149fd8cb714a310e381cb237e686d",
+      "path": "validation/2026-10-10/arena-tuning/arena.png",
+      "bytes": 1224781
+    },
+    {
+      "sha256": "29b647f9de96683abfcaa91ca633cd8dacf8eea1e3f8a54b6c099ac891f14930",
+      "path": "validation/2026-10-10/arena-tuning/combo-300ms.png",
+      "bytes": 1496703
+    },
+    {
+      "sha256": "e10429c4c0078409ef68e3a724fb416c2b8ccad6ab6bf0d3ab2a28cd3ccd198b",
+      "path": "validation/2026-10-10/embossed-toy-material/desktop-static.png",
+      "bytes": 1443608
+    },
+    {
+      "sha256": "4bd03a9fad7d943266a9099ed0c6da88c477c095af5ddf1f1a9f7e92fab78b7c",
+      "path": "validation/2026-10-10/embossed-toy-material/normal-detail.png",
+      "bytes": 228056
+    },
+    {
+      "sha256": "1286b67efc01cf0d12d139ef81efe9e0b83c2140853cf6826fbd5b5223317197",
+      "path": "validation/2026-10-10/embossed-toy-material/specials-static.png",
+      "bytes": 265307
+    },
+    {
+      "sha256": "4be6830c305a4a7a822563f6e90220c2a403afdece9eeeeb8d6b548e30ebe616",
+      "path": "validation/2026-10-10/embossed-toy-material/static-detail.png",
+      "bytes": 329021
+    },
+    {
+      "sha256": "971e97152cbbc00ff1a26a2fb51756004003a88f41cef5c28f6b28b67951dd11",
+      "path": "validation/2026-10-10/solid-toy-material/desktop-static.png",
+      "bytes": 1419301
+    },
+    {
+      "sha256": "46b43b663791fb00e568c35477fa50465138c61788db6e8c6c0044394dd5d2a1",
+      "path": "validation/2026-10-10/solid-toy-material/normal-detail.png",
+      "bytes": 191636
+    },
+    {
+      "sha256": "bfd6160246b7d65f1c66d90506e6b5e760c3013afddc10c8d83ceb3543ca34a1",
+      "path": "validation/2026-10-10/solid-toy-material/specials-static.png",
+      "bytes": 246714
+    },
+    {
+      "sha256": "e462cdd814c362125d5ca64a8a7b65636a6016978280c29c82010a32c257590b",
+      "path": "validation/2026-10-10/solid-toy-material/static-detail.png",
+      "bytes": 311006
+    },
+    {
+      "sha256": "b87a778f34dde44abe285c45fac2ad6b22199cf72fca8937825b8dcd2555a1de",
+      "path": "validation/2026-10-10/special-light-restyle/desktop-static.png",
+      "bytes": 1439934
+    },
+    {
+      "sha256": "23ecda304c934e86ef1b64abf76d161041fa796b97e320f5b857fa352bec7d64",
+      "path": "validation/2026-10-10/special-light-restyle/specials-static.png",
+      "bytes": 252368
+    },
+    {
+      "sha256": "a16e28cf6836eeb735d1a1f34b829418d5ba577ceb4c4ba362e7e6ce1979eab8",
+      "path": "validation/2026-10-10/special-light-restyle/static-detail.png",
+      "bytes": 324322
+    },
+    {
+      "sha256": "15bf5d85543088fac60e3327f8bc37ec7228f636f615443fa09e0015662dff34",
+      "path": "validation/2026-10-10/special-upgrade/blast-active.png",
+      "bytes": 339201
+    },
+    {
+      "sha256": "954b329715ebea3089a92cdb7a0cf643558092a73291121c52eb475ebac4ef82",
+      "path": "validation/2026-10-10/special-upgrade/blast-late.png",
+      "bytes": 330236
+    },
+    {
+      "sha256": "f8e71c610e030c648b0cc36f16d446a3f154d22be46a5e6e7095c8a16812ab17",
+      "path": "validation/2026-10-10/special-upgrade/column-active.png",
+      "bytes": 300095
+    },
+    {
+      "sha256": "47a8e9ba25f4f5c4041cd7f7efacc2cd434fe2c2efb2fcf7d61a7a48a7da8f4b",
+      "path": "validation/2026-10-10/special-upgrade/column-late.png",
+      "bytes": 297518
+    },
+    {
+      "sha256": "e7b32f7a0c140ed4482e4168d19811ea46161e6c388ff99a7da99470e3813308",
+      "path": "validation/2026-10-10/special-upgrade/combo-blasts-active.png",
+      "bytes": 334220
+    },
+    {
+      "sha256": "d677d438ecc73544e613c988fb1dceed5e751f6a9ae00efa1e7efaae1a7b1e87",
+      "path": "validation/2026-10-10/special-upgrade/combo-blasts-charge.png",
+      "bytes": 266904
+    },
+    {
+      "sha256": "67165f64dccd106fc95463a64c9a1667aa237b8c0779d4cc4a6f393bcc52cfda",
+      "path": "validation/2026-10-10/special-upgrade/combo-blasts-late.png",
+      "bytes": 328634
+    },
+    {
+      "sha256": "5f0c75cc2d02965f3d18d3350ac6efd6ad26c565b7638469d16f1a1f995b278f",
+      "path": "validation/2026-10-10/special-upgrade/combo-column-active.png",
+      "bytes": 241735
+    },
+    {
+      "sha256": "f092ec88dca7c318a6b91d58c45da0cd9f0e37d8c14d6a784b8fca10e4fa5768",
+      "path": "validation/2026-10-10/special-upgrade/combo-column-late.png",
+      "bytes": 242355
+    },
+    {
+      "sha256": "dbdf56c32acf872a87c4a868d3d02c9422f886ab1c847f257a774c4b0faebf93",
+      "path": "validation/2026-10-10/special-upgrade/combo-cross-active.png",
+      "bytes": 245993
+    },
+    {
+      "sha256": "913db87cecdeef895eb3e6159e0383a465fcf2233b3e76b662a300eac0aa8a5e",
+      "path": "validation/2026-10-10/special-upgrade/combo-cross-late.png",
+      "bytes": 242825
+    },
+    {
+      "sha256": "13f062ed5467609b73a0b22debb9d2de6011326fce01acdd10902ab0e3c8ace1",
+      "path": "validation/2026-10-10/special-upgrade/combo-lines-active.png",
+      "bytes": 234330
+    },
+    {
+      "sha256": "9ed3438b3e8e7ef0f1ee8aae313be326d313b64832604a1ec749eea271ef7da6",
+      "path": "validation/2026-10-10/special-upgrade/combo-lines-late.png",
+      "bytes": 233984
+    },
+    {
+      "sha256": "36a160aaa0209122e6755aa09d69839c8e06610c9bb6b6ebd149977df1f11e91",
+      "path": "validation/2026-10-10/special-upgrade/desktop-static.png",
+      "bytes": 1434487
+    },
+    {
+      "sha256": "d8c0fdacc9dbf2f9ff2413564730cfb31340af08270c08d2f39e8df41142248d",
+      "path": "validation/2026-10-10/special-upgrade/edge-active.png",
+      "bytes": 309590
+    },
+    {
+      "sha256": "3b53fde04970bd0d925fc76bb2fde2089e2b5a284aad037f1a61c8c902e8d0f2",
+      "path": "validation/2026-10-10/special-upgrade/edge-late.png",
+      "bytes": 308819
+    },
+    {
+      "sha256": "5457f0ec9564eb93f96f79721b6f3c6435efe62c16518fd9628d26c7ef29253d",
+      "path": "validation/2026-10-10/special-upgrade/five-active.png",
+      "bytes": 250012
+    },
+    {
+      "sha256": "12d1724079f6af4898c1430b1cad9b23836905c38dfea43e7a53b942a4b928b7",
+      "path": "validation/2026-10-10/special-upgrade/five-late.png",
+      "bytes": 252861
+    },
+    {
+      "sha256": "d68447cb8767f88481ce52ae0294a9e11e2228ef36e799abfc9e545b520b35d2",
+      "path": "validation/2026-10-10/special-upgrade/four-active.png",
+      "bytes": 243986
+    },
+    {
+      "sha256": "d5d03d537c8b3e9e1f41e532250ffd5ebc59167e93befd77be87c0171d0654f0",
+      "path": "validation/2026-10-10/special-upgrade/four-late.png",
+      "bytes": 245073
+    },
+    {
+      "sha256": "29212de0dde19b3273166b010cf9773bae11e9e1b21e520bbd7a9b8c890e5fc0",
+      "path": "validation/2026-10-10/special-upgrade/row-active.png",
+      "bytes": 274152
+    },
+    {
+      "sha256": "53391af7c9c3376e3f2d4cd22dbc8bd33f41550d1e227bd441bbeb095e6d4bf1",
+      "path": "validation/2026-10-10/special-upgrade/row-late.png",
+      "bytes": 270714
+    },
+    {
+      "sha256": "94b2e91e95d42dbb641c6fc585feeedc429c39b1d8e73de29b5030f0e51d6f01",
+      "path": "validation/2026-10-10/special-upgrade/special-chain-active.png",
+      "bytes": 355910
+    },
+    {
+      "sha256": "f3897e8472acd7ac35dc4b084237ec7d62fda976f79ee630d7ed2a6f6d15354a",
+      "path": "validation/2026-10-10/special-upgrade/special-chain-late.png",
+      "bytes": 345569
+    },
+    {
+      "sha256": "eaa08dd2973da8f557c6ef429d0bd4bebbf537cfa89fc926de1ce94ea320d58e",
+      "path": "validation/2026-10-10/special-upgrade/specials-static.png",
+      "bytes": 246438
+    },
+    {
+      "sha256": "66cae2702ef57d8db420b71883bae898bd0beb39d691ff8f8f4c1173bb208ad7",
+      "path": "validation/2026-10-10/special-upgrade/static-detail.png",
+      "bytes": 260188
+    },
+    {
+      "sha256": "facf83a062db1d8bc11193026069fa9fb9a0e730c333877e2f75fa2512fed9c3",
+      "path": "validation/2026-10-10/special-upgrade/trigger-comparison.png",
+      "bytes": 1320969
+    },
+    {
+      "sha256": "193fb0f7e5daeb69c4dce981eaa9d7cc64da1cf110f5b016f76783a18cfb9170",
+      "path": "validation/2026-10-10/terrain/hollow.png",
+      "bytes": 1433824
+    },
+    {
+      "sha256": "b7db077fb8c990515615fa8fec7ce989d140b4c9fa80e14c990899a75bb8adda",
+      "path": "validation/2026-10-10/terrain/pillar-fall.png",
+      "bytes": 1536338
+    },
+    {
+      "sha256": "e4be999af5e8699a1c46690c0959943034866bb1e63477b549735bfe35a13c27",
+      "path": "validation/2026-10-10/terrain/pillars.png",
+      "bytes": 1513232
+    },
+    {
+      "sha256": "eec133f092837c3b9fb81999ae432420586ba3a33e6052ff88d443c0aa1ef76c",
+      "path": "validation/2026-10-10/terrain/stairs.png",
+      "bytes": 1486593
+    },
+    {
+      "sha256": "529cb29c6084b667c7d98992358cc4f6cb25a234944bab3fdad1abf2a6a3d7b4",
+      "path": "validation/2026-10-10/terrain/standard.png",
+      "bytes": 1442393
+    },
+    {
+      "sha256": "6017f0d0fb95cb20eea4b421bdaa7103f3dd9edc02b68b74c94693293035d392",
+      "path": "validation/2026-10-10/terrain-shapes/arena-cliff.png",
+      "bytes": 942545
+    },
+    {
+      "sha256": "814ccebcd9ed063bd696e992f65be7085ceb3650f89d6ebe65ea801e6aaf15da",
+      "path": "validation/2026-10-10/terrain-shapes/arena-crystal.png",
+      "bytes": 973223
+    },
+    {
+      "sha256": "7cdb3decbf00026abc8b4e1f6a6cba319f9e5746f7974b29fe82823f4c39701c",
+      "path": "validation/2026-10-10/terrain-shapes/arena-ruins.png",
+      "bytes": 827411
+    },
+    {
+      "sha256": "b2524870ff1ec97f0721494977f4b1af97737de28cb46f9c2a1e41d5144da5d7",
+      "path": "validation/2026-10-10/terrain-shapes/arena-standard.png",
+      "bytes": 845138
+    },
+    {
+      "sha256": "42047b970aec7e67c6bb2442a4dca005f6d9461d1005207914a2bbd963d06405",
+      "path": "validation/2026-10-10/terrain-shapes/cliff.png",
+      "bytes": 1370673
+    },
+    {
+      "sha256": "8edf35a066f2bfaa4c15f64eb01d398af04d97d43096444a50ab8506a8c4c47b",
+      "path": "validation/2026-10-10/terrain-shapes/crystal.png",
+      "bytes": 1399915
+    },
+    {
+      "sha256": "ad596b4adc4e071e0523b601edc16ce0c05897278e8fd0f7a14d6e8263f70e58",
+      "path": "validation/2026-10-10/terrain-shapes/ruins.png",
+      "bytes": 1286804
+    },
+    {
+      "sha256": "200c98c29381251539c78ec89a87e7bd008cdda4b1e50e394aa77a454e113e7a",
+      "path": "validation/2026-10-10/terrain-shapes/standard.png",
+      "bytes": 1284399
+    },
+    {
+      "sha256": "d563480072720758fdbd284a69bb6a98c26723dbe77b8ae72ff033b1768a075d",
+      "path": "validation/2026-10-10/tutorial/home.png",
+      "bytes": 1770131
+    },
+    {
+      "sha256": "264cec2f63a98b401e2ec10e4afd15e6bb4f83637a1f222e6957a9d2b7c5be97",
+      "path": "validation/2026-10-10/tutorial/teaching.png",
+      "bytes": 1486289
+    },
+    {
+      "sha256": "f463b5798607e80f5e5206ffbd28eeb912032ed3996f2369f453b3d0bb679209",
+      "path": "validation/2026-10-11/audio-balance/home-1024x600.png",
+      "bytes": 886035
+    },
+    {
+      "sha256": "93f764cc9eaf8b43ec40fd526ad70174d3932f2a114a31f5187475b8b69b19fb",
+      "path": "validation/2026-10-11/audio-balance/home-1280x720.png",
+      "bytes": 1287481
+    },
+    {
+      "sha256": "072e3c4d8474be84337f749b046db1f8f99251bfe628c23ce31e2da3edf08ddb",
+      "path": "validation/2026-10-11/audio-balance/home-1366x768.png",
+      "bytes": 1439077
+    },
+    {
+      "sha256": "a43eec1f159f3129e605839ce76a8f3436ffac0b624b98f52bc9a80cc7137e63",
+      "path": "validation/2026-10-11/audio-balance/home-1440x900.png",
+      "bytes": 1665256
+    },
+    {
+      "sha256": "e7954e6477dd4e2eb1756c2ff6e7a6382f4f336d9a16f92698ec9d84b6b9f543",
+      "path": "validation/2026-10-11/audio-balance/home-1920x1080.png",
+      "bytes": 2613377
+    },
+    {
+      "sha256": "7a83d7ca62b65b00918dc453ca4ba8b1ee049179278c91d62e45d9942c3c57e9",
+      "path": "validation/2026-10-11/audio-balance/home-375x568.png",
+      "bytes": 207228
+    },
+    {
+      "sha256": "1827c9cedf1827c1d6fcec9421169808c78be935f06fb981107f5e22e8c02b2f",
+      "path": "validation/2026-10-11/audio-balance/home-390x667.png",
+      "bytes": 241702
+    },
+    {
+      "sha256": "ecc8fbbcd14886d96d11f5b10816e4bf750117efec3ac93d4dd391fd760ca021",
+      "path": "validation/2026-10-11/audio-balance/home-390x844.png",
+      "bytes": 265726
+    },
+    {
+      "sha256": "4d309d359c0a585342efb871a0cb3a049748d38e24561ef227ece512d93ec34e",
+      "path": "validation/2026-10-11/audio-balance/shared-arena-1024x600.png",
+      "bytes": 360478
+    },
+    {
+      "sha256": "63fb4ff926520a62c8b42fb18c3c535b27d88052a392b25f8ee279b8019edfce",
+      "path": "validation/2026-10-11/audio-balance/shared-arena-1366x768.png",
+      "bytes": 624919
+    },
+    {
+      "sha256": "642c18f589d511101880c42805d550c902a9687d7bca6759949cf4a7600191d6",
+      "path": "validation/2026-10-11/audio-balance/shared-arena-390x844.png",
+      "bytes": 119445
+    },
+    {
+      "sha256": "a145d5b5abb660e8452180a79ba38ab3383d93fa5d8edfcddf6f95a68c4be292",
+      "path": "validation/2026-10-11/audio-balance/shared-difficulty-1024x600.png",
+      "bytes": 811527
+    },
+    {
+      "sha256": "42743f7d9c136b94e0207e0165bd07a2ebb2a7f3558dd2b5ab6ea285aa123c29",
+      "path": "validation/2026-10-11/audio-balance/shared-difficulty-1366x768.png",
+      "bytes": 1386241
+    },
+    {
+      "sha256": "cb350a40a426363f0343110017dece34a7ad9db19b75ef3f314491232540e88f",
+      "path": "validation/2026-10-11/audio-balance/shared-difficulty-390x844.png",
+      "bytes": 219496
+    },
+    {
+      "sha256": "f463b5798607e80f5e5206ffbd28eeb912032ed3996f2369f453b3d0bb679209",
+      "path": "validation/2026-10-11/audio-balance/shared-home-1024x600.png",
+      "bytes": 886035
+    },
+    {
+      "sha256": "072e3c4d8474be84337f749b046db1f8f99251bfe628c23ce31e2da3edf08ddb",
+      "path": "validation/2026-10-11/audio-balance/shared-home-1366x768.png",
+      "bytes": 1439077
+    },
+    {
+      "sha256": "ecc8fbbcd14886d96d11f5b10816e4bf750117efec3ac93d4dd391fd760ca021",
+      "path": "validation/2026-10-11/audio-balance/shared-home-390x844.png",
+      "bytes": 265726
+    },
+    {
+      "sha256": "dc9897cde3c81b0232f78056ad4ef39841c215d59643665b9965cca6bba91901",
+      "path": "validation/2026-10-11/audio-balance/shared-levels-1024x600.png",
+      "bytes": 876256
+    },
+    {
+      "sha256": "5db5b438cadccbd15491551349d1268df35e8a2c8e398628dd9a9426051124a1",
+      "path": "validation/2026-10-11/audio-balance/shared-levels-1366x768.png",
+      "bytes": 1444178
+    },
+    {
+      "sha256": "ced0fe9d36f882a06718da334eb1dd764d1f80d92bcf8f0c1d023fe975d2d55f",
+      "path": "validation/2026-10-11/audio-balance/shared-levels-390x844.png",
+      "bytes": 322512
+    },
+    {
+      "sha256": "cca19bd214f75124cf71da235f799d10d25b5aaf9d76815f083a8bf5b5b943d0",
+      "path": "validation/2026-10-11/audio-balance/shared-matching-1024x600.png",
+      "bytes": 423231
+    },
+    {
+      "sha256": "64427ccfad3a190f216c03b7b4aa0de732ac562ca01c517f0f3047aafb9760c6",
+      "path": "validation/2026-10-11/audio-balance/shared-matching-1366x768.png",
+      "bytes": 666544
+    },
+    {
+      "sha256": "8c5677898f2b47d34236d584c608d988af9db21feaaeffb74a1cf103781fc89f",
+      "path": "validation/2026-10-11/audio-balance/shared-matching-390x844.png",
+      "bytes": 112419
+    },
+    {
+      "sha256": "abbb70f3c256d6b2f7ac625623153a206c0f2cd1e16b4ff439aced9cb47684ac",
+      "path": "validation/2026-10-11/audio-balance/shared-sandbox-1024x600.png",
+      "bytes": 674685
+    },
+    {
+      "sha256": "3eb5fe0cb460d9c14c23a9dbc61d6c9500ca34306022cb4574657e16bfefeb36",
+      "path": "validation/2026-10-11/audio-balance/shared-sandbox-1366x768.png",
+      "bytes": 1038903
+    },
+    {
+      "sha256": "7bcbb53ce98c2a76d52b1e98c247edd28eb2e842fb2605d5b757a923eba8dc92",
+      "path": "validation/2026-10-11/audio-balance/shared-sandbox-390x844.png",
+      "bytes": 339485
+    },
+    {
+      "sha256": "19ceac01b7cca1ff2198f9b212d2ca0e448cb752964a14f832544351bb801628",
+      "path": "validation/2026-10-11/audio-balance/shared-tutorial-1024x600.png",
+      "bytes": 798029
+    },
+    {
+      "sha256": "9f13b1aaa09fd8aaef0805cc8ef40ebf66e1b5f31bdb5439a4ff83c4cd63b0af",
+      "path": "validation/2026-10-11/audio-balance/shared-tutorial-1366x768.png",
+      "bytes": 1200658
+    },
+    {
+      "sha256": "ff17d78cdc954115c2bfb3f0fe0b0f4d27782cb264991e16e2e1f07bac9fc119",
+      "path": "validation/2026-10-11/audio-balance/shared-tutorial-390x844.png",
+      "bytes": 318344
+    },
+    {
+      "sha256": "17fdf14f812ab743cd86ab9711c554af728c6aa25f73cc6542454bbd16ce12c9",
+      "path": "validation/2026-10-11/audio-choices/desktop.png",
+      "bytes": 87554
+    },
+    {
+      "sha256": "553a774e6b990f799b7295e9b94af6d4ef7f5bab34b0f9be6de6ac69f521306d",
+      "path": "validation/2026-10-11/audio-choices/index.html",
+      "bytes": 8488
+    },
+    {
+      "sha256": "7f2b123a2e3d82a028c74e4087f38aac6244a1a00332fc3e153fd8f6e2ba3b7d",
+      "path": "validation/2026-10-11/audio-choices/mobile.png",
+      "bytes": 96996
+    },
+    {
+      "sha256": "ab384020f441aebbb23f8aaa2811cffa401c048d89858a892b3d1daad6ccf24b",
+      "path": "validation/2026-10-11/audio-choices/clips/a.wav",
+      "bytes": 105884
+    },
+    {
+      "sha256": "85f4021e9ea99e9552737a08202a0d0382d5a78476411bdc9f8af4c10c5ad0b5",
+      "path": "validation/2026-10-11/audio-choices/clips/b.wav",
+      "bytes": 105884
+    },
+    {
+      "sha256": "c3046894dfab3d63a172355aca6a9c9cc6a9b67659e6ae53d1d8bf7c67c04c9b",
+      "path": "validation/2026-10-11/audio-choices/clips/c.wav",
+      "bytes": 105884
+    },
+    {
+      "sha256": "4b5118336ba662480348f424d8f692caf62c16d7df872d0fc8136bfd91ab4c4b",
+      "path": "validation/2026-10-11/audio-choices/clips/d.wav",
+      "bytes": 105884
+    },
+    {
+      "sha256": "639a82c439d45b61b2b9c7aa8002c23a90ae6e0cf93c4c0ca4ee463c5eff554e",
+      "path": "validation/2026-10-11/audio-line-blast/combo-column.png",
+      "bytes": 1414242
+    },
+    {
+      "sha256": "b5bedf6b84c0db809bd9ab19121b76d737c95c6f26efc531efecf91a5479abaf",
+      "path": "validation/2026-10-11/audio-line-blast/combo-cross.png",
+      "bytes": 1410731
+    },
+    {
+      "sha256": "b31c97b292dede2301e3a138bb70014e10e87dca3c62260679508accd79f93a7",
+      "path": "validation/2026-10-11/audio-line-blast/index.html",
+      "bytes": 13105
+    },
+    {
+      "sha256": "225609d85cb4eb1a07e40d0345e3be902baf81be405dfc09d92bdac79e898b0a",
+      "path": "validation/2026-10-11/audio-line-lines/combo-lines.png",
+      "bytes": 1424057
+    },
+    {
+      "sha256": "18ab491ed3481988f1abb8c019589f657a03c218d1a0103831523d9fe3e7b28c",
+      "path": "validation/2026-10-11/audio-magic/blast.png",
+      "bytes": 1490355
+    },
+    {
+      "sha256": "7642c4c7c7306e1a7ee5c215b2ff294a772d4621e65d33cc4345d23cb91bf44e",
+      "path": "validation/2026-10-11/audio-magic/chain.png",
+      "bytes": 1424113
+    },
+    {
+      "sha256": "6ff63d092142ac9a2f3bcfa716b91bf965cf9600c4b1325d39bfe4ff70c28452",
+      "path": "validation/2026-10-11/audio-magic/combo-blasts.png",
+      "bytes": 1432454
+    },
+    {
+      "sha256": "1a6b3fd392dea6e541bc70b54f1d92abf5d39d396da4442eb18d89c120260293",
+      "path": "validation/2026-10-11/audio-magic/combo-column.png",
+      "bytes": 1414229
+    },
+    {
+      "sha256": "d9d167c11fedc8a28f8b2a8e13048a43f7a070d1f353f30f2e7ca40f761074bd",
+      "path": "validation/2026-10-11/audio-magic/combo-cross.png",
+      "bytes": 1410117
+    },
+    {
+      "sha256": "d3f75c23ed1a3b9545639576cd17d5a2f019095f000bda944c2359fe51240932",
+      "path": "validation/2026-10-11/audio-magic/combo-lines.png",
+      "bytes": 1424061
+    },
+    {
+      "sha256": "578ebd4acf42111d586f3e5fa41e6c6bd3a0192c2beda87c09f7d8aa4552a6cb",
+      "path": "validation/2026-10-11/audio-magic/four.png",
+      "bytes": 1435781
+    },
+    {
+      "sha256": "4d394c116ac86b9d6d3890f8102923884f57422a1f58f2250a86b6ca957e74ea",
+      "path": "validation/2026-10-11/audio-magic/index.html",
+      "bytes": 13429
+    },
+    {
+      "sha256": "32a25b659f15d85fc34537830811f27a9bd8213ed1623bf8cff3c93c2179fce7",
+      "path": "validation/2026-10-11/audio-magic/realtime-play.png",
+      "bytes": 1434600
+    },
+    {
+      "sha256": "01625a50b013ed7be8ca97089276a1978bd15ef4624f57fd1666c59ce654de2d",
+      "path": "validation/2026-10-11/audio-magic/row.png",
+      "bytes": 1463629
+    },
+    {
+      "sha256": "679611dd4c4d5b7226e74bfb35cdb0fc44eb9ec30deabc9f1ee40e1f45794c1c",
+      "path": "validation/2026-10-11/audio-magic/three.png",
+      "bytes": 1430541
+    },
+    {
+      "sha256": "26a5d79e2b24e82aa671d621ff3a5177745134204ef34294bd74e93a2836a1eb",
+      "path": "validation/2026-10-11/audio-maps/audition-candidates.png",
+      "bytes": 389205
+    },
+    {
+      "sha256": "f06bc8fb3868641ff7208f72b96cc80cb4b1123f5d2372065bebcb12a30294f4",
+      "path": "validation/2026-10-11/audio-maps/audition-selected.png",
+      "bytes": 123171
+    },
+    {
+      "sha256": "29028d9897f0f32b2eca63b170eb35d877a929ecad67db4e610008fcbaeded82",
+      "path": "validation/2026-10-11/audio-maps/cliff-fall-A.wav",
+      "bytes": 54728
+    },
+    {
+      "sha256": "e1b1fdb010b7a9ad9ca8af6a19eaa397c4616c60e9466a7d172de19cc52952db",
+      "path": "validation/2026-10-11/audio-maps/cliff-fall-B.wav",
+      "bytes": 54728
+    },
+    {
+      "sha256": "ae1e981f744eee41413bf7ef932941b0336e43c2ca8c024fe57ac31d6fa3de60",
+      "path": "validation/2026-10-11/audio-maps/cliff-fall-C.wav",
+      "bytes": 54728
+    },
+    {
+      "sha256": "74cf682c59fc923e4a9d96d7f90833a422a321021a8eef1bd42b57660931caf4",
+      "path": "validation/2026-10-11/audio-maps/cliff-game.png",
+      "bytes": 710004
+    },
+    {
+      "sha256": "ff9b94f67357000ca0fe8b01a8b69d1654cfdc2f77411e06f03b2455957e0cde",
+      "path": "validation/2026-10-11/audio-maps/cliff-impact-A.wav",
+      "bytes": 42380
+    },
+    {
+      "sha256": "806230099612a5e0e752c0612420297e18d8bcf1ed8f4e805116e3f3dfe3793b",
+      "path": "validation/2026-10-11/audio-maps/cliff-impact-B.wav",
+      "bytes": 42380
+    },
+    {
+      "sha256": "14bd2a85396f87d10e7f890943eeb18b2f1562835cfd0619f08de31b8c3209be",
+      "path": "validation/2026-10-11/audio-maps/cliff-impact-C.wav",
+      "bytes": 42380
+    },
+    {
+      "sha256": "47d03e5d4bb5eb44d352629dfd7cd222416641c8cbcc1ac0f1c006a50b391855",
+      "path": "validation/2026-10-11/audio-maps/cliff-warning-A.wav",
+      "bytes": 97064
+    },
+    {
+      "sha256": "380b813578f6da6e1eb9b26f2c4cd6ed2cdcd5d524e2567c4868d19199e06ebc",
+      "path": "validation/2026-10-11/audio-maps/cliff-warning-B.wav",
+      "bytes": 97064
+    },
+    {
+      "sha256": "86128e78cd8ca5589c909aaaaf75b4cf553f2a81b5fb254dab28193c9444a30f",
+      "path": "validation/2026-10-11/audio-maps/cliff-warning-C.wav",
+      "bytes": 97064
+    },
+    {
+      "sha256": "68dd9b798f5aff38d6c8ee25e09b21a836a8a09b0a1684521750318665241020",
+      "path": "validation/2026-10-11/audio-maps/crystal-game.png",
+      "bytes": 494208
+    },
+    {
+      "sha256": "7c89d8141501fcbeeb42b1192b8a9743f3d59179bf22bd4928aa296754e6e626",
+      "path": "validation/2026-10-11/audio-maps/furnace-game.png",
+      "bytes": 846275
+    },
+    {
+      "sha256": "2fadb5d1aba9a8396ff738e29ad8c996f2fec6305b8249d2550c509cbce23f26",
+      "path": "validation/2026-10-11/audio-maps/furnace-spread-A.wav",
+      "bytes": 58256
+    },
+    {
+      "sha256": "63477ecb3ba715c7d76f57a74a06dce362f38629766484eb069ec334f0304056",
+      "path": "validation/2026-10-11/audio-maps/furnace-spread-B.wav",
+      "bytes": 58256
+    },
+    {
+      "sha256": "a42139886e469ba5c7eafafc3d9fc90c21499a522226abde7ead1a3f005fd547",
+      "path": "validation/2026-10-11/audio-maps/furnace-spread-C.wav",
+      "bytes": 58256
+    },
+    {
+      "sha256": "87d8b6dcdb0c267703a54262e319ebe652c5e9640aae2553b292b94943aa6f63",
+      "path": "validation/2026-10-11/audio-maps/furnace-warning-A.wav",
+      "bytes": 48554
+    },
+    {
+      "sha256": "440f6497be57086b52530415dbd15825043d70a7c20fdc7356b458a64e52add5",
+      "path": "validation/2026-10-11/audio-maps/furnace-warning-B.wav",
+      "bytes": 48554
+    },
+    {
+      "sha256": "fb900bd81aabbc0eeb9c56e2bce085a119959cf1392264225308b6c32e117c2f",
+      "path": "validation/2026-10-11/audio-maps/furnace-warning-C.wav",
+      "bytes": 48554
+    },
+    {
+      "sha256": "8c381b232d040d3e044e4b9c45efcd3de6456278ca46da89d31c34c25f2f7ccf",
+      "path": "validation/2026-10-11/audio-maps/ice-break-A.wav",
+      "bytes": 52964
+    },
+    {
+      "sha256": "895c42547cb163b735e5d914b2e29d77b7f904b6e34554b222d0a7194d74ab77",
+      "path": "validation/2026-10-11/audio-maps/ice-break-B.wav",
+      "bytes": 52964
+    },
+    {
+      "sha256": "9f4c183022bba1acfd416031e988a51785367ef7c6c459a71d447eab5037ea5b",
+      "path": "validation/2026-10-11/audio-maps/ice-break-C.wav",
+      "bytes": 52964
+    },
+    {
+      "sha256": "01fa7553382ca77b7f21dd522b4abbdf8fe2d4e52efc5ef4b6260efd1cd1c1f3",
+      "path": "validation/2026-10-11/audio-maps/ice-freeze-A.wav",
+      "bytes": 61784
+    },
+    {
+      "sha256": "1cd57a5004b7627fc4fecdc1a60a80d43c563aac1b4b80752840d7125cc04c16",
+      "path": "validation/2026-10-11/audio-maps/ice-freeze-B.wav",
+      "bytes": 61784
+    },
+    {
+      "sha256": "a095f193eed9b6e0694e64f83db3819684d29209f422566f7137adaea3e5250b",
+      "path": "validation/2026-10-11/audio-maps/ice-freeze-C.wav",
+      "bytes": 61784
+    },
+    {
+      "sha256": "de0a495883a4ccad5a2fa57098d920fcd00cc25739b66b7fcf447a5b7b2dca0e",
+      "path": "validation/2026-10-11/audio-maps/index.html",
+      "bytes": 86406
+    },
+    {
+      "sha256": "15fa7d007df325d845a118f2239b9483bd5a91ea53266262841d0700687d6bb8",
+      "path": "validation/2026-10-11/audio-maps/ruins-activate-A.wav",
+      "bytes": 92654
+    },
+    {
+      "sha256": "6ce0c18b6b5c9bc50101abf9f4fdb7faab2486f2d71e47d21bdb175c62017ca2",
+      "path": "validation/2026-10-11/audio-maps/ruins-activate-B.wav",
+      "bytes": 92654
+    },
+    {
+      "sha256": "0b6c488a44337c17ab053d04a196e788b8f5976810d137292b2b8b86ef7c01cf",
+      "path": "validation/2026-10-11/audio-maps/ruins-activate-C.wav",
+      "bytes": 92654
+    },
+    {
+      "sha256": "bfc034303c2fd566477f686a0a0ee060102f9e07b9916093b62efebbfbb0c0f4",
+      "path": "validation/2026-10-11/audio-maps/ruins-game.png",
+      "bytes": 459546
+    },
+    {
+      "sha256": "b1c4a6067b24e508552c4fb91ff0615d1b6ad98c91f4db7c09188bdaaff91183",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/adopted.png",
+      "bytes": 121972
+    },
+    {
+      "sha256": "3dd31420c5f71927c37548065465ee64dbfdbe652a93f7322a316ac24f9e64c7",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/cliff-fall-D-v2.wav",
+      "bytes": 54728
+    },
+    {
+      "sha256": "da4c04e84d78d0874978cc7c146356b9635ffc7debef2da97dcdb451020222a6",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/cliff-fall-E-v2.wav",
+      "bytes": 54728
+    },
+    {
+      "sha256": "b3fb58adb5eb4a2e1394574dd84fd9639199f0f16d8245ca330069fe7a934625",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/cliff-fall-F-v2.wav",
+      "bytes": 54728
+    },
+    {
+      "sha256": "ba09bfc24307fc929df8b189d145564b0d9b9fc321fd3ad2917f242670161817",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/cliff-fall-G-v2.wav",
+      "bytes": 54728
+    },
+    {
+      "sha256": "8a36bade9ead94b277bbf1f8c990f5e8558e367cfdada53a1a519ae901b195c1",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/cliff-impact-D-v2.wav",
+      "bytes": 42380
+    },
+    {
+      "sha256": "4aeca989c17759c9c9534e40824e6c07c9f5af11620856a8a9afaa5b5c9aa178",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/cliff-impact-E-v2.wav",
+      "bytes": 42380
+    },
+    {
+      "sha256": "64bcf9e99852af28d0d80fc57d78d76cc28ecda77133fee0e52f077cba88391d",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/cliff-impact-F-v2.wav",
+      "bytes": 42380
+    },
+    {
+      "sha256": "60ad97e8f4cabceb7b7ec82ea6abce43c51cf58d96df9f49812d2ef2f4a97877",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/cliff-impact-G-v2.wav",
+      "bytes": 42380
+    },
+    {
+      "sha256": "6446843bdd10a67046550a4b8f9179452ffa61365d3223112d0bf11cc6addd03",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/index.html",
+      "bytes": 21970
+    },
+    {
+      "sha256": "f86594df1a13c450a9bda4f3da9ec2405f1b0b11708d072c0bf19c790ab58deb",
+      "path": "validation/2026-10-11/audio-maps/cliff-reselection/review.png",
+      "bytes": 122180
+    },
+    {
+      "sha256": "18ab491ed3481988f1abb8c019589f657a03c218d1a0103831523d9fe3e7b28c",
+      "path": "validation/2026-10-11/audio-refinement/blast.png",
+      "bytes": 1490355
+    },
+    {
+      "sha256": "7642c4c7c7306e1a7ee5c215b2ff294a772d4621e65d33cc4345d23cb91bf44e",
+      "path": "validation/2026-10-11/audio-refinement/chain.png",
+      "bytes": 1424113
+    },
+    {
+      "sha256": "6ff63d092142ac9a2f3bcfa716b91bf965cf9600c4b1325d39bfe4ff70c28452",
+      "path": "validation/2026-10-11/audio-refinement/combo-blasts.png",
+      "bytes": 1432454
+    },
+    {
+      "sha256": "1a6b3fd392dea6e541bc70b54f1d92abf5d39d396da4442eb18d89c120260293",
+      "path": "validation/2026-10-11/audio-refinement/combo-column.png",
+      "bytes": 1414229
+    },
+    {
+      "sha256": "d9d167c11fedc8a28f8b2a8e13048a43f7a070d1f353f30f2e7ca40f761074bd",
+      "path": "validation/2026-10-11/audio-refinement/combo-cross.png",
+      "bytes": 1410117
+    },
+    {
+      "sha256": "d3f75c23ed1a3b9545639576cd17d5a2f019095f000bda944c2359fe51240932",
+      "path": "validation/2026-10-11/audio-refinement/combo-lines.png",
+      "bytes": 1424061
+    },
+    {
+      "sha256": "578ebd4acf42111d586f3e5fa41e6c6bd3a0192c2beda87c09f7d8aa4552a6cb",
+      "path": "validation/2026-10-11/audio-refinement/four.png",
+      "bytes": 1435781
+    },
+    {
+      "sha256": "3bd932677a129dea2efa32e464a726cb1a80992d9e899397b230848155e2e00c",
+      "path": "validation/2026-10-11/audio-refinement/index.html",
+      "bytes": 13082
+    },
+    {
+      "sha256": "89ff5782ffb58bf4875bba3772707c476fec31467b0b038af238c81b22b3fa7a",
+      "path": "validation/2026-10-11/audio-refinement/realtime-play.png",
+      "bytes": 1440594
+    },
+    {
+      "sha256": "01625a50b013ed7be8ca97089276a1978bd15ef4624f57fd1666c59ce654de2d",
+      "path": "validation/2026-10-11/audio-refinement/row.png",
+      "bytes": 1463629
+    },
+    {
+      "sha256": "679611dd4c4d5b7226e74bfb35cdb0fc44eb9ec30deabc9f1ee40e1f45794c1c",
+      "path": "validation/2026-10-11/audio-refinement/three.png",
+      "bytes": 1430541
+    },
+    {
+      "sha256": "639a82c439d45b61b2b9c7aa8002c23a90ae6e0cf93c4c0ca4ee463c5eff554e",
+      "path": "validation/2026-10-11/audio-selected/combo-column.png",
+      "bytes": 1414242
+    },
+    {
+      "sha256": "29db9f9a5fba83d65d80f6fb758c3f5973b68c1f223f7a905cee95276664575e",
+      "path": "validation/2026-10-11/audio-selected/combo-cross.png",
+      "bytes": 1410179
+    },
+    {
+      "sha256": "b24e3f5cd1087807b3b29a300fe2c85b21ccfb833e0177f07a775fd12c8df965",
+      "path": "validation/2026-10-11/audio-stage2/blast.png",
+      "bytes": 1490360
+    },
+    {
+      "sha256": "b532b9428e4d882e24498d890598fde461eb3aef7c3f24f4f1aebef79468a3a3",
+      "path": "validation/2026-10-11/audio-stage2/chain.png",
+      "bytes": 1424112
+    },
+    {
+      "sha256": "e962b931120fd03c3428160214b28f66f9886695770e3ce0964b23df26f78444",
+      "path": "validation/2026-10-11/audio-stage2/combo-blasts.png",
+      "bytes": 1432434
+    },
+    {
+      "sha256": "89cb61a128f3eba056ea9bfc8d4a25bb22f08d6ca094925d890f5245b0550b66",
+      "path": "validation/2026-10-11/audio-stage2/four.png",
+      "bytes": 1435786
+    },
+    {
+      "sha256": "0fa951142b08745cb180cbdfc9a236e296db7bdad55d12f80905ef2659bfad85",
+      "path": "validation/2026-10-11/audio-stage2/index.html",
+      "bytes": 10279
+    },
+    {
+      "sha256": "dee5b93b700a1fbeb1460d1f077bb91aae2a506ffbb9cf4b814a1d3971029cb9",
+      "path": "validation/2026-10-11/audio-stage2/listening-review.png",
+      "bytes": 715201
+    },
+    {
+      "sha256": "0bafc0a76e863dfa6dde6ad7c80825568fb02ee43f70c99551326a24f2321779",
+      "path": "validation/2026-10-11/audio-stage2/realtime-play.png",
+      "bytes": 1440530
+    },
+    {
+      "sha256": "2f62a4da3f054466103688e4eace23d43e00d8975516f0bd5da39f3974e0ec5f",
+      "path": "validation/2026-10-11/audio-stage2/row.png",
+      "bytes": 1463635
+    },
+    {
+      "sha256": "85ce2663f825de575f17740feeac78747dacdbc9f6dffd2973d96db548854e60",
+      "path": "validation/2026-10-11/audio-stage2/three.png",
+      "bytes": 1430539
+    },
+    {
+      "sha256": "481224d5cd23f736e4099e99c1d9d686d5129a6b4dc8764c64e98adcde5699bd",
+      "path": "validation/2026-10-11/audio-stage4/battle-music.png",
+      "bytes": 970529
+    },
+    {
+      "sha256": "acf1ab41c5e469eed0e902d82b6655ec0795b3e2e7e41c248757437f86c7ef92",
+      "path": "validation/2026-10-11/audio-stage4/cliff-music.png",
+      "bytes": 694564
+    },
+    {
+      "sha256": "4fc35efa261b8b9d6ddaa8a66c704ec5ff5af9898999b292a5b5e5096d123ee1",
+      "path": "validation/2026-10-11/audio-stage4/crystal-music.png",
+      "bytes": 743815
+    },
+    {
+      "sha256": "b28e1d55131715e64bf2316566e830d582f4415af5ceb2a90da8464680f04b35",
+      "path": "validation/2026-10-11/audio-stage4/furnace-music.png",
+      "bytes": 846563
+    },
+    {
+      "sha256": "0dbfe459fcafbd45a6e10731a3dbcb47f43ba78209d1fb06f579ac8546a04319",
+      "path": "validation/2026-10-11/audio-stage4/index.html",
+      "bytes": 9671
+    },
+    {
+      "sha256": "18f6cc9ea2e4c7379b086565a47d74ce1f1f49796879b2b3571d873e5d1972b7",
+      "path": "validation/2026-10-11/audio-stage4/map-reveal.png",
+      "bytes": 990287
+    },
+    {
+      "sha256": "46a043ac4109ea382f7213b37dee8dbc3ce35fb4bbebe520c9d24eb4a19a727a",
+      "path": "validation/2026-10-11/audio-stage4/ruins-music.png",
+      "bytes": 449576
+    },
+    {
+      "sha256": "753bc25faad50d52c7cd8a2fc6ccdd3f0407a47703bac5b73600e6a930b75c5f",
+      "path": "validation/2026-10-11/audio-stage4/clips/bgm-battle-A.ogg",
+      "bytes": 1361139
+    },
+    {
+      "sha256": "7fb10215361a5f108e538d30554da695d442794852fb03f7235dcccf4e682284",
+      "path": "validation/2026-10-11/audio-stage4/clips/bgm-battle-B.ogg",
+      "bytes": 1284170
+    },
+    {
+      "sha256": "e8a0b4af0fda5d7b4902dd3fcaf38acaed4f0ea4323962cf4feb8cc187dccba0",
+      "path": "validation/2026-10-11/audio-stage4/clips/bgm-battle-C.ogg",
+      "bytes": 1244567
+    },
+    {
+      "sha256": "3447c405629dc4cef9a28a836ab923211c0a1f1f3cbcc6d51139c0c1b56b8686",
+      "path": "validation/2026-10-11/audio-stage4/clips/bgm-lobby-A.ogg",
+      "bytes": 1243242
+    },
+    {
+      "sha256": "b080eb309d7d6d7703ddfa2c2b0f9bb1969a9655caf08334465c317c2c999ec1",
+      "path": "validation/2026-10-11/audio-stage4/clips/bgm-lobby-B.ogg",
+      "bytes": 1257442
+    },
+    {
+      "sha256": "f4694706570438bdaf012fc66a58be1efb3014514a5423c7745e409f7f63960d",
+      "path": "validation/2026-10-11/audio-stage4/clips/bgm-lobby-C.ogg",
+      "bytes": 1193206
+    },
+    {
+      "sha256": "7b2b74b3ab9357d59b04f630a08202a4ac4d9cd792f983366686da9216f2b3ef",
+      "path": "validation/2026-10-11/audio-stage4/clips/map-reveal-A.wav",
+      "bytes": 116468
+    },
+    {
+      "sha256": "6762bcb3099c3fb740cf52a00a1a8a5401a7a7b17b1af71e9670dd9967062b83",
+      "path": "validation/2026-10-11/audio-stage4/clips/map-reveal-B.wav",
+      "bytes": 116468
+    },
+    {
+      "sha256": "8ecb1d9db243e80825437f1ef4124de5c1e9744c4d75a5c75bc05e3d886c4329",
+      "path": "validation/2026-10-11/audio-stage4/clips/map-reveal-C.wav",
+      "bytes": 116468
+    },
+    {
+      "sha256": "541f11215c2dad5ad03ed9c4f9fc6722ca37457567569da2637a5be3e0a77a8d",
+      "path": "validation/2026-10-11/audio-stage4/clips/map-shuffle-A.wav",
+      "bytes": 74132
+    },
+    {
+      "sha256": "8dc8ffd75455b89f69f1398fe8e17316b1ff5231dc1409b4158266169570696e",
+      "path": "validation/2026-10-11/audio-stage4/clips/map-shuffle-B.wav",
+      "bytes": 74132
+    },
+    {
+      "sha256": "e0d59afbbdf44229d0321b43e5ecb13930bb9e8fc899ea72bd3331e8e46e7d09",
+      "path": "validation/2026-10-11/audio-stage4/clips/map-shuffle-C.wav",
+      "bytes": 74132
+    },
+    {
+      "sha256": "658b6561ebba26bd77a80b4c68128b5e79f996301299b219a3342ae8263bd3ec",
+      "path": "validation/2026-10-11/audio-stage4/clips/ui-click-A.wav",
+      "bytes": 15920
+    },
+    {
+      "sha256": "d17692692fc04eeba5a89a0bdef42eff0baa678b427223c752ef47c0b71faac2",
+      "path": "validation/2026-10-11/audio-stage4/clips/ui-click-B.wav",
+      "bytes": 21212
+    },
+    {
+      "sha256": "95dc159c1d9ed89aad8a38964b024ef3d24949fe45bf616ec9f09c8d97767d65",
+      "path": "validation/2026-10-11/audio-stage4/clips/ui-click-C.wav",
+      "bytes": 21212
+    },
+    {
+      "sha256": "dd2631369632449ee6ac040ae580775be5fc84eae38c6f15b25fbb0e1205018a",
+      "path": "validation/2026-10-11/audio-stage4/clips/ui-confirm-A.wav",
+      "bytes": 56492
+    },
+    {
+      "sha256": "6cb89d97cb4db3156863f64735eb2f96ed89a7080761435f303e5273f253e613",
+      "path": "validation/2026-10-11/audio-stage4/clips/ui-confirm-B.wav",
+      "bytes": 56492
+    },
+    {
+      "sha256": "f0ae88a0a9c73f27a7948ca9c98a5129ca7507509be2865ee53a490900f7c12c",
+      "path": "validation/2026-10-11/audio-stage4/clips/ui-confirm-C.wav",
+      "bytes": 56492
+    },
+    {
+      "sha256": "08f62f84c7623ac48b2f9ffa76116fcb8e23a24414653f5d5f35a55a90765807",
+      "path": "validation/2026-10-11/audio-swap/adopted.png",
+      "bytes": 107044
+    },
+    {
+      "sha256": "578fb776ddf263b4743e3aed2f199064d04096de0f48239b438939ae26a9d0eb",
+      "path": "validation/2026-10-11/audio-swap/audition-page.png",
+      "bytes": 107312
+    },
+    {
+      "sha256": "08dfeed205648ca1f4d208e05e5931eb3885adce1be123d5dbcc76d73eb0d70d",
+      "path": "validation/2026-10-11/audio-swap/block-swap-A.wav",
+      "bytes": 9746
+    },
+    {
+      "sha256": "121deb0fe9b430da858dac86b5df74b51faef1c7e1d3383b66690fad24b59d43",
+      "path": "validation/2026-10-11/audio-swap/block-swap-B.wav",
+      "bytes": 13274
+    },
+    {
+      "sha256": "c1734c2a5cbfe7a2e3cb65ddeb61826c665cdddcdf14fe41d43800cfa01a3d62",
+      "path": "validation/2026-10-11/audio-swap/block-swap-C.wav",
+      "bytes": 14156
+    },
+    {
+      "sha256": "31e5e8d29b7dcab1a3640d8471ad3928dd80101e749ebf1e04620be17447d830",
+      "path": "validation/2026-10-11/audio-swap/block-swap-D.wav",
+      "bytes": 16802
+    },
+    {
+      "sha256": "06a33a81febb728194421f1677331c9b72c82b692e112411595074ca2b652d5a",
+      "path": "validation/2026-10-11/audio-swap/block-swap-E.wav",
+      "bytes": 15920
+    },
+    {
+      "sha256": "4dedf0196bc89ddf107dc7ed3fed91850ec50f73f78a4d56151911283fa19db8",
+      "path": "validation/2026-10-11/audio-swap/block-swap-F.wav",
+      "bytes": 17684
+    },
+    {
+      "sha256": "c2fd69de297185e7a701224cbfd24737f01027a1a7ca97b663a53d53f608540f",
+      "path": "validation/2026-10-11/audio-swap/index.html",
+      "bytes": 16050
+    },
+    {
+      "sha256": "108a71f15ba056264cbed670166b2885ea8afb932a8a481e1f6d118326381090",
+      "path": "validation/2026-10-11/board-color/after.png",
+      "bytes": 1016659
+    },
+    {
+      "sha256": "1abf3a6f27c7c5b185b857053001e81ae6bbfb5ae45c10975205b5f13bc6d56f",
+      "path": "validation/2026-10-11/board-color/before.png",
+      "bytes": 1011817
+    },
+    {
+      "sha256": "14b5756261085e4a667bcb619e99cd6e09903eefa1cd152d939e0f2b5dbd2477",
+      "path": "validation/2026-10-11/board-color/during-clear.png",
+      "bytes": 1026814
+    },
+    {
+      "sha256": "5a7017d8b917fa190d74626da197f6189858e9691e8cf1e2d6c5c84305edd4ed",
+      "path": "validation/2026-10-11/cards/battle-1024x768.png",
+      "bytes": 456094
+    },
+    {
+      "sha256": "d70099358d41818a63ebb8b10b641518fd6e5a00595014e4e7acaa9145af85f8",
+      "path": "validation/2026-10-11/cards/battle-1366x768.png",
+      "bytes": 534668
+    },
+    {
+      "sha256": "1be8b798c14ac95ab8b4b3b66defc6d44563d29a42fb2aa3e7e078730530048c",
+      "path": "validation/2026-10-11/cards/battle-1440x960.png",
+      "bytes": 618415
+    },
+    {
+      "sha256": "8d5662599c757414fefcc40ea7392157d86ee133d90885725dc12976f71115e6",
+      "path": "validation/2026-10-11/cards/battle-1920x1080.png",
+      "bytes": 842874
+    },
+    {
+      "sha256": "0829f193f3f532b092caf5a45c4edac806b695dbf736ce9684041b1952acd5b3",
+      "path": "validation/2026-10-11/cards/battle-zero.png",
+      "bytes": 537431
+    },
+    {
+      "sha256": "34f88747b860745b771751d45fda622744516fac8f0a4dbadb2d6e96e34700e3",
+      "path": "validation/2026-10-11/cards/fire-cast.png",
+      "bytes": 601389
+    },
+    {
+      "sha256": "72b6ea5dc27269498ffaaeab3d99b837e8caa895b56cbffe80fa9cfe56714c95",
+      "path": "validation/2026-10-11/cards/freeze-cast.png",
+      "bytes": 658096
+    },
+    {
+      "sha256": "ec8b67fc9323165386a098e5f286dffd08f97dc16cedfd87e223f1f66a967332",
+      "path": "validation/2026-10-11/cards/hand-hover.png",
+      "bytes": 667374
+    },
+    {
+      "sha256": "fd3eb5c6c09411c3a4e9727d3286c7a753760764cc2f88ff4b4b2a2fda9a1aa9",
+      "path": "validation/2026-10-11/cards/hand-six.png",
+      "bytes": 669095
+    },
+    {
+      "sha256": "b02fc9ed9f8155281c6f76ba81b3083860c326f6a2e73b7a6937e5ddce87a1f9",
+      "path": "validation/2026-10-11/cards/result-15000.png",
+      "bytes": 496106
+    },
+    {
+      "sha256": "cdb3832d7ccd74c260b794eec472bb939c5fc863859870720fae3254a26d2c43",
+      "path": "validation/2026-10-11/cards/selection.png",
+      "bytes": 303334
+    },
+    {
+      "sha256": "8e0fa4784dd49732e38cc7aa35b6f1a7fcef5d280f5e4078090ca4955518374d",
+      "path": "validation/2026-10-11/cards/yellow-cast.png",
+      "bytes": 581445
+    },
+    {
+      "sha256": "a83119d3eceb6f309108d5ebda05c7fb26205bd399581e0f5797a7f62cac91d5",
+      "path": "validation/2026-10-11/cards-refinement/battle-1024x768.png",
+      "bytes": 412000
+    },
+    {
+      "sha256": "9e8c0b92184e5ee0cdcc08cb457c7f1fce7ffc1c9585adc46b576cfdec77c0b2",
+      "path": "validation/2026-10-11/cards-refinement/battle-1366x768.png",
+      "bytes": 535067
+    },
+    {
+      "sha256": "d041263474098dea3ca547e9ffeb82c9b95f2e7721f136c9f2e0a7afdce06bc6",
+      "path": "validation/2026-10-11/cards-refinement/battle-1440x960.png",
+      "bytes": 613002
+    },
+    {
+      "sha256": "919c9aff12fa2301d7c80d5b0eb8854dd7daad40a93049a8678f7dc3c267a0bf",
+      "path": "validation/2026-10-11/cards-refinement/battle-1920x1080.png",
+      "bytes": 639084
+    },
+    {
+      "sha256": "2979055ba9e2bca0d949e538b67dda5203cbd3e7d8500e3a85e0f9d5575c40f8",
+      "path": "validation/2026-10-11/cards-refinement/battle-zero.png",
+      "bytes": 501750
+    },
+    {
+      "sha256": "6234070126a91cc59af5c3e8c6ff1f2e98f08117f6fb73f1c5960cb332abb012",
+      "path": "validation/2026-10-11/cards-refinement/countdown.png",
+      "bytes": 463714
+    },
+    {
+      "sha256": "3aed529a304ec532ec8f00ba4b2a9446f53b17ccc807100ddb518a62fc2913c9",
+      "path": "validation/2026-10-11/cards-refinement/fire-cast.png",
+      "bytes": 597182
+    },
+    {
+      "sha256": "c9b9c77f7730f244bd53046bddf7a7d490c19f895ef3e8384a10f7a05f0b9ce3",
+      "path": "validation/2026-10-11/cards-refinement/freeze-cast.png",
+      "bytes": 658043
+    },
+    {
+      "sha256": "45b44edbaa53bc86f208783964aed2d1ec8ca55c245c092339d2222d2d5ae6c5",
+      "path": "validation/2026-10-11/cards-refinement/hand-hover.png",
+      "bytes": 652438
+    },
+    {
+      "sha256": "d83d92e5d3b39efcf0b29715a18e62badbe749b078334570d645af737709f136",
+      "path": "validation/2026-10-11/cards-refinement/hand-six.png",
+      "bytes": 649505
+    },
+    {
+      "sha256": "9e65d059ce2f3d8fba55baa3fc2ed6664cd1ae54aa3360d31b0cbaee6ec628e6",
+      "path": "validation/2026-10-11/cards-refinement/result-15000.png",
+      "bytes": 547157
+    },
+    {
+      "sha256": "92b2ecb711f85414221b69a0593db3600a74e33a5032212956b12c57888fd88a",
+      "path": "validation/2026-10-11/cards-refinement/selection-ready-1366x768.png",
+      "bytes": 346985
+    },
+    {
+      "sha256": "c8c465ab4f55c81d382264ca53feb0e44f72382885f9c1074faafb9d8892b1d8",
+      "path": "validation/2026-10-11/cards-refinement/selection.png",
+      "bytes": 367024
+    },
+    {
+      "sha256": "7cfb13453ab7b38b808de9d841df240c3fb12f954ce67e6f6a08456674d8833f",
+      "path": "validation/2026-10-11/cards-refinement/yellow-cast.png",
+      "bytes": 578040
+    },
+    {
+      "sha256": "17ea11d74a403381d3a642ba5f11da26b9a3a58ee2076874d8f78e00e40e525a",
+      "path": "validation/2026-10-11/cliff-art/cliff-blocked.png",
+      "bytes": 631959
+    },
+    {
+      "sha256": "91c56a75a54a3935052427a5119245ea5c8c3c276f27b8fa3c6ac9112c5d295e",
+      "path": "validation/2026-10-11/cliff-art/cliff-board-detail.png",
+      "bytes": 747131
+    },
+    {
+      "sha256": "c4df3bc23ce19cb5de422ec344273303c2411c93fb36342c4dbdd515f2c02060",
+      "path": "validation/2026-10-11/cliff-art/cliff-duel.png",
+      "bytes": 628474
+    },
+    {
+      "sha256": "2edf553b71bd6fa1c9a1892bfe620a3bc3e4143c1d25ec69c1f20921a666f448",
+      "path": "validation/2026-10-11/cliff-art/cliff-fall.png",
+      "bytes": 631181
+    },
+    {
+      "sha256": "323d2bdeb5c1ebbb4c22e4dd994e9fac000bb21cb983e8314869036c37c75307",
+      "path": "validation/2026-10-11/cliff-art/cliff-warning.png",
+      "bytes": 635295
+    },
+    {
+      "sha256": "cdc638f7fbc2854f38cd70148569fe1fa9f234b9a851f8f5e35e507e5afd0d44",
+      "path": "validation/2026-10-11/cliff-preview/cliff-cycling.png",
+      "bytes": 844589
+    },
+    {
+      "sha256": "198f0b8c0475c8f2790b0f3f935e385c4e16b4426fb02dd492aaaa915ea3deba",
+      "path": "validation/2026-10-11/cliff-preview/cliff-locked.png",
+      "bytes": 878959
+    },
+    {
+      "sha256": "56f328e877fb811ac89765e1651eaa34c6155a0e65e3321985e485492f653a43",
+      "path": "validation/2026-10-11/map-event-presence/cliff-massive-active.png",
+      "bytes": 615773
+    },
+    {
+      "sha256": "336dfaf780b726cb2d1da7295fac54c187e8c967774cae16e6dbe9f851bab054",
+      "path": "validation/2026-10-11/map-event-presence/cliff-massive-execute.png",
+      "bytes": 605562
+    },
+    {
+      "sha256": "3192523a8e6506a7cc8fec9d0a328b7a47c05cc5f0bb991339aed2a40eac5faf",
+      "path": "validation/2026-10-11/map-event-presence/cliff-massive-recover.png",
+      "bytes": 627436
+    },
+    {
+      "sha256": "64d787c9db9091b20cd0e2868e099b3024dbbc94493b1e40b5f5099f4f3fef46",
+      "path": "validation/2026-10-11/map-event-presence/cliff-massive-warning.png",
+      "bytes": 622098
+    },
+    {
+      "sha256": "9a0f31c603799dc645e6f672b32b7f2959895c9e7507c9afad79443dbad12b42",
+      "path": "validation/2026-10-11/map-event-presence/cliff-wide-active.png",
+      "bytes": 608509
+    },
+    {
+      "sha256": "6be264d4ee9b56a27126c0b7928483cd6c0e3efe0889bb27eff7eddbcaf28865",
+      "path": "validation/2026-10-11/map-event-presence/cliff-wide-execute.png",
+      "bytes": 607919
+    },
+    {
+      "sha256": "d9f02becb266d31993b9194f01c5c2d74e63447d90e4b9928d71454d6f7e6723",
+      "path": "validation/2026-10-11/map-event-presence/cliff-wide-recover.png",
+      "bytes": 618892
+    },
+    {
+      "sha256": "59028b867d247df5cd5a21ac4b4275494f1fa6b21285d8577330877fb44a42b8",
+      "path": "validation/2026-10-11/map-event-presence/cliff-wide-warning.png",
+      "bytes": 619376
+    },
+    {
+      "sha256": "a36ad5aabef5b6e64aae50958cd1d58f60ee6d2f8f9e977eb70674fc494e62d4",
+      "path": "validation/2026-10-11/map-event-presence/crystal-active.png",
+      "bytes": 366448
+    },
+    {
+      "sha256": "3db7129bf59ae09b2855d5610723fdee7cd1b9a80ee37f080c7d676c7e10a294",
+      "path": "validation/2026-10-11/map-event-presence/crystal-crack.png",
+      "bytes": 369396
+    },
+    {
+      "sha256": "a544f8ec2b996a0a1d358b36cf7e43c17a2ca4856eea2cc16257a193886b5004",
+      "path": "validation/2026-10-11/map-event-presence/crystal-execute.png",
+      "bytes": 366746
+    },
+    {
+      "sha256": "475b31112e056612dc4aac66a068b11dcaa2042ad06888fb059eb47e4079c045",
+      "path": "validation/2026-10-11/map-event-presence/crystal-recover.png",
+      "bytes": 373763
+    },
+    {
+      "sha256": "2ae4cf0b36e644b1529a9a675f1b7f32c8946e6a78f26bc7fba86e8e29ea411d",
+      "path": "validation/2026-10-11/map-event-presence/crystal-shatter.png",
+      "bytes": 367026
+    },
+    {
+      "sha256": "b4dc57f493263601590612dfccd9b1e37e5d69340707c12297d97a2a7fcb5648",
+      "path": "validation/2026-10-11/map-event-presence/crystal-warning.png",
+      "bytes": 340033
+    },
+    {
+      "sha256": "a3e5ec97838428f2c597a8f374686342299f19b025336ec810d6829da6949a69",
+      "path": "validation/2026-10-11/map-event-presence/ruins-active.png",
+      "bytes": 328957
+    },
+    {
+      "sha256": "bb60859318c0a7a2dd49cfd276dc7cd3e5da9fd9383de6e30872c9af5c108ac6",
+      "path": "validation/2026-10-11/map-event-presence/ruins-execute.png",
+      "bytes": 324645
+    },
+    {
+      "sha256": "2a801be1cc0ab112013dddd8b918a15935fce5c3ab580474617401450483f949",
+      "path": "validation/2026-10-11/map-event-presence/ruins-recover.png",
+      "bytes": 321904
+    },
+    {
+      "sha256": "55168fb6a7a205d27d6de6bc5d712aed65ee8700937422a85f42e7441fa06c6a",
+      "path": "validation/2026-10-11/map-event-presence/ruins-warning.png",
+      "bytes": 324071
+    },
+    {
+      "sha256": "b3406fea39c8eb0c05f6e7d45afd09cdb8f61f77fb1ca61f226b87c4b61c4652",
+      "path": "validation/2026-10-11/map-events/cliff-active.png",
+      "bytes": 750935
+    },
+    {
+      "sha256": "9494bac4526aec654d2e784772951bdd5c1b0a0b71eff3f6dfd3fe9b1a3d79c2",
+      "path": "validation/2026-10-11/map-events/cliff-execute.png",
+      "bytes": 747909
+    },
+    {
+      "sha256": "bf472b40d112cb462b0abf870714cb4077477663ac86286cda6aeccd0364090b",
+      "path": "validation/2026-10-11/map-events/cliff-recover.png",
+      "bytes": 747205
+    },
+    {
+      "sha256": "519aeb4800852fb460cf23e1fd3f7dbd99465c2a227f420fd0b7cabd46377c37",
+      "path": "validation/2026-10-11/map-events/cliff-warning.png",
+      "bytes": 746735
+    },
+    {
+      "sha256": "d727d8a6c35840aded980cc7bfc69864719045ae22fe72eea7109d5d6578058e",
+      "path": "validation/2026-10-11/map-events/crystal-active.png",
+      "bytes": 454069
+    },
+    {
+      "sha256": "e632e84ac4a3663edac4d10fd0d391fa2d228ef57844551c0db6a5b1bb5e6adf",
+      "path": "validation/2026-10-11/map-events/crystal-execute.png",
+      "bytes": 453727
+    },
+    {
+      "sha256": "3b18e63cb65f42ebff8beaf4932b90e9ce4592dc455d7feadbb7df9266b917c6",
+      "path": "validation/2026-10-11/map-events/crystal-recover.png",
+      "bytes": 448510
+    },
+    {
+      "sha256": "178c9c51c3df2558345302faf1bf60dd7f2fc532e66a440e7fb2a32b597aab7a",
+      "path": "validation/2026-10-11/map-events/crystal-thaw.png",
+      "bytes": 454021
+    },
+    {
+      "sha256": "881d9a7bd3cf939883018ae5c05551fa3ba128fd4d0f72e5a21a2252f8512543",
+      "path": "validation/2026-10-11/map-events/crystal-warning.png",
+      "bytes": 448476
+    },
+    {
+      "sha256": "f8f51545b28f365fc9320b558d458dc63c01c52133868fa1a8d4c4d460376f51",
+      "path": "validation/2026-10-11/map-events/ruins-active.png",
+      "bytes": 459781
+    },
+    {
+      "sha256": "26a1c0b333bae006369b8f0f40f063d12746fa4d7805e4aebc0ddc36a42c169f",
+      "path": "validation/2026-10-11/map-events/ruins-execute.png",
+      "bytes": 457712
+    },
+    {
+      "sha256": "a8393d024d1bd25af42109fa0fd895faaa41cf27e58feedb3f01630453502a41",
+      "path": "validation/2026-10-11/map-events/ruins-recover.png",
+      "bytes": 456087
+    },
+    {
+      "sha256": "bbcc9cd431d73637b68f7a739c3d2fe50e60c41980140ed70cb89e4de2135caf",
+      "path": "validation/2026-10-11/map-events/ruins-warning.png",
+      "bytes": 457901
+    },
+    {
+      "sha256": "29a3abc93f4e0b51a93332cebfadf4b4038ea65f76ff85192571001a291466ab",
+      "path": "validation/2026-10-11/map-facilities/cliff-detail.png",
+      "bytes": 739659
+    },
+    {
+      "sha256": "173d307d1303705bd42fd7bdeaca72df699ca95215cc91849cf0d3fa16b03097",
+      "path": "validation/2026-10-11/map-facilities/cliff-duel.png",
+      "bytes": 617703
+    },
+    {
+      "sha256": "a5d67e387a9826d33bb0c65f546d3b692e3df5e9beef85a7315c1fa6458112ab",
+      "path": "validation/2026-10-11/map-facilities/cliff-opening.png",
+      "bytes": 618420
+    },
+    {
+      "sha256": "10f85e0bfe35f82aa43ea330426b78ef51d74d725f3204570b92875e0287fa40",
+      "path": "validation/2026-10-11/map-facilities/cliff-revealed.png",
+      "bytes": 829427
+    },
+    {
+      "sha256": "b2329f3af2b65431a0ab26bd9f81fc6f59837161f71cdd8287668ec953c2d6b9",
+      "path": "validation/2026-10-11/map-facilities/cliff-rockfall.png",
+      "bytes": 623260
+    },
+    {
+      "sha256": "34c325826d41fdb0117a7278f6d827423e309e6d808426129b6d4a0d102806e3",
+      "path": "validation/2026-10-11/map-facilities/crystal-detail.png",
+      "bytes": 582762
+    },
+    {
+      "sha256": "78f92365e8cab36529726a90e2b318268a071790543768330f68153857dda3ed",
+      "path": "validation/2026-10-11/map-facilities/crystal-duel.png",
+      "bytes": 365121
+    },
+    {
+      "sha256": "8fe20490cb9f99d41c611d89a29f5636369891a8cc24afc79eb320698a70e89c",
+      "path": "validation/2026-10-11/map-facilities/crystal-opening.png",
+      "bytes": 347040
+    },
+    {
+      "sha256": "a483fb8db1260638dd2a9d5ae39845a58eec8c6918f2568fd8891984128b2bdc",
+      "path": "validation/2026-10-11/map-facilities/crystal-revealed.png",
+      "bytes": 820900
+    },
+    {
+      "sha256": "4de8343789e4864d7fd7b23008a138c68c6ff2230d73a0cd83ae2b61804d2d28",
+      "path": "validation/2026-10-11/map-facilities/forest-duel.png",
+      "bytes": 934554
+    },
+    {
+      "sha256": "cc56bdc79d92ed264090674a2daa82250ea9cf56beb9940bb6d563320fa78635",
+      "path": "validation/2026-10-11/map-facilities/forest-opening.png",
+      "bytes": 924147
+    },
+    {
+      "sha256": "0438a05f5fd18d90b1efafbb29e2b1b08c145eebd461879a1cdfcd3d5fa69167",
+      "path": "validation/2026-10-11/map-facilities/forest-revealed.png",
+      "bytes": 957727
+    },
+    {
+      "sha256": "b02f4a633d4234c67db42d08139bd0d3a57691909d3419a0d30a5e3fa60a0d6b",
+      "path": "validation/2026-10-11/map-facilities/reveal-cycling.png",
+      "bytes": 957759
+    },
+    {
+      "sha256": "cb5455b01c8433180cd48f25ecd56d23ca634ba1e3d4fc031d84d16c4a4a3ad5",
+      "path": "validation/2026-10-11/map-facilities/ruins-detail.png",
+      "bytes": 623159
+    },
+    {
+      "sha256": "cca6dd11fd60d39ec51a6f4a859a0bdc7561f4931ec000a93c66568e29484fb0",
+      "path": "validation/2026-10-11/map-facilities/ruins-duel.png",
+      "bytes": 328769
+    },
+    {
+      "sha256": "1fc3fb28697aa2ac0ce862a564892035be469bf8bd19ac70f117297a9e5a1d0a",
+      "path": "validation/2026-10-11/map-facilities/ruins-opening.png",
+      "bytes": 307613
+    },
+    {
+      "sha256": "551ca684bc4311ed7191e01f6bee50588d5ca6c0bbc236cd5097b8fba402fc8c",
+      "path": "validation/2026-10-11/map-facilities/ruins-revealed.png",
+      "bytes": 810915
+    },
+    {
+      "sha256": "cc8be445411781f845d6c93a33bf27ee4f10bb03efbc96ee6ef474f74861594f",
+      "path": "validation/2026-10-11/map-feedback/cliff-active.png",
+      "bytes": 725565
+    },
+    {
+      "sha256": "41040b1b6b10fb06f5fe69612bdeb1ee455873f903b91af4056b4a4b1704d2e3",
+      "path": "validation/2026-10-11/map-feedback/cliff-arrival.png",
+      "bytes": 693819
+    },
+    {
+      "sha256": "8677b0d727af302e0ddb69cf4884070e2920d9a6bc06f6b3aa93963392d6b95d",
+      "path": "validation/2026-10-11/map-feedback/cliff-before.png",
+      "bytes": 694203
+    },
+    {
+      "sha256": "de1a1dcd3a35840a9c03c3c326e5779fcd08dc9d06cc52425a17488eb8ecead2",
+      "path": "validation/2026-10-11/map-feedback/cliff-environment.png",
+      "bytes": 701249
+    },
+    {
+      "sha256": "cc8be445411781f845d6c93a33bf27ee4f10bb03efbc96ee6ef474f74861594f",
+      "path": "validation/2026-10-11/map-feedback/cliff-event.png",
+      "bytes": 725565
+    },
+    {
+      "sha256": "2b43e36894c2de1d6c28332bf4019dd0f0a85a990c5ab8a010bfa3dc7e8b8924",
+      "path": "validation/2026-10-11/map-feedback/cliff-execute.png",
+      "bytes": 690314
+    },
+    {
+      "sha256": "6778f5810c68cc4dd299a863b9248e7b95842a42cedc47d0a491af51c016bb5e",
+      "path": "validation/2026-10-11/map-feedback/cliff-landing.png",
+      "bytes": 700507
+    },
+    {
+      "sha256": "faeb3eaeb0892a85aa1f77987d3affe05d0d40991b07011558dc0228c12cccc8",
+      "path": "validation/2026-10-11/map-feedback/cliff-mountain-shake.png",
+      "bytes": 704141
+    },
+    {
+      "sha256": "6a5b86b21cf1aa2a83e5e0d196045f9b67b42518fb10b2aed7fcdc893dad136e",
+      "path": "validation/2026-10-11/map-feedback/cliff-recovery.png",
+      "bytes": 739273
+    },
+    {
+      "sha256": "a15a765d2fb1ff0e32ab643a1903bde904fd9aff7189e5c42c5b47b3a607f783",
+      "path": "validation/2026-10-11/map-feedback/cliff-restored.png",
+      "bytes": 694124
+    },
+    {
+      "sha256": "e3ab69915d1b7d6f82862238ceb264d6c39fda054977a0350d416d0880f6fb99",
+      "path": "validation/2026-10-11/map-feedback/cliff-storyboard.png",
+      "bytes": 1043984
+    },
+    {
+      "sha256": "fccf43d0f99b509bc7164db06427f99c8e223b8cc630910c70ed5be0adb9e896",
+      "path": "validation/2026-10-11/map-feedback/cliff-warning.png",
+      "bytes": 741084
+    },
+    {
+      "sha256": "dc895ce548a89169003415efd0ea5985d40ea2e17e50c7e7988fbc0f3aa2812c",
+      "path": "validation/2026-10-11/map-feedback/crystal-active.png",
+      "bytes": 764282
+    },
+    {
+      "sha256": "9cd608a786a8a58602ae9d99d2edf2e391b491d131b95c6530de9a624708aa26",
+      "path": "validation/2026-10-11/map-feedback/crystal-arrival.png",
+      "bytes": 744309
+    },
+    {
+      "sha256": "0b644bad5476f5bd0aba2d8a1c6754fafdb8f65698e33959673e03c954e228ba",
+      "path": "validation/2026-10-11/map-feedback/crystal-before.png",
+      "bytes": 447114
+    },
+    {
+      "sha256": "d31b75e759db42b6879bd4f8bf7573182e727fcb2521be9885fa8b49531ff7be",
+      "path": "validation/2026-10-11/map-feedback/crystal-cracks.png",
+      "bytes": 520194
+    },
+    {
+      "sha256": "5d38a49d9a4d6f0d6cd736ce062abc9ef5250d59338c28c57ac20eec887fef78",
+      "path": "validation/2026-10-11/map-feedback/crystal-environment.png",
+      "bytes": 700417
+    },
+    {
+      "sha256": "3e2fbd00cee2ff199a78864cd4d61f5d049d0d39fbdf1f096393618a1bce6b01",
+      "path": "validation/2026-10-11/map-feedback/crystal-event.png",
+      "bytes": 756331
+    },
+    {
+      "sha256": "71b847ec3fa46c1fe1b710022e9ed9e821c9dec831e29114e71993bb34ef7061",
+      "path": "validation/2026-10-11/map-feedback/crystal-execute.png",
+      "bytes": 754431
+    },
+    {
+      "sha256": "58c56bc3ad615071214643cd1092e1217546530bf273dfceb87f309d073517c5",
+      "path": "validation/2026-10-11/map-feedback/crystal-ice-detail.png",
+      "bytes": 9925
+    },
+    {
+      "sha256": "348385639667d50c346c33a8ef1efb968e708afa4220d4355fe1a0e7be822fc9",
+      "path": "validation/2026-10-11/map-feedback/crystal-landing.png",
+      "bytes": 761912
+    },
+    {
+      "sha256": "34b032b2298a01016ce7d64dc28676d096bd0a0a287d6f2377dd245dd0567023",
+      "path": "validation/2026-10-11/map-feedback/crystal-persistent.png",
+      "bytes": 493701
+    },
+    {
+      "sha256": "74bd2d8e6126e75425908d1e253e5f1ebc01a607de67d619e7efb16610a9a681",
+      "path": "validation/2026-10-11/map-feedback/crystal-recovered.png",
+      "bytes": 752079
+    },
+    {
+      "sha256": "036f8599cbf4acd10052c152fe2afd0b7acee61e78ea4b39cdf6bd1dc9813a23",
+      "path": "validation/2026-10-11/map-feedback/crystal-shards.png",
+      "bytes": 513611
+    },
+    {
+      "sha256": "267abe1621690ead55beeee11f3adc3a80176729fe96d48aa8f044b6a80b262b",
+      "path": "validation/2026-10-11/map-feedback/crystal-storyboard.png",
+      "bytes": 1018046
+    },
+    {
+      "sha256": "bca77003aceec2525e2647f0450129a40d6273d4ff249d200d34597e8959a85c",
+      "path": "validation/2026-10-11/map-feedback/crystal-warning.png",
+      "bytes": 713115
+    },
+    {
+      "sha256": "44ab3f890541078001ca9a66a997c77df58d865a9a967f88e66ad0fad01cec07",
+      "path": "validation/2026-10-11/map-feedback/forest-before.png",
+      "bytes": 940579
+    },
+    {
+      "sha256": "f133c9e0776f3e13511b1b9db5fcb28f8ce10091edcab12e99a4b075c59328ee",
+      "path": "validation/2026-10-11/map-feedback/furnace-active.png",
+      "bytes": 862474
+    },
+    {
+      "sha256": "e74304c4a24d732df8164e1811b9ea73d7afe3689d4f874693e40517e3b84142",
+      "path": "validation/2026-10-11/map-feedback/furnace-arrival.png",
+      "bytes": 843297
+    },
+    {
+      "sha256": "e93bccfe76f4c43d34de0264a5e38203141a220541ca39626402e28a36ccb8f4",
+      "path": "validation/2026-10-11/map-feedback/furnace-before.png",
+      "bytes": 650992
+    },
+    {
+      "sha256": "ac98dfd596d7014eb7685ded77f32632b00fa3aef9988c30cf3553afe2371e06",
+      "path": "validation/2026-10-11/map-feedback/furnace-environment.png",
+      "bytes": 797009
+    },
+    {
+      "sha256": "5a3a50b66afcc64b87bcc6e00dd7acbefeb75291e97d30c06225dfc9066c47c2",
+      "path": "validation/2026-10-11/map-feedback/furnace-event.png",
+      "bytes": 1014891
+    },
+    {
+      "sha256": "b3d50b04b072bd2f78b840f1be0a0c73b42f948a32438c2bdf91ec59cfd31800",
+      "path": "validation/2026-10-11/map-feedback/furnace-execute.png",
+      "bytes": 859197
+    },
+    {
+      "sha256": "0a0d60fad5d77846b529eb8a932fc86e5dd2d3c32dd726162cd09048466fc7da",
+      "path": "validation/2026-10-11/map-feedback/furnace-flame-motion.png",
+      "bytes": 861730
+    },
+    {
+      "sha256": "f3e89af83c12871e46903682efbd3aeca5efa75186b66870c43fd4b3139e4a21",
+      "path": "validation/2026-10-11/map-feedback/furnace-landing.png",
+      "bytes": 866068
+    },
+    {
+      "sha256": "3dc0ace566f1005fdc0d5c1b88df752aeab9a7985032df892380b45d192b9ce8",
+      "path": "validation/2026-10-11/map-feedback/furnace-recovery.png",
+      "bytes": 885704
+    },
+    {
+      "sha256": "6ff3feb38c574bd2e20cf28020ac768064c755fe94ac6cad621ef5f2b0f03639",
+      "path": "validation/2026-10-11/map-feedback/furnace-restored.png",
+      "bytes": 649794
+    },
+    {
+      "sha256": "af84c0eb9193767407ee275e090556555ea33cb95995d730e0c4da6f545d599d",
+      "path": "validation/2026-10-11/map-feedback/furnace-spread-3000-flame.png",
+      "bytes": 927694
+    },
+    {
+      "sha256": "6ac8a9b8598a5ace43ee2d1498d829e2d132e29cd78e02f6631b5cd10de7eae2",
+      "path": "validation/2026-10-11/map-feedback/furnace-spread-3000-warning.png",
+      "bytes": 972400
+    },
+    {
+      "sha256": "5a3a50b66afcc64b87bcc6e00dd7acbefeb75291e97d30c06225dfc9066c47c2",
+      "path": "validation/2026-10-11/map-feedback/furnace-spread-6000-flame.png",
+      "bytes": 1014891
+    },
+    {
+      "sha256": "d2abe6cc901094c21adb0faf52f6c28a8134ed3676fc521383c18513e12d5665",
+      "path": "validation/2026-10-11/map-feedback/furnace-spread-6000-warning.png",
+      "bytes": 1055117
+    },
+    {
+      "sha256": "cabd95a2d54ffdd537a498d542713ed584ba30748fc214f1274580b74c2e320c",
+      "path": "validation/2026-10-11/map-feedback/furnace-still-burning.png",
+      "bytes": 1006189
+    },
+    {
+      "sha256": "3531a6d97378776f79e25884b07c95cd6a84b081370c6a8184269fe27b825ebf",
+      "path": "validation/2026-10-11/map-feedback/furnace-storyboard.png",
+      "bytes": 1294282
+    },
+    {
+      "sha256": "f2e0c635019d52a5c78fb76b45ee7fee9ff126b12def638a24199059b5692e34",
+      "path": "validation/2026-10-11/map-feedback/furnace-warning.png",
+      "bytes": 883492
+    },
+    {
+      "sha256": "4949121d397a6d3ee9b742fe97340117825c40484bb6b64a51dd73b1946568cc",
+      "path": "validation/2026-10-11/map-feedback/index.html",
+      "bytes": 5170
+    },
+    {
+      "sha256": "d0b9e3d8caa50084bfaf2bdb73a105bc2ec7ddb933efb3eff72490c5e33c4147",
+      "path": "validation/2026-10-11/map-feedback/mobile-name.png",
+      "bytes": 220258
+    },
+    {
+      "sha256": "7bf146eb207baab95843bb98725fb558061fac256a6d184b3603325913cd303c",
+      "path": "validation/2026-10-11/map-feedback/native-art-comparison.png",
+      "bytes": 1365878
+    },
+    {
+      "sha256": "feedb7529c80198a4ed273f6c2a1ca0f5ec0b2e8c9b494aadca50e9c9f004f73",
+      "path": "validation/2026-10-11/map-feedback/ruins-active.png",
+      "bytes": 440811
+    },
+    {
+      "sha256": "d9904c153aa9ea518ddc4157ca387a4566f9b5763f0375b87e0d6cccdf7d2b00",
+      "path": "validation/2026-10-11/map-feedback/ruins-arrival.png",
+      "bytes": 469412
+    },
+    {
+      "sha256": "42720fc7593af693c9bb1686b9c4e1554d68b5672f502a186e8a2e4f5ef746ea",
+      "path": "validation/2026-10-11/map-feedback/ruins-before.png",
+      "bytes": 430849
+    },
+    {
+      "sha256": "238a763794b1a756eae3fa12f3b038c30693f0f450e55af4fc9badba846c2f9b",
+      "path": "validation/2026-10-11/map-feedback/ruins-changed.png",
+      "bytes": 428561
+    },
+    {
+      "sha256": "bb946908a194678b2f30700fc8812e740cdf00740b094eb2ff154b36ff992c3f",
+      "path": "validation/2026-10-11/map-feedback/ruins-environment.png",
+      "bytes": 432783
+    },
+    {
+      "sha256": "ac37a5a2bff60d07b7815fb6d3f327deb0e54504f8c84fce3da8ea0d4bdc4694",
+      "path": "validation/2026-10-11/map-feedback/ruins-event.png",
+      "bytes": 468737
+    },
+    {
+      "sha256": "ac37a5a2bff60d07b7815fb6d3f327deb0e54504f8c84fce3da8ea0d4bdc4694",
+      "path": "validation/2026-10-11/map-feedback/ruins-execute.png",
+      "bytes": 468737
+    },
+    {
+      "sha256": "39b9e74b3259c731f1911aef70925845dec7f1cd34b2089ad752b6a707ab5c23",
+      "path": "validation/2026-10-11/map-feedback/ruins-landing.png",
+      "bytes": 460626
+    },
+    {
+      "sha256": "3dee8ab492fd9655d36a5d521aca75c2267dde420902f48398ac8a262cc80bb4",
+      "path": "validation/2026-10-11/map-feedback/ruins-large-gear.png",
+      "bytes": 434757
+    },
+    {
+      "sha256": "4a25dec7fb9b199f480afe49a22325f3585061527d37f969ebe7635957e91bdb",
+      "path": "validation/2026-10-11/map-feedback/ruins-storyboard.png",
+      "bytes": 663128
+    },
+    {
+      "sha256": "31c6f2b44a1dd56ad885dd89a39c8285c57038d5c9d3bf86c7b3e148a20de863",
+      "path": "validation/2026-10-11/map-feedback/ruins-warning.png",
+      "bytes": 453106
+    },
+    {
+      "sha256": "841bcf071fedd349b84ee4f34905fe64c40aec28c826dd8ab5e95c510a90e164",
+      "path": "validation/2026-10-11/map-language/cliff-active.png",
+      "bytes": 632022
+    },
+    {
+      "sha256": "681ba0c18f0a85a88ae09653c40ef548c407ed6c8dc71ff22e6ee19d29e73822",
+      "path": "validation/2026-10-11/map-language/cliff-arrival.png",
+      "bytes": 604235
+    },
+    {
+      "sha256": "25628c96831763f2b6148433b50e908a34f4b3f2883c1841eb8043a20931484f",
+      "path": "validation/2026-10-11/map-language/cliff-before.png",
+      "bytes": 608236
+    },
+    {
+      "sha256": "6e157fc4544b9efd0ac4c68572300fca7bfc09a6955bc83afeeddb9be7a37991",
+      "path": "validation/2026-10-11/map-language/cliff-environment.png",
+      "bytes": 609274
+    },
+    {
+      "sha256": "841bcf071fedd349b84ee4f34905fe64c40aec28c826dd8ab5e95c510a90e164",
+      "path": "validation/2026-10-11/map-language/cliff-event.png",
+      "bytes": 632022
+    },
+    {
+      "sha256": "a4cad40abc43e5615e007b9aee6c9e874140185aeebb6b9ea65366cf402df572",
+      "path": "validation/2026-10-11/map-language/cliff-execute.png",
+      "bytes": 600898
+    },
+    {
+      "sha256": "e6abac34e20cf3621a18712732469782b5af1f1ea73816412c4a7893dd1258cf",
+      "path": "validation/2026-10-11/map-language/cliff-landing.png",
+      "bytes": 610830
+    },
+    {
+      "sha256": "92d0c78ee87bbc07bf1df0d42cdf41a553aa486195ab481ccb01bba79c29ee49",
+      "path": "validation/2026-10-11/map-language/cliff-mountain-shake.png",
+      "bytes": 610188
+    },
+    {
+      "sha256": "3b55976e806963836c2f2fd77e434bb10f0f9468b887673ce528cdd60d02f897",
+      "path": "validation/2026-10-11/map-language/cliff-recovery.png",
+      "bytes": 646413
+    },
+    {
+      "sha256": "cc27fd669fe631bedfff293560d517a383972694c83007caa8d26bf2ff18c728",
+      "path": "validation/2026-10-11/map-language/cliff-restored.png",
+      "bytes": 601647
+    },
+    {
+      "sha256": "4395cfdd13f3765b2fc439ea2f61722a86642541fac87b314a7cb632238b6daa",
+      "path": "validation/2026-10-11/map-language/cliff-storyboard.png",
+      "bytes": 944123
+    },
+    {
+      "sha256": "78a6291a221ba1a812436f513e2eac5b4d05bd662729ba6b2f4f61992a8e5b82",
+      "path": "validation/2026-10-11/map-language/cliff-warning.png",
+      "bytes": 646389
+    },
+    {
+      "sha256": "ea1943c6cc30efe4ba69f1dd34d4eb89508e42206b55348104c5b941232cfe9f",
+      "path": "validation/2026-10-11/map-language/crystal-active.png",
+      "bytes": 424586
+    },
+    {
+      "sha256": "a34e6dc99a32bbdb11b45c8a140155e9b53239855fdfa1eb3e86a6a038c0fe1a",
+      "path": "validation/2026-10-11/map-language/crystal-arrival.png",
+      "bytes": 420068
+    },
+    {
+      "sha256": "09708b2e6bf385f3e0d76b5a205d7c7d31e9fd4d534d68f3e46dba128bbf4675",
+      "path": "validation/2026-10-11/map-language/crystal-before.png",
+      "bytes": 348028
+    },
+    {
+      "sha256": "3deb3a4bdb5f7f01f5e1779d7a34caadaf875de3ea2ef42e40c5d87b2aed04be",
+      "path": "validation/2026-10-11/map-language/crystal-cracks.png",
+      "bytes": 395593
+    },
+    {
+      "sha256": "6e891f89d2a44fb114e0b2336e1d6ad3b2a8ab9bd846b1245a1d41aefc411cb2",
+      "path": "validation/2026-10-11/map-language/crystal-environment.png",
+      "bytes": 376799
+    },
+    {
+      "sha256": "d40542229423fef929a01da87243c54748752a25c028d0074f84e30fbd84f163",
+      "path": "validation/2026-10-11/map-language/crystal-event.png",
+      "bytes": 423263
+    },
+    {
+      "sha256": "a49d647bafea0ffa88ece9ec645b6d66d613273b58ceff17b2fde20ebe1b6e32",
+      "path": "validation/2026-10-11/map-language/crystal-execute.png",
+      "bytes": 424172
+    },
+    {
+      "sha256": "e0a380c0223eabdcdd3f0d14459c3cbda3e76a48bd92d7cb76742a939c94131a",
+      "path": "validation/2026-10-11/map-language/crystal-landing.png",
+      "bytes": 426690
+    },
+    {
+      "sha256": "aed5a8f70372bd319c7ebcf9ed87256ffe4217b2cd08e2d0946a28f59da7c5e2",
+      "path": "validation/2026-10-11/map-language/crystal-persistent.png",
+      "bytes": 377104
+    },
+    {
+      "sha256": "78c8976d81eaabcace06dab09dc8fc04e6aeeb013d88d746af6dc81a6387ab66",
+      "path": "validation/2026-10-11/map-language/crystal-recovered.png",
+      "bytes": 428757
+    },
+    {
+      "sha256": "a2b89b4da23af1b52cb4dc47c2ab3ce179250913a6b3c855c1b58475af747b4c",
+      "path": "validation/2026-10-11/map-language/crystal-shards.png",
+      "bytes": 394235
+    },
+    {
+      "sha256": "ab360c3646abb0801590b955040a97177aa5e08f7700d31b7a2d677766840180",
+      "path": "validation/2026-10-11/map-language/crystal-storyboard.png",
+      "bytes": 745459
+    },
+    {
+      "sha256": "37460083becff99129a14f38a61bdbb05bfcdb61cd423d959db70252b1c982e6",
+      "path": "validation/2026-10-11/map-language/crystal-warning.png",
+      "bytes": 391966
+    },
+    {
+      "sha256": "a4cca02bd917c1ba8d3c346bc37303dc332b7ac6506eec5aa9a8b9e12ec58df5",
+      "path": "validation/2026-10-11/map-language/furnace-active.png",
+      "bytes": 433400
+    },
+    {
+      "sha256": "78edd29f2eb9075e7a9e39ae56525cdfac0b6aa3395c6ea6f08072e6fcf7fee4",
+      "path": "validation/2026-10-11/map-language/furnace-arrival.png",
+      "bytes": 411789
+    },
+    {
+      "sha256": "953c4dda056ee636b6ff9772167aca4f7e2937ce3b6d1360d6c6605ac0b143ac",
+      "path": "validation/2026-10-11/map-language/furnace-before.png",
+      "bytes": 387008
+    },
+    {
+      "sha256": "ec40059dc0a52308594d2bd8b73f69af4339553cecf5fe73d344c96c0263658e",
+      "path": "validation/2026-10-11/map-language/furnace-environment.png",
+      "bytes": 387501
+    },
+    {
+      "sha256": "a4cca02bd917c1ba8d3c346bc37303dc332b7ac6506eec5aa9a8b9e12ec58df5",
+      "path": "validation/2026-10-11/map-language/furnace-event.png",
+      "bytes": 433400
+    },
+    {
+      "sha256": "2bf96ca47292c045dda5046bcf71ac1be63d9d945de52505b41af2602ed8c7a0",
+      "path": "validation/2026-10-11/map-language/furnace-execute.png",
+      "bytes": 430342
+    },
+    {
+      "sha256": "0268086510e8dacadab661490865382042decdeabf3244c2069ac4f34c70b1c8",
+      "path": "validation/2026-10-11/map-language/furnace-flame-motion.png",
+      "bytes": 431884
+    },
+    {
+      "sha256": "c507cd064e03382298bb57468558fee5464bf5373e11e3b58fb6dc21e10c28b5",
+      "path": "validation/2026-10-11/map-language/furnace-landing.png",
+      "bytes": 436341
+    },
+    {
+      "sha256": "4f4d05c8fcbc3209e4b653cfa0ebf3d170d96243e7236c75245fd6792c010d99",
+      "path": "validation/2026-10-11/map-language/furnace-recovery.png",
+      "bytes": 412634
+    },
+    {
+      "sha256": "a0f4a746c5382349bee9f4b596df9b24f846c6fd75dd27cb13cfd8ba335c53c6",
+      "path": "validation/2026-10-11/map-language/furnace-restored.png",
+      "bytes": 380556
+    },
+    {
+      "sha256": "8a58ffeff013a564c35fe4a9c3690c28f8d6b8bdb23c0a42f64d3c115d5397df",
+      "path": "validation/2026-10-11/map-language/furnace-still-burning.png",
+      "bytes": 433503
+    },
+    {
+      "sha256": "5fd7b19ee9e11561858ab932b1bea65ffe7201040b5583e178e96a71146eb809",
+      "path": "validation/2026-10-11/map-language/furnace-storyboard.png",
+      "bytes": 700836
+    },
+    {
+      "sha256": "e1102b1af9978f67462bb876f1b7524c311e81a9ebded7a405cfaf92fd3c086d",
+      "path": "validation/2026-10-11/map-language/furnace-warning.png",
+      "bytes": 398233
+    },
+    {
+      "sha256": "1af5f4800a423f2bc4599a0d069aa953127251604f947d92f4d0039da333c6b8",
+      "path": "validation/2026-10-11/map-language/index.html",
+      "bytes": 4292
+    },
+    {
+      "sha256": "4ea4b72780a0b47395db69ce9e11c0f084330bc1f5e98ab429e4f8269c81a441",
+      "path": "validation/2026-10-11/map-language/ruins-active.png",
+      "bytes": 321136
+    },
+    {
+      "sha256": "f4af506874f5f3fe37596832f7414fbb0da64ea7ba02f243415aa44b554bfee7",
+      "path": "validation/2026-10-11/map-language/ruins-arrival.png",
+      "bytes": 348667
+    },
+    {
+      "sha256": "dfbac649c01405381c945329d0b6b6d00a740454310b3ad902bca6aed0646648",
+      "path": "validation/2026-10-11/map-language/ruins-before.png",
+      "bytes": 318191
+    },
+    {
+      "sha256": "9c37f793eb66d2de3f6a790921d925bd40a5cb6fc35227d536cad4de9f03caf1",
+      "path": "validation/2026-10-11/map-language/ruins-changed.png",
+      "bytes": 311038
+    },
+    {
+      "sha256": "d0a4699b5f315525467c1b825beefe5569a375666302bc5f3975f4ae775bb512",
+      "path": "validation/2026-10-11/map-language/ruins-environment.png",
+      "bytes": 313876
+    },
+    {
+      "sha256": "ea6e70e524517a490a646c2beb8a081efe8a4e91b677f278559ada5dbf4e1c67",
+      "path": "validation/2026-10-11/map-language/ruins-event.png",
+      "bytes": 348592
+    },
+    {
+      "sha256": "ea6e70e524517a490a646c2beb8a081efe8a4e91b677f278559ada5dbf4e1c67",
+      "path": "validation/2026-10-11/map-language/ruins-execute.png",
+      "bytes": 348592
+    },
+    {
+      "sha256": "4687e240c3760af8f973e8b0a9d533e88899bfc1abf1766dab322dbc7ceafdb3",
+      "path": "validation/2026-10-11/map-language/ruins-landing.png",
+      "bytes": 341614
+    },
+    {
+      "sha256": "c4a3cfe696b116e2617410e288d645e36ddeecc2c6a1ad4e235d3f0c587ed939",
+      "path": "validation/2026-10-11/map-language/ruins-storyboard.png",
+      "bytes": 475451
+    },
+    {
+      "sha256": "1a3358d476310d30330bdc22780fc64911197b92d537b7f0953812be3a9ff266",
+      "path": "validation/2026-10-11/map-language/ruins-warning.png",
+      "bytes": 331246
+    },
+    {
+      "sha256": "e28e2f3222ac3885eea14af49c66cc84bc80faf925bcefe21f87943cd4ebd8a5",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-arrival.png",
+      "bytes": 607776
+    },
+    {
+      "sha256": "21a9c1c5d1e77995c447eb1eb652881d845ba14bb2ef39540bff8f05592e4d81",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-BoardReaction.png",
+      "bytes": 629989
+    },
+    {
+      "sha256": "f2af767b560ea795b598dfaa3e1abc49571f1d80e3383514b91ef29dffa77e9a",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-Camera.png",
+      "bytes": 597998
+    },
+    {
+      "sha256": "67a951963e7784ae5ba681a7d16dfa0fd32ee48c30760fd25cab8702ce3b2d20",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-countdown.png",
+      "bytes": 540746
+    },
+    {
+      "sha256": "6b7d5e7c1067999f0ef2ef0278abc4332370af48d6f567bfbbfaf7b2a79376eb",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-Environment.png",
+      "bytes": 597741
+    },
+    {
+      "sha256": "09d91062724a1f563d257e6e40b87d1600fa4e6d2f4bebca6128c752c3ef279f",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-execute.png",
+      "bytes": 604222
+    },
+    {
+      "sha256": "06a07b59988a3cfddf34412923a8f93fc35157c4acb799aeaf7490317ce2dcf7",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-Gameplay.png",
+      "bytes": 618085
+    },
+    {
+      "sha256": "d13bf21e7f7859b5c7114ae13fca601891d7a76590880f15b318e4c85d9175c1",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-impact.png",
+      "bytes": 615920
+    },
+    {
+      "sha256": "c25e911d8eb13396a7e1e6bba23e93b89d6959f1db90924b7fafb8eb2482f62e",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-Recovery.png",
+      "bytes": 633709
+    },
+    {
+      "sha256": "745016b6e4b0aa5eb98a335c0fff0386207e9e0e43c5d662c37d16dac7c944c3",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-restored.png",
+      "bytes": 596191
+    },
+    {
+      "sha256": "62aaff3e4a7b65fe9f514326291fe2228660de5019f75f78e3dc58ee422fa30c",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-reveal.png",
+      "bytes": 870992
+    },
+    {
+      "sha256": "b279345780d4acda9073b634abc35003a02c3b37f6df7b72a44f4dbd3f0aa1fd",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-scene.png",
+      "bytes": 603457
+    },
+    {
+      "sha256": "caee8e2d5dea3eb7e1cef601cd791cf78ede50f46391b0526d4e9977e12a6236",
+      "path": "validation/2026-10-11/map-presentation-2/cliff-storyboard.png",
+      "bytes": 1897837
+    },
+    {
+      "sha256": "4fb63672a0068b157a3c7efb6634aa6f0a0d7fc589ab059ad86c607f5817443b",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-arrival.png",
+      "bytes": 408608
+    },
+    {
+      "sha256": "c3e87762a3f989620eac57359ef2f3ebc6ce5ec094c66138584c8f8f4ba7514f",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-BoardReaction.png",
+      "bytes": 368973
+    },
+    {
+      "sha256": "54a89b05edf6ae641565de038353d1f342a84650b599a33c052d4019ee1d06be",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-Camera.png",
+      "bytes": 350819
+    },
+    {
+      "sha256": "05b52108df2620b0a6c9979a56d81d6e71b36ab1f9498aa6226796d9b1f3f91b",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-countdown.png",
+      "bytes": 364823
+    },
+    {
+      "sha256": "16d99863b412d4411c0ba3b28679f03fd3e3522fd3e6da0c368eed1a53340961",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-crack.png",
+      "bytes": 402582
+    },
+    {
+      "sha256": "392943e951be68ff167525527c93e32f57b3a5f4307df87301a206839267fca2",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-Environment.png",
+      "bytes": 350916
+    },
+    {
+      "sha256": "7af25df69b8a2c7f2f7319dd3a84b4cf6bebf189f58ae6a9c95343c6bdf340b7",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-execute.png",
+      "bytes": 409622
+    },
+    {
+      "sha256": "fb5078e96a2f52842616954fe24a3849b745f84e0629e4590696c568fe899b31",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-Gameplay.png",
+      "bytes": 400161
+    },
+    {
+      "sha256": "b4e3cf92242acfeffbfec5cd30efbbe8ee2d0b6c20d607cba4ddf8b068480516",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-impact.png",
+      "bytes": 411508
+    },
+    {
+      "sha256": "14ac8704262ccb2552f633f01ccd348d2c208d377dd03e420e9c59cee6c44264",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-Recovery.png",
+      "bytes": 412801
+    },
+    {
+      "sha256": "191ce81bbd92d0cd8360aa1f5244460129c1642e3e0a76118054f1b37f803e0f",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-restored.png",
+      "bytes": 345461
+    },
+    {
+      "sha256": "d108d811b335a3a9fabeac1eeb6fc7d1e57a72ebbbb69ac16429f7f142959d77",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-reveal.png",
+      "bytes": 868858
+    },
+    {
+      "sha256": "1f3778458c59c5139a517e57cb9180201c2e78b639b9d08883202fb41193f457",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-scene.png",
+      "bytes": 353664
+    },
+    {
+      "sha256": "94ed49f60169350185f151440818f2045064205d26a0ec8494690ca5ab8e2c67",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-shatter.png",
+      "bytes": 402997
+    },
+    {
+      "sha256": "c8d60de18b143e4ec9f2e21d015adb461efeddab7a7b7956f6136f6eb2972de0",
+      "path": "validation/2026-10-11/map-presentation-2/crystal-storyboard.png",
+      "bytes": 1361357
+    },
+    {
+      "sha256": "dcc924055a4d580c1e721b03a7643910c766784f28fd511a66fd67cac6faf4a4",
+      "path": "validation/2026-10-11/map-presentation-2/forest-ambient.png",
+      "bytes": 884510
+    },
+    {
+      "sha256": "0ade516fc5752f4a46b319e8d976c0b5d18d6db946395679a5cc66811fde3231",
+      "path": "validation/2026-10-11/map-presentation-2/forest-countdown.png",
+      "bytes": 814357
+    },
+    {
+      "sha256": "25c263fc77f99c792aae2437a8fcfa6bdf74226426c0e2a74552236ed411ae08",
+      "path": "validation/2026-10-11/map-presentation-2/forest-reveal.png",
+      "bytes": 983359
+    },
+    {
+      "sha256": "78a6ee00220d8c165b682bd3c176c93df548a89cd84bffcc2419df341f5e88c7",
+      "path": "validation/2026-10-11/map-presentation-2/forest-scene.png",
+      "bytes": 885295
+    },
+    {
+      "sha256": "3e13f968d23580a25e48f9ebfad30b4c549fcc877330a3733994cbff9f2eca77",
+      "path": "validation/2026-10-11/map-presentation-2/forest-storyboard.png",
+      "bytes": 570239
+    },
+    {
+      "sha256": "741b8999c7d3fa411fa58a8f2826f23c54a8fcbba03ecb75c3d0edde36303d4c",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-arrival.png",
+      "bytes": 334677
+    },
+    {
+      "sha256": "881940155b466c8855d01c8c2bc841ad89d7d417e16744eaea36455dea8a5cd3",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-BoardReaction.png",
+      "bytes": 325904
+    },
+    {
+      "sha256": "7b214bbac88ade4b0a52ecb874e37e0ea00a2cd1cbd5d408239e766c0e1bd0ab",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-Camera.png",
+      "bytes": 320113
+    },
+    {
+      "sha256": "93b891615f90a98dd6528c3c503a2300cec35d2fe8b2cb3bec1b0179344c63c3",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-countdown.png",
+      "bytes": 309754
+    },
+    {
+      "sha256": "2a5313f448248b07b0a70bed4d7ba79a2aa3de781e7a912afe9b7066c0d46334",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-Environment.png",
+      "bytes": 319002
+    },
+    {
+      "sha256": "3c2025353c99f99d8e12539c2418d74a44c5169335194fe6666779476cd8e0cc",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-execute.png",
+      "bytes": 334483
+    },
+    {
+      "sha256": "efa1c6f4bd7c352a7af4c877ea45e2757f2b19ff5c7c1f086387936f5ff3fe28",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-Gameplay.png",
+      "bytes": 332246
+    },
+    {
+      "sha256": "316af4f149a98f1f7ded4d888290a0320058c2d9997cf0b1e3ac4077b0c19296",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-impact.png",
+      "bytes": 342040
+    },
+    {
+      "sha256": "92320a98f0a8dcbdf16e2b11f14ca1a17f89bf1015309faf3e28b5f9054e055b",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-Recovery.png",
+      "bytes": 326923
+    },
+    {
+      "sha256": "f907a7ccf5b6bee6446a3e3130ea65e3f12d1af02aa2235b41db78e935db5a41",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-restored.png",
+      "bytes": 318929
+    },
+    {
+      "sha256": "c5ebcb1882cadaaecb3babd52617bb0fd47a41ab6d942fa167197c237f8d37e5",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-reveal.png",
+      "bytes": 864412
+    },
+    {
+      "sha256": "6436f6f8cee45fdcd8f42e32891e6c59e1cd6014d3590b5378132feb8d91444f",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-scene.png",
+      "bytes": 327262
+    },
+    {
+      "sha256": "6e84431c15209c790d097ab4e44a768c4fae3a1bd68cf9a807a864ffd3f3e101",
+      "path": "validation/2026-10-11/map-presentation-2/furnace-storyboard.png",
+      "bytes": 1304534
+    },
+    {
+      "sha256": "de394d33b04c9a64e0270dfe2da90c6fa6e0fd83a95315ee48fa2d21c7081dd8",
+      "path": "validation/2026-10-11/map-presentation-2/index.html",
+      "bytes": 4653
+    },
+    {
+      "sha256": "8e2db22b81cd0755e552eb862bc91e85c77c93f7089c1416dd9c60eeaacc48f5",
+      "path": "validation/2026-10-11/map-presentation-2/reveal-cycling.png",
+      "bytes": 810646
+    },
+    {
+      "sha256": "a73fa22c5201572b68718a0c2882e4b60910ce8df76461067514c2a7841fba52",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-arrival.png",
+      "bytes": 329173
+    },
+    {
+      "sha256": "ed2cd3bea219f9b17cdf966456383f421e9eaa808c6fd25d5ea9062af4cfced0",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-BoardReaction.png",
+      "bytes": 319514
+    },
+    {
+      "sha256": "f449f8d15af598a52ab66bd7761b3d77deab98695eb78054ebf48e6fb117cd52",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-Camera.png",
+      "bytes": 306192
+    },
+    {
+      "sha256": "9fb29a07a84ac862c49935c9085832b3af85e5e67274e8b6ea88e02712989fd8",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-countdown.png",
+      "bytes": 298373
+    },
+    {
+      "sha256": "64a8ac6da0585912f17b6306331140283dcd4b0e9bb8b1d31287242f5bf685c6",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-Environment.png",
+      "bytes": 305541
+    },
+    {
+      "sha256": "677d344ab40e117aa6697e9fb47b5acda4a61e5369f7ebc0868f8cc5adce13af",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-execute.png",
+      "bytes": 322636
+    },
+    {
+      "sha256": "138500f0faff29671cc91e32a98475719a6860d882cb33f29008de24c0873c8d",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-Gameplay.png",
+      "bytes": 327857
+    },
+    {
+      "sha256": "bd1c484b278f362b42e657c53b9564f05741e8964a90069e13ae052d9e62852c",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-impact.png",
+      "bytes": 322763
+    },
+    {
+      "sha256": "c101e85d540673416bb23cbe857173e3d979d7113af75754087f9a6f900e4032",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-Recovery.png",
+      "bytes": 315251
+    },
+    {
+      "sha256": "9940ff66c3886f0758980e928e980d878f81aad34dac0745390ca9862adb2b0e",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-restored.png",
+      "bytes": 304674
+    },
+    {
+      "sha256": "c9093b42c3e06dcde3c404992c0989eda339abae9c0840cade5345316781dccf",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-reveal.png",
+      "bytes": 859633
+    },
+    {
+      "sha256": "5dd0a35d251998ecaf87711e1201567ec9fac6e79f1c40fac4c5fb6684e3b84f",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-scene.png",
+      "bytes": 312126
+    },
+    {
+      "sha256": "6627569342566a7fd07cd85cd7370fef16bf5911232651acbc80d355ad0299ba",
+      "path": "validation/2026-10-11/map-presentation-2/ruins-storyboard.png",
+      "bytes": 1175219
+    },
+    {
+      "sha256": "c0fc61168e326a686bfc1ed4f700ac4b0f16feed029638de7d834980c227a0c3",
+      "path": "validation/2026-10-11/map-refinement/cliff-active.png",
+      "bytes": 726587
+    },
+    {
+      "sha256": "b3c7673612a7c9bbef9715c571ad84d3b03dd92f3a181b502af29bdbbe983715",
+      "path": "validation/2026-10-11/map-refinement/cliff-arrival.png",
+      "bytes": 693963
+    },
+    {
+      "sha256": "39f827747c4761c7f31a5597fc76dfa456579eccfb3c43c27a2310490720b1c1",
+      "path": "validation/2026-10-11/map-refinement/cliff-before.png",
+      "bytes": 700927
+    },
+    {
+      "sha256": "b4b55f9d0f1c0277b61d39c522ea33a149f86648972ba94acf2c419de86d316a",
+      "path": "validation/2026-10-11/map-refinement/cliff-environment.png",
+      "bytes": 701972
+    },
+    {
+      "sha256": "c0fc61168e326a686bfc1ed4f700ac4b0f16feed029638de7d834980c227a0c3",
+      "path": "validation/2026-10-11/map-refinement/cliff-event.png",
+      "bytes": 726587
+    },
+    {
+      "sha256": "c2f953385657fe8af1f95d8f4abe189cb3a1b60ce89adbc7336e6f44436e6399",
+      "path": "validation/2026-10-11/map-refinement/cliff-execute.png",
+      "bytes": 692152
+    },
+    {
+      "sha256": "a0cab604f89e7154866b569b6c00420f41181e7ca5fbd2c31e3f9c60fe0ddaea",
+      "path": "validation/2026-10-11/map-refinement/cliff-landing.png",
+      "bytes": 701628
+    },
+    {
+      "sha256": "b34b02e0077bc9332368a1ce5807d53d902399816f990191726d28e903bb5900",
+      "path": "validation/2026-10-11/map-refinement/cliff-mountain-shake.png",
+      "bytes": 704472
+    },
+    {
+      "sha256": "050ec62e0ce3f2cfbcd1fb5a2f3999543cb6c1d943fbc06f3f3401fd4130f92d",
+      "path": "validation/2026-10-11/map-refinement/cliff-recovery.png",
+      "bytes": 739733
+    },
+    {
+      "sha256": "06547fbeb8b1f5a705d21f46d14ee1d485510878304f14a8d01d5282eab5afe6",
+      "path": "validation/2026-10-11/map-refinement/cliff-restored.png",
+      "bytes": 694494
+    },
+    {
+      "sha256": "252a5eabe78d3f6b772c761f23ef6060e4b93df71b4e5179dcf17ae731599fd5",
+      "path": "validation/2026-10-11/map-refinement/cliff-storyboard.png",
+      "bytes": 1055346
+    },
+    {
+      "sha256": "1e6a8283afdfdaf424877f7cb8601e4f65ccda3ce6143fb7ae3c36d98424bd83",
+      "path": "validation/2026-10-11/map-refinement/cliff-warning.png",
+      "bytes": 741597
+    },
+    {
+      "sha256": "42c3d74010a36735f222de982e06705831f87f78d11b102e757adb48815fe98c",
+      "path": "validation/2026-10-11/map-refinement/crystal-active.png",
+      "bytes": 813483
+    },
+    {
+      "sha256": "5740cb9d2e61e5c6668243e9562569abfdde21a86ff75adbb40fdc67f7ed534a",
+      "path": "validation/2026-10-11/map-refinement/crystal-arrival.png",
+      "bytes": 829683
+    },
+    {
+      "sha256": "650d70d54ac61efc7ff88b241ddfd5fee4e02239026d63deca076b0e90e7a19d",
+      "path": "validation/2026-10-11/map-refinement/crystal-before.png",
+      "bytes": 445973
+    },
+    {
+      "sha256": "2641783caaf5a3be07b25efb7bfada87ac294870bbaf2143e80776e4587b7b82",
+      "path": "validation/2026-10-11/map-refinement/crystal-cracks.png",
+      "bytes": 512865
+    },
+    {
+      "sha256": "a0d4e46919b71a3abe571e587a406f240c49afcdd4dece181c9a179bc927aa7d",
+      "path": "validation/2026-10-11/map-refinement/crystal-environment.png",
+      "bytes": 737343
+    },
+    {
+      "sha256": "962fccebc5aca9d20aef9d95f70d3dd0705667d4c05a36728e377e16b8a7850b",
+      "path": "validation/2026-10-11/map-refinement/crystal-event.png",
+      "bytes": 812736
+    },
+    {
+      "sha256": "db369c233d834abf37bdd2e624d1f402015520355fd66c738c4a0b4dafab5559",
+      "path": "validation/2026-10-11/map-refinement/crystal-execute.png",
+      "bytes": 836121
+    },
+    {
+      "sha256": "58c56bc3ad615071214643cd1092e1217546530bf273dfceb87f309d073517c5",
+      "path": "validation/2026-10-11/map-refinement/crystal-ice-detail.png",
+      "bytes": 9925
+    },
+    {
+      "sha256": "a1727eaf446e7a9e7ab02728e8ae35df14cb389a00c1187b4c30dd70268b0fa5",
+      "path": "validation/2026-10-11/map-refinement/crystal-landing.png",
+      "bytes": 842889
+    },
+    {
+      "sha256": "7b3d578096a9f4d731354af3c6b6091af7b2d6f4412142a5adc377c4c8c203ae",
+      "path": "validation/2026-10-11/map-refinement/crystal-persistent.png",
+      "bytes": 491245
+    },
+    {
+      "sha256": "19d6386a8933980ae1a555e3d0ec1d025471010bd8c9475e7c1c1a34560a9753",
+      "path": "validation/2026-10-11/map-refinement/crystal-recovered.png",
+      "bytes": 691411
+    },
+    {
+      "sha256": "a72bda51ed6c5fcf181ef99b531358501df42e60729fc2c99d31f40d7c4ef47a",
+      "path": "validation/2026-10-11/map-refinement/crystal-shards.png",
+      "bytes": 508628
+    },
+    {
+      "sha256": "cf6211f5d2ce7fa2f4bc6a4b3369e41b07b13ad6b51ebaea14d4ed2e3c5a6452",
+      "path": "validation/2026-10-11/map-refinement/crystal-storyboard.png",
+      "bytes": 1072860
+    },
+    {
+      "sha256": "28f9ad6022d7b632b63c357563561384649bcf12b640fda7c13adfe6a1b523ef",
+      "path": "validation/2026-10-11/map-refinement/crystal-warning.png",
+      "bytes": 791899
+    },
+    {
+      "sha256": "665e90ef053aa3a1b2fd907c69ff0b1f47fdb1fd4f6ef51c1227537924a0506f",
+      "path": "validation/2026-10-11/map-refinement/forest-before.png",
+      "bytes": 938906
+    },
+    {
+      "sha256": "4f68bb9685b64833edcd96c6aab6bda783179cc1ce45181ebc2d0273bfb58c7c",
+      "path": "validation/2026-10-11/map-refinement/furnace-active.png",
+      "bytes": 855711
+    },
+    {
+      "sha256": "1684b310e3da3c5f948425a4332c7302d45a6fa206bb29d0fdea31c186303904",
+      "path": "validation/2026-10-11/map-refinement/furnace-arrival.png",
+      "bytes": 836360
+    },
+    {
+      "sha256": "1902b36aa307484be2c133e1c2f1644a806bdb82a5ab9c27d70c2bc8f21e48a1",
+      "path": "validation/2026-10-11/map-refinement/furnace-before.png",
+      "bytes": 647648
+    },
+    {
+      "sha256": "c20c99dcfa429d208141f1d8470d5d2187605c75b5baec1f6efc877d574ff88a",
+      "path": "validation/2026-10-11/map-refinement/furnace-environment.png",
+      "bytes": 789295
+    },
+    {
+      "sha256": "4f68bb9685b64833edcd96c6aab6bda783179cc1ce45181ebc2d0273bfb58c7c",
+      "path": "validation/2026-10-11/map-refinement/furnace-event.png",
+      "bytes": 855711
+    },
+    {
+      "sha256": "5c988092a19ef2b9f2a9d07ea5c9a31897897ad98a9977ddd7fc4262bfe95c32",
+      "path": "validation/2026-10-11/map-refinement/furnace-execute.png",
+      "bytes": 852612
+    },
+    {
+      "sha256": "90ff66dbab6fa8bf48608d76d17ee0028ecafb46878a7a84babdae4e67db8710",
+      "path": "validation/2026-10-11/map-refinement/furnace-flame-motion.png",
+      "bytes": 855272
+    },
+    {
+      "sha256": "593b75e038e9d1504427da32a9aec6b9072ff0ea97092e615b393851c0c468e8",
+      "path": "validation/2026-10-11/map-refinement/furnace-landing.png",
+      "bytes": 859457
+    },
+    {
+      "sha256": "8aba7573b2b9114a0b2af475ab913060bca585cf6fa8032389c55185d49a8c66",
+      "path": "validation/2026-10-11/map-refinement/furnace-recovery.png",
+      "bytes": 814672
+    },
+    {
+      "sha256": "81513e4623b757f4fe6206407c13755d5e1db15b43ce4cf9105371bd0c158397",
+      "path": "validation/2026-10-11/map-refinement/furnace-restored.png",
+      "bytes": 641262
+    },
+    {
+      "sha256": "e1cec35ae9e1d27ff93084bd50f82d3d621f3c7f281047e5c6145ef88d9c394c",
+      "path": "validation/2026-10-11/map-refinement/furnace-spread-3000-flame.png",
+      "bytes": 864386
+    },
+    {
+      "sha256": "c0febce574a5e9ac7964afa25c833642d28a55e21b6b673c9c1dddf81175fd2a",
+      "path": "validation/2026-10-11/map-refinement/furnace-spread-3000-warning.png",
+      "bytes": 871327
+    },
+    {
+      "sha256": "02ee64ef46653185fd7b8fb9cc9a0db5b7d1a4358f3c7af17a2c7f21ca4e2afb",
+      "path": "validation/2026-10-11/map-refinement/furnace-spread-6000-flame.png",
+      "bytes": 873808
+    },
+    {
+      "sha256": "0ce49e256225595f76cc8e808cfafa9017d75ceba9d6a3810c2c698c2e5b43a4",
+      "path": "validation/2026-10-11/map-refinement/furnace-spread-6000-warning.png",
+      "bytes": 878596
+    },
+    {
+      "sha256": "a28a963be9f3c0c044f8a07535a91e50403705a43a0fa1da923e1885cf214362",
+      "path": "validation/2026-10-11/map-refinement/furnace-still-burning.png",
+      "bytes": 874539
+    },
+    {
+      "sha256": "f760e48612d1f81c53d9a0f7cc7b496083976e1c5353677a5570e1e11e4ad838",
+      "path": "validation/2026-10-11/map-refinement/furnace-storyboard.png",
+      "bytes": 1138777
+    },
+    {
+      "sha256": "38f99abb77b1d835b75677150279c3e3add6020e522362d7ea1c499553ba68a5",
+      "path": "validation/2026-10-11/map-refinement/furnace-warning.png",
+      "bytes": 875330
+    },
+    {
+      "sha256": "7b85fb5c12c71208a2f3ccb08bb34ff889678e86efa9b6d6e90ef7d9a7d10282",
+      "path": "validation/2026-10-11/map-refinement/index.html",
+      "bytes": 5140
+    },
+    {
+      "sha256": "ed359125b28621e8f306f50cf9b139db6b53ab053da7f3f817c929ccb9b3cd37",
+      "path": "validation/2026-10-11/map-refinement/native-art-comparison.png",
+      "bytes": 1656759
+    },
+    {
+      "sha256": "ef2f09b03d0fad3387eb4e9f1635fcf7c606b8bbe33c433942de996bb3dfa47f",
+      "path": "validation/2026-10-11/map-refinement/ruins-active.png",
+      "bytes": 434319
+    },
+    {
+      "sha256": "8c0261f671694ba60b63941fc5389d816d3d55e9bcbf2f2f55a44b90ab716276",
+      "path": "validation/2026-10-11/map-refinement/ruins-arrival.png",
+      "bytes": 459544
+    },
+    {
+      "sha256": "f5489783a945164c4a7de12832a1794fba6222210f98b07be710bf16f889470f",
+      "path": "validation/2026-10-11/map-refinement/ruins-before.png",
+      "bytes": 426658
+    },
+    {
+      "sha256": "6ee084f056f474a9f95e773a1dbc56a3599445e6811045aacbab4639303caf68",
+      "path": "validation/2026-10-11/map-refinement/ruins-changed.png",
+      "bytes": 420328
+    },
+    {
+      "sha256": "6048fde1fdd65ea87663bedcdf405da975b7e5595ddbd5982e85b05d03c3f118",
+      "path": "validation/2026-10-11/map-refinement/ruins-environment.png",
+      "bytes": 427728
+    },
+    {
+      "sha256": "03f2e902795b91c32cdd22ba12d9140bd7c0822deceb9c6546ec18cc938d317b",
+      "path": "validation/2026-10-11/map-refinement/ruins-event.png",
+      "bytes": 459700
+    },
+    {
+      "sha256": "03f2e902795b91c32cdd22ba12d9140bd7c0822deceb9c6546ec18cc938d317b",
+      "path": "validation/2026-10-11/map-refinement/ruins-execute.png",
+      "bytes": 459700
+    },
+    {
+      "sha256": "00e631274b7f92869770ecaa4081cd56c11433e8af7a371ec1ab502610ad911e",
+      "path": "validation/2026-10-11/map-refinement/ruins-landing.png",
+      "bytes": 452330
+    },
+    {
+      "sha256": "32eeaaa1670befaad4ef9f4e4ecc3ea99cc881702272f0b0786bdf4263566bf0",
+      "path": "validation/2026-10-11/map-refinement/ruins-large-gear.png",
+      "bytes": 427837
+    },
+    {
+      "sha256": "e143d9f96ed92aec97870e8e23e82d1878fe644b9bd441d84ba0e57b109bf6fd",
+      "path": "validation/2026-10-11/map-refinement/ruins-storyboard.png",
+      "bytes": 649438
+    },
+    {
+      "sha256": "1e826ac1be16e18d2428fb41c2674e71371b5f55174f4dde25ee1155ad2e9ded",
+      "path": "validation/2026-10-11/map-refinement/ruins-warning.png",
+      "bytes": 443434
+    },
+    {
+      "sha256": "e322f636f0bec594bd05e5e08dd3e5ce32959790689803a9b9de3d308e52ce65",
+      "path": "validation/2026-10-11/maps/cliff-blocked.png",
+      "bytes": 1051074
+    },
+    {
+      "sha256": "c4956d40d34621082bd8684fa2ef5953390e6e46e7d82f9db5a5bb68e88aad42",
+      "path": "validation/2026-10-11/maps/cliff-fall.png",
+      "bytes": 1034858
+    },
+    {
+      "sha256": "82a810312d15b43e1e1340c3aec66414bba0ca95a3bd6c0559d6a70546828af9",
+      "path": "validation/2026-10-11/maps/cliff-restored.png",
+      "bytes": 1019164
+    },
+    {
+      "sha256": "3ead7cadb093bfbd794e2696359b48bec1426e8a4553a1641a3c1cede37ee99b",
+      "path": "validation/2026-10-11/maps/cliff-warning.png",
+      "bytes": 1055114
+    },
+    {
+      "sha256": "47a053fb67e2bb1a64288c3dd5a228e15eab0db57cd4b79bdfece13245c9152e",
+      "path": "validation/2026-10-11/maps/cliff.png",
+      "bytes": 990047
+    },
+    {
+      "sha256": "c3eaf3edabfaa77b65e005556c2935d519cb4373227396f7f9c22022d40d33f1",
+      "path": "validation/2026-10-11/maps/crystal.png",
+      "bytes": 942823
+    },
+    {
+      "sha256": "e389cccaa591ebb9ff559039f2bc2ce16e2fddd41c81abb016c6374ae4d18998",
+      "path": "validation/2026-10-11/maps/forest.png",
+      "bytes": 931398
+    },
+    {
+      "sha256": "7877edd1779f20fc2c94a302019fae4c96250ea28df32bcda3aa29c2b540ba72",
+      "path": "validation/2026-10-11/maps/home-restored.png",
+      "bytes": 1764888
+    },
+    {
+      "sha256": "f2d293a90edc42ae44afee67336517be4553cad8bdde201e6fb668e6ba68457e",
+      "path": "validation/2026-10-11/maps/ruins.png",
+      "bytes": 1019121
+    },
+    {
+      "sha256": "eea272cca4960be35b8331910f0b153d21e27924d8be7c85b869fdd2e767715b",
+      "path": "validation/2026-10-11/offline/battle.png",
+      "bytes": 661564
+    },
+    {
+      "sha256": "ecc8fbbcd14886d96d11f5b10816e4bf750117efec3ac93d4dd391fd760ca021",
+      "path": "validation/2026-10-11/offline/mobile-home.png",
+      "bytes": 265726
+    },
+    {
+      "sha256": "257c654c287b2f5f4ce48b32a923063896cef6ff6fbda72c073324d2b69ff8d3",
+      "path": "validation/2026-10-11/offline/sandbox.png",
+      "bytes": 1035907
+    },
+    {
+      "sha256": "cb12f63a8358ea26aacda8c971e1f4f889ac7a5e71cde05d1306888dbbc6f210",
+      "path": "validation/2026-10-11/offline/tutorial.png",
+      "bytes": 1200143
+    },
+    {
+      "sha256": "4f15708bd01e1e20a92055381c1fc66d179f222d90f6963aee016ae1062f7f29",
+      "path": "references/audio-stage2/balloon_pop.flac",
+      "bytes": 22390
+    },
+    {
+      "sha256": "80abfe50382c0fb16a8fa1b1444bc703ab3101d18978311eda9b4e44a66618ab",
+      "path": "references/audio-stage2/BounceYoFrankie.flac",
+      "bytes": 8034
+    },
+    {
+      "sha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
+      "path": "references/audio-stage2/impact-sounds.zip",
+      "bytes": 800850
+    },
+    {
+      "sha256": "189b05f2a278053f9b29b70f79746bf2d81e34b5e01502c10eb3691892a73b68",
+      "path": "references/audio-stage2/p_1.ogg",
+      "bytes": 6784
+    },
+    {
+      "sha256": "1d4f456714c70b83de02efe4d54f65ff6dfb2c74fec3a7ecd4aa8dde137424f3",
+      "path": "references/audio-stage2/p_3.ogg",
+      "bytes": 6100
+    },
+    {
+      "sha256": "30faec930c94f3812bf9c065f11c67bfca91ac0a5f5da3f84013de0ef1144a6b",
+      "path": "references/audio-stage2/pop3.wav",
+      "bytes": 23240
+    },
+    {
+      "sha256": "58f92fff4601ffaf6c789bd636bff03c4a9ead002d0f081834c943968f9072e3",
+      "path": "references/audio-stage2/pop4.wav",
+      "bytes": 15620
+    },
+    {
+      "sha256": "cd3aba60c291ad8491dc5f21f3ff1bdd4ab2c575952562566ec1dc0f61fb5f87",
+      "path": "references/audio-stage2/pop8.wav",
+      "bytes": 18308
+    },
+    {
+      "sha256": "32befa90941346efcde9bedba2da4024279f33f84a47c783a31acf4d568bc050",
+      "path": "references/audio-stage2/pop9.wav",
+      "bytes": 15916
+    },
+    {
+      "sha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
+      "path": "references/audio-stage2/rpg-audio.zip",
+      "bytes": 964837
+    },
+    {
+      "sha256": "b6802e6ef22189058a4406ae5c7bda9a54c47e908fad3fd6212650c1aa0170af",
+      "path": "references/audio-stage2/shimmer_1.flac",
+      "bytes": 46885
+    },
+    {
+      "sha256": "2d55b26f918a4d8042e2c97a4db81392757195f5aaac9039f5ec2c557b6f11f2",
+      "path": "references/audio-stage2/swoshes.7z",
+      "bytes": 4858146
+    },
+    {
+      "sha256": "119f9061a566c72c1c58444b03f8685b833079ef268dda02fe742eb34d3bc68f",
+      "path": "references/audio-stage2/choices/raw/magical_1.ogg",
+      "bytes": 59071
+    },
+    {
+      "sha256": "b7862d109b4013dfb2a389a10f8917203beb0efc458444bc5a1b8ada605cc118",
+      "path": "references/audio-stage2/choices/raw/magical_4.ogg",
+      "bytes": 79091
+    },
+    {
+      "sha256": "23fe938e7e82931227196bf6b2978ad9154f627af26623acf52958d12125f3b8",
+      "path": "references/audio-stage2/choices/raw/teleport.wav",
+      "bytes": 286694
+    },
+    {
+      "sha256": "4b5118336ba662480348f424d8f692caf62c16d7df872d0fc8136bfd91ab4c4b",
+      "path": "references/audio-stage2/choices/selected/line-blast-d.wav",
+      "bytes": 105884
+    },
+    {
+      "sha256": "78728f8760c48c2f3acce1d3d1bf7cf4f80e0f5ed3c63fcd2cd1e3d540766bf7",
+      "path": "references/audio-stage2/choices/superseded/special-combo-line-blast-v4.wav",
+      "bytes": 49436
+    },
+    {
+      "sha256": "ecedd894575529540b0b02b0413d2f53f75e2d3b99f7849800704652f027b252",
+      "path": "references/audio-stage2/choices/superseded/special-combo-lines-v3.wav",
+      "bytes": 49436
+    },
+    {
+      "sha256": "05e513fbd42829060eb37855f8c3866722ec5c39a8937c9bfde518cc609effa2",
+      "path": "references/audio-stage2/impact-sounds/Audio/impactGlass_light_001.ogg",
+      "bytes": 6544
+    },
+    {
+      "sha256": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3",
+      "path": "references/audio-stage2/impact-sounds/Audio/impactWood_light_000.ogg",
+      "bytes": 6343
+    },
+    {
+      "sha256": "b183cf7a5bd783817e0e4b82af34ac6658fa1927049089dadc8b15c2ecc771dc",
+      "path": "references/audio-stage2/impact-sounds/Audio/impactWood_light_002.ogg",
+      "bytes": 6366
+    },
+    {
+      "sha256": "e38bf3046f1503d7bad52894ff6d3d4d2e18d595746ab68151667c84a1b12a8d",
+      "path": "references/audio-stage2/line-blast/ice-electricity.7z",
+      "bytes": 1401585
+    },
+    {
+      "sha256": "29a459232ba678b391c5c4b7b14c0ffa60c165cfd63172470a14de5efe81f224",
+      "path": "references/audio-stage2/line-blast/qubodupIceAndElectricitySpells/qubodupIceDamage03.flac",
+      "bytes": 174872
+    },
+    {
+      "sha256": "6857dfc6cdd3efee4aa164f8b8402d9e7d7bc2289daf98bd9defc0e823474c64",
+      "path": "references/audio-stage2/line-blast/qubodupIceAndElectricitySpells/qubodupIceDamage03b.flac",
+      "bytes": 173479
+    },
+    {
+      "sha256": "3da7975476a6dc1e53a6230f03b37902497b9b89ee1685fedf802697ff0da036",
+      "path": "references/audio-stage2/line-blast/qubodupIceAndElectricitySpells/qubodupIceDamage03c.flac",
+      "bytes": 118598
+    },
+    {
+      "sha256": "a12554001866bfd10beef9db66c2f0bc209204e0e13338726e1ead5ffe425dd0",
+      "path": "references/audio-stage2/line-blast/qubodupIceAndElectricitySpells/qubodupIceDamage03d.flac",
+      "bytes": 174913
+    },
+    {
+      "sha256": "f40f6d00df5c8ab3c602d087d9caf75d4b465ed40e94223043e22dc32149ae2b",
+      "path": "references/audio-stage2/line-blast/qubodupIceAndElectricitySpells/qubodupIceDamage03e.flac",
+      "bytes": 111507
+    },
+    {
+      "sha256": "5c4aa608300031ddd894fd6135b1db1d4483829333172fd214f8f99c511d80e4",
+      "path": "references/audio-stage2/line-blast/qubodupIceAndElectricitySpells/qubodupIceDamage03f.flac",
+      "bytes": 221308
+    },
+    {
+      "sha256": "8ac4269e41df311b7db423fe1141be52baaefbadebf28021e6ca3adaf1ff702f",
+      "path": "references/audio-stage2/line-blast/superseded/special-combo-line-blast-v3.wav",
+      "bytes": 60020
+    },
+    {
+      "sha256": "77f964847ade8e84728a64cfc901d1d18b51459963c68e9f48bd19b0d0d8aa4e",
+      "path": "references/audio-stage2/magic/magic-sfx.zip",
+      "bytes": 1619610
+    },
+    {
+      "sha256": "a9a3a71a1ec4512cff71d5d892a72626b988fa13f52b67152a8f22f475ce1ad5",
+      "path": "references/audio-stage2/magic/magic-smite.wav",
+      "bytes": 536908
+    },
+    {
+      "sha256": "fece55fb41bcc3f889b5f273de5af07fa30aabf59eb424c5fd3950b9d015d759",
+      "path": "references/audio-stage2/magic/superseded/special/special-bomb-v2.wav",
+      "bytes": 33560
+    },
+    {
+      "sha256": "ea05243923da5445f4f06e726dc040af307531e108f217c268a66d51e186ca15",
+      "path": "references/audio-stage2/magic/superseded/special/special-combo-blasts-v2.wav",
+      "bytes": 56492
+    },
+    {
+      "sha256": "fde5bd1199e9981e230e721518d4806292fca4457475be8933de6cd6dcf88ddd",
+      "path": "references/audio-stage2/magic/superseded/special/special-combo-line-blast-v2.wav",
+      "bytes": 44144
+    },
+    {
+      "sha256": "7abd8608aab2d9ed71f1b68dd033b921feb5aa8e4a602cb346c50c64fa6304f2",
+      "path": "references/audio-stage2/magic/superseded/special/special-combo-lines-v2.wav",
+      "bytes": 36206
+    },
+    {
+      "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63",
+      "path": "references/audio-stage2/magic/superseded/special/special-create-v1.wav",
+      "bytes": 35324
+    },
+    {
+      "sha256": "e21e03b369c1d53832a25b84c5fb7967f58a51acafb625d9b2735e4602504b8a",
+      "path": "references/audio-stage2/magic/superseded/special/special-line-v2.wav",
+      "bytes": 31796
+    },
+    {
+      "sha256": "0fa4afbf37b12dc6c54f33cdded356b5f344a0156b84af94b70d843886c1efad",
+      "path": "references/audio-stage2/magic/virix/Fire impact 1.wav",
+      "bytes": 1127274
+    },
+    {
+      "sha256": "ad60bc48be1ac7451771505c0e169590af18241d38ff79b93aa6e5f186b1e54b",
+      "path": "references/audio-stage2/magic/virix/Healing Full.wav",
+      "bytes": 693058
+    },
+    {
+      "sha256": "148e143241e6516c7229c366bb5574a29d556179ee2021c7e40bd3d5e5066311",
+      "path": "references/audio-stage2/magic/virix/Ice attack 2.wav",
+      "bytes": 325838
+    },
+    {
+      "sha256": "21728538d4220720df0beceeb3d39da60c0b0ade9f6296ec493982755e9fe272",
+      "path": "references/audio-stage2/magic/virix/Misc 02.wav",
+      "bytes": 204566
+    },
+    {
+      "sha256": "37424e27cceca69c0bf48a40465a8d7db2889816c67073378668af3317bb974a",
+      "path": "references/audio-stage2/magic/virix/Wind effects 5.wav",
+      "bytes": 306334
+    },
+    {
+      "sha256": "2bfeed341178640b980cc24e98eeb8346ff0535fd73e8eab2da757b8f13efd50",
+      "path": "references/audio-stage2/superseded/block/block-match3-v1.wav",
+      "bytes": 15038
+    },
+    {
+      "sha256": "bd2ac83f8db7e46a5183114491715f8417003bb5dd43aa46fcec95346cc3e803",
+      "path": "references/audio-stage2/superseded/combo/combo1-v1.wav",
+      "bytes": 15038
+    },
+    {
+      "sha256": "b7fde28b514edb5918075e544ab3c35e97b6e8a12c081fe7bd8ed2f1c4ac18ac",
+      "path": "references/audio-stage2/superseded/combo/combo2-v1.wav",
+      "bytes": 17244
+    },
+    {
+      "sha256": "fa24b80739a7a2a03764f389b7a107e46aec375c3f43ef559873d03fa0151a6f",
+      "path": "references/audio-stage2/superseded/combo/combo3-v1.wav",
+      "bytes": 19448
+    },
+    {
+      "sha256": "39a47e084ac19d0e82ff69da32668581550de32b2c6357c9f28fc5a323e5c7dc",
+      "path": "references/audio-stage2/superseded/special/special-bomb-v1.wav",
+      "bytes": 21212
+    },
+    {
+      "sha256": "4eff42cef42815fb58a60a4fef4c030c6b621b03a296d490d5e548c980526306",
+      "path": "references/audio-stage2/superseded/special/special-combo-v1.wav",
+      "bytes": 31796
+    },
+    {
+      "sha256": "d7e49e031951e3736605db465cf77c39c833f84dda7916b905305d8c4224accc",
+      "path": "references/audio-stage2/superseded/special/special-line-v1.wav",
+      "bytes": 23858
+    },
+    {
+      "sha256": "d43a966fb4c906a5c91440aefa3fff28d61a475c25fe81b403d2c40b8b3d6e05",
+      "path": "references/audio-stage2/superseded/ui/countdown-start-v1.wav",
+      "bytes": 22094
+    },
+    {
+      "sha256": "dc8011cbcbe6308e3059a6a7fd29a5fe1b490c23f6166cd448a43b67ce769ab3",
+      "path": "references/audio-stage2/superseded/ui/countdown-tick-v1.wav",
+      "bytes": 8424
+    },
+    {
+      "sha256": "6148210eed26653d305eedc7f43e0f623864d434f0f4d8e3a540f623a823ff26",
+      "path": "references/audio-stage2/swishes/swosh-02.flac",
+      "bytes": 35330
+    },
+    {
+      "sha256": "651afe743f1713c01b46a43a8fe099e5f866b46c22a98682c7d05728cfa4f5ae",
+      "path": "references/audio-stage2/swishes/swosh-04.flac",
+      "bytes": 44352
+    },
+    {
+      "sha256": "7159ba26b74840da53965989c1472807891298528f94d720119777c251b3109e",
+      "path": "references/audio-stage2/swishes/swosh-26.flac",
+      "bytes": 72542
+    },
+    {
+      "sha256": "83559d4d9af8bcf02b8feca60132afb3536f511edbeb8323f7ce4c99b40d8b9b",
+      "path": "references/audio-stage2/swishes/swosh-30.flac",
+      "bytes": 135182
+    },
+    {
+      "sha256": "add68f7bf299ac1c77292d3fc0d461465edeff001c1a3b5d032a2c577f2437de",
+      "path": "references/audio-stage3/cinematic/gregor_quendel_-_free_cinematic_sound_effects_-_mp3.zip",
+      "bytes": 29570576
+    },
+    {
+      "sha256": "675e053a2946db599fe51ff842522b28925bd121c1d1cd1b23a919c3af3f500d",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/.DS_Store",
+      "bytes": 10244
+    },
+    {
+      "sha256": "47ddac0c3036510fd1d9bf0e1aea96639a5f785be20c8d924bedcf72e8cc0c7c",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Harmonic - 008 - IV.mp3",
+      "bytes": 6143633
+    },
+    {
+      "sha256": "d9ec666f4bd716fb673634e13b642b85b1af751acc31503f04960bb531b847be",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Harmonic - 015.mp3",
+      "bytes": 2002560
+    },
+    {
+      "sha256": "b2f6287daeae7996121833243f882508976f32472d031d726f3f565ec6d9a08f",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Harmonic - 018.mp3",
+      "bytes": 2648640
+    },
+    {
+      "sha256": "d8e4c7a980b06b9d8d9e6b308c9eeaa998742480fbb5044ae0918940a9129fe9",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Sub - 003 - III.mp3",
+      "bytes": 2999633
+    },
+    {
+      "sha256": "78c560f5674b500c7ad084c51ae584e53fb5fed5e408ce67d686e81ea928740e",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Wind - 001 - II.mp3",
+      "bytes": 2067473
+    },
+    {
+      "sha256": "15de8a42d589b29ebafc54a91538a872efc961916cb85f7cd74dfb22fb80e32d",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Ambience Burst 01.mp3",
+      "bytes": 281540
+    },
+    {
+      "sha256": "865b3c5ed02cdd1f7e1bbbfc5e6a2a0868d9835a891c7a988b1561c1db3ebfa2",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Ambience Interference 03.mp3",
+      "bytes": 462012
+    },
+    {
+      "sha256": "5fe3fe2336fa6839f8e19ae716b833cc3196082f2f12c3b537bd785605e03558",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Hum 06.mp3",
+      "bytes": 397682
+    },
+    {
+      "sha256": "a7b3bf75e5ec500d43e955ad2749108673c27e3421e415929a95952eb024e3f6",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Interference 18.mp3",
+      "bytes": 535931
+    },
+    {
+      "sha256": "91b95fee377f26150981f540ed281623c739ecdd55f49574708c0c8c3f255705",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Sfx 24.mp3",
+      "bytes": 244097
+    },
+    {
+      "sha256": "f25ccddd2a40909b6c82faa627c7458b16d912f10db7ce78e6aab8d0dd5e3743",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Impacts - Complex 04.mp3",
+      "bytes": 131057
+    },
+    {
+      "sha256": "c3b2556b6fbceda54e51e2df93905992e3688acd0d5d50e8c90e8742856cbfd7",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Short - Swoosh Burst Sizzling 01.mp3",
+      "bytes": 99347
+    },
+    {
+      "sha256": "72506535de7691d8be993101f7ba4fecae7bea548e5f384598d310fa46e16825",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Swooshes - Burst Evolving 19.mp3",
+      "bytes": 226061
+    },
+    {
+      "sha256": "0189f5e8b635b7d615aadb6f45e993a8695076f6386d5d9719e11f5eeed0b10c",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Textures - Glitch Ripples.mp3",
+      "bytes": 481437
+    },
+    {
+      "sha256": "d9bd7a365a40c87c7396fdc8a77e1ca3f34d4e6a234918a717987b7aa50d8a3e",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Winds - Swoosh 04.mp3",
+      "bytes": 419990
+    },
+    {
+      "sha256": "b57d7ce97d284e033e590d6137b7cae623b4367159e0a153f193c614b141c1a9",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Ice - Free Sounds/Gregor Quendel - Designed Ice - Sequences 01.mp3",
+      "bytes": 310877
+    },
+    {
+      "sha256": "a592cea0a3ea0ef51b8ba7ea4a99656e0a8b464d4dc0d03e3be985099d355da3",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Ice - Free Sounds/Gregor Quendel - Designed Ice - Sequences 02.mp3",
+      "bytes": 428003
+    },
+    {
+      "sha256": "915e10038e44f6a666f4844b1184b82acfd7269c45d3090f32a65a9abf738f6a",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Ice - Free Sounds/Gregor Quendel - Designed Ice - Sequences 15.mp3",
+      "bytes": 636301
+    },
+    {
+      "sha256": "50720807917d78b370c99ea3921f71762957b42c986b8373c0b26fa14ab86776",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Mecha - Free Sounds/Gregor Quendel - Designed Mecha - Elements - Impact 01.mp3",
+      "bytes": 91044
+    },
+    {
+      "sha256": "f30fc691f513096b48aa9015bc8e9f6435d4740240d7e97db44d2cbe29983d0d",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Mecha - Free Sounds/Gregor Quendel - Designed Mecha - Elements - Mechanism 01.mp3",
+      "bytes": 84446
+    },
+    {
+      "sha256": "c60d7d79cadde2e7b7943065c3e3b626032eefa2bc5e54e90fa27b85b20aae09",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Mecha - Free Sounds/Gregor Quendel - Designed Mecha - Sequences - Ambience 06.mp3",
+      "bytes": 805397
+    },
+    {
+      "sha256": "4c36252bc19f660de2a4f3ede3ad38e5ce908c39c7566dad22c74e09ad5aa7de",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Mecha - Free Sounds/Gregor Quendel - Designed Mecha - Sequences - Mechanisms 01.mp3",
+      "bytes": 950395
+    },
+    {
+      "sha256": "474a9c2f0891538b2a4a1e0b248314afcab7f402c7b382d53de60f2f345d1845",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Plastic - Free Sounds/Gregor Quendel - Designed Plastic - Elements - Creaking 04.mp3",
+      "bytes": 128354
+    },
+    {
+      "sha256": "8f4438cb82490b395e480351b9082847b25b3e3763161a32af7cbed34865b8c8",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Plastic - Free Sounds/Gregor Quendel - Designed Plastic - Elements - Liquid 17.mp3",
+      "bytes": 56328
+    },
+    {
+      "sha256": "41c8a6755e265ef8aff1df13acd22b47c76e1034305d4873b7d57c8dedc8d3ef",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Plastic - Free Sounds/Gregor Quendel - Designed Plastic - Elements - Ripping 03.mp3",
+      "bytes": 120664
+    },
+    {
+      "sha256": "9ed3917e5287ed534b8745c0ee9688cbd843999c78731f9fb9710a0fb896b947",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Plastic - Free Sounds/Gregor Quendel - Designed Plastic - Elements - Sfx 03.mp3",
+      "bytes": 56336
+    },
+    {
+      "sha256": "6e3a08aa3816061b4371e061de8e307822ce9e10a6a368df3f6de8eeacbf1d36",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Elements 09.mp3",
+      "bytes": 174232
+    },
+    {
+      "sha256": "e2569c008c39aae49bfc041b31ead8d493d944c087042fdf71d7d0699e1efacf",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 02.mp3",
+      "bytes": 863759
+    },
+    {
+      "sha256": "bad3bc015d39207eb82886db2252c53875b59b7c8b490050b3a6a949a1aa9aeb",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 24.mp3",
+      "bytes": 722397
+    },
+    {
+      "sha256": "3406cae3be6f49fb466bb54f167c95e8b8ca2702091634c6ca3745586226102f",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - AlienChime.mp3",
+      "bytes": 1336320
+    },
+    {
+      "sha256": "dc9c85714e4eb81838c9a13821a26736b4688324c3e1b51cbfb2ce7e76ebdb0a",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - Bowl_Cybin_02.mp3",
+      "bytes": 1424556
+    },
+    {
+      "sha256": "90cd12b48a9a48bf916ed49a7beae4abf824677cf88a6caf8b5557b9b275e475",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - Circuits_Error_RobotSpeech.mp3",
+      "bytes": 499777
+    },
+    {
+      "sha256": "30a5d6bfae0348176fbe44421d2c0e2de8bcf3a77d5a40d08a0b92f8c346ef9e",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - Counter_02.mp3",
+      "bytes": 1480894
+    },
+    {
+      "sha256": "ebb4ec964d9b560ce7c98d45633ba5d2b6b242d99bbbce32b3b6864550cd3587",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - MusicOfTheSpheres_PrettyScape.mp3",
+      "bytes": 649920
+    },
+    {
+      "sha256": "95c9be0bbf7ef16d2dd1fbd9d27c188c3ab0b001e42aa53696dc24266a64cea8",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - SolarWind_01.mp3",
+      "bytes": 603471
+    },
+    {
+      "sha256": "f1e897be67011437d57ca5e1475c8969a21d37903a8baff46dd03a8e7dc5c8b2",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - Subcycle.mp3",
+      "bytes": 2314163
+    },
+    {
+      "sha256": "21cf6308672315e5935b29067597e9f78a6ce534e6accda0990acd2f2dad6717",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Aquapur_10.mp3",
+      "bytes": 141684
+    },
+    {
+      "sha256": "22f1903de933457ed76078f75e1f573a9a9b264bed82201690cdd33f0d79f67a",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Gourd_Scramble.mp3",
+      "bytes": 156120
+    },
+    {
+      "sha256": "a6e783038d8b03f1e9324168acf739fb3466ec79c9ed0f6b5d7088499e5e76e5",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Noids_Korvax_01.mp3",
+      "bytes": 104267
+    },
+    {
+      "sha256": "bd269364c9ca7435b8796da6560fc8d379873cc10cc1e73b3ad0b8eff9f8dbd4",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Science_07.mp3",
+      "bytes": 43779
+    },
+    {
+      "sha256": "fc5af50a3137550579e9bcc25b987d2cb7a76d1f19d68bff40c7c8f532d2fa86",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Summon_01.mp3",
+      "bytes": 158013
+    },
+    {
+      "sha256": "2ddf4cf59df575f8698590136e08be1cfa4fcad6a10289a0d070d270abad11f0",
+      "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Tuner_Chaoswhip_02.mp3",
+      "bytes": 68729
+    },
+    {
+      "sha256": "55857f7eca1d95fd4826e643c7ed9d95944145d945398b652e25f0d9d8c9e358",
+      "path": "references/audio-stage3/cliff-reselection/adamgryu.mp3",
+      "bytes": 180768
+    },
+    {
+      "sha256": "db15885029d027756ef2b90114c202f4837f10a128371f493904b4886818ffcd",
+      "path": "references/audio-stage3/cliff-reselection/alancat.mp3",
+      "bytes": 451196
+    },
+    {
+      "sha256": "99106501d15c9ebec1e57ce1a092531ec201157c74354c488366737a055be96f",
+      "path": "references/audio-stage3/cliff-reselection/falling-rock.wav",
+      "bytes": 844376
+    },
+    {
+      "sha256": "819a0c32f19ce02a3d6728f9521028d60e47b3b2984b8ab16096a7d63d3c1296",
+      "path": "references/audio-stage3/cliff-reselection/sand.mp3",
+      "bytes": 557184
+    },
+    {
+      "sha256": "199521191be552261d6e604c8d34e40cfeac4b3d7f3075906dd27182c73adb4a",
+      "path": "references/audio-stage3/cliff-reselection/stubb.mp3",
+      "bytes": 24240
+    },
+    {
+      "sha256": "29028d9897f0f32b2eca63b170eb35d877a929ecad67db4e610008fcbaeded82",
+      "path": "references/audio-stage3/cliff-reselection/superseded/cliff-fall-v1.wav",
+      "bytes": 54728
+    },
+    {
+      "sha256": "ff9b94f67357000ca0fe8b01a8b69d1654cfdc2f77411e06f03b2455957e0cde",
+      "path": "references/audio-stage3/cliff-reselection/superseded/cliff-impact-v1.wav",
+      "bytes": 42380
+    },
+    {
+      "sha256": "8c0668fdde03de52b9b201e672244992ae739438937d4bef6908d1618a86b020",
+      "path": "references/audio-stage3/fire-staff/legit_audio_fire_staff_-_free_0.zip",
+      "bytes": 29242305
+    },
+    {
+      "sha256": "7756c64fab61e5b308565dd6688411e093becacbf72e91c90dafc6247ed0a5a4",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/LEGIT_FIRE_STAFF_cover.png",
+      "bytes": 1529622
+    },
+    {
+      "sha256": "bff2d501b06b6559df64a57228f39df3feabda41c32c9f9dda72600a3e3d0490",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 1-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "92b47ce3dc2197f56ad88498de7d3538d855997d25e45e66c215a6e3e50203c8",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 10-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "17c6c2f116faa73e92f2e806a11e59886e956b1ea3095582a7e7043a5451ac89",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 11-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "c36787955c3c4dcaa1a83f9c9851ea014547f34c29f71839c85e5186a0812b0d",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 12-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "5b786d399d27d5388638a835de2351c72ce1340bfcc8ab00eb29e1476b1a5b73",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 13-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "49de3e1f4a0821c8515dacbe037f24db8c548a8f06dc49cf0e4e402bc0909659",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 14-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "cfdff75541f2757171f4b503ecb6f094a45b49dc3a16ecd54c525d9d961c6b3d",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 15-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "14748e8adc45b9d4f5bd9203d6e8ea1ea85eb9447cebbafc97181d07902fc29a",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 16-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "54b55dc438ca44cb6cb8c3c4246505bfc3450c5541e72772682cc13f396087ef",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 17-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "93aee1c066096f71f469c8767589286a4ad165d25d6305846139f0d572b10778",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 18-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "2904f65ac6c3af0273ad237bb1ed1cb6928a43c124c8cd1d485d36e3d19ab37c",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 19-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "bef9659a1ff2917d58e1ea0c4d00440dbdb219b28ecc29b406b07349a4f3425f",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 2-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "f86cadeeea62301a30870946ddb34f1975ddf189b2719d3459832973955a0eff",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 20-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "553bbf9bb6a3c574d1862f03d384f71a335706778e7877588397876dddf42af0",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 21-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "5883daa601d9f9399cfa7cd5dd23e9b274994105f9608f0208baf0dd33015aa4",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 22-Audio.wav",
+      "bytes": 9792044
+    },
+    {
+      "sha256": "ccf4c6ad5438d58c08fbb61147baef8ad73f76365eff9303ff7841ae23875785",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 23-Audio.wav",
+      "bytes": 9792044
+    },
+    {
+      "sha256": "407e9c0a9dcdb0621991ad4ca20130635e37e4ad1c61656195f07a3ff65cb9f6",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 24-Audio.wav",
+      "bytes": 9792044
+    },
+    {
+      "sha256": "4020e9c4659d2a56ff6d2023343d86896f8241adfe9c4374bb6aa037815a2697",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 25-Audio.wav",
+      "bytes": 9792044
+    },
+    {
+      "sha256": "6c6d875244fbec12540307f1c83c5e5a6b71a2b2c9f4742f2b09b4689275a4af",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 3-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "d991395b107fe2d910f56ac58bbea6788906d1a3b237d0f34eb1c49b885650f7",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 4-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "a414e615106206b6c1e68d805b21b9a3fa800e5749b90c6cf779fa5b3e29f9f7",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 5-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "6c9e3eb3293a3ca6112047623eee5839378a96a95c1aed5119e49a59cce071ff",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 6-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "458d636dc9f4512c53f90ed65e37e0b68b1dfce1518c95f7606115fcd9a66922",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 7-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "f6a12f6b7d892d14de4db70ddc8f9f0f8edc3247d97cec6777a48f83c18e2f74",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 8-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "8c4868b5cd5e788bb83da84fd1d33b0f1aee776884af966570860a7207b26619",
+      "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 9-Audio.wav",
+      "bytes": 4896044
+    },
+    {
+      "sha256": "b84ea396fac1af183dd2cb205a01edaa94b493ffb36965eafe59912e41cf9eb7",
+      "path": "references/audio-stage3/ice-shatters/IceShatters_0.zip",
+      "bytes": 75074
+    },
+    {
+      "sha256": "4c7304ac47f84e41b62edb71082d00fe01823a2a54ec4e4268a040c973e3510f",
+      "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta.ogg",
+      "bytes": 11955
+    },
+    {
+      "sha256": "92a20369f866c852f841ffaef31676cb70f542592504b040327c60f5101f9c47",
+      "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta2.ogg",
+      "bytes": 10448
+    },
+    {
+      "sha256": "fedcd280ffaea38c365647f131eaae71cf2b9e1721c2fce1b539884c9199074a",
+      "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta33.ogg",
+      "bytes": 20079
+    },
+    {
+      "sha256": "81558c035953d4e595640be7ba1a645c47c6f4b72f38de43a44d36fa70d52b8c",
+      "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta4.ogg",
+      "bytes": 18326
+    },
+    {
+      "sha256": "34adbcb652d578b870d5317ec974e9773266ddfd6b4bfc8499ec775e1712b603",
+      "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta5.ogg",
+      "bytes": 17437
+    },
+    {
+      "sha256": "090977264d65d90a50b04e9f0c1c4e02fb194e5b50d9fe244f0079a4da54158c",
+      "path": "references/audio-stage3/ice-spells/coldsnap.wav",
+      "bytes": 467244
+    },
+    {
+      "sha256": "c3039c864d056d0e4951b84b96a7bb0044ca8cb58aeae514fc256145872b6a94",
+      "path": "references/audio-stage3/ice-spells/ice.wav",
+      "bytes": 205356
+    },
+    {
+      "sha256": "45f02a204fc7cc896a17487080376c521ac2e564fe3da4d24cffa0086f8d6a54",
+      "path": "references/audio-stage3/ice-spells/icespells.zip",
+      "bytes": 269661
+    },
+    {
+      "sha256": "b645f35d21194e7855dd4a5405b1e8e6bec070731b92df6abcb202676b8e9f2e",
+      "path": "references/audio-stage3/rock-break/rock_break_0.ogg",
+      "bytes": 8852
+    },
+    {
+      "sha256": "ac7ea8146bd7b86b98a7d1c2c10e8df7225ed91bbcfec7881a312f795a5f5636",
+      "path": "references/audio-stage3/rumble/rumble.flac",
+      "bytes": 80972
+    },
+    {
+      "sha256": "97e05a01ba45c324094f0f51a5094dc23fbb6f915db6c39154d9cac34939149c",
+      "path": "references/audio-stage3/stone-door/stone_door.ogg",
+      "bytes": 25433
+    },
+    {
+      "sha256": "3521478b940968bb48c476a4e2e37cd2f3b864fe1b548b7d4868f339e405ab11",
+      "path": "references/audio-stage3/stone-grind/stone_rock_or_wood_moved_no_tick.mp3",
+      "bytes": 5613
+    },
+    {
+      "sha256": "f36250766ac5bc378c13708ddf12a23a8e54a3251f8d482c7536e51b5dbafa18",
+      "path": "references/audio-stage4/casino-audio.zip",
+      "bytes": 876839
+    },
+    {
+      "sha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232",
+      "path": "references/audio-stage4/interface-sounds.zip",
+      "bytes": 834536
+    },
+    {
+      "sha256": "faeb3945123ed296292a69ddc51687777bd02d81ceef797c0be5e9782818fa42",
+      "path": "references/audio-swap/cotton.mp3",
+      "bytes": 12816
+    },
+    {
+      "sha256": "94c4ddea3e4f55e13f2a232690361dbcf9f2563369c8da3db3a4495a21217249",
+      "path": "references/audio-swap/fabric.mp3",
+      "bytes": 468972
+    },
+    {
+      "sha256": "9a15c881345c1ce1c39cc31f52f081c8c4dc81fa41111e0079400f39d3ba0e45",
+      "path": "references/audio-swap/swish-1.wav",
+      "bytes": 34138
+    },
+    {
+      "sha256": "4f7381a76f280d3f36f962ac3f44f16f77eec44797f30715d063c81ea3859024",
+      "path": "references/audio-swap/swish-10.wav",
+      "bytes": 33862
+    },
+    {
+      "sha256": "9e81d548d8215fbb36f7a41b5771d4b52c2fd02fbb9b5ff9a4c65118fd88ee4d",
+      "path": "references/audio-swap/swish-11.wav",
+      "bytes": 28346
+    },
+    {
+      "sha256": "0513a86d428d9ed8601e93b8554580a5932c6c1a82d39d81a8f48883f1807a67",
+      "path": "references/audio-swap/swish-12.wav",
+      "bytes": 20892
+    },
+    {
+      "sha256": "698230ba3fe05a68c18d68cd6b3a07fb98e6c1198bb1a4238592ee9912c02c77",
+      "path": "references/audio-swap/swish-13.wav",
+      "bytes": 19516
+    },
+    {
+      "sha256": "1ce7752cce3d43f16fc222ad7f7ffb69d9a5fc01e64b93d205765fc37b8e9b0d",
+      "path": "references/audio-swap/swish-2.wav",
+      "bytes": 26136
+    },
+    {
+      "sha256": "55b100e2c67fa43dad8510e31e85bbd51a68d5ce84a6e0259e21e19030083e24",
+      "path": "references/audio-swap/swish-3.wav",
+      "bytes": 39390
+    },
+    {
+      "sha256": "0060f4a7040edce4cc50d1daa10a9cb76764128a942e4688339e69cd1d5d784c",
+      "path": "references/audio-swap/swish-4.wav",
+      "bytes": 39384
+    },
+    {
+      "sha256": "4db41f2d2f97caf94627be05ff2870217fecc86534cf30f2aab413b847a0d50a",
+      "path": "references/audio-swap/swish-5.wav",
+      "bytes": 34414
+    },
+    {
+      "sha256": "edcaacf008da7ae692566f4fe0d6023ea68d0a014149889e95209be7ee0b746d",
+      "path": "references/audio-swap/swish-6.wav",
+      "bytes": 37310
+    },
+    {
+      "sha256": "e6de737a34de16afed094d6170d7679149022f149e0a8356d2f029b0e8f4a4d7",
+      "path": "references/audio-swap/swish-7.wav",
+      "bytes": 50420
+    },
+    {
+      "sha256": "113a3709ad889ad2fcf38eaceaf4eb9d67ffe1e96713fed93a6f0aed08769980",
+      "path": "references/audio-swap/swish-8.wav",
+      "bytes": 41456
+    },
+    {
+      "sha256": "123883f006ce55feecbff11eea5f87c4493df4399989983037144570a23723c1",
+      "path": "references/audio-swap/swish-9.wav",
+      "bytes": 52906
+    },
+    {
+      "sha256": "7980215241b739a787dcf26f660ce510bb237900968789395a86911619795693",
+      "path": "references/audio-swap/swishes.zip",
+      "bytes": 385150
+    },
+    {
+      "sha256": "29e3bd93d8b8e16d7f0dedb38e7187e41ecf15346a96767da509f5f8391dab30",
+      "path": "dist/assets/audio/block/block-swap-v1.wav",
+      "bytes": 10628
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Preview.ogg",
+      "bytes": 424935,
+      "sha256": "14038ebbdfa096ce32bf6e358c00b6ae9d168d6be9cd080840ca3b896cc5f217"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-fan-2.ogg",
+      "bytes": 18363,
+      "sha256": "5743373c9dde00c6eee949a2c8e65d75946522768999167e1f5632451630e848"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-place-1.ogg",
+      "bytes": 9624,
+      "sha256": "d8f26c33a665dcbdcc6f632f6050bc9dd548feb0d4942d4547615926d3926810"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-place-2.ogg",
+      "bytes": 8046,
+      "sha256": "903d5050718595e87864dd755643b476ab1a5533080dcc2dddc72570d33ba9f8"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-place-3.ogg",
+      "bytes": 11503,
+      "sha256": "1d988631a6e5201ed1bb0d728f2e43a3ec79401258426858793598044ac95841"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-place-4.ogg",
+      "bytes": 9618,
+      "sha256": "18e3ba713b7259605fd27cdc048085ed56cf86b32403f070b6cb125019f77183"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-shove-1.ogg",
+      "bytes": 10690,
+      "sha256": "1ea667aa6795d5f14239192116ebcbd8f3f47eb1c7faaf2ec56844b9067b8b06"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-shove-3.ogg",
+      "bytes": 9948,
+      "sha256": "399520d483a1466fcaa850b9c407b4edbd5c7f0cbdf17e84dea12e9636326d0d"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-shove-4.ogg",
+      "bytes": 10875,
+      "sha256": "0a1ad3a2f16bd2ed73349e6342426ca7a59a6e26b7e26e36d51d51c2c2349d6f"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-slide-1.ogg",
+      "bytes": 8833,
+      "sha256": "006cf9822d15d7063f8899e56041f41646df30adb6fbd8b974ee5d5420012690"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-slide-2.ogg",
+      "bytes": 9042,
+      "sha256": "e674a1679ec87b507047fe012d068ad2c412125f56186f0e732684705c2a6888"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-slide-3.ogg",
+      "bytes": 9164,
+      "sha256": "af2ab62656cb3df73316ce5771b8ee1111a840962b21607e3202151e7413c52c"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-slide-4.ogg",
+      "bytes": 7912,
+      "sha256": "b9c82bcdbe6b7d00a06e2546bd2683a9ab082ca5fd090a42882f33eddd925b7f"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-slide-5.ogg",
+      "bytes": 9180,
+      "sha256": "8638ab0c17f029aded0e27a4f9b9bb9f8c621b19a6e9975e855cb40ea63e2201"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-slide-6.ogg",
+      "bytes": 8780,
+      "sha256": "be85da181ac879c20cb667d0f9f156dbdc236d3751737ad27359a15e946430a0"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-slide-7.ogg",
+      "bytes": 9580,
+      "sha256": "bda2040194f43484d03ee3c65ed6fff57251882ea7227abce4214bfa30bf2705"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/card-slide-8.ogg",
+      "bytes": 9863,
+      "sha256": "95d9aa26f8c63af9934f27a8e3b7e9b583f177640f0bbd6982f12dba52b9ae6b"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/cards-pack-open-1.ogg",
+      "bytes": 12715,
+      "sha256": "1214059fdfbf1c396c0702244fc833739cc346d326a71e450b731f456e54d6fb"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/cards-pack-open-2.ogg",
+      "bytes": 10918,
+      "sha256": "49e02479815c69cd303e0d8f12952c0492d5b3e555838f3485cc25a09818e6fb"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/cards-pack-take-out-1.ogg",
+      "bytes": 8269,
+      "sha256": "6d38b979f64d20e4153173187ed67b04c6c004767c0a43eddb65c75fa925a1c4"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/cards-pack-take-out-2.ogg",
+      "bytes": 9424,
+      "sha256": "d991829eeaf7e5a6f8462594e5be0d91535309ffd6249278f34eec70470395a4"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chip-lay-1.ogg",
+      "bytes": 5720,
+      "sha256": "4b2111252ccb64eed67f171e061053849cfbb29873536c03948646f244a3905c"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chip-lay-2.ogg",
+      "bytes": 6123,
+      "sha256": "8ca8b2d450741c04ed7b4ba51ed3f73c2400c8b3dbe83b974be4fe4774a76712"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chip-lay-3.ogg",
+      "bytes": 6327,
+      "sha256": "bf24ebb417b6279568800dffdb0205d3ec8854c7efe179e8964755a6341727aa"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-collide-1.ogg",
+      "bytes": 6356,
+      "sha256": "f41b3d106360fc68ebc061a211d4265b4cb5fa1fbe86e4d57d3673510e2c3784"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-collide-2.ogg",
+      "bytes": 5987,
+      "sha256": "2a10c5ff4b2fbaa55a317fc258ddce3fec85bd26db2d3c2ad298b3b33ce23bc6"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-collide-3.ogg",
+      "bytes": 6301,
+      "sha256": "1c5e885f72b64c38fff7ef05579e49310e7acf026cf123ffb65fffb57fb06e1c"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-collide-4.ogg",
+      "bytes": 6038,
+      "sha256": "1ffa34af64adc62fce583c5aa9a3c98287b1673ef191576a5571f1ffd39529dd"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-handle-1.ogg",
+      "bytes": 9374,
+      "sha256": "a2c495237fb0dc0dc96ccc2c9840572edd226e6459398ecb631c6c9f9e5408f0"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-handle-2.ogg",
+      "bytes": 8639,
+      "sha256": "099b6d7d3a71e7d22171a93d124e7366e326d32eb85d718ba29abded8a49c329"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-handle-3.ogg",
+      "bytes": 6261,
+      "sha256": "7c5a86e27b2bef839ae096dd655506cf46a82494bd01cc28f51bed6ab26cc342"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-handle-4.ogg",
+      "bytes": 7347,
+      "sha256": "0d171ea00224709cbe31ef95a111eabaf1382606a4836c5717043b339cbed8e9"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-handle-5.ogg",
+      "bytes": 11273,
+      "sha256": "589753ea21b1955626e82975be8979f42140f5b0645a8c33c2d1f7e33fba68cb"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-handle-6.ogg",
+      "bytes": 8909,
+      "sha256": "527d4d3de55cc261dc476329b71a750c296f3ad633ac50318d913976bb89857c"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-stack-1.ogg",
+      "bytes": 6469,
+      "sha256": "12bf175b9afcea112175b241ad3336c6244ac5fdcdff8b5942ecc03f2225e0c4"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-stack-2.ogg",
+      "bytes": 5642,
+      "sha256": "9f985e766c3557eef1764240b48e30b2f0ffa870a99f05de85cd6bf0ea758ef5"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-stack-3.ogg",
+      "bytes": 7203,
+      "sha256": "48cc0f01e2b62be7677f2e8c02177906cab80e96fa8176fa05b3ced35bc2a9c2"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-stack-4.ogg",
+      "bytes": 6095,
+      "sha256": "129a3af12f096ef9d8326b32c3c674d687f1a0b447157ccd02fb431ba134b580"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-stack-5.ogg",
+      "bytes": 5749,
+      "sha256": "42dd800e3e24bbd07d3ebfc86c44b6500d376641e30270dc363d95a73e90b56e"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/chips-stack-6.ogg",
+      "bytes": 5821,
+      "sha256": "5ec35171aa65bf5edd977e293523a649227accf36e682bf1ac9a84286f04c682"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/dice-grab-1.ogg",
+      "bytes": 10278,
+      "sha256": "1952cf1987b2c1ebb035b30b5f0caf23604b6ce4c88b6a226fe6e6257ce730f3"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/dice-grab-2.ogg",
+      "bytes": 11437,
+      "sha256": "4eb4940d1e71aa3f6ac5f865b6b47748a492adf6a83d622c8efe6284dbebbd2c"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/dice-shake-1.ogg",
+      "bytes": 19388,
+      "sha256": "ba603441c857204dbe3ff3345902c7e1c3f523bf1bd314acf088609bc6c1e4e5"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/dice-shake-2.ogg",
+      "bytes": 19976,
+      "sha256": "47e8e2cb0adb95bcd7348b58db8dc2bbfe3c553e50a4e9ef007e67891ed51ca2"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/dice-shake-3.ogg",
+      "bytes": 19722,
+      "sha256": "aecd1dd0de6e42ebb510d1f9bfe91a580a8af238dd73bdfda368b90b894b5c09"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/dice-throw-1.ogg",
+      "bytes": 9523,
+      "sha256": "4e6581c73465cdd7ec32e86a709b4ea5c682e819c9bdb7989d1df1880ba67886"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/dice-throw-2.ogg",
+      "bytes": 7545,
+      "sha256": "e0b8c370503b2c5c2a72d311cccae30fe63a6afd48f2be32e771fcf1a98585d6"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/dice-throw-3.ogg",
+      "bytes": 9231,
+      "sha256": "09c13d35a9a30bfce31a5e9bca94adc5be189ddecd0b4500237d54c7fd05227c"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/die-throw-1.ogg",
+      "bytes": 8410,
+      "sha256": "b31d716165be60e442da3c1ca25a3968aad1e0851a7f0859f495aecc02fd9e13"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/die-throw-2.ogg",
+      "bytes": 9824,
+      "sha256": "a2702cfe14d24aab302483a1499daa88474a4af4acd794b58d97f4af16333b3d"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/die-throw-3.ogg",
+      "bytes": 10018,
+      "sha256": "52fc44c7bb89328a147738574c925508c34abf4c19a014575b37ffb8c6b02437"
+    },
+    {
+      "path": "references/audio-stage4/casino-audio/Audio/die-throw-4.ogg",
+      "bytes": 8159,
+      "sha256": "6253cabcb10c4152548cbc9d3ea87c1bf1bd484f0bd8d6b73c542e690509c0fd"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/back_001.ogg",
+      "bytes": 6997,
+      "sha256": "07db973f79f6ae0f2edc34561e7592e24d0577455919fb602cb8ecc0da991dcf"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/back_002.ogg",
+      "bytes": 7029,
+      "sha256": "61581c58194e3f19f531072edabbc344204c7e0a2887b8ededce4357bcf09195"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/back_003.ogg",
+      "bytes": 7208,
+      "sha256": "ff5e87de1230b1a5f1fa83e5a4ba9d7eb1c07154267ac34b510a17d4caa03cef"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/back_004.ogg",
+      "bytes": 6923,
+      "sha256": "c22e3c49f42c2a5ba6748e91283efe124f32822469c1258c3e5d7b3d7ab9361c"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/bong_001.ogg",
+      "bytes": 4848,
+      "sha256": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/click_002.ogg",
+      "bytes": 4275,
+      "sha256": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/click_004.ogg",
+      "bytes": 4486,
+      "sha256": "09e2c1b643b71b9aff9932b4e02d78db116446b9a14b00a5b2a9b28d2668fd8e"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/click_005.ogg",
+      "bytes": 4410,
+      "sha256": "a3ee7ebb036bc3cdc218ae52bb27548c4f49bcf07505274f8b61b1af8236acc2"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/close_001.ogg",
+      "bytes": 9915,
+      "sha256": "44af8249b933e0fd35ec957a638bb1a0b01f85b53fbe9674bf77bd3ca3168ef4"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/close_002.ogg",
+      "bytes": 14752,
+      "sha256": "bc4279d2bb2bf86592473eab6a8eab55e51b54a8619315000dbd780a83b102d8"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/close_003.ogg",
+      "bytes": 15648,
+      "sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/close_004.ogg",
+      "bytes": 16263,
+      "sha256": "41b41e01ac75f4bc5a9c8dc3b0de744fa7f877757463692783c12a8ae4bfae6b"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/confirmation_001.ogg",
+      "bytes": 8968,
+      "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/confirmation_002.ogg",
+      "bytes": 14169,
+      "sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/confirmation_003.ogg",
+      "bytes": 9535,
+      "sha256": "3091bf0be0497f825769ee0733ca7bdc3bcd59bd6c6e8f2ba8f93d580ff38022"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/confirmation_004.ogg",
+      "bytes": 12391,
+      "sha256": "568967a3d9f8a8f6af54ea01729c4882284308f2a27d78c07ffd7ee0d6951661"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/drop_001.ogg",
+      "bytes": 5859,
+      "sha256": "692ee3a6f1821402ca649ff735bee9591dc4846c8098fc7d6a90fd15fa57c1af"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/drop_002.ogg",
+      "bytes": 6411,
+      "sha256": "4ac4d1cef7e936965cbf795852ca2020300b9e2ba7daa59f2bf4f1f7bf416218"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/drop_003.ogg",
+      "bytes": 6288,
+      "sha256": "43d086d50f90493a98cd2e09aa6dbf150d164f1578e1ec768d21cb185571ad87"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/drop_004.ogg",
+      "bytes": 7230,
+      "sha256": "10738707f9300f9b963ceba46d5da2ed4a221faf7d39484a643c2d3bc151c5f2"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/error_001.ogg",
+      "bytes": 7373,
+      "sha256": "46e67425d16339772e8d328fb36a49426c9467418686e11beeb71ff84b0f6433"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/error_002.ogg",
+      "bytes": 7369,
+      "sha256": "76810ec365f41078fd0507101da5bb7b8730fe011dde43908329fdabd8575e79"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/error_003.ogg",
+      "bytes": 12256,
+      "sha256": "885b28175c7b511118bcffab95675b48bbac9005cf6514656ebdad979276b3ab"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/error_004.ogg",
+      "bytes": 6393,
+      "sha256": "0b574cea597d96507e782ae9764f88482ce49f46e931e57054bf7150047f2d69"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/error_005.ogg",
+      "bytes": 7266,
+      "sha256": "3f75b11df5b06d68d2c25fbf0e9c9d9e7dd9250562a4007ee34856b8a309a2ae"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/error_006.ogg",
+      "bytes": 8288,
+      "sha256": "a97513d7fd2b12b1210c423be943b4c1ab0e899b11db95855e9b74836e646ae0"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/error_007.ogg",
+      "bytes": 10225,
+      "sha256": "f1ee4c1ac8bfe1a82eacb54b26f49e8974bab93bcf10c01800bc10dbf730f559"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/error_008.ogg",
+      "bytes": 9215,
+      "sha256": "eba17ecb2a426bfd4a8a6acff5f8a86202b6424a77af0fd842e37809a1ab6d81"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glass_001.ogg",
+      "bytes": 6103,
+      "sha256": "183eebee20eb0a532b0b85104d139cbf2673eb66d95c3cc733ac9ea98362e7e8"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glass_002.ogg",
+      "bytes": 4917,
+      "sha256": "08e972c73e53c91d6d310e107e80db60edce78ae47225889a028e628a6f3da49"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glass_003.ogg",
+      "bytes": 5732,
+      "sha256": "9a6f16e3c2eff6fe5d017a4755a28306b14555728831cd00d70308e8f9689566"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glass_004.ogg",
+      "bytes": 8323,
+      "sha256": "2379b58f953e3d86982aa8cddcae763022c6258e9820171bf905ce58b4e97766"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glass_005.ogg",
+      "bytes": 6206,
+      "sha256": "1f6c88008d0d9fe449197512811785e1d4638daf408a96a4a02756530e019172"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glass_006.ogg",
+      "bytes": 6956,
+      "sha256": "840500be48078f1210f1fd7a9ac4e5665ed9b6f4a2b8dce91a237152a65e94cc"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glitch_001.ogg",
+      "bytes": 5121,
+      "sha256": "da78c642bbd95da2c364ed0e991ebbfc5a4c0d281165d932b5819e0dd31a39d2"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glitch_002.ogg",
+      "bytes": 5473,
+      "sha256": "1da06a2e63ce131f5e0316ca27c75fc0d672db7a8f9b986c70693f2bd992eabc"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glitch_003.ogg",
+      "bytes": 4915,
+      "sha256": "d55e0c64aee9f1ab2ba9523d0e256ca76639c3ec2f230405e2ff25aff36020b3"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/glitch_004.ogg",
+      "bytes": 5225,
+      "sha256": "d0f4db4d12f88592bc328bd621d356d099eaa2dda37bab37a6cf17891c5026d1"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_001.ogg",
+      "bytes": 12111,
+      "sha256": "fd3e75e1de2f2fda90aceeacaeb0427ac8bddd3b07a6ce2a8f9ba923df3771f9"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_002.ogg",
+      "bytes": 9915,
+      "sha256": "cc51162cb4506158b953b121bf479aad070056533ade5c5cd2f980183127ceb4"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_003.ogg",
+      "bytes": 11748,
+      "sha256": "df16f25d45189f5d44d6a482ab20d5067350ca8525a9affa1f8ce599e31a20a5"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_004.ogg",
+      "bytes": 17723,
+      "sha256": "59c7a24b204be24d2a44a86d1e4d18c2cf51fa0446967a14b2590e8fb3afaf34"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_005.ogg",
+      "bytes": 20900,
+      "sha256": "0ee06fc3ee494723fc95b2224f9dc0af857f2903e7f94d5d33d8e67f454b3cf7"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_006.ogg",
+      "bytes": 11618,
+      "sha256": "f050b3bb77cb0b901bc8df43d2cc1872c353aebae10b4030cf8ae681726ad343"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_007.ogg",
+      "bytes": 8097,
+      "sha256": "3400931f3f3a1e9cf253efef9069bcdf053edd2234e4ee9bf88977c389943484"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_008.ogg",
+      "bytes": 9085,
+      "sha256": "57c074e600e193a303ce781c04c0ccc191c6030f9f106594fd94a65e55435c17"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/maximize_009.ogg",
+      "bytes": 7650,
+      "sha256": "b4d56386258b3cc1c8f6e5a22465f8cd65de3d4309e022664050f43151e466cd"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_001.ogg",
+      "bytes": 11924,
+      "sha256": "8481912bc7fa5828924a00ef15b6cd613b994956e0817bd3122065c9b2896d2d"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_002.ogg",
+      "bytes": 9441,
+      "sha256": "670e47846dc003fe29d39c8dfebb8635bfcacae3c0916392c0e8bff659493ad6"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_003.ogg",
+      "bytes": 11739,
+      "sha256": "400e1041499de85ec8b5529a35ff36787288175c4696cf2018ecff24a3a3fd29"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_004.ogg",
+      "bytes": 17099,
+      "sha256": "fcfe6fbb03a728e90b907f34d2ec7bf3ea1857397c3e47ee01990c1be059e4f6"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_005.ogg",
+      "bytes": 19501,
+      "sha256": "4e6792a98c75d3ff187c0c55561c38c569e02c64757ebebb98831cfe84e3e172"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_006.ogg",
+      "bytes": 11292,
+      "sha256": "39d7c47855b9642f43548b7b132c20e20a1490c7eb13d10008c32fcb24da19f8"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_007.ogg",
+      "bytes": 7677,
+      "sha256": "e951505044de0d5d87b72ce7f312ac3fbbdde025ec8c10db70f9d2651a2c8947"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_008.ogg",
+      "bytes": 9298,
+      "sha256": "bc14c17875436dcaaf809c25db5e61454dbc35612880f329ff37a95ef9b6a865"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/minimize_009.ogg",
+      "bytes": 7665,
+      "sha256": "885c20fc8b5b52226288794842a403821cd16e9800ec1d76be7a2f1655542eb8"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/open_001.ogg",
+      "bytes": 9834,
+      "sha256": "a27c6bb0df7da1e6af5dd5937593c98bc58b6e513f42fe6a3254cd6a6949c648"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/open_002.ogg",
+      "bytes": 14975,
+      "sha256": "24ff224fe2c09c6aed1b41249825382dc74cf324b887ff279d8494912ce2beee"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/open_003.ogg",
+      "bytes": 15046,
+      "sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/open_004.ogg",
+      "bytes": 15879,
+      "sha256": "4e02b8287bc4d9e7bf7a889cb9e48613c8eb22a310dfb0bf29c2bfd0a1e4bea5"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/pluck_001.ogg",
+      "bytes": 6317,
+      "sha256": "be97ec4893a02d6eccfb678daa76c83e34cb2583b834ec2593d2641def739fa4"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/pluck_002.ogg",
+      "bytes": 6941,
+      "sha256": "c977fe249ff42d1c93a552b33abc13a8399df3879fa510475426e5c4bbac1da9"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/question_001.ogg",
+      "bytes": 11700,
+      "sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/question_002.ogg",
+      "bytes": 9455,
+      "sha256": "46056f10c70dda860e93bd27b66f4d33c0b7154eff28def06471b50028efa5b3"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/question_003.ogg",
+      "bytes": 8233,
+      "sha256": "00bafc564e29c12e99da584864a750260e7110378251d63d3aa5b3d727836efe"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/question_004.ogg",
+      "bytes": 9821,
+      "sha256": "585ecb58b529dc49b5c5ce5ba93427bf73b7052bae55e49c43ba8f169c93ac99"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scratch_001.ogg",
+      "bytes": 8989,
+      "sha256": "5c294d2e1a6b6d07ee2d75b17105a55ad3527e5482dd60652dc49c2ea4c70096"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scratch_002.ogg",
+      "bytes": 9319,
+      "sha256": "2b07edafc1f3f49c4813f2b0ae9481c566c1f9962a22d5f5b79da7111e058e56"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scratch_003.ogg",
+      "bytes": 8849,
+      "sha256": "2d80371b55ebe2e8b916b84093a8ae7717d09a80c6b617079ade5bd0dacba7b7"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scratch_004.ogg",
+      "bytes": 16478,
+      "sha256": "26009c67ef90ee7a5a2bc458ef9e7f5a9da83da9397a830cff9e4a1813914687"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scratch_005.ogg",
+      "bytes": 15824,
+      "sha256": "65742c15dca9853611e1c9e83bd04ac0d693f79896715cafa90bad39745d7a62"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scroll_001.ogg",
+      "bytes": 21633,
+      "sha256": "320c6aafb2c7a503eae508dc443b72d7f7c0a317bfd16813157ed400cd04cf16"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scroll_002.ogg",
+      "bytes": 24628,
+      "sha256": "6fbcda22bc45349c66f1ba4b56d6c211b12264e83667de4b9af1e4ffcef74be5"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scroll_003.ogg",
+      "bytes": 29488,
+      "sha256": "c2fecaa6e37c73d7141d0bd303d1c2231428d97c19ce83d50236a56804818643"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scroll_004.ogg",
+      "bytes": 20348,
+      "sha256": "431398a3c12ba3aa30ead97f3e2f9b05eb00978facf04b31bda138ab77a2f54c"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/scroll_005.ogg",
+      "bytes": 20448,
+      "sha256": "e39d059462225efa31f758fb2e01871cc96781972b5062873a24a55c88174e02"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/select_001.ogg",
+      "bytes": 5468,
+      "sha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/select_002.ogg",
+      "bytes": 5463,
+      "sha256": "4cc6ac5341b9b2c86fef80c347de028e9ab9f2e037586ac7d9fa59a403a1c012"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/select_003.ogg",
+      "bytes": 6901,
+      "sha256": "9a612fd2f513d52a296906b41071c990f75defe56be3bee60d2d4e2423b51b8b"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/select_004.ogg",
+      "bytes": 6909,
+      "sha256": "eb6cb435f3f2ab14f85f46a2bdd9073ec511d0f1f8d8c890c6636045703a5fd4"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/select_005.ogg",
+      "bytes": 6767,
+      "sha256": "ad09146e4ea33b931b2f5dfb4051a4f1fe4a36f1a48c42c5e9269c292ae21214"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/select_006.ogg",
+      "bytes": 8101,
+      "sha256": "b44550fa8d3276c072ce7c3c1315d949f7a28a95bc22b3618ad4eea62eac8abe"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/select_007.ogg",
+      "bytes": 6580,
+      "sha256": "cd4390dd2b24f09016a5fa1be63334fa0f1859811f4cf29c02e8e2750f6a2cd0"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/select_008.ogg",
+      "bytes": 6339,
+      "sha256": "f703b6b1c62dae1c246a46d5c2442802588f68be2df4d17e0d65cf7e0dbfc826"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/switch_001.ogg",
+      "bytes": 6753,
+      "sha256": "3b74efad87f1e69dbd1d05c5ad952ab90859b5a3d11da6ec5bd79b4f03b42afa"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/switch_002.ogg",
+      "bytes": 7097,
+      "sha256": "6fc395be2ad1f99ce318a5d28f98fb76dbeb676d83a0b28239d8c1fb90736180"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/switch_003.ogg",
+      "bytes": 9653,
+      "sha256": "ca12dd32103f401481d5aff56d5e9831174e99bb577139c09b07d046eb8b837e"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/switch_004.ogg",
+      "bytes": 7248,
+      "sha256": "541c19cc1ab712a9efc5765df602e7d0da09d9cafdd297ce1e19b092289fd62f"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/switch_005.ogg",
+      "bytes": 7814,
+      "sha256": "e94dfab6fd6558068ab3ea97e22e4b4f16b83ee440e6abf33ec4c4e9fbe8a70e"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/switch_006.ogg",
+      "bytes": 7873,
+      "sha256": "2676ddc4e341ee557b4d1dc8767ef8655540d66fb3ded6a1614080dbc4dc6f18"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/switch_007.ogg",
+      "bytes": 7921,
+      "sha256": "eeaf60c2abc7e1b715e2b032401bcbf6b3753b77f96b238f861a034a75515967"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/tick_001.ogg",
+      "bytes": 4497,
+      "sha256": "9d057b918024c787bbe6c00beed13a7ef72a3fa0c259add3cef36582792f4230"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/tick_002.ogg",
+      "bytes": 4514,
+      "sha256": "869442f54214be902ec7437f79e400dc91c1bfd90d18a6dd2d5b7e41ffbf457b"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/tick_004.ogg",
+      "bytes": 5031,
+      "sha256": "0253d5f7d8d2afbbc370eac2a4539bb844239f0c98343e516d376b137c06d27c"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/toggle_001.ogg",
+      "bytes": 7369,
+      "sha256": "ca1d2dde5f0b286abac4f070e23edab8f30927c8a533665cdf2ac6492a415e49"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/toggle_002.ogg",
+      "bytes": 8056,
+      "sha256": "1f564f5520cfa0764028ce245ad97599d3ece8f0ab504554c403af92ac72b900"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/toggle_003.ogg",
+      "bytes": 8654,
+      "sha256": "7e69aba356d590826cce291bbd9dc6a85d7c53858b0e3712fcad30e1ad080b23"
+    },
+    {
+      "path": "references/audio-stage4/interface-sounds/Audio/toggle_004.ogg",
+      "bytes": 6695,
+      "sha256": "d7bf2236fc95a0fe1e3b278259392bcb062644e2d4ec5f9c96f7c09a9928262f"
+    }
+  ],
+  "runtimeBefore": [
+    {
+      "path": "dist/app.mjs",
+      "sha256": "7f6112a8ee69db618461799497ef996ade4933a94058072a7ad0a8d9371e22f4"
+    },
+    {
+      "path": "dist/arena.mjs",
+      "sha256": "295a7889aaa6aa7e6686bc87e51319a258b779a1c20372eae2105bf481994ece"
+    },
+    {
+      "path": "dist/art.mjs",
+      "sha256": "407639b61f4d4f04eb2733a742d0f0c07e988800814028acad52591b6368c733"
+    },
+    {
+      "path": "dist/audio-events.mjs",
+      "sha256": "6abbbecfab409d0c534f43c462041bbf1166fe538df86a517835d53b32fba178"
+    },
+    {
+      "path": "dist/audio-manager.mjs",
+      "sha256": "1d17c153394f1e011e3e8fc0b55db680c48f29ad8066a4b86304cb5da7851778"
+    },
+    {
+      "path": "dist/audio-manifest.mjs",
+      "sha256": "0d444dbef1d6a488013089dcde2c0e4230a117ab7d4da086080f2c705a0dd179"
+    },
+    {
+      "path": "dist/board-painter.mjs",
+      "sha256": "eadaeed3c2b388f13bc87d9896c721f6995624de3f3b5db526d8989f376bed1d"
+    },
+    {
+      "path": "dist/bot.mjs",
+      "sha256": "4375ea52a23d011c07d568510a7511ccd2f06de64efe63629b0b800c3d0b7d04"
+    },
+    {
+      "path": "dist/card-ui.mjs",
+      "sha256": "3eb3034f2172022fe2a5b6797ed11bb23ad34f48a4972191ddfa0f8b318b7a8a"
+    },
+    {
+      "path": "dist/cards.mjs",
+      "sha256": "21c6dc924e1fe7de6c6f985a5652a9325bcb2eaeb595cf33babdabc190685b1e"
+    },
+    {
+      "path": "dist/engine.mjs",
+      "sha256": "389afac477e51274e722ffb561a18f1fc55d37767a72137e737d9291822eb6af"
+    },
+    {
+      "path": "dist/environment.mjs",
+      "sha256": "f236d523bf384cdf7767297f8b6a358584630c2b108fdf02d96c21d4bf3e9c86"
+    },
+    {
+      "path": "dist/flow.mjs",
+      "sha256": "233a371cd0a4bbc647426b169ea710f647be70875582fde9ae4e030e4565e865"
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "96d210c0f5bd37072e227288c50579375b961dcda1e1b2f5b1f57b1e3b5efac7"
+    },
+    {
+      "path": "dist/levels.mjs",
+      "sha256": "eebc727d73ffc9b89fa86ca1bcc6e7ac91cc0e71a564f921fb518b735ee03daf"
+    },
+    {
+      "path": "dist/map-presentation.mjs",
+      "sha256": "8264fa1f2ba428dcc03c2b7495442d1e46290440d030b27fdc8a9f67a8194050"
+    },
+    {
+      "path": "dist/map-reveal.mjs",
+      "sha256": "f193b176538db993364c5a655a944c45bd656e6939de3e6f8db0ba881922ef62"
+    },
+    {
+      "path": "dist/map-scene.mjs",
+      "sha256": "5fd2cd8ecb01223b75dc8b1ad6175d5f03ae84b51bc09324d2499a9c36d8b6bd"
+    },
+    {
+      "path": "dist/maps.mjs",
+      "sha256": "c5f46885d3e9489557af3877674cd3ddfb5553a8c058ed5bd73316614390d111"
+    },
+    {
+      "path": "dist/opponent-view.mjs",
+      "sha256": "68b6cd332418fd31b7950fb598f6e8f5d1794e35fceeab83a2fd97494d14c1f7"
+    },
+    {
+      "path": "dist/style.css",
+      "sha256": "8403186c5ee831b0d89ee45b2b1962a9073df4b4a92d24b8ceea41fca32e0a5d"
+    },
+    {
+      "path": "dist/terrain.mjs",
+      "sha256": "c84069a03471e40f112bf0f742ea8d7b3310534f2064065ccbce64b8a0bfa392"
+    },
+    {
+      "path": "dist/theme.mjs",
+      "sha256": "e746a42b5d0d7ee5405255a7f75106eba80472734b21cc149839a0303758f0d0"
+    },
+    {
+      "path": "dist/assets/arcade-backdrop.svg",
+      "sha256": "de151df7956f024c64a2fbee9b19955a7e1bc4b833f22d1791723880edf9c366"
+    },
+    {
+      "path": "dist/assets/brandmark.svg",
+      "sha256": "3d663b5aa6e1e6ab92ee16f7afbafa0195dc195e307a94fb4dfe41f2d04c1965"
+    },
+    {
+      "path": "dist/assets/game-logo.svg",
+      "sha256": "c92a49afa6dab33cb48c9e50114e4630479d30b41df5090b353364d9392f5486"
+    },
+    {
+      "path": "dist/assets/jungle-frame.webp",
+      "sha256": "a87c8ac8b8ae0c34b27d7320a9f8c2066eddf4cb5d58f279f9fd94cadf8aa4d3"
+    },
+    {
+      "path": "dist/assets/jungle-scenery.webp",
+      "sha256": "dda76e3a8a81e6c63b189c1b75e920792d9d406c3fdc7a0ab054243eb4220165"
+    },
+    {
+      "path": "dist/assets/toy-atlas.svg",
+      "sha256": "7abc90945373b0c548dbf58849d1293c5f0667ab58b831d8d79c6a8dd85fab07"
+    },
+    {
+      "path": "dist/assets/toy-board.svg",
+      "sha256": "b03be4cb79548b54eac3ea2d9e3230f4d2e69bcd9f7a344094d26461502830ad"
+    },
+    {
+      "path": "dist/assets/wood-plaque.svg",
+      "sha256": "82e117da2abfc052db19dfd634679279dd8df2e93c6c164d4e4fe8fa86d70add"
+    },
+    {
+      "path": "dist/assets/audio/CREDITS.md",
+      "sha256": "e5f68b00ad896acc0e9c709ee9dd36decd6da165202b510cc909c5b0dcee2c20"
+    },
+    {
+      "path": "dist/assets/audio/README.md",
+      "sha256": "a5420c5ae0fb5ab1592b399c65765f8b34d8f0a67de17e713efa57c2f5c13fee"
+    },
+    {
+      "path": "dist/assets/audio/bgm/battle/bgm-battle-v1.ogg",
+      "sha256": "753bc25faad50d52c7cd8a2fc6ccdd3f0407a47703bac5b73600e6a930b75c5f"
+    },
+    {
+      "path": "dist/assets/audio/bgm/lobby/bgm-lobby-v1.ogg",
+      "sha256": "3447c405629dc4cef9a28a836ab923211c0a1f1f3cbcc6d51139c0c1b56b8686"
+    },
+    {
+      "path": "dist/assets/audio/block/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/block/block-fall-v1.wav",
+      "sha256": "8080abb38c30b4b122356a6b1c1b166feccac93267a924435b844ac5b6876394"
+    },
+    {
+      "path": "dist/assets/audio/block/block-invalid-v1.wav",
+      "sha256": "50136ace4641c1ff63ae791b142bf7979c94049726d49eae74c91c65746f9539"
+    },
+    {
+      "path": "dist/assets/audio/block/block-match3-v2.wav",
+      "sha256": "cec025367d5fb93c936fa2cf5c8c19832fee29aac67d40dd1e5f4b31271ed896"
+    },
+    {
+      "path": "dist/assets/audio/block/block-swap-v2.wav",
+      "sha256": "08dfeed205648ca1f4d208e05e5931eb3885adce1be123d5dbcc76d73eb0d70d"
+    },
+    {
+      "path": "dist/assets/audio/combo/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/combo/combo1-v2.wav",
+      "sha256": "1c50fcec4403c5222b19518815de7c30eaba50122fabb90c406a3a25407b55d5"
+    },
+    {
+      "path": "dist/assets/audio/combo/combo2-v2.wav",
+      "sha256": "08f80f02117531014e3678a13c1d76308e53dbc38d61230ba7c923373a8a9fff"
+    },
+    {
+      "path": "dist/assets/audio/combo/combo3-v2.wav",
+      "sha256": "60a1708dea0bbe63f0fdde9405fc0755ccd285f2c06d53f4a6785eb1225deab1"
+    },
+    {
+      "path": "dist/assets/audio/licenses/casino-audio-license.txt",
+      "sha256": "3d9c53acb6e236d760da14030f54bc53e1d8c2599f78470c36b96fddcde09221"
+    },
+    {
+      "path": "dist/assets/audio/licenses/interface-sounds-license.txt",
+      "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9"
+    },
+    {
+      "path": "dist/assets/audio/licenses/VSCO-2-CE-CC0.txt",
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+    },
+    {
+      "path": "dist/assets/audio/maps/cliff/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/maps/cliff/cliff-fall-v2.wav",
+      "sha256": "b3fb58adb5eb4a2e1394574dd84fd9639199f0f16d8245ca330069fe7a934625"
+    },
+    {
+      "path": "dist/assets/audio/maps/cliff/cliff-impact-v2.wav",
+      "sha256": "8a36bade9ead94b277bbf1f8c990f5e8558e367cfdada53a1a519ae901b195c1"
+    },
+    {
+      "path": "dist/assets/audio/maps/cliff/cliff-warning-v1.wav",
+      "sha256": "47d03e5d4bb5eb44d352629dfd7cd222416641c8cbcc1ac0f1c006a50b391855"
+    },
+    {
+      "path": "dist/assets/audio/maps/furnace/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/maps/furnace/furnace-spread-v1.wav",
+      "sha256": "2fadb5d1aba9a8396ff738e29ad8c996f2fec6305b8249d2550c509cbce23f26"
+    },
+    {
+      "path": "dist/assets/audio/maps/furnace/furnace-warning-v1.wav",
+      "sha256": "87d8b6dcdb0c267703a54262e319ebe652c5e9640aae2553b292b94943aa6f63"
+    },
+    {
+      "path": "dist/assets/audio/maps/ice/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/maps/ice/ice-break-v1.wav",
+      "sha256": "8c381b232d040d3e044e4b9c45efcd3de6456278ca46da89d31c34c25f2f7ccf"
+    },
+    {
+      "path": "dist/assets/audio/maps/ice/ice-freeze-v1.wav",
+      "sha256": "01fa7553382ca77b7f21dd522b4abbdf8fe2d4e52efc5ef4b6260efd1cd1c1f3"
+    },
+    {
+      "path": "dist/assets/audio/maps/ruins/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/maps/ruins/ruins-activate-v1.wav",
+      "sha256": "15fa7d007df325d845a118f2239b9483bd5a91ea53266262841d0700687d6bb8"
+    },
+    {
+      "path": "dist/assets/audio/result/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/special/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/special/special-bomb-v3.wav",
+      "sha256": "1c3b0b9f892f374d4cf178fc8127e0edc03a803c10a239975c5329d644c20a20"
+    },
+    {
+      "path": "dist/assets/audio/special/special-combo-blasts-v3.wav",
+      "sha256": "d8cd5cde2a4293a0f2a4587ca5f8a82fec4ad86a99fe1c1d3f14000e805a939c"
+    },
+    {
+      "path": "dist/assets/audio/special/special-combo-line-blast-v5.wav",
+      "sha256": "4b5118336ba662480348f424d8f692caf62c16d7df872d0fc8136bfd91ab4c4b"
+    },
+    {
+      "path": "dist/assets/audio/special/special-create-v3.wav",
+      "sha256": "0c522a3ddcbcb52ae417919e331875778ea3029b454e16c28aa216b9065a2cbc"
+    },
+    {
+      "path": "dist/assets/audio/special/special-line-v3.wav",
+      "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63"
+    },
+    {
+      "path": "dist/assets/audio/ui/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/assets/audio/ui/countdown-1-v2.wav",
+      "sha256": "8b2acc2336f5eecf85cbd8150686f08f6d4e5bc0c75ffb8b7c4afabe04a12e61"
+    },
+    {
+      "path": "dist/assets/audio/ui/countdown-2-v2.wav",
+      "sha256": "97536a4d58dfe44c2f237fa37d6efca3b1962358f9a3a1ab296745d04c9219c9"
+    },
+    {
+      "path": "dist/assets/audio/ui/countdown-3-v2.wav",
+      "sha256": "49d6eacea17e941326a676bdedf4548870711a0f8990b9a5347d4626e3c7504f"
+    },
+    {
+      "path": "dist/assets/audio/ui/countdown-start-v2.wav",
+      "sha256": "a9cb51f6a0c45a21cc85e09d154ff10974000737b36aeac0181976ae8e92a2c9"
+    },
+    {
+      "path": "dist/assets/audio/ui/map-reveal-v1.wav",
+      "sha256": "7b2b74b3ab9357d59b04f630a08202a4ac4d9cd792f983366686da9216f2b3ef"
+    },
+    {
+      "path": "dist/assets/audio/ui/map-shuffle-v1.wav",
+      "sha256": "8dc8ffd75455b89f69f1398fe8e17316b1ff5231dc1409b4158266169570696e"
+    },
+    {
+      "path": "dist/assets/audio/ui/ui-click-v1.wav",
+      "sha256": "658b6561ebba26bd77a80b4c68128b5e79f996301299b219a3342ae8263bd3ec"
+    },
+    {
+      "path": "dist/assets/audio/ui/ui-confirm-v1.wav",
+      "sha256": "dd2631369632449ee6ac040ae580775be5fc84eae38c6f15b25fbb0e1205018a"
+    },
+    {
+      "path": "dist/assets/maps/cliff-board.svg",
+      "sha256": "24609f4c4a302db075a1835757a19521c8bb55320f086fa827f6931757ee9aa8"
+    },
+    {
+      "path": "dist/assets/maps/cliff-canyon.svg",
+      "sha256": "6af30f272c1d9a54e6d9bc6e14b3b630b336f0c14875200a0289f7ee07c8d28d"
+    },
+    {
+      "path": "dist/assets/maps/cliff-canyon.webp",
+      "sha256": "92b1a841d0e980212d4b9a3a67926905efc35aa9dc50bbfc1c60199e28b77e78"
+    },
+    {
+      "path": "dist/assets/maps/cliff-frame.svg",
+      "sha256": "1cec25ce16e290ee7ff841c608d5121d1cdd788ef7cbe6b08753ee84a96e751e"
+    },
+    {
+      "path": "dist/assets/maps/cliff-preview.svg",
+      "sha256": "7d1450a360fc7300a470b6cea53283cb0bb374b9a0a8a15faacdc7112cb89794"
+    },
+    {
+      "path": "dist/assets/maps/cliff-scenery.webp",
+      "sha256": "e4f10020530d2bfdf0945de523086e938fbff4727263b660b36a2a772b86cd8c"
+    },
+    {
+      "path": "dist/assets/maps/cliff-stage-left.svg",
+      "sha256": "95ac93bd5ae20cf8fe8129ed41682ae81249ad66baed2a05bb0aab27c0c6125c"
+    },
+    {
+      "path": "dist/assets/maps/cliff-stage-right.svg",
+      "sha256": "330e3889d2f9a237b5c08cb2579c94bf4fa6de38d21e50f5141d470354ec4abb"
+    },
+    {
+      "path": "dist/assets/maps/crystal-board.svg",
+      "sha256": "4ba271972a34b5e6ddc924d7ea122ac92591b53005bb975e9b85103609ccc6f6"
+    },
+    {
+      "path": "dist/assets/maps/crystal-frame.svg",
+      "sha256": "faf609b3a5115547bee60d37017e4e552fddccdf6d9c24c90b6f63162da0ce62"
+    },
+    {
+      "path": "dist/assets/maps/crystal-landscape.svg",
+      "sha256": "52384a9e5f85e70fccf884dcd3835fd3e47154da300400da08986124aa71e80e"
+    },
+    {
+      "path": "dist/assets/maps/crystal-obstacle.svg",
+      "sha256": "13924cfb412d990063b4ea6f4fe4a7be318dd284efda5d75548d25101c4521ef"
+    },
+    {
+      "path": "dist/assets/maps/crystal-preview.svg",
+      "sha256": "d75029cb429221e9b55c688cf16935c3dbf8214cb9c227b8d0dfc0a2c542efd4"
+    },
+    {
+      "path": "dist/assets/maps/crystal-scenery.webp",
+      "sha256": "7205e382a56cef837e81a5aade548f0bcf3d52754bec4a44c11466ac14cec6a6"
+    },
+    {
+      "path": "dist/assets/maps/crystal-stage.svg",
+      "sha256": "c424d20ba305c059122dac06a0f775b3d37d2ac0207d4613c09eb3cbbb8215df"
+    },
+    {
+      "path": "dist/assets/maps/falling-rock.svg",
+      "sha256": "9527de7fe07d8c8fad80d70874caebb53f64ade697d67eedb467d2dc2090a5dc"
+    },
+    {
+      "path": "dist/assets/maps/forest-preview.svg",
+      "sha256": "ba7f4a6d54d560176a5b3b189e326f61fb70855c5c280a0020c141e3159702a3"
+    },
+    {
+      "path": "dist/assets/maps/furnace-board.svg",
+      "sha256": "d9c4265e705384f1625a041476801c271e501bdb77bad10b20e2e32661214a70"
+    },
+    {
+      "path": "dist/assets/maps/furnace-hall.svg",
+      "sha256": "d2e841ba4a897ebbf900218f463694f5e5bc0dd79eacca20db4e184d2de25026"
+    },
+    {
+      "path": "dist/assets/maps/furnace-preview.svg",
+      "sha256": "50deea115a90f3cc922576591c1f7500e9a7943d5118890c5f3d241f4c2f8fb6"
+    },
+    {
+      "path": "dist/assets/maps/furnace-rock.svg",
+      "sha256": "ab3a8e847e2342e0d80a6ce3535a4ab6ac973172ea88c641274cf894a2a01225"
+    },
+    {
+      "path": "dist/assets/maps/furnace-stage.svg",
+      "sha256": "34896c1d4d7e121e8d4bed37762eb04b384d2e4b0c0c64742890c97c486a0924"
+    },
+    {
+      "path": "dist/assets/maps/ruins-board.svg",
+      "sha256": "855dcde4bea90935e89b75c32e950447cf395d2bfad3e350a3e670fa0b571577"
+    },
+    {
+      "path": "dist/assets/maps/ruins-frame.svg",
+      "sha256": "16d72db1b90ba39c1761b5d54dcfd2de0e54fd9cc2ed11f4f7fc854d23a297d7"
+    },
+    {
+      "path": "dist/assets/maps/ruins-pillar.svg",
+      "sha256": "0777731fa586457714c2212b78e8e967a5bd809d6509e7a69567669e3a0b191c"
+    },
+    {
+      "path": "dist/assets/maps/ruins-preview.svg",
+      "sha256": "c36677cdb87d2a43827f14df9653bd0b67275845d39154387ba043090161e092"
+    },
+    {
+      "path": "dist/assets/maps/ruins-scenery.webp",
+      "sha256": "2076cfc379814a0cc45fb1aa6f2a0d3d04b686a4532116c2da3e93ba9728e668"
+    },
+    {
+      "path": "dist/assets/maps/ruins-stage.svg",
+      "sha256": "4c3095fc637f411e4a06eae0132869b32796a3e4aa00cb075f3537244250f4b9"
+    },
+    {
+      "path": "dist/assets/maps/ruins-temple.svg",
+      "sha256": "3d432d10e2acbf664ed40d666c3962e3ae2acd24fcbfff7056d9b0b14c564a95"
+    }
+  ],
+  "completedDate": "2026-10-12",
+  "verification": {
+    "runtimeFilesUnchanged": 103,
+    "documentOnlyChange": "dist/assets/audio/CREDITS.md",
+    "removedUnusedRuntimeAsset": "dist/assets/audio/block/block-swap-v1.wav",
+    "referencedAssetsPresent": 57,
+    "runtimeModulesChecked": 21,
+    "unitTestsBuilt": {
+      "tests": 290,
+      "passed": 290,
+      "failed": 0,
+      "skipped": 0
+    },
+    "unitTestsSourceOnly": {
+      "tests": 290,
+      "passed": 288,
+      "failed": 0,
+      "skipped": 2
+    },
+    "offlineBuild": {
+      "embeddedMedia": 67,
+      "ignoredByGit": true
+    }
+  },
+  "provenanceSanitization": {
+    "reason": "Downloaded source-page snapshots included third-party Mapbox tokens; removed before remote publication.",
+    "files": [
+      {
+        "path": "references/audio-stage3/cliff-reselection/adamgryu.html",
+        "redactedTokens": 1
+      },
+      {
+        "path": "references/audio-stage3/cliff-reselection/alancat.html",
+        "redactedTokens": 1
+      },
+      {
+        "path": "references/audio-stage3/cliff-reselection/sand.html",
+        "redactedTokens": 1
+      },
+      {
+        "path": "references/audio-stage3/cliff-reselection/stubb.html",
+        "redactedTokens": 1
+      },
+      {
+        "path": "references/audio-swap/cotton.html",
+        "redactedTokens": 1
+      },
+      {
+        "path": "references/audio-swap/fabric.html",
+        "redactedTokens": 1
+      }
+    ]
+  }
+}

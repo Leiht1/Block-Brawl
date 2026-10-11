@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "cliff.warning",
+    "title": "悬崖 · 大地裂动",
+    "candidate": "A",
+    "label": "岩层低鸣＋石裂",
+    "file": "cliff-warning-A.wav",
+    "volume": 0.3,
+    "seconds": 1.1,
+    "peak": 0.65,
+    "rms": 0.08315472700028638,
+    "effectiveRms": 0.024946418100085913,
+    "sha256": "47d03e5d4bb5eb44d352629dfd7cd222416641c8cbcc1ac0f1c006a50b391855",
+    "reason": "岩层纹理为主，低通与轻降速强化重量；短裂纹交代危险来源。",
+    "sources": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 02.mp3",
+        "sha256": "e2569c008c39aae49bfc041b31ead8d493d944c087042fdf71d7d0699e1efacf",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "file": "rock-break/rock_break_0.ogg",
+        "sha256": "b645f35d21194e7855dd4a5405b1e8e6bec070731b92df6abcb202676b8e9f2e",
+        "author": "themightyglider; derived from SoundCollectah",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/breaking-rock",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 02.mp3",
+        "seconds": 1.1,
+        "delay": 0,
+        "gain": 1,
+        "start": 2.8,
+        "speed": 0.82,
+        "lowpass": 950
+      },
+      {
+        "path": "references/audio-stage3/rock-break/rock_break_0.ogg",
+        "seconds": 0.35,
+        "delay": 0.14,
+        "gain": 0.28,
+        "speed": 0.85,
+        "lowpass": 2200
+      }
+    ]
+  },
+  {
+    "id": "cliff.warning",
+    "title": "悬崖 · 大地裂动",
+    "candidate": "B",
+    "label": "短低鸣",
+    "file": "cliff-warning-B.wav",
+    "volume": 0.3,
+    "seconds": 1.1,
+    "peak": 0.65,
+    "rms": 0.11131820944480013,
+    "effectiveRms": 0.03339546283344004,
+    "sha256": "380b813578f6da6e1eb9b26f2c4cd6ed2cdcd5d524e2567c4868d19199e06ebc",
+    "reason": "低频充分，但原件有爆炸语义，作为对照。",
+    "sources": [
+      {
+        "file": "rumble/rumble.flac",
+        "sha256": "ac7ea8146bd7b86b98a7d1c2c10e8df7225ed91bbcfec7881a312f795a5f5636",
+        "author": "Michel Baradari",
+        "license": "CC-BY-3.0",
+        "page": "https://opengameart.org/content/rumbleexplosion",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      },
+      {
+        "file": "rock-break/rock_break_0.ogg",
+        "sha256": "b645f35d21194e7855dd4a5405b1e8e6bec070731b92df6abcb202676b8e9f2e",
+        "author": "themightyglider; derived from SoundCollectah",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/breaking-rock",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/rumble/rumble.flac",
+        "seconds": 0.85,
+        "delay": 0,
+        "gain": 1,
+        "speed": 0.84,
+        "lowpass": 800
+      },
+      {
+        "path": "references/audio-stage3/rock-break/rock_break_0.ogg",
+        "seconds": 0.35,
+        "delay": 0.25,
+        "gain": 0.25
+      }
+    ]
+  },
+  {
+    "id": "cliff.warning",
+    "title": "悬崖 · 大地裂动",
+    "candidate": "C",
+    "label": "岩石连续摩擦",
+    "file": "cliff-warning-C.wav",
+    "volume": 0.3,
+    "seconds": 1.1,
+    "peak": 0.5525208546768064,
+    "rms": 0.13999999999999999,
+    "effectiveRms": 0.041999999999999996,
+    "sha256": "86128e78cd8ca5589c909aaaaf75b4cf553f2a81b5fb254dab28193c9444a30f",
+    "reason": "石材更明显，但颗粒较多，预警主体不如 A 稳定。",
+    "sources": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 24.mp3",
+        "sha256": "bad3bc015d39207eb82886db2252c53875b59b7c8b490050b3a6a949a1aa9aeb",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 24.mp3",
+        "seconds": 1.1,
+        "delay": 0,
+        "gain": 1,
+        "start": 1.7,
+        "speed": 0.92,
+        "lowpass": 1400
+      }
+    ]
+  },
+  {
+    "id": "cliff.fall",
+    "title": "悬崖 · 巨石坠落",
+    "candidate": "A",
+    "label": "重石掠过＋撞击",
+    "file": "cliff-fall-A.wav",
+    "volume": 0.34,
+    "seconds": 0.62,
+    "peak": 0.6352768872208341,
+    "rms": 0.14,
+    "effectiveRms": 0.04760000000000001,
+    "sha256": "29028d9897f0f32b2eca63b170eb35d877a929ecad67db4e610008fcbaeded82",
+    "reason": "空气掠过接一个石撞起音，620ms 在既有650ms坠落阶段内收尾。",
+    "sources": [
+      {
+        "file": "../audio-stage2/swishes/swosh-26.flac",
+        "sha256": "7159ba26b74840da53965989c1472807891298528f94d720119777c251b3109e",
+        "author": "qubodup / Iwan Gabovitch",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Elements 09.mp3",
+        "sha256": "6e3a08aa3816061b4371e061de8e307822ce9e10a6a368df3f6de8eeacbf1d36",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage2/swishes/swosh-26.flac",
+        "seconds": 0.34,
+        "delay": 0,
+        "gain": 1,
+        "speed": 0.72,
+        "lowpass": 2600
+      },
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Elements 09.mp3",
+        "seconds": 0.3,
+        "delay": 0.3,
+        "gain": 1,
+        "start": 0.3,
+        "speed": 0.84,
+        "lowpass": 2600
+      }
+    ]
+  },
+  {
+    "id": "cliff.fall",
+    "title": "悬崖 · 巨石坠落",
+    "candidate": "B",
+    "label": "短风切＋碎石撞击",
+    "file": "cliff-fall-B.wav",
+    "volume": 0.34,
+    "seconds": 0.62,
+    "peak": 0.65,
+    "rms": 0.10061128529397743,
+    "effectiveRms": 0.03420783699995233,
+    "sha256": "e1b1fdb010b7a9ad9ca8af6a19eaa397c4616c60e9466a7d172de19cc52952db",
+    "reason": "也含 whoosh 与撞石，但石块质感较轻。",
+    "sources": [
+      {
+        "file": "../audio-stage2/swishes/swosh-04.flac",
+        "sha256": "651afe743f1713c01b46a43a8fe099e5f866b46c22a98682c7d05728cfa4f5ae",
+        "author": "qubodup / Iwan Gabovitch",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "file": "rock-break/rock_break_0.ogg",
+        "sha256": "b645f35d21194e7855dd4a5405b1e8e6bec070731b92df6abcb202676b8e9f2e",
+        "author": "themightyglider; derived from SoundCollectah",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/breaking-rock",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage2/swishes/swosh-04.flac",
+        "seconds": 0.28,
+        "delay": 0,
+        "gain": 1,
+        "speed": 0.9
+      },
+      {
+        "path": "references/audio-stage3/rock-break/rock_break_0.ogg",
+        "seconds": 0.32,
+        "delay": 0.26,
+        "gain": 1,
+        "speed": 0.88
+      }
+    ]
+  },
+  {
+    "id": "cliff.fall",
+    "title": "悬崖 · 巨石坠落",
+    "candidate": "C",
+    "label": "风切＋低鸣落地",
+    "file": "cliff-fall-C.wav",
+    "volume": 0.34,
+    "seconds": 0.62,
+    "peak": 0.65,
+    "rms": 0.11092939750407654,
+    "effectiveRms": 0.03771599515138603,
+    "sha256": "ae1e981f744eee41413bf7ef932941b0336e43c2ca8c024fe57ac31d6fa3de60",
+    "reason": "重量有余，碎石特征较少；不作正式首选。",
+    "sources": [
+      {
+        "file": "../audio-stage2/swishes/swosh-30.flac",
+        "sha256": "83559d4d9af8bcf02b8feca60132afb3536f511edbeb8323f7ce4c99b40d8b9b",
+        "author": "qubodup / Iwan Gabovitch",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "file": "rumble/rumble.flac",
+        "sha256": "ac7ea8146bd7b86b98a7d1c2c10e8df7225ed91bbcfec7881a312f795a5f5636",
+        "author": "Michel Baradari",
+        "license": "CC-BY-3.0",
+        "page": "https://opengameart.org/content/rumbleexplosion",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage2/swishes/swosh-30.flac",
+        "seconds": 0.3,
+        "delay": 0,
+        "gain": 1,
+        "speed": 0.8
+      },
+      {
+        "path": "references/audio-stage3/rumble/rumble.flac",
+        "seconds": 0.32,
+        "delay": 0.28,
+        "gain": 1,
+        "lowpass": 1400
+      }
+    ]
+  },
+  {
+    "id": "cliff.impact",
+    "title": "悬崖 · 尘土与碎石",
+    "candidate": "A",
+    "label": "碎石散落＋尘土尾",
+    "file": "cliff-impact-A.wav",
+    "volume": 0.25,
+    "seconds": 0.48,
+    "peak": 0.65,
+    "rms": 0.0848320634855494,
+    "effectiveRms": 0.02120801587138735,
+    "sha256": "ff9b94f67357000ca0fe8b01a8b69d1654cfdc2f77411e06f03b2455957e0cde",
+    "reason": "短碎石在前、柔软岩尘尾在后，避免再叠一次重爆炸。",
+    "sources": [
+      {
+        "file": "rock-break/rock_break_0.ogg",
+        "sha256": "b645f35d21194e7855dd4a5405b1e8e6bec070731b92df6abcb202676b8e9f2e",
+        "author": "themightyglider; derived from SoundCollectah",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/breaking-rock",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Elements 09.mp3",
+        "sha256": "6e3a08aa3816061b4371e061de8e307822ce9e10a6a368df3f6de8eeacbf1d36",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/rock-break/rock_break_0.ogg",
+        "seconds": 0.42,
+        "delay": 0,
+        "gain": 1,
+        "speed": 1.02,
+        "lowpass": 4300
+      },
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Elements 09.mp3",
+        "seconds": 0.35,
+        "delay": 0.09,
+        "gain": 0.32,
+        "start": 0.9,
+        "lowpass": 1400
+      }
+    ]
+  },
+  {
+    "id": "cliff.impact",
+    "title": "悬崖 · 尘土与碎石",
+    "candidate": "B",
+    "label": "岩石颗粒尾",
+    "file": "cliff-impact-B.wav",
+    "volume": 0.25,
+    "seconds": 0.48,
+    "peak": 0.477611042629582,
+    "rms": 0.14,
+    "effectiveRms": 0.035,
+    "sha256": "806230099612a5e0e752c0612420297e18d8bcf1ed8f4e805116e3f3dfe3793b",
+    "reason": "连续石粒版本，作为较粗糙的对照。",
+    "sources": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 24.mp3",
+        "sha256": "bad3bc015d39207eb82886db2252c53875b59b7c8b490050b3a6a949a1aa9aeb",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 24.mp3",
+        "seconds": 0.48,
+        "delay": 0,
+        "gain": 1,
+        "start": 3.2,
+        "lowpass": 3200
+      }
+    ]
+  },
+  {
+    "id": "cliff.impact",
+    "title": "悬崖 · 尘土与碎石",
+    "candidate": "C",
+    "label": "岩片撞散",
+    "file": "cliff-impact-C.wav",
+    "volume": 0.25,
+    "seconds": 0.48,
+    "peak": 0.65,
+    "rms": 0.08306204000709616,
+    "effectiveRms": 0.02076551000177404,
+    "sha256": "14bd2a85396f87d10e7f890943eeb18b2f1562835cfd0619f08de31b8c3209be",
+    "reason": "石片层次较密，和预警同源感更强。",
+    "sources": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 02.mp3",
+        "sha256": "e2569c008c39aae49bfc041b31ead8d493d944c087042fdf71d7d0699e1efacf",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 02.mp3",
+        "seconds": 0.48,
+        "delay": 0,
+        "gain": 1,
+        "start": 5.4,
+        "lowpass": 3800
+      }
+    ]
+  },
+  {
+    "id": "ice.freeze",
+    "title": "冰川 · 冰晶冻结",
+    "candidate": "A",
+    "label": "冰晶凝结",
+    "file": "ice-freeze-A.wav",
+    "volume": 0.29,
+    "seconds": 0.7,
+    "peak": 0.65,
+    "rms": 0.025930060455176016,
+    "effectiveRms": 0.007519717532001044,
+    "sha256": "01fa7553382ca77b7f21dd522b4abbdf8fe2d4e52efc5ef4b6260efd1cd1c1f3",
+    "reason": "CC0冰系成品，连续细裂纹与晶体尾，冻结声音区别于爆破技能。",
+    "sources": [
+      {
+        "file": "ice-spells/ice.wav",
+        "sha256": "c3039c864d056d0e4951b84b96a7bb0044ca8cb58aeae514fc256145872b6a94",
+        "author": "bart; original recording by Stephan / pdsounds",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-spells",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/ice-spells/ice.wav",
+        "seconds": 0.7,
+        "delay": 0,
+        "gain": 1,
+        "lowpass": 6200
+      }
+    ]
+  },
+  {
+    "id": "ice.freeze",
+    "title": "冰川 · 冰晶冻结",
+    "candidate": "B",
+    "label": "冷霜骤凝",
+    "file": "ice-freeze-B.wav",
+    "volume": 0.29,
+    "seconds": 0.7,
+    "peak": 0.65,
+    "rms": 0.013143378089318074,
+    "effectiveRms": 0.0038115796459022412,
+    "sha256": "1cd57a5004b7627fc4fecdc1a60a80d43c563aac1b4b80752840d7125cc04c16",
+    "reason": "起音更脆、更接近断裂，用作对照。",
+    "sources": [
+      {
+        "file": "ice-spells/coldsnap.wav",
+        "sha256": "090977264d65d90a50b04e9f0c1c4e02fb194e5b50d9fe244f0079a4da54158c",
+        "author": "bart; original recording by Stephan / pdsounds",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-spells",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/ice-spells/coldsnap.wav",
+        "seconds": 0.7,
+        "delay": 0,
+        "gain": 1,
+        "lowpass": 5800
+      }
+    ]
+  },
+  {
+    "id": "ice.freeze",
+    "title": "冰川 · 冰晶冻结",
+    "candidate": "C",
+    "label": "晶片向内汇聚",
+    "file": "ice-freeze-C.wav",
+    "volume": 0.29,
+    "seconds": 0.7,
+    "peak": 0.65,
+    "rms": 0.07420420988480823,
+    "effectiveRms": 0.021519220866594385,
+    "sha256": "a095f193eed9b6e0694e64f83db3819684d29209f422566f7137adaea3e5250b",
+    "reason": "真实冰碎录音反向处理，凝结方向明确但更偏吸入。",
+    "sources": [
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta5.ogg",
+        "sha256": "34adbcb652d578b870d5317ec974e9773266ddfd6b4bfc8499ec775e1712b603",
+        "author": "IgnasD",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-breakingshattering",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta5.ogg",
+        "seconds": 0.7,
+        "delay": 0,
+        "gain": 1,
+        "reverse": true,
+        "lowpass": 6200
+      }
+    ]
+  },
+  {
+    "id": "ice.break",
+    "title": "冰川 · 裂纹、爆裂、碎片",
+    "candidate": "A",
+    "label": "细裂→破冰→晶片",
+    "file": "ice-break-A.wav",
+    "volume": 0.31,
+    "seconds": 0.6,
+    "peak": 0.65,
+    "rms": 0.04493653759171261,
+    "effectiveRms": 0.013930326653430908,
+    "sha256": "8c381b232d040d3e044e4b9c45efcd3de6456278ca46da89d31c34c25f2f7ccf",
+    "reason": "三层原始冰材质：先裂纹，120ms破冰主体，260ms起碎片余声；不使用电子sparkle。",
+    "sources": [
+      {
+        "file": "ice-spells/coldsnap.wav",
+        "sha256": "090977264d65d90a50b04e9f0c1c4e02fb194e5b50d9fe244f0079a4da54158c",
+        "author": "bart; original recording by Stephan / pdsounds",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-spells",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta.ogg",
+        "sha256": "4c7304ac47f84e41b62edb71082d00fe01823a2a54ec4e4268a040c973e3510f",
+        "author": "IgnasD",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-breakingshattering",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta4.ogg",
+        "sha256": "81558c035953d4e595640be7ba1a645c47c6f4b72f38de43a44d36fa70d52b8c",
+        "author": "IgnasD",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-breakingshattering",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/ice-spells/coldsnap.wav",
+        "seconds": 0.16,
+        "delay": 0,
+        "gain": 0.35,
+        "lowpass": 4800
+      },
+      {
+        "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta.ogg",
+        "seconds": 0.35,
+        "delay": 0.12,
+        "gain": 1
+      },
+      {
+        "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta4.ogg",
+        "seconds": 0.32,
+        "delay": 0.26,
+        "gain": 0.4,
+        "start": 0.28
+      }
+    ]
+  },
+  {
+    "id": "ice.break",
+    "title": "冰川 · 裂纹、爆裂、碎片",
+    "candidate": "B",
+    "label": "厚冰破裂",
+    "file": "ice-break-B.wav",
+    "volume": 0.31,
+    "seconds": 0.6,
+    "peak": 0.65,
+    "rms": 0.08137409455894994,
+    "effectiveRms": 0.02522596931327448,
+    "sha256": "895c42547cb163b735e5d914b2e29d77b7f904b6e34554b222d0a7194d74ab77",
+    "reason": "厚冰主体更长，碎裂密度高。",
+    "sources": [
+      {
+        "file": "ice-spells/coldsnap.wav",
+        "sha256": "090977264d65d90a50b04e9f0c1c4e02fb194e5b50d9fe244f0079a4da54158c",
+        "author": "bart; original recording by Stephan / pdsounds",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-spells",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta33.ogg",
+        "sha256": "fedcd280ffaea38c365647f131eaae71cf2b9e1721c2fce1b539884c9199074a",
+        "author": "IgnasD",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-breakingshattering",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/ice-spells/coldsnap.wav",
+        "seconds": 0.14,
+        "delay": 0,
+        "gain": 0.35
+      },
+      {
+        "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta33.ogg",
+        "seconds": 0.46,
+        "delay": 0.12,
+        "gain": 1
+      }
+    ]
+  },
+  {
+    "id": "ice.break",
+    "title": "冰川 · 裂纹、爆裂、碎片",
+    "candidate": "C",
+    "label": "晶片爆裂",
+    "file": "ice-break-C.wav",
+    "volume": 0.31,
+    "seconds": 0.6,
+    "peak": 0.65,
+    "rms": 0.045374071697190946,
+    "effectiveRms": 0.014065962226129193,
+    "sha256": "9f4c183022bba1acfd416031e988a51785367ef7c6c459a71d447eab5037ea5b",
+    "reason": "颗粒细亮版本，与 A 的裂纹/主体不同。",
+    "sources": [
+      {
+        "file": "ice-spells/ice.wav",
+        "sha256": "c3039c864d056d0e4951b84b96a7bb0044ca8cb58aeae514fc256145872b6a94",
+        "author": "bart; original recording by Stephan / pdsounds",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-spells",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta2.ogg",
+        "sha256": "92a20369f866c852f841ffaef31676cb70f542592504b040327c60f5101f9c47",
+        "author": "IgnasD",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-breakingshattering",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta5.ogg",
+        "sha256": "34adbcb652d578b870d5317ec974e9773266ddfd6b4bfc8499ec775e1712b603",
+        "author": "IgnasD",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/ice-breakingshattering",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/ice-spells/ice.wav",
+        "seconds": 0.13,
+        "delay": 0,
+        "gain": 0.28
+      },
+      {
+        "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta2.ogg",
+        "seconds": 0.3,
+        "delay": 0.11,
+        "gain": 1
+      },
+      {
+        "path": "references/audio-stage3/ice-shatters/IceShatters/LedasLuzta5.ogg",
+        "seconds": 0.35,
+        "delay": 0.24,
+        "gain": 0.4,
+        "start": 0.35
+      }
+    ]
+  },
+  {
+    "id": "ruins.activate",
+    "title": "遗迹 · 石质机关启动",
+    "candidate": "A",
+    "label": "古石门研动",
+    "file": "ruins-activate-A.wav",
+    "volume": 0.3,
+    "seconds": 1.05,
+    "peak": 0.65,
+    "rms": 0.13773830727630598,
+    "effectiveRms": 0.04132149218289179,
+    "sha256": "15fa7d007df325d845a118f2239b9483bd5a91ea53266262841d0700687d6bb8",
+    "reason": "石门深沉摩擦为主体，轻量录音微光仅作符文点缀，无马达、金属机器和提示音。",
+    "sources": [
+      {
+        "file": "stone-door/stone_door.ogg",
+        "sha256": "97e05a01ba45c324094f0f51a5094dc23fbb6f915db6c39154d9cac34939149c",
+        "author": "bonebrah",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/stone-door",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      },
+      {
+        "file": "../audio-stage2/shimmer_1.flac",
+        "sha256": "b6802e6ef22189058a4406ae5c7bda9a54c47e908fad3fd6212650c1aa0170af",
+        "author": "The Berklee College of Music",
+        "license": "CC-BY-3.0",
+        "page": "https://opengameart.org/content/shimmer-glitter-magic",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/stone-door/stone_door.ogg",
+        "seconds": 1.05,
+        "delay": 0,
+        "gain": 1,
+        "start": 0.1,
+        "speed": 1.12,
+        "lowpass": 3300
+      },
+      {
+        "path": "references/audio-stage2/shimmer_1.flac",
+        "seconds": 0.4,
+        "delay": 0.23,
+        "gain": 0.1,
+        "lowpass": 5200
+      }
+    ]
+  },
+  {
+    "id": "ruins.activate",
+    "title": "遗迹 · 石质机关启动",
+    "candidate": "B",
+    "label": "石盘短磨动",
+    "file": "ruins-activate-B.wav",
+    "volume": 0.3,
+    "seconds": 1.05,
+    "peak": 0.65,
+    "rms": 0.08591581217174858,
+    "effectiveRms": 0.025774743651524573,
+    "sha256": "6ce0c18b6b5c9bc50101abf9f4fdb7faab2486f2d71e47d21bdb175c62017ca2",
+    "reason": "短石磨的推动感较轻；只作为机关材质对照。",
+    "sources": [
+      {
+        "file": "stone-grind/stone_rock_or_wood_moved_no_tick.mp3",
+        "sha256": "3521478b940968bb48c476a4e2e37cd2f3b864fe1b548b7d4868f339e405ab11",
+        "author": "omegagreg; collaborator pauliuw",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/stonerockorwoodmovednotick",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      },
+      {
+        "file": "../audio-stage2/shimmer_1.flac",
+        "sha256": "b6802e6ef22189058a4406ae5c7bda9a54c47e908fad3fd6212650c1aa0170af",
+        "author": "The Berklee College of Music",
+        "license": "CC-BY-3.0",
+        "page": "https://opengameart.org/content/shimmer-glitter-magic",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/stone-grind/stone_rock_or_wood_moved_no_tick.mp3",
+        "seconds": 0.44,
+        "delay": 0,
+        "gain": 1,
+        "speed": 0.85,
+        "lowpass": 3300
+      },
+      {
+        "path": "references/audio-stage2/shimmer_1.flac",
+        "seconds": 0.45,
+        "delay": 0.14,
+        "gain": 0.1
+      }
+    ]
+  },
+  {
+    "id": "ruins.activate",
+    "title": "遗迹 · 石质机关启动",
+    "candidate": "C",
+    "label": "石材推移",
+    "file": "ruins-activate-C.wav",
+    "volume": 0.3,
+    "seconds": 1.05,
+    "peak": 0.65,
+    "rms": 0.11198394574529187,
+    "effectiveRms": 0.03359518372358756,
+    "sha256": "0b6c488a44337c17ab053d04a196e788b8f5976810d137292b2b8b86ef7c01cf",
+    "reason": "纯岩石移动，缺少 A 的门/祭坛启动层次。",
+    "sources": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 24.mp3",
+        "sha256": "bad3bc015d39207eb82886db2252c53875b59b7c8b490050b3a6a949a1aa9aeb",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 24.mp3",
+        "seconds": 0.95,
+        "delay": 0,
+        "gain": 1,
+        "start": 6.2,
+        "speed": 0.9,
+        "lowpass": 2800
+      }
+    ]
+  },
+  {
+    "id": "furnace.warning",
+    "title": "熔炉 · 火焰升温",
+    "candidate": "A",
+    "label": "真实火焰渐强",
+    "file": "furnace-warning-A.wav",
+    "volume": 0.26,
+    "seconds": 0.55,
+    "peak": 0.65,
+    "rms": 0.07772074564140533,
+    "effectiveRms": 0.020207393866765386,
+    "sha256": "87d8b6dcdb0c267703a54262e319ebe652c5e9640aae2553b292b94943aa6f63",
+    "reason": "真实火杖录音主体在约480ms增强，施加渐入表达升温，550ms短尾也适合650ms扩散预告。",
+    "sources": [
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 16-Audio.wav",
+        "sha256": "14748e8adc45b9d4f5bd9203d6e8ea1ea85eb9447cebbafc97181d07902fc29a",
+        "author": "LEGIT Audio",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/fire-staff-sound-effects",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 16-Audio.wav",
+        "seconds": 0.55,
+        "delay": 0,
+        "gain": 1,
+        "lowpass": 3000
+      }
+    ]
+  },
+  {
+    "id": "furnace.warning",
+    "title": "熔炉 · 火焰升温",
+    "candidate": "B",
+    "label": "火风升温",
+    "file": "furnace-warning-B.wav",
+    "volume": 0.26,
+    "seconds": 0.55,
+    "peak": 0.5473899716064539,
+    "rms": 0.14,
+    "effectiveRms": 0.0364,
+    "sha256": "440f6497be57086b52530415dbd15825043d70a7c20fdc7356b458a64e52add5",
+    "reason": "设计火风版本，主体更绵长。",
+    "sources": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Winds - Swoosh 04.mp3",
+        "sha256": "d9bd7a365a40c87c7396fdc8a77e1ca3f34d4e6a234918a717987b7aa50d8a3e",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Winds - Swoosh 04.mp3",
+        "seconds": 0.55,
+        "delay": 0,
+        "gain": 1,
+        "start": 2.55,
+        "lowpass": 3600
+      }
+    ]
+  },
+  {
+    "id": "furnace.warning",
+    "title": "熔炉 · 火焰升温",
+    "candidate": "C",
+    "label": "火焰积聚",
+    "file": "furnace-warning-C.wav",
+    "volume": 0.26,
+    "seconds": 0.55,
+    "peak": 0.5880077066151542,
+    "rms": 0.14,
+    "effectiveRms": 0.0364,
+    "sha256": "fb900bd81aabbc0eeb9c56e2bce085a119959cf1392264225308b6c32e117c2f",
+    "reason": "设计火焰逐渐聚拢，能量密度较高。",
+    "sources": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Swooshes - Burst Evolving 19.mp3",
+        "sha256": "72506535de7691d8be993101f7ba4fecae7bea548e5f384598d310fa46e16825",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Swooshes - Burst Evolving 19.mp3",
+        "seconds": 0.55,
+        "delay": 0,
+        "gain": 1,
+        "start": 0.18,
+        "lowpass": 3400
+      }
+    ]
+  },
+  {
+    "id": "furnace.spread",
+    "title": "熔炉 · 火焰扩散",
+    "candidate": "A",
+    "label": "火浪掠过＋余烬",
+    "file": "furnace-spread-A.wav",
+    "volume": 0.3,
+    "seconds": 0.66,
+    "peak": 0.65,
+    "rms": 0.06558711689066397,
+    "effectiveRms": 0.01967613506719919,
+    "sha256": "2fadb5d1aba9a8396ff738e29ad8c996f2fec6305b8249d2550c509cbce23f26",
+    "reason": "独立真实火杖掠过录音，快速火浪与燃烧尾区分于升温及爆破技能。",
+    "sources": [
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 20-Audio.wav",
+        "sha256": "f86cadeeea62301a30870946ddb34f1975ddf189b2719d3459832973955a0eff",
+        "author": "LEGIT Audio",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/fire-staff-sound-effects",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 20-Audio.wav",
+        "seconds": 0.66,
+        "delay": 0,
+        "gain": 1,
+        "lowpass": 4200
+      }
+    ]
+  },
+  {
+    "id": "furnace.spread",
+    "title": "熔炉 · 火焰扩散",
+    "candidate": "B",
+    "label": "短焰喷散",
+    "file": "furnace-spread-B.wav",
+    "volume": 0.3,
+    "seconds": 0.66,
+    "peak": 0.6184893305755227,
+    "rms": 0.14,
+    "effectiveRms": 0.042,
+    "sha256": "63477ecb3ba715c7d76f57a74a06dce362f38629766484eb069ec334f0304056",
+    "reason": "设计火焰喷散更锐利，保留为对照。",
+    "sources": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Short - Swoosh Burst Sizzling 01.mp3",
+        "sha256": "c3b2556b6fbceda54e51e2df93905992e3688acd0d5d50e8c90e8742856cbfd7",
+        "author": "Gregor Quendel",
+        "license": "CC-BY-4.0",
+        "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Short - Swoosh Burst Sizzling 01.mp3",
+        "seconds": 0.66,
+        "delay": 0,
+        "gain": 1,
+        "start": 0.63,
+        "lowpass": 4600
+      }
+    ]
+  },
+  {
+    "id": "furnace.spread",
+    "title": "熔炉 · 火焰扩散",
+    "candidate": "C",
+    "label": "短火舌",
+    "file": "furnace-spread-C.wav",
+    "volume": 0.3,
+    "seconds": 0.66,
+    "peak": 0.65,
+    "rms": 0.06318182703540587,
+    "effectiveRms": 0.01895454811062176,
+    "sha256": "a42139886e469ba5c7eafafc3d9fc90c21499a522226abde7ead1a3f005fd547",
+    "reason": "真实火焰短挥动版本，覆盖范围感较小。",
+    "sources": [
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 11-Audio.wav",
+        "sha256": "17c6c2f116faa73e92f2e806a11e59886e956b1ea3095582a7e7043a5451ac89",
+        "author": "LEGIT Audio",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/fire-staff-sound-effects",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/"
+      }
+    ],
+    "edits": [
+      {
+        "path": "references/audio-stage3/fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 11-Audio.wav",
+        "seconds": 0.5,
+        "delay": 0,
+        "gain": 1,
+        "lowpass": 4200
+      }
+    ]
+  }
+]

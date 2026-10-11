@@ -1,0 +1,205 @@
+[
+  {
+    "file": "block/block-swap-v1.wav",
+    "seconds": 0.12,
+    "peak": 0.72,
+    "rms": 0.0885,
+    "sources": [
+      "impact-sounds/Audio/impactWood_light_000.ogg"
+    ],
+    "edits": "Trim quiet tail; 120ms; 2ms/20ms fades",
+    "sha256": "29e3bd93d8b8e16d7f0dedb38e7187e41ecf15346a96767da509f5f8391dab30"
+  },
+  {
+    "file": "block/block-invalid-v1.wav",
+    "seconds": 0.22,
+    "peak": 0.6,
+    "rms": 0.1615,
+    "sources": [
+      "BounceYoFrankie.flac"
+    ],
+    "edits": "Trim silence; speed .93; 220ms soft rebound; fades",
+    "sha256": "50136ace4641c1ff63ae791b142bf7979c94049726d49eae74c91c65746f9539"
+  },
+  {
+    "file": "block/block-fall-v1.wav",
+    "seconds": 0.1,
+    "peak": 0.6,
+    "rms": 0.0799,
+    "sources": [
+      "impact-sounds/Audio/impactWood_light_002.ogg"
+    ],
+    "edits": "One 100ms landing per batch; speed .96; fades",
+    "sha256": "8080abb38c30b4b122356a6b1c1b166feccac93267a924435b844ac5b6876394"
+  },
+  {
+    "file": "block/block-match3-v2.wav",
+    "seconds": 0.09,
+    "peak": 0.66,
+    "rms": 0.1132,
+    "sources": [
+      "p_1.ogg"
+    ],
+    "edits": "Single bubble pop; 90ms; no glass or wood attack",
+    "sha256": "cec025367d5fb93c936fa2cf5c8c19832fee29aac67d40dd1e5f4b31271ed896"
+  },
+  {
+    "file": "combo/combo1-v2.wav",
+    "seconds": 0.15,
+    "peak": 0.72,
+    "rms": 0.1103,
+    "sources": [
+      "p_1.ogg",
+      "p_2.ogg"
+    ],
+    "edits": "Bubble family only; speed 1; 2 pops; rising pitch and density",
+    "sha256": "1c50fcec4403c5222b19518815de7c30eaba50122fabb90c406a3a25407b55d5"
+  },
+  {
+    "file": "combo/combo2-v2.wav",
+    "seconds": 0.175,
+    "peak": 0.72,
+    "rms": 0.1148,
+    "sources": [
+      "p_1.ogg",
+      "p_2.ogg"
+    ],
+    "edits": "Bubble family only; speed 1.12; 3 pops; rising pitch and density",
+    "sha256": "08f80f02117531014e3678a13c1d76308e53dbc38d61230ba7c923373a8a9fff"
+  },
+  {
+    "file": "combo/combo3-v2.wav",
+    "seconds": 0.2,
+    "peak": 0.72,
+    "rms": 0.1034,
+    "sources": [
+      "p_1.ogg",
+      "p_2.ogg",
+      "p_3.ogg"
+    ],
+    "edits": "Bubble family only; speed 1.26; 4 pops; rising pitch and density",
+    "sha256": "60a1708dea0bbe63f0fdde9405fc0755ccd285f2c06d53f4a6785eb1225deab1"
+  },
+  {
+    "file": "special/special-create-v1.wav",
+    "seconds": 0.4,
+    "peak": 0.66,
+    "rms": 0.1267,
+    "sources": [
+      "shimmer_1.flac",
+      "impact-sounds/Audio/impactGlass_light_001.ogg"
+    ],
+    "edits": "Short reveal; shimmer speed .86; 80ms tail fade",
+    "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63"
+  },
+  {
+    "file": "special/special-line-v2.wav",
+    "seconds": 0.36,
+    "peak": 0.76,
+    "rms": 0.1383,
+    "sources": [
+      "p_1.ogg",
+      "swishes/swosh-26.flac"
+    ],
+    "edits": "45ms intake -> rounded bubble body -> broad bamboo wave; no glass strike",
+    "sha256": "e21e03b369c1d53832a25b84c5fb7967f58a51acafb625d9b2735e4602504b8a"
+  },
+  {
+    "file": "special/special-bomb-v2.wav",
+    "seconds": 0.38,
+    "peak": 0.78,
+    "rms": 0.1706,
+    "sources": [
+      "p_1.ogg",
+      "balloon_pop.flac",
+      "swishes/swosh-26.flac"
+    ],
+    "edits": "Rounded balloon burst with low bubble body and air tail; softened crack",
+    "sha256": "fece55fb41bcc3f889b5f273de5af07fa30aabf59eb424c5fd3950b9d015d759"
+  },
+  {
+    "file": "special/special-combo-lines-v2.wav",
+    "seconds": 0.41,
+    "peak": 0.78,
+    "rms": 0.1553,
+    "sources": [
+      "p_1.ogg",
+      "swishes/swosh-26.flac"
+    ],
+    "edits": "Crossing recorded waves; two releases 60ms apart; broader than one line",
+    "sha256": "7abd8608aab2d9ed71f1b68dd033b921feb5aa8e4a602cb346c50c64fa6304f2"
+  },
+  {
+    "file": "special/special-combo-line-blast-v2.wav",
+    "seconds": 0.5,
+    "peak": 0.8,
+    "rms": 0.2073,
+    "sources": [
+      "p_1.ogg",
+      "swishes/swosh-26.flac",
+      "balloon_pop.flac",
+      "swishes/swosh-30.flac"
+    ],
+    "edits": "Wave at 45ms -> balloon burst at 100ms -> wider air decay",
+    "sha256": "fde5bd1199e9981e230e721518d4806292fca4457475be8933de6cd6dcf88ddd"
+  },
+  {
+    "file": "special/special-combo-blasts-v2.wav",
+    "seconds": 0.64,
+    "peak": 0.82,
+    "rms": 0.221,
+    "sources": [
+      "p_1.ogg",
+      "balloon_pop.flac",
+      "swishes/swosh-30.flac",
+      "swishes/swosh-26.flac"
+    ],
+    "edits": "Two low cartoon bursts at 45/170ms; 60ms rounded attacks; deepest sustained body and longest broad air tail",
+    "sha256": "ea05243923da5445f4f06e726dc040af307531e108f217c268a66d51e186ca15"
+  },
+  {
+    "file": "ui/countdown-3-v2.wav",
+    "seconds": 0.21,
+    "peak": 0.68,
+    "rms": 0.1977,
+    "sources": [
+      "marimba-c4.wav"
+    ],
+    "edits": "Recorded marimba C4/D4/E4; speed 1.000000; warm 210ms note",
+    "sha256": "49d6eacea17e941326a676bdedf4548870711a0f8990b9a5347d4626e3c7504f"
+  },
+  {
+    "file": "ui/countdown-2-v2.wav",
+    "seconds": 0.21,
+    "peak": 0.68,
+    "rms": 0.1908,
+    "sources": [
+      "marimba-c4.wav"
+    ],
+    "edits": "Recorded marimba C4/D4/E4; speed 1.122462; warm 210ms note",
+    "sha256": "97536a4d58dfe44c2f237fa37d6efca3b1962358f9a3a1ab296745d04c9219c9"
+  },
+  {
+    "file": "ui/countdown-1-v2.wav",
+    "seconds": 0.21,
+    "peak": 0.68,
+    "rms": 0.184,
+    "sources": [
+      "marimba-c4.wav"
+    ],
+    "edits": "Recorded marimba C4/D4/E4; speed 1.259921; warm 210ms note",
+    "sha256": "8b2acc2336f5eecf85cbd8150686f08f6d4e5bc0c75ffb8b7c4afabe04a12e61"
+  },
+  {
+    "file": "ui/countdown-start-v2.wav",
+    "seconds": 0.4,
+    "peak": 0.78,
+    "rms": 0.1535,
+    "sources": [
+      "marimba-c4.wav",
+      "marimba-g4.wav"
+    ],
+    "edits": "C4/E4/G4 recorded marimba bloom; 18ms spacing; no pop or shimmer",
+    "sha256": "a9cb51f6a0c45a21cc85e09d154ff10974000737b36aeac0181976ae8e92a2c9"
+  }
+]

@@ -1,0 +1,380 @@
+{
+  "checks": [
+    "One cycling window; no arena/input/bot/environment before reveal; cancelling prevents delayed entry",
+    {
+      "map": "forest",
+      "cells": 64,
+      "obstacles": 0,
+      "geometry": {
+        ".menu": {
+          "x": 56.5,
+          "y": 99.5,
+          "width": 1312,
+          "height": 100,
+          "top": 99.5,
+          "right": 1368.5,
+          "bottom": 199.5,
+          "left": 56.5
+        },
+        ".menu .tools": {
+          "x": 280.5,
+          "y": 121.5,
+          "width": 1088,
+          "height": 56,
+          "top": 121.5,
+          "right": 1368.5,
+          "bottom": 177.5,
+          "left": 280.5
+        },
+        ".player-play .arena-heading": {
+          "x": 74.5,
+          "y": 219.5,
+          "width": 504,
+          "height": 56,
+          "top": 219.5,
+          "right": 578.5,
+          "bottom": 275.5,
+          "left": 74.5
+        },
+        ".opponent-play .arena-heading": {
+          "x": 846.5,
+          "y": 219.5,
+          "width": 504,
+          "height": 56,
+          "top": 219.5,
+          "right": 1350.5,
+          "bottom": 275.5,
+          "left": 846.5
+        },
+        "#arena-scoreboard": {
+          "x": 632.5,
+          "y": 254.5,
+          "width": 160,
+          "height": 592.984375,
+          "top": 254.5,
+          "right": 792.5,
+          "bottom": 847.484375,
+          "left": 632.5
+        },
+        "#board-wrap": {
+          "x": 56.5,
+          "y": 293.5,
+          "width": 540,
+          "height": 540,
+          "top": 293.5,
+          "right": 596.5,
+          "bottom": 833.5,
+          "left": 56.5
+        },
+        "#board": {
+          "x": 86.5,
+          "y": 323.5,
+          "width": 480,
+          "height": 480,
+          "top": 323.5,
+          "right": 566.5,
+          "bottom": 803.5,
+          "left": 86.5
+        },
+        "#opponent-board": {
+          "x": 858.5,
+          "y": 323.5,
+          "width": 480,
+          "height": 480,
+          "top": 323.5,
+          "right": 1338.5,
+          "bottom": 803.5,
+          "left": 858.5
+        }
+      },
+      "realScores": [
+        30,
+        420
+      ],
+      "revealMs": 5000,
+      "bannerMs": 3000
+    },
+    {
+      "map": "cliff",
+      "cells": 48,
+      "obstacles": 0,
+      "geometry": {
+        ".menu": {
+          "x": 56.5,
+          "y": 99.5,
+          "width": 1312,
+          "height": 100,
+          "top": 99.5,
+          "right": 1368.5,
+          "bottom": 199.5,
+          "left": 56.5
+        },
+        ".menu .tools": {
+          "x": 280.5,
+          "y": 121.5,
+          "width": 1088,
+          "height": 56,
+          "top": 121.5,
+          "right": 1368.5,
+          "bottom": 177.5,
+          "left": 280.5
+        },
+        ".player-play .arena-heading": {
+          "x": 74.5,
+          "y": 219.5,
+          "width": 504,
+          "height": 56,
+          "top": 219.5,
+          "right": 578.5,
+          "bottom": 275.5,
+          "left": 74.5
+        },
+        ".opponent-play .arena-heading": {
+          "x": 846.5,
+          "y": 219.5,
+          "width": 504,
+          "height": 56,
+          "top": 219.5,
+          "right": 1350.5,
+          "bottom": 275.5,
+          "left": 846.5
+        },
+        "#arena-scoreboard": {
+          "x": 632.5,
+          "y": 254.5,
+          "width": 160,
+          "height": 592.984375,
+          "top": 254.5,
+          "right": 792.5,
+          "bottom": 847.484375,
+          "left": 632.5
+        },
+        "#board-wrap": {
+          "x": 56.5,
+          "y": 293.5,
+          "width": 540,
+          "height": 540,
+          "top": 293.5,
+          "right": 596.5,
+          "bottom": 833.5,
+          "left": 56.5
+        },
+        "#board": {
+          "x": 86.5,
+          "y": 323.5,
+          "width": 480,
+          "height": 480,
+          "top": 323.5,
+          "right": 566.5,
+          "bottom": 803.5,
+          "left": 86.5
+        },
+        "#opponent-board": {
+          "x": 858.5,
+          "y": 323.5,
+          "width": 480,
+          "height": 480,
+          "top": 323.5,
+          "right": 1338.5,
+          "bottom": 803.5,
+          "left": 858.5
+        }
+      },
+      "realScores": [
+        30,
+        60
+      ],
+      "revealMs": 5000,
+      "bannerMs": 3000
+    },
+    "Cliff rockfall still starts 20s after countdown, falls and restores both sides",
+    {
+      "map": "crystal",
+      "cells": 40,
+      "obstacles": 0,
+      "geometry": {
+        ".menu": {
+          "x": 56.5,
+          "y": 99.5,
+          "width": 1312,
+          "height": 100,
+          "top": 99.5,
+          "right": 1368.5,
+          "bottom": 199.5,
+          "left": 56.5
+        },
+        ".menu .tools": {
+          "x": 280.5,
+          "y": 121.5,
+          "width": 1088,
+          "height": 56,
+          "top": 121.5,
+          "right": 1368.5,
+          "bottom": 177.5,
+          "left": 280.5
+        },
+        ".player-play .arena-heading": {
+          "x": 74.5,
+          "y": 219.5,
+          "width": 504,
+          "height": 56,
+          "top": 219.5,
+          "right": 578.5,
+          "bottom": 275.5,
+          "left": 74.5
+        },
+        ".opponent-play .arena-heading": {
+          "x": 846.5,
+          "y": 219.5,
+          "width": 504,
+          "height": 56,
+          "top": 219.5,
+          "right": 1350.5,
+          "bottom": 275.5,
+          "left": 846.5
+        },
+        "#arena-scoreboard": {
+          "x": 632.5,
+          "y": 254.5,
+          "width": 160,
+          "height": 592.984375,
+          "top": 254.5,
+          "right": 792.5,
+          "bottom": 847.484375,
+          "left": 632.5
+        },
+        "#board-wrap": {
+          "x": 56.5,
+          "y": 293.5,
+          "width": 540,
+          "height": 540,
+          "top": 293.5,
+          "right": 596.5,
+          "bottom": 833.5,
+          "left": 56.5
+        },
+        "#board": {
+          "x": 86.5,
+          "y": 323.5,
+          "width": 480,
+          "height": 480,
+          "top": 323.5,
+          "right": 566.5,
+          "bottom": 803.5,
+          "left": 86.5
+        },
+        "#opponent-board": {
+          "x": 858.5,
+          "y": 323.5,
+          "width": 480,
+          "height": 480,
+          "top": 323.5,
+          "right": 1338.5,
+          "bottom": 803.5,
+          "left": 858.5
+        }
+      },
+      "realScores": [
+        30,
+        90
+      ],
+      "revealMs": 5000,
+      "bannerMs": 3000
+    },
+    {
+      "map": "ruins",
+      "cells": 54,
+      "obstacles": 10,
+      "geometry": {
+        ".menu": {
+          "x": 56.5,
+          "y": 99.5,
+          "width": 1312,
+          "height": 100,
+          "top": 99.5,
+          "right": 1368.5,
+          "bottom": 199.5,
+          "left": 56.5
+        },
+        ".menu .tools": {
+          "x": 280.5,
+          "y": 121.5,
+          "width": 1088,
+          "height": 56,
+          "top": 121.5,
+          "right": 1368.5,
+          "bottom": 177.5,
+          "left": 280.5
+        },
+        ".player-play .arena-heading": {
+          "x": 74.5,
+          "y": 219.5,
+          "width": 504,
+          "height": 56,
+          "top": 219.5,
+          "right": 578.5,
+          "bottom": 275.5,
+          "left": 74.5
+        },
+        ".opponent-play .arena-heading": {
+          "x": 846.5,
+          "y": 219.5,
+          "width": 504,
+          "height": 56,
+          "top": 219.5,
+          "right": 1350.5,
+          "bottom": 275.5,
+          "left": 846.5
+        },
+        "#arena-scoreboard": {
+          "x": 632.5,
+          "y": 254.5,
+          "width": 160,
+          "height": 592.984375,
+          "top": 254.5,
+          "right": 792.5,
+          "bottom": 847.484375,
+          "left": 632.5
+        },
+        "#board-wrap": {
+          "x": 56.5,
+          "y": 293.5,
+          "width": 540,
+          "height": 540,
+          "top": 293.5,
+          "right": 596.5,
+          "bottom": 833.5,
+          "left": 56.5
+        },
+        "#board": {
+          "x": 86.5,
+          "y": 323.5,
+          "width": 480,
+          "height": 480,
+          "top": 323.5,
+          "right": 566.5,
+          "bottom": 803.5,
+          "left": 86.5
+        },
+        "#opponent-board": {
+          "x": 858.5,
+          "y": 323.5,
+          "width": 480,
+          "height": 480,
+          "top": 323.5,
+          "right": 1338.5,
+          "bottom": 803.5,
+          "left": 858.5
+        }
+      },
+      "realScores": [
+        450,
+        180
+      ],
+      "revealMs": 5000,
+      "bannerMs": 3000
+    },
+    "Restart redraws a map; Escape cancels a locked reveal and clears stage/banner"
+  ],
+  "errors": []
+}

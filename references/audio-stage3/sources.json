@@ -1,0 +1,466 @@
+[
+  {
+    "title": "free-cinematic-sound-effects",
+    "author": "Gregor Quendel",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://opengameart.org/content/free-cinematic-sound-effects",
+    "evidence": "free-cinematic-sound-effects.html",
+    "evidenceSha256": "4771bcf7009f6946112ba6db1c72e344124177931c163ca97cb3f57f6f72036f",
+    "checkedOn": "2026-10-11",
+    "downloads": [
+      {
+        "download": "https://opengameart.org/sites/default/files/gregor_quendel_-_free_cinematic_sound_effects_-_mp3.zip",
+        "archive": "cinematic/gregor_quendel_-_free_cinematic_sound_effects_-_mp3.zip",
+        "sha256": "add68f7bf299ac1c77292d3fc0d461465edeff001c1a3b5d032a2c577f2437de"
+      }
+    ],
+    "files": [
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Harmonic - 008 - IV.mp3",
+        "sha256": "47ddac0c3036510fd1d9bf0e1aea96639a5f785be20c8d924bedcf72e8cc0c7c"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Harmonic - 015.mp3",
+        "sha256": "d9ec666f4bd716fb673634e13b642b85b1af751acc31503f04960bb531b847be"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Harmonic - 018.mp3",
+        "sha256": "b2f6287daeae7996121833243f882508976f32472d031d726f3f565ec6d9a08f"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Sub - 003 - III.mp3",
+        "sha256": "d8e4c7a980b06b9d8d9e6b308c9eeaa998742480fbb5044ae0918940a9129fe9"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Atmospheres - Free Sounds/Gregor Quendel - Designed Atmospheres - Wind - 001 - II.mp3",
+        "sha256": "78c560f5674b500c7ad084c51ae584e53fb5fed5e408ce67d686e81ea928740e"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Ambience Burst 01.mp3",
+        "sha256": "15de8a42d589b29ebafc54a91538a872efc961916cb85f7cd74dfb22fb80e32d"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Ambience Interference 03.mp3",
+        "sha256": "865b3c5ed02cdd1f7e1bbbfc5e6a2a0868d9835a891c7a988b1561c1db3ebfa2"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Hum 06.mp3",
+        "sha256": "5fe3fe2336fa6839f8e19ae716b833cc3196082f2f12c3b537bd785605e03558"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Interference 18.mp3",
+        "sha256": "a7b3bf75e5ec500d43e955ad2749108673c27e3421e415929a95952eb024e3f6"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Circuits - Free Sounds/Gregor Quendel - Designed Circuits - Sfx 24.mp3",
+        "sha256": "91b95fee377f26150981f540ed281623c739ecdd55f49574708c0c8c3f255705"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Impacts - Complex 04.mp3",
+        "sha256": "f25ccddd2a40909b6c82faa627c7458b16d912f10db7ce78e6aab8d0dd5e3743"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Short - Swoosh Burst Sizzling 01.mp3",
+        "sha256": "c3b2556b6fbceda54e51e2df93905992e3688acd0d5d50e8c90e8742856cbfd7"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Swooshes - Burst Evolving 19.mp3",
+        "sha256": "72506535de7691d8be993101f7ba4fecae7bea548e5f384598d310fa46e16825"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Textures - Glitch Ripples.mp3",
+        "sha256": "0189f5e8b635b7d615aadb6f45e993a8695076f6386d5d9719e11f5eeed0b10c"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Fire - Free Sounds/Gregor Quendel - Designed Fire - Winds - Swoosh 04.mp3",
+        "sha256": "d9bd7a365a40c87c7396fdc8a77e1ca3f34d4e6a234918a717987b7aa50d8a3e"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Ice - Free Sounds/Gregor Quendel - Designed Ice - Sequences 01.mp3",
+        "sha256": "b57d7ce97d284e033e590d6137b7cae623b4367159e0a153f193c614b141c1a9"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Ice - Free Sounds/Gregor Quendel - Designed Ice - Sequences 02.mp3",
+        "sha256": "a592cea0a3ea0ef51b8ba7ea4a99656e0a8b464d4dc0d03e3be985099d355da3"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Ice - Free Sounds/Gregor Quendel - Designed Ice - Sequences 15.mp3",
+        "sha256": "915e10038e44f6a666f4844b1184b82acfd7269c45d3090f32a65a9abf738f6a"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Mecha - Free Sounds/Gregor Quendel - Designed Mecha - Elements - Impact 01.mp3",
+        "sha256": "50720807917d78b370c99ea3921f71762957b42c986b8373c0b26fa14ab86776"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Mecha - Free Sounds/Gregor Quendel - Designed Mecha - Elements - Mechanism 01.mp3",
+        "sha256": "f30fc691f513096b48aa9015bc8e9f6435d4740240d7e97db44d2cbe29983d0d"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Mecha - Free Sounds/Gregor Quendel - Designed Mecha - Sequences - Ambience 06.mp3",
+        "sha256": "c60d7d79cadde2e7b7943065c3e3b626032eefa2bc5e54e90fa27b85b20aae09"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Mecha - Free Sounds/Gregor Quendel - Designed Mecha - Sequences - Mechanisms 01.mp3",
+        "sha256": "4c36252bc19f660de2a4f3ede3ad38e5ce908c39c7566dad22c74e09ad5aa7de"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Plastic - Free Sounds/Gregor Quendel - Designed Plastic - Elements - Creaking 04.mp3",
+        "sha256": "474a9c2f0891538b2a4a1e0b248314afcab7f402c7b382d53de60f2f345d1845"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Plastic - Free Sounds/Gregor Quendel - Designed Plastic - Elements - Liquid 17.mp3",
+        "sha256": "8f4438cb82490b395e480351b9082847b25b3e3763161a32af7cbed34865b8c8"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Plastic - Free Sounds/Gregor Quendel - Designed Plastic - Elements - Ripping 03.mp3",
+        "sha256": "41c8a6755e265ef8aff1df13acd22b47c76e1034305d4873b7d57c8dedc8d3ef"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Plastic - Free Sounds/Gregor Quendel - Designed Plastic - Elements - Sfx 03.mp3",
+        "sha256": "9ed3917e5287ed534b8745c0ee9688cbd843999c78731f9fb9710a0fb896b947"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Elements 09.mp3",
+        "sha256": "6e3a08aa3816061b4371e061de8e307822ce9e10a6a368df3f6de8eeacbf1d36"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 02.mp3",
+        "sha256": "e2569c008c39aae49bfc041b31ead8d493d944c087042fdf71d7d0699e1efacf"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Rocks - Free Sounds/Gregor Quendel - Designed Rocks - Sequences 24.mp3",
+        "sha256": "bad3bc015d39207eb82886db2252c53875b59b7c8b490050b3a6a949a1aa9aeb"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - AlienChime.mp3",
+        "sha256": "3406cae3be6f49fb466bb54f167c95e8b8ca2702091634c6ca3745586226102f"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - Bowl_Cybin_02.mp3",
+        "sha256": "dc9c85714e4eb81838c9a13821a26736b4688324c3e1b51cbfb2ce7e76ebdb0a"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - Circuits_Error_RobotSpeech.mp3",
+        "sha256": "90cd12b48a9a48bf916ed49a7beae4abf824677cf88a6caf8b5557b9b275e475"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - Counter_02.mp3",
+        "sha256": "30a5d6bfae0348176fbe44421d2c0e2de8bcf3a77d5a40d08a0b92f8c346ef9e"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - MusicOfTheSpheres_PrettyScape.mp3",
+        "sha256": "ebb4ec964d9b560ce7c98d45633ba5d2b6b242d99bbbce32b3b6864550cd3587"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - SolarWind_01.mp3",
+        "sha256": "95c9be0bbf7ef16d2dd1fbd9d27c188c3ab0b001e42aa53696dc24266a64cea8"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/01_Textures/Gregor Quendel - Designed Sci-Fi - Subcycle.mp3",
+        "sha256": "f1e897be67011437d57ca5e1475c8969a21d37903a8baff46dd03a8e7dc5c8b2"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Aquapur_10.mp3",
+        "sha256": "21cf6308672315e5935b29067597e9f78a6ce534e6accda0990acd2f2dad6717"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Gourd_Scramble.mp3",
+        "sha256": "22f1903de933457ed76078f75e1f573a9a9b264bed82201690cdd33f0d79f67a"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Noids_Korvax_01.mp3",
+        "sha256": "a6e783038d8b03f1e9324168acf739fb3466ec79c9ed0f6b5d7088499e5e76e5"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Science_07.mp3",
+        "sha256": "bd269364c9ca7435b8796da6560fc8d379873cc10cc1e73b3ad0b8eff9f8dbd4"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Summon_01.mp3",
+        "sha256": "fc5af50a3137550579e9bcc25b987d2cb7a76d1f19d68bff40c7c8f532d2fa86"
+      },
+      {
+        "file": "cinematic/Gregor Quendel - Designed Series - Free Downloads/Gregor Quendel - Designed Sci-Fi - Free Sounds/02_Effects/Gregor Quendel - Designed Sci-Fi - Tuner_Chaoswhip_02.mp3",
+        "sha256": "2ddf4cf59df575f8698590136e08be1cfa4fcad6a10289a0d070d270abad11f0"
+      }
+    ]
+  },
+  {
+    "title": "fire-staff-sound-effects",
+    "author": "LEGIT Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/",
+    "page": "https://opengameart.org/content/fire-staff-sound-effects",
+    "evidence": "fire-staff-sound-effects.html",
+    "evidenceSha256": "7242d0fea35d1a907dda5b045b5d370330776d2e7b9d38fe346636b0e42a9ee8",
+    "checkedOn": "2026-10-11",
+    "downloads": [
+      {
+        "download": "https://opengameart.org/sites/default/files/legit_audio_fire_staff_-_free_0.zip",
+        "archive": "fire-staff/legit_audio_fire_staff_-_free_0.zip",
+        "sha256": "8c0668fdde03de52b9b201e672244992ae739438937d4bef6908d1618a86b020"
+      }
+    ],
+    "files": [
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 1-Audio.wav",
+        "sha256": "bff2d501b06b6559df64a57228f39df3feabda41c32c9f9dda72600a3e3d0490"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 10-Audio.wav",
+        "sha256": "92b47ce3dc2197f56ad88498de7d3538d855997d25e45e66c215a6e3e50203c8"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 11-Audio.wav",
+        "sha256": "17c6c2f116faa73e92f2e806a11e59886e956b1ea3095582a7e7043a5451ac89"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 12-Audio.wav",
+        "sha256": "c36787955c3c4dcaa1a83f9c9851ea014547f34c29f71839c85e5186a0812b0d"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 13-Audio.wav",
+        "sha256": "5b786d399d27d5388638a835de2351c72ce1340bfcc8ab00eb29e1476b1a5b73"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 14-Audio.wav",
+        "sha256": "49de3e1f4a0821c8515dacbe037f24db8c548a8f06dc49cf0e4e402bc0909659"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 15-Audio.wav",
+        "sha256": "cfdff75541f2757171f4b503ecb6f094a45b49dc3a16ecd54c525d9d961c6b3d"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 16-Audio.wav",
+        "sha256": "14748e8adc45b9d4f5bd9203d6e8ea1ea85eb9447cebbafc97181d07902fc29a"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 17-Audio.wav",
+        "sha256": "54b55dc438ca44cb6cb8c3c4246505bfc3450c5541e72772682cc13f396087ef"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 18-Audio.wav",
+        "sha256": "93aee1c066096f71f469c8767589286a4ad165d25d6305846139f0d572b10778"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 19-Audio.wav",
+        "sha256": "2904f65ac6c3af0273ad237bb1ed1cb6928a43c124c8cd1d485d36e3d19ab37c"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 2-Audio.wav",
+        "sha256": "bef9659a1ff2917d58e1ea0c4d00440dbdb219b28ecc29b406b07349a4f3425f"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 20-Audio.wav",
+        "sha256": "f86cadeeea62301a30870946ddb34f1975ddf189b2719d3459832973955a0eff"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 21-Audio.wav",
+        "sha256": "553bbf9bb6a3c574d1862f03d384f71a335706778e7877588397876dddf42af0"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 22-Audio.wav",
+        "sha256": "5883daa601d9f9399cfa7cd5dd23e9b274994105f9608f0208baf0dd33015aa4"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 23-Audio.wav",
+        "sha256": "ccf4c6ad5438d58c08fbb61147baef8ad73f76365eff9303ff7841ae23875785"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 24-Audio.wav",
+        "sha256": "407e9c0a9dcdb0621991ad4ca20130635e37e4ad1c61656195f07a3ff65cb9f6"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 25-Audio.wav",
+        "sha256": "4020e9c4659d2a56ff6d2023343d86896f8241adfe9c4374bb6aa037815a2697"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 3-Audio.wav",
+        "sha256": "6c6d875244fbec12540307f1c83c5e5a6b71a2b2c9f4742f2b09b4689275a4af"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 4-Audio.wav",
+        "sha256": "d991395b107fe2d910f56ac58bbea6788906d1a3b237d0f34eb1c49b885650f7"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 5-Audio.wav",
+        "sha256": "a414e615106206b6c1e68d805b21b9a3fa800e5749b90c6cf779fa5b3e29f9f7"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 6-Audio.wav",
+        "sha256": "6c9e3eb3293a3ca6112047623eee5839378a96a95c1aed5119e49a59cce071ff"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 7-Audio.wav",
+        "sha256": "458d636dc9f4512c53f90ed65e37e0b68b1dfce1518c95f7606115fcd9a66922"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 8-Audio.wav",
+        "sha256": "f6a12f6b7d892d14de4db70ddc8f9f0f8edc3247d97cec6777a48f83c18e2f74"
+      },
+      {
+        "file": "fire-staff/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 9-Audio.wav",
+        "sha256": "8c4868b5cd5e788bb83da84fd1d33b0f1aee776884af966570860a7207b26619"
+      }
+    ]
+  },
+  {
+    "title": "ice-spells",
+    "author": "bart; original recording by Stephan / pdsounds",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/",
+    "page": "https://opengameart.org/content/ice-spells",
+    "evidence": "ice-spells.html",
+    "evidenceSha256": "19819577cdd2a5c4126768b564cd859e469256270920991b5b6f09c0810b10cb",
+    "checkedOn": "2026-10-11",
+    "downloads": [
+      {
+        "download": "https://opengameart.org/sites/default/files/icespells.zip",
+        "archive": "ice-spells/icespells.zip",
+        "sha256": "45f02a204fc7cc896a17487080376c521ac2e564fe3da4d24cffa0086f8d6a54"
+      }
+    ],
+    "files": [
+      {
+        "file": "ice-spells/coldsnap.wav",
+        "sha256": "090977264d65d90a50b04e9f0c1c4e02fb194e5b50d9fe244f0079a4da54158c"
+      },
+      {
+        "file": "ice-spells/ice.wav",
+        "sha256": "c3039c864d056d0e4951b84b96a7bb0044ca8cb58aeae514fc256145872b6a94"
+      }
+    ]
+  },
+  {
+    "title": "ice-breakingshattering",
+    "author": "IgnasD",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/",
+    "page": "https://opengameart.org/content/ice-breakingshattering",
+    "evidence": "ice-breakingshattering.html",
+    "evidenceSha256": "1ba8eb0b9cf7696eb38e48fead7bf344e5e071dac4c70c56d4454f8e5c46fd09",
+    "checkedOn": "2026-10-11",
+    "downloads": [
+      {
+        "download": "https://opengameart.org/sites/default/files/IceShatters_0.zip",
+        "archive": "ice-shatters/IceShatters_0.zip",
+        "sha256": "b84ea396fac1af183dd2cb205a01edaa94b493ffb36965eafe59912e41cf9eb7"
+      }
+    ],
+    "files": [
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta.ogg",
+        "sha256": "4c7304ac47f84e41b62edb71082d00fe01823a2a54ec4e4268a040c973e3510f"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta2.ogg",
+        "sha256": "92a20369f866c852f841ffaef31676cb70f542592504b040327c60f5101f9c47"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta33.ogg",
+        "sha256": "fedcd280ffaea38c365647f131eaae71cf2b9e1721c2fce1b539884c9199074a"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta4.ogg",
+        "sha256": "81558c035953d4e595640be7ba1a645c47c6f4b72f38de43a44d36fa70d52b8c"
+      },
+      {
+        "file": "ice-shatters/IceShatters/LedasLuzta5.ogg",
+        "sha256": "34adbcb652d578b870d5317ec974e9773266ddfd6b4bfc8499ec775e1712b603"
+      }
+    ]
+  },
+  {
+    "title": "stone-door",
+    "author": "bonebrah",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/",
+    "page": "https://opengameart.org/content/stone-door",
+    "evidence": "stone-door.html",
+    "evidenceSha256": "08953042999e79dd767c78d6eab322d08cd3d5343eade0d26f85be29392965f8",
+    "checkedOn": "2026-10-11",
+    "downloads": [
+      {
+        "download": "https://opengameart.org/sites/default/files/stone_door.ogg",
+        "archive": "stone-door/stone_door.ogg",
+        "sha256": "97e05a01ba45c324094f0f51a5094dc23fbb6f915db6c39154d9cac34939149c"
+      }
+    ],
+    "files": [
+      {
+        "file": "stone-door/stone_door.ogg",
+        "sha256": "97e05a01ba45c324094f0f51a5094dc23fbb6f915db6c39154d9cac34939149c"
+      }
+    ]
+  },
+  {
+    "title": "stonerockorwoodmovednotick",
+    "author": "omegagreg; collaborator pauliuw",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/",
+    "page": "https://opengameart.org/content/stonerockorwoodmovednotick",
+    "evidence": "stonerockorwoodmovednotick.html",
+    "evidenceSha256": "775ccec7560cea2aa1c9305a80fb07584509f0f1caadbc328eaec6e66e8bdebd",
+    "checkedOn": "2026-10-11",
+    "downloads": [
+      {
+        "download": "https://opengameart.org/sites/default/files/stone_rock_or_wood_moved_no_tick.mp3",
+        "archive": "stone-grind/stone_rock_or_wood_moved_no_tick.mp3",
+        "sha256": "3521478b940968bb48c476a4e2e37cd2f3b864fe1b548b7d4868f339e405ab11"
+      }
+    ],
+    "files": [
+      {
+        "file": "stone-grind/stone_rock_or_wood_moved_no_tick.mp3",
+        "sha256": "3521478b940968bb48c476a4e2e37cd2f3b864fe1b548b7d4868f339e405ab11"
+      }
+    ]
+  },
+  {
+    "title": "rumbleexplosion",
+    "author": "Michel Baradari",
+    "license": "CC-BY-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://opengameart.org/content/rumbleexplosion",
+    "evidence": "rumbleexplosion.html",
+    "evidenceSha256": "f702efcf2e88add02bc0e87d653710ab464790ac7ba8d5b4b2b557abe5f588da",
+    "checkedOn": "2026-10-11",
+    "downloads": [
+      {
+        "download": "https://opengameart.org/sites/default/files/rumble.flac",
+        "archive": "rumble/rumble.flac",
+        "sha256": "ac7ea8146bd7b86b98a7d1c2c10e8df7225ed91bbcfec7881a312f795a5f5636"
+      }
+    ],
+    "files": [
+      {
+        "file": "rumble/rumble.flac",
+        "sha256": "ac7ea8146bd7b86b98a7d1c2c10e8df7225ed91bbcfec7881a312f795a5f5636"
+      }
+    ]
+  },
+  {
+    "title": "breaking-rock",
+    "author": "themightyglider; derived from SoundCollectah",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/",
+    "page": "https://opengameart.org/content/breaking-rock",
+    "evidence": "breaking-rock.html",
+    "evidenceSha256": "81897ce5e285d41c9da2534f0e0643e206fdb9fb2339b0d435dd4a774165dd83",
+    "checkedOn": "2026-10-11",
+    "downloads": [
+      {
+        "download": "https://opengameart.org/sites/default/files/rock_break_0.ogg",
+        "archive": "rock-break/rock_break_0.ogg",
+        "sha256": "b645f35d21194e7855dd4a5405b1e8e6bec070731b92df6abcb202676b8e9f2e"
+      }
+    ],
+    "files": [
+      {
+        "file": "rock-break/rock_break_0.ogg",
+        "sha256": "b645f35d21194e7855dd4a5405b1e8e6bec070731b92df6abcb202676b8e9f2e"
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "unchangedGameplay": [
+    "engine.mjs",
+    "bot.mjs",
+    "arena.mjs",
+    "art.mjs",
+    "environment.mjs",
+    "flow.mjs",
+    "app.mjs",
+    "style.css",
+    "index.html",
+    "audio-events.mjs",
+    "audio-manager.mjs"
+  ],
+  "unchangedAudio": [
+    "block/block-swap-v1.wav",
+    "block/block-invalid-v1.wav",
+    "block/block-fall-v1.wav",
+    "block/block-match3-v2.wav",
+    "combo/combo1-v2.wav",
+    "combo/combo2-v2.wav",
+    "combo/combo3-v2.wav",
+    "special/special-line-v3.wav",
+    "special/special-create-v3.wav",
+    "special/special-bomb-v3.wav",
+    "special/special-combo-blasts-v3.wav",
+    "ui/countdown-3-v2.wav",
+    "ui/countdown-2-v2.wav",
+    "ui/countdown-1-v2.wav",
+    "ui/countdown-start-v2.wav"
+  ],
+  "candidates": [
+    {
+      "key": "A",
+      "seconds": 1.2,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78
+    },
+    {
+      "key": "B",
+      "seconds": 1.2,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78
+    },
+    {
+      "key": "C",
+      "seconds": 1.2,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78
+    },
+    {
+      "key": "D",
+      "seconds": 1.2,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78
+    }
+  ],
+  "errors": [],
+  "selected": "D",
+  "subjectiveListening": "User selected D; actual browser playback is not a long-session comfort verdict.",
+  "media": [
+    {
+      "src": "clips/a.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78,
+      "duration": 1.2
+    },
+    {
+      "src": "clips/b.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78,
+      "duration": 1.2
+    },
+    {
+      "src": "clips/c.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78,
+      "duration": 1.2
+    },
+    {
+      "src": "clips/d.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78,
+      "duration": 1.2
+    },
+    {
+      "src": "/assets/audio/block/block-match3-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.46,
+      "duration": 0.09
+    },
+    {
+      "src": "/assets/audio/special/special-line-v3.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.72,
+      "duration": 0.4
+    },
+    {
+      "src": "/assets/audio/special/special-combo-blasts-v3.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.9,
+      "duration": 0.95
+    }
+  ],
+  "success": true
+}

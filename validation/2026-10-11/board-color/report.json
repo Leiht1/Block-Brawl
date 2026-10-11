@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "map": "forest",
+      "terrainPixelsIdentical": true,
+      "acceptedSwap": true,
+      "score": 90
+    },
+    {
+      "map": "cliff",
+      "terrainPixelsIdentical": true,
+      "acceptedSwap": true,
+      "score": 30
+    },
+    {
+      "map": "crystal",
+      "terrainPixelsIdentical": true,
+      "acceptedSwap": true,
+      "score": 30
+    },
+    {
+      "map": "ruins",
+      "terrainPixelsIdentical": true,
+      "acceptedSwap": true,
+      "score": 150
+    }
+  ],
+  "errors": []
+}

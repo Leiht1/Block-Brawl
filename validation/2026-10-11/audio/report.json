@@ -1,0 +1,37 @@
+{
+  "checks": [
+    "Actual app starts; AudioManager initializes with 24 empty entries and sound disabled",
+    {
+      "actualPointerEvents": [
+        "block.swap",
+        "block.match3",
+        "block.fall",
+        "block.combo"
+      ],
+      "scoreWithSoundEnabled": 90
+    },
+    "Toggling sound preserves board, score, transactions and locks; actual pointer clear also completes while disabled",
+    {
+      "actualFlowCountdownAndStart": [
+        "ui.countdown",
+        "ui.countdown",
+        "ui.countdown",
+        "ui.start"
+      ],
+      "status": "playing"
+    },
+    "No Audio/AudioContext construction, audio resource requests, browser errors or 404s with empty resources"
+  ],
+  "errors": [],
+  "audioRequests": [],
+  "developmentNotices": [
+    "[AudioManager] ui.click: 尚未配置正式音效，静默跳过",
+    "[AudioManager] block.swap: 尚未配置正式音效，静默跳过",
+    "[AudioManager] block.match3: 尚未配置正式音效，静默跳过",
+    "[AudioManager] block.fall: 尚未配置正式音效，静默跳过",
+    "[AudioManager] block.combo: 尚未配置正式音效，静默跳过",
+    "[AudioManager] ui.back: 尚未配置正式音效，静默跳过",
+    "[AudioManager] ui.countdown: 尚未配置正式音效，静默跳过",
+    "[AudioManager] ui.start: 尚未配置正式音效，静默跳过"
+  ]
+}

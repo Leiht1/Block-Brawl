@@ -1,0 +1,216 @@
+{
+  "checks": [
+    "Actual app callbacks: cliff warning/fall/impact; ice freeze and clear-reason break; ancient mechanism; furnace heat/spread and repeated spread. Paired boards/cells merge.",
+    "Eight distinct local map WAVs loaded, played and ended at configured environment gains.",
+    "200 fast mixed map cues accept at most two, finish without queued replay.",
+    "Environment gain ducks to 35% when a core skill voice is active; channel mute stops only environment and leaves core playable.",
+    "Pre-task workspace hashes: rules, AI, scoring, animation clocks, business event mapping and all existing core recordings unchanged."
+  ],
+  "maps": [
+    {
+      "id": "cliff",
+      "calls": [
+        {
+          "id": "cliff.warning",
+          "accepted": true,
+          "at": 13000
+        },
+        {
+          "id": "cliff.fall",
+          "accepted": true,
+          "at": 14500
+        },
+        {
+          "id": "cliff.impact",
+          "accepted": true,
+          "at": 15150
+        }
+      ],
+      "mute": {
+        "active": 1,
+        "after": 0,
+        "blocked": false,
+        "core": true
+      },
+      "boardUnchanged": true
+    },
+    {
+      "id": "crystal",
+      "calls": [
+        {
+          "id": "ice.freeze",
+          "accepted": true,
+          "at": 30350
+        },
+        {
+          "id": "ice.break",
+          "accepted": true,
+          "at": 30450
+        }
+      ],
+      "mute": {
+        "active": 1,
+        "after": 0,
+        "blocked": false,
+        "core": true
+      },
+      "boardUnchanged": true
+    },
+    {
+      "id": "ruins",
+      "calls": [
+        {
+          "id": "ruins.activate",
+          "accepted": true,
+          "at": 46350
+        }
+      ],
+      "mute": {
+        "active": 1,
+        "after": 0,
+        "blocked": false,
+        "core": true
+      },
+      "boardUnchanged": true
+    },
+    {
+      "id": "furnace",
+      "calls": [
+        {
+          "id": "furnace.warning",
+          "accepted": true,
+          "at": 62850
+        },
+        {
+          "id": "furnace.spread",
+          "accepted": true,
+          "at": 66150
+        },
+        {
+          "id": "furnace.warning",
+          "accepted": true,
+          "at": 68500
+        },
+        {
+          "id": "furnace.spread",
+          "accepted": true,
+          "at": 69150
+        }
+      ],
+      "mute": {
+        "active": 1,
+        "after": 0,
+        "blocked": false,
+        "core": true
+      },
+      "boardUnchanged": true
+    }
+  ],
+  "files": [
+    {
+      "id": "cliff.warning",
+      "file": "./assets/audio/maps/cliff/cliff-warning-v1.wav",
+      "src": "http://127.0.0.1:53195/assets/audio/maps/cliff/cliff-warning-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 1.1,
+      "volume": 0.3
+    },
+    {
+      "id": "cliff.fall",
+      "file": "./assets/audio/maps/cliff/cliff-fall-v1.wav",
+      "src": "http://127.0.0.1:53195/assets/audio/maps/cliff/cliff-fall-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.62,
+      "volume": 0.34
+    },
+    {
+      "id": "cliff.impact",
+      "file": "./assets/audio/maps/cliff/cliff-impact-v1.wav",
+      "src": "http://127.0.0.1:53195/assets/audio/maps/cliff/cliff-impact-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.48,
+      "volume": 0.25
+    },
+    {
+      "id": "ice.freeze",
+      "file": "./assets/audio/maps/ice/ice-freeze-v1.wav",
+      "src": "http://127.0.0.1:53195/assets/audio/maps/ice/ice-freeze-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.7,
+      "volume": 0.29
+    },
+    {
+      "id": "ice.break",
+      "file": "./assets/audio/maps/ice/ice-break-v1.wav",
+      "src": "http://127.0.0.1:53195/assets/audio/maps/ice/ice-break-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.6,
+      "volume": 0.31
+    },
+    {
+      "id": "ruins.activate",
+      "file": "./assets/audio/maps/ruins/ruins-activate-v1.wav",
+      "src": "http://127.0.0.1:53195/assets/audio/maps/ruins/ruins-activate-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 1.05,
+      "volume": 0.3
+    },
+    {
+      "id": "furnace.warning",
+      "file": "./assets/audio/maps/furnace/furnace-warning-v1.wav",
+      "src": "http://127.0.0.1:53195/assets/audio/maps/furnace/furnace-warning-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.55,
+      "volume": 0.26
+    },
+    {
+      "id": "furnace.spread",
+      "file": "./assets/audio/maps/furnace/furnace-spread-v1.wav",
+      "src": "http://127.0.0.1:53195/assets/audio/maps/furnace/furnace-spread-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.66,
+      "volume": 0.3
+    }
+  ],
+  "errors": [],
+  "subjectiveListening": "Source semantics and structure selected by agent. Human audible timbre/masking/fatigue approval is not claimed.",
+  "unchangedFiles": 82,
+  "changedExistingFiles": [
+    "dist/assets/audio/CREDITS.md",
+    "dist/audio-manager.mjs",
+    "dist/audio-manifest.mjs"
+  ],
+  "success": true
+}

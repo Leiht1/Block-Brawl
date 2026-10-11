@@ -1,0 +1,39 @@
+{
+  "candidate": "A",
+  "checks": [
+    "Exact user-approved A bytes and .58 gain.",
+    "Real accepted swap event plays A through unchanged mapping and AudioManager.",
+    "200 requests merge without queued replay.",
+    "Sound off gives identical single-move board, scoring, locks, transactions and event trace; creates no audio.",
+    "Only manifest path, one new WAV and provenance changed in deployment; all other recordings, gameplay and animation files identical."
+  ],
+  "errors": [],
+  "changedExistingGameFiles": [
+    "dist/assets/audio/CREDITS.md",
+    "dist/audio-manifest.mjs"
+  ],
+  "exactAuditionCopy": true,
+  "sha256": "08dfeed205648ca1f4d208e05e5931eb3885adce1be123d5dbcc76d73eb0d70d",
+  "media": {
+    "src": "http://127.0.0.1:4173/dist/assets/audio/block/block-swap-v2.wav",
+    "events": [
+      "loadeddata",
+      "playing",
+      "ended"
+    ],
+    "seconds": 0.11,
+    "volume": 0.58
+  },
+  "swapAnimationMs": 100,
+  "burst": {
+    "requests": 200,
+    "accepted": 1,
+    "queuedReplay": false
+  },
+  "mute": {
+    "identicalGameplay": true,
+    "mutedNewAudio": 0,
+    "score": 30
+  },
+  "success": true
+}

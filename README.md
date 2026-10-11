@@ -1,10 +1,22 @@
-# 方块乱斗 · 第一阶段 H5 原型
+# 方块乱斗
 
-试玩地址：https://block-brawl-prototype.lht1996317.chatgpt.site （私有访问）。源代码无需安装项目依赖，`dist/` 可以部署在普通静态服务器上。
+三消教学与卡牌人机竞技项目。当前进度截至2026-10-11，最新源码位于 `dist/`，详细迭代记录见 [DEVLOG.md](DEVLOG.md)。
 
-## 在其他设备继续开发
+## 当前可用功能
 
-先安装 Git、Python 和 Node.js，再执行：
+- 六关新手教学、进度保存，以及独立的手感／规则沙盒。
+- 三消、清行／清列、十三格爆破、特殊块组合与连锁；列级事务保护支持无关列同时操作。
+- 简单／普通／困难三档人机，使用真实棋盘交换，竞技统一先到15000分获胜。
+- 标准森林、悬崖断层、冰晶雪原、古代遗迹、炽焰熔炉五张地图，包含异形棋盘、落石、消除破冰、局部转盘和火焰蔓延。
+- 随机地图揭晓 → 60秒选择六张卡 → 双方准备 → 3秒倒计时 → 对战。12张卡可用，进攻／控制／强化每类最多2张，AI与超时补齐遵守同一限制。
+- 初始手牌与能量均为0；能量积攒抽牌、六张扇形手牌、悬停放大、拖放出牌、下一张预览及满手暂存。
+- 大厅／对战音乐与核心／地图音效，统一右上角独立开关及本地保存；首次交互后解锁播放。
+
+当前仍是本地人机版本，联网对战尚未实现。远端Git仓库保存开发进度；现有Sites试玩站是历史部署，本次同步不更新线上站点。
+
+## 在本机或其他设备运行
+
+安装Git、Node.js与Python后：
 
 ```sh
 git clone https://github.com/Leiht1/Block-Brawl.git
@@ -12,22 +24,41 @@ cd Block-Brawl
 python -m http.server 5173 --directory dist
 ```
 
-访问 `http://localhost:5173`。macOS／Linux 如果没有 `python` 命令，使用 `python3`。修改页面文件后刷新浏览器即可。另开一个终端，在项目目录执行 `node --test tests/engine.test.mjs` 验证规则。
+打开 `http://localhost:5173`。macOS／Linux可使用 `python3`。日常试玩直接使用静态目录，无需安装项目依赖；修改文件后刷新即可。
 
-`.openai/hosting.json` 是现有 Sites 部署标识与静态目录配置，不含登录凭据；普通本地开发无需修改它。
+规则与表现层测试：
 
-本地运行：在项目目录执行 `python -m http.server 5173 --directory dist`，访问 `http://localhost:5173`。规则测试：`node --test tests/engine.test.mjs`。
+```sh
+node --test tests/*.test.mjs
+```
 
-## 已实现
-鼠标／触摸拖动、点击相邻格、键盘方向键与回车；相邻交换三消；190ms 无效交换返回；分级粒子、光环、轻震和可选合成音效；同列重力与补充、连锁计分、独立列并发操作；死局自动换盘；四种固定反馈练习、提示与重开。尊重系统减少动态效果设置。
+## 重新构建单文件离线版
 
-## 文件与边界
-- `dist/engine.mjs`：不依赖 DOM 的规则、时钟和列事务。接收 swap 命令，发出动画、得分事件。
-- `dist/app.mjs`：Pointer Events、Canvas 绘制与声音。动画由 requestAnimationFrame 驱动；引擎中的逻辑坐标与显示坐标分开。
-- `dist/index.html`、`dist/style.css`：最小界面与响应式布局。
-- `ACCEPTANCE.md`：实施前确定的验收标准与后续边界。
-- `tests/engine.test.mjs`：规则与并发不变量测试。
+根目录 `方块乱斗-最新版.html` 是构建产物，已加入忽略规则，不推送到Git仓库。它可以随时从正式源码和素材重建，不需要历史截图或试听候选：
 
-当前是手感沙盒。固定练习盘并不是完整教学流程，暂无匹配入口。后续先做教学状态与匹配解锁，再接双人实时 PK、目标分、随机地图事件、3 道具构筑和能量，以及单人挑战。预留常量和事件边界不代表这些功能已经实现。联网前还需确定服务端判定、随机种子同步和命令顺序。
+```sh
+npm ci
+npm run build:offline
+```
 
-动画参数集中在 `TIMING`。为防止重力争用，正在操作的整列会暂时锁定；不涉及这些列的操作不需要排队。跨事务匹配冲突保守弹回。三、四、五连的反馈强度取决于最长直线，交叉匹配按唯一格计分。
+生成后直接双击HTML游玩。构建工具由 `package-lock.json` 锁定，不再依赖本机临时目录。`dist/index.html` 是正式入口，继续提交。
+
+离线包的语法／来源哈希检查：
+
+```sh
+node --test tests/offline-cards.test.mjs
+```
+
+未构建离线HTML时，全量测试会明确跳过这两项离线检查；构建后会正常验证，文件存在但损坏或过期时仍会失败。
+
+## 开发记录与素材管理
+
+- `docs/CARD_SYSTEM.md`：卡牌参数、交互、效果与安全边界。
+- `VALIDATION.md`／`ACCEPTANCE.md`：验收记录与标准；旧章节按当时版本记录。
+- `ART.md`、`dist/assets/audio/CREDITS.md`、`references/`：美术源图、音乐编排采样、来源、授权、选择和编辑参数。
+- `validation/`：保留轻量的JSON／文字验收报告。历史截图、试听成品及查看页已清理，新生成的媒体和查看页默认不提交。
+- `scripts/`：构建、素材编辑与验收脚本。部分历史试听／前后对照脚本需先按来源记录重新下载原录音、生成候选或恢复旧快照；日常运行、单元测试与离线构建不需要这些历史文件。
+
+现有浏览器验收脚本使用本机Edge和Playwright，部分美术脚本还使用sharp，音频处理使用Python的numpy／scipy／soundfile；这些是可选开发工具。清理后的最新验证与空间统计见 `validation/2026-10-11/repository-cleanup/`。
+
+`.openai/hosting.json` 保留现有Sites部署标识和静态目录配置，不含登录凭据。

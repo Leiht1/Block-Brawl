@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "bamboo",
+    "author": "qubodup / Iwan Gabovitch",
+    "title": "Swish bamboo stick",
+    "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "evidence": "bamboo.html",
+    "evidenceSha256": "7f19d1e387ab1333b1b92d13b2983bf3c8f08f1d66c3b8333dc0fdc55493c7c5",
+    "checkedOn": "2026-10-11",
+    "formatNote": "Existing original FLAC recordings from licensed pack"
+  },
+  {
+    "slug": "light-swishes",
+    "author": "artisticdude",
+    "title": "Swishes Sound Pack",
+    "page": "https://lpc.opengameart.org/node/4693",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "evidence": "light-swishes.html",
+    "evidenceSha256": "ef02940386e71402a00b5f024707021fe57039397bf7282d3962c88b8e78f296",
+    "checkedOn": "2026-10-11",
+    "download": "https://lpc.opengameart.org/sites/default/files/swishes.zip",
+    "file": "swishes.zip",
+    "sha256": "7980215241b739a787dcf26f660ce510bb237900968789395a86911619795693",
+    "formatNote": "Original WAV files in ZIP"
+  },
+  {
+    "slug": "cotton",
+    "author": "akennedybrewer",
+    "title": "Fabric Flap.wav",
+    "page": "https://freesound.org/people/akennedybrewer/sounds/389170/",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "evidence": "cotton.html",
+    "evidenceSha256": "3162a90d04fc5d23bc3023f43c17744a7919e8aa79c3ddf73650caf006bb5735",
+    "checkedOn": "2026-10-11",
+    "download": "https://cdn.freesound.org/previews/389/389170_7268131-hq.mp3",
+    "file": "cotton.mp3",
+    "sha256": "faeb3945123ed296292a69ddc51687777bd02d81ceef797c0be5e9782818fa42",
+    "formatNote": "Public HQ MP3 preview; not original WAV"
+  },
+  {
+    "slug": "fabric",
+    "author": "David_Jacob",
+    "title": "Moving fabric.mp3",
+    "page": "https://freesound.org/people/David_Jacob/sounds/434652/",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "evidence": "fabric.html",
+    "evidenceSha256": "ca8a527645960410a86d5776b1e9a79f52094d305d6c6a5ca5538969f3691fe1",
+    "checkedOn": "2026-10-11",
+    "download": "https://cdn.freesound.org/previews/434/434652_7806481-hq.mp3",
+    "file": "fabric.mp3",
+    "sha256": "94c4ddea3e4f55e13f2a232690361dbcf9f2563369c8da3db3a4495a21217249",
+    "formatNote": "Public HQ MP3 preview; not original WAV"
+  }
+]

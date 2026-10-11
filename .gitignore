@@ -9,3 +9,34 @@ Thumbs.db
 .sites-runtime/
 .sites-checkout/
 .sites-checkout-*/
+
+# Rebuildable single-file distribution; keep the source dist/index.html tracked.
+/方块乱斗-最新版.html
+
+# Generated QA screenshots, audition media and review pages.
+/validation/**/*.png
+/validation/**/*.jpg
+/validation/**/*.jpeg
+/validation/**/*.webp
+/validation/**/*.wav
+/validation/**/*.ogg
+/validation/**/*.mp3
+/validation/**/*.mp4
+/validation/**/*.html
+
+# Downloaded audio packs and discarded source auditions.
+/references/**/*.zip
+/references/**/*.7z
+/references/**/*.mp3
+/references/**/*.flac
+/references/**/*.ogg
+/references/**/*.wav
+!/references/audio-stage4/**/click_001.ogg
+!/references/audio-stage4/**/click_003.ogg
+!/references/audio-stage4/**/card-shuffle.ogg
+!/references/audio-stage4/**/card-fan-1.ogg
+!/references/audio-stage4/**/card-shove-2.ogg
+!/references/audio-stage4/*.wav
+!/references/audio-stage2/p_2.ogg
+!/references/audio-stage2/marimba-c4.wav
+!/references/audio-stage2/marimba-g4.wav

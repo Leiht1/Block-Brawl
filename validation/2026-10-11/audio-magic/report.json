@@ -1,0 +1,953 @@
+{
+  "checks": [
+    "Starts enabled with 10 configured core IDs, 24 reserved IDs and no initial audio requests",
+    "All 17 WAV files loaded, emitted playing and ended, respected per-file volume, and released their slots",
+    "Actual pointer swaps in nine existing practice boards trigger match, chain, create, line, bomb, combo and fall; clear/fall transactions settle",
+    "Actual invalid exchange reverts at unchanged 100+90ms and plays the soft rebound",
+    "100 fast clears accept one cue; another at 130ms cannot overlap/interrupt it; it ends normally with no queued replay",
+    "Toggle preserves board/score/locks/transactions; actual three-match settles with sound off; seeded unit test compares complete enabled/disabled/detached traces",
+    {
+      "countdown": [
+        {
+          "id": "ui.countdown",
+          "options": {
+            "variant": "3"
+          },
+          "accepted": true,
+          "at": 5500
+        },
+        {
+          "id": "ui.countdown",
+          "options": {
+            "variant": "2"
+          },
+          "accepted": true,
+          "at": 6500
+        },
+        {
+          "id": "ui.countdown",
+          "options": {
+            "variant": "1"
+          },
+          "accepted": true,
+          "at": 7500
+        },
+        {
+          "id": "ui.countdown",
+          "options": {
+            "variant": "start"
+          },
+          "accepted": true,
+          "at": 8500
+        }
+      ],
+      "status": "playing"
+    },
+    "No page errors, media errors or 404s; runtime AudioContext is prohibited throughout validation",
+    {
+      "realtimePlay": "Native RAF/media; six actual pointer scenarios settle and accept expected core cues",
+      "runs": [
+        {
+          "mode": "three",
+          "calls": [
+            {
+              "id": "block.swap",
+              "accepted": true,
+              "at": 376.7999999523163
+            },
+            {
+              "id": "block.match3",
+              "accepted": true,
+              "at": 477.2000000476837
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 760.2000000476837
+            }
+          ],
+          "score": 30,
+          "bestChain": 1
+        },
+        {
+          "mode": "chain",
+          "calls": [
+            {
+              "id": "block.swap",
+              "accepted": true,
+              "at": 1064
+            },
+            {
+              "id": "block.match3",
+              "accepted": true,
+              "at": 1164.2999999523163
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 1447.4000000953674
+            },
+            {
+              "id": "block.combo",
+              "options": {
+                "variant": "combo1"
+              },
+              "accepted": true,
+              "at": 1697.7000000476837
+            },
+            {
+              "id": "special.create",
+              "accepted": true,
+              "at": 1698.2000000476837
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 1980.2000000476837
+            }
+          ],
+          "score": 150,
+          "bestChain": 2
+        },
+        {
+          "mode": "row",
+          "calls": [
+            {
+              "id": "block.swap",
+              "accepted": true,
+              "at": 2305
+            },
+            {
+              "id": "special.line",
+              "accepted": true,
+              "at": 2401.4000000953674
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 2685
+            }
+          ],
+          "score": 80,
+          "bestChain": 1
+        },
+        {
+          "mode": "combo-lines",
+          "calls": [
+            {
+              "id": "block.swap",
+              "accepted": true,
+              "at": 2981.5
+            },
+            {
+              "id": "special.combo",
+              "options": {
+                "variant": "line-line"
+              },
+              "accepted": true,
+              "at": 3068.2000000476837
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 3488.7000000476837
+            },
+            {
+              "id": "block.combo",
+              "options": {
+                "variant": "combo1"
+              },
+              "accepted": true,
+              "at": 3739
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 4021.7999999523163
+            }
+          ],
+          "score": 210,
+          "bestChain": 2
+        },
+        {
+          "mode": "combo-cross",
+          "calls": [
+            {
+              "id": "block.swap",
+              "accepted": true,
+              "at": 4329.900000095367
+            },
+            {
+              "id": "special.combo",
+              "options": {
+                "variant": "line-blast"
+              },
+              "accepted": true,
+              "at": 4426.299999952316
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 4846.900000095367
+            }
+          ],
+          "score": 240,
+          "bestChain": 1
+        },
+        {
+          "mode": "combo-blasts",
+          "calls": [
+            {
+              "id": "block.swap",
+              "accepted": true,
+              "at": 5241.400000095367
+            },
+            {
+              "id": "special.combo",
+              "options": {
+                "variant": "blast-blast"
+              },
+              "accepted": true,
+              "at": 5330.5
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 5753.600000143051
+            },
+            {
+              "id": "block.combo",
+              "options": {
+                "variant": "combo1"
+              },
+              "accepted": true,
+              "at": 6005.100000143051
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 6288.200000047684
+            },
+            {
+              "id": "block.combo",
+              "options": {
+                "variant": "combo2"
+              },
+              "accepted": true,
+              "at": 6538.700000047684
+            },
+            {
+              "id": "special.create",
+              "accepted": true,
+              "at": 6539
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 6821.400000095367
+            },
+            {
+              "id": "special.bomb",
+              "accepted": true,
+              "at": 7075.700000047684
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 7359.200000047684
+            },
+            {
+              "id": "block.combo",
+              "options": {
+                "variant": "combo3"
+              },
+              "accepted": true,
+              "at": 7609.299999952316
+            },
+            {
+              "id": "block.fall",
+              "accepted": true,
+              "at": 7892.5
+            }
+          ],
+          "score": 1240,
+          "bestChain": 5
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "id": "ui.countdown",
+      "variant": "default",
+      "file": "./assets/audio/ui/countdown-3-v2.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/ui/countdown-3-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.42,
+      "duration": 0.21
+    },
+    {
+      "id": "ui.countdown",
+      "variant": "1",
+      "file": "./assets/audio/ui/countdown-1-v2.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/ui/countdown-1-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.46,
+      "duration": 0.21
+    },
+    {
+      "id": "ui.countdown",
+      "variant": "2",
+      "file": "./assets/audio/ui/countdown-2-v2.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/ui/countdown-2-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.44,
+      "duration": 0.21
+    },
+    {
+      "id": "ui.countdown",
+      "variant": "start",
+      "file": "./assets/audio/ui/countdown-start-v2.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/ui/countdown-start-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.64,
+      "duration": 0.4
+    },
+    {
+      "id": "block.swap",
+      "variant": "default",
+      "file": "./assets/audio/block/block-swap-v1.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.58,
+      "duration": 0.12
+    },
+    {
+      "id": "block.invalid",
+      "variant": "default",
+      "file": "./assets/audio/block/block-invalid-v1.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/block/block-invalid-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.32,
+      "duration": 0.22
+    },
+    {
+      "id": "block.match3",
+      "variant": "default",
+      "file": "./assets/audio/block/block-match3-v2.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/block/block-match3-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.46,
+      "duration": 0.09
+    },
+    {
+      "id": "block.combo",
+      "variant": "default",
+      "file": "./assets/audio/combo/combo1-v2.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/combo/combo1-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.48,
+      "duration": 0.15
+    },
+    {
+      "id": "block.combo",
+      "variant": "combo2",
+      "file": "./assets/audio/combo/combo2-v2.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/combo/combo2-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.51,
+      "duration": 0.174989
+    },
+    {
+      "id": "block.combo",
+      "variant": "combo3",
+      "file": "./assets/audio/combo/combo3-v2.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/combo/combo3-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.54,
+      "duration": 0.2
+    },
+    {
+      "id": "block.fall",
+      "variant": "default",
+      "file": "./assets/audio/block/block-fall-v1.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.24,
+      "duration": 0.1
+    },
+    {
+      "id": "special.create",
+      "variant": "default",
+      "file": "./assets/audio/special/special-create-v3.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/special/special-create-v3.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.4,
+      "duration": 0.36
+    },
+    {
+      "id": "special.line",
+      "variant": "default",
+      "file": "./assets/audio/special/special-line-v3.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/special/special-line-v3.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.66,
+      "duration": 0.4
+    },
+    {
+      "id": "special.bomb",
+      "variant": "default",
+      "file": "./assets/audio/special/special-bomb-v3.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/special/special-bomb-v3.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.68,
+      "duration": 0.5
+    },
+    {
+      "id": "special.combo",
+      "variant": "default",
+      "file": "./assets/audio/special/special-combo-lines-v3.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/special/special-combo-lines-v3.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.72,
+      "duration": 0.56
+    },
+    {
+      "id": "special.combo",
+      "variant": "line-blast",
+      "file": "./assets/audio/special/special-combo-line-blast-v3.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/special/special-combo-line-blast-v3.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.78,
+      "duration": 0.68
+    },
+    {
+      "id": "special.combo",
+      "variant": "blast-blast",
+      "file": "./assets/audio/special/special-combo-blasts-v3.wav",
+      "src": "http://127.0.0.1:56740/assets/audio/special/special-combo-blasts-v3.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "volume": 0.9,
+      "duration": 0.95
+    }
+  ],
+  "gameplay": [
+    {
+      "mode": "three",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "block.match3",
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 400
+        }
+      ],
+      "score": 30,
+      "bestChain": 1,
+      "active": 0,
+      "transactions": 0
+    },
+    {
+      "mode": "chain",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "block.match3",
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 400
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "at": 650
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 950
+        }
+      ],
+      "score": 90,
+      "bestChain": 2,
+      "active": 0,
+      "transactions": 0
+    },
+    {
+      "mode": "four",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "block.match3",
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "special.create",
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 400
+        }
+      ],
+      "score": 60,
+      "bestChain": 1,
+      "active": 0,
+      "transactions": 0
+    },
+    {
+      "mode": "row",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.line",
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 400
+        }
+      ],
+      "score": 80,
+      "bestChain": 1,
+      "active": 0,
+      "transactions": 0
+    },
+    {
+      "mode": "blast",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.bomb",
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 400
+        }
+      ],
+      "score": 130,
+      "bestChain": 1,
+      "active": 0,
+      "transactions": 0
+    },
+    {
+      "mode": "combo-lines",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-line"
+          },
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 550
+        }
+      ],
+      "score": 150,
+      "bestChain": 1,
+      "active": 0,
+      "transactions": 0
+    },
+    {
+      "mode": "combo-cross",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-blast"
+          },
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 550
+        }
+      ],
+      "score": 240,
+      "bestChain": 1,
+      "active": 0,
+      "transactions": 0
+    },
+    {
+      "mode": "combo-column",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-blast"
+          },
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 550
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "at": 800
+        },
+        {
+          "id": "special.create",
+          "accepted": true,
+          "at": 800
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1100
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo2"
+          },
+          "accepted": false,
+          "at": 1350
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1650
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo3"
+          },
+          "accepted": true,
+          "at": 1900
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 2200
+        }
+      ],
+      "score": 650,
+      "bestChain": 4,
+      "active": 0,
+      "transactions": 0
+    },
+    {
+      "mode": "combo-blasts",
+      "calls": [
+        {
+          "id": "ui.click",
+          "accepted": false,
+          "at": 0
+        },
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "at": 0
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "blast-blast"
+          },
+          "accepted": true,
+          "at": 100
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 550
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "at": 800
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": false,
+          "at": 800
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1100
+        },
+        {
+          "id": "block.fall",
+          "accepted": false,
+          "at": 1100
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo2"
+          },
+          "accepted": false,
+          "at": 1350
+        },
+        {
+          "id": "special.create",
+          "accepted": true,
+          "at": 1350
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "at": 1650
+        }
+      ],
+      "score": 700,
+      "bestChain": 3,
+      "active": 0,
+      "transactions": 0
+    }
+  ],
+  "errors": [],
+  "mediaErrors": [],
+  "audioRequests": [
+    "http://127.0.0.1:56740/assets/audio/ui/countdown-3-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/ui/countdown-1-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/ui/countdown-2-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/ui/countdown-start-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-invalid-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-match3-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/combo/combo1-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/combo/combo2-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/combo/combo3-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-create-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-line-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-bomb-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-combo-lines-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-combo-line-blast-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-combo-blasts-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-match3-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-match3-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/combo/combo1-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-match3-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-create-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-line-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-bomb-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-combo-lines-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-combo-line-blast-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-combo-line-blast-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/combo/combo1-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-create-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/combo/combo3-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-combo-blasts-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/combo/combo1-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/special/special-create-v3.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-fall-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-swap-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/block/block-invalid-v1.wav",
+    "http://127.0.0.1:56740/assets/audio/combo/combo1-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/ui/countdown-3-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/ui/countdown-2-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/ui/countdown-1-v2.wav",
+    "http://127.0.0.1:56740/assets/audio/ui/countdown-start-v2.wav"
+  ],
+  "subjectiveListening": "Pending human listening; browser playing/ended and numerical headroom are not an audible style/fatigue verdict.",
+  "success": true
+}

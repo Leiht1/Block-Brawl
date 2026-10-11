@@ -1,0 +1,131 @@
+[
+  {
+    "id": "bgm.lobby",
+    "key": "A",
+    "label": "木琴积木小径",
+    "file": "clips/bgm-lobby-A.ogg",
+    "seconds": 153.6,
+    "bpm": 100,
+    "volume": 0.3,
+    "loop": true,
+    "sourceFiles": [
+      "references/audio-stage4/harp-c3.wav",
+      "references/audio-stage4/harp-c5.wav",
+      "references/audio-stage4/marimba-c4.wav",
+      "references/audio-stage4/conga.wav"
+    ],
+    "license": "Project-original arrangement; samples CC0-1.0",
+    "reason": "主旋律有短小动机，木质音色与积木一致；四段结构有留白",
+    "peak": 0.4896387457847595,
+    "rms": 0.07004291969866362,
+    "boundaryJump": 0.0001378463493892923,
+    "sha256": "3447c405629dc4cef9a28a836ab923211c0a1f1f3cbcc6d51139c0c1b56b8686",
+    "formalFile": "assets/audio/bgm/lobby/bgm-lobby-v1.ogg"
+  },
+  {
+    "id": "bgm.battle",
+    "key": "A",
+    "label": "木琴派对接力",
+    "file": "clips/bgm-battle-A.ogg",
+    "seconds": 120.0,
+    "bpm": 128,
+    "volume": 0.28,
+    "loop": true,
+    "sourceFiles": [
+      "references/audio-stage4/harp-c3.wav",
+      "references/audio-stage4/harp-c5.wav",
+      "references/audio-stage4/marimba-c4.wav",
+      "references/audio-stage4/conga.wav",
+      "references/audio-stage4/tamb.wav",
+      "references/audio-stage4/snare-tap.wav"
+    ],
+    "license": "Project-original arrangement; samples CC0-1.0",
+    "reason": "主旋律有短小动机，木质音色与积木一致；四段结构有留白",
+    "peak": 0.4833067059516907,
+    "rms": 0.08120783640811617,
+    "boundaryJump": 0.002939479425549507,
+    "sha256": "753bc25faad50d52c7cd8a2fc6ccdd3f0407a47703bac5b73600e6a930b75c5f",
+    "formalFile": "assets/audio/bgm/battle/bgm-battle-v1.ogg"
+  },
+  {
+    "id": "ui.click",
+    "key": "A",
+    "label": "柔软泡泡点按",
+    "file": "clips/ui-click-A.wav",
+    "seconds": 0.09,
+    "bpm": null,
+    "volume": 0.38,
+    "loop": false,
+    "sourceFiles": [
+      "references/audio-stage2/p_2.ogg"
+    ],
+    "license": "CC0-1.0",
+    "reason": "A短促柔和，沿用泡泡家族；B/C保留候选对比",
+    "peak": 0.680023193359375,
+    "rms": 0.16613782623915432,
+    "boundaryJump": 0.0,
+    "sha256": "658b6561ebba26bd77a80b4c68128b5e79f996301299b219a3342ae8263bd3ec",
+    "formalFile": "assets/audio/ui/ui-click-v1.wav"
+  },
+  {
+    "id": "ui.confirm",
+    "key": "A",
+    "label": "木琴短句确认",
+    "file": "clips/ui-confirm-A.wav",
+    "seconds": 0.32,
+    "bpm": null,
+    "volume": 0.46,
+    "loop": false,
+    "sourceFiles": [
+      "references/audio-stage4/marimba-c4.wav"
+    ],
+    "license": "CC0-1.0",
+    "reason": "A上扬大三和弦，较click明显但短于揭晓；B跨度更大；C轮廓较弱",
+    "peak": 0.652130126953125,
+    "rms": 0.19000011349754178,
+    "boundaryJump": 0.0,
+    "sha256": "dd2631369632449ee6ac040ae580775be5fc84eae38c6f15b25fbb0e1205018a",
+    "formalFile": "assets/audio/ui/ui-confirm-v1.wav"
+  },
+  {
+    "id": "map.shuffle",
+    "key": "B",
+    "label": "纸牌展扇",
+    "file": "clips/map-shuffle-B.wav",
+    "seconds": 0.42,
+    "bpm": null,
+    "volume": 0.36,
+    "loop": false,
+    "sourceFiles": [
+      "references/audio-stage4/casino-audio/Audio/card-fan-1.ogg"
+    ],
+    "license": "CC0-1.0",
+    "reason": "B纸牌展扇摩擦更均匀，420ms内可辨；录音RMS高于A/C，低增益下仍清楚",
+    "peak": 0.680023193359375,
+    "rms": 0.08088635595269311,
+    "boundaryJump": 0.0,
+    "sha256": "8dc8ffd75455b89f69f1398fe8e17316b1ff5231dc1409b4158266169570696e",
+    "formalFile": "assets/audio/ui/map-shuffle-v1.wav"
+  },
+  {
+    "id": "map.reveal",
+    "key": "A",
+    "label": "木琴与拨弦揭晓",
+    "file": "clips/map-reveal-A.wav",
+    "seconds": 0.66,
+    "bpm": null,
+    "volume": 0.5,
+    "loop": false,
+    "sourceFiles": [
+      "references/audio-stage4/marimba-c4.wav",
+      "references/audio-stage4/harp-c5.wav"
+    ],
+    "license": "CC0-1.0",
+    "reason": "A大三和弦有清楚落点，低于高位C，B悬念较长",
+    "peak": 0.67999267578125,
+    "rms": 0.1352177074758109,
+    "boundaryJump": 0.0,
+    "sha256": "7b2b74b3ab9357d59b04f630a08202a4ac4d9cd792f983366686da9216f2b3ef",
+    "formalFile": "assets/audio/ui/map-reveal-v1.wav"
+  }
+]

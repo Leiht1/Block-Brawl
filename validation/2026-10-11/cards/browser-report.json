@@ -1,0 +1,179 @@
+{
+  "checks": [
+    "map reveal precedes 12-card selection with six player slots and 30s timer",
+    "AI progress uses card backs only; specific choices never appear in selection DOM",
+    "selected card slots support explicit replacement and removal",
+    "both ready starts immediately with zero starting cards, zero energy and next preview",
+    "real energy accrual generates first card and AI begins playing earned cards",
+    "six-card hand overflows into preview and newer overflow replaces older one",
+    "six hands fan out with distinct rotations and real overlap",
+    "hover enlarges and foregrounds one card while all neighbors remain fixed",
+    "wrong-side release returns the card and consumes nothing",
+    "minimum drag distance enforced with return animation",
+    "valid enemy cast consumes one card, animates out and promotes overflow into hand",
+    "yellow card drag buffs only own board",
+    "blue freeze displays on enemy board and expires exactly after 3s",
+    "red attack marks three enemy cells and resolves delayed destruction",
+    "click selects persistently; energy draws preserve selection and live drag until successful release",
+    "four desktop viewports keep equal boards and complete hand region within screen",
+    "30s timeout preserves player choice, fills both decks, and starts from zero",
+    "real legal swap crossing 15000 ends the match, stops cards and shows result",
+    "restart, result return and selection cancellation clean old effects and deadlines",
+    "rebuilt standalone HTML works offline with zero starting hand and natural first draw"
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scrollX": false,
+      "scrollY": false,
+      "board": {
+        "x": 189.5,
+        "y": 221.5,
+        "width": 400,
+        "height": 400,
+        "top": 221.5,
+        "right": 589.5,
+        "bottom": 621.5,
+        "left": 189.5
+      },
+      "opponent": {
+        "x": 835.5,
+        "y": 221.5,
+        "width": 400,
+        "height": 400,
+        "top": 221.5,
+        "right": 1235.5,
+        "bottom": 621.5,
+        "left": 835.5
+      },
+      "dock": {
+        "x": 164.5,
+        "y": 713.5,
+        "width": 1096,
+        "height": 238,
+        "top": 713.5,
+        "right": 1260.5,
+        "bottom": 951.5,
+        "left": 164.5
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "scrollX": false,
+      "scrollY": false,
+      "board": {
+        "x": 328.9375,
+        "y": 198.9375,
+        "width": 247.125,
+        "height": 247.125,
+        "top": 198.9375,
+        "right": 576.0625,
+        "bottom": 446.0625,
+        "left": 328.9375
+      },
+      "opponent": {
+        "x": 774.9375,
+        "y": 198.9375,
+        "width": 247.125,
+        "height": 247.125,
+        "top": 198.9375,
+        "right": 1022.0625,
+        "bottom": 446.0625,
+        "left": 774.9375
+      },
+      "dock": {
+        "x": 313.5,
+        "y": 524.5,
+        "width": 724,
+        "height": 238,
+        "top": 524.5,
+        "right": 1037.5,
+        "bottom": 762.5,
+        "left": 313.5
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scrollX": false,
+      "scrollY": false,
+      "board": {
+        "x": 401.15625,
+        "y": 268.15625,
+        "width": 426.6875,
+        "height": 426.6875,
+        "top": 268.15625,
+        "right": 827.84375,
+        "bottom": 694.84375,
+        "left": 401.15625
+      },
+      "opponent": {
+        "x": 1077.15625,
+        "y": 268.15625,
+        "width": 426.6875,
+        "height": 426.6875,
+        "top": 268.15625,
+        "right": 1503.84375,
+        "bottom": 694.84375,
+        "left": 1077.15625
+      },
+      "dock": {
+        "x": 374.5,
+        "y": 788.5,
+        "width": 1156,
+        "height": 238,
+        "top": 788.5,
+        "right": 1530.5,
+        "bottom": 1026.5,
+        "left": 374.5
+      }
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "scrollX": false,
+      "scrollY": false,
+      "board": {
+        "x": 157.9375,
+        "y": 198.9375,
+        "width": 247.125,
+        "height": 247.125,
+        "top": 198.9375,
+        "right": 405.0625,
+        "bottom": 446.0625,
+        "left": 157.9375
+      },
+      "opponent": {
+        "x": 603.9375,
+        "y": 198.9375,
+        "width": 247.125,
+        "height": 247.125,
+        "top": 198.9375,
+        "right": 851.0625,
+        "bottom": 446.0625,
+        "left": 603.9375
+      },
+      "dock": {
+        "x": 142.5,
+        "y": 524.5,
+        "width": 724,
+        "height": 238,
+        "top": 524.5,
+        "right": 866.5,
+        "bottom": 762.5,
+        "left": 142.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "checks": [
+    "Selected F/D bytes match audition hashes and manifest paths; A warning retained.",
+    "Real cliff engine phases emit correct IDs once across paired boards/cells and native media plays v2 files at .44/.33.",
+    "200 repeated requests accept one with no queued replay; environment mute leaves core and board state intact.",
+    "Other recordings, manager, rules, AI, scores, animations and event mapping unchanged; previous two files archived."
+  ],
+  "events": [
+    {
+      "id": "cliff.warning",
+      "src": "http://127.0.0.1:4173/dist/assets/audio/maps/cliff/cliff-warning-v1.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 1.1,
+      "volume": 0.4
+    },
+    {
+      "id": "cliff.fall",
+      "src": "http://127.0.0.1:4173/dist/assets/audio/maps/cliff/cliff-fall-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.62,
+      "volume": 0.44
+    },
+    {
+      "id": "cliff.impact",
+      "src": "http://127.0.0.1:4173/dist/assets/audio/maps/cliff/cliff-impact-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.48,
+      "volume": 0.33
+    }
+  ],
+  "files": [
+    {
+      "id": "cliff.fall",
+      "candidate": "F",
+      "file": "maps/cliff/cliff-fall-v2.wav",
+      "sha256": "b3fb58adb5eb4a2e1394574dd84fd9639199f0f16d8245ca330069fe7a934625",
+      "exactAuditionCopy": true
+    },
+    {
+      "id": "cliff.impact",
+      "candidate": "D",
+      "file": "maps/cliff/cliff-impact-v2.wav",
+      "sha256": "8a36bade9ead94b277bbf1f8c990f5e8558e367cfdada53a1a519ae901b195c1",
+      "exactAuditionCopy": true
+    }
+  ],
+  "errors": [],
+  "success": true
+}

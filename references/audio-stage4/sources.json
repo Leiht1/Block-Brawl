@@ -1,0 +1,757 @@
+[
+  {
+    "file": "harp-c3.wav",
+    "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Harp/KSHarp_C3_mf.wav",
+    "sha256": "e5d232771704e140959819de8cf2a3e0ba49d021ca77354c42664ce4fce6d9f3",
+    "author": "Sam Gossner & Simon Dalzell; Elan Hickler/Soundemote",
+    "title": "VSCO 2 Community Edition",
+    "page": "https://github.com/sgossner/VSCO-2-CE",
+    "revision": "440300901dfe9275fd84e0b7763af1f8443ae62e",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "file": "harp-c5.wav",
+    "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Harp/KSHarp_C5_mf.wav",
+    "sha256": "7c8b862f6fd3f1442ed87537af976d84bda8c05a5b4900e8907d570b5202a517",
+    "author": "Sam Gossner & Simon Dalzell; Elan Hickler/Soundemote",
+    "title": "VSCO 2 Community Edition",
+    "page": "https://github.com/sgossner/VSCO-2-CE",
+    "revision": "440300901dfe9275fd84e0b7763af1f8443ae62e",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "file": "conga.wav",
+    "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Conga-Tap1_v1_rr1_Sum.wav",
+    "sha256": "2be9975136b25de9280cb4bef273ff4234d3f61068912f795e3b58b05384d3b9",
+    "author": "Sam Gossner & Simon Dalzell; Elan Hickler/Soundemote",
+    "title": "VSCO 2 Community Edition",
+    "page": "https://github.com/sgossner/VSCO-2-CE",
+    "revision": "440300901dfe9275fd84e0b7763af1f8443ae62e",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "file": "tamb.wav",
+    "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Tamb1-Shake_v1_rr1_Sum.wav",
+    "sha256": "b1d75eb17eef1ee45b5d31a8b185da34bfc682b83d2d283bd5ba94a0e1f0a670",
+    "author": "Sam Gossner & Simon Dalzell; Elan Hickler/Soundemote",
+    "title": "VSCO 2 Community Edition",
+    "page": "https://github.com/sgossner/VSCO-2-CE",
+    "revision": "440300901dfe9275fd84e0b7763af1f8443ae62e",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "file": "snare-tap.wav",
+    "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Snare2-taps_v1_rr1_Sum.wav",
+    "sha256": "caef1d3b27c07573c990b91ffbd203701dea76958e01736a4ad68fc2ce5bd198",
+    "author": "Sam Gossner & Simon Dalzell; Elan Hickler/Soundemote",
+    "title": "VSCO 2 Community Edition",
+    "page": "https://github.com/sgossner/VSCO-2-CE",
+    "revision": "440300901dfe9275fd84e0b7763af1f8443ae62e",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "author": "trezegames",
+    "title": "Pop effect sounds",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/pop-effect-sounds",
+    "evidence": "pop-effect-sounds.html",
+    "files": [
+      {
+        "file": "p_1.ogg",
+        "sha256": "189b05f2a278053f9b29b70f79746bf2d81e34b5e01502c10eb3691892a73b68",
+        "download": "https://opengameart.org/sites/default/files/p_1.ogg"
+      },
+      {
+        "file": "p_2.ogg",
+        "sha256": "191935b3c7a1ec3b09a6ae98fa830a86049edc177e670383b780fb5694aaff1e",
+        "download": "https://opengameart.org/sites/default/files/p_2.ogg"
+      },
+      {
+        "file": "p_3.ogg",
+        "sha256": "1d4f456714c70b83de02efe4d54f65ff6dfb2c74fec3a7ecd4aa8dde137424f3",
+        "download": "https://opengameart.org/sites/default/files/p_3.ogg"
+      }
+    ],
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "7f88a078f1cd58b3ccfc9a23f054f891c16b286dfd3f06a06a0223828f8953c4"
+  },
+  {
+    "author": "Sam Gossner & Simon Dalzell; sample cutting: Elan Hickler / Soundemote",
+    "title": "VSCO 2 Community Edition — Marimba",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://github.com/sgossner/VSCO-2-CE/blob/440300901dfe9275fd84e0b7763af1f8443ae62e/LICENSE",
+    "page": "https://github.com/sgossner/VSCO-2-CE",
+    "evidence": "vsco-README.md",
+    "licenseEvidence": "vsco-LICENSE.txt",
+    "revision": "440300901dfe9275fd84e0b7763af1f8443ae62e",
+    "files": [
+      {
+        "file": "marimba-c4.wav",
+        "sha256": "4af539d47a452d7fad26e171b1c8adcca272cee97191f040d192680462c880b8",
+        "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav"
+      },
+      {
+        "file": "marimba-g4.wav",
+        "sha256": "36f39f9f24789001add2b4c440defb7641178b0e8449c5cb7f1960bccaf0aaaf",
+        "download": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav"
+      }
+    ],
+    "downloads": {
+      "marimba-c4.wav": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Marimba/Marimba_hit_Outrigger_C4_loud_01.wav",
+      "marimba-g4.wav": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Percussion/Marimba/Marimba_hit_Outrigger_G4_loud_01.wav"
+    },
+    "checkedOn": "2026-10-11",
+    "evidenceSha256": "8fbf399338661e6c76585ad9e75eb10324f823935168e0567553293a83f200a0",
+    "licenseEvidenceSha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+  },
+  {
+    "title": "casino-audio",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/casino-audio",
+    "download": "https://kenney.nl/media/pages/assets/casino-audio/2472606a04-1721639069/kenney_casino-audio.zip",
+    "archive": "casino-audio.zip",
+    "sha256": "f36250766ac5bc378c13708ddf12a23a8e54a3251f8d482c7536e51b5dbafa18",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "files": [
+      {
+        "file": "casino-audio\\Preview.ogg",
+        "sha256": "14038ebbdfa096ce32bf6e358c00b6ae9d168d6be9cd080840ca3b896cc5f217"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-fan-1.ogg",
+        "sha256": "7a9758ccad8899baef1b9f60b4064e4baa724a548293832fdaea07e6e07e638d"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-fan-2.ogg",
+        "sha256": "5743373c9dde00c6eee949a2c8e65d75946522768999167e1f5632451630e848"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-place-1.ogg",
+        "sha256": "d8f26c33a665dcbdcc6f632f6050bc9dd548feb0d4942d4547615926d3926810"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-place-2.ogg",
+        "sha256": "903d5050718595e87864dd755643b476ab1a5533080dcc2dddc72570d33ba9f8"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-place-3.ogg",
+        "sha256": "1d988631a6e5201ed1bb0d728f2e43a3ec79401258426858793598044ac95841"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-place-4.ogg",
+        "sha256": "18e3ba713b7259605fd27cdc048085ed56cf86b32403f070b6cb125019f77183"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-shove-1.ogg",
+        "sha256": "1ea667aa6795d5f14239192116ebcbd8f3f47eb1c7faaf2ec56844b9067b8b06"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-shove-2.ogg",
+        "sha256": "8e95c1d3ae94b5b91bc663432ad7c3bf4e03a541c22ec10fa51c65fe0e29054b"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-shove-3.ogg",
+        "sha256": "399520d483a1466fcaa850b9c407b4edbd5c7f0cbdf17e84dea12e9636326d0d"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-shove-4.ogg",
+        "sha256": "0a1ad3a2f16bd2ed73349e6342426ca7a59a6e26b7e26e36d51d51c2c2349d6f"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-shuffle.ogg",
+        "sha256": "96c84883a30845ede723a4cf2e8369e9837e7dd4e0d4eb0212b0a7ed21b0f544"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-slide-1.ogg",
+        "sha256": "006cf9822d15d7063f8899e56041f41646df30adb6fbd8b974ee5d5420012690"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-slide-2.ogg",
+        "sha256": "e674a1679ec87b507047fe012d068ad2c412125f56186f0e732684705c2a6888"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-slide-3.ogg",
+        "sha256": "af2ab62656cb3df73316ce5771b8ee1111a840962b21607e3202151e7413c52c"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-slide-4.ogg",
+        "sha256": "b9c82bcdbe6b7d00a06e2546bd2683a9ab082ca5fd090a42882f33eddd925b7f"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-slide-5.ogg",
+        "sha256": "8638ab0c17f029aded0e27a4f9b9bb9f8c621b19a6e9975e855cb40ea63e2201"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-slide-6.ogg",
+        "sha256": "be85da181ac879c20cb667d0f9f156dbdc236d3751737ad27359a15e946430a0"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-slide-7.ogg",
+        "sha256": "bda2040194f43484d03ee3c65ed6fff57251882ea7227abce4214bfa30bf2705"
+      },
+      {
+        "file": "casino-audio\\Audio\\card-slide-8.ogg",
+        "sha256": "95d9aa26f8c63af9934f27a8e3b7e9b583f177640f0bbd6982f12dba52b9ae6b"
+      },
+      {
+        "file": "casino-audio\\Audio\\cards-pack-open-1.ogg",
+        "sha256": "1214059fdfbf1c396c0702244fc833739cc346d326a71e450b731f456e54d6fb"
+      },
+      {
+        "file": "casino-audio\\Audio\\cards-pack-open-2.ogg",
+        "sha256": "49e02479815c69cd303e0d8f12952c0492d5b3e555838f3485cc25a09818e6fb"
+      },
+      {
+        "file": "casino-audio\\Audio\\cards-pack-take-out-1.ogg",
+        "sha256": "6d38b979f64d20e4153173187ed67b04c6c004767c0a43eddb65c75fa925a1c4"
+      },
+      {
+        "file": "casino-audio\\Audio\\cards-pack-take-out-2.ogg",
+        "sha256": "d991829eeaf7e5a6f8462594e5be0d91535309ffd6249278f34eec70470395a4"
+      },
+      {
+        "file": "casino-audio\\Audio\\chip-lay-1.ogg",
+        "sha256": "4b2111252ccb64eed67f171e061053849cfbb29873536c03948646f244a3905c"
+      },
+      {
+        "file": "casino-audio\\Audio\\chip-lay-2.ogg",
+        "sha256": "8ca8b2d450741c04ed7b4ba51ed3f73c2400c8b3dbe83b974be4fe4774a76712"
+      },
+      {
+        "file": "casino-audio\\Audio\\chip-lay-3.ogg",
+        "sha256": "bf24ebb417b6279568800dffdb0205d3ec8854c7efe179e8964755a6341727aa"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-collide-1.ogg",
+        "sha256": "f41b3d106360fc68ebc061a211d4265b4cb5fa1fbe86e4d57d3673510e2c3784"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-collide-2.ogg",
+        "sha256": "2a10c5ff4b2fbaa55a317fc258ddce3fec85bd26db2d3c2ad298b3b33ce23bc6"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-collide-3.ogg",
+        "sha256": "1c5e885f72b64c38fff7ef05579e49310e7acf026cf123ffb65fffb57fb06e1c"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-collide-4.ogg",
+        "sha256": "1ffa34af64adc62fce583c5aa9a3c98287b1673ef191576a5571f1ffd39529dd"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-handle-1.ogg",
+        "sha256": "a2c495237fb0dc0dc96ccc2c9840572edd226e6459398ecb631c6c9f9e5408f0"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-handle-2.ogg",
+        "sha256": "099b6d7d3a71e7d22171a93d124e7366e326d32eb85d718ba29abded8a49c329"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-handle-3.ogg",
+        "sha256": "7c5a86e27b2bef839ae096dd655506cf46a82494bd01cc28f51bed6ab26cc342"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-handle-4.ogg",
+        "sha256": "0d171ea00224709cbe31ef95a111eabaf1382606a4836c5717043b339cbed8e9"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-handle-5.ogg",
+        "sha256": "589753ea21b1955626e82975be8979f42140f5b0645a8c33c2d1f7e33fba68cb"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-handle-6.ogg",
+        "sha256": "527d4d3de55cc261dc476329b71a750c296f3ad633ac50318d913976bb89857c"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-stack-1.ogg",
+        "sha256": "12bf175b9afcea112175b241ad3336c6244ac5fdcdff8b5942ecc03f2225e0c4"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-stack-2.ogg",
+        "sha256": "9f985e766c3557eef1764240b48e30b2f0ffa870a99f05de85cd6bf0ea758ef5"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-stack-3.ogg",
+        "sha256": "48cc0f01e2b62be7677f2e8c02177906cab80e96fa8176fa05b3ced35bc2a9c2"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-stack-4.ogg",
+        "sha256": "129a3af12f096ef9d8326b32c3c674d687f1a0b447157ccd02fb431ba134b580"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-stack-5.ogg",
+        "sha256": "42dd800e3e24bbd07d3ebfc86c44b6500d376641e30270dc363d95a73e90b56e"
+      },
+      {
+        "file": "casino-audio\\Audio\\chips-stack-6.ogg",
+        "sha256": "5ec35171aa65bf5edd977e293523a649227accf36e682bf1ac9a84286f04c682"
+      },
+      {
+        "file": "casino-audio\\Audio\\dice-grab-1.ogg",
+        "sha256": "1952cf1987b2c1ebb035b30b5f0caf23604b6ce4c88b6a226fe6e6257ce730f3"
+      },
+      {
+        "file": "casino-audio\\Audio\\dice-grab-2.ogg",
+        "sha256": "4eb4940d1e71aa3f6ac5f865b6b47748a492adf6a83d622c8efe6284dbebbd2c"
+      },
+      {
+        "file": "casino-audio\\Audio\\dice-shake-1.ogg",
+        "sha256": "ba603441c857204dbe3ff3345902c7e1c3f523bf1bd314acf088609bc6c1e4e5"
+      },
+      {
+        "file": "casino-audio\\Audio\\dice-shake-2.ogg",
+        "sha256": "47e8e2cb0adb95bcd7348b58db8dc2bbfe3c553e50a4e9ef007e67891ed51ca2"
+      },
+      {
+        "file": "casino-audio\\Audio\\dice-shake-3.ogg",
+        "sha256": "aecd1dd0de6e42ebb510d1f9bfe91a580a8af238dd73bdfda368b90b894b5c09"
+      },
+      {
+        "file": "casino-audio\\Audio\\dice-throw-1.ogg",
+        "sha256": "4e6581c73465cdd7ec32e86a709b4ea5c682e819c9bdb7989d1df1880ba67886"
+      },
+      {
+        "file": "casino-audio\\Audio\\dice-throw-2.ogg",
+        "sha256": "e0b8c370503b2c5c2a72d311cccae30fe63a6afd48f2be32e771fcf1a98585d6"
+      },
+      {
+        "file": "casino-audio\\Audio\\dice-throw-3.ogg",
+        "sha256": "09c13d35a9a30bfce31a5e9bca94adc5be189ddecd0b4500237d54c7fd05227c"
+      },
+      {
+        "file": "casino-audio\\Audio\\die-throw-1.ogg",
+        "sha256": "b31d716165be60e442da3c1ca25a3968aad1e0851a7f0859f495aecc02fd9e13"
+      },
+      {
+        "file": "casino-audio\\Audio\\die-throw-2.ogg",
+        "sha256": "a2702cfe14d24aab302483a1499daa88474a4af4acd794b58d97f4af16333b3d"
+      },
+      {
+        "file": "casino-audio\\Audio\\die-throw-3.ogg",
+        "sha256": "52fc44c7bb89328a147738574c925508c34abf4c19a014575b37ffb8c6b02437"
+      },
+      {
+        "file": "casino-audio\\Audio\\die-throw-4.ogg",
+        "sha256": "6253cabcb10c4152548cbc9d3ea87c1bf1bd484f0bd8d6b73c542e690509c0fd"
+      }
+    ]
+  },
+  {
+    "title": "interface-sounds",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+    "archive": "interface-sounds.zip",
+    "sha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "files": [
+      {
+        "file": "interface-sounds\\Audio\\back_001.ogg",
+        "sha256": "07db973f79f6ae0f2edc34561e7592e24d0577455919fb602cb8ecc0da991dcf"
+      },
+      {
+        "file": "interface-sounds\\Audio\\back_002.ogg",
+        "sha256": "61581c58194e3f19f531072edabbc344204c7e0a2887b8ededce4357bcf09195"
+      },
+      {
+        "file": "interface-sounds\\Audio\\back_003.ogg",
+        "sha256": "ff5e87de1230b1a5f1fa83e5a4ba9d7eb1c07154267ac34b510a17d4caa03cef"
+      },
+      {
+        "file": "interface-sounds\\Audio\\back_004.ogg",
+        "sha256": "c22e3c49f42c2a5ba6748e91283efe124f32822469c1258c3e5d7b3d7ab9361c"
+      },
+      {
+        "file": "interface-sounds\\Audio\\bong_001.ogg",
+        "sha256": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710"
+      },
+      {
+        "file": "interface-sounds\\Audio\\click_001.ogg",
+        "sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9"
+      },
+      {
+        "file": "interface-sounds\\Audio\\click_002.ogg",
+        "sha256": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c"
+      },
+      {
+        "file": "interface-sounds\\Audio\\click_003.ogg",
+        "sha256": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292"
+      },
+      {
+        "file": "interface-sounds\\Audio\\click_004.ogg",
+        "sha256": "09e2c1b643b71b9aff9932b4e02d78db116446b9a14b00a5b2a9b28d2668fd8e"
+      },
+      {
+        "file": "interface-sounds\\Audio\\click_005.ogg",
+        "sha256": "a3ee7ebb036bc3cdc218ae52bb27548c4f49bcf07505274f8b61b1af8236acc2"
+      },
+      {
+        "file": "interface-sounds\\Audio\\close_001.ogg",
+        "sha256": "44af8249b933e0fd35ec957a638bb1a0b01f85b53fbe9674bf77bd3ca3168ef4"
+      },
+      {
+        "file": "interface-sounds\\Audio\\close_002.ogg",
+        "sha256": "bc4279d2bb2bf86592473eab6a8eab55e51b54a8619315000dbd780a83b102d8"
+      },
+      {
+        "file": "interface-sounds\\Audio\\close_003.ogg",
+        "sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05"
+      },
+      {
+        "file": "interface-sounds\\Audio\\close_004.ogg",
+        "sha256": "41b41e01ac75f4bc5a9c8dc3b0de744fa7f877757463692783c12a8ae4bfae6b"
+      },
+      {
+        "file": "interface-sounds\\Audio\\confirmation_001.ogg",
+        "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+      },
+      {
+        "file": "interface-sounds\\Audio\\confirmation_002.ogg",
+        "sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c"
+      },
+      {
+        "file": "interface-sounds\\Audio\\confirmation_003.ogg",
+        "sha256": "3091bf0be0497f825769ee0733ca7bdc3bcd59bd6c6e8f2ba8f93d580ff38022"
+      },
+      {
+        "file": "interface-sounds\\Audio\\confirmation_004.ogg",
+        "sha256": "568967a3d9f8a8f6af54ea01729c4882284308f2a27d78c07ffd7ee0d6951661"
+      },
+      {
+        "file": "interface-sounds\\Audio\\drop_001.ogg",
+        "sha256": "692ee3a6f1821402ca649ff735bee9591dc4846c8098fc7d6a90fd15fa57c1af"
+      },
+      {
+        "file": "interface-sounds\\Audio\\drop_002.ogg",
+        "sha256": "4ac4d1cef7e936965cbf795852ca2020300b9e2ba7daa59f2bf4f1f7bf416218"
+      },
+      {
+        "file": "interface-sounds\\Audio\\drop_003.ogg",
+        "sha256": "43d086d50f90493a98cd2e09aa6dbf150d164f1578e1ec768d21cb185571ad87"
+      },
+      {
+        "file": "interface-sounds\\Audio\\drop_004.ogg",
+        "sha256": "10738707f9300f9b963ceba46d5da2ed4a221faf7d39484a643c2d3bc151c5f2"
+      },
+      {
+        "file": "interface-sounds\\Audio\\error_001.ogg",
+        "sha256": "46e67425d16339772e8d328fb36a49426c9467418686e11beeb71ff84b0f6433"
+      },
+      {
+        "file": "interface-sounds\\Audio\\error_002.ogg",
+        "sha256": "76810ec365f41078fd0507101da5bb7b8730fe011dde43908329fdabd8575e79"
+      },
+      {
+        "file": "interface-sounds\\Audio\\error_003.ogg",
+        "sha256": "885b28175c7b511118bcffab95675b48bbac9005cf6514656ebdad979276b3ab"
+      },
+      {
+        "file": "interface-sounds\\Audio\\error_004.ogg",
+        "sha256": "0b574cea597d96507e782ae9764f88482ce49f46e931e57054bf7150047f2d69"
+      },
+      {
+        "file": "interface-sounds\\Audio\\error_005.ogg",
+        "sha256": "3f75b11df5b06d68d2c25fbf0e9c9d9e7dd9250562a4007ee34856b8a309a2ae"
+      },
+      {
+        "file": "interface-sounds\\Audio\\error_006.ogg",
+        "sha256": "a97513d7fd2b12b1210c423be943b4c1ab0e899b11db95855e9b74836e646ae0"
+      },
+      {
+        "file": "interface-sounds\\Audio\\error_007.ogg",
+        "sha256": "f1ee4c1ac8bfe1a82eacb54b26f49e8974bab93bcf10c01800bc10dbf730f559"
+      },
+      {
+        "file": "interface-sounds\\Audio\\error_008.ogg",
+        "sha256": "eba17ecb2a426bfd4a8a6acff5f8a86202b6424a77af0fd842e37809a1ab6d81"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glass_001.ogg",
+        "sha256": "183eebee20eb0a532b0b85104d139cbf2673eb66d95c3cc733ac9ea98362e7e8"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glass_002.ogg",
+        "sha256": "08e972c73e53c91d6d310e107e80db60edce78ae47225889a028e628a6f3da49"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glass_003.ogg",
+        "sha256": "9a6f16e3c2eff6fe5d017a4755a28306b14555728831cd00d70308e8f9689566"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glass_004.ogg",
+        "sha256": "2379b58f953e3d86982aa8cddcae763022c6258e9820171bf905ce58b4e97766"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glass_005.ogg",
+        "sha256": "1f6c88008d0d9fe449197512811785e1d4638daf408a96a4a02756530e019172"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glass_006.ogg",
+        "sha256": "840500be48078f1210f1fd7a9ac4e5665ed9b6f4a2b8dce91a237152a65e94cc"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glitch_001.ogg",
+        "sha256": "da78c642bbd95da2c364ed0e991ebbfc5a4c0d281165d932b5819e0dd31a39d2"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glitch_002.ogg",
+        "sha256": "1da06a2e63ce131f5e0316ca27c75fc0d672db7a8f9b986c70693f2bd992eabc"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glitch_003.ogg",
+        "sha256": "d55e0c64aee9f1ab2ba9523d0e256ca76639c3ec2f230405e2ff25aff36020b3"
+      },
+      {
+        "file": "interface-sounds\\Audio\\glitch_004.ogg",
+        "sha256": "d0f4db4d12f88592bc328bd621d356d099eaa2dda37bab37a6cf17891c5026d1"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_001.ogg",
+        "sha256": "fd3e75e1de2f2fda90aceeacaeb0427ac8bddd3b07a6ce2a8f9ba923df3771f9"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_002.ogg",
+        "sha256": "cc51162cb4506158b953b121bf479aad070056533ade5c5cd2f980183127ceb4"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_003.ogg",
+        "sha256": "df16f25d45189f5d44d6a482ab20d5067350ca8525a9affa1f8ce599e31a20a5"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_004.ogg",
+        "sha256": "59c7a24b204be24d2a44a86d1e4d18c2cf51fa0446967a14b2590e8fb3afaf34"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_005.ogg",
+        "sha256": "0ee06fc3ee494723fc95b2224f9dc0af857f2903e7f94d5d33d8e67f454b3cf7"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_006.ogg",
+        "sha256": "f050b3bb77cb0b901bc8df43d2cc1872c353aebae10b4030cf8ae681726ad343"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_007.ogg",
+        "sha256": "3400931f3f3a1e9cf253efef9069bcdf053edd2234e4ee9bf88977c389943484"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_008.ogg",
+        "sha256": "57c074e600e193a303ce781c04c0ccc191c6030f9f106594fd94a65e55435c17"
+      },
+      {
+        "file": "interface-sounds\\Audio\\maximize_009.ogg",
+        "sha256": "b4d56386258b3cc1c8f6e5a22465f8cd65de3d4309e022664050f43151e466cd"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_001.ogg",
+        "sha256": "8481912bc7fa5828924a00ef15b6cd613b994956e0817bd3122065c9b2896d2d"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_002.ogg",
+        "sha256": "670e47846dc003fe29d39c8dfebb8635bfcacae3c0916392c0e8bff659493ad6"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_003.ogg",
+        "sha256": "400e1041499de85ec8b5529a35ff36787288175c4696cf2018ecff24a3a3fd29"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_004.ogg",
+        "sha256": "fcfe6fbb03a728e90b907f34d2ec7bf3ea1857397c3e47ee01990c1be059e4f6"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_005.ogg",
+        "sha256": "4e6792a98c75d3ff187c0c55561c38c569e02c64757ebebb98831cfe84e3e172"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_006.ogg",
+        "sha256": "39d7c47855b9642f43548b7b132c20e20a1490c7eb13d10008c32fcb24da19f8"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_007.ogg",
+        "sha256": "e951505044de0d5d87b72ce7f312ac3fbbdde025ec8c10db70f9d2651a2c8947"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_008.ogg",
+        "sha256": "bc14c17875436dcaaf809c25db5e61454dbc35612880f329ff37a95ef9b6a865"
+      },
+      {
+        "file": "interface-sounds\\Audio\\minimize_009.ogg",
+        "sha256": "885c20fc8b5b52226288794842a403821cd16e9800ec1d76be7a2f1655542eb8"
+      },
+      {
+        "file": "interface-sounds\\Audio\\open_001.ogg",
+        "sha256": "a27c6bb0df7da1e6af5dd5937593c98bc58b6e513f42fe6a3254cd6a6949c648"
+      },
+      {
+        "file": "interface-sounds\\Audio\\open_002.ogg",
+        "sha256": "24ff224fe2c09c6aed1b41249825382dc74cf324b887ff279d8494912ce2beee"
+      },
+      {
+        "file": "interface-sounds\\Audio\\open_003.ogg",
+        "sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d"
+      },
+      {
+        "file": "interface-sounds\\Audio\\open_004.ogg",
+        "sha256": "4e02b8287bc4d9e7bf7a889cb9e48613c8eb22a310dfb0bf29c2bfd0a1e4bea5"
+      },
+      {
+        "file": "interface-sounds\\Audio\\pluck_001.ogg",
+        "sha256": "be97ec4893a02d6eccfb678daa76c83e34cb2583b834ec2593d2641def739fa4"
+      },
+      {
+        "file": "interface-sounds\\Audio\\pluck_002.ogg",
+        "sha256": "c977fe249ff42d1c93a552b33abc13a8399df3879fa510475426e5c4bbac1da9"
+      },
+      {
+        "file": "interface-sounds\\Audio\\question_001.ogg",
+        "sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a"
+      },
+      {
+        "file": "interface-sounds\\Audio\\question_002.ogg",
+        "sha256": "46056f10c70dda860e93bd27b66f4d33c0b7154eff28def06471b50028efa5b3"
+      },
+      {
+        "file": "interface-sounds\\Audio\\question_003.ogg",
+        "sha256": "00bafc564e29c12e99da584864a750260e7110378251d63d3aa5b3d727836efe"
+      },
+      {
+        "file": "interface-sounds\\Audio\\question_004.ogg",
+        "sha256": "585ecb58b529dc49b5c5ce5ba93427bf73b7052bae55e49c43ba8f169c93ac99"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scratch_001.ogg",
+        "sha256": "5c294d2e1a6b6d07ee2d75b17105a55ad3527e5482dd60652dc49c2ea4c70096"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scratch_002.ogg",
+        "sha256": "2b07edafc1f3f49c4813f2b0ae9481c566c1f9962a22d5f5b79da7111e058e56"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scratch_003.ogg",
+        "sha256": "2d80371b55ebe2e8b916b84093a8ae7717d09a80c6b617079ade5bd0dacba7b7"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scratch_004.ogg",
+        "sha256": "26009c67ef90ee7a5a2bc458ef9e7f5a9da83da9397a830cff9e4a1813914687"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scratch_005.ogg",
+        "sha256": "65742c15dca9853611e1c9e83bd04ac0d693f79896715cafa90bad39745d7a62"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scroll_001.ogg",
+        "sha256": "320c6aafb2c7a503eae508dc443b72d7f7c0a317bfd16813157ed400cd04cf16"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scroll_002.ogg",
+        "sha256": "6fbcda22bc45349c66f1ba4b56d6c211b12264e83667de4b9af1e4ffcef74be5"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scroll_003.ogg",
+        "sha256": "c2fecaa6e37c73d7141d0bd303d1c2231428d97c19ce83d50236a56804818643"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scroll_004.ogg",
+        "sha256": "431398a3c12ba3aa30ead97f3e2f9b05eb00978facf04b31bda138ab77a2f54c"
+      },
+      {
+        "file": "interface-sounds\\Audio\\scroll_005.ogg",
+        "sha256": "e39d059462225efa31f758fb2e01871cc96781972b5062873a24a55c88174e02"
+      },
+      {
+        "file": "interface-sounds\\Audio\\select_001.ogg",
+        "sha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a"
+      },
+      {
+        "file": "interface-sounds\\Audio\\select_002.ogg",
+        "sha256": "4cc6ac5341b9b2c86fef80c347de028e9ab9f2e037586ac7d9fa59a403a1c012"
+      },
+      {
+        "file": "interface-sounds\\Audio\\select_003.ogg",
+        "sha256": "9a612fd2f513d52a296906b41071c990f75defe56be3bee60d2d4e2423b51b8b"
+      },
+      {
+        "file": "interface-sounds\\Audio\\select_004.ogg",
+        "sha256": "eb6cb435f3f2ab14f85f46a2bdd9073ec511d0f1f8d8c890c6636045703a5fd4"
+      },
+      {
+        "file": "interface-sounds\\Audio\\select_005.ogg",
+        "sha256": "ad09146e4ea33b931b2f5dfb4051a4f1fe4a36f1a48c42c5e9269c292ae21214"
+      },
+      {
+        "file": "interface-sounds\\Audio\\select_006.ogg",
+        "sha256": "b44550fa8d3276c072ce7c3c1315d949f7a28a95bc22b3618ad4eea62eac8abe"
+      },
+      {
+        "file": "interface-sounds\\Audio\\select_007.ogg",
+        "sha256": "cd4390dd2b24f09016a5fa1be63334fa0f1859811f4cf29c02e8e2750f6a2cd0"
+      },
+      {
+        "file": "interface-sounds\\Audio\\select_008.ogg",
+        "sha256": "f703b6b1c62dae1c246a46d5c2442802588f68be2df4d17e0d65cf7e0dbfc826"
+      },
+      {
+        "file": "interface-sounds\\Audio\\switch_001.ogg",
+        "sha256": "3b74efad87f1e69dbd1d05c5ad952ab90859b5a3d11da6ec5bd79b4f03b42afa"
+      },
+      {
+        "file": "interface-sounds\\Audio\\switch_002.ogg",
+        "sha256": "6fc395be2ad1f99ce318a5d28f98fb76dbeb676d83a0b28239d8c1fb90736180"
+      },
+      {
+        "file": "interface-sounds\\Audio\\switch_003.ogg",
+        "sha256": "ca12dd32103f401481d5aff56d5e9831174e99bb577139c09b07d046eb8b837e"
+      },
+      {
+        "file": "interface-sounds\\Audio\\switch_004.ogg",
+        "sha256": "541c19cc1ab712a9efc5765df602e7d0da09d9cafdd297ce1e19b092289fd62f"
+      },
+      {
+        "file": "interface-sounds\\Audio\\switch_005.ogg",
+        "sha256": "e94dfab6fd6558068ab3ea97e22e4b4f16b83ee440e6abf33ec4c4e9fbe8a70e"
+      },
+      {
+        "file": "interface-sounds\\Audio\\switch_006.ogg",
+        "sha256": "2676ddc4e341ee557b4d1dc8767ef8655540d66fb3ded6a1614080dbc4dc6f18"
+      },
+      {
+        "file": "interface-sounds\\Audio\\switch_007.ogg",
+        "sha256": "eeaf60c2abc7e1b715e2b032401bcbf6b3753b77f96b238f861a034a75515967"
+      },
+      {
+        "file": "interface-sounds\\Audio\\tick_001.ogg",
+        "sha256": "9d057b918024c787bbe6c00beed13a7ef72a3fa0c259add3cef36582792f4230"
+      },
+      {
+        "file": "interface-sounds\\Audio\\tick_002.ogg",
+        "sha256": "869442f54214be902ec7437f79e400dc91c1bfd90d18a6dd2d5b7e41ffbf457b"
+      },
+      {
+        "file": "interface-sounds\\Audio\\tick_004.ogg",
+        "sha256": "0253d5f7d8d2afbbc370eac2a4539bb844239f0c98343e516d376b137c06d27c"
+      },
+      {
+        "file": "interface-sounds\\Audio\\toggle_001.ogg",
+        "sha256": "ca1d2dde5f0b286abac4f070e23edab8f30927c8a533665cdf2ac6492a415e49"
+      },
+      {
+        "file": "interface-sounds\\Audio\\toggle_002.ogg",
+        "sha256": "1f564f5520cfa0764028ce245ad97599d3ece8f0ab504554c403af92ac72b900"
+      },
+      {
+        "file": "interface-sounds\\Audio\\toggle_003.ogg",
+        "sha256": "7e69aba356d590826cce291bbd9dc6a85d7c53858b0e3712fcad30e1ad080b23"
+      },
+      {
+        "file": "interface-sounds\\Audio\\toggle_004.ogg",
+        "sha256": "d7bf2236fc95a0fe1e3b278259392bcb062644e2d4ec5f9c96f7c09a9928262f"
+      }
+    ]
+  }
+]

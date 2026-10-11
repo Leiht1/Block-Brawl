@@ -1,0 +1,926 @@
+{
+  "checks": [
+    {
+      "name": "Initial page has no autoplay before user gesture",
+      "passed": true
+    },
+    {
+      "name": "Trusted input starts decoded lobby music",
+      "passed": true
+    },
+    {
+      "name": "Random map cycling plays three non-overlapping shuffles and one reveal",
+      "passed": true,
+      "detail": [
+        {
+          "id": "map.shuffle",
+          "accepted": true,
+          "time": 125,
+          "duck": 0.5
+        },
+        {
+          "id": "map.shuffle",
+          "accepted": true,
+          "time": 750,
+          "duck": 0.5
+        },
+        {
+          "id": "map.shuffle",
+          "accepted": true,
+          "time": 1400,
+          "duck": 0.5
+        },
+        {
+          "id": "map.reveal",
+          "accepted": true,
+          "time": 2100,
+          "duck": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Countdown keeps lobby; actual playing crossfades to battle over 900ms",
+      "passed": true,
+      "detail": [
+        {
+          "id": "bgm.lobby",
+          "retiring": true,
+          "gain": 0.13431984186172485
+        },
+        {
+          "id": "bgm.battle",
+          "retiring": false,
+          "gain": 0.01243054773658514
+        }
+      ]
+    },
+    {
+      "name": "Actual arena pointer swaps exercise clears, chains and special skills with music retained at 65%",
+      "passed": true,
+      "detail": [
+        "three",
+        "chain",
+        "combo-cross",
+        "combo-blasts"
+      ]
+    },
+    {
+      "name": "Effects disabled: battle music and actual scoring continue",
+      "passed": true
+    },
+    {
+      "name": "Music disabled: effects and actual scoring continue",
+      "passed": true
+    },
+    {
+      "name": "Thirty UI clicks create exactly one recording, with no queued replay",
+      "passed": true
+    },
+    {
+      "name": "Returning home crossfades back to a single lobby track",
+      "passed": true
+    },
+    {
+      "name": "Actual cliff, ice, ruins and furnace events remain audible above reduced music",
+      "passed": true
+    },
+    {
+      "name": "Visibility suspension resumes without duplicate music sources",
+      "passed": true
+    },
+    {
+      "name": "Both native WebAudio loops repeat sample-exactly with small boundary transitions",
+      "passed": true,
+      "detail": [
+        {
+          "id": "bgm.lobby",
+          "seconds": 153.6,
+          "frames": 7372800,
+          "repeatError": 0,
+          "boundaryJump": 0.00009556432632962242
+        },
+        {
+          "id": "bgm.battle",
+          "seconds": 120,
+          "frames": 5760000,
+          "repeatError": 0,
+          "boundaryJump": 0.0006959680467844009
+        }
+      ]
+    },
+    {
+      "name": "All 18 audition candidates decode in the target browser",
+      "passed": true
+    },
+    {
+      "name": "Rules, AI, scores, animation clocks, map events and all prior WAV recordings unchanged",
+      "passed": true
+    },
+    {
+      "name": "No page errors, missing files or media errors",
+      "passed": true
+    }
+  ],
+  "media": [
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-confirm-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/map-shuffle-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/map-shuffle-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/map-shuffle-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/map-reveal-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/countdown-3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-swap-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-match3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-swap-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-match3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/combo/combo1-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/special/special-create-v3.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-swap-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/special/special-combo-line-blast-v5.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/combo/combo1-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/combo/combo3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-swap-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/special/special-combo-blasts-v3.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/combo/combo1-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": []
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-swap-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-match3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/block/block-fall-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-confirm-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/map-shuffle-v1.wav",
+      "events": []
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/countdown-3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/maps/cliff/cliff-warning-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/maps/cliff/cliff-fall-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-confirm-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/map-shuffle-v1.wav",
+      "events": []
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/countdown-3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/maps/ice/ice-freeze-v1.wav",
+      "events": [
+        "playing"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-confirm-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/map-shuffle-v1.wav",
+      "events": []
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/countdown-3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/maps/ruins/ruins-activate-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-confirm-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/map-shuffle-v1.wav",
+      "events": []
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/countdown-3-v2.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/maps/furnace/furnace-warning-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/maps/furnace/furnace-spread-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "src": "http://127.0.0.1:52383/assets/audio/ui/ui-click-v1.wav",
+      "events": [
+        "playing",
+        "ended"
+      ]
+    }
+  ],
+  "loops": [
+    {
+      "id": "bgm.lobby",
+      "seconds": 153.6,
+      "frames": 7372800,
+      "repeatError": 0,
+      "boundaryJump": 0.00009556432632962242
+    },
+    {
+      "id": "bgm.battle",
+      "seconds": 120,
+      "frames": 5760000,
+      "repeatError": 0,
+      "boundaryJump": 0.0006959680467844009
+    }
+  ],
+  "gameplay": [
+    {
+      "mode": "three",
+      "trace": [
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "time": 7350,
+          "duck": 1
+        },
+        {
+          "id": "block.match3",
+          "accepted": true,
+          "time": 7450,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 7745,
+          "duck": 1
+        }
+      ]
+    },
+    {
+      "mode": "chain",
+      "trace": [
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "time": 9350,
+          "duck": 1
+        },
+        {
+          "id": "block.match3",
+          "accepted": true,
+          "time": 9450,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 9745,
+          "duck": 1
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "time": 10000,
+          "duck": 0.65
+        },
+        {
+          "id": "special.create",
+          "accepted": true,
+          "time": 10000,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 10275,
+          "duck": 0.65
+        }
+      ]
+    },
+    {
+      "mode": "combo-cross",
+      "trace": [
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "time": 11350,
+          "duck": 1
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "line-blast"
+          },
+          "accepted": true,
+          "time": 11450,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 11875,
+          "duck": 0.65
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "time": 12125,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 12400,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 12950,
+          "duck": 0.65
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo3"
+          },
+          "accepted": true,
+          "time": 13200,
+          "duck": 0.65
+        }
+      ]
+    },
+    {
+      "mode": "combo-blasts",
+      "trace": [
+        {
+          "id": "block.swap",
+          "accepted": true,
+          "time": 13350,
+          "duck": 1
+        },
+        {
+          "id": "special.combo",
+          "options": {
+            "variant": "blast-blast"
+          },
+          "accepted": true,
+          "time": 13450,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 13875,
+          "duck": 0.65
+        },
+        {
+          "id": "block.combo",
+          "options": {
+            "variant": "combo1"
+          },
+          "accepted": true,
+          "time": 14125,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 14400,
+          "duck": 0.65
+        },
+        {
+          "id": "block.fall",
+          "accepted": true,
+          "time": 14950,
+          "duck": 0.65
+        }
+      ]
+    },
+    {
+      "map": "cliff",
+      "calls": [
+        {
+          "id": "cliff.warning",
+          "accepted": true,
+          "time": 33270,
+          "duck": 0.6
+        },
+        {
+          "id": "cliff.fall",
+          "accepted": true,
+          "time": 34770,
+          "duck": 0.6
+        }
+      ]
+    },
+    {
+      "map": "crystal",
+      "calls": [
+        {
+          "id": "ice.freeze",
+          "accepted": true,
+          "time": 50820,
+          "duck": 0.18
+        }
+      ]
+    },
+    {
+      "map": "ruins",
+      "calls": [
+        {
+          "id": "ruins.activate",
+          "accepted": true,
+          "time": 65020,
+          "duck": 0.6
+        }
+      ]
+    },
+    {
+      "map": "furnace",
+      "calls": [
+        {
+          "id": "furnace.warning",
+          "accepted": true,
+          "time": 81720,
+          "duck": 0.6
+        },
+        {
+          "id": "furnace.spread",
+          "accepted": true,
+          "time": 85020,
+          "duck": 0.6
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "subjectiveListening": "Automated decoding, mixing-level and actual gameplay checks passed if checks below pass. Human timbre, masking and long-session fatigue approval is not claimed.",
+  "reveal": [
+    {
+      "id": "map.shuffle",
+      "accepted": true,
+      "time": 125,
+      "duck": 0.5
+    },
+    {
+      "id": "map.shuffle",
+      "accepted": true,
+      "time": 750,
+      "duck": 0.5
+    },
+    {
+      "id": "map.shuffle",
+      "accepted": true,
+      "time": 1400,
+      "duck": 0.5
+    },
+    {
+      "id": "map.reveal",
+      "accepted": true,
+      "time": 2100,
+      "duck": 0.5
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bgm.lobby",
+      "key": "A",
+      "seconds": 153.6,
+      "channels": 2
+    },
+    {
+      "id": "bgm.lobby",
+      "key": "B",
+      "seconds": 160,
+      "channels": 2
+    },
+    {
+      "id": "bgm.lobby",
+      "key": "C",
+      "seconds": 142.22220833333333,
+      "channels": 2
+    },
+    {
+      "id": "bgm.battle",
+      "key": "A",
+      "seconds": 120,
+      "channels": 2
+    },
+    {
+      "id": "bgm.battle",
+      "key": "B",
+      "seconds": 116.363625,
+      "channels": 2
+    },
+    {
+      "id": "bgm.battle",
+      "key": "C",
+      "seconds": 123.87095833333333,
+      "channels": 2
+    },
+    {
+      "id": "ui.click",
+      "key": "A",
+      "seconds": 0.09,
+      "channels": 2
+    },
+    {
+      "id": "ui.click",
+      "key": "B",
+      "seconds": 0.12,
+      "channels": 2
+    },
+    {
+      "id": "ui.click",
+      "key": "C",
+      "seconds": 0.12,
+      "channels": 2
+    },
+    {
+      "id": "ui.confirm",
+      "key": "A",
+      "seconds": 0.32,
+      "channels": 2
+    },
+    {
+      "id": "ui.confirm",
+      "key": "B",
+      "seconds": 0.32,
+      "channels": 2
+    },
+    {
+      "id": "ui.confirm",
+      "key": "C",
+      "seconds": 0.32,
+      "channels": 2
+    },
+    {
+      "id": "map.shuffle",
+      "key": "A",
+      "seconds": 0.42,
+      "channels": 2
+    },
+    {
+      "id": "map.shuffle",
+      "key": "B",
+      "seconds": 0.42,
+      "channels": 2
+    },
+    {
+      "id": "map.shuffle",
+      "key": "C",
+      "seconds": 0.42,
+      "channels": 2
+    },
+    {
+      "id": "map.reveal",
+      "key": "A",
+      "seconds": 0.66,
+      "channels": 2
+    },
+    {
+      "id": "map.reveal",
+      "key": "B",
+      "seconds": 0.66,
+      "channels": 2
+    },
+    {
+      "id": "map.reveal",
+      "key": "C",
+      "seconds": 0.66,
+      "channels": 2
+    }
+  ]
+}

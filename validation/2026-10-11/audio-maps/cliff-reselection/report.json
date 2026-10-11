@@ -1,0 +1,166 @@
+{
+  "candidates": [
+    {
+      "src": "cliff-fall-D-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.62,
+      "volume": 0.44,
+      "id": "cliff.fall",
+      "choice": "D"
+    },
+    {
+      "src": "cliff-fall-E-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.62,
+      "volume": 0.44,
+      "id": "cliff.fall",
+      "choice": "E"
+    },
+    {
+      "src": "cliff-fall-F-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.62,
+      "volume": 0.44,
+      "id": "cliff.fall",
+      "choice": "F"
+    },
+    {
+      "src": "cliff-fall-G-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.62,
+      "volume": 0.44,
+      "id": "cliff.fall",
+      "choice": "G"
+    },
+    {
+      "src": "cliff-impact-D-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.48,
+      "volume": 0.33,
+      "id": "cliff.impact",
+      "choice": "D"
+    },
+    {
+      "src": "cliff-impact-E-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.48,
+      "volume": 0.33,
+      "id": "cliff.impact",
+      "choice": "E"
+    },
+    {
+      "src": "cliff-impact-F-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.48,
+      "volume": 0.33,
+      "id": "cliff.impact",
+      "choice": "F"
+    },
+    {
+      "src": "cliff-impact-G-v2.wav",
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ],
+      "seconds": 0.48,
+      "volume": 0.33,
+      "id": "cliff.impact",
+      "choice": "G"
+    }
+  ],
+  "gains": [
+    {
+      "id": "cliff.warning",
+      "volume": 0.4,
+      "seconds": 1.1
+    },
+    {
+      "id": "cliff.fall",
+      "volume": 0.44,
+      "seconds": 0.62
+    },
+    {
+      "id": "cliff.impact",
+      "volume": 0.33,
+      "seconds": 0.48
+    },
+    {
+      "id": "ice.freeze",
+      "volume": 0.39,
+      "seconds": 0.7
+    },
+    {
+      "id": "ice.break",
+      "volume": 0.4,
+      "seconds": 0.6
+    },
+    {
+      "id": "ruins.activate",
+      "volume": 0.39,
+      "seconds": 1.05
+    },
+    {
+      "id": "furnace.warning",
+      "volume": 0.35,
+      "seconds": 0.55
+    },
+    {
+      "id": "furnace.spread",
+      "volume": 0.39,
+      "seconds": 0.66
+    }
+  ],
+  "checks": [
+    "All 8 new auditions played and ended; A warning retained at gain .40.",
+    "8 runtime environment gains increased; native media confirms 50% duck and restoration, unchanged core gain.",
+    "All existing WAV bytes, rules, AI, scoring, animation and business event mapping unchanged; new candidates remain outside dist."
+  ],
+  "errors": [],
+  "duck": {
+    "before": 0.39,
+    "during": 0.195,
+    "core": 0.46
+  },
+  "changedExistingFiles": [
+    "dist/assets/audio/CREDITS.md",
+    "dist/audio-manager.mjs",
+    "dist/audio-manifest.mjs"
+  ],
+  "sequence": {
+    "testOnly": true,
+    "warning": "A",
+    "fall": "F",
+    "impact": "D",
+    "installed": false
+  },
+  "success": true
+}

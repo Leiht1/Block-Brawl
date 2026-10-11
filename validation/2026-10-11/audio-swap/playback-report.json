@@ -1,0 +1,93 @@
+{
+  "files": [
+    {
+      "choice": "A",
+      "file": "block-swap-A.wav",
+      "seconds": 0.11,
+      "volume": 0.58,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "choice": "B",
+      "file": "block-swap-B.wav",
+      "seconds": 0.15,
+      "volume": 0.58,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "choice": "C",
+      "file": "block-swap-C.wav",
+      "seconds": 0.16,
+      "volume": 0.58,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "choice": "D",
+      "file": "block-swap-D.wav",
+      "seconds": 0.19,
+      "volume": 0.58,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "choice": "E",
+      "file": "block-swap-E.wav",
+      "seconds": 0.18,
+      "volume": 0.58,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "choice": "F",
+      "file": "block-swap-F.wav",
+      "seconds": 0.2,
+      "volume": 0.58,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "choice": "current",
+      "file": "../../../dist/assets/audio/block/block-swap-v1.wav",
+      "seconds": 0.12,
+      "volume": 0.58,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    }
+  ],
+  "errors": [],
+  "audibleVerdict": "Playback verification only; final preference awaits user listening.",
+  "repeated": {
+    "plays": 6,
+    "ends": 6,
+    "maxActive": 1
+  },
+  "switchCancelsPreviousSequence": true,
+  "stopCancelsSequence": true,
+  "mobileNoOverflow": true,
+  "gameFilesUnchanged": 93,
+  "success": true
+}

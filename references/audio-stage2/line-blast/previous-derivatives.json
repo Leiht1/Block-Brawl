@@ -1,0 +1,195 @@
+[
+  {
+    "file": "block/block-swap-v1.wav",
+    "seconds": 0.12,
+    "peak": 0.72,
+    "rms": 0.0885,
+    "sources": [
+      "impact-sounds/Audio/impactWood_light_000.ogg"
+    ],
+    "edits": "Trim quiet tail; 120ms; 2ms/20ms fades",
+    "sha256": "29e3bd93d8b8e16d7f0dedb38e7187e41ecf15346a96767da509f5f8391dab30"
+  },
+  {
+    "file": "block/block-invalid-v1.wav",
+    "seconds": 0.22,
+    "peak": 0.6,
+    "rms": 0.1615,
+    "sources": [
+      "BounceYoFrankie.flac"
+    ],
+    "edits": "Trim silence; speed .93; 220ms soft rebound; fades",
+    "sha256": "50136ace4641c1ff63ae791b142bf7979c94049726d49eae74c91c65746f9539"
+  },
+  {
+    "file": "block/block-fall-v1.wav",
+    "seconds": 0.1,
+    "peak": 0.6,
+    "rms": 0.0799,
+    "sources": [
+      "impact-sounds/Audio/impactWood_light_002.ogg"
+    ],
+    "edits": "One 100ms landing per batch; speed .96; fades",
+    "sha256": "8080abb38c30b4b122356a6b1c1b166feccac93267a924435b844ac5b6876394"
+  },
+  {
+    "file": "block/block-match3-v2.wav",
+    "seconds": 0.09,
+    "peak": 0.66,
+    "rms": 0.1132,
+    "sources": [
+      "p_1.ogg"
+    ],
+    "edits": "Single bubble pop; 90ms; no glass or wood attack",
+    "sha256": "cec025367d5fb93c936fa2cf5c8c19832fee29aac67d40dd1e5f4b31271ed896"
+  },
+  {
+    "file": "combo/combo1-v2.wav",
+    "seconds": 0.15,
+    "peak": 0.72,
+    "rms": 0.1103,
+    "sources": [
+      "p_1.ogg",
+      "p_2.ogg"
+    ],
+    "edits": "Bubble family only; speed 1; 2 pops; rising pitch and density",
+    "sha256": "1c50fcec4403c5222b19518815de7c30eaba50122fabb90c406a3a25407b55d5"
+  },
+  {
+    "file": "combo/combo2-v2.wav",
+    "seconds": 0.175,
+    "peak": 0.72,
+    "rms": 0.1148,
+    "sources": [
+      "p_1.ogg",
+      "p_2.ogg"
+    ],
+    "edits": "Bubble family only; speed 1.12; 3 pops; rising pitch and density",
+    "sha256": "08f80f02117531014e3678a13c1d76308e53dbc38d61230ba7c923373a8a9fff"
+  },
+  {
+    "file": "combo/combo3-v2.wav",
+    "seconds": 0.2,
+    "peak": 0.72,
+    "rms": 0.1034,
+    "sources": [
+      "p_1.ogg",
+      "p_2.ogg",
+      "p_3.ogg"
+    ],
+    "edits": "Bubble family only; speed 1.26; 4 pops; rising pitch and density",
+    "sha256": "60a1708dea0bbe63f0fdde9405fc0755ccd285f2c06d53f4a6785eb1225deab1"
+  },
+  {
+    "file": "special/special-line-v3.wav",
+    "seconds": 0.4,
+    "peak": 0.66,
+    "rms": 0.1267,
+    "sources": [
+      "shimmer_1.flac",
+      "impact-sounds/Audio/impactGlass_light_001.ogg"
+    ],
+    "edits": "Exact former special-create-v1 recording, reassigned to line clear",
+    "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63"
+  },
+  {
+    "file": "special/special-create-v3.wav",
+    "seconds": 0.36,
+    "peak": 0.62,
+    "rms": 0.1323,
+    "sources": [
+      "magic/virix/Misc 02.wav"
+    ],
+    "edits": "Single short magic reveal; no explosion layers; trim recording silence and long reverb; fades; fixed headroom",
+    "sha256": "0c522a3ddcbcb52ae417919e331875778ea3029b454e16c28aa216b9065a2cbc"
+  },
+  {
+    "file": "special/special-bomb-v3.wav",
+    "seconds": 0.5,
+    "peak": 0.74,
+    "rms": 0.1254,
+    "sources": [
+      "magic/virix/Ice attack 2.wav"
+    ],
+    "edits": "Single elemental magic blast; no bubble/balloon layer; trim recording silence and long reverb; fades; fixed headroom",
+    "sha256": "1c3b0b9f892f374d4cf178fc8127e0edc03a803c10a239975c5329d644c20a20"
+  },
+  {
+    "file": "special/special-combo-lines-v3.wav",
+    "seconds": 0.56,
+    "peak": 0.74,
+    "rms": 0.1675,
+    "sources": [
+      "magic/magic-smite.wav"
+    ],
+    "edits": "Single holy-energy bolt; one continuous release; trim recording silence and long reverb; fades; fixed headroom",
+    "sha256": "ecedd894575529540b0b02b0413d2f53f75e2d3b99f7849800704652f027b252"
+  },
+  {
+    "file": "special/special-combo-line-blast-v3.wav",
+    "seconds": 0.68,
+    "peak": 0.78,
+    "rms": 0.1924,
+    "sources": [
+      "magic/virix/Wind effects 5.wav"
+    ],
+    "edits": "Single broader wind-magic impact; no repeated blasts; trim recording silence and long reverb; fades; fixed headroom",
+    "sha256": "8ac4269e41df311b7db423fe1141be52baaefbadebf28021e6ca3adaf1ff702f"
+  },
+  {
+    "file": "special/special-combo-blasts-v3.wav",
+    "seconds": 0.95,
+    "peak": 0.66,
+    "rms": 0.2725,
+    "sources": [
+      "magic/virix/Fire impact 1.wav"
+    ],
+    "edits": "Single strongest fire-magic impact; dense body, one onset, no duplicated explosion; trim recording silence and long reverb; fades; fixed headroom",
+    "sha256": "d8cd5cde2a4293a0f2a4587ca5f8a82fec4ad86a99fe1c1d3f14000e805a939c"
+  },
+  {
+    "file": "ui/countdown-3-v2.wav",
+    "seconds": 0.21,
+    "peak": 0.68,
+    "rms": 0.1977,
+    "sources": [
+      "marimba-c4.wav"
+    ],
+    "edits": "Recorded marimba C4/D4/E4; speed 1.000000; warm 210ms note",
+    "sha256": "49d6eacea17e941326a676bdedf4548870711a0f8990b9a5347d4626e3c7504f"
+  },
+  {
+    "file": "ui/countdown-2-v2.wav",
+    "seconds": 0.21,
+    "peak": 0.68,
+    "rms": 0.1908,
+    "sources": [
+      "marimba-c4.wav"
+    ],
+    "edits": "Recorded marimba C4/D4/E4; speed 1.122462; warm 210ms note",
+    "sha256": "97536a4d58dfe44c2f237fa37d6efca3b1962358f9a3a1ab296745d04c9219c9"
+  },
+  {
+    "file": "ui/countdown-1-v2.wav",
+    "seconds": 0.21,
+    "peak": 0.68,
+    "rms": 0.184,
+    "sources": [
+      "marimba-c4.wav"
+    ],
+    "edits": "Recorded marimba C4/D4/E4; speed 1.259921; warm 210ms note",
+    "sha256": "8b2acc2336f5eecf85cbd8150686f08f6d4e5bc0c75ffb8b7c4afabe04a12e61"
+  },
+  {
+    "file": "ui/countdown-start-v2.wav",
+    "seconds": 0.4,
+    "peak": 0.78,
+    "rms": 0.1535,
+    "sources": [
+      "marimba-c4.wav",
+      "marimba-g4.wav"
+    ],
+    "edits": "C4/E4/G4 recorded marimba bloom; 18ms spacing; no pop or shimmer",
+    "sha256": "a9cb51f6a0c45a21cc85e09d154ff10974000737b36aeac0181976ae8e92a2c9"
+  }
+]

@@ -1,0 +1,44 @@
+✔ selection preserves partial choices and completes unique six-card decks at exactly 60 seconds (1.3754ms)
+✔ six slots enforce two per category, allow same-category replacements and lock after ready (0.353ms)
+✔ AI and timeout completion respect every category limit across random seeds and partial decks (2.8376ms)
+✔ card battles wait three seconds with zero energy, no swaps or bot commands before start (22.5474ms)
+✔ cancelled selection never auto-fills or becomes complete (0.1893ms)
+✔ card battle opens after countdown with zero hand, zero energy and a next-card preview (16.4681ms)
+✔ natural energy draws exactly at 100 and each shuffled cycle contains the selected six cards (18.1262ms)
+✔ full hand replaces overflow preview; successful use promotes it without exceeding six (9.7238ms)
+✔ clears grant a small energy bonus, score deficit boosts only trailing side and caps compensation (13.3065ms)
+✔ red/blue must target enemy and yellow must target self; invalid drop consumes nothing (10.667ms)
+✔ fire marks exactly three enemy cells, delays damage and uses original clear/fall timing (12.1664ms)
+✔ quake damages only its target region and waits for safe engine state (9.8514ms)
+✔ meteor damages only its target region and waits for safe engine state (12.3429ms)
+✔ bomb damages only its target region and waits for safe engine state (10.4328ms)
+✔ queued attacks never mutate active swaps and execute at the next stable boundary (12.0467ms)
+✔ card effects respect environment column reservations and do not overwrite terrain locks (8.9051ms)
+✔ delayed frames resolve a card explosion at its own deadline before later transactions (9.82ms)
+✔ time freeze pauses only board swaps, while the frozen player can still cast a card (9.166ms)
+✔ freeze rejects new target swaps for three seconds and leaves caster playable (10.6615ms)
+✔ blackhole changes enemy tiles while preserving identities and terrain (9.5115ms)
+✔ storm changes enemy tiles while preserving identities and terrain (10.6265ms)
+✔ fog marks partial cells and clears at six seconds (9.4056ms)
+✔ overload doubles only own real clears for ten seconds and publishes consistent score events (11.29ms)
+✔ sage issues real best visible swaps for five seconds and stops afterward (21.5884ms)
+✔ rainbow creates an identifiable universal tile and an adjacent exchange clears every matching color (10.9363ms)
+✔ luck improves only own refill specials during ten seconds and restores tile factory on dispose (9.1233ms)
+✔ AI earns cards from zero and actually plays them, without using hidden future tiles (9.3657ms)
+✔ a complete real AI match reaches 15000 with swaps and cards, then stops all old sources (61.0404ms)
+✔ 15000 crossing stops card generation, queued effects and commands, with fixed winner (9.7803ms)
+✔ all card mutations respect holes and obstacles on forest (12.3102ms)
+✔ all card mutations respect holes and obstacles on cliff (7.5994ms)
+✔ all card mutations respect holes and obstacles on crystal (6.7355ms)
+✔ all card mutations respect holes and obstacles on ruins (7.2161ms)
+✔ all card mutations respect holes and obstacles on furnace (8.6536ms)
+✔ standalone card game embeds one valid JS program without replacement-token corruption (33.5561ms)
+✔ standalone embedded build hashes match the current card modules and every source asset (18.79ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 499.45

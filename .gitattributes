@@ -1,0 +1,3 @@
+# Preserve archived provenance and original license bytes across platforms.
+references/** -text
+dist/assets/audio/licenses/** -text

@@ -1,0 +1,49 @@
+{
+  "viewport": "1440x960 desktop",
+  "clock": "controlled actual app frames; not a recording",
+  "captures": [
+    {
+      "file": "specials-static.png",
+      "mode": "special-chain",
+      "time": 0,
+      "snapshot": {
+        "score": 0,
+        "bestChain": 0,
+        "busyColumns": [],
+        "transactions": 0,
+        "mode": "special-chain",
+        "specials": [
+          {
+            "index": 27,
+            "type": 1,
+            "special": "blast"
+          },
+          {
+            "index": 28,
+            "type": 2,
+            "special": "row"
+          },
+          {
+            "index": 30,
+            "type": 4,
+            "special": "column"
+          }
+        ],
+        "animations": 0,
+        "art": {
+          "ready": 2,
+          "failed": 0,
+          "cached": 9
+        },
+        "theme": "sunny-jungle"
+      },
+      "particles": 0,
+      "rings": 0,
+      "floats": 0,
+      "effects": [],
+      "combos": [],
+      "formations": []
+    }
+  ],
+  "errors": []
+}

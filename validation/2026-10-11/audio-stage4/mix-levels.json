@@ -1,0 +1,172 @@
+{
+  "levels": [
+    {
+      "id": "bgm.lobby",
+      "seconds": 153.6,
+      "volume": 0.66,
+      "peak": 0.4896387457847595,
+      "rms": 0.07004291969866362,
+      "effectivePeak": 0.3231615722179413,
+      "effectiveRms": 0.046228327001117994
+    },
+    {
+      "id": "bgm.battle",
+      "seconds": 120.0,
+      "volume": 0.6,
+      "peak": 0.4833067059516907,
+      "rms": 0.08120783640811617,
+      "effectivePeak": 0.2899840235710144,
+      "effectiveRms": 0.048724701844869704
+    },
+    {
+      "id": "ui.click",
+      "seconds": 0.09,
+      "volume": 0.38,
+      "peak": 0.680023193359375,
+      "rms": 0.16613782623915432,
+      "effectivePeak": 0.2584088134765625,
+      "effectiveRms": 0.06313237397087865
+    },
+    {
+      "id": "ui.confirm",
+      "seconds": 0.32,
+      "volume": 0.34,
+      "peak": 0.652130126953125,
+      "rms": 0.19000011349754178,
+      "effectivePeak": 0.22172424316406253,
+      "effectiveRms": 0.06460003858916422
+    },
+    {
+      "id": "map.shuffle",
+      "seconds": 0.42,
+      "volume": 0.42,
+      "peak": 0.680023193359375,
+      "rms": 0.08088635595269311,
+      "effectivePeak": 0.28560974121093746,
+      "effectiveRms": 0.0339722695001311
+    },
+    {
+      "id": "map.reveal",
+      "seconds": 0.66,
+      "volume": 0.38,
+      "peak": 0.67999267578125,
+      "rms": 0.1352177074758109,
+      "effectivePeak": 0.258397216796875,
+      "effectiveRms": 0.05138272884080815
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "block/block-match3-v2.wav",
+      "effectRms": 0.052089724232901806,
+      "effectMax80ms": 0.05524949585283315,
+      "effectPeak": 0.30358764648437503,
+      "musicDuck": 0.65,
+      "musicRms": 0.03167105619916531,
+      "musicPeak": 0.18848961532115935,
+      "peakMarginDb": 4.139933345382915
+    },
+    {
+      "file": "combo/combo1-v2.wav",
+      "effectRms": 0.052962478986046495,
+      "effectMax80ms": 0.07248020426560255,
+      "effectPeak": 0.3455859375,
+      "musicDuck": 0.65,
+      "musicRms": 0.03167105619916531,
+      "musicPeak": 0.18848961532115935,
+      "peakMarginDb": 5.2653726770511735
+    },
+    {
+      "file": "combo/combo2-v2.wav",
+      "effectRms": 0.058544523566499064,
+      "effectMax80ms": 0.08620697467580012,
+      "effectPeak": 0.36718505859375,
+      "musicDuck": 0.65,
+      "musicRms": 0.03167105619916531,
+      "musicPeak": 0.18848961532115935,
+      "peakMarginDb": 5.791951451498156
+    },
+    {
+      "file": "combo/combo3-v2.wav",
+      "effectRms": 0.05583911534873062,
+      "effectMax80ms": 0.0858611403746965,
+      "effectPeak": 0.3887841796875,
+      "musicDuck": 0.65,
+      "musicRms": 0.03167105619916531,
+      "musicPeak": 0.18848961532115935,
+      "peakMarginDb": 6.288423125998799
+    },
+    {
+      "file": "special/special-create-v3.wav",
+      "effectRms": 0.04497527795208507,
+      "effectMax80ms": 0.06357527627230926,
+      "effectPeak": 0.21080871582031252,
+      "musicDuck": 0.65,
+      "musicRms": 0.03167105619916531,
+      "musicPeak": 0.18848961532115935,
+      "peakMarginDb": 0.9720226914790275
+    },
+    {
+      "file": "special/special-combo-line-blast-v5.wav",
+      "effectRms": 0.046615694671515565,
+      "effectMax80ms": 0.10208348222319456,
+      "effectPeak": 0.42560546875000005,
+      "musicDuck": 0.65,
+      "musicRms": 0.03167105619916531,
+      "musicPeak": 0.18848961532115935,
+      "peakMarginDb": 7.074395432277782
+    },
+    {
+      "file": "special/special-combo-blasts-v3.wav",
+      "effectRms": 0.07628738520142672,
+      "effectMax80ms": 0.11910100771619885,
+      "effectPeak": 0.184801025390625,
+      "musicDuck": 0.65,
+      "musicRms": 0.03167105619916531,
+      "musicPeak": 0.18848961532115935,
+      "peakMarginDb": -0.17166102962651997
+    },
+    {
+      "file": "maps/cliff/cliff-fall-v2.wav",
+      "effectRms": 0.03790893424364134,
+      "effectMax80ms": 0.087686076327616,
+      "effectPeak": 0.2860107421875,
+      "musicDuck": 0.6,
+      "musicRms": 0.02923482110692182,
+      "musicPeak": 0.17399041414260863,
+      "peakMarginDb": 4.317140462347338
+    },
+    {
+      "file": "maps/ice/ice-freeze-v1.wav",
+      "effectRms": 0.010112751286277,
+      "effectMax80ms": 0.024537952966665475,
+      "effectPeak": 0.253509521484375,
+      "musicDuck": 0.18,
+      "musicRms": 0.008770446332076546,
+      "musicPeak": 0.05219712424278259,
+      "peakMarginDb": 13.726953978760324
+    },
+    {
+      "file": "maps/ruins/ruins-activate-v1.wav",
+      "effectRms": 0.05371797940676474,
+      "effectMax80ms": 0.08547877240990878,
+      "effectPeak": 0.25349761962890627,
+      "musicDuck": 0.6,
+      "musicRms": 0.02923482110692182,
+      "musicPeak": 0.17399041414260863,
+      "peakMarginDb": 3.2689712753348616
+    },
+    {
+      "file": "maps/furnace/furnace-spread-v1.wav",
+      "effectRms": 0.02557908379414546,
+      "effectMax80ms": 0.05665474934384614,
+      "effectPeak": 0.25349761962890627,
+      "musicDuck": 0.6,
+      "musicRms": 0.02923482110692182,
+      "musicPeak": 0.17399041414260863,
+      "peakMarginDb": 3.2689712753348616
+    }
+  ],
+  "allFormalFilesMatchAudition": true,
+  "scope": "Mixing-level evidence only. Frequency masking, timbre and fatigue need human listening."
+}

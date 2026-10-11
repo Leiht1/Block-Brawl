@@ -1,0 +1,25 @@
+{
+  "rows": 13,
+  "errors": [],
+  "clips": [
+    {
+      "file": "combo/combo1-v1.wav",
+      "duration": 0.17,
+      "ended": true,
+      "error": null
+    },
+    {
+      "file": "combo/combo2-v1.wav",
+      "duration": 0.195011,
+      "ended": true,
+      "error": null
+    },
+    {
+      "file": "combo/combo3-v1.wav",
+      "duration": 0.22,
+      "ended": true,
+      "error": null
+    }
+  ],
+  "overflow": false
+}

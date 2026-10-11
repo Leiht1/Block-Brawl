@@ -1,0 +1,1750 @@
+TAP version 13
+# Subtest: audio integration forwards actual presentation events without synthesized sound
+ok 1 - audio integration forwards actual presentation events without synthesized sound
+  ---
+  duration_ms: 68.2389
+  type: 'test'
+  ...
+# Subtest: negative refill coordinates stay centered above their own columns
+ok 2 - negative refill coordinates stay centered above their own columns
+  ---
+  duration_ms: 5.05
+  type: 'test'
+  ...
+# Subtest: shared white score feedback grows with earned points and stays inside the board
+ok 3 - shared white score feedback grows with earned points and stays inside the board
+  ---
+  duration_ms: 6.894
+  type: 'test'
+  ...
+# Subtest: actual refill animation preserves order and spacing in parallel columns within 250ms
+ok 4 - actual refill animation preserves order and spacing in parallel columns within 250ms
+  ---
+  duration_ms: 183.5289
+  type: 'test'
+  ...
+# Subtest: creation, chained trigger and motion effects expire and restart clears every visual
+ok 5 - creation, chained trigger and motion effects expire and restart clears every visual
+  ---
+  duration_ms: 178.0981
+  type: 'test'
+  ...
+# Subtest: reduced-motion presentation completes special effects without errors or leftovers
+ok 6 - reduced-motion presentation completes special effects without errors or leftovers
+  ---
+  duration_ms: 46.4551
+  type: 'test'
+  ...
+# Subtest: combo-lines normal presentation charges, clears tiles immediately and expires before refill
+ok 7 - combo-lines normal presentation charges, clears tiles immediately and expires before refill
+  ---
+  duration_ms: 160.1127
+  type: 'test'
+  ...
+# Subtest: combo-lines reduced presentation charges, clears tiles immediately and expires before refill
+ok 8 - combo-lines reduced presentation charges, clears tiles immediately and expires before refill
+  ---
+  duration_ms: 106.7808
+  type: 'test'
+  ...
+# Subtest: combo-cross normal presentation charges, clears tiles immediately and expires before refill
+ok 9 - combo-cross normal presentation charges, clears tiles immediately and expires before refill
+  ---
+  duration_ms: 204.009
+  type: 'test'
+  ...
+# Subtest: combo-cross reduced presentation charges, clears tiles immediately and expires before refill
+ok 10 - combo-cross reduced presentation charges, clears tiles immediately and expires before refill
+  ---
+  duration_ms: 133.4105
+  type: 'test'
+  ...
+# Subtest: combo-column normal presentation charges, clears tiles immediately and expires before refill
+ok 11 - combo-column normal presentation charges, clears tiles immediately and expires before refill
+  ---
+  duration_ms: 127.6468
+  type: 'test'
+  ...
+# Subtest: combo-column reduced presentation charges, clears tiles immediately and expires before refill
+ok 12 - combo-column reduced presentation charges, clears tiles immediately and expires before refill
+  ---
+  duration_ms: 104.7939
+  type: 'test'
+  ...
+# Subtest: combo-blasts normal presentation charges, clears tiles immediately and expires before refill
+ok 13 - combo-blasts normal presentation charges, clears tiles immediately and expires before refill
+  ---
+  duration_ms: 126.1288
+  type: 'test'
+  ...
+# Subtest: combo-blasts reduced presentation charges, clears tiles immediately and expires before refill
+ok 14 - combo-blasts reduced presentation charges, clears tiles immediately and expires before refill
+  ---
+  duration_ms: 101.9463
+  type: 'test'
+  ...
+# Subtest: conflicted combo cancels charge with no lingering combo visuals
+ok 15 - conflicted combo cancels charge with no lingering combo visuals
+  ---
+  duration_ms: 18.787
+  type: 'test'
+  ...
+# Subtest: restart during combo charge or detonation cancels every visual and score
+ok 16 - restart during combo charge or detonation cancels every visual and score
+  ---
+  duration_ms: 20.5303
+  type: 'test'
+  ...
+# Subtest: row renders only its affected beam direction and clears on time
+ok 17 - row renders only its affected beam direction and clears on time
+  ---
+  duration_ms: 8.3786
+  type: 'test'
+  ...
+# Subtest: column renders only its affected beam direction and clears on time
+ok 18 - column renders only its affected beam direction and clears on time
+  ---
+  duration_ms: 6.8376
+  type: 'test'
+  ...
+# Subtest: combo-cross renders only its affected beam direction and clears on time
+ok 19 - combo-cross renders only its affected beam direction and clears on time
+  ---
+  duration_ms: 14.5951
+  type: 'test'
+  ...
+# Subtest: combo-column renders only its affected beam direction and clears on time
+ok 20 - combo-column renders only its affected beam direction and clears on time
+  ---
+  duration_ms: 24.6218
+  type: 'test'
+  ...
+# Subtest: loaded art renders all fixtures at mobile retina size (normal) without residual animations
+ok 21 - loaded art renders all fixtures at mobile retina size (normal) without residual animations
+  ---
+  duration_ms: 716.4557
+  type: 'test'
+  ...
+# Subtest: loaded art renders all fixtures at mobile retina size (reduced) without residual animations
+ok 22 - loaded art renders all fixtures at mobile retina size (reduced) without residual animations
+  ---
+  duration_ms: 489.6256
+  type: 'test'
+  ...
+# Subtest: exchange stretch follows its axis, landing recovers within the existing timing and reduced motion disables both
+ok 23 - exchange stretch follows its axis, landing recovers within the existing timing and reduced motion disables both
+  ---
+  duration_ms: 73.0627
+  type: 'test'
+  ...
+# Subtest: touch pointers use the original grid threshold, capture and cancel across a narrow board
+ok 24 - touch pointers use the original grid threshold, capture and cancel across a narrow board
+  ---
+  duration_ms: 12.4491
+  type: 'test'
+  ...
+# Subtest: dense overlapping visual events have bounded particles and restart immediately removes them
+ok 25 - dense overlapping visual events have bounded particles and restart immediately removes them
+  ---
+  duration_ms: 81.7109
+  type: 'test'
+  ...
+# Subtest: special fragments follow beam travel, preserve earlier overlap hits and expire independently of gravity
+ok 26 - special fragments follow beam travel, preserve earlier overlap hits and expire independently of gravity
+  ---
+  duration_ms: 20.445
+  type: 'test'
+  ...
+# Subtest: blast light masks use precisely the rule cells, including edge clipping and the large combo
+ok 27 - blast light masks use precisely the rule cells, including edge clipping and the large combo
+  ---
+  duration_ms: 41.2692
+  type: 'test'
+  ...
+# Subtest: staggered chained effects share the original clear deadline and reduced motion removes impact travel
+ok 28 - staggered chained effects share the original clear deadline and reduced motion removes impact travel
+  ---
+  duration_ms: 35.2763
+  type: 'test'
+  ...
+# Subtest: variable player grid uses real dimensions and ignores hole input
+ok 29 - variable player grid uses real dimensions and ignores hole input
+  ---
+  duration_ms: 11.0301
+  type: 'test'
+  ...
+# Subtest: obstacle-segment refill animation clips above its inlet and retains the 250ms deadline
+ok 30 - obstacle-segment refill animation clips above its inlet and retains the 250ms deadline
+  ---
+  duration_ms: 17.9654
+  type: 'test'
+  ...
+# Subtest: identical starting contents, distinct tiles and independent engine state
+ok 31 - identical starting contents, distinct tiles and independent engine state
+  ---
+  duration_ms: 86.8024
+  type: 'test'
+  ...
+# Subtest: easy: real legal commands, correct points, ready-based cadence
+ok 32 - easy: real legal commands, correct points, ready-based cadence
+  ---
+  duration_ms: 64.9217
+  type: 'test'
+  ...
+# Subtest: normal: real legal commands, correct points, ready-based cadence
+ok 33 - normal: real legal commands, correct points, ready-based cadence
+  ---
+  duration_ms: 55.1516
+  type: 'test'
+  ...
+# Subtest: hard: real legal commands, correct points, ready-based cadence
+ok 34 - hard: real legal commands, correct points, ready-based cadence
+  ---
+  duration_ms: 61.8786
+  type: 'test'
+  ...
+# Subtest: bot decision sees only visible board; evaluation does not mutate it
+ok 35 - bot decision sees only visible board; evaluation does not mutate it
+  ---
+  duration_ms: 4.5669
+  type: 'test'
+  ...
+# Subtest: normal prefers visible specials; hard chooses high-yield combinations
+ok 36 - normal prefers visible specials; hard chooses high-yield combinations
+  ---
+  duration_ms: 71.8815
+  type: 'test'
+  ...
+# Subtest: both ready, exact three-second countdown, command gate and difficulty target
+ok 37 - both ready, exact three-second countdown, command gate and difficulty target
+  ---
+  duration_ms: 52.459
+  type: 'test'
+  ...
+# Subtest: first crossing locks winner; committed opponent action drains, final scores stay consistent
+ok 38 - first crossing locks winner; committed opponent action drains, final scores stay consistent
+  ---
+  duration_ms: 58.7189
+  type: 'test'
+  ...
+# Subtest: delayed frame resolves earlier opponent crossing before later player action
+ok 39 - delayed frame resolves earlier opponent crossing before later player action
+  ---
+  duration_ms: 29.6029
+  type: 'test'
+  ...
+# Subtest: same deadline is deterministic; local player score event wins equal-time crossings
+ok 40 - same deadline is deterministic; local player score event wins equal-time crossings
+  ---
+  duration_ms: 21.9824
+  type: 'test'
+  ...
+# Subtest: restart and disposal cancel bot, old transactions and restore event listener
+ok 41 - restart and disposal cancel bot, old transactions and restore event listener
+  ---
+  duration_ms: 28.5505
+  type: 'test'
+  ...
+# Subtest: late map loads cannot replace the current material and returning home reuses the original atlas
+ok 42 - late map loads cannot replace the current material and returning home reuses the original atlas
+  ---
+  duration_ms: 2.7561
+  type: 'test'
+  ...
+# Subtest: delayed and failed SVG loads stay renderable and a later load invalidates stale caches
+ok 43 - delayed and failed SVG loads stay renderable and a later load invalidates stale caches
+  ---
+  duration_ms: 0.2388
+  type: 'test'
+  ...
+# Subtest: every color and special uses its own atlas crop, cached across animated scales
+ok 44 - every color and special uses its own atlas crop, cached across animated scales
+  ---
+  duration_ms: 2.9774
+  type: 'test'
+  ...
+# Subtest: board raster is reused per resolution and keeps a square retina destination
+ok 45 - board raster is reused per resolution and keeps a square retina destination
+  ---
+  duration_ms: 0.3609
+  type: 'test'
+  ...
+# Subtest: theme replacement supplies both canvas sources and CSS assets without engine dependencies
+ok 46 - theme replacement supplies both canvas sources and CSS assets without engine dependencies
+  ---
+  duration_ms: 1.3594
+  type: 'test'
+  ...
+# Subtest: static theme resources exist, have no external SVG dependencies and fit the scenery download budget
+ok 47 - static theme resources exist, have no external SVG dependencies and fit the scenery download budget
+  ---
+  duration_ms: 23.6172
+  type: 'test'
+  ...
+# Subtest: music requires a gesture, loops full decoded buffer, has no SFX watchdog, caches decoding
+ok 48 - music requires a gesture, loops full decoded buffer, has no SFX watchdog, caches decoding
+  ---
+  duration_ms: 7.4328
+  type: 'test'
+  ...
+# Subtest: crossfade starts at zero and ramps both tracks, rapid changes are bounded
+ok 49 - crossfade starts at zero and ramps both tracks, rapid changes are bounded
+  ---
+  duration_ms: 3.1863
+  type: 'test'
+  ...
+# Subtest: late decoding after mute, cancellation and concurrent unlock cannot start stale music
+ok 50 - late decoding after mute, cancellation and concurrent unlock cannot start stale music
+  ---
+  duration_ms: 1.9564
+  type: 'test'
+  ...
+# Subtest: music and effects toggles are independent; core/environment ducks only music bus
+ok 51 - music and effects toggles are independent; core/environment ducks only music bus
+  ---
+  duration_ms: 3.4097
+  type: 'test'
+  ...
+# Subtest: hidden-page suspension and unavailable music do not affect UI or gameplay
+ok 52 - hidden-page suspension and unavailable music do not affect UI or gameplay
+  ---
+  duration_ms: 1.9913
+  type: 'test'
+  ...
+# Subtest: UI does not overlap rapid clicks; reserved aliases resolve to formal files
+ok 53 - UI does not overlap rapid clicks; reserved aliases resolve to formal files
+  ---
+  duration_ms: 0.8757
+  type: 'test'
+  ...
+# Subtest: observer follows reveal clock once per phase and chooses battle only for actual playing
+ok 54 - observer follows reveal clock once per phase and chooses battle only for actual playing
+  ---
+  duration_ms: 1.0452
+  type: 'test'
+  ...
+# Subtest: empty resources and unknown IDs stay silent without constructing audio; development notice is bounded
+ok 55 - empty resources and unknown IDs stay silent without constructing audio; development notice is bounded
+  ---
+  duration_ms: 3.9873
+  type: 'test'
+  ...
+# Subtest: disabling stops active sounds and new requests; zero volume never constructs a transport
+ok 56 - disabling stops active sounds and new requests; zero volume never constructs a transport
+  ---
+  duration_ms: 4.4978
+  type: 'test'
+  ...
+# Subtest: master, category and resource gains multiply and update active voices
+ok 57 - master, category and resource gains multiply and update active voices
+  ---
+  duration_ms: 0.3251
+  type: 'test'
+  ...
+# Subtest: ten quick clears merge without queued replay; the next window accepts one
+ok 58 - ten quick clears merge without queued replay; the next window accepts one
+  ---
+  duration_ms: 0.4
+  type: 'test'
+  ...
+# Subtest: pending requests count toward global/channel limits and ended releases a slot
+ok 59 - pending requests count toward global/channel limits and ended releases a slot
+  ---
+  duration_ms: 2.094
+  type: 'test'
+  ...
+# Subtest: media errors, play rejection, construction failure and late rejection do not escape
+ok 60 - media errors, play rejection, construction failure and late rejection do not escape
+  ---
+  duration_ms: 14.3092
+  type: 'test'
+  ...
+# Subtest: hung playback times out and frees capacity
+ok 61 - hung playback times out and frees capacity
+  ---
+  duration_ms: 40.5596
+  type: 'test'
+  ...
+# Subtest: formal registration rejects external/traversal paths and invalid configuration without reading files
+ok 62 - formal registration rejects external/traversal paths and invalid configuration without reading files
+  ---
+  duration_ms: 0.3789
+  type: 'test'
+  ...
+# Subtest: engine translation distinguishes chain, combo, special type and real ice break; cleanup stays silent
+ok 63 - engine translation distinguishes chain, combo, special type and real ice break; cleanup stays silent
+  ---
+  duration_ms: 0.6129
+  type: 'test'
+  ...
+# Subtest: real dual-board map callbacks merge once per phase, while a new time and reset can trigger again
+ok 64 - real dual-board map callbacks merge once per phase, while a new time and reset can trigger again
+  ---
+  duration_ms: 937.1001
+  type: 'test'
+  ...
+# Subtest: flow observer emits countdown/start/result on transitions without replays or state mutation
+ok 65 - flow observer emits countdown/start/result on transitions without replays or state mutation
+  ---
+  duration_ms: 1.9433
+  type: 'test'
+  ...
+# Subtest: seeded actual gameplay produces identical boards, scores, locks and event traces with audio enabled, disabled or detached
+ok 66 - seeded actual gameplay produces identical boards, scores, locks and event traces with audio enabled, disabled or detached
+  ---
+  duration_ms: 57.8492
+  type: 'test'
+  ...
+# Subtest: core manifest retains 10 enabled IDs and 16 core files; stage 3 adds 8 map files
+ok 67 - core manifest retains 10 enabled IDs and 16 core files; stage 3 adds 8 map files
+  ---
+  duration_ms: 0.4757
+  type: 'test'
+  ...
+# Subtest: chain depth selects three distinct files; higher levels cap; engine event remains immutable
+ok 68 - chain depth selects three distinct files; higher levels cap; engine event remains immutable
+  ---
+  duration_ms: 0.9456
+  type: 'test'
+  ...
+# Subtest: recorded match lane never overlaps or stops an accepted combo; rapid special cues merge; operation still plays
+ok 69 - recorded match lane never overlaps or stops an accepted combo; rapid special cues merge; operation still plays
+  ---
+  duration_ms: 0.2858
+  type: 'test'
+  ...
+# Subtest: countdown chooses ascending note variants 3/2/1 and start only on countdown -> playing
+ok 70 - countdown chooses ascending note variants 3/2/1 and start only on countdown -> playing
+  ---
+  duration_ms: 0.2409
+  type: 'test'
+  ...
+# Subtest: sound starts enabled, stays silent before input, and can still be explicitly disabled
+ok 71 - sound starts enabled, stays silent before input, and can still be explicitly disabled
+  ---
+  duration_ms: 0.1984
+  type: 'test'
+  ...
+# Subtest: actual special combinations select distinct releases and never add ordinary match pops
+ok 72 - actual special combinations select distinct releases and never add ordinary match pops
+  ---
+  duration_ms: 11.5171
+  type: 'test'
+  ...
+# Subtest: variant registration rejects external files and invalid gain/voice bounds
+ok 73 - variant registration rejects external files and invalid gain/voice bounds
+  ---
+  duration_ms: 0.4336
+  type: 'test'
+  ...
+# Subtest: selection preserves partial choices and completes unique six-card decks at exactly 60 seconds
+ok 74 - selection preserves partial choices and completes unique six-card decks at exactly 60 seconds
+  ---
+  duration_ms: 1.2828
+  type: 'test'
+  ...
+# Subtest: six slots enforce two per category, allow same-category replacements and lock after ready
+ok 75 - six slots enforce two per category, allow same-category replacements and lock after ready
+  ---
+  duration_ms: 0.3686
+  type: 'test'
+  ...
+# Subtest: AI and timeout completion respect every category limit across random seeds and partial decks
+ok 76 - AI and timeout completion respect every category limit across random seeds and partial decks
+  ---
+  duration_ms: 3.266
+  type: 'test'
+  ...
+# Subtest: card battles wait three seconds with zero energy, no swaps or bot commands before start
+ok 77 - card battles wait three seconds with zero energy, no swaps or bot commands before start
+  ---
+  duration_ms: 34.0526
+  type: 'test'
+  ...
+# Subtest: cancelled selection never auto-fills or becomes complete
+ok 78 - cancelled selection never auto-fills or becomes complete
+  ---
+  duration_ms: 0.2781
+  type: 'test'
+  ...
+# Subtest: card battle opens after countdown with zero hand, zero energy and a next-card preview
+ok 79 - card battle opens after countdown with zero hand, zero energy and a next-card preview
+  ---
+  duration_ms: 48.1696
+  type: 'test'
+  ...
+# Subtest: natural energy draws exactly at 100 and each shuffled cycle contains the selected six cards
+ok 80 - natural energy draws exactly at 100 and each shuffled cycle contains the selected six cards
+  ---
+  duration_ms: 38.1738
+  type: 'test'
+  ...
+# Subtest: full hand replaces overflow preview; successful use promotes it without exceeding six
+ok 81 - full hand replaces overflow preview; successful use promotes it without exceeding six
+  ---
+  duration_ms: 12.5918
+  type: 'test'
+  ...
+# Subtest: clears grant a small energy bonus, score deficit boosts only trailing side and caps compensation
+ok 82 - clears grant a small energy bonus, score deficit boosts only trailing side and caps compensation
+  ---
+  duration_ms: 70.4818
+  type: 'test'
+  ...
+# Subtest: red/blue must target enemy and yellow must target self; invalid drop consumes nothing
+ok 83 - red/blue must target enemy and yellow must target self; invalid drop consumes nothing
+  ---
+  duration_ms: 33.2479
+  type: 'test'
+  ...
+# Subtest: fire marks exactly three enemy cells, delays damage and uses original clear/fall timing
+ok 84 - fire marks exactly three enemy cells, delays damage and uses original clear/fall timing
+  ---
+  duration_ms: 16.4926
+  type: 'test'
+  ...
+# Subtest: quake damages only its target region and waits for safe engine state
+ok 85 - quake damages only its target region and waits for safe engine state
+  ---
+  duration_ms: 15.2072
+  type: 'test'
+  ...
+# Subtest: meteor damages only its target region and waits for safe engine state
+ok 86 - meteor damages only its target region and waits for safe engine state
+  ---
+  duration_ms: 37.8402
+  type: 'test'
+  ...
+# Subtest: bomb damages only its target region and waits for safe engine state
+ok 87 - bomb damages only its target region and waits for safe engine state
+  ---
+  duration_ms: 26.7456
+  type: 'test'
+  ...
+# Subtest: queued attacks never mutate active swaps and execute at the next stable boundary
+ok 88 - queued attacks never mutate active swaps and execute at the next stable boundary
+  ---
+  duration_ms: 73.1503
+  type: 'test'
+  ...
+# Subtest: card effects respect environment column reservations and do not overwrite terrain locks
+ok 89 - card effects respect environment column reservations and do not overwrite terrain locks
+  ---
+  duration_ms: 43.2707
+  type: 'test'
+  ...
+# Subtest: delayed frames resolve a card explosion at its own deadline before later transactions
+ok 90 - delayed frames resolve a card explosion at its own deadline before later transactions
+  ---
+  duration_ms: 18.6876
+  type: 'test'
+  ...
+# Subtest: time freeze pauses only board swaps, while the frozen player can still cast a card
+ok 91 - time freeze pauses only board swaps, while the frozen player can still cast a card
+  ---
+  duration_ms: 11.2548
+  type: 'test'
+  ...
+# Subtest: freeze rejects new target swaps for three seconds and leaves caster playable
+ok 92 - freeze rejects new target swaps for three seconds and leaves caster playable
+  ---
+  duration_ms: 38.6755
+  type: 'test'
+  ...
+# Subtest: blackhole changes enemy tiles while preserving identities and terrain
+ok 93 - blackhole changes enemy tiles while preserving identities and terrain
+  ---
+  duration_ms: 12.6087
+  type: 'test'
+  ...
+# Subtest: storm changes enemy tiles while preserving identities and terrain
+ok 94 - storm changes enemy tiles while preserving identities and terrain
+  ---
+  duration_ms: 29.0662
+  type: 'test'
+  ...
+# Subtest: fog marks partial cells and clears at six seconds
+ok 95 - fog marks partial cells and clears at six seconds
+  ---
+  duration_ms: 13.3175
+  type: 'test'
+  ...
+# Subtest: overload doubles only own real clears for ten seconds and publishes consistent score events
+ok 96 - overload doubles only own real clears for ten seconds and publishes consistent score events
+  ---
+  duration_ms: 15.0172
+  type: 'test'
+  ...
+# Subtest: sage issues real best visible swaps for five seconds and stops afterward
+ok 97 - sage issues real best visible swaps for five seconds and stops afterward
+  ---
+  duration_ms: 40.527
+  type: 'test'
+  ...
+# Subtest: rainbow creates an identifiable universal tile and an adjacent exchange clears every matching color
+ok 98 - rainbow creates an identifiable universal tile and an adjacent exchange clears every matching color
+  ---
+  duration_ms: 21.8708
+  type: 'test'
+  ...
+# Subtest: luck improves only own refill specials during ten seconds and restores tile factory on dispose
+ok 99 - luck improves only own refill specials during ten seconds and restores tile factory on dispose
+  ---
+  duration_ms: 12.2412
+  type: 'test'
+  ...
+# Subtest: AI earns cards from zero and actually plays them, without using hidden future tiles
+ok 100 - AI earns cards from zero and actually plays them, without using hidden future tiles
+  ---
+  duration_ms: 30.3896
+  type: 'test'
+  ...
+# Subtest: a complete real AI match reaches 15000 with swaps and cards, then stops all old sources
+ok 101 - a complete real AI match reaches 15000 with swaps and cards, then stops all old sources
+  ---
+  duration_ms: 155.6177
+  type: 'test'
+  ...
+# Subtest: 15000 crossing stops card generation, queued effects and commands, with fixed winner
+ok 102 - 15000 crossing stops card generation, queued effects and commands, with fixed winner
+  ---
+  duration_ms: 22.0435
+  type: 'test'
+  ...
+# Subtest: all card mutations respect holes and obstacles on forest
+ok 103 - all card mutations respect holes and obstacles on forest
+  ---
+  duration_ms: 17.0246
+  type: 'test'
+  ...
+# Subtest: all card mutations respect holes and obstacles on cliff
+ok 104 - all card mutations respect holes and obstacles on cliff
+  ---
+  duration_ms: 15.6402
+  type: 'test'
+  ...
+# Subtest: all card mutations respect holes and obstacles on crystal
+ok 105 - all card mutations respect holes and obstacles on crystal
+  ---
+  duration_ms: 10.5799
+  type: 'test'
+  ...
+# Subtest: all card mutations respect holes and obstacles on ruins
+ok 106 - all card mutations respect holes and obstacles on ruins
+  ---
+  duration_ms: 10.5476
+  type: 'test'
+  ...
+# Subtest: all card mutations respect holes and obstacles on furnace
+ok 107 - all card mutations respect holes and obstacles on furnace
+  ---
+  duration_ms: 39.2532
+  type: 'test'
+  ...
+# Subtest: line-line horizontal exchange with different colors consumes participants and scores once
+ok 108 - line-line horizontal exchange with different colors consumes participants and scores once
+  ---
+  duration_ms: 14.1503
+  type: 'test'
+  ...
+# Subtest: line-line horizontal exchange with same colors consumes participants and scores once
+ok 109 - line-line horizontal exchange with same colors consumes participants and scores once
+  ---
+  duration_ms: 17.5571
+  type: 'test'
+  ...
+# Subtest: line-line vertical exchange with different colors consumes participants and scores once
+ok 110 - line-line vertical exchange with different colors consumes participants and scores once
+  ---
+  duration_ms: 5.3037
+  type: 'test'
+  ...
+# Subtest: line-line vertical exchange with same colors consumes participants and scores once
+ok 111 - line-line vertical exchange with same colors consumes participants and scores once
+  ---
+  duration_ms: 5.68
+  type: 'test'
+  ...
+# Subtest: line-blast horizontal exchange with different colors consumes participants and scores once
+ok 112 - line-blast horizontal exchange with different colors consumes participants and scores once
+  ---
+  duration_ms: 5.1941
+  type: 'test'
+  ...
+# Subtest: line-blast horizontal exchange with same colors consumes participants and scores once
+ok 113 - line-blast horizontal exchange with same colors consumes participants and scores once
+  ---
+  duration_ms: 7.1744
+  type: 'test'
+  ...
+# Subtest: line-blast vertical exchange with different colors consumes participants and scores once
+ok 114 - line-blast vertical exchange with different colors consumes participants and scores once
+  ---
+  duration_ms: 5.4088
+  type: 'test'
+  ...
+# Subtest: line-blast vertical exchange with same colors consumes participants and scores once
+ok 115 - line-blast vertical exchange with same colors consumes participants and scores once
+  ---
+  duration_ms: 20.746
+  type: 'test'
+  ...
+# Subtest: line-blast horizontal exchange with different colors consumes participants and scores once
+ok 116 - line-blast horizontal exchange with different colors consumes participants and scores once
+  ---
+  duration_ms: 41.4558
+  type: 'test'
+  ...
+# Subtest: line-blast horizontal exchange with same colors consumes participants and scores once
+ok 117 - line-blast horizontal exchange with same colors consumes participants and scores once
+  ---
+  duration_ms: 5.1825
+  type: 'test'
+  ...
+# Subtest: line-blast vertical exchange with different colors consumes participants and scores once
+ok 118 - line-blast vertical exchange with different colors consumes participants and scores once
+  ---
+  duration_ms: 4.9354
+  type: 'test'
+  ...
+# Subtest: line-blast vertical exchange with same colors consumes participants and scores once
+ok 119 - line-blast vertical exchange with same colors consumes participants and scores once
+  ---
+  duration_ms: 5.5796
+  type: 'test'
+  ...
+# Subtest: blast-blast horizontal exchange with different colors consumes participants and scores once
+ok 120 - blast-blast horizontal exchange with different colors consumes participants and scores once
+  ---
+  duration_ms: 6.2532
+  type: 'test'
+  ...
+# Subtest: blast-blast horizontal exchange with same colors consumes participants and scores once
+ok 121 - blast-blast horizontal exchange with same colors consumes participants and scores once
+  ---
+  duration_ms: 5.532
+  type: 'test'
+  ...
+# Subtest: blast-blast vertical exchange with different colors consumes participants and scores once
+ok 122 - blast-blast vertical exchange with different colors consumes participants and scores once
+  ---
+  duration_ms: 22.8712
+  type: 'test'
+  ...
+# Subtest: blast-blast vertical exchange with same colors consumes participants and scores once
+ok 123 - blast-blast vertical exchange with same colors consumes participants and scores once
+  ---
+  duration_ms: 3.8277
+  type: 'test'
+  ...
+# Subtest: line-line clips exact combo area at every target, edge, corner and reversed direction
+ok 124 - line-line clips exact combo area at every target, edge, corner and reversed direction
+  ---
+  duration_ms: 7.6244
+  type: 'test'
+  ...
+# Subtest: line-blast clips exact combo area at every target, edge, corner and reversed direction
+ok 125 - line-blast clips exact combo area at every target, edge, corner and reversed direction
+  ---
+  duration_ms: 7.1196
+  type: 'test'
+  ...
+# Subtest: line-blast clips exact combo area at every target, edge, corner and reversed direction
+ok 126 - line-blast clips exact combo area at every target, edge, corner and reversed direction
+  ---
+  duration_ms: 7.874
+  type: 'test'
+  ...
+# Subtest: blast-blast clips exact combo area at every target, edge, corner and reversed direction
+ok 127 - blast-blast clips exact combo area at every target, edge, corner and reversed direction
+  ---
+  duration_ms: 10.1859
+  type: 'test'
+  ...
+# Subtest: all line orientations and mixed pair orders use the destination as the combo center
+ok 128 - all line orientations and mixed pair orders use the destination as the combo center
+  ---
+  duration_ms: 4.3542
+  type: 'test'
+  ...
+# Subtest: row plus blast keeps its direction when blast is the dragged source
+ok 129 - row plus blast keeps its direction when blast is the dragged source
+  ---
+  duration_ms: 10.8747
+  type: 'test'
+  ...
+# Subtest: column plus blast keeps its direction when blast is the dragged source
+ok 130 - column plus blast keeps its direction when blast is the dragged source
+  ---
+  duration_ms: 6.3457
+  type: 'test'
+  ...
+# Subtest: vertical line plus blast keeps unrelated columns interactive while horizontal spans all columns
+ok 131 - vertical line plus blast keeps unrelated columns interactive while horizontal spans all columns
+  ---
+  duration_ms: 9.4113
+  type: 'test'
+  ...
+# Subtest: combo wins over an ordinary four-match and does not generate or award a match bonus
+ok 132 - combo wins over an ordinary four-match and does not generate or award a match bonus
+  ---
+  duration_ms: 3.8054
+  type: 'test'
+  ...
+# Subtest: combo expands through multiple special effects without re-triggering consumed participants
+ok 133 - combo expands through multiple special effects without re-triggering consumed participants
+  ---
+  duration_ms: 51.7448
+  type: 'test'
+  ...
+# Subtest: combo gravity produces a scored depth-two refill match without duplicate tile IDs
+ok 134 - combo gravity produces a scored depth-two refill match without duplicate tile IDs
+  ---
+  duration_ms: 7.4519
+  type: 'test'
+  ...
+# Subtest: 5×5 combo leaves unrelated columns interactive during clear and gravity
+ok 135 - 5×5 combo leaves unrelated columns interactive during clear and gravity
+  ---
+  duration_ms: 3.6409
+  type: 'test'
+  ...
+# Subtest: combo conflict and a conflict reached only through chained specials both revert atomically
+ok 136 - combo conflict and a conflict reached only through chained specials both revert atomically
+  ---
+  duration_ms: 7.8268
+  type: 'test'
+  ...
+# Subtest: combo-lines fixture reliably exposes a 15-cell combo
+ok 137 - combo-lines fixture reliably exposes a 15-cell combo
+  ---
+  duration_ms: 28.8757
+  type: 'test'
+  ...
+# Subtest: combo-cross fixture reliably exposes a 24-cell combo
+ok 138 - combo-cross fixture reliably exposes a 24-cell combo
+  ---
+  duration_ms: 28.6135
+  type: 'test'
+  ...
+# Subtest: combo-column fixture reliably exposes a 24-cell combo
+ok 139 - combo-column fixture reliably exposes a 24-cell combo
+  ---
+  duration_ms: 52.439
+  type: 'test'
+  ...
+# Subtest: combo-blasts fixture reliably exposes a 25-cell combo
+ok 140 - combo-blasts fixture reliably exposes a 25-cell combo
+  ---
+  duration_ms: 27.5897
+  type: 'test'
+  ...
+# Subtest: rapid seeded concurrent commands preserve lock ownership and tile identity after combos
+ok 141 - rapid seeded concurrent commands preserve lock ownership and tile identity after combos
+  ---
+  duration_ms: 3832.3959
+  type: 'test'
+  ...
+# Subtest: fresh boards contain no initial matches and have legal moves
+ok 142 - fresh boards contain no initial matches and have legal moves
+  ---
+  duration_ms: 223.363
+  type: 'test'
+  ...
+# Subtest: horizontal and vertical runs merge a cross and count its center once
+ok 143 - horizontal and vertical runs merge a cross and count its center once
+  ---
+  duration_ms: 0.6808
+  type: 'test'
+  ...
+# Subtest: invalid exchange returns within 190ms and leaves score and board unchanged
+ok 144 - invalid exchange returns within 190ms and leaves score and board unchanged
+  ---
+  duration_ms: 9.2673
+  type: 'test'
+  ...
+# Subtest: nonadjacent, wrapped, out-of-bounds and busy swaps are refused
+ok 145 - nonadjacent, wrapped, out-of-bounds and busy swaps are refused
+  ---
+  duration_ms: 15.422
+  type: 'test'
+  ...
+# Subtest: three practice guarantees its intended feedback and score
+ok 146 - three practice guarantees its intended feedback and score
+  ---
+  duration_ms: 34.2371
+  type: 'test'
+  ...
+# Subtest: four practice guarantees its intended feedback and score
+ok 147 - four practice guarantees its intended feedback and score
+  ---
+  duration_ms: 8.7958
+  type: 'test'
+  ...
+# Subtest: five practice guarantees its intended feedback and score
+ok 148 - five practice guarantees its intended feedback and score
+  ---
+  duration_ms: 5.7036
+  type: 'test'
+  ...
+# Subtest: chain fixture refills into a second match with a larger multiplier
+ok 149 - chain fixture refills into a second match with a larger multiplier
+  ---
+  duration_ms: 5.6506
+  type: 'test'
+  ...
+# Subtest: unaffected columns accept new swaps during clear and gravity
+ok 150 - unaffected columns accept new swaps during clear and gravity
+  ---
+  duration_ms: 28.2907
+  type: 'test'
+  ...
+# Subtest: concurrent cross-column matching safely reverts without stealing locks
+ok 151 - concurrent cross-column matching safely reverts without stealing locks
+  ---
+  duration_ms: 9.13
+  type: 'test'
+  ...
+# Subtest: a blocked cascade preserves its depth and settles after the other column unlocks
+ok 152 - a blocked cascade preserves its depth and settles after the other column unlocks
+  ---
+  duration_ms: 6.8217
+  type: 'test'
+  ...
+# Subtest: reset cancels active transactions and removes all old tiles
+ok 153 - reset cancels active transactions and removes all old tiles
+  ---
+  duration_ms: 4.7244
+  type: 'test'
+  ...
+# Subtest: dead boards reshuffle after settling and retain score
+ok 154 - dead boards reshuffle after settling and retain score
+  ---
+  duration_ms: 7.818
+  type: 'test'
+  ...
+# Subtest: seeded concurrent random play preserves tiles and resolves matches
+ok 155 - seeded concurrent random play preserves tiles and resolves matches
+  ---
+  duration_ms: 471.3769
+  type: 'test'
+  ...
+# Subtest: T five-match rotation 0 generates one blast at swap destination and scores once
+ok 156 - T five-match rotation 0 generates one blast at swap destination and scores once
+  ---
+  duration_ms: 16.5144
+  type: 'test'
+  ...
+# Subtest: T five-match rotation 1 generates one blast at swap destination and scores once
+ok 157 - T five-match rotation 1 generates one blast at swap destination and scores once
+  ---
+  duration_ms: 8.0833
+  type: 'test'
+  ...
+# Subtest: T five-match rotation 2 generates one blast at swap destination and scores once
+ok 158 - T five-match rotation 2 generates one blast at swap destination and scores once
+  ---
+  duration_ms: 4.1699
+  type: 'test'
+  ...
+# Subtest: T five-match rotation 3 generates one blast at swap destination and scores once
+ok 159 - T five-match rotation 3 generates one blast at swap destination and scores once
+  ---
+  duration_ms: 9.1496
+  type: 'test'
+  ...
+# Subtest: L five-match rotation 0 generates one blast at swap destination and scores once
+ok 160 - L five-match rotation 0 generates one blast at swap destination and scores once
+  ---
+  duration_ms: 10.3722
+  type: 'test'
+  ...
+# Subtest: L five-match rotation 1 generates one blast at swap destination and scores once
+ok 161 - L five-match rotation 1 generates one blast at swap destination and scores once
+  ---
+  duration_ms: 5.2028
+  type: 'test'
+  ...
+# Subtest: L five-match rotation 2 generates one blast at swap destination and scores once
+ok 162 - L five-match rotation 2 generates one blast at swap destination and scores once
+  ---
+  duration_ms: 6.8199
+  type: 'test'
+  ...
+# Subtest: L five-match rotation 3 generates one blast at swap destination and scores once
+ok 163 - L five-match rotation 3 generates one blast at swap destination and scores once
+  ---
+  duration_ms: 4.5966
+  type: 'test'
+  ...
+# Subtest: t-five practice is repeatable and forms exactly five matching cells
+ok 164 - t-five practice is repeatable and forms exactly five matching cells
+  ---
+  duration_ms: 68.553
+  type: 'test'
+  ...
+# Subtest: l-five practice is repeatable and forms exactly five matching cells
+ok 165 - l-five practice is repeatable and forms exactly five matching cells
+  ---
+  duration_ms: 80.0126
+  type: 'test'
+  ...
+# Subtest: natural L five-match generates one blast without a player swap
+ok 166 - natural L five-match generates one blast without a player swap
+  ---
+  duration_ms: 19.4292
+  type: 'test'
+  ...
+# Subtest: intersecting three and four runs prioritize one blast over a line reward
+ok 167 - intersecting three and four runs prioritize one blast over a line reward
+  ---
+  duration_ms: 2.6929
+  type: 'test'
+  ...
+# Subtest: two separate triples do not become a five-match by summing their cells
+ok 168 - two separate triples do not become a five-match by summing their cells
+  ---
+  duration_ms: 1.6453
+  type: 'test'
+  ...
+# Subtest: row 4-match creates one colored reward at the exchange destination
+ok 169 - row 4-match creates one colored reward at the exchange destination
+  ---
+  duration_ms: 3.2455
+  type: 'test'
+  ...
+# Subtest: row 5-match creates one colored reward at the exchange destination
+ok 170 - row 5-match creates one colored reward at the exchange destination
+  ---
+  duration_ms: 3.6608
+  type: 'test'
+  ...
+# Subtest: row 6-match creates one colored reward at the exchange destination
+ok 171 - row 6-match creates one colored reward at the exchange destination
+  ---
+  duration_ms: 3.2307
+  type: 'test'
+  ...
+# Subtest: column 4-match creates one colored reward at the exchange destination
+ok 172 - column 4-match creates one colored reward at the exchange destination
+  ---
+  duration_ms: 3.7255
+  type: 'test'
+  ...
+# Subtest: column 5-match creates one colored reward at the exchange destination
+ok 173 - column 5-match creates one colored reward at the exchange destination
+  ---
+  duration_ms: 3.2015
+  type: 'test'
+  ...
+# Subtest: column 6-match creates one colored reward at the exchange destination
+ok 174 - column 6-match creates one colored reward at the exchange destination
+  ---
+  duration_ms: 3.3691
+  type: 'test'
+  ...
+# Subtest: crossed four and five runs award only one blast
+ok 175 - crossed four and five runs award only one blast
+  ---
+  duration_ms: 3.7008
+  type: 'test'
+  ...
+# Subtest: row fixture activates, clips, scores unique cells and settles
+ok 176 - row fixture activates, clips, scores unique cells and settles
+  ---
+  duration_ms: 12.2621
+  type: 'test'
+  ...
+# Subtest: column fixture activates, clips, scores unique cells and settles
+ok 177 - column fixture activates, clips, scores unique cells and settles
+  ---
+  duration_ms: 7.0343
+  type: 'test'
+  ...
+# Subtest: blast fixture activates, clips, scores unique cells and settles
+ok 178 - blast fixture activates, clips, scores unique cells and settles
+  ---
+  duration_ms: 5.4086
+  type: 'test'
+  ...
+# Subtest: edge fixture activates, clips, scores unique cells and settles
+ok 179 - edge fixture activates, clips, scores unique cells and settles
+  ---
+  duration_ms: 5.092
+  type: 'test'
+  ...
+# Subtest: special-chain fixture activates, clips, scores unique cells and settles
+ok 180 - special-chain fixture activates, clips, scores unique cells and settles
+  ---
+  duration_ms: 5.5704
+  type: 'test'
+  ...
+# Subtest: matching an existing special activates it once without converting it into a reward
+ok 181 - matching an existing special activates it once without converting it into a reward
+  ---
+  duration_ms: 4.075
+  type: 'test'
+  ...
+# Subtest: same-color swaps of two specials consume both in one combo and deduplicate intersections
+ok 182 - same-color swaps of two specials consume both in one combo and deduplicate intersections
+  ---
+  duration_ms: 3.8412
+  type: 'test'
+  ...
+# Subtest: special expansion conflicts revert atomically without effects or scores
+ok 183 - special expansion conflicts revert atomically without effects or scores
+  ---
+  duration_ms: 12.4052
+  type: 'test'
+  ...
+# Subtest: extended blast locks only its five affected columns and refill sources remain above them
+ok 184 - extended blast locks only its five affected columns and refill sources remain above them
+  ---
+  duration_ms: 9.0814
+  type: 'test'
+  ...
+# Subtest: special-containing stable board has activation moves and avoids unnecessary reshuffle
+ok 185 - special-containing stable board has activation moves and avoids unnecessary reshuffle
+  ---
+  duration_ms: 3.8739
+  type: 'test'
+  ...
+# Subtest: 13-cell blast has exact side extensions and clips correctly at all 64 positions
+ok 186 - 13-cell blast has exact side extensions and clips correctly at all 64 positions
+  ---
+  duration_ms: 4.0441
+  type: 'test'
+  ...
+# Subtest: an extended side cell triggers its special once while outer diagonals stay untouched
+ok 187 - an extended side cell triggers its special once while outer diagonals stay untouched
+  ---
+  duration_ms: 2.0969
+  type: 'test'
+  ...
+# Subtest: the new outer blast column participates in atomic conflict protection
+ok 188 - the new outer blast column participates in atomic conflict protection
+  ---
+  duration_ms: 5.1207
+  type: 'test'
+  ...
+# Subtest: a cascade waits for every column in its expanded blast and preserves multiplier
+ok 189 - a cascade waits for every column in its expanded blast and preserves multiplier
+  ---
+  duration_ms: 7.5142
+  type: 'test'
+  ...
+# Subtest: cliff: production cadence, scale and configured lifetime are paired
+ok 190 - cliff: production cadence, scale and configured lifetime are paired
+  ---
+  duration_ms: 141.2002
+  type: 'test'
+  ...
+# Subtest: furnace: production cadence, scale and configured lifetime are paired
+ok 191 - furnace: production cadence, scale and configured lifetime are paired
+  ---
+  duration_ms: 429.5
+  type: 'test'
+  ...
+# Subtest: rock single: exact contiguous footprint, atomic preservation and no hole/wrap
+ok 192 - rock single: exact contiguous footprint, atomic preservation and no hole/wrap
+  ---
+  duration_ms: 121.0348
+  type: 'test'
+  ...
+# Subtest: rock wide: exact contiguous footprint, atomic preservation and no hole/wrap
+ok 193 - rock wide: exact contiguous footprint, atomic preservation and no hole/wrap
+  ---
+  duration_ms: 104.0392
+  type: 'test'
+  ...
+# Subtest: rock tall: exact contiguous footprint, atomic preservation and no hole/wrap
+ok 194 - rock tall: exact contiguous footprint, atomic preservation and no hole/wrap
+  ---
+  duration_ms: 104.9108
+  type: 'test'
+  ...
+# Subtest: rock massive: exact contiguous footprint, atomic preservation and no hole/wrap
+ok 195 - rock massive: exact contiguous footprint, atomic preservation and no hole/wrap
+  ---
+  duration_ms: 56.9972
+  type: 'test'
+  ...
+# Subtest: footprint roulette is shared and retains its chosen size while waiting for safety
+ok 196 - footprint roulette is shared and retains its chosen size while waiting for safety
+  ---
+  duration_ms: 84.1723
+  type: 'test'
+  ...
+# Subtest: whole rock waits together if one footprint column becomes busy; finish/restart/exit release all cells
+ok 197 - whole rock waits together if one footprint column becomes busy; finish/restart/exit release all cells
+  ---
+  duration_ms: 259.8139
+  type: 'test'
+  ...
+# Subtest: bigger, frequent events retain hard bot activity, scoring and cleanup on every map
+ok 198 - bigger, frequent events retain hard bot activity, scoring and cleanup on every map
+  ---
+  duration_ms: 3242.9156
+  type: 'test'
+  ...
+# Subtest: stage 3 real map phases map to 8 distinct recordings; cell and board fanout merge
+ok 199 - stage 3 real map phases map to 8 distinct recordings; cell and board fanout merge
+  ---
+  duration_ms: 897.2593
+  type: 'test'
+  ...
+# Subtest: stage 3 rapid map requests stay bounded, never queue; later legitimate phase plays
+ok 200 - stage 3 rapid map requests stay bounded, never queue; later legitimate phase plays
+  ---
+  duration_ms: 1.211
+  type: 'test'
+  ...
+# Subtest: stage 3 environment ducks under clear/chain/skill and releases capacity to core
+ok 201 - stage 3 environment ducks under clear/chain/skill and releases capacity to core
+  ---
+  duration_ms: 11.5384
+  type: 'test'
+  ...
+# Subtest: stage 3 all four maps have identical actual boards, scores, phases and traces when environment muted or audio detached
+ok 202 - stage 3 all four maps have identical actual boards, scores, phases and traces when environment muted or audio detached
+  ---
+  duration_ms: 1999.318
+  type: 'test'
+  ...
+# Subtest: cliff: complete paired lifecycle, preserved originals, identical limits
+ok 203 - cliff: complete paired lifecycle, preserved originals, identical limits
+  ---
+  duration_ms: 145.0902
+  type: 'test'
+  ...
+# Subtest: cliff: configured multi-cell fairness and safe warning cancellation
+ok 204 - cliff: configured multi-cell fairness and safe warning cancellation
+  ---
+  duration_ms: 376.7633
+  type: 'test'
+  ...
+# Subtest: cliff: finish, restart and dispose in every phase leave no event state
+ok 205 - cliff: finish, restart and dispose in every phase leave no event state
+  ---
+  duration_ms: 799.5504
+  type: 'test'
+  ...
+# Subtest: cliff: hard bot, chains, specials and scoring continue during events
+ok 206 - cliff: hard bot, chains, specials and scoring continue during events
+  ---
+  duration_ms: 1081.5144
+  type: 'test'
+  ...
+# Subtest: furnace: complete paired lifecycle, preserved originals, identical limits
+ok 207 - furnace: complete paired lifecycle, preserved originals, identical limits
+  ---
+  duration_ms: 128.7669
+  type: 'test'
+  ...
+# Subtest: furnace: configured multi-cell fairness and safe warning cancellation
+ok 208 - furnace: configured multi-cell fairness and safe warning cancellation
+  ---
+  duration_ms: 360.8027
+  type: 'test'
+  ...
+# Subtest: furnace: finish, restart and dispose in every phase leave no event state
+ok 209 - furnace: finish, restart and dispose in every phase leave no event state
+  ---
+  duration_ms: 771.025
+  type: 'test'
+  ...
+# Subtest: furnace: hard bot, chains, specials and scoring continue during events
+ok 210 - furnace: hard bot, chains, specials and scoring continue during events
+  ---
+  duration_ms: 315.6893
+  type: 'test'
+  ...
+# Subtest: level-one ice: rejected clear cannot thaw; adjacent committed clear thaws without changing identity or special
+ok 211 - level-one ice: rejected clear cannot thaw; adjacent committed clear thaws without changing identity or special
+  ---
+  duration_ms: 2.2314
+  type: 'test'
+  ...
+# Subtest: ice anchors its tile during gravity until thaw, pillar divides gravity and shields original from special plans
+ok 212 - ice anchors its tile during gravity until thaw, pillar divides gravity and shields original from special plans
+  ---
+  duration_ms: 2.4537
+  type: 'test'
+  ...
+# Subtest: disabled map tuning creates no clock and framework exposes lifecycle interface
+ok 213 - disabled map tuning creates no clock and framework exposes lifecycle interface
+  ---
+  duration_ms: 8.138
+  type: 'test'
+  ...
+# Subtest: warning rechecks playable commands and expiry waits for both transaction boundaries
+ok 214 - warning rechecks playable commands and expiry waits for both transaction boundaries
+  ---
+  duration_ms: 640.7262
+  type: 'test'
+  ...
+# Subtest: cold fronts leave permanent ice across rounds; waiting never thaws and ordinary play stays possible
+ok 215 - cold fronts leave permanent ice across rounds; waiting never thaws and ordinary play stays possible
+  ---
+  duration_ms: 617.5916
+  type: 'test'
+  ...
+# Subtest: ice-induced deadlock rearranges unfrozen tiles without thawing or relocating anchors (seeded)
+ok 216 - ice-induced deadlock rearranges unfrozen tiles without thawing or relocating anchors (seeded)
+  ---
+  duration_ms: 10.2863
+  type: 'test'
+  ...
+# Subtest: ice-induced deadlock rearranges unfrozen tiles without thawing or relocating anchors (constant)
+ok 217 - ice-induced deadlock rearranges unfrozen tiles without thawing or relocating anchors (constant)
+  ---
+  duration_ms: 7.1264
+  type: 'test'
+  ...
+# Subtest: persistent ice cleans on finish only at safe transaction boundaries
+ok 218 - persistent ice cleans on finish only at safe transaction boundaries
+  ---
+  duration_ms: 231.6613
+  type: 'test'
+  ...
+# Subtest: fire lasts nine seconds, rejects exchanges and skill destruction, then returns exact tile identities
+ok 219 - fire lasts nine seconds, rejects exchanges and skill destruction, then returns exact tile identities
+  ---
+  duration_ms: 327.3553
+  type: 'test'
+  ...
+# Subtest: fire simultaneously warns all safe orthogonal neighbours, deduplicates fronts and preserves tile identities
+ok 220 - fire simultaneously warns all safe orthogonal neighbours, deduplicates fronts and preserves tile identities
+  ---
+  duration_ms: 343.6718
+  type: 'test'
+  ...
+# Subtest: ending a match during spread warning releases reservations and restores the burning tiles
+ok 221 - ending a match during spread warning releases reservations and restores the burning tiles
+  ---
+  duration_ms: 832.7497
+  type: 'test'
+  ...
+# Subtest: an isolated central flame ignites exactly its left, right, top and bottom neighbours together
+ok 222 - an isolated central flame ignites exactly its left, right, top and bottom neighbours together
+  ---
+  duration_ms: 68.6522
+  type: 'test'
+  ...
+# Subtest: spread skips both boards when one has no safe adjacent destination
+ok 223 - spread skips both boards when one has no safe adjacent destination
+  ---
+  duration_ms: 207.4533
+  type: 'test'
+  ...
+# Subtest: the ancient turntable rotates existing slabs and tiles, changing gravity without creating obstacles
+ok 224 - the ancient turntable rotates existing slabs and tiles, changing gravity without creating obstacles
+  ---
+  duration_ms: 4.6079
+  type: 'test'
+  ...
+# Subtest: paired turntables share the same patch, hold only its columns, and never revert topology on a timer
+ok 225 - paired turntables share the same patch, hold only its columns, and never revert topology on a timer
+  ---
+  duration_ms: 60.5741
+  type: 'test'
+  ...
+# Subtest: turntable commit remains safe while other columns change during its animation
+ok 226 - turntable commit remains safe while other columns change during its animation
+  ---
+  duration_ms: 2.4835
+  type: 'test'
+  ...
+# Subtest: a multi-cell cold front retains its column reservation until all ice has committed
+ok 227 - a multi-cell cold front retains its column reservation until all ice has committed
+  ---
+  duration_ms: 200.5638
+  type: 'test'
+  ...
+# Subtest: crystal: restart and exit clear presentation reservations and stored environment state
+ok 228 - crystal: restart and exit clear presentation reservations and stored environment state
+  ---
+  duration_ms: 949.208
+  type: 'test'
+  ...
+# Subtest: ruins: restart and exit clear presentation reservations and stored environment state
+ok 229 - ruins: restart and exit clear presentation reservations and stored environment state
+  ---
+  duration_ms: 448.4055
+  type: 'test'
+  ...
+# Subtest: furnace: restart and exit clear presentation reservations and stored environment state
+ok 230 - furnace: restart and exit clear presentation reservations and stored environment state
+  ---
+  duration_ms: 800.9068
+  type: 'test'
+  ...
+# Subtest: rockfall: optional stages and motion follow its environment
+ok 231 - rockfall: optional stages and motion follow its environment
+  ---
+  duration_ms: 4.816
+  type: 'test'
+  ...
+# Subtest: freeze: optional stages and motion follow its environment
+ok 232 - freeze: optional stages and motion follow its environment
+  ---
+  duration_ms: 5.9926
+  type: 'test'
+  ...
+# Subtest: fire: optional stages and motion follow its environment
+ok 233 - fire: optional stages and motion follow its environment
+  ---
+  duration_ms: 1.3297
+  type: 'test'
+  ...
+# Subtest: mechanism: optional stages and motion follow its environment
+ok 234 - mechanism: optional stages and motion follow its environment
+  ---
+  duration_ms: 0.2356
+  type: 'test'
+  ...
+# Subtest: duplicate cells share a cue and earned ice breaks do not replay the weather
+ok 235 - duplicate cells share a cue and earned ice breaks do not replay the weather
+  ---
+  duration_ms: 0.6911
+  type: 'test'
+  ...
+# Subtest: reveal draws once, cycles all five maps with deceleration for 2s and locks for 2s
+ok 236 - reveal draws once, cycles all five maps with deceleration for 2s and locks for 2s
+  ---
+  duration_ms: 2.0194
+  type: 'test'
+  ...
+# Subtest: cancelled reveals never complete; fresh matches draw afresh and reduced motion avoids rapid flips
+ok 237 - cancelled reveals never complete; fresh matches draw afresh and reduced motion avoids rapid flips
+  ---
+  duration_ms: 0.2544
+  type: 'test'
+  ...
+# Subtest: five map bindings have unique offline material sets and exact permanent footprints
+ok 238 - five map bindings have unique offline material sets and exact permanent footprints
+  ---
+  duration_ms: 2.5426
+  type: 'test'
+  ...
+# Subtest: random map selection is repeated per match and both engines receive the same theme and initial content
+ok 239 - random map selection is repeated per match and both engines receive the same theme and initial content
+  ---
+  duration_ms: 65.1416
+  type: 'test'
+  ...
+# Subtest: no environmental clock during countdown or disabled maps
+ok 240 - no environmental clock during countdown or disabled maps
+  ---
+  duration_ms: 41.0031
+  type: 'test'
+  ...
+# Subtest: shared 20s start, 1.5s warning, 0.3s fall, 5s blockage and identical restore times
+ok 241 - shared 20s start, 1.5s warning, 0.3s fall, 5s blockage and identical restore times
+  ---
+  duration_ms: 79.6955
+  type: 'test'
+  ...
+# Subtest: each round shares a 20–30s interval and equal event counts over a delayed clock
+ok 242 - each round shares a 20–30s interval and equal event counts over a delayed clock
+  ---
+  duration_ms: 520.9686
+  type: 'test'
+  ...
+# Subtest: map parameters drive timing rather than engine constants
+ok 243 - map parameters drive timing rather than engine constants
+  ---
+  duration_ms: 96.5145
+  type: 'test'
+  ...
+# Subtest: seal retains exact original tile identity, metadata and permanent terrain without scoring
+ok 244 - seal retains exact original tile identity, metadata and permanent terrain without scoring
+  ---
+  duration_ms: 96.1111
+  type: 'test'
+  ...
+# Subtest: candidate selection excludes holes, fixed obstacles, special tiles, busy columns and unsafe deadlocks
+ok 245 - candidate selection excludes holes, fixed obstacles, special tiles, busy columns and unsafe deadlocks
+  ---
+  duration_ms: 64.3253
+  type: 'test'
+  ...
+# Subtest: unsafe selection delays both sides and skips together after bounded wait, never compensates one side
+ok 246 - unsafe selection delays both sides and skips together after bounded wait, never compensates one side
+  ---
+  duration_ms: 4287.2936
+  type: 'test'
+  ...
+# Subtest: transactions started during warning delay both falls, then reserve only the two target columns
+ok 247 - transactions started during warning delay both falls, then reserve only the two target columns
+  ---
+  duration_ms: 35.1139
+  type: 'test'
+  ...
+# Subtest: busy expiry holds restoration for both sides until safe and gates fresh operations in recovery columns
+ok 248 - busy expiry holds restoration for both sides until safe and gates fresh operations in recovery columns
+  ---
+  duration_ms: 38.9901
+  type: 'test'
+  ...
+# Subtest: temporary obstruction splits matches and gravity, blocks special scoring, and defers deadlock reshuffle
+ok 249 - temporary obstruction splits matches and gravity, blocks special scoring, and defers deadlock reshuffle
+  ---
+  duration_ms: 5.915
+  type: 'test'
+  ...
+# Subtest: restoration submits a newly completed match through the existing score transaction exactly once
+ok 250 - restoration submits a newly completed match through the existing score transaction exactly once
+  ---
+  duration_ms: 8.3462
+  type: 'test'
+  ...
+# Subtest: finish cancels warnings and landing reservations; blocked originals clean up before final result
+ok 251 - finish cancels warnings and landing reservations; blocked originals clean up before final result
+  ---
+  duration_ms: 112.8161
+  type: 'test'
+  ...
+# Subtest: restart and dispose clear old environment state, storage and future clock work
+ok 252 - restart and dispose clear old environment state, storage and future clock work
+  ---
+  duration_ms: 38.2563
+  type: 'test'
+  ...
+# Subtest: real hard bot operates with rock blockage through engine legal commands
+ok 253 - real hard bot operates with rock blockage through engine legal commands
+  ---
+  duration_ms: 618.666
+  type: 'test'
+  ...
+# Subtest: standalone card game embeds one valid JS program without replacement-token corruption
+ok 254 - standalone card game embeds one valid JS program without replacement-token corruption
+  ---
+  duration_ms: 78.5223
+  type: 'test'
+  ...
+# Subtest: standalone embedded build hashes match the current card modules and every source asset
+ok 255 - standalone embedded build hashes match the current card modules and every source asset
+  ---
+  duration_ms: 40.3188
+  type: 'test'
+  ...
+# Subtest: standard: fresh terrain and repeated bot moves preserve topology, scoring and IDs
+ok 256 - standard: fresh terrain and repeated bot moves preserve topology, scoring and IDs
+  ---
+  duration_ms: 62.4133
+  type: 'test'
+  ...
+# Subtest: cliff: fresh terrain and repeated bot moves preserve topology, scoring and IDs
+ok 257 - cliff: fresh terrain and repeated bot moves preserve topology, scoring and IDs
+  ---
+  duration_ms: 28.9553
+  type: 'test'
+  ...
+# Subtest: crystal: fresh terrain and repeated bot moves preserve topology, scoring and IDs
+ok 258 - crystal: fresh terrain and repeated bot moves preserve topology, scoring and IDs
+  ---
+  duration_ms: 19.2795
+  type: 'test'
+  ...
+# Subtest: ruins: fresh terrain and repeated bot moves preserve topology, scoring and IDs
+ok 259 - ruins: fresh terrain and repeated bot moves preserve topology, scoring and IDs
+  ---
+  duration_ms: 48.9798
+  type: 'test'
+  ...
+# Subtest: invalid dimensions, holes-only, isolated triple and obstacle-fragmented maps fail before mutation
+ok 260 - invalid dimensions, holes-only, isolated triple and obstacle-fragmented maps fail before mutation
+  ---
+  duration_ms: 5.5654
+  type: 'test'
+  ...
+# Subtest: terrain cells split matching and prevent exchanges even if stale tile data is present
+ok 261 - terrain cells split matching and prevent exchanges even if stale tile data is present
+  ---
+  duration_ms: 1.6565
+  type: 'test'
+  ...
+# Subtest: hole traversal compacts vertically with true source coordinates and unchanged fall duration
+ok 262 - hole traversal compacts vertically with true source coordinates and unchanged fall duration
+  ---
+  duration_ms: 11.1728
+  type: 'test'
+  ...
+# Subtest: multiple obstacles segment refills, retain survivor order and clip new tile inlets
+ok 263 - multiple obstacles segment refills, retain survivor order and clip new tile inlets
+  ---
+  duration_ms: 11.3737
+  type: 'test'
+  ...
+# Subtest: row: range crosses terrain but only movable tiles clear and score
+ok 264 - row: range crosses terrain but only movable tiles clear and score
+  ---
+  duration_ms: 2.6688
+  type: 'test'
+  ...
+# Subtest: column: range crosses terrain but only movable tiles clear and score
+ok 265 - column: range crosses terrain but only movable tiles clear and score
+  ---
+  duration_ms: 2.1359
+  type: 'test'
+  ...
+# Subtest: blast: range crosses terrain but only movable tiles clear and score
+ok 266 - blast: range crosses terrain but only movable tiles clear and score
+  ---
+  duration_ms: 1.5031
+  type: 'test'
+  ...
+# Subtest: all combo ranges and four/five/T/L rewards respect terrain
+ok 267 - all combo ranges and four/five/T/L rewards respect terrain
+  ---
+  duration_ms: 5.4331
+  type: 'test'
+  ...
+# Subtest: deadlock reshuffles keep exact inventory, topology, obstacles and score on all test shapes
+ok 268 - deadlock reshuffles keep exact inventory, topology, obstacles and score on all test shapes
+  ---
+  duration_ms: 27.7282
+  type: 'test'
+  ...
+# Subtest: constant RNG cannot cause infinite board generation or reshuffling; tiny inventory redeals safely
+ok 269 - constant RNG cannot cause infinite board generation or reshuffling; tiny inventory redeals safely
+  ---
+  duration_ms: 3.8623
+  type: 'test'
+  ...
+# Subtest: obstacle-adjacent expansion conflicts revert atomically and independent columns stay operable
+ok 270 - obstacle-adjacent expansion conflicts revert atomically and independent columns stay operable
+  ---
+  duration_ms: 21.7239
+  type: 'test'
+  ...
+# Subtest: busy terrain replacement is rejected; explicit reset cancels transactions and invalid load is atomic
+ok 271 - busy terrain replacement is rejected; explicit reset cancels transactions and invalid load is atomic
+  ---
+  duration_ms: 5.9809
+  type: 'test'
+  ...
+# Subtest: arena uses identical nonrectangular structure and real bot commands without future refill access
+ok 272 - arena uses identical nonrectangular structure and real bot commands without future refill access
+  ---
+  duration_ms: 32.7514
+  type: 'test'
+  ...
+# Subtest: painter derives rectangular coordinates and terrain wells from configuration
+ok 273 - painter derives rectangular coordinates and terrain wells from configuration
+  ---
+  duration_ms: 1.6949
+  type: 'test'
+  ...
+# Subtest: authored presets share an 8×8 footprint and have distinct deliberate silhouettes
+ok 274 - authored presets share an 8×8 footprint and have distinct deliberate silhouettes
+  ---
+  duration_ms: 0.6318
+  type: 'test'
+  ...
+# Subtest: shared well art is clipped to exactly the non-hole footprint on both shaped boards
+ok 275 - shared well art is clipped to exactly the non-hole footprint on both shaped boards
+  ---
+  duration_ms: 1.3225
+  type: 'test'
+  ...
+# Subtest: tutorial 1 has a real playable completion path and exact goals
+ok 276 - tutorial 1 has a real playable completion path and exact goals
+  ---
+  duration_ms: 32.3674
+  type: 'test'
+  ...
+# Subtest: tutorial 2 has a real playable completion path and exact goals
+ok 277 - tutorial 2 has a real playable completion path and exact goals
+  ---
+  duration_ms: 20.307
+  type: 'test'
+  ...
+# Subtest: tutorial 3 has a real playable completion path and exact goals
+ok 278 - tutorial 3 has a real playable completion path and exact goals
+  ---
+  duration_ms: 28.0054
+  type: 'test'
+  ...
+# Subtest: tutorial 4 has a real playable completion path and exact goals
+ok 279 - tutorial 4 has a real playable completion path and exact goals
+  ---
+  duration_ms: 21.3961
+  type: 'test'
+  ...
+# Subtest: tutorial 5 has a real playable completion path and exact goals
+ok 280 - tutorial 5 has a real playable completion path and exact goals
+  ---
+  duration_ms: 11.7117
+  type: 'test'
+  ...
+# Subtest: tutorial 6 has a real playable completion path and exact goals
+ok 281 - tutorial 6 has a real playable completion path and exact goals
+  ---
+  duration_ms: 32.7333
+  type: 'test'
+  ...
+# Subtest: preset specials cannot satisfy the manufacture-and-trigger objective
+ok 282 - preset specials cannot satisfy the manufacture-and-trigger objective
+  ---
+  duration_ms: 7.607
+  type: 'test'
+  ...
+# Subtest: active goal counts player exchanges rather than all secondary explosions
+ok 283 - active goal counts player exchanges rather than all secondary explosions
+  ---
+  duration_ms: 8.5552
+  type: 'test'
+  ...
+# Subtest: invalid, rejected and conflicting exchanges never spend a move
+ok 284 - invalid, rejected and conflicting exchanges never spend a move
+  ---
+  duration_ms: 31.8896
+  type: 'test'
+  ...
+# Subtest: independent columns remain concurrent and each accepted action spends one step
+ok 285 - independent columns remain concurrent and each accepted action spends one step
+  ---
+  duration_ms: 24.9355
+  type: 'test'
+  ...
+# Subtest: pending swaps reserve the last step; reversal releases it
+ok 286 - pending swaps reserve the last step; reversal releases it
+  ---
+  duration_ms: 10.6726
+  type: 'test'
+  ...
+# Subtest: last-step success waits for cascades; failure and retry clear old transactions
+ok 287 - last-step success waits for cascades; failure and retry clear old transactions
+  ---
+  duration_ms: 9.0406
+  type: 'test'
+  ...
+# Subtest: preset and per-column refill sequences are reusable, copied, and validated
+ok 288 - preset and per-column refill sequences are reusable, copied, and validated
+  ---
+  duration_ms: 10.5504
+  type: 'test'
+  ...
+# Subtest: progress unlocks in sequence, reloads, permits replays and grants qualification only after six wins
+ok 289 - progress unlocks in sequence, reloads, permits replays and grants qualification only after six wins
+  ---
+  duration_ms: 4.4852
+  type: 'test'
+  ...
+# Subtest: corrupt or unavailable storage degrades safely without phantom unlocks
+ok 290 - corrupt or unavailable storage degrades safely without phantom unlocks
+  ---
+  duration_ms: 1.0161
+  type: 'test'
+  ...
+1..290
+# tests 290
+# suites 0
+# pass 290
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7742.8926

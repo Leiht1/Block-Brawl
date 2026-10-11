@@ -1,0 +1,287 @@
+{
+  "checks": [
+    {
+      "map": "cliff",
+      "persistentLabel": {
+        "hidden": false,
+        "opacity": "1",
+        "bottom": 225.5,
+        "scoreTop": 254.5
+      }
+    },
+    {
+      "map": "cliff",
+      "targets": [
+        [
+          24,
+          25,
+          32,
+          33
+        ],
+        [
+          5,
+          6,
+          13,
+          14
+        ]
+      ],
+      "duration": 5000,
+      "dynamicFire": false,
+      "stages": [
+        "Environment",
+        "Camera",
+        "Board",
+        "Gameplay"
+      ],
+      "camera": true
+    },
+    {
+      "frostBeforeFreezing": {
+        "edge": 205,
+        "center": 0,
+        "frozen": 0
+      }
+    },
+    {
+      "map": "crystal",
+      "persistentLabel": {
+        "hidden": false,
+        "opacity": "1",
+        "bottom": 225.5,
+        "scoreTop": 254.5
+      }
+    },
+    {
+      "map": "crystal",
+      "persistentPast6000": true,
+      "thawedByActualSwap": {
+        "a": 3,
+        "b": 11,
+        "ice": [
+          13
+        ]
+      },
+      "stages": [
+        "Environment",
+        "Board",
+        "Gameplay"
+      ],
+      "camera": false
+    },
+    {
+      "map": "ruins",
+      "persistentLabel": {
+        "hidden": false,
+        "opacity": "1",
+        "bottom": 225.5,
+        "scoreTop": 254.5
+      }
+    },
+    {
+      "map": "ruins",
+      "targets": [
+        [
+          5,
+          6,
+          13,
+          14
+        ],
+        [
+          5,
+          6,
+          13,
+          14
+        ]
+      ],
+      "structureChanges": true,
+      "newObstacles": 0,
+      "stages": [
+        "Environment",
+        "Board",
+        "Gameplay"
+      ],
+      "camera": false
+    },
+    {
+      "map": "furnace",
+      "persistentLabel": {
+        "hidden": false,
+        "opacity": "1",
+        "bottom": 225.5,
+        "scoreTop": 254.5
+      }
+    },
+    {
+      "fourDirectionSpreadAt": 3000,
+      "previous": [
+        3,
+        3
+      ],
+      "targets": [
+        [
+          10,
+          3,
+          19,
+          30,
+          23,
+          39,
+          13,
+          4,
+          20
+        ],
+        [
+          52,
+          54,
+          45,
+          61,
+          59,
+          50,
+          26,
+          28,
+          19,
+          35
+        ]
+      ],
+      "counts": [
+        12,
+        13
+      ]
+    },
+    {
+      "fourDirectionSpreadAt": 6000,
+      "previous": [
+        12,
+        13
+      ],
+      "targets": [
+        [
+          9,
+          2,
+          18,
+          27,
+          29,
+          22,
+          38,
+          47,
+          14,
+          5,
+          21,
+          28
+        ],
+        [
+          51,
+          44,
+          60,
+          46,
+          37,
+          49,
+          42,
+          25,
+          18,
+          34,
+          29,
+          20,
+          36,
+          11,
+          43
+        ]
+      ],
+      "counts": [
+        24,
+        28
+      ]
+    },
+    {
+      "map": "furnace",
+      "targets": [
+        [
+          11,
+          31,
+          12
+        ],
+        [
+          53,
+          58,
+          27
+        ]
+      ],
+      "duration": 9000,
+      "dynamicFire": true,
+      "stages": [
+        "Environment",
+        "Board",
+        "Gameplay"
+      ],
+      "camera": false
+    },
+    "Actual restart/exit cleanup, reduced motion, identical 480×480 geometry and restored drawing transforms",
+    {
+      "mobileLabel": {
+        "bottom": 53,
+        "scoreTop": 237.40625,
+        "toolbarTop": 177.40625,
+        "visible": true
+      },
+      "cliffOuterEdgesTransparent": true
+    },
+    {
+      "backgroundBrightnessBefore": 110.4181386574074,
+      "backgroundBrightnessWarning": 125.97015995370371
+    }
+  ],
+  "frames": [
+    "cliff-before.png",
+    "cliff-environment.png",
+    "cliff-mountain-shake.png",
+    "cliff-warning.png",
+    "cliff-arrival.png",
+    "cliff-execute.png",
+    "cliff-landing.png",
+    "cliff-active.png",
+    "cliff-event.png",
+    "cliff-recovery.png",
+    "cliff-restored.png",
+    "crystal-before.png",
+    "crystal-environment.png",
+    "crystal-warning.png",
+    "crystal-arrival.png",
+    "crystal-execute.png",
+    "crystal-landing.png",
+    "crystal-active.png",
+    "crystal-event.png",
+    "crystal-ice-detail.png",
+    "crystal-persistent.png",
+    "crystal-cracks.png",
+    "crystal-shards.png",
+    "crystal-recovered.png",
+    "ruins-before.png",
+    "ruins-environment.png",
+    "ruins-large-gear.png",
+    "ruins-warning.png",
+    "ruins-arrival.png",
+    "ruins-execute.png",
+    "ruins-event.png",
+    "ruins-landing.png",
+    "ruins-active.png",
+    "ruins-changed.png",
+    "furnace-before.png",
+    "furnace-environment.png",
+    "furnace-warning.png",
+    "furnace-arrival.png",
+    "furnace-execute.png",
+    "furnace-landing.png",
+    "furnace-active.png",
+    "furnace-event.png",
+    "furnace-flame-motion.png",
+    "furnace-spread-3000-warning.png",
+    "furnace-spread-3000-flame.png",
+    "furnace-spread-6000-warning.png",
+    "furnace-spread-6000-flame.png",
+    "furnace-still-burning.png",
+    "furnace-recovery.png",
+    "furnace-restored.png",
+    "forest-before.png",
+    "mobile-name.png"
+  ],
+  "errors": []
+}

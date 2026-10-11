@@ -1,0 +1,256 @@
+{
+  "files": [
+    {
+      "file": "ui/countdown-3-v2.wav",
+      "seconds": 0.21,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.680023193359375,
+      "volume": 0.42,
+      "effectivePeak": 0.28560974121093746,
+      "effectiveRms": 0.08304001367302599,
+      "effectiveEnergy": 0.0014480852128714323
+    },
+    {
+      "file": "ui/countdown-1-v2.wav",
+      "seconds": 0.21,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.680023193359375,
+      "volume": 0.46,
+      "effectivePeak": 0.3128106689453125,
+      "effectiveRms": 0.0846257160221793,
+      "effectiveEnergy": 0.0015039174805759725
+    },
+    {
+      "file": "ui/countdown-2-v2.wav",
+      "seconds": 0.21,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.680023193359375,
+      "volume": 0.44,
+      "effectivePeak": 0.299210205078125,
+      "effectiveRms": 0.08396835148645816,
+      "effectiveEnergy": 0.0014806436507842102
+    },
+    {
+      "file": "ui/countdown-start-v2.wav",
+      "seconds": 0.4,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.780029296875,
+      "volume": 0.64,
+      "effectivePeak": 0.49921875,
+      "effectiveRms": 0.09824655523577905,
+      "effectiveEnergy": 0.003860954246278793
+    },
+    {
+      "file": "block/block-swap-v1.wav",
+      "seconds": 0.12,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.720001220703125,
+      "volume": 0.58,
+      "effectivePeak": 0.41760070800781246,
+      "effectiveRms": 0.0513299471148143,
+      "effectiveEnergy": 0.0003161716164971559
+    },
+    {
+      "file": "block/block-invalid-v1.wav",
+      "seconds": 0.22,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.5999755859375,
+      "volume": 0.32,
+      "effectivePeak": 0.1919921875,
+      "effectiveRms": 0.051682735893549256,
+      "effectiveEnergy": 0.0005876431416773203
+    },
+    {
+      "file": "block/block-match3-v2.wav",
+      "seconds": 0.09,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.65997314453125,
+      "volume": 0.46,
+      "effectivePeak": 0.30358764648437503,
+      "effectiveRms": 0.052089724232901806,
+      "effectiveEnergy": 0.0002442005433593782
+    },
+    {
+      "file": "combo/combo1-v2.wav",
+      "seconds": 0.15,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.719970703125,
+      "volume": 0.48,
+      "effectivePeak": 0.3455859375,
+      "effectiveRms": 0.052962478986046495,
+      "effectiveEnergy": 0.00042075362705211244
+    },
+    {
+      "file": "combo/combo2-v2.wav",
+      "seconds": 0.17498866213151928,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.719970703125,
+      "volume": 0.51,
+      "effectivePeak": 0.36718505859375,
+      "effectiveRms": 0.05854452356649906,
+      "effectiveEnergy": 0.0005997668568302059
+    },
+    {
+      "file": "combo/combo3-v2.wav",
+      "seconds": 0.2,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.719970703125,
+      "volume": 0.54,
+      "effectivePeak": 0.3887841796875,
+      "effectiveRms": 0.05583911534873062,
+      "effectiveEnergy": 0.0006236013605857687
+    },
+    {
+      "file": "block/block-fall-v1.wav",
+      "seconds": 0.1,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.600006103515625,
+      "volume": 0.24,
+      "effectivePeak": 0.14400146484374998,
+      "effectiveRms": 0.019183958275348,
+      "effectiveEnergy": 3.6802425511029296e-05
+    },
+    {
+      "file": "special/special-create-v3.wav",
+      "seconds": 0.36,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.620025634765625,
+      "volume": 0.4,
+      "effectivePeak": 0.24801025390625,
+      "effectiveRms": 0.05291209170833538,
+      "effectiveEnergy": 0.0010078882016224657
+    },
+    {
+      "file": "special/special-line-v3.wav",
+      "seconds": 0.4,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.660003662109375,
+      "volume": 0.66,
+      "effectivePeak": 0.43560241699218755,
+      "effectiveRms": 0.08360248907983642,
+      "effectiveEnergy": 0.0027957504721376667,
+      "energyIncreaseDb": 10.587517809742488
+    },
+    {
+      "file": "special/special-bomb-v3.wav",
+      "seconds": 0.5,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.739990234375,
+      "volume": 0.68,
+      "effectivePeak": 0.503193359375,
+      "effectiveRms": 0.08526515546327018,
+      "effectiveEnergy": 0.0036350733680878167
+    },
+    {
+      "file": "special/special-combo-line-blast-v4.wav",
+      "seconds": 0.56,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.759979248046875,
+      "volume": 0.78,
+      "effectivePeak": 0.5927838134765625,
+      "effectiveRms": 0.12237840619098268,
+      "effectiveEnergy": 0.008386825609033283,
+      "energyIncreaseDb": 4.770992057216611
+    },
+    {
+      "file": "special/special-combo-blasts-v3.wav",
+      "seconds": 0.95,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.660003662109375,
+      "volume": 0.9,
+      "effectivePeak": 0.5940032958984375,
+      "effectiveRms": 0.24520945243315725,
+      "effectiveEnergy": 0.05712129178444037,
+      "energyIncreaseDb": 8.332004077111932
+    }
+  ],
+  "tiers": [
+    {
+      "file": "block/block-match3-v2.wav",
+      "seconds": 0.09,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.65997314453125,
+      "volume": 0.46,
+      "effectivePeak": 0.30358764648437503,
+      "effectiveRms": 0.052089724232901806,
+      "effectiveEnergy": 0.0002442005433593782
+    },
+    {
+      "file": "special/special-line-v3.wav",
+      "seconds": 0.4,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.660003662109375,
+      "volume": 0.66,
+      "effectivePeak": 0.43560241699218755,
+      "effectiveRms": 0.08360248907983642,
+      "effectiveEnergy": 0.0027957504721376667,
+      "energyIncreaseDb": 10.587517809742488
+    },
+    {
+      "file": "special/special-combo-line-blast-v4.wav",
+      "seconds": 0.56,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.759979248046875,
+      "volume": 0.78,
+      "effectivePeak": 0.5927838134765625,
+      "effectiveRms": 0.12237840619098268,
+      "effectiveEnergy": 0.008386825609033283,
+      "energyIncreaseDb": 4.770992057216611
+    },
+    {
+      "file": "special/special-combo-blasts-v3.wav",
+      "seconds": 0.95,
+      "rate": 44100,
+      "channels": 1,
+      "peak": 0.660003662109375,
+      "volume": 0.9,
+      "effectivePeak": 0.5940032958984375,
+      "effectiveRms": 0.24520945243315725,
+      "effectiveEnergy": 0.05712129178444037,
+      "energyIncreaseDb": 8.332004077111932
+    }
+  ],
+  "selectedLine": {
+    "matchesFormerCreate": true,
+    "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63"
+  },
+  "magicCues": [
+    {
+      "file": "special/special-create-v3.wav",
+      "singleSource": "magic/virix/Misc 02.wav"
+    },
+    {
+      "file": "special/special-bomb-v3.wav",
+      "singleSource": "magic/virix/Ice attack 2.wav"
+    },
+    {
+      "file": "special/special-combo-line-blast-v4.wav",
+      "singleSource": "line-blast/qubodupIceAndElectricitySpells/qubodupIceDamage03b.flac"
+    },
+    {
+      "file": "special/special-combo-blasts-v3.wav",
+      "singleSource": "magic/virix/Fire impact 1.wav"
+    }
+  ],
+  "checks": "PCM loads; finite samples; mono 44.1kHz; no clipping; tier RMS/energy and chain energy rise",
+  "limitation": "Numerical checks do not replace subjective listening."
+}
