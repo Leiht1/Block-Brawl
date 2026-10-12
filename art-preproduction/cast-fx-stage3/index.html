@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>方块乱斗 · 卡牌释放动画审核</title>
+  <link rel="stylesheet" href="preview.css">
+  <script src="preview-data.js" defer></script><script src="preview.js" defer></script>
+</head>
+<body>
+<header><a class="brand" href="index.html">方块乱斗 <span>第三阶段 · 施法动画</span></a><a href="spec/DELIVERY.md">素材说明</a></header>
+<main>
+  <div class="intro"><div><p class="eyebrow">CARD CAST / ANIMATION REVIEW</p><h1>从一张手牌，释放一次魔法</h1><p>沿用你确认的第三版卡牌与现有背景、棋盘。这里播放新绘制的透明序列帧，供独立审核。</p></div><span class="status">已确认 · 已接入游戏</span></div>
+  <details class="baseline"><summary>查看本轮锁定的卡牌版本</summary><img src="spec/approved-card-baseline.png" alt="用户确认的红金进攻、蓝金控制与青金强化卡牌基准"></details>
+  <section class="review" aria-label="动画审核">
+    <div class="settings">
+      <div class="types" role="group" aria-label="卡牌类型"><button data-type="attack" aria-pressed="true">进攻 <small>红金迸发</small></button><button data-type="control" aria-pressed="false">控制 <small>蓝紫旋流</small></button><button data-type="buff" aria-pressed="false">强化 <small>金青祝福</small></button></div>
+      <label>卡牌基准<select id="card"></select></label>
+      <label>场景<select id="map"></select></label>
+      <label>播放阶段<select id="stage"><option value="all">完整连贯施法</option><option value="activation">卡牌激活</option><option value="release">松手释放</option><option value="orb">光团循环</option><option value="trail">飞行拖尾循环</option><option value="impact">命中爆发与消散</option></select></label>
+      <label>素材<select id="quality"><option value="runtime">浏览器优化版</option><option value="png">PNG原图</option></select></label>
+    </div>
+    <div class="scene-head"><p id="route">进攻 → 敌方棋盘</p><label class="toggle"><input id="compare" type="checkbox">敌方 / 己方演出对比</label></div>
+    <div id="scenes" class="scenes"><figure><canvas id="battle" width="960" height="680" aria-label="卡牌施法审核画面"></canvas><figcaption id="scene-caption">96px宽普通手牌 · 光团从原手牌位置出发</figcaption></figure><figure id="comparison" hidden><canvas id="battle-compare" width="960" height="680" aria-label="强化卡飞向己方棋盘对比"></canvas><figcaption id="compare-caption">强化 → 己方棋盘</figcaption></figure></div>
+    <div id="load-state" role="status">正在加载绘制素材…</div>
+    <div class="transport">
+      <button id="replay" class="primary">重新播放</button><button id="play">暂停</button><button id="prev" title="上一个真实帧">‹ 上一帧</button><button id="next" title="下一个真实帧">下一帧 ›</button>
+      <label>速度<select id="speed"><option value="1">正常 · 1×</option><option value="0.5">慢速 · 0.5×</option><option value="0.25">慢速 · 0.25×</option></select></label>
+      <label class="toggle"><input id="repeat" type="checkbox" checked>反复播放</label>
+    </div>
+    <label class="scrubber"><span id="time">0 / 1200 ms</span><input id="seek" type="range" min="0" max="1200" step="1" value="0" aria-label="动画播放时间"></label>
+    <div class="timeline" id="timeline" aria-label="阶段时间线"><span>激活</span><span>释放</span><span>飞行</span><span>命中 / 收尾</span></div>
+    <p id="frame-info" class="frame-info"></p><p id="feedback" class="hint">可拖动手牌释放，或点击目标棋盘选落点；起点始终保留为原手牌中心。</p>
+    <p class="hint">完整演出1.20秒；松手后0.96秒收尾。命中后200ms标记技能衔接点，本页只展示通用释放。</p>
+  </section>
+  <section class="stages"><div class="section-title"><h2>各阶段独立查看</h2><label>透明检查<select id="backdrop"><option value="checker">棋格底</option><option value="dark">深色底</option><option value="light">浅色底</option></select></label></div><p class="hint">点击任一阶段进入独立播放；暂停和逐帧按钮同样适用。光团、拖尾均按各自八帧循环。</p><div id="stage-gallery" class="stage-gallery"></div></section>
+  <section class="inventory"><h2>可复用素材</h2><p>每类包含激活、释放、光团、拖尾、命中五套素材，共144张PNG帧。高质量原始图集与浏览器压缩版分别保留。</p><div class="table-wrap"><table><thead><tr><th>类型 / 阶段</th><th>帧数</th><th>单帧尺寸</th><th>时长 / 循环</th><th>PNG图集</th><th>浏览器版</th><th>查看素材</th></tr></thead><tbody id="inventory"></tbody></table></div></section>
+  <footer><a href="spec/manifest.json">完整图集坐标与锚点</a><a href="spec/DELIVERY.md">清单与接入建议</a><a href="qa/verification.json">必要验证记录</a><a href="spec/prompts.json">绘制提示词</a></footer>
+</main></body></html>

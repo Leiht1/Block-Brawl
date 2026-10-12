@@ -1,0 +1,96 @@
+{
+  "file": "/D:/codex%E9%A1%B9%E7%9B%AE/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97-%E6%9C%80%E6%96%B0%E7%89%88.html",
+  "onlyStaticArtChanged": true,
+  "assets": [
+    {
+      "name": "./assets/jungle-scenery.webp",
+      "count": 2,
+      "bytes": 313306,
+      "sha256": "2b5bc1886954d4f8aabd381815f2237268db74779690525404617e55d93f988b"
+    },
+    {
+      "name": "./assets/toy-board.svg",
+      "count": 1,
+      "bytes": 187759,
+      "sha256": "211c9aaba83c51dbf22953d50b62f1143c8226b240add6203ab0a3d7b4c31426"
+    },
+    {
+      "name": "./assets/maps/cliff-canyon.svg",
+      "count": 1,
+      "bytes": 209431,
+      "sha256": "ed62c86a0c4944fcb91212fa3438be46b3dae1e3301a2b3701a2d3ea6ad5dbad"
+    },
+    {
+      "name": "./assets/maps/cliff-board.svg",
+      "count": 1,
+      "bytes": 235282,
+      "sha256": "25f6b57d63b7f3f2d0769be064a63906706041c782726bec1ca8a94065c212b8"
+    },
+    {
+      "name": "./assets/maps/cliff-stage-left.svg",
+      "count": 1,
+      "bytes": 258762,
+      "sha256": "0f6e35a2a3ff669de713597586cf87d845fb928a41063e1c4a4f5ecce5032786"
+    },
+    {
+      "name": "./assets/maps/cliff-stage-right.svg",
+      "count": 1,
+      "bytes": 258762,
+      "sha256": "2c26ab3e3eb6a451998b03aefea175c213642b3be965f8ed4f1475f1bb2cae0a"
+    },
+    {
+      "name": "./assets/maps/crystal-landscape.svg",
+      "count": 1,
+      "bytes": 151683,
+      "sha256": "5caccf0031b2e383b85116a9ba715d793c40a82a88383bd62b6e462185f4c56b"
+    },
+    {
+      "name": "./assets/maps/crystal-board.svg",
+      "count": 1,
+      "bytes": 270966,
+      "sha256": "a65f141afa19e2b0d0d7d6822e19656a0c04136826552de6056e1d451aca9e35"
+    },
+    {
+      "name": "./assets/maps/crystal-stage.svg",
+      "count": 1,
+      "bytes": 289670,
+      "sha256": "e668a48797145227d0a5b45dac29936fc09040da64a9a6e22b4e14096d45eb69"
+    },
+    {
+      "name": "./assets/maps/ruins-temple.svg",
+      "count": 1,
+      "bytes": 198567,
+      "sha256": "fe5fcdbf5da546f7123adae67ee25a535537dc9ad3312218e88dfb3f8193c557"
+    },
+    {
+      "name": "./assets/maps/ruins-board.svg",
+      "count": 1,
+      "bytes": 264070,
+      "sha256": "7832c1b504da8d61d4ff55e80b8eb1e0c85af1d032decedeeb90eba975f6718b"
+    },
+    {
+      "name": "./assets/maps/ruins-stage.svg",
+      "count": 1,
+      "bytes": 279646,
+      "sha256": "db8db0a937de7f87ed8fb0834740dbb19108f6d7c3f551c5489d4fc4572e1b7a"
+    },
+    {
+      "name": "./assets/maps/furnace-hall.svg",
+      "count": 1,
+      "bytes": 157911,
+      "sha256": "e0a883221d2569ae120dfad83dc3c8d42175662038c9017d1864863ac16d4cdb"
+    },
+    {
+      "name": "./assets/maps/furnace-board.svg",
+      "count": 1,
+      "bytes": 345202,
+      "sha256": "e97d038ac47cb3ba284d18149a5a40c23ed99b1a75325f62f960e50f02309fb5"
+    },
+    {
+      "name": "./assets/maps/furnace-stage.svg",
+      "count": 1,
+      "bytes": 359206,
+      "sha256": "bdf3866ee80b0ef9ef10513827b922413807ae27d790173de2bff0a4c8109af0"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ import {MapReveal} from './map-reveal.mjs';
 import {CardSelection,CARD_CONFIG} from './cards.mjs';
 import {createCardUI} from './card-ui.mjs';
 
-export function createGameFlow({engine,showHint,message,resize,onSandbox,opponentView,onOpponentEvent=()=>{},onMapChange=()=>{},reducedMotion=false}){
+export function createGameFlow({engine,showHint,message,resize,onSandbox,opponentView,onOpponentEvent=()=>{},onCardEvent=()=>{},onMapChange=()=>{},reducedMotion=false}){
   const $=id=>document.getElementById(id);
   let storage;try{storage=window.localStorage;}catch{storage={getItem(){throw Error('storage unavailable');},setItem(){throw Error('storage unavailable');}};}
   const progress=new TutorialProgress(storage);
@@ -16,7 +16,7 @@ export function createGameFlow({engine,showHint,message,resize,onSandbox,opponen
     get visibleGame(){return ['sandbox','tutorial','arena'].includes(this.screen);},
     get canInteract(){return this.visibleGame&&(this.arena?this.arena.status==='playing'&&!this.arena.cards?.manualBlocked('player',engine.now):!this.session||this.session.canAct);},
     swap(a,b){return this.canInteract&&(this.arena?this.arena.command('player',{kind:'swap',a,b}):this.session?this.session.swap(a,b):engine.command({kind:'swap',a,b}));},
-    event(e){this.session?.event(e);if(this.session&&e.kind!=='reset')renderGoals();},
+    event(e){cardUI?.boardEvent('player',e);this.session?.event(e);if(this.session&&e.kind!=='reset')renderGoals();},
     update(now=performance.now()){
       if(this.reveal){const state=this.reveal.at(now);renderReveal(state);if(state.phase==='complete'){const map=this.reveal.map;this.reveal=null;this.enterArena(map,now);}return;}
       if(this.selection){this.selection.update(now);cardUI.render(now);if(this.selection.complete){this.arena.decks={player:[...this.selection.player],opponent:[...this.selection.opponent]};this.arena.start(now);this.selection=null;this.arena.ready('opponent',now);this.arena.ready('player',now);$('game-screen').inert=false;$('board').focus({preventScroll:true});}else return;}
@@ -49,8 +49,8 @@ export function createGameFlow({engine,showHint,message,resize,onSandbox,opponen
       this.reveal=new MapReveal(performance.now(),Math.random,reducedMotion);onMapChange(null);setScreen('matching');renderReveal(this.reveal.at(performance.now()));$('map-reveal-cancel').focus();
     },
     enterArena(map,now){
-      const opponent=new MatchEngine({onEvent:e=>{onOpponentEvent(e);opponentView.event(e);}});
-      this.arena=new ArenaSession({player:engine,opponent,source:new BotSource(this.difficulty),map,onMapChange,target:CARD_CONFIG.targetScore,onCardChange:e=>cardUI.event(e)});
+      const opponent=new MatchEngine({onEvent:e=>{cardUI?.boardEvent('opponent',e);onOpponentEvent(e);opponentView.event(e);}});
+      this.arena=new ArenaSession({player:engine,opponent,source:new BotSource(this.difficulty),map,onMapChange,target:CARD_CONFIG.targetScore,onCardChange:e=>{cardUI.event(e);onCardEvent(e);}});
       this.arena.start(now);setScreen('arena');
       this.selection=new CardSelection(now);$('game-screen').inert=true;cardUI.render(now);$('deck-cancel').focus();
       $('mode-label').textContent=`人机 · ${DIFFICULTIES[this.difficulty].label}`;$('play-sign').textContent='✦ 方块竞技场 ✦';

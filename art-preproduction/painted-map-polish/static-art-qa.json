@@ -1,0 +1,52 @@
+{
+  "changedFiles": [
+    "./assets/jungle-scenery.webp",
+    "./assets/toy-board.svg",
+    "./assets/maps/cliff-canyon.svg",
+    "./assets/maps/cliff-board.svg",
+    "./assets/maps/cliff-stage-left.svg",
+    "./assets/maps/cliff-stage-right.svg",
+    "./assets/maps/crystal-landscape.svg",
+    "./assets/maps/crystal-board.svg",
+    "./assets/maps/crystal-stage.svg",
+    "./assets/maps/ruins-temple.svg",
+    "./assets/maps/ruins-board.svg",
+    "./assets/maps/ruins-stage.svg",
+    "./assets/maps/furnace-hall.svg",
+    "./assets/maps/furnace-board.svg",
+    "./assets/maps/furnace-stage.svg"
+  ],
+  "maps": [
+    {
+      "id": "forest",
+      "cells": 64,
+      "obstacles": 0,
+      "originalTerrainAndMasks": true
+    },
+    {
+      "id": "cliff",
+      "cells": 48,
+      "obstacles": 0,
+      "originalTerrainAndMasks": true
+    },
+    {
+      "id": "crystal",
+      "cells": 40,
+      "obstacles": 0,
+      "originalTerrainAndMasks": true
+    },
+    {
+      "id": "ruins",
+      "cells": 54,
+      "obstacles": 10,
+      "originalTerrainAndMasks": true
+    },
+    {
+      "id": "furnace",
+      "cells": 52,
+      "obstacles": 0,
+      "originalTerrainAndMasks": true
+    }
+  ],
+  "protectedFiles": 90
+}

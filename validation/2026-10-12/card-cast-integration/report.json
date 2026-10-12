@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-12",
+  "scope": "generic cast integration, card rules, approved art and offline build only",
+  "checks": [
+    "all 12 approved v3 card faces and 15 painted atlases load",
+    "wrong-side drop and Escape consume nothing, clear activation, and create no projectile",
+    "three distinct painted releases, >=7 moving orb frames, correct target sides, exact hand origin and 960ms cleanup",
+    "meteor lands at its real penetration end; quake aims at its actual bottom row",
+    "rainbow waits for a busy board, resumes to the real generated wild tile, then cleans up",
+    "AI attacks the player and strengthens its own board, originating at its existing hand summary",
+    "resize keeps the sprite layer fitted; leaving battle removes every transient cast",
+    "rules, engine, arena, bots, all existing backgrounds/boards and all approved card masters remain byte-for-byte unchanged",
+    "local single HTML embeds all 27 new media files, displays approved cards and plays painted cast frames after a real drag, with no external requests"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "draws": [
+    {
+      "type": "attack",
+      "spriteDraws": 54,
+      "origin": {
+        "x": 782,
+        "y": 709.7179870605469
+      },
+      "target": {
+        "x": 853.82421875,
+        "y": 240.57421875
+      }
+    },
+    {
+      "type": "control",
+      "spriteDraws": 54,
+      "origin": {
+        "x": 782,
+        "y": 709.7179870605469
+      },
+      "target": {
+        "x": 853.82421875,
+        "y": 240.57421875
+      }
+    },
+    {
+      "type": "buff",
+      "spriteDraws": 54,
+      "origin": {
+        "x": 782,
+        "y": 709.7179870605469
+      },
+      "target": {
+        "x": 482.50390625,
+        "y": 240.57421875
+      }
+    }
+  ],
+  "status": "passed",
+  "protectedFiles": 99,
+  "offlinePaintedDraws": 285
+}

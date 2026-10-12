@@ -1,0 +1,125 @@
+{
+  "scope": "cards only; reference style",
+  "cards": [
+    {
+      "id": "fire",
+      "name": "火焰冲击",
+      "kind": "attack",
+      "file": "cards/fire.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "meteor",
+      "name": "陨石坠落",
+      "kind": "attack",
+      "file": "cards/meteor.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "quake",
+      "name": "地裂冲击",
+      "kind": "attack",
+      "file": "cards/quake.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "bomb",
+      "name": "炸弹投放",
+      "kind": "attack",
+      "file": "cards/bomb.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "freeze",
+      "name": "时间冻结",
+      "kind": "control",
+      "file": "cards/freeze.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": true
+    },
+    {
+      "id": "blackhole",
+      "name": "黑洞吸引",
+      "kind": "control",
+      "file": "cards/blackhole.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "storm",
+      "name": "混乱风暴",
+      "kind": "control",
+      "file": "cards/storm.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "fog",
+      "name": "迷雾领域",
+      "kind": "control",
+      "file": "cards/fog.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "rainbow",
+      "name": "彩虹核心",
+      "kind": "enhance",
+      "file": "cards/rainbow.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": true
+    },
+    {
+      "id": "sage",
+      "name": "贤者时间",
+      "kind": "enhance",
+      "file": "cards/sage.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "overload",
+      "name": "超载模式",
+      "kind": "enhance",
+      "file": "cards/overload.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    },
+    {
+      "id": "luck",
+      "name": "幸运星",
+      "kind": "enhance",
+      "file": "cards/luck.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "originalReference": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "http://127.0.0.1:4187/art-preproduction/card-reference-v3/index.html",
+    "cards": 12,
+    "images": 27,
+    "failedImages": 0,
+    "mobileOverflow": false,
+    "errors": []
+  },
+  {
+    "url": "file:///D:/codex%E9%A1%B9%E7%9B%AE/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97/art-preproduction/card-reference-v3/%E5%8D%A1%E7%89%87%E7%A6%BB%E7%BA%BF%E9%A2%84%E8%A7%88.html",
+    "cards": 12,
+    "images": 27,
+    "failedImages": 0,
+    "mobileOverflow": false,
+    "errors": []
+  }
+]

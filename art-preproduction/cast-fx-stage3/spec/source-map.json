@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "attack": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-90efd0b7-4bb2-4925-aedb-08c844dac9f1.png",
+    "control": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-7f20dd06-37b7-434b-8021-f4769f649f3e.png",
+    "buff": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-98da4e0d-0ee7-40e9-8199-97aa418cfd7f.png",
+    "attack-flight": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-d4321509-d8a1-4e2c-85d1-df00780f3a44.png",
+    "control-flight": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-ed5c25b9-61d8-4ff8-ba3e-1450f1dc78b9.png",
+    "buff-flight": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-3cb4eaed-82d0-413f-84cc-9b3c9f6479ba.png",
+    "attack-impact": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-d3787583-1e38-4080-a2f6-d7a44826acad.png",
+    "control-impact": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-9ed5fe4e-474d-49da-9041-d9113c3b6064.png",
+    "buff-impact": "C:\\Users\\HT\\.codex\\generated_images\\01a12f35-3c75-7181-b4af-6b548041348a\\exec-3efc9565-30c0-43aa-9db9-340db4b442f4.png"
+  },
+  "output": "D:/codex项目/方块乱斗/art-preproduction/cast-fx-stage3"
+}

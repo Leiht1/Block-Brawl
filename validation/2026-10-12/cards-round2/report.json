@@ -1,0 +1,208 @@
+{
+  "checks": [
+    "four attack plus two control cards; mini-card removal and selection flight; 60-second clock",
+    "timeout remains exactly 60 seconds, then original three-second countdown",
+    "one natural energy per second, no natural energy motes, charge then preview-to-hand flight",
+    "six-card fan enlarges, lifts and foregrounds hovered card",
+    "wrong-side drop consumes nothing and returns card",
+    "Escape cancels a captured pointer drag",
+    "fire wave follows aimed row, burns then resolves once with embers",
+    "meteor previews exact penetrated cells, falls with trail and impacts on cliff geometry",
+    "ice crystals persist through freeze and shatter at exact expiry",
+    "rotating blackhole, gravity lines and real tile moves; all transient effects clean up",
+    "real clear produces energy motes, absorption feedback and settles without duplicate reward",
+    "four desktop viewports retain equal board sizes and enlarged hand without horizontal overflow",
+    "rebuilt standalone file opens directly, accepts free deck and enters real battle without external requests"
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "scrollX": false,
+      "board": {
+        "x": 53.75,
+        "y": 184,
+        "width": 476,
+        "height": 476,
+        "top": 184,
+        "right": 529.75,
+        "bottom": 660,
+        "left": 53.75
+      },
+      "enemy": {
+        "x": 753.25,
+        "y": 184,
+        "width": 476,
+        "height": 476,
+        "top": 184,
+        "right": 1229.25,
+        "bottom": 660,
+        "left": 753.25
+      },
+      "dock": {
+        "x": 24,
+        "y": 734.75,
+        "width": 1235,
+        "height": 183,
+        "top": 734.75,
+        "right": 1259,
+        "bottom": 917.75,
+        "left": 24
+      },
+      "card": {
+        "x": 419.8569641113281,
+        "y": 740.441162109375,
+        "width": 151.64669799804688,
+        "height": 177.8096923828125,
+        "top": 740.441162109375,
+        "right": 571.503662109375,
+        "bottom": 918.2508544921875,
+        "left": 419.8569641113281
+      }
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "scrollX": false,
+      "board": {
+        "x": 127.71875,
+        "y": 143.21875,
+        "width": 371.5625,
+        "height": 371.5625,
+        "top": 143.21875,
+        "right": 499.28125,
+        "bottom": 514.78125,
+        "left": 127.71875
+      },
+      "enemy": {
+        "x": 709.71875,
+        "y": 143.21875,
+        "width": 371.5625,
+        "height": 371.5625,
+        "top": 143.21875,
+        "right": 1081.28125,
+        "bottom": 514.78125,
+        "left": 709.71875
+      },
+      "dock": {
+        "x": 104.5,
+        "y": 583,
+        "width": 1000,
+        "height": 177,
+        "top": 583,
+        "right": 1104.5,
+        "bottom": 760,
+        "left": 104.5
+      },
+      "card": {
+        "x": 382.85693359375,
+        "y": 582.691162109375,
+        "width": 151.646728515625,
+        "height": 177.8096923828125,
+        "top": 582.691162109375,
+        "right": 534.503662109375,
+        "bottom": 760.5008544921875,
+        "left": 382.85693359375
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "scrollX": false,
+      "board": {
+        "x": 289.5,
+        "y": 242,
+        "width": 480,
+        "height": 480,
+        "top": 242,
+        "right": 769.5,
+        "bottom": 722,
+        "left": 289.5
+      },
+      "enemy": {
+        "x": 993.5,
+        "y": 242,
+        "width": 480,
+        "height": 480,
+        "top": 242,
+        "right": 1473.5,
+        "bottom": 722,
+        "left": 993.5
+      },
+      "dock": {
+        "x": 259.5,
+        "y": 797,
+        "width": 1244,
+        "height": 183,
+        "top": 797,
+        "right": 1503.5,
+        "bottom": 980,
+        "left": 259.5
+      },
+      "card": {
+        "x": 659.85693359375,
+        "y": 802.691162109375,
+        "width": 151.646728515625,
+        "height": 177.8096923828125,
+        "top": 802.691162109375,
+        "right": 811.503662109375,
+        "bottom": 980.5008544921875,
+        "left": 659.85693359375
+      }
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "scrollX": false,
+      "board": {
+        "x": 42.1875,
+        "y": 183.4375,
+        "width": 291.125,
+        "height": 291.125,
+        "top": 183.4375,
+        "right": 333.3125,
+        "bottom": 474.5625,
+        "left": 42.1875
+      },
+      "enemy": {
+        "x": 533.6875,
+        "y": 183.4375,
+        "width": 291.125,
+        "height": 291.125,
+        "top": 183.4375,
+        "right": 824.8125,
+        "bottom": 474.5625,
+        "left": 533.6875
+      },
+      "dock": {
+        "x": 24,
+        "y": 537.75,
+        "width": 819,
+        "height": 177,
+        "top": 537.75,
+        "right": 843,
+        "bottom": 714.75,
+        "left": 24
+      },
+      "card": {
+        "x": 211.85694885253906,
+        "y": 537.441162109375,
+        "width": 151.64671325683594,
+        "height": 177.8096923828125,
+        "top": 537.441162109375,
+        "right": 363.503662109375,
+        "bottom": 715.2508544921875,
+        "left": 211.85694885253906
+      }
+    }
+  ]
+}

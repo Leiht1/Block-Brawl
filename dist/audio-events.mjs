@@ -32,6 +32,13 @@ export function createAudioEvents(audio){
   const emit=(name,options)=>AUDIO_EVENT_MAP[name]?audio.play(AUDIO_EVENT_MAP[name],options):false;
   return {
     emit,
+    card(e){
+      if(e.kind==='charged')return emit('special_create');
+      if(e.kind==='thaw')return emit('ice_break');
+      if(e.kind==='cast')return emit(e.card.id==='freeze'?'ice_freeze':e.card.id==='blackhole'?'ruins_activate':'ui_confirm');
+      if(e.kind==='effect')return emit(({fire:'furnace_spread',meteor:'special_bomb',blackhole:'special_combo'})[e.id]||'special_trigger');
+      return false;
+    },
     reset(){batches.clear();stopEffects();},
     engine(e,source='player'){
       if(e.kind==='reset'){if(source==='player'){batches.clear();stopEffects({preserveUi:true});}return false;}

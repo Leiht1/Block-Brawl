@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-12",
+  "scope": "card rules, generic painted cast player, approved asset identity, standalone syntax and source hashes",
+  "status": "passed",
+  "groups": [
+    {
+      "files": [
+        "tests/cards.test.mjs",
+        "tests/cards-round2.test.mjs"
+      ],
+      "passed": 48
+    },
+    {
+      "files": [
+        "tests/card-cast-vfx.test.mjs"
+      ],
+      "passed": 8
+    },
+    {
+      "files": [
+        "tests/offline-cards.test.mjs"
+      ],
+      "passed": 2
+    }
+  ],
+  "totalPassed": 58,
+  "unrelatedFullRegression": false
+}

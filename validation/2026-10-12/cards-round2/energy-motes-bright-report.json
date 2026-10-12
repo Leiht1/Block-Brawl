@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Real clear energy motes visible in battle",
+    "Normal and chain motes render identically",
+    "Bright cores and enlarged glow",
+    "Motes and absorption clean up"
+  ],
+  "errors": [],
+  "layouts": [],
+  "uniform": {
+    "same": true,
+    "brightPixels": 124,
+    "remains": 0,
+    "differences": 0,
+    "maxDiff": 0
+  }
+}

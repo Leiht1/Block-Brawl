@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-12",
+  "scope": "cast-fx-stage3 only; no unrelated game regression",
+  "checks": [
+    "144 RGBA frames; exact pixel matches to 15 PNG atlases; ordered coordinates and timing; unique poses per stage",
+    "WebP decoded alpha equals PNG alpha at every pixel; transparent outer borders; three fully clear terminal frames",
+    "orb/trail loop seam compared with adjacent-frame differences; contact sheets retained for visual inspection",
+    "formal game, approved maps and all approved third-version card files unchanged",
+    "all 144 exported frames actually selected and drawn by preview; three full performances reach clean end",
+    "pause, real-frame previous/next, normal/0.5/0.25 speed, repeat and clean one-shot end",
+    "same-time attack/control enemy route and buff self route comparison",
+    "five existing map shapes and twelve current target rules; meteor landing, bottom-row quake, random ordinary rainbow cell",
+    "real pointer drag emits burst at captured hand origin, not mouse release; wrong-side drop cancels",
+    "PNG masters and optimized atlases both playable; three preview layouts without horizontal overflow",
+    "index.html opens directly via file URL, without a server or network dependency"
+  ],
+  "assetStats": [
+    {
+      "type": "attack",
+      "phase": "activation",
+      "frames": 8,
+      "pngBytes": 608918,
+      "runtimeBytes": 216080,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 180649
+    },
+    {
+      "type": "attack",
+      "phase": "release",
+      "frames": 8,
+      "pngBytes": 751262,
+      "runtimeBytes": 239688,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 230988
+    },
+    {
+      "type": "attack",
+      "phase": "orb",
+      "frames": 8,
+      "pngBytes": 540077,
+      "runtimeBytes": 158878,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 157107
+    },
+    {
+      "type": "attack",
+      "phase": "trail",
+      "frames": 8,
+      "pngBytes": 321783,
+      "runtimeBytes": 112064,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 94096
+    },
+    {
+      "type": "attack",
+      "phase": "impact",
+      "frames": 16,
+      "pngBytes": 730616,
+      "runtimeBytes": 232938,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 219781
+    },
+    {
+      "type": "control",
+      "phase": "activation",
+      "frames": 8,
+      "pngBytes": 656521,
+      "runtimeBytes": 216198,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 191161
+    },
+    {
+      "type": "control",
+      "phase": "release",
+      "frames": 8,
+      "pngBytes": 713945,
+      "runtimeBytes": 224916,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 212814
+    },
+    {
+      "type": "control",
+      "phase": "orb",
+      "frames": 8,
+      "pngBytes": 525540,
+      "runtimeBytes": 165538,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 151583
+    },
+    {
+      "type": "control",
+      "phase": "trail",
+      "frames": 8,
+      "pngBytes": 161252,
+      "runtimeBytes": 63968,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 44670
+    },
+    {
+      "type": "control",
+      "phase": "impact",
+      "frames": 16,
+      "pngBytes": 700600,
+      "runtimeBytes": 281534,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 209626
+    },
+    {
+      "type": "buff",
+      "phase": "activation",
+      "frames": 8,
+      "pngBytes": 560433,
+      "runtimeBytes": 194614,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 164571
+    },
+    {
+      "type": "buff",
+      "phase": "release",
+      "frames": 8,
+      "pngBytes": 672061,
+      "runtimeBytes": 204526,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 197363
+    },
+    {
+      "type": "buff",
+      "phase": "orb",
+      "frames": 8,
+      "pngBytes": 601363,
+      "runtimeBytes": 167420,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 172688
+    },
+    {
+      "type": "buff",
+      "phase": "trail",
+      "frames": 8,
+      "pngBytes": 296688,
+      "runtimeBytes": 97832,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 86044
+    },
+    {
+      "type": "buff",
+      "phase": "impact",
+      "frames": 16,
+      "pngBytes": 878561,
+      "runtimeBytes": 285550,
+      "alphaErrors": 0,
+      "maxBorderAlpha": 0,
+      "visibleCount": 255090
+    }
+  ],
+  "loopMetrics": [
+    {
+      "type": "attack",
+      "phase": "orb",
+      "meanStep": 16.622560092557517,
+      "maxStep": 17.854715125387344,
+      "lastToFirst": 15.216955127591303
+    },
+    {
+      "type": "attack",
+      "phase": "trail",
+      "meanStep": 9.628583914849258,
+      "maxStep": 10.488855598799459,
+      "lastToFirst": 9.20152571933791
+    },
+    {
+      "type": "control",
+      "phase": "orb",
+      "meanStep": 21.75059647760253,
+      "maxStep": 23.43467756283505,
+      "lastToFirst": 24.163794204609136
+    },
+    {
+      "type": "control",
+      "phase": "trail",
+      "meanStep": 4.815607874823285,
+      "maxStep": 5.68088821710348,
+      "lastToFirst": 4.948384203942149
+    },
+    {
+      "type": "buff",
+      "phase": "orb",
+      "meanStep": 23.049098112955807,
+      "maxStep": 27.440102770432713,
+      "lastToFirst": 21.996343894406124
+    },
+    {
+      "type": "buff",
+      "phase": "trail",
+      "meanStep": 9.724710339458897,
+      "maxStep": 10.89811339534196,
+      "lastToFirst": 8.692620430741632
+    }
+  ],
+  "browser": {
+    "errors": [],
+    "failedRequests": [],
+    "framesChecked": 144
+  },
+  "protectedFiles": {
+    "checked": 353,
+    "changed": []
+  },
+  "status": "passed",
+  "reusedAssetVerification": true,
+  "totals": {
+    "paintedFrames": 141,
+    "frameFiles": 144,
+    "transparentTerminalFrames": 3,
+    "atlases": 15,
+    "sourceSheets": 9,
+    "atlasBytes": 8719620,
+    "runtimeBytes": 2861744,
+    "sequenceBytes": 8720597,
+    "sourceBytes": 17708473,
+    "decodedAtlasBytes": 37748736
+  }
+}

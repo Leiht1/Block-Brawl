@@ -1,0 +1,155 @@
+{
+  "checks": [
+    {
+      "map": "forest",
+      "viewport": {
+        "width": 1920,
+        "height": 945
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "cliff",
+      "viewport": {
+        "width": 1920,
+        "height": 945
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "crystal",
+      "viewport": {
+        "width": 1920,
+        "height": 945
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "ruins",
+      "viewport": {
+        "width": 1920,
+        "height": 945
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "furnace",
+      "viewport": {
+        "width": 1920,
+        "height": 945
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "forest",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "cliff",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "crystal",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "ruins",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "furnace",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "forest",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "cliff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "crystal",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "ruins",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    },
+    {
+      "map": "furnace",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "stableGeometry": true,
+      "fixedFrame": true,
+      "unobscuredUI": true
+    }
+  ],
+  "errors": []
+}

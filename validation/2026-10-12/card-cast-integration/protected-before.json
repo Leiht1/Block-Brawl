@@ -1,0 +1,398 @@
+[
+  {
+    "sha256": "be8b175af7c9a7038e45c2080971ccc97e282bb6b547626caac7255855f6a278",
+    "path": "dist/cards.mjs"
+  },
+  {
+    "sha256": "b58248d2e36a1189f613c66222ac0febf66b056226c74d2d9fee01ce20c3c9e8",
+    "path": "dist/engine.mjs"
+  },
+  {
+    "sha256": "295a7889aaa6aa7e6686bc87e51319a258b779a1c20372eae2105bf481994ece",
+    "path": "dist/arena.mjs"
+  },
+  {
+    "sha256": "4375ea52a23d011c07d568510a7511ccd2f06de64efe63629b0b800c3d0b7d04",
+    "path": "dist/bot.mjs"
+  },
+  {
+    "sha256": "149ad2dfe0b3caa7b75573a7bae96e5101f10a0c68bbe0b5a6462c06298db5fd",
+    "path": "dist/maps.mjs"
+  },
+  {
+    "sha256": "c84069a03471e40f112bf0f742ea8d7b3310534f2064065ccbce64b8a0bfa392",
+    "path": "dist/terrain.mjs"
+  },
+  {
+    "sha256": "de151df7956f024c64a2fbee9b19955a7e1bc4b833f22d1791723880edf9c366",
+    "path": "dist/assets/arcade-backdrop.svg"
+  },
+  {
+    "sha256": "3d663b5aa6e1e6ab92ee16f7afbafa0195dc195e307a94fb4dfe41f2d04c1965",
+    "path": "dist/assets/brandmark.svg"
+  },
+  {
+    "sha256": "c92a49afa6dab33cb48c9e50114e4630479d30b41df5090b353364d9392f5486",
+    "path": "dist/assets/game-logo.svg"
+  },
+  {
+    "sha256": "a87c8ac8b8ae0c34b27d7320a9f8c2066eddf4cb5d58f279f9fd94cadf8aa4d3",
+    "path": "dist/assets/jungle-frame.webp"
+  },
+  {
+    "sha256": "2b5bc1886954d4f8aabd381815f2237268db74779690525404617e55d93f988b",
+    "path": "dist/assets/jungle-scenery.webp"
+  },
+  {
+    "sha256": "4acd57a189f974d9f7d306344991f3bb3beb908e7e2e71b2e364c91ecd21c23f",
+    "path": "dist/assets/toy-atlas.svg"
+  },
+  {
+    "sha256": "211c9aaba83c51dbf22953d50b62f1143c8226b240add6203ab0a3d7b4c31426",
+    "path": "dist/assets/toy-board.svg"
+  },
+  {
+    "sha256": "82e117da2abfc052db19dfd634679279dd8df2e93c6c164d4e4fe8fa86d70add",
+    "path": "dist/assets/wood-plaque.svg"
+  },
+  {
+    "sha256": "dc3ceed1bb15e7da6f5bd0b8feeefbabe512a881d9e01ad436b506307e498ba9",
+    "path": "dist/assets/audio/CREDITS.md"
+  },
+  {
+    "sha256": "a5420c5ae0fb5ab1592b399c65765f8b34d8f0a67de17e713efa57c2f5c13fee",
+    "path": "dist/assets/audio/README.md"
+  },
+  {
+    "sha256": "753bc25faad50d52c7cd8a2fc6ccdd3f0407a47703bac5b73600e6a930b75c5f",
+    "path": "dist/assets/audio/bgm/battle/bgm-battle-v1.ogg"
+  },
+  {
+    "sha256": "3447c405629dc4cef9a28a836ab923211c0a1f1f3cbcc6d51139c0c1b56b8686",
+    "path": "dist/assets/audio/bgm/lobby/bgm-lobby-v1.ogg"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/block/.gitkeep"
+  },
+  {
+    "sha256": "8080abb38c30b4b122356a6b1c1b166feccac93267a924435b844ac5b6876394",
+    "path": "dist/assets/audio/block/block-fall-v1.wav"
+  },
+  {
+    "sha256": "50136ace4641c1ff63ae791b142bf7979c94049726d49eae74c91c65746f9539",
+    "path": "dist/assets/audio/block/block-invalid-v1.wav"
+  },
+  {
+    "sha256": "cec025367d5fb93c936fa2cf5c8c19832fee29aac67d40dd1e5f4b31271ed896",
+    "path": "dist/assets/audio/block/block-match3-v2.wav"
+  },
+  {
+    "sha256": "08dfeed205648ca1f4d208e05e5931eb3885adce1be123d5dbcc76d73eb0d70d",
+    "path": "dist/assets/audio/block/block-swap-v2.wav"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/combo/.gitkeep"
+  },
+  {
+    "sha256": "1c50fcec4403c5222b19518815de7c30eaba50122fabb90c406a3a25407b55d5",
+    "path": "dist/assets/audio/combo/combo1-v2.wav"
+  },
+  {
+    "sha256": "08f80f02117531014e3678a13c1d76308e53dbc38d61230ba7c923373a8a9fff",
+    "path": "dist/assets/audio/combo/combo2-v2.wav"
+  },
+  {
+    "sha256": "60a1708dea0bbe63f0fdde9405fc0755ccd285f2c06d53f4a6785eb1225deab1",
+    "path": "dist/assets/audio/combo/combo3-v2.wav"
+  },
+  {
+    "sha256": "3d9c53acb6e236d760da14030f54bc53e1d8c2599f78470c36b96fddcde09221",
+    "path": "dist/assets/audio/licenses/casino-audio-license.txt"
+  },
+  {
+    "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+    "path": "dist/assets/audio/licenses/interface-sounds-license.txt"
+  },
+  {
+    "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+    "path": "dist/assets/audio/licenses/VSCO-2-CE-CC0.txt"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/maps/cliff/.gitkeep"
+  },
+  {
+    "sha256": "b3fb58adb5eb4a2e1394574dd84fd9639199f0f16d8245ca330069fe7a934625",
+    "path": "dist/assets/audio/maps/cliff/cliff-fall-v2.wav"
+  },
+  {
+    "sha256": "8a36bade9ead94b277bbf1f8c990f5e8558e367cfdada53a1a519ae901b195c1",
+    "path": "dist/assets/audio/maps/cliff/cliff-impact-v2.wav"
+  },
+  {
+    "sha256": "47d03e5d4bb5eb44d352629dfd7cd222416641c8cbcc1ac0f1c006a50b391855",
+    "path": "dist/assets/audio/maps/cliff/cliff-warning-v1.wav"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/maps/furnace/.gitkeep"
+  },
+  {
+    "sha256": "2fadb5d1aba9a8396ff738e29ad8c996f2fec6305b8249d2550c509cbce23f26",
+    "path": "dist/assets/audio/maps/furnace/furnace-spread-v1.wav"
+  },
+  {
+    "sha256": "87d8b6dcdb0c267703a54262e319ebe652c5e9640aae2553b292b94943aa6f63",
+    "path": "dist/assets/audio/maps/furnace/furnace-warning-v1.wav"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/maps/ice/.gitkeep"
+  },
+  {
+    "sha256": "8c381b232d040d3e044e4b9c45efcd3de6456278ca46da89d31c34c25f2f7ccf",
+    "path": "dist/assets/audio/maps/ice/ice-break-v1.wav"
+  },
+  {
+    "sha256": "01fa7553382ca77b7f21dd522b4abbdf8fe2d4e52efc5ef4b6260efd1cd1c1f3",
+    "path": "dist/assets/audio/maps/ice/ice-freeze-v1.wav"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/maps/ruins/.gitkeep"
+  },
+  {
+    "sha256": "15fa7d007df325d845a118f2239b9483bd5a91ea53266262841d0700687d6bb8",
+    "path": "dist/assets/audio/maps/ruins/ruins-activate-v1.wav"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/result/.gitkeep"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/special/.gitkeep"
+  },
+  {
+    "sha256": "1c3b0b9f892f374d4cf178fc8127e0edc03a803c10a239975c5329d644c20a20",
+    "path": "dist/assets/audio/special/special-bomb-v3.wav"
+  },
+  {
+    "sha256": "d8cd5cde2a4293a0f2a4587ca5f8a82fec4ad86a99fe1c1d3f14000e805a939c",
+    "path": "dist/assets/audio/special/special-combo-blasts-v3.wav"
+  },
+  {
+    "sha256": "4b5118336ba662480348f424d8f692caf62c16d7df872d0fc8136bfd91ab4c4b",
+    "path": "dist/assets/audio/special/special-combo-line-blast-v5.wav"
+  },
+  {
+    "sha256": "0c522a3ddcbcb52ae417919e331875778ea3029b454e16c28aa216b9065a2cbc",
+    "path": "dist/assets/audio/special/special-create-v3.wav"
+  },
+  {
+    "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63",
+    "path": "dist/assets/audio/special/special-line-v3.wav"
+  },
+  {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "dist/assets/audio/ui/.gitkeep"
+  },
+  {
+    "sha256": "8b2acc2336f5eecf85cbd8150686f08f6d4e5bc0c75ffb8b7c4afabe04a12e61",
+    "path": "dist/assets/audio/ui/countdown-1-v2.wav"
+  },
+  {
+    "sha256": "97536a4d58dfe44c2f237fa37d6efca3b1962358f9a3a1ab296745d04c9219c9",
+    "path": "dist/assets/audio/ui/countdown-2-v2.wav"
+  },
+  {
+    "sha256": "49d6eacea17e941326a676bdedf4548870711a0f8990b9a5347d4626e3c7504f",
+    "path": "dist/assets/audio/ui/countdown-3-v2.wav"
+  },
+  {
+    "sha256": "a9cb51f6a0c45a21cc85e09d154ff10974000737b36aeac0181976ae8e92a2c9",
+    "path": "dist/assets/audio/ui/countdown-start-v2.wav"
+  },
+  {
+    "sha256": "7b2b74b3ab9357d59b04f630a08202a4ac4d9cd792f983366686da9216f2b3ef",
+    "path": "dist/assets/audio/ui/map-reveal-v1.wav"
+  },
+  {
+    "sha256": "8dc8ffd75455b89f69f1398fe8e17316b1ff5231dc1409b4158266169570696e",
+    "path": "dist/assets/audio/ui/map-shuffle-v1.wav"
+  },
+  {
+    "sha256": "658b6561ebba26bd77a80b4c68128b5e79f996301299b219a3342ae8263bd3ec",
+    "path": "dist/assets/audio/ui/ui-click-v1.wav"
+  },
+  {
+    "sha256": "dd2631369632449ee6ac040ae580775be5fc84eae38c6f15b25fbb0e1205018a",
+    "path": "dist/assets/audio/ui/ui-confirm-v1.wav"
+  },
+  {
+    "sha256": "25f6b57d63b7f3f2d0769be064a63906706041c782726bec1ca8a94065c212b8",
+    "path": "dist/assets/maps/cliff-board.svg"
+  },
+  {
+    "sha256": "ed62c86a0c4944fcb91212fa3438be46b3dae1e3301a2b3701a2d3ea6ad5dbad",
+    "path": "dist/assets/maps/cliff-canyon.svg"
+  },
+  {
+    "sha256": "92b1a841d0e980212d4b9a3a67926905efc35aa9dc50bbfc1c60199e28b77e78",
+    "path": "dist/assets/maps/cliff-canyon.webp"
+  },
+  {
+    "sha256": "1cec25ce16e290ee7ff841c608d5121d1cdd788ef7cbe6b08753ee84a96e751e",
+    "path": "dist/assets/maps/cliff-frame.svg"
+  },
+  {
+    "sha256": "0a8880c5fd9452e64353657c8a6bb838c91a41668a6f1e44a3642a84a3da764f",
+    "path": "dist/assets/maps/cliff-preview.svg"
+  },
+  {
+    "sha256": "e4f10020530d2bfdf0945de523086e938fbff4727263b660b36a2a772b86cd8c",
+    "path": "dist/assets/maps/cliff-scenery.webp"
+  },
+  {
+    "sha256": "0f6e35a2a3ff669de713597586cf87d845fb928a41063e1c4a4f5ecce5032786",
+    "path": "dist/assets/maps/cliff-stage-left.svg"
+  },
+  {
+    "sha256": "2c26ab3e3eb6a451998b03aefea175c213642b3be965f8ed4f1475f1bb2cae0a",
+    "path": "dist/assets/maps/cliff-stage-right.svg"
+  },
+  {
+    "sha256": "a65f141afa19e2b0d0d7d6822e19656a0c04136826552de6056e1d451aca9e35",
+    "path": "dist/assets/maps/crystal-board.svg"
+  },
+  {
+    "sha256": "faf609b3a5115547bee60d37017e4e552fddccdf6d9c24c90b6f63162da0ce62",
+    "path": "dist/assets/maps/crystal-frame.svg"
+  },
+  {
+    "sha256": "5caccf0031b2e383b85116a9ba715d793c40a82a88383bd62b6e462185f4c56b",
+    "path": "dist/assets/maps/crystal-landscape.svg"
+  },
+  {
+    "sha256": "13924cfb412d990063b4ea6f4fe4a7be318dd284efda5d75548d25101c4521ef",
+    "path": "dist/assets/maps/crystal-obstacle.svg"
+  },
+  {
+    "sha256": "ed127f39a49647c6a10b3bd71932149ce968ce7bb806cc5da566ca4e3b9cc8de",
+    "path": "dist/assets/maps/crystal-preview.svg"
+  },
+  {
+    "sha256": "7205e382a56cef837e81a5aade548f0bcf3d52754bec4a44c11466ac14cec6a6",
+    "path": "dist/assets/maps/crystal-scenery.webp"
+  },
+  {
+    "sha256": "e668a48797145227d0a5b45dac29936fc09040da64a9a6e22b4e14096d45eb69",
+    "path": "dist/assets/maps/crystal-stage.svg"
+  },
+  {
+    "sha256": "9527de7fe07d8c8fad80d70874caebb53f64ade697d67eedb467d2dc2090a5dc",
+    "path": "dist/assets/maps/falling-rock.svg"
+  },
+  {
+    "sha256": "ba7f4a6d54d560176a5b3b189e326f61fb70855c5c280a0020c141e3159702a3",
+    "path": "dist/assets/maps/forest-preview.svg"
+  },
+  {
+    "sha256": "e97d038ac47cb3ba284d18149a5a40c23ed99b1a75325f62f960e50f02309fb5",
+    "path": "dist/assets/maps/furnace-board.svg"
+  },
+  {
+    "sha256": "e0a883221d2569ae120dfad83dc3c8d42175662038c9017d1864863ac16d4cdb",
+    "path": "dist/assets/maps/furnace-hall.svg"
+  },
+  {
+    "sha256": "1096e44491fd863f9afc978d7ec509bdc707a16c0eb949ad6b1e6ae079699b2a",
+    "path": "dist/assets/maps/furnace-preview.svg"
+  },
+  {
+    "sha256": "ab3a8e847e2342e0d80a6ce3535a4ab6ac973172ea88c641274cf894a2a01225",
+    "path": "dist/assets/maps/furnace-rock.svg"
+  },
+  {
+    "sha256": "bdf3866ee80b0ef9ef10513827b922413807ae27d790173de2bff0a4c8109af0",
+    "path": "dist/assets/maps/furnace-stage.svg"
+  },
+  {
+    "sha256": "7832c1b504da8d61d4ff55e80b8eb1e0c85af1d032decedeeb90eba975f6718b",
+    "path": "dist/assets/maps/ruins-board.svg"
+  },
+  {
+    "sha256": "16d72db1b90ba39c1761b5d54dcfd2de0e54fd9cc2ed11f4f7fc854d23a297d7",
+    "path": "dist/assets/maps/ruins-frame.svg"
+  },
+  {
+    "sha256": "0777731fa586457714c2212b78e8e967a5bd809d6509e7a69567669e3a0b191c",
+    "path": "dist/assets/maps/ruins-pillar.svg"
+  },
+  {
+    "sha256": "701e2dfcd394f9abfa62e5c2e9ab3e78a5c333755700832a38688a79643183fe",
+    "path": "dist/assets/maps/ruins-preview.svg"
+  },
+  {
+    "sha256": "2076cfc379814a0cc45fb1aa6f2a0d3d04b686a4532116c2da3e93ba9728e668",
+    "path": "dist/assets/maps/ruins-scenery.webp"
+  },
+  {
+    "sha256": "db8db0a937de7f87ed8fb0834740dbb19108f6d7c3f551c5489d4fc4572e1b7a",
+    "path": "dist/assets/maps/ruins-stage.svg"
+  },
+  {
+    "sha256": "fe5fcdbf5da546f7123adae67ee25a535537dc9ad3312218e88dfb3f8193c557",
+    "path": "dist/assets/maps/ruins-temple.svg"
+  },
+  {
+    "sha256": "65ef38758518c9f6bb529dbbbc2b92d97cb5e21eb7fd970def11ce1d1b7d8507",
+    "path": "art-preproduction/card-reference-v3/cards/blackhole.png"
+  },
+  {
+    "sha256": "321a048dba674689e8123e44c64626392f8f2f6bcf4e7ba224e539b72d86f5e2",
+    "path": "art-preproduction/card-reference-v3/cards/bomb.png"
+  },
+  {
+    "sha256": "4eee9847db33500d73bbb5c87ff4fb6e2215ab733138073ab13e07321b67f337",
+    "path": "art-preproduction/card-reference-v3/cards/fire.png"
+  },
+  {
+    "sha256": "df0b70f223576def8d14bcebba8c8720e9564bb5c658480ed49ca7df407e1aa9",
+    "path": "art-preproduction/card-reference-v3/cards/fog.png"
+  },
+  {
+    "sha256": "66bb166caefa46847da4677bf6a0233cf8b8b055611c4ac6265633cc0d1c5af2",
+    "path": "art-preproduction/card-reference-v3/cards/freeze.png"
+  },
+  {
+    "sha256": "2b12fe74d018511c2c814773f436b913c13ec678ca992295eb8c2da5966bba71",
+    "path": "art-preproduction/card-reference-v3/cards/luck.png"
+  },
+  {
+    "sha256": "6807d00dc9472a8ef5e114dde9fc85295ddf6e60afbee1aa9994970fb49af4b6",
+    "path": "art-preproduction/card-reference-v3/cards/meteor.png"
+  },
+  {
+    "sha256": "085098193fe3cf3dc67d8f535b6bdf0153bbbbaa0eab57409f32990d02061bfd",
+    "path": "art-preproduction/card-reference-v3/cards/overload.png"
+  },
+  {
+    "sha256": "95af149a58ea53f840caa65889cdfba64e63522d3ccc4097cf9ea2c8ef76036c",
+    "path": "art-preproduction/card-reference-v3/cards/quake.png"
+  },
+  {
+    "sha256": "deef73ef9d314098149069d65b30ce4de0a6fe27ddfbdfa19aa2a7c27d5d91a7",
+    "path": "art-preproduction/card-reference-v3/cards/rainbow.png"
+  },
+  {
+    "sha256": "9e275ae3347d6f97f7b36af56285e2e215097ac164ec556798779602ed310d03",
+    "path": "art-preproduction/card-reference-v3/cards/sage.png"
+  },
+  {
+    "sha256": "46f4fead260da15aa64a030cfd823470c6503040bc48b934f2783cd8641ca81c",
+    "path": "art-preproduction/card-reference-v3/cards/storm.png"
+  }
+]

@@ -6,6 +6,31 @@ const root=new URL('../dist/assets/',import.meta.url);
 const names=['maps/cliff-canyon.svg','maps/crystal-landscape.svg','maps/ruins-temple.svg','maps/furnace-hall.svg','maps/cliff-stage-left.svg','maps/cliff-stage-right.svg','maps/crystal-stage.svg','maps/ruins-stage.svg','maps/furnace-stage.svg','maps/cliff-board.svg','maps/crystal-board.svg','maps/ruins-board.svg','maps/furnace-board.svg','toy-board.svg'];
 const shift=(hex,n)=>'#'+hex.slice(1).match(/../g).map(x=>Math.max(0,Math.min(255,parseInt(x,16)+n)).toString(16).padStart(2,'0')).join('');
 const stroke=(d,color,width=2,opacity=.45)=>`<path d="${d}" fill="none" stroke="${color}" stroke-width="${width}" opacity="${opacity}" stroke-linecap="round" stroke-linejoin="round"/>`;
+// Paint-only polish: the approved bright cartoon reference guides light and
+// material, while all original silhouettes, supports and playable masks stay fixed.
+const palettes={
+ 'maps/cliff-canyon.svg':{sky:['#9fcfd8','#d9eeea','#8eb5bb'],abyss:['#a7cbd0','#4e7384'],far:['#bdd5ce','#8dafb4'],near:['#d6c19b','#aca18b','#64797e']},
+ 'maps/crystal-landscape.svg':{sky:['#afd2df','#f4f6ed'],lake:['#c2dbe1','#a1bfcc'],snow:['#fcfaf0','#d7e3e1'],'native-abbfbd':['#c9dcdf','#b9cdd1','#a5bec6'],'native-8fa7a7':['#afc7d0','#9cb7c2','#86a6b4']},
+ 'maps/ruins-temple.svg':{haze:['#d7dfd4','#eee5cf'],stone:['#ebddb8','#b8b098'],floor:['#d7c9a9','#b2b5a0']},
+ 'maps/furnace-hall.svg':{cave:['#47515e','#615863','#4b515b'],metal:['#a49b94','#7d737b','#4c4e59'],lava:['#e9b07c','#c08063','#875951'],'native-252f3c':['#44505b','#37424e','#303b48'],'native-353b46':['#59606a','#49525c','#414a55']},
+ 'maps/cliff-board.svg':{well:['#7d8276','#a2a494','#b7b5a0'],'native-b5b4a1':['#d1cbb3','#c0baa3','#aaa78f'],'native-646d64':['#808577','#737b70','#697166']},
+ 'maps/crystal-board.svg':{well:['#90aab4','#c3d9de','#d2e0dc'],'native-c2d0d0':['#e0eeea','#cbdcdc','#b9ced1']},
+ 'maps/ruins-board.svg':{well:['#999079','#bbb095','#d0c19f'],'native-c2b699':['#e2d3b3','#cfbf9e','#b8ae91']},
+ 'maps/furnace-board.svg':{obsidian:['#8a8188','#655f6c','#444954'],'native-414550':['#67616b','#565360','#434853']},
+ 'maps/cliff-stage-left.svg':{cap:['#ead8ad','#b7aa8e'],face:['#c3aa86','#ad9578','#8d7d6b','#a08d73','#686357']},
+ 'maps/cliff-stage-right.svg':{cap:['#ead8ad','#b7aa8e'],face:['#c3aa86','#ad9578','#8d7d6b','#a08d73','#686357']},
+ 'maps/crystal-stage.svg':{glass:['#eef8f4','#b6d7dc','#80afbf'],snow:['#fffdf4','#d9e8e4']},
+ 'maps/ruins-stage.svg':{stone:['#f1e2bf','#c5b497','#9a8a73'],steps:['#ccbea0','#9e9b83']},
+ 'maps/furnace-stage.svg':{metal:['#b2a59a','#817984','#464b57'],obsidian:['#8a8188','#655f6c','#444954'],lava:['#e9b07c','#c08063','#875951']},
+ 'toy-board.svg':{well:['#263e4b','#1c303f'],'native-122b3c':['#314b54','#223e49','#1b3343']}
+};
+function polishPaint(s,name){
+ for(const [id,colors] of Object.entries(palettes[name]||{})){
+  const re=new RegExp(`(<linearGradient id="${id}"[^>]*>)([\\s\\S]*?)(</linearGradient>)`);
+  s=s.replace(re,(_,a,b,c)=>{let n=0;return a+b.replace(/stop-color="#[a-f\d]{6}"/g,()=>`stop-color="${colors[n++]}"`)+c;});
+ }
+ return s;
+}
 for(const name of names){
  let s=await fs.readFile(new URL(name,root),'utf8');
  s=s.replace(/<!-- native-defs -->[\s\S]*?<!-- end-native-defs -->/g,'').replace(/<!-- native-detail -->[\s\S]*?<!-- end-native-detail -->/g,'').replace(/<!-- native-face -->[\s\S]*?<!-- end-native-face -->/g,'').replace(/fill="url\(#native-([a-f\d]{6})\)"/g,'fill="#$1"');
@@ -17,11 +42,13 @@ for(const name of names){
  if(!isBoard)body=body.replace(/<path\b([^>]*?)fill="url\(#(?!native-grain)[^"]+\)"([^>]*?)\/>/g,(all,a,b)=>{const d=a.match(/\bd="([^"]+)"/)?.[1],t=a.match(/\btransform="([^"]+)"/)?.[0]||b.match(/\btransform="([^"]+)"/)?.[0]||'';return d?all+`<!-- native-face --><path d="${d}" ${t} fill="url(#native-grain)"/><!-- end-native-face -->`:all;});
  let detail='';
  if(isBoard){
-   for(let i=0;i<64;i++){const x=i%8*60,y=Math.floor(i/8)*60,ox=8+i*7%14,oy=12+i*11%26;
-    detail+=stroke(`M${x+ox} ${y+oy}l${5+i%7} -1`,ice?'#eaf7f6':fire?'#aa9c92':'#e5decd',.7,.35);
-    detail+=stroke(`M${x+46} ${y+13+i%4}l-2 5 1 3`,ice?'#89aab7':fire?'#252f3b':'#8f9382',.8,.26);
-    if(ice&&i%3===0)detail+=stroke(`M${x+8} ${y+49}l9-2 6 1m-8-1l4-4`,'#e6f6f5',.8,.5);
-    if(ruins&&i%4===0)detail+=stroke(`M${x+18} ${y+53}l4-3 4 2 6-1`,'#918b74',.9,.4);
+   const pitch=name==='toy-board.svg'?64:60;
+   for(let i=0;i<64;i++){const x=i%8*pitch,y=Math.floor(i/8)*pitch;
+    // Thin lit ledges live in the gaps, not in the centre of a gem.
+    detail+=stroke(`M${x+8} ${y+1}h${pitch-18}`,ice?'#f6fffc':fire?'#c5b3a4':name==='toy-board.svg'?'#9eaea0':'#fff0cc',1,.42);
+    if(i%5===2)detail+=stroke(`M${x+pitch-3} ${y+15}l-1 4 1 2`,ice?'#edf9f7':fire?'#b7a297':'#f0e4c9',.8,.32);
+    if(ice&&i%7===0)detail+=stroke(`M${x+8} ${y+57}l7-1 4 1`,'#f3fffd',.8,.5);
+    if(ruins&&i%9===0)detail+=stroke(`M${x+18} ${y+58}l4-2 4 1 6-1`,'#94896c',.8,.32);
    }
  }else if(isStage){
    // Carving, wear and seams share the original rim and its outside mask.
@@ -57,7 +84,7 @@ for(const name of names){
  const additions='<!-- native-defs -->'+defs.join('')+'<!-- end-native-defs -->';
  head=split<0?head+'<defs>'+additions+'</defs>':head.replace('</defs>',additions+'</defs>');
  body=body.replace('</svg>','<!-- native-detail -->'+detail+'<!-- end-native-detail --></svg>');
- await fs.writeFile(new URL(name,root),head+body);
+ await fs.writeFile(new URL(name,root),polishPaint(head+body,name));
 }
-await writeCliffPreview();
-console.log('Refined existing silhouettes and palette in 14 native assets; synchronized cliff preview.');
+if(!process.argv.includes('--keep-preview'))await writeCliffPreview();
+console.log('Polished light, shallow ledges and material in 14 native assets; original geometry retained.');

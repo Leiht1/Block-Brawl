@@ -26,7 +26,7 @@ export function createOpponentView(canvas,reduced=false){
       if(['rock-restored','map-restored'].includes(e.kind)&&(!e.cells||e.index===e.cells[0]))rockRestores.push({phase:'restore',index:e.index,cells:e.cells,reason:e.reason,type:e.type||'rockfall',art:e.art,tiles:e.tiles,start:e.time,duration:e.duration});
       if(['rock-blocked','map-blocked'].includes(e.kind)&&e.type==='rockfall'&&(!e.cells||e.index===e.cells[0]))rockRestores.push({phase:'impact',index:e.index,cells:e.cells,type:e.type||'rockfall',art:e.art,start:e.time,duration:650});
       if(e.kind==='reset'||e.kind==='reshuffle'){reset();return;}
-      if(['swap','revert','fall'].includes(e.kind))for(const m of e.moves)motions.set(m.tile.id,{...m,start:e.time,duration:e.duration,fall:e.kind==='fall'});
+      if(['swap','revert','fall'].includes(e.kind)||e.kind==='card-change'&&e.moves)for(const m of e.moves)motions.set(m.tile.id,{...m,start:e.time,duration:e.duration,fall:e.kind==='fall'});
       if(e.kind==='swap'&&e.combo)charges.push({...e.combo,sources:e.moves.map(m=>m.from),start:e.time,duration:e.duration});
       if(e.kind==='revert')charges=[];
       if(e.kind==='clear'){
@@ -52,7 +52,7 @@ export function createOpponentView(canvas,reduced=false){
         if(m){const progress=Math.max(0,Math.min(1,(now-m.start)/m.duration));
           let f=1-(1-progress)**3;
           if(m.fall&&!reduced){f=Math.min(1,progress/.78)**2;if(progress>=.78)squash=Math.sin((progress-.78)/.22*Math.PI*2)*THEME.motion.landingSquash;}
-          const from=xy(m.from,cell),to=xy(m.to,cell);p={x:from.x+(to.x-from.x)*f,y:from.y+(to.y-from.y)*f};if(progress>=1)motions.delete(t.id);
+          const from=xy(m.from,cell),to=xy(m.to,cell);p={x:from.x+(to.x-from.x)*f,y:from.y+(to.y-from.y)*f};if(m.control!==undefined&&!reduced){const c=xy(m.control,cell),s=1-f;p={x:s*s*from.x+2*s*f*c.x+f*f*to.x,y:s*s*from.y+2*s*f*c.y+f*f*to.y};}if(progress>=1)motions.delete(t.id);
         }
         ctx.save();if(m?.segmentTop!==undefined)painter.clipSegment(m.segmentTop);painter.tile(t,p.x,p.y,1,1,squash);ctx.restore();
       });

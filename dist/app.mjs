@@ -53,11 +53,11 @@ function onEvent(e){
   if(['rock-restored','map-restored'].includes(e.kind)&&(!e.cells||e.index===e.cells[0]))rockRestores.push({phase:'restore',index:e.index,cells:e.cells,reason:e.reason,type:e.type||'rockfall',art:e.art,tiles:e.tiles,start:e.time,duration:e.duration});
   if(['rock-blocked','map-blocked'].includes(e.kind)&&e.type==='rockfall'&&(!e.cells||e.index===e.cells[0]))rockRestores.push({phase:'impact',index:e.index,cells:e.cells,type:e.type||'rockfall',art:e.art,start:e.time,duration:650});
   if(e.kind==='reset'){rockVisual=null;rockRestores=[];motions.clear();ghosts=[];particles=[];rings=[];floats=[];formations=[];effects=[];charges=[];combos=[];shake=0;drag=null;selected=null;hint=null;$('score').textContent='0';$('chain').textContent='—';$('toast').classList.remove('show');$('toast').textContent='';return;}
-  if(['swap','revert','fall'].includes(e.kind))for(const m of e.moves){
+  if(['swap','revert','fall'].includes(e.kind)||e.kind==='card-change'&&e.moves)for(const m of e.moves){
     let from=xy(m.from);const to=xy(m.to);
     if(e.kind==='swap'&&drag?.index===m.from){from.x+=drag.dx;from.y+=drag.dy;}
     const delay=e.kind==='fall'&&!reduced&&m.refill?Math.min(e.duration-1,Math.max(0,m.segmentTop-Math.floor(m.from/engine.width)-1)*6):0;
-    motions.set(m.tile.id,{from,to,start:e.time+delay,duration:e.duration-delay,fall:e.kind==='fall',segmentTop:m.segmentTop});
+    motions.set(m.tile.id,{from,to,control:m.control===undefined?null:xy(m.control),start:e.time+delay,duration:e.duration-delay,fall:e.kind==='fall',segmentTop:m.segmentTop});
   }
   if(e.kind==='swap'&&e.combo)charges.push({...e.combo,sources:e.moves.map(m=>m.from),start:e.time,duration:e.duration});
   if(e.kind==='combo-trigger'){
@@ -97,7 +97,7 @@ function onEvent(e){
 }
 const engine=new MatchEngine({onEvent});
 const opponentView=createOpponentView($('opponent-board'),reduced);
-flow=createGameFlow({engine,opponentView,onOpponentEvent:e=>audioEvents.engine(e,'opponent'),onMapChange:changeMap,reducedMotion:reduced,showHint:()=>showHint(),message,resize:()=>resize(),onSandbox:()=>{mode='free';}});
+flow=createGameFlow({engine,opponentView,onOpponentEvent:e=>audioEvents.engine(e,'opponent'),onCardEvent:e=>audioEvents.card(e),onMapChange:changeMap,reducedMotion:reduced,showHint:()=>showHint(),message,resize:()=>resize(),onSandbox:()=>{mode='free';}});
 // Read-only diagnostic snapshot for local QA; gameplay commands remain in the engine.
 window.blockBrawl={snapshot:()=>({score:engine.score,bestChain:engine.bestChain,busyColumns:engine.locks.map((v,c)=>v===null?null:c).filter(v=>v!==null),transactions:engine.transactions.length,mode:engine.mode,specials:engine.board.flatMap((t,index)=>t?.special?[{index,type:t.type,special:t.special}]:[]),animations:motions.size+ghosts.length+formations.length+effects.length+charges.length+combos.length,art:art.snapshot(),theme:THEME.id})};
 function resize(){width=canvas.getBoundingClientRect().width||480;cell=width/engine.width;pixelRatio=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*pixelRatio);height=cell*engine.height;canvas.height=Math.round(height*pixelRatio);if(canvas.style)canvas.style.height=height+'px';canvas.setAttribute('aria-label',`${engine.width}乘${engine.height}三消棋盘，可拖动交换`);ctx.setTransform(pixelRatio,0,0,pixelRatio,0,0);art.invalidate();motions.clear();drag=null;}
@@ -125,7 +125,7 @@ function frame(now){
   painter.drawMapSurface(now,worldCue);
   painter.drawMechanism(worldCue);
   const moving=[];
-  engine.board.forEach((t,i)=>{if(worldCue?.type==='mechanism'&&worldCue.phase==='fall'&&worldCue.cells.includes(i))return;if(!t)return;let p=xy(i),m=motions.get(t.id);if(m){const progress=Math.max(0,Math.min(1,(now-m.start)/m.duration));let f=ease(progress),squash=0,stretchX=0,stretchY=0;if(m.fall&&!reduced){f=Math.min(1,progress/.78)**2;if(progress>=.78)squash=Math.sin((progress-.78)/.22*Math.PI*2)*THEME.motion.landingSquash;}else if(!reduced){const stretch=Math.sin(progress*Math.PI)*THEME.motion.exchangeStretch,horizontal=m.from.x!==m.to.x;stretchX=horizontal?stretch:-stretch*.55;stretchY=horizontal?-stretch*.55:stretch;}p={x:m.from.x+(m.to.x-m.from.x)*f,y:m.from.y+(m.to.y-m.from.y)*f};if(progress>=1)motions.delete(t.id);else{moving.push({t,p,squash,stretchX,stretchY,segmentTop:m.segmentTop});return;}}
+  engine.board.forEach((t,i)=>{if(worldCue?.type==='mechanism'&&worldCue.phase==='fall'&&worldCue.cells.includes(i))return;if(!t)return;let p=xy(i),m=motions.get(t.id);if(m){const progress=Math.max(0,Math.min(1,(now-m.start)/m.duration));let f=ease(progress),squash=0,stretchX=0,stretchY=0;if(m.fall&&!reduced){f=Math.min(1,progress/.78)**2;if(progress>=.78)squash=Math.sin((progress-.78)/.22*Math.PI*2)*THEME.motion.landingSquash;}else if(!reduced){const stretch=Math.sin(progress*Math.PI)*THEME.motion.exchangeStretch,horizontal=m.from.x!==m.to.x;stretchX=horizontal?stretch:-stretch*.55;stretchY=horizontal?-stretch*.55:stretch;}p={x:m.from.x+(m.to.x-m.from.x)*f,y:m.from.y+(m.to.y-m.from.y)*f};if(m.control&&!reduced){const q=1-f;p={x:q*q*m.from.x+2*q*f*m.control.x+f*f*m.to.x,y:q*q*m.from.y+2*q*f*m.control.y+f*f*m.to.y};}if(progress>=1)motions.delete(t.id);else{moving.push({t,p,squash,stretchX,stretchY,segmentTop:m.segmentTop});return;}}
     if(drag?.index===i){moving.push({t,p:{x:p.x+drag.dx,y:p.y+drag.dy}});return;}tile(t,p.x,p.y);
   });
   for(const {t,p,squash,stretchX,stretchY,segmentTop} of moving){ctx.save();if(segmentTop!==undefined)painter.clipSegment(segmentTop);tile(t,p.x,p.y,1,1,squash,stretchX,stretchY);ctx.restore();}
