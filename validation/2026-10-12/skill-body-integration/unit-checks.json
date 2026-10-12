@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-12",
+  "status": "passed",
+  "tests": 69,
+  "scope": [
+    "cards.test.mjs",
+    "cards-round2.test.mjs",
+    "card-cast-vfx.test.mjs",
+    "skill-body-vfx.test.mjs",
+    "offline-cards.test.mjs"
+  ],
+  "unrelatedFullRegression": false
+}

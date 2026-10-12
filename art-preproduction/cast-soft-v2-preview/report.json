@@ -1,0 +1,12 @@
+{
+  "scope": "independent enlarged cast preview only",
+  "errors": [],
+  "checks": [
+    "Enlarged activation, release, orb flight and impact render; old/new comparison works.",
+    "Type colors, size control, slow replay and scrubbing available.",
+    "Every dist file and offline game hash unchanged; candidate remains outside the game."
+  ],
+  "visibleChangedChannels": 2595,
+  "protectedFiles": 136,
+  "status": "passed"
+}

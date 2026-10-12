@@ -5,11 +5,10 @@ import {CARD_ART} from './card-cast-assets.mjs';
 const face=instance=>{const c=cardById(typeof instance==='string'?instance:instance.id);return `<img class="card-illustration" src="${CARD_ART[c.id]}" alt="${c.name}：${c.text}" draggable="false">`;};
 export function createCardUI(flow){
   const $=id=>document.getElementById(id),dock=$('card-dock'),hand=$('card-hand');
-  let replaceSlot=null,selected=null,drag=null,selectionSignature='',handSignature='',previewSignature='',lastBattle=null,overlaysSignature='',flights=new Set();
+  let replaceSlot=null,selected=null,drag=null,selectionSignature='',handSignature='',previewSignature='',lastBattle=null,flights=new Set();
   const boards={player:$('board'),opponent:$('opponent-board')};
   const effects=createCardEffects(flow,boards,$('card-energy'));
   const aimLayers={};for(const side of ['player','opponent']){const layer=document.createElement('div');layer.className='card-aim-layer';layer.setAttribute('aria-hidden','true');boards[side].parentElement.append(layer);aimLayers[side]=layer;}
-  const layers={};for(const side of ['player','opponent']){const layer=document.createElement('div');layer.className='card-board-effects';layer.setAttribute('aria-hidden','true');boards[side].parentElement.append(layer);layers[side]=layer;}
   $('card-pool').innerHTML=CARDS.map(c=>`<button class="card-face ${c.color}" data-pick="${c.id}" aria-label="选择${c.name}，${c.text}" title="${c.text}">${face(c.id,true)}</button>`).join('');
   $('card-pool').addEventListener('click',e=>{const button=e.target.closest('[data-pick]');if(!button||!flow.selection)return;const s=flow.selection,id=button.dataset.pick,index=s.player.indexOf(id),from=center(button);if(index!==-1){s.remove(index);replaceSlot=null;}else if(s.choose(id,replaceSlot)){replaceSlot=null;render(performance.now());fly(cardNode({id}),from,center($('deck-slots').children[s.player.indexOf(id)]));}render(performance.now());});
   $('deck-slots').addEventListener('click',e=>{if(!flow.selection)return;const slot=e.target.closest('[data-remove],[data-slot]');if(slot&&!flow.selection.playerReady){flow.selection.remove(Number(slot.dataset.remove??slot.dataset.slot));replaceSlot=null;}render(performance.now());});
@@ -79,15 +78,7 @@ export function createCardUI(flow){
     $('deck-tip').textContent=s.playerReady?'卡组已锁定，双方准备后倒计时 3 秒开赛。':s.error||(s.player.length===6?'卡组已满，点击已选卡牌可取消，或准备开赛。':'任意选择 6 张不同卡牌；超时会随机补齐。');
     $('card-pool').querySelectorAll('[data-pick]').forEach(b=>{b.classList.toggle('picked',s.player.includes(b.dataset.pick));b.disabled=s.playerReady;b.setAttribute('aria-pressed',String(s.player.includes(b.dataset.pick)));});
   }
-  function renderOverlays(battle,now){
-    const state=Object.entries(battle.sides).map(([side,s])=>[side,Object.entries(s.buffs).filter(([,until])=>now<until),s.fogCells,battle.cues.filter(c=>c.targetSide===side).map(c=>[c.id,c.cells]),flow.arena.engines[side].board.flatMap((t,i)=>t?.wild?[i]:[])]);
-    const sig=JSON.stringify([state,Object.values(boards).map(b=>{const r=b.getBoundingClientRect();return [r.width,r.height];})]);if(sig===overlaysSignature)return;overlaysSignature=sig;
-    for(const [side,buffs,fog,cues,wild] of state){const e=flow.arena.engines[side],layer=layers[side],r=boards[side].getBoundingClientRect(),p=boards[side].parentElement.getBoundingClientRect();layer.style.left=r.left-p.left+'px';layer.style.top=r.top-p.top+'px';layer.style.width=r.width+'px';layer.style.height=r.height+'px';
-      const cell=(i,kind,label)=>`<i class="card-cell ${kind}" style="left:${i%e.width/e.width*100}%;top:${Math.floor(i/e.width)/e.height*100}%;width:${100/e.width}%;height:${100/e.height}%">${label}</i>`;
-      layer.innerHTML=(buffs.some(([id])=>id==='freeze')?'<div class="card-freeze-glass"></div>'+e.board.flatMap((t,i)=>t&&e.ruleTerrain.cells[i]==='cell'?[cell(i,'freeze-cell','❄').replace('style="',`style="--ice-delay:${Math.floor(i/e.width)*25+i%e.width*12}ms;`)]:[]).join(''):'')+fog.map(i=>cell(i,'fog-cell','☁')).join('')+cues.flatMap(([id,cells])=>cells.map(i=>cell(i,id==='fire'?'fire-cell':id==='meteor'?'meteor-cell':'bomb-cell',id==='fire'?'♨':id==='meteor'?'':'✹'))).join('')+wild.map(i=>cell(i,'rainbow-cell','✦')).join('')+`<div class="card-buff-labels">${buffs.map(([id])=>`<span>${cardById(id).name}</span>`).join('')}</div>`;
-    }
-  }
-  function reset(){cancelDrag();effects.reset();for(const f of flights)f.remove();flights.clear();selected=null;replaceSlot=null;selectionSignature=handSignature=previewSignature=overlaysSignature='';hand.replaceChildren();for(const layer of Object.values(layers))layer.replaceChildren();feedback('红蓝卡拖向敌方 · 黄卡拖向自己');}
+  function reset(){cancelDrag();effects.reset();for(const f of flights)f.remove();flights.clear();selected=null;replaceSlot=null;selectionSignature=handSignature=previewSignature='';hand.replaceChildren();feedback('红蓝卡拖向敌方 · 黄卡拖向自己');}
   function render(now){
     renderSelection(now);const battle=flow.arena?.cards;
     if(battle!==lastBattle){reset();lastBattle=battle;renderSelection(now);}
@@ -108,7 +99,7 @@ export function createCardUI(flow){
       });
     }
     const preview=s.preview||s.next,ps=(preview?.uid||'empty')+':'+!!s.preview+':'+s.previewQueue.length;if(ps!==previewSignature){previewSignature=ps;$('next-card').innerHTML=preview?`<div class="card-face ${cardById(preview.id).color}">${face(preview)}</div>`:'<span class="pool-empty">本局卡池已耗尽</span>';$('preview-label').textContent=s.preview?`暂存 ${1+s.previewQueue.length} 张 · 出牌后入手`:'下一张卡牌';}
-    renderOverlays(battle,now);
+
     if(drag?.moved){clearTargets();aim(targetAt(drag.currentX,drag.currentY),cardById(drag.instance.id));}
     effects.render(now,flow.arena.status==='playing'?battle:null);
   }
@@ -117,5 +108,5 @@ export function createCardUI(flow){
     if(e.kind==='cast'&&e.side==='opponent')feedback(`AI 释放了 ${cardById(e.card.id).name}`);
     if(['draw','promote'].includes(e.kind)&&e.side==='player'&&!dock.hidden){const run=()=>{if(!lastBattle?.active)return;fly(cardNode(e.card),center($('next-card')),center(e.destination==='preview'?$('next-card'):hand));};if(e.kind==='draw')effects.delayDraw(e.now,run);else run();}
   }
-  return {render,event,reset,boardEvent:effects.boardEvent};
+  return {render,event,reset,boardEvent:effects.boardEvent,paintUnderlay:effects.paintUnderlay};
 }

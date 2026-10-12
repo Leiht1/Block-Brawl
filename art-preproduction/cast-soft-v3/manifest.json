@@ -1,0 +1,18 @@
+{
+  "type": "effect_cast",
+  "direction": "方案C：克制雅致",
+  "version": 3,
+  "status": "final",
+  "final": true,
+  "preview": false,
+  "integrated": true,
+  "approval": "用户2026-10-12：大小放大到1.5倍，进攻偏红一点，改好后接入。",
+  "source": "dist/effect_cast_soft_v3_final.mjs",
+  "runtime": "dist/card-cast-vfx.mjs",
+  "reference": "art-preproduction/cast-soft-v2-preview/manifest.json",
+  "sizeMultiplierRelativeToV2": 1.5,
+  "nominalBudgets": {"orbRadiusPx": 25.5, "haloRadiusPx": 60, "trailWidthPx": 4.8, "impactRadiusCells": 1.425},
+  "palettes": {"attack": "#f6bcae", "control": "#dff0fb", "buff": "#f8f1db"},
+  "timingMs": {"release": 200, "flightStart": 180, "flight": 380, "impact": 400, "totalAfterRelease": 960},
+  "note": "Only approved visual shape, scale and color integrated. Gameplay, actual targets, cancellation, rainbow queue and cleanup timing unchanged."
+}

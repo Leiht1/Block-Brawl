@@ -1,0 +1,2333 @@
+{
+  "scope": [
+    "fire",
+    "freeze",
+    "blackhole",
+    "luck"
+  ],
+  "errors": [],
+  "checks": [
+    "4 transparent 1024x512 atlases and 32 registered 256x256 keyframes exist; preview status and 720–800ms feedback recorded.",
+    "Color revision: 1572864 unchanged-shape frame pixels checked; unchanged empty-alpha masks, no resampling or geometry changes, opacity increases only.",
+    "v3 changes freeze material only; all four anchors, main durations and atlas layouts retain v2 values.",
+    "Real rule traces: fire cells 26/27/28 settle at 2440ms; freeze ends 3240ms; blackhole moves six tile identities at 240ms over 420ms; luck buff deadline 10240ms.",
+    "Review opens with no missing resources; four selectors, scrubbing, speed controls, isolated body and original-size dialog work.",
+    "4 independent body animations and 4 full workflow animated WebP exports.",
+    "All 136 production files retain identical hashes; no production integration.",
+    "8 animated WebP exports decoded with original total durations; gallery opens and all 8 previews load.",
+    "36 active atlases/frames retain identical hashes after source rebuild; v3 remains selected."
+  ],
+  "status": "passed",
+  "integration": "independent review only",
+  "fireColorChange": {
+    "changedPixels": 4624,
+    "comparisonAtMs": 1180,
+    "outsideTargetBoardChanged": 0
+  },
+  "fireReadability": {
+    "coloredCenters": 128,
+    "total": 128
+  },
+  "fire": {
+    "target": "opponent",
+    "cells": [
+      26,
+      27,
+      28
+    ],
+    "castTime": 240,
+    "effect": {
+      "kind": "effect",
+      "side": "player",
+      "targetSide": "opponent",
+      "id": "fire",
+      "index": 27,
+      "cells": [
+        26,
+        27,
+        28
+      ],
+      "landing": 27,
+      "path": [],
+      "now": 2440
+    },
+    "before": [
+      {
+        "id": 65,
+        "type": 2
+      },
+      {
+        "id": 66,
+        "type": 0
+      },
+      {
+        "id": 67,
+        "type": 4
+      },
+      {
+        "id": 68,
+        "type": 2
+      },
+      {
+        "id": 69,
+        "type": 4
+      },
+      {
+        "id": 70,
+        "type": 1
+      },
+      {
+        "id": 71,
+        "type": 4
+      },
+      {
+        "id": 72,
+        "type": 0
+      },
+      {
+        "id": 73,
+        "type": 4
+      },
+      {
+        "id": 74,
+        "type": 0
+      },
+      {
+        "id": 75,
+        "type": 0
+      },
+      {
+        "id": 76,
+        "type": 4
+      },
+      {
+        "id": 77,
+        "type": 2
+      },
+      {
+        "id": 78,
+        "type": 4
+      },
+      {
+        "id": 79,
+        "type": 2
+      },
+      {
+        "id": 80,
+        "type": 0
+      },
+      {
+        "id": 81,
+        "type": 2
+      },
+      {
+        "id": 82,
+        "type": 4
+      },
+      {
+        "id": 83,
+        "type": 1
+      },
+      {
+        "id": 84,
+        "type": 2
+      },
+      {
+        "id": 85,
+        "type": 2
+      },
+      {
+        "id": 86,
+        "type": 1
+      },
+      {
+        "id": 87,
+        "type": 3
+      },
+      {
+        "id": 88,
+        "type": 3
+      },
+      {
+        "id": 89,
+        "type": 0
+      },
+      {
+        "id": 90,
+        "type": 4
+      },
+      {
+        "id": 91,
+        "type": 4
+      },
+      {
+        "id": 92,
+        "type": 3
+      },
+      {
+        "id": 93,
+        "type": 4
+      },
+      {
+        "id": 94,
+        "type": 3
+      },
+      {
+        "id": 95,
+        "type": 4
+      },
+      {
+        "id": 96,
+        "type": 0
+      },
+      {
+        "id": 97,
+        "type": 3
+      },
+      {
+        "id": 98,
+        "type": 0
+      },
+      {
+        "id": 99,
+        "type": 3
+      },
+      {
+        "id": 100,
+        "type": 3
+      },
+      {
+        "id": 101,
+        "type": 1
+      },
+      {
+        "id": 102,
+        "type": 1
+      },
+      {
+        "id": 103,
+        "type": 4
+      },
+      {
+        "id": 104,
+        "type": 1
+      },
+      {
+        "id": 105,
+        "type": 2
+      },
+      {
+        "id": 106,
+        "type": 4
+      },
+      {
+        "id": 107,
+        "type": 2
+      },
+      {
+        "id": 108,
+        "type": 1
+      },
+      {
+        "id": 109,
+        "type": 2
+      },
+      {
+        "id": 110,
+        "type": 4
+      },
+      {
+        "id": 111,
+        "type": 1
+      },
+      {
+        "id": 112,
+        "type": 3
+      },
+      {
+        "id": 113,
+        "type": 3
+      },
+      {
+        "id": 114,
+        "type": 0
+      },
+      {
+        "id": 115,
+        "type": 4
+      },
+      {
+        "id": 116,
+        "type": 0
+      },
+      {
+        "id": 117,
+        "type": 4
+      },
+      {
+        "id": 118,
+        "type": 4
+      },
+      {
+        "id": 119,
+        "type": 3
+      },
+      {
+        "id": 120,
+        "type": 4
+      },
+      {
+        "id": 121,
+        "type": 4
+      },
+      {
+        "id": 122,
+        "type": 2
+      },
+      {
+        "id": 123,
+        "type": 4
+      },
+      {
+        "id": 124,
+        "type": 4
+      },
+      {
+        "id": 125,
+        "type": 3
+      },
+      {
+        "id": 126,
+        "type": 1
+      },
+      {
+        "id": 127,
+        "type": 4
+      },
+      {
+        "id": 128,
+        "type": 1
+      }
+    ],
+    "atCast": [
+      {
+        "id": 65,
+        "type": 2
+      },
+      {
+        "id": 66,
+        "type": 0
+      },
+      {
+        "id": 67,
+        "type": 4
+      },
+      {
+        "id": 68,
+        "type": 2
+      },
+      {
+        "id": 69,
+        "type": 4
+      },
+      {
+        "id": 70,
+        "type": 1
+      },
+      {
+        "id": 71,
+        "type": 4
+      },
+      {
+        "id": 72,
+        "type": 0
+      },
+      {
+        "id": 73,
+        "type": 4
+      },
+      {
+        "id": 74,
+        "type": 0
+      },
+      {
+        "id": 75,
+        "type": 0
+      },
+      {
+        "id": 76,
+        "type": 4
+      },
+      {
+        "id": 77,
+        "type": 2
+      },
+      {
+        "id": 78,
+        "type": 4
+      },
+      {
+        "id": 79,
+        "type": 2
+      },
+      {
+        "id": 80,
+        "type": 0
+      },
+      {
+        "id": 81,
+        "type": 2
+      },
+      {
+        "id": 82,
+        "type": 4
+      },
+      {
+        "id": 83,
+        "type": 1
+      },
+      {
+        "id": 84,
+        "type": 2
+      },
+      {
+        "id": 85,
+        "type": 2
+      },
+      {
+        "id": 86,
+        "type": 1
+      },
+      {
+        "id": 87,
+        "type": 3
+      },
+      {
+        "id": 88,
+        "type": 3
+      },
+      {
+        "id": 89,
+        "type": 0
+      },
+      {
+        "id": 90,
+        "type": 4
+      },
+      {
+        "id": 91,
+        "type": 4
+      },
+      {
+        "id": 92,
+        "type": 3
+      },
+      {
+        "id": 93,
+        "type": 4
+      },
+      {
+        "id": 94,
+        "type": 3
+      },
+      {
+        "id": 95,
+        "type": 4
+      },
+      {
+        "id": 96,
+        "type": 0
+      },
+      {
+        "id": 97,
+        "type": 3
+      },
+      {
+        "id": 98,
+        "type": 0
+      },
+      {
+        "id": 99,
+        "type": 3
+      },
+      {
+        "id": 100,
+        "type": 3
+      },
+      {
+        "id": 101,
+        "type": 1
+      },
+      {
+        "id": 102,
+        "type": 1
+      },
+      {
+        "id": 103,
+        "type": 4
+      },
+      {
+        "id": 104,
+        "type": 1
+      },
+      {
+        "id": 105,
+        "type": 2
+      },
+      {
+        "id": 106,
+        "type": 4
+      },
+      {
+        "id": 107,
+        "type": 2
+      },
+      {
+        "id": 108,
+        "type": 1
+      },
+      {
+        "id": 109,
+        "type": 2
+      },
+      {
+        "id": 110,
+        "type": 4
+      },
+      {
+        "id": 111,
+        "type": 1
+      },
+      {
+        "id": 112,
+        "type": 3
+      },
+      {
+        "id": 113,
+        "type": 3
+      },
+      {
+        "id": 114,
+        "type": 0
+      },
+      {
+        "id": 115,
+        "type": 4
+      },
+      {
+        "id": 116,
+        "type": 0
+      },
+      {
+        "id": 117,
+        "type": 4
+      },
+      {
+        "id": 118,
+        "type": 4
+      },
+      {
+        "id": 119,
+        "type": 3
+      },
+      {
+        "id": 120,
+        "type": 4
+      },
+      {
+        "id": 121,
+        "type": 4
+      },
+      {
+        "id": 122,
+        "type": 2
+      },
+      {
+        "id": 123,
+        "type": 4
+      },
+      {
+        "id": 124,
+        "type": 4
+      },
+      {
+        "id": 125,
+        "type": 3
+      },
+      {
+        "id": 126,
+        "type": 1
+      },
+      {
+        "id": 127,
+        "type": 4
+      },
+      {
+        "id": 128,
+        "type": 1
+      }
+    ],
+    "buffsAfter": {}
+  },
+  "freezeColorChange": {
+    "changedPixels": 143813,
+    "comparisonAtMs": 1180,
+    "outsideTargetBoardChanged": 0
+  },
+  "freezeReadability": {
+    "coloredCenters": 128,
+    "total": 128
+  },
+  "freeze": {
+    "target": "opponent",
+    "cells": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "castTime": 240,
+    "before": [
+      {
+        "id": 65,
+        "type": 2
+      },
+      {
+        "id": 66,
+        "type": 0
+      },
+      {
+        "id": 67,
+        "type": 4
+      },
+      {
+        "id": 68,
+        "type": 2
+      },
+      {
+        "id": 69,
+        "type": 4
+      },
+      {
+        "id": 70,
+        "type": 1
+      },
+      {
+        "id": 71,
+        "type": 4
+      },
+      {
+        "id": 72,
+        "type": 0
+      },
+      {
+        "id": 73,
+        "type": 4
+      },
+      {
+        "id": 74,
+        "type": 0
+      },
+      {
+        "id": 75,
+        "type": 0
+      },
+      {
+        "id": 76,
+        "type": 4
+      },
+      {
+        "id": 77,
+        "type": 2
+      },
+      {
+        "id": 78,
+        "type": 4
+      },
+      {
+        "id": 79,
+        "type": 2
+      },
+      {
+        "id": 80,
+        "type": 0
+      },
+      {
+        "id": 81,
+        "type": 2
+      },
+      {
+        "id": 82,
+        "type": 4
+      },
+      {
+        "id": 83,
+        "type": 1
+      },
+      {
+        "id": 84,
+        "type": 2
+      },
+      {
+        "id": 85,
+        "type": 2
+      },
+      {
+        "id": 86,
+        "type": 1
+      },
+      {
+        "id": 87,
+        "type": 3
+      },
+      {
+        "id": 88,
+        "type": 3
+      },
+      {
+        "id": 89,
+        "type": 0
+      },
+      {
+        "id": 90,
+        "type": 4
+      },
+      {
+        "id": 91,
+        "type": 4
+      },
+      {
+        "id": 92,
+        "type": 3
+      },
+      {
+        "id": 93,
+        "type": 4
+      },
+      {
+        "id": 94,
+        "type": 3
+      },
+      {
+        "id": 95,
+        "type": 4
+      },
+      {
+        "id": 96,
+        "type": 0
+      },
+      {
+        "id": 97,
+        "type": 3
+      },
+      {
+        "id": 98,
+        "type": 0
+      },
+      {
+        "id": 99,
+        "type": 3
+      },
+      {
+        "id": 100,
+        "type": 3
+      },
+      {
+        "id": 101,
+        "type": 1
+      },
+      {
+        "id": 102,
+        "type": 1
+      },
+      {
+        "id": 103,
+        "type": 4
+      },
+      {
+        "id": 104,
+        "type": 1
+      },
+      {
+        "id": 105,
+        "type": 2
+      },
+      {
+        "id": 106,
+        "type": 4
+      },
+      {
+        "id": 107,
+        "type": 2
+      },
+      {
+        "id": 108,
+        "type": 1
+      },
+      {
+        "id": 109,
+        "type": 2
+      },
+      {
+        "id": 110,
+        "type": 4
+      },
+      {
+        "id": 111,
+        "type": 1
+      },
+      {
+        "id": 112,
+        "type": 3
+      },
+      {
+        "id": 113,
+        "type": 3
+      },
+      {
+        "id": 114,
+        "type": 0
+      },
+      {
+        "id": 115,
+        "type": 4
+      },
+      {
+        "id": 116,
+        "type": 0
+      },
+      {
+        "id": 117,
+        "type": 4
+      },
+      {
+        "id": 118,
+        "type": 4
+      },
+      {
+        "id": 119,
+        "type": 3
+      },
+      {
+        "id": 120,
+        "type": 4
+      },
+      {
+        "id": 121,
+        "type": 4
+      },
+      {
+        "id": 122,
+        "type": 2
+      },
+      {
+        "id": 123,
+        "type": 4
+      },
+      {
+        "id": 124,
+        "type": 4
+      },
+      {
+        "id": 125,
+        "type": 3
+      },
+      {
+        "id": 126,
+        "type": 1
+      },
+      {
+        "id": 127,
+        "type": 4
+      },
+      {
+        "id": 128,
+        "type": 1
+      }
+    ],
+    "atCast": [
+      {
+        "id": 65,
+        "type": 2
+      },
+      {
+        "id": 66,
+        "type": 0
+      },
+      {
+        "id": 67,
+        "type": 4
+      },
+      {
+        "id": 68,
+        "type": 2
+      },
+      {
+        "id": 69,
+        "type": 4
+      },
+      {
+        "id": 70,
+        "type": 1
+      },
+      {
+        "id": 71,
+        "type": 4
+      },
+      {
+        "id": 72,
+        "type": 0
+      },
+      {
+        "id": 73,
+        "type": 4
+      },
+      {
+        "id": 74,
+        "type": 0
+      },
+      {
+        "id": 75,
+        "type": 0
+      },
+      {
+        "id": 76,
+        "type": 4
+      },
+      {
+        "id": 77,
+        "type": 2
+      },
+      {
+        "id": 78,
+        "type": 4
+      },
+      {
+        "id": 79,
+        "type": 2
+      },
+      {
+        "id": 80,
+        "type": 0
+      },
+      {
+        "id": 81,
+        "type": 2
+      },
+      {
+        "id": 82,
+        "type": 4
+      },
+      {
+        "id": 83,
+        "type": 1
+      },
+      {
+        "id": 84,
+        "type": 2
+      },
+      {
+        "id": 85,
+        "type": 2
+      },
+      {
+        "id": 86,
+        "type": 1
+      },
+      {
+        "id": 87,
+        "type": 3
+      },
+      {
+        "id": 88,
+        "type": 3
+      },
+      {
+        "id": 89,
+        "type": 0
+      },
+      {
+        "id": 90,
+        "type": 4
+      },
+      {
+        "id": 91,
+        "type": 4
+      },
+      {
+        "id": 92,
+        "type": 3
+      },
+      {
+        "id": 93,
+        "type": 4
+      },
+      {
+        "id": 94,
+        "type": 3
+      },
+      {
+        "id": 95,
+        "type": 4
+      },
+      {
+        "id": 96,
+        "type": 0
+      },
+      {
+        "id": 97,
+        "type": 3
+      },
+      {
+        "id": 98,
+        "type": 0
+      },
+      {
+        "id": 99,
+        "type": 3
+      },
+      {
+        "id": 100,
+        "type": 3
+      },
+      {
+        "id": 101,
+        "type": 1
+      },
+      {
+        "id": 102,
+        "type": 1
+      },
+      {
+        "id": 103,
+        "type": 4
+      },
+      {
+        "id": 104,
+        "type": 1
+      },
+      {
+        "id": 105,
+        "type": 2
+      },
+      {
+        "id": 106,
+        "type": 4
+      },
+      {
+        "id": 107,
+        "type": 2
+      },
+      {
+        "id": 108,
+        "type": 1
+      },
+      {
+        "id": 109,
+        "type": 2
+      },
+      {
+        "id": 110,
+        "type": 4
+      },
+      {
+        "id": 111,
+        "type": 1
+      },
+      {
+        "id": 112,
+        "type": 3
+      },
+      {
+        "id": 113,
+        "type": 3
+      },
+      {
+        "id": 114,
+        "type": 0
+      },
+      {
+        "id": 115,
+        "type": 4
+      },
+      {
+        "id": 116,
+        "type": 0
+      },
+      {
+        "id": 117,
+        "type": 4
+      },
+      {
+        "id": 118,
+        "type": 4
+      },
+      {
+        "id": 119,
+        "type": 3
+      },
+      {
+        "id": 120,
+        "type": 4
+      },
+      {
+        "id": 121,
+        "type": 4
+      },
+      {
+        "id": 122,
+        "type": 2
+      },
+      {
+        "id": 123,
+        "type": 4
+      },
+      {
+        "id": 124,
+        "type": 4
+      },
+      {
+        "id": 125,
+        "type": 3
+      },
+      {
+        "id": 126,
+        "type": 1
+      },
+      {
+        "id": 127,
+        "type": 4
+      },
+      {
+        "id": 128,
+        "type": 1
+      }
+    ],
+    "frozenUntil": 3240,
+    "buffsAfter": {}
+  },
+  "blackholeColorChange": {
+    "changedPixels": 3752,
+    "comparisonAtMs": 1180,
+    "outsideTargetBoardChanged": 0
+  },
+  "blackholeReadability": {
+    "coloredCenters": 128,
+    "total": 128
+  },
+  "blackhole": {
+    "target": "opponent",
+    "cells": [
+      27,
+      19,
+      26,
+      28,
+      35,
+      11
+    ],
+    "castTime": 240,
+    "effect": {
+      "kind": "effect",
+      "side": "player",
+      "targetSide": "opponent",
+      "id": "blackhole",
+      "index": 27,
+      "cells": [
+        27,
+        19,
+        26,
+        28,
+        35,
+        11
+      ],
+      "landing": 27,
+      "path": [],
+      "now": 240
+    },
+    "moves": {
+      "side": "opponent",
+      "kind": "card-change",
+      "time": 240,
+      "cells": [
+        27,
+        19,
+        26,
+        28,
+        35,
+        11
+      ],
+      "card": "blackhole",
+      "moves": [
+        {
+          "tile": {
+            "id": 92,
+            "type": 3
+          },
+          "from": 27,
+          "to": 11,
+          "control": 27
+        },
+        {
+          "tile": {
+            "id": 84,
+            "type": 2
+          },
+          "from": 19,
+          "to": 27,
+          "control": 27
+        },
+        {
+          "tile": {
+            "id": 91,
+            "type": 4
+          },
+          "from": 26,
+          "to": 19,
+          "control": 27
+        },
+        {
+          "tile": {
+            "id": 93,
+            "type": 4
+          },
+          "from": 28,
+          "to": 26,
+          "control": 27
+        },
+        {
+          "tile": {
+            "id": 100,
+            "type": 3
+          },
+          "from": 35,
+          "to": 28,
+          "control": 27
+        },
+        {
+          "tile": {
+            "id": 76,
+            "type": 4
+          },
+          "from": 11,
+          "to": 35,
+          "control": 27
+        }
+      ],
+      "duration": 420
+    },
+    "before": [
+      {
+        "id": 65,
+        "type": 2
+      },
+      {
+        "id": 66,
+        "type": 0
+      },
+      {
+        "id": 67,
+        "type": 4
+      },
+      {
+        "id": 68,
+        "type": 2
+      },
+      {
+        "id": 69,
+        "type": 4
+      },
+      {
+        "id": 70,
+        "type": 1
+      },
+      {
+        "id": 71,
+        "type": 4
+      },
+      {
+        "id": 72,
+        "type": 0
+      },
+      {
+        "id": 73,
+        "type": 4
+      },
+      {
+        "id": 74,
+        "type": 0
+      },
+      {
+        "id": 75,
+        "type": 0
+      },
+      {
+        "id": 76,
+        "type": 4
+      },
+      {
+        "id": 77,
+        "type": 2
+      },
+      {
+        "id": 78,
+        "type": 4
+      },
+      {
+        "id": 79,
+        "type": 2
+      },
+      {
+        "id": 80,
+        "type": 0
+      },
+      {
+        "id": 81,
+        "type": 2
+      },
+      {
+        "id": 82,
+        "type": 4
+      },
+      {
+        "id": 83,
+        "type": 1
+      },
+      {
+        "id": 84,
+        "type": 2
+      },
+      {
+        "id": 85,
+        "type": 2
+      },
+      {
+        "id": 86,
+        "type": 1
+      },
+      {
+        "id": 87,
+        "type": 3
+      },
+      {
+        "id": 88,
+        "type": 3
+      },
+      {
+        "id": 89,
+        "type": 0
+      },
+      {
+        "id": 90,
+        "type": 4
+      },
+      {
+        "id": 91,
+        "type": 4
+      },
+      {
+        "id": 92,
+        "type": 3
+      },
+      {
+        "id": 93,
+        "type": 4
+      },
+      {
+        "id": 94,
+        "type": 3
+      },
+      {
+        "id": 95,
+        "type": 4
+      },
+      {
+        "id": 96,
+        "type": 0
+      },
+      {
+        "id": 97,
+        "type": 3
+      },
+      {
+        "id": 98,
+        "type": 0
+      },
+      {
+        "id": 99,
+        "type": 3
+      },
+      {
+        "id": 100,
+        "type": 3
+      },
+      {
+        "id": 101,
+        "type": 1
+      },
+      {
+        "id": 102,
+        "type": 1
+      },
+      {
+        "id": 103,
+        "type": 4
+      },
+      {
+        "id": 104,
+        "type": 1
+      },
+      {
+        "id": 105,
+        "type": 2
+      },
+      {
+        "id": 106,
+        "type": 4
+      },
+      {
+        "id": 107,
+        "type": 2
+      },
+      {
+        "id": 108,
+        "type": 1
+      },
+      {
+        "id": 109,
+        "type": 2
+      },
+      {
+        "id": 110,
+        "type": 4
+      },
+      {
+        "id": 111,
+        "type": 1
+      },
+      {
+        "id": 112,
+        "type": 3
+      },
+      {
+        "id": 113,
+        "type": 3
+      },
+      {
+        "id": 114,
+        "type": 0
+      },
+      {
+        "id": 115,
+        "type": 4
+      },
+      {
+        "id": 116,
+        "type": 0
+      },
+      {
+        "id": 117,
+        "type": 4
+      },
+      {
+        "id": 118,
+        "type": 4
+      },
+      {
+        "id": 119,
+        "type": 3
+      },
+      {
+        "id": 120,
+        "type": 4
+      },
+      {
+        "id": 121,
+        "type": 4
+      },
+      {
+        "id": 122,
+        "type": 2
+      },
+      {
+        "id": 123,
+        "type": 4
+      },
+      {
+        "id": 124,
+        "type": 4
+      },
+      {
+        "id": 125,
+        "type": 3
+      },
+      {
+        "id": 126,
+        "type": 1
+      },
+      {
+        "id": 127,
+        "type": 4
+      },
+      {
+        "id": 128,
+        "type": 1
+      }
+    ],
+    "atCast": [
+      {
+        "id": 65,
+        "type": 2
+      },
+      {
+        "id": 66,
+        "type": 0
+      },
+      {
+        "id": 67,
+        "type": 4
+      },
+      {
+        "id": 68,
+        "type": 2
+      },
+      {
+        "id": 69,
+        "type": 4
+      },
+      {
+        "id": 70,
+        "type": 1
+      },
+      {
+        "id": 71,
+        "type": 4
+      },
+      {
+        "id": 72,
+        "type": 0
+      },
+      {
+        "id": 73,
+        "type": 4
+      },
+      {
+        "id": 74,
+        "type": 0
+      },
+      {
+        "id": 75,
+        "type": 0
+      },
+      {
+        "id": 92,
+        "type": 3
+      },
+      {
+        "id": 77,
+        "type": 2
+      },
+      {
+        "id": 78,
+        "type": 4
+      },
+      {
+        "id": 79,
+        "type": 2
+      },
+      {
+        "id": 80,
+        "type": 0
+      },
+      {
+        "id": 81,
+        "type": 2
+      },
+      {
+        "id": 82,
+        "type": 4
+      },
+      {
+        "id": 83,
+        "type": 1
+      },
+      {
+        "id": 91,
+        "type": 4
+      },
+      {
+        "id": 85,
+        "type": 2
+      },
+      {
+        "id": 86,
+        "type": 1
+      },
+      {
+        "id": 87,
+        "type": 3
+      },
+      {
+        "id": 88,
+        "type": 3
+      },
+      {
+        "id": 89,
+        "type": 0
+      },
+      {
+        "id": 90,
+        "type": 4
+      },
+      {
+        "id": 93,
+        "type": 4
+      },
+      {
+        "id": 84,
+        "type": 2
+      },
+      {
+        "id": 100,
+        "type": 3
+      },
+      {
+        "id": 94,
+        "type": 3
+      },
+      {
+        "id": 95,
+        "type": 4
+      },
+      {
+        "id": 96,
+        "type": 0
+      },
+      {
+        "id": 97,
+        "type": 3
+      },
+      {
+        "id": 98,
+        "type": 0
+      },
+      {
+        "id": 99,
+        "type": 3
+      },
+      {
+        "id": 76,
+        "type": 4
+      },
+      {
+        "id": 101,
+        "type": 1
+      },
+      {
+        "id": 102,
+        "type": 1
+      },
+      {
+        "id": 103,
+        "type": 4
+      },
+      {
+        "id": 104,
+        "type": 1
+      },
+      {
+        "id": 105,
+        "type": 2
+      },
+      {
+        "id": 106,
+        "type": 4
+      },
+      {
+        "id": 107,
+        "type": 2
+      },
+      {
+        "id": 108,
+        "type": 1
+      },
+      {
+        "id": 109,
+        "type": 2
+      },
+      {
+        "id": 110,
+        "type": 4
+      },
+      {
+        "id": 111,
+        "type": 1
+      },
+      {
+        "id": 112,
+        "type": 3
+      },
+      {
+        "id": 113,
+        "type": 3
+      },
+      {
+        "id": 114,
+        "type": 0
+      },
+      {
+        "id": 115,
+        "type": 4
+      },
+      {
+        "id": 116,
+        "type": 0
+      },
+      {
+        "id": 117,
+        "type": 4
+      },
+      {
+        "id": 118,
+        "type": 4
+      },
+      {
+        "id": 119,
+        "type": 3
+      },
+      {
+        "id": 120,
+        "type": 4
+      },
+      {
+        "id": 121,
+        "type": 4
+      },
+      {
+        "id": 122,
+        "type": 2
+      },
+      {
+        "id": 123,
+        "type": 4
+      },
+      {
+        "id": 124,
+        "type": 4
+      },
+      {
+        "id": 125,
+        "type": 3
+      },
+      {
+        "id": 126,
+        "type": 1
+      },
+      {
+        "id": 127,
+        "type": 4
+      },
+      {
+        "id": 128,
+        "type": 1
+      }
+    ],
+    "buffsAfter": {}
+  },
+  "luckColorChange": {
+    "changedPixels": 5647,
+    "comparisonAtMs": 1180,
+    "outsideTargetBoardChanged": 0
+  },
+  "luckReadability": {
+    "coloredCenters": 128,
+    "total": 128
+  },
+  "luck": {
+    "target": "player",
+    "cells": [
+      27
+    ],
+    "castTime": 240,
+    "before": [
+      {
+        "id": 65,
+        "type": 2
+      },
+      {
+        "id": 66,
+        "type": 0
+      },
+      {
+        "id": 67,
+        "type": 4
+      },
+      {
+        "id": 68,
+        "type": 2
+      },
+      {
+        "id": 69,
+        "type": 4
+      },
+      {
+        "id": 70,
+        "type": 1
+      },
+      {
+        "id": 71,
+        "type": 4
+      },
+      {
+        "id": 72,
+        "type": 0
+      },
+      {
+        "id": 73,
+        "type": 4
+      },
+      {
+        "id": 74,
+        "type": 0
+      },
+      {
+        "id": 75,
+        "type": 0
+      },
+      {
+        "id": 76,
+        "type": 4
+      },
+      {
+        "id": 77,
+        "type": 2
+      },
+      {
+        "id": 78,
+        "type": 4
+      },
+      {
+        "id": 79,
+        "type": 2
+      },
+      {
+        "id": 80,
+        "type": 0
+      },
+      {
+        "id": 81,
+        "type": 2
+      },
+      {
+        "id": 82,
+        "type": 4
+      },
+      {
+        "id": 83,
+        "type": 1
+      },
+      {
+        "id": 84,
+        "type": 2
+      },
+      {
+        "id": 85,
+        "type": 2
+      },
+      {
+        "id": 86,
+        "type": 1
+      },
+      {
+        "id": 87,
+        "type": 3
+      },
+      {
+        "id": 88,
+        "type": 3
+      },
+      {
+        "id": 89,
+        "type": 0
+      },
+      {
+        "id": 90,
+        "type": 4
+      },
+      {
+        "id": 91,
+        "type": 4
+      },
+      {
+        "id": 92,
+        "type": 3
+      },
+      {
+        "id": 93,
+        "type": 4
+      },
+      {
+        "id": 94,
+        "type": 3
+      },
+      {
+        "id": 95,
+        "type": 4
+      },
+      {
+        "id": 96,
+        "type": 0
+      },
+      {
+        "id": 97,
+        "type": 3
+      },
+      {
+        "id": 98,
+        "type": 0
+      },
+      {
+        "id": 99,
+        "type": 3
+      },
+      {
+        "id": 100,
+        "type": 3
+      },
+      {
+        "id": 101,
+        "type": 1
+      },
+      {
+        "id": 102,
+        "type": 1
+      },
+      {
+        "id": 103,
+        "type": 4
+      },
+      {
+        "id": 104,
+        "type": 1
+      },
+      {
+        "id": 105,
+        "type": 2
+      },
+      {
+        "id": 106,
+        "type": 4
+      },
+      {
+        "id": 107,
+        "type": 2
+      },
+      {
+        "id": 108,
+        "type": 1
+      },
+      {
+        "id": 109,
+        "type": 2
+      },
+      {
+        "id": 110,
+        "type": 4
+      },
+      {
+        "id": 111,
+        "type": 1
+      },
+      {
+        "id": 112,
+        "type": 3
+      },
+      {
+        "id": 113,
+        "type": 3
+      },
+      {
+        "id": 114,
+        "type": 0
+      },
+      {
+        "id": 115,
+        "type": 4
+      },
+      {
+        "id": 116,
+        "type": 0
+      },
+      {
+        "id": 117,
+        "type": 4
+      },
+      {
+        "id": 118,
+        "type": 4
+      },
+      {
+        "id": 119,
+        "type": 3
+      },
+      {
+        "id": 120,
+        "type": 4
+      },
+      {
+        "id": 121,
+        "type": 4
+      },
+      {
+        "id": 122,
+        "type": 2
+      },
+      {
+        "id": 123,
+        "type": 4
+      },
+      {
+        "id": 124,
+        "type": 4
+      },
+      {
+        "id": 125,
+        "type": 3
+      },
+      {
+        "id": 126,
+        "type": 1
+      },
+      {
+        "id": 127,
+        "type": 4
+      },
+      {
+        "id": 128,
+        "type": 1
+      }
+    ],
+    "atCast": [
+      {
+        "id": 65,
+        "type": 2
+      },
+      {
+        "id": 66,
+        "type": 0
+      },
+      {
+        "id": 67,
+        "type": 4
+      },
+      {
+        "id": 68,
+        "type": 2
+      },
+      {
+        "id": 69,
+        "type": 4
+      },
+      {
+        "id": 70,
+        "type": 1
+      },
+      {
+        "id": 71,
+        "type": 4
+      },
+      {
+        "id": 72,
+        "type": 0
+      },
+      {
+        "id": 73,
+        "type": 4
+      },
+      {
+        "id": 74,
+        "type": 0
+      },
+      {
+        "id": 75,
+        "type": 0
+      },
+      {
+        "id": 76,
+        "type": 4
+      },
+      {
+        "id": 77,
+        "type": 2
+      },
+      {
+        "id": 78,
+        "type": 4
+      },
+      {
+        "id": 79,
+        "type": 2
+      },
+      {
+        "id": 80,
+        "type": 0
+      },
+      {
+        "id": 81,
+        "type": 2
+      },
+      {
+        "id": 82,
+        "type": 4
+      },
+      {
+        "id": 83,
+        "type": 1
+      },
+      {
+        "id": 84,
+        "type": 2
+      },
+      {
+        "id": 85,
+        "type": 2
+      },
+      {
+        "id": 86,
+        "type": 1
+      },
+      {
+        "id": 87,
+        "type": 3
+      },
+      {
+        "id": 88,
+        "type": 3
+      },
+      {
+        "id": 89,
+        "type": 0
+      },
+      {
+        "id": 90,
+        "type": 4
+      },
+      {
+        "id": 91,
+        "type": 4
+      },
+      {
+        "id": 92,
+        "type": 3
+      },
+      {
+        "id": 93,
+        "type": 4
+      },
+      {
+        "id": 94,
+        "type": 3
+      },
+      {
+        "id": 95,
+        "type": 4
+      },
+      {
+        "id": 96,
+        "type": 0
+      },
+      {
+        "id": 97,
+        "type": 3
+      },
+      {
+        "id": 98,
+        "type": 0
+      },
+      {
+        "id": 99,
+        "type": 3
+      },
+      {
+        "id": 100,
+        "type": 3
+      },
+      {
+        "id": 101,
+        "type": 1
+      },
+      {
+        "id": 102,
+        "type": 1
+      },
+      {
+        "id": 103,
+        "type": 4
+      },
+      {
+        "id": 104,
+        "type": 1
+      },
+      {
+        "id": 105,
+        "type": 2
+      },
+      {
+        "id": 106,
+        "type": 4
+      },
+      {
+        "id": 107,
+        "type": 2
+      },
+      {
+        "id": 108,
+        "type": 1
+      },
+      {
+        "id": 109,
+        "type": 2
+      },
+      {
+        "id": 110,
+        "type": 4
+      },
+      {
+        "id": 111,
+        "type": 1
+      },
+      {
+        "id": 112,
+        "type": 3
+      },
+      {
+        "id": 113,
+        "type": 3
+      },
+      {
+        "id": 114,
+        "type": 0
+      },
+      {
+        "id": 115,
+        "type": 4
+      },
+      {
+        "id": 116,
+        "type": 0
+      },
+      {
+        "id": 117,
+        "type": 4
+      },
+      {
+        "id": 118,
+        "type": 4
+      },
+      {
+        "id": 119,
+        "type": 3
+      },
+      {
+        "id": 120,
+        "type": 4
+      },
+      {
+        "id": 121,
+        "type": 4
+      },
+      {
+        "id": 122,
+        "type": 2
+      },
+      {
+        "id": 123,
+        "type": 4
+      },
+      {
+        "id": 124,
+        "type": 4
+      },
+      {
+        "id": 125,
+        "type": 3
+      },
+      {
+        "id": 126,
+        "type": 1
+      },
+      {
+        "id": 127,
+        "type": 4
+      },
+      {
+        "id": 128,
+        "type": 1
+      }
+    ],
+    "luckUntil": 10240,
+    "buffsAfter": {
+      "luck": 10240
+    }
+  },
+  "protectedFiles": 136
+}

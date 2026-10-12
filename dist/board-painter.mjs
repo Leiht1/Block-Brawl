@@ -1,4 +1,5 @@
 import {THEME} from './theme.mjs';
+import {paintWildTile} from './effect_skill_body_soft_v1_final.mjs';
 // Shared sunny-jungle tile, beam, burst and formation painters for both boards.
 export function createBoardPainter({ctx,art,reduced=false}){
 const colors=THEME.palette.map(p=>p.color),shadows=THEME.palette.map(p=>p.dark);
@@ -30,7 +31,7 @@ function symbol(type,size){
 function tile(tile,x,y,scale=1,alpha=1,squash=0,stretchX=0,stretchY=0){
   if(tile.special&&!reduced){const creation=formations.find(e=>e.tile.id===tile.id);if(creation){const t=Math.max(0,Math.min(1,(visualNow-creation.start)/creation.duration));scale*=t<.32?.72+.28*ease(t/.32):1+Math.sin((t-.32)/.68*Math.PI*2)*(.12+(tile.special==='blast'?.07:0))*(1-t);}}
   const size=cell*.84;ctx.save();ctx.translate(x,y+cell*squash*.3);ctx.scale(scale*(1+squash+stretchX),scale*(1-squash+stretchY));ctx.globalAlpha=alpha;
-  const painted=art.tile(ctx,tile,cell*THEME.tile.ratio,pixelRatio);
+  const painted=tile.wild&&paintWildTile(ctx,cell*THEME.tile.ratio)||art.tile(ctx,tile,cell*THEME.tile.ratio,pixelRatio);
   if(!painted){
   // A readable fallback keeps input and rules running if an asset fails to load.
   ctx.fillStyle=shadows[tile.type];ctx.beginPath();ctx.roundRect(-size/2,-size/2+5,size,size,cell*.13);ctx.fill();

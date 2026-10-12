@@ -1,0 +1,222 @@
+[
+  {
+    "sha256": "25f6b57d63b7f3f2d0769be064a63906706041c782726bec1ca8a94065c212b8",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\cliff-board.svg"
+  },
+  {
+    "sha256": "ed62c86a0c4944fcb91212fa3438be46b3dae1e3301a2b3701a2d3ea6ad5dbad",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\cliff-canyon.svg"
+  },
+  {
+    "sha256": "92b1a841d0e980212d4b9a3a67926905efc35aa9dc50bbfc1c60199e28b77e78",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\cliff-canyon.webp"
+  },
+  {
+    "sha256": "1cec25ce16e290ee7ff841c608d5121d1cdd788ef7cbe6b08753ee84a96e751e",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\cliff-frame.svg"
+  },
+  {
+    "sha256": "7d1450a360fc7300a470b6cea53283cb0bb374b9a0a8a15faacdc7112cb89794",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\cliff-preview.svg"
+  },
+  {
+    "sha256": "e4f10020530d2bfdf0945de523086e938fbff4727263b660b36a2a772b86cd8c",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\cliff-scenery.webp"
+  },
+  {
+    "sha256": "0f6e35a2a3ff669de713597586cf87d845fb928a41063e1c4a4f5ecce5032786",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\cliff-stage-left.svg"
+  },
+  {
+    "sha256": "2c26ab3e3eb6a451998b03aefea175c213642b3be965f8ed4f1475f1bb2cae0a",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\cliff-stage-right.svg"
+  },
+  {
+    "sha256": "a65f141afa19e2b0d0d7d6822e19656a0c04136826552de6056e1d451aca9e35",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\crystal-board.svg"
+  },
+  {
+    "sha256": "faf609b3a5115547bee60d37017e4e552fddccdf6d9c24c90b6f63162da0ce62",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\crystal-frame.svg"
+  },
+  {
+    "sha256": "5caccf0031b2e383b85116a9ba715d793c40a82a88383bd62b6e462185f4c56b",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\crystal-landscape.svg"
+  },
+  {
+    "sha256": "13924cfb412d990063b4ea6f4fe4a7be318dd284efda5d75548d25101c4521ef",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\crystal-obstacle.svg"
+  },
+  {
+    "sha256": "d75029cb429221e9b55c688cf16935c3dbf8214cb9c227b8d0dfc0a2c542efd4",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\crystal-preview.svg"
+  },
+  {
+    "sha256": "7205e382a56cef837e81a5aade548f0bcf3d52754bec4a44c11466ac14cec6a6",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\crystal-scenery.webp"
+  },
+  {
+    "sha256": "e668a48797145227d0a5b45dac29936fc09040da64a9a6e22b4e14096d45eb69",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\crystal-stage.svg"
+  },
+  {
+    "sha256": "9527de7fe07d8c8fad80d70874caebb53f64ade697d67eedb467d2dc2090a5dc",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\falling-rock.svg"
+  },
+  {
+    "sha256": "ba7f4a6d54d560176a5b3b189e326f61fb70855c5c280a0020c141e3159702a3",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\forest-preview.svg"
+  },
+  {
+    "sha256": "e97d038ac47cb3ba284d18149a5a40c23ed99b1a75325f62f960e50f02309fb5",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\furnace-board.svg"
+  },
+  {
+    "sha256": "e0a883221d2569ae120dfad83dc3c8d42175662038c9017d1864863ac16d4cdb",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\furnace-hall.svg"
+  },
+  {
+    "sha256": "50deea115a90f3cc922576591c1f7500e9a7943d5118890c5f3d241f4c2f8fb6",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\furnace-preview.svg"
+  },
+  {
+    "sha256": "ab3a8e847e2342e0d80a6ce3535a4ab6ac973172ea88c641274cf894a2a01225",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\furnace-rock.svg"
+  },
+  {
+    "sha256": "bdf3866ee80b0ef9ef10513827b922413807ae27d790173de2bff0a4c8109af0",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\furnace-stage.svg"
+  },
+  {
+    "sha256": "7832c1b504da8d61d4ff55e80b8eb1e0c85af1d032decedeeb90eba975f6718b",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\ruins-board.svg"
+  },
+  {
+    "sha256": "16d72db1b90ba39c1761b5d54dcfd2de0e54fd9cc2ed11f4f7fc854d23a297d7",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\ruins-frame.svg"
+  },
+  {
+    "sha256": "0777731fa586457714c2212b78e8e967a5bd809d6509e7a69567669e3a0b191c",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\ruins-pillar.svg"
+  },
+  {
+    "sha256": "c36677cdb87d2a43827f14df9653bd0b67275845d39154387ba043090161e092",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\ruins-preview.svg"
+  },
+  {
+    "sha256": "2076cfc379814a0cc45fb1aa6f2a0d3d04b686a4532116c2da3e93ba9728e668",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\ruins-scenery.webp"
+  },
+  {
+    "sha256": "db8db0a937de7f87ed8fb0834740dbb19108f6d7c3f551c5489d4fc4572e1b7a",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\ruins-stage.svg"
+  },
+  {
+    "sha256": "fe5fcdbf5da546f7123adae67ee25a535537dc9ad3312218e88dfb3f8193c557",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\maps\\ruins-temple.svg"
+  },
+  {
+    "sha256": "2b5bc1886954d4f8aabd381815f2237268db74779690525404617e55d93f988b",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\jungle-scenery.webp"
+  },
+  {
+    "sha256": "a87c8ac8b8ae0c34b27d7320a9f8c2066eddf4cb5d58f279f9fd94cadf8aa4d3",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\jungle-frame.webp"
+  },
+  {
+    "sha256": "211c9aaba83c51dbf22953d50b62f1143c8226b240add6203ab0a3d7b4c31426",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\toy-board.svg"
+  },
+  {
+    "sha256": "7abc90945373b0c548dbf58849d1293c5f0667ab58b831d8d79c6a8dd85fab07",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\assets\\toy-atlas.svg"
+  },
+  {
+    "sha256": "be8b175af7c9a7038e45c2080971ccc97e282bb6b547626caac7255855f6a278",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\cards.mjs"
+  },
+  {
+    "sha256": "389afac477e51274e722ffb561a18f1fc55d37767a72137e737d9291822eb6af",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\engine.mjs"
+  },
+  {
+    "sha256": "295a7889aaa6aa7e6686bc87e51319a258b779a1c20372eae2105bf481994ece",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\arena.mjs"
+  },
+  {
+    "sha256": "4375ea52a23d011c07d568510a7511ccd2f06de64efe63629b0b800c3d0b7d04",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\bot.mjs"
+  },
+  {
+    "sha256": "5fd2cd8ecb01223b75dc8b1ad6175d5f03ae84b51bc09324d2499a9c36d8b6bd",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\map-scene.mjs"
+  },
+  {
+    "sha256": "eadaeed3c2b388f13bc87d9896c721f6995624de3f3b5db526d8989f376bed1d",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\board-painter.mjs"
+  },
+  {
+    "sha256": "e7472ed281da61728aeee7a9ec97e9b95458a1e16d174f972532fc30d9faccd8",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\card-effects.mjs"
+  },
+  {
+    "sha256": "813b18e08ce823b908c890da3646469098966dc7b20b3b4f8ea6f8c55928710e",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\card-ui.mjs"
+  },
+  {
+    "sha256": "c5f46885d3e9489557af3877674cd3ddfb5553a8c058ed5bd73316614390d111",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\maps.mjs"
+  },
+  {
+    "sha256": "e746a42b5d0d7ee5405255a7f75106eba80472734b21cc149839a0303758f0d0",
+    "path": "D:\\codex项目\\方块乱斗\\dist\\theme.mjs"
+  },
+  {
+    "sha256": "65ef38758518c9f6bb529dbbbc2b92d97cb5e21eb7fd970def11ce1d1b7d8507",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\blackhole.png"
+  },
+  {
+    "sha256": "321a048dba674689e8123e44c64626392f8f2f6bcf4e7ba224e539b72d86f5e2",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\bomb.png"
+  },
+  {
+    "sha256": "4eee9847db33500d73bbb5c87ff4fb6e2215ab733138073ab13e07321b67f337",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\fire.png"
+  },
+  {
+    "sha256": "df0b70f223576def8d14bcebba8c8720e9564bb5c658480ed49ca7df407e1aa9",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\fog.png"
+  },
+  {
+    "sha256": "66bb166caefa46847da4677bf6a0233cf8b8b055611c4ac6265633cc0d1c5af2",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\freeze.png"
+  },
+  {
+    "sha256": "2b12fe74d018511c2c814773f436b913c13ec678ca992295eb8c2da5966bba71",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\luck.png"
+  },
+  {
+    "sha256": "6807d00dc9472a8ef5e114dde9fc85295ddf6e60afbee1aa9994970fb49af4b6",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\meteor.png"
+  },
+  {
+    "sha256": "085098193fe3cf3dc67d8f535b6bdf0153bbbbaa0eab57409f32990d02061bfd",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\overload.png"
+  },
+  {
+    "sha256": "95af149a58ea53f840caa65889cdfba64e63522d3ccc4097cf9ea2c8ef76036c",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\quake.png"
+  },
+  {
+    "sha256": "deef73ef9d314098149069d65b30ce4de0a6fe27ddfbdfa19aa2a7c27d5d91a7",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\rainbow.png"
+  },
+  {
+    "sha256": "9e275ae3347d6f97f7b36af56285e2e215097ac164ec556798779602ed310d03",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\sage.png"
+  },
+  {
+    "sha256": "46f4fead260da15aa64a030cfd823470c6503040bc48b934f2783cd8641ca81c",
+    "path": "D:\\codex项目\\方块乱斗\\art-preproduction\\card-reference-v3\\cards\\storm.png"
+  }
+]

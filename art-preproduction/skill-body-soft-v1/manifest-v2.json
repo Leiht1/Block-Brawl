@@ -1,0 +1,795 @@
+{
+  "version": 2,
+  "status": "preview",
+  "userApproved": false,
+  "scope": [
+    "fire",
+    "freeze",
+    "blackhole",
+    "luck"
+  ],
+  "generator": "Original built-in image_gen masters; user-requested deterministic color/alpha-only correction",
+  "integration": "review-only; no production imports",
+  "castSource": "dist/effect_cast_soft_v3_final.mjs",
+  "bodyAfterCastMs": 640,
+  "entries": {
+    "fire": {
+      "id": "fire",
+      "alias": "firewave",
+      "version": 2,
+      "status": "preview",
+      "source": "source/effect_firewave_soft_v1_preview.png",
+      "prompt": "source/prompt_fire_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_firewave_soft_v2_preview.png",
+      "frames": [
+        "assets/effect_firewave_soft_v2_preview_01.png",
+        "assets/effect_firewave_soft_v2_preview_02.png",
+        "assets/effect_firewave_soft_v2_preview_03.png",
+        "assets/effect_firewave_soft_v2_preview_04.png",
+        "assets/effect_firewave_soft_v2_preview_05.png",
+        "assets/effect_firewave_soft_v2_preview_06.png",
+        "assets/effect_firewave_soft_v2_preview_07.png",
+        "assets/effect_firewave_soft_v2_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 90,
+      "mainMs": 720,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "interpolation": "adjacent-keyframe alpha crossfade; source-over only",
+      "alphaMax": 0.94,
+      "registration": {
+        "threshold": 30,
+        "sharedScale": 0.5872576177285319,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              175,
+              347
+            ],
+            "bounds": [
+              110,
+              309,
+              240,
+              385
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              182,
+              335.5
+            ],
+            "bounds": [
+              18,
+              278,
+              346,
+              393
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              186.5,
+              326
+            ],
+            "bounds": [
+              9,
+              246,
+              364,
+              406
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              188,
+              315.5
+            ],
+            "bounds": [
+              8,
+              231,
+              368,
+              400
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              192,
+              243
+            ],
+            "bounds": [
+              16,
+              172,
+              368,
+              314
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              196,
+              254.5
+            ],
+            "bounds": [
+              21,
+              203,
+              371,
+              306
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              181,
+              268.5
+            ],
+            "bounds": [
+              33,
+              235,
+              329,
+              302
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              212,
+              277.5
+            ],
+            "bounds": [
+              103,
+              257,
+              321,
+              298
+            ]
+          }
+        ]
+      },
+      "stateMs": 2200,
+      "previousAssets": {
+        "version": 1,
+        "reviewPath": "assets/atlas_firewave_soft_v1_preview.png",
+        "frames": [
+          "assets/effect_firewave_soft_v1_preview_01.png",
+          "assets/effect_firewave_soft_v1_preview_02.png",
+          "assets/effect_firewave_soft_v1_preview_03.png",
+          "assets/effect_firewave_soft_v1_preview_04.png",
+          "assets/effect_firewave_soft_v1_preview_05.png",
+          "assets/effect_firewave_soft_v1_preview_06.png",
+          "assets/effect_firewave_soft_v1_preview_07.png",
+          "assets/effect_firewave_soft_v1_preview_08.png"
+        ],
+        "renderAlpha": null
+      },
+      "colorSource": "source/effect_firewave_soft_v2_preview.png",
+      "renderAlpha": {
+        "main": 0.94,
+        "state": 0.42,
+        "mark": 0.7,
+        "markColor": "#b66c2f",
+        "settle": 0.5
+      },
+      "colorCorrection": {
+        "tone": [
+          211,
+          104,
+          34
+        ],
+        "blend": 0.24,
+        "saturation": 1.14,
+        "alphaGain": 1.6,
+        "render": {
+          "main": 0.94,
+          "state": 0.42,
+          "mark": 0.7,
+          "markColor": "#b66c2f",
+          "settle": 0.5
+        },
+        "source": "source/effect_firewave_soft_v1_preview.png",
+        "method": "deterministic RGB/saturation and alpha point mapping; unchanged pixel coordinates and empty alpha mask"
+      }
+    },
+    "freeze": {
+      "id": "freeze",
+      "alias": "freeze",
+      "version": 2,
+      "status": "preview",
+      "source": "source/effect_freeze_soft_v1_preview.png",
+      "prompt": "source/prompt_freeze_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_freeze_soft_v2_preview.png",
+      "frames": [
+        "assets/effect_freeze_soft_v2_preview_01.png",
+        "assets/effect_freeze_soft_v2_preview_02.png",
+        "assets/effect_freeze_soft_v2_preview_03.png",
+        "assets/effect_freeze_soft_v2_preview_04.png",
+        "assets/effect_freeze_soft_v2_preview_05.png",
+        "assets/effect_freeze_soft_v2_preview_06.png",
+        "assets/effect_freeze_soft_v2_preview_07.png",
+        "assets/effect_freeze_soft_v2_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 95,
+      "mainMs": 760,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "interpolation": "adjacent-keyframe alpha crossfade; source-over only",
+      "alphaMax": 0.76,
+      "registration": {
+        "threshold": 30,
+        "sharedScale": 0.5745257452574526,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              189,
+              258.5
+            ],
+            "bounds": [
+              36,
+              104,
+              342,
+              413
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              190,
+              260
+            ],
+            "bounds": [
+              27,
+              93,
+              353,
+              427
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              193.5,
+              263.5
+            ],
+            "bounds": [
+              22,
+              91,
+              365,
+              436
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              194,
+              259
+            ],
+            "bounds": [
+              22,
+              75,
+              366,
+              443
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              194,
+              258
+            ],
+            "bounds": [
+              22,
+              74,
+              366,
+              442
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              191.5,
+              253.5
+            ],
+            "bounds": [
+              17,
+              72,
+              366,
+              435
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              191.5,
+              247
+            ],
+            "bounds": [
+              21,
+              74,
+              362,
+              420
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              190,
+              255
+            ],
+            "bounds": [
+              32,
+              100,
+              348,
+              410
+            ]
+          }
+        ]
+      },
+      "stateMs": 3000,
+      "previousAssets": {
+        "version": 1,
+        "reviewPath": "assets/atlas_freeze_soft_v1_preview.png",
+        "frames": [
+          "assets/effect_freeze_soft_v1_preview_01.png",
+          "assets/effect_freeze_soft_v1_preview_02.png",
+          "assets/effect_freeze_soft_v1_preview_03.png",
+          "assets/effect_freeze_soft_v1_preview_04.png",
+          "assets/effect_freeze_soft_v1_preview_05.png",
+          "assets/effect_freeze_soft_v1_preview_06.png",
+          "assets/effect_freeze_soft_v1_preview_07.png",
+          "assets/effect_freeze_soft_v1_preview_08.png"
+        ],
+        "renderAlpha": null
+      },
+      "colorSource": "source/effect_freeze_soft_v2_preview.png",
+      "renderAlpha": {
+        "main": 0.76,
+        "state": 0.4,
+        "thaw": 0.46
+      },
+      "colorCorrection": {
+        "tone": [
+          51,
+          136,
+          196
+        ],
+        "blend": 0.36,
+        "saturation": 1.12,
+        "alphaGain": 1.8,
+        "render": {
+          "main": 0.76,
+          "state": 0.4,
+          "thaw": 0.46
+        },
+        "source": "source/effect_freeze_soft_v1_preview.png",
+        "method": "deterministic RGB/saturation and alpha point mapping; unchanged pixel coordinates and empty alpha mask"
+      }
+    },
+    "blackhole": {
+      "id": "blackhole",
+      "alias": "blackhole",
+      "version": 2,
+      "status": "preview",
+      "source": "source/effect_blackhole_soft_v1_preview.png",
+      "prompt": "source/prompt_blackhole_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_blackhole_soft_v2_preview.png",
+      "frames": [
+        "assets/effect_blackhole_soft_v2_preview_01.png",
+        "assets/effect_blackhole_soft_v2_preview_02.png",
+        "assets/effect_blackhole_soft_v2_preview_03.png",
+        "assets/effect_blackhole_soft_v2_preview_04.png",
+        "assets/effect_blackhole_soft_v2_preview_05.png",
+        "assets/effect_blackhole_soft_v2_preview_06.png",
+        "assets/effect_blackhole_soft_v2_preview_07.png",
+        "assets/effect_blackhole_soft_v2_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 95,
+      "mainMs": 760,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "interpolation": "adjacent-keyframe alpha crossfade; source-over only",
+      "alphaMax": 0.94,
+      "registration": {
+        "threshold": 30,
+        "sharedScale": 0.5921787709497207,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              185,
+              302
+            ],
+            "bounds": [
+              100,
+              190,
+              270,
+              414
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              190,
+              286
+            ],
+            "bounds": [
+              70,
+              169,
+              310,
+              403
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              181,
+              293.5
+            ],
+            "bounds": [
+              9,
+              149,
+              353,
+              438
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              190,
+              296.5
+            ],
+            "bounds": [
+              20,
+              166,
+              360,
+              427
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              204.5,
+              257.5
+            ],
+            "bounds": [
+              26,
+              109,
+              383,
+              406
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              172,
+              272.5
+            ],
+            "bounds": [
+              0,
+              147,
+              344,
+              398
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              210,
+              237.5
+            ],
+            "bounds": [
+              145,
+              131,
+              275,
+              344
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              214,
+              245
+            ],
+            "bounds": [
+              172,
+              185,
+              256,
+              305
+            ]
+          }
+        ]
+      },
+      "stateMs": 420,
+      "previousAssets": {
+        "version": 1,
+        "reviewPath": "assets/atlas_blackhole_soft_v1_preview.png",
+        "frames": [
+          "assets/effect_blackhole_soft_v1_preview_01.png",
+          "assets/effect_blackhole_soft_v1_preview_02.png",
+          "assets/effect_blackhole_soft_v1_preview_03.png",
+          "assets/effect_blackhole_soft_v1_preview_04.png",
+          "assets/effect_blackhole_soft_v1_preview_05.png",
+          "assets/effect_blackhole_soft_v1_preview_06.png",
+          "assets/effect_blackhole_soft_v1_preview_07.png",
+          "assets/effect_blackhole_soft_v1_preview_08.png"
+        ],
+        "renderAlpha": null
+      },
+      "colorSource": "source/effect_blackhole_soft_v2_preview.png",
+      "renderAlpha": {
+        "main": 0.94,
+        "trail": 0.55,
+        "trailColor": "#638abe"
+      },
+      "colorCorrection": {
+        "tone": [
+          65,
+          83,
+          165
+        ],
+        "blend": 0.32,
+        "saturation": 1.16,
+        "alphaGain": 1.7,
+        "render": {
+          "main": 0.94,
+          "trail": 0.55,
+          "trailColor": "#638abe"
+        },
+        "source": "source/effect_blackhole_soft_v1_preview.png",
+        "method": "deterministic RGB/saturation and alpha point mapping; unchanged pixel coordinates and empty alpha mask"
+      }
+    },
+    "luck": {
+      "id": "luck",
+      "alias": "luck",
+      "version": 2,
+      "status": "preview",
+      "source": "source/effect_luck_soft_v1_preview.png",
+      "prompt": "source/prompt_luck_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_luck_soft_v2_preview.png",
+      "frames": [
+        "assets/effect_luck_soft_v2_preview_01.png",
+        "assets/effect_luck_soft_v2_preview_02.png",
+        "assets/effect_luck_soft_v2_preview_03.png",
+        "assets/effect_luck_soft_v2_preview_04.png",
+        "assets/effect_luck_soft_v2_preview_05.png",
+        "assets/effect_luck_soft_v2_preview_06.png",
+        "assets/effect_luck_soft_v2_preview_07.png",
+        "assets/effect_luck_soft_v2_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 100,
+      "mainMs": 800,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "interpolation": "adjacent-keyframe alpha crossfade; source-over only",
+      "alphaMax": 0.95,
+      "registration": {
+        "threshold": 30,
+        "sharedScale": 0.6005665722379604,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              178.5,
+              216.5
+            ],
+            "bounds": [
+              112,
+              79,
+              245,
+              354
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              204,
+              252
+            ],
+            "bounds": [
+              89,
+              76,
+              319,
+              428
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              180.5,
+              291.5
+            ],
+            "bounds": [
+              50,
+              175,
+              311,
+              408
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              186,
+              279.5
+            ],
+            "bounds": [
+              37,
+              122,
+              335,
+              437
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              198.5,
+              258.5
+            ],
+            "bounds": [
+              95,
+              170,
+              302,
+              347
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              203,
+              216
+            ],
+            "bounds": [
+              73,
+              49,
+              333,
+              383
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              178.5,
+              271.5
+            ],
+            "bounds": [
+              66,
+              199,
+              291,
+              344
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              194.5,
+              294.5
+            ],
+            "bounds": [
+              128,
+              251,
+              261,
+              338
+            ]
+          }
+        ]
+      },
+      "stateMs": 10000,
+      "previousAssets": {
+        "version": 1,
+        "reviewPath": "assets/atlas_luck_soft_v1_preview.png",
+        "frames": [
+          "assets/effect_luck_soft_v1_preview_01.png",
+          "assets/effect_luck_soft_v1_preview_02.png",
+          "assets/effect_luck_soft_v1_preview_03.png",
+          "assets/effect_luck_soft_v1_preview_04.png",
+          "assets/effect_luck_soft_v1_preview_05.png",
+          "assets/effect_luck_soft_v1_preview_06.png",
+          "assets/effect_luck_soft_v1_preview_07.png",
+          "assets/effect_luck_soft_v1_preview_08.png"
+        ],
+        "renderAlpha": null
+      },
+      "colorSource": "source/effect_luck_soft_v2_preview.png",
+      "renderAlpha": {
+        "main": 0.95,
+        "state": 0.72,
+        "speck": 0.42
+      },
+      "colorCorrection": {
+        "tone": [
+          193,
+          131,
+          35
+        ],
+        "blend": 0.32,
+        "saturation": 1.14,
+        "alphaGain": 1.65,
+        "render": {
+          "main": 0.95,
+          "state": 0.72,
+          "speck": 0.42
+        },
+        "source": "source/effect_luck_soft_v1_preview.png",
+        "method": "deterministic RGB/saturation and alpha point mapping; unchanged pixel coordinates and empty alpha mask"
+      }
+    }
+  },
+  "revision": "tone-v2",
+  "colorRevisionReport": "color-revision-v2.json"
+}

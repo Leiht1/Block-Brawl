@@ -1,5 +1,6 @@
 import {CAST_ASSETS,CAST_FRAME_SIZE,CAST_COLUMNS} from './card-cast-assets.mjs';
 import {cardById} from './cards.mjs';
+import {paintSoftCast} from './effect_cast_soft_v3_final.mjs';
 
 const typeOf=id=>({red:'attack',blue:'control',yellow:'buff'})[cardById(id).color];
 export const CAST_TIMING=Object.freeze({release:200,flightStart:180,flight:380,impact:400});
@@ -41,10 +42,7 @@ export class CardCastPlayback {
 }
 
 export function createCardCastVfx(flow,boards,ctx){
-  const playback=new CardCastPlayback(),images={};
-  for(const [type,stages] of Object.entries(CAST_ASSETS))for(const [stage,a] of Object.entries(stages)){
-    const img=new Image();img.decoding='async';img.src=a.url;images[type+'-'+stage]=img;
-  }
+  const playback=new CardCastPlayback(),reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
   const center=node=>{const r=node.getBoundingClientRect();return {x:r.left+r.width/2,y:r.top+r.height/2};};
   function target(c){
     const board=boards[c.targetSide],engine=flow.arena?.engines[c.targetSide];
@@ -52,12 +50,7 @@ export function createCardCastVfx(flow,boards,ctx){
     if(!c.resolved)return center(board);
     const r=board.getBoundingClientRect();return {x:r.left+(c.index%engine.width+.5)*r.width/engine.width,y:r.top+(Math.floor(c.index/engine.width)+.5)*r.height/engine.height};
   }
-  function sprite(type,stage,time,p,{size,angle=0}={}){
-    const a=CAST_ASSETS[type][stage],img=images[type+'-'+stage];if(!img.complete||!img.naturalWidth)return;
-    const n=castFrame(type,stage,time),[w,h]=size||a.size;
-    ctx.save();ctx.globalAlpha=1;ctx.globalCompositeOperation='source-over';ctx.translate(p.x,p.y);ctx.rotate(angle);
-    ctx.drawImage(img,n%CAST_COLUMNS*CAST_FRAME_SIZE,Math.floor(n/CAST_COLUMNS)*CAST_FRAME_SIZE,CAST_FRAME_SIZE,CAST_FRAME_SIZE,-a.anchor[0]/CAST_FRAME_SIZE*w,-a.anchor[1]/CAST_FRAME_SIZE*h,w,h);ctx.restore();
-  }
+  const unit=c=>{const board=boards[c.targetSide],engine=flow.arena?.engines[c.targetSide];return engine?board.getBoundingClientRect().width/engine.width:60;};
   function flightPoint(c,now){
     const to=target(c),elapsed=now-c.start-CAST_TIMING.flightStart;
     if(c.resume){const t=Math.min(1,Math.max(0,(now-c.resume)/180)),s=1-t;return {x:s*c.hover.x+t*to.x,y:s*c.hover.y+t*to.y};}
@@ -67,24 +60,23 @@ export function createCardCastVfx(flow,boards,ctx){
   }
   function render(now){
     const state=playback.at(now);
-    for(const p of state.prepared){const age=Math.min(239,now-p.start),scale=Math.min(1.2,Math.max(.7,p.size[1]/153));sprite(p.type,'activation',age,p.origin,{size:[144*scale,208*scale]});}
+    for(const p of state.prepared)paintSoftCast(ctx,p.type,'activation',Math.min(239,now-p.start),p.origin,{size:p.size,reduced});
     for(const c of state.casts){
       const age=now-c.start;if(age<0)continue;
-      if(age<CAST_TIMING.release)sprite(c.type,'release',age,c.origin);
+      if(age<CAST_TIMING.release)paintSoftCast(ctx,c.type,'release',age,c.origin,{reduced});
       if(c.noTarget)continue;
       if(age>=CAST_TIMING.flightStart&&(now<c.flightEnd||!c.resolved)){
-        const p=flightPoint(c,now),q=flightPoint(c,Math.max(c.start+CAST_TIMING.flightStart,now-12));
-        const to=target(c),angle=Math.hypot(p.x-q.x,p.y-q.y)>.01?Math.atan2(p.y-q.y,p.x-q.x):Math.atan2(to.y-c.origin.y,to.x-c.origin.x);
+        const p=flightPoint(c,now),trail=Array.from({length:12},(_,n)=>flightPoint(c,Math.max(c.start+CAST_TIMING.flightStart,now-110+n*10)));
         if(!c.resolved&&now>=c.flightEnd)c.hover={...p};
-        sprite(c.type,'trail',age-CAST_TIMING.flightStart,p,{angle});sprite(c.type,'orb',age-CAST_TIMING.flightStart,p);
+        paintSoftCast(ctx,c.type,'flight',age-CAST_TIMING.flightStart,p,{unit:unit(c),trail,reduced});
       }else if(c.resolved&&now>=c.flightEnd){
-        const impactAge=now-c.flightEnd; sprite(c.type,'impact',impactAge,target(c),impactAge<75?{size:[102,102]}:{});
+        paintSoftCast(ctx,c.type,'impact',now-c.flightEnd,target(c),{unit:unit(c),reduced});
       }
     }
   }
   return {render,prepare:(...args)=>playback.prepare(...args),cancel:uid=>playback.cancel(uid),reset:()=>playback.reset(),
     event(e){if(e.kind==='cast')playback.cast(e,center(document.getElementById(e.side==='opponent'?'opponent-card-summary':'card-hand')));else playback.effect(e);},
     boardEvent(side,e){const c=playback.casts.find(c=>c.id==='rainbow'&&c.targetSide===side&&!c.resolved);if(c&&!c.hover)c.hover=center(boards[side]);playback.boardEvent(side,e,performance.now());},
-    snapshot(){return {prepared:[...playback.prepared.values()],casts:playback.casts.map(c=>({...c,origin:{...c.origin},target:target(c)})),loaded:Object.values(images).filter(i=>i.complete&&i.naturalWidth).length};}
+    snapshot(){return {prepared:[...playback.prepared.values()],casts:playback.casts.map(c=>({...c,origin:{...c.origin},target:target(c)})),renderer:'soft-c-v3',sizeMultiplier:1.5,loaded:0};}
   };
 }

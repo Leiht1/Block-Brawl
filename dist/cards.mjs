@@ -9,7 +9,7 @@ export const CARD_CONFIG=Object.freeze({deckSize:6,handLimit:6,selectionMs:60000
   luckMs:10000,luckSpecialChance:.22});
 export const CARDS=Object.freeze([
   {id:'fire',name:'火焰冲击',color:'red',icon:'♨',text:'火浪横扫目标附近 3 格，2.2 秒后烧毁。'},
-  {id:'quake',name:'地裂冲击',color:'red',icon:'裂',text:'破坏敌方棋盘最底部的一行方块。'},
+  {id:'quake',name:'裂地横扫',color:'red',icon:'裂',text:'横扫落点所在的一横排，清除有效普通方块。'},
   {id:'meteor',name:'陨石坠落',color:'red',icon:'☄',text:'贯穿目标列最多 5 格，冲击落点两侧；障碍阻挡。'},
   {id:'bomb',name:'炸弹投放',color:'red',icon:'✹',text:'指定敌方落点，1.8 秒后引爆周围 3×3 区域。'},
   {id:'freeze',name:'时间冻结',color:'blue',icon:'❄',text:'冻结敌方棋盘 3 秒，暂停新的交换操作。'},
@@ -104,11 +104,10 @@ export class CardBattle {
     if(s.preview){const next=s.preview;s.preview=s.previewQueue.shift()||null;s.hand.push(next);this.onChange({kind:'promote',side,card:next,destination:'hand',now});}
     const target=this.sides[targetSide];
     const duration={freeze:this.config.freezeMs,fog:this.config.fogMs,overload:this.config.overloadMs,sage:this.config.sageMs,luck:this.config.luckMs}[card.id];
-    if(duration){target.buffs[card.id]=now+duration;if(card.id==='sage')target.autoDue=now;if(card.id==='fog')target.fogCells=this.pick(e,12);}
+    if(duration){target.buffs[card.id]=now+duration;if(card.id==='sage')target.autoDue=now;if(card.id==='fog')target.fogCells=[...plan.cells];}
     else{
       let cells=plan.cells;
       const delay={fire:this.config.fireMs,meteor:this.config.meteorMs,bomb:this.config.bombMs}[card.id]||0;
-      if(card.id==='quake')cells=e.board.flatMap((t,i)=>t&&Math.floor(i/e.width)===e.height-1&&e.ruleTerrain.cells[i]==='cell'?[i]:[]);
       const action={side,targetSide,id:card.id,index,...plan,cells,due:now+delay,created:now};this.queue.push(action);
       if(delay)this.cues.push({...action,until:now+delay});
     }
@@ -127,7 +126,8 @@ export class CardBattle {
     }else if(id==='fire')cells=e.board.flatMap((t,i)=>valid(i)&&Math.floor(i/e.width)===Math.floor(index/e.width)?[i]:[]).sort((a,b)=>Math.abs(a-index)-Math.abs(b-index)||a-b).slice(0,3).sort((a,b)=>a-b);
     else if(id==='blackhole')cells=e.board.flatMap((t,i)=>valid(i)&&!t.special&&!t.wild?[i]:[]).sort((a,b)=>{const distance=i=>Math.abs(i%e.width-index%e.width)+Math.abs(Math.floor(i/e.width)-Math.floor(index/e.width));return distance(a)-distance(b)||a-b;}).slice(0,6);
     else if(id==='bomb')cells=this.area(e,index);
-    else if(id==='quake')cells=e.board.flatMap((t,i)=>t&&e.ruleTerrain.cells[i]==='cell'&&Math.floor(i/e.width)===e.height-1?[i]:[]);
+    else if(id==='quake')cells=e.board.flatMap((t,i)=>valid(i)&&!t.special&&!t.wild&&Math.floor(i/e.width)===Math.floor(index/e.width)?[i]:[]);
+    else if(id==='fog')cells=e.board.flatMap((t,i)=>valid(i)&&!t.special&&!t.wild?[i]:[]).sort((a,b)=>{const distance=i=>(i%e.width-index%e.width)**2+(Math.floor(i/e.width)-Math.floor(index/e.width))**2;return distance(a)-distance(b)||a-b;}).slice(0,12);
     else if(id==='freeze')cells=e.board.flatMap((t,i)=>valid(i)?[i]:[]);
     else cells=[index];
     return {cells,path,impact,landing,valid:cells.length>0};
@@ -162,7 +162,7 @@ export class CardBattle {
     if(this.session.status!=='playing')return;
     for(const a of [...this.queue]){
       const e=this.session.engines[a.targetSide];if(now<a.due||!atRest(e)||this.blocked(a.targetSide,now))continue;
-      let cells=a.cells.filter(i=>e.board[i]&&e.ruleTerrain.cells[i]==='cell'&&(!['fire','meteor','blackhole'].includes(a.id)||!e.frozenCells.has(i)));
+      let cells=a.cells.filter(i=>e.board[i]&&e.ruleTerrain.cells[i]==='cell'&&(!['fire','meteor','blackhole','quake'].includes(a.id)||!e.frozenCells.has(i))&&(a.id!=='quake'||!e.board[i].special&&!e.board[i].wild));
       if(['fire','quake','meteor','bomb'].includes(a.id))this.clear(e,cells);
       else if(a.id==='rainbow'){const i=this.pick(e,1)[0];if(i!==undefined){e.board[i]={...e.board[i],wild:true};e.emit('card-change',{index:i,card:a.id});}}
       else{

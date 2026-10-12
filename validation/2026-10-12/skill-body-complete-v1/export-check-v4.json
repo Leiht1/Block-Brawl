@@ -1,0 +1,18 @@
+{
+  "animations": {
+    "sage": {
+      "pages": 73,
+      "duration": 6000
+    },
+    "quake": {
+      "pages": 21,
+      "duration": 2300
+    }
+  },
+  "loadedImages": 32,
+  "boardComparison": {
+    "visibleColoredCenters": 42,
+    "unchangedCenters": 42,
+    "gapChange": 946
+  }
+}

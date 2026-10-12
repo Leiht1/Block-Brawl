@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-12",
+  "scope": "12 approved skill bodies, selected quake/fog rules, common-cast linkage, sage underlight, badges and offline package",
+  "checks": [
+    "fire: real drag, approved raster body, true target/deadline and cleanup",
+    "quake: real drag, approved raster body, true target/deadline and cleanup",
+    "meteor: real drag, approved raster body, true target/deadline and cleanup",
+    "bomb: real drag, approved raster body, true target/deadline and cleanup",
+    "freeze: real drag, approved raster body, true target/deadline and cleanup",
+    "blackhole: real drag, approved raster body, true target/deadline and cleanup",
+    "storm: real drag, approved raster body, true target/deadline and cleanup",
+    "fog: real drag, approved raster body, true target/deadline and cleanup",
+    "overload: real drag, approved raster body, true target/deadline and cleanup",
+    "sage: real drag, approved raster body, true target/deadline and cleanup",
+    "rainbow: real drag, approved raster body, true target/deadline and cleanup",
+    "luck: real drag, approved raster body, true target/deadline and cleanup",
+    "Escape produces no skill body",
+    "queued rainbow resolves actual generated tile after board unlock",
+    "sage veil and underlight fit all five real map boards",
+    "AI buff uses own side; exit removes casts, bodies and countdown rails",
+    "actual offline HTML opens and decodes all thirteen adopted skill/tile assets without external requests"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "draws": [],
+  "status": "passed",
+  "sageBacklightChangedPixels": 35731,
+  "offlineSkills": 13
+}

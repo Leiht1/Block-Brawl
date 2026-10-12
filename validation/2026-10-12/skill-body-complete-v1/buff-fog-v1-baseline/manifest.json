@@ -1,0 +1,1972 @@
+{
+  "version": 1,
+  "revision": "complete-review-v1",
+  "status": "preview",
+  "userApproved": false,
+  "scope": [
+    "fire",
+    "quake",
+    "meteor",
+    "bomb",
+    "freeze",
+    "blackhole",
+    "storm",
+    "fog",
+    "overload",
+    "sage",
+    "rainbow",
+    "luck"
+  ],
+  "integration": "review-only; no production imports",
+  "castSource": "dist/effect_cast_soft_v3_final.mjs",
+  "generator": "built-in image_gen with alpha-preserving frame registration",
+  "entries": {
+    "fire": {
+      "id": "fire",
+      "alias": "firewave",
+      "version": 3,
+      "status": "preview",
+      "source": "source/effect_firewave_soft_v1_preview.png",
+      "prompt": "source/prompt_fire_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_firewave_soft_v3_preview.png",
+      "frames": [
+        "assets/effect_firewave_soft_v3_preview_01.png",
+        "assets/effect_firewave_soft_v3_preview_02.png",
+        "assets/effect_firewave_soft_v3_preview_03.png",
+        "assets/effect_firewave_soft_v3_preview_04.png",
+        "assets/effect_firewave_soft_v3_preview_05.png",
+        "assets/effect_firewave_soft_v3_preview_06.png",
+        "assets/effect_firewave_soft_v3_preview_07.png",
+        "assets/effect_firewave_soft_v3_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 90,
+      "mainMs": 720,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "interpolation": "linear premultiplied keyframe blend on transparent scratch; final board draw source-over",
+      "alphaMax": 1,
+      "registration": {
+        "threshold": 30,
+        "sharedScale": 0.5872576177285319,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              175,
+              347
+            ],
+            "bounds": [
+              110,
+              309,
+              240,
+              385
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              182,
+              335.5
+            ],
+            "bounds": [
+              18,
+              278,
+              346,
+              393
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              186.5,
+              326
+            ],
+            "bounds": [
+              9,
+              246,
+              364,
+              406
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              188,
+              315.5
+            ],
+            "bounds": [
+              8,
+              231,
+              368,
+              400
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              192,
+              243
+            ],
+            "bounds": [
+              16,
+              172,
+              368,
+              314
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              196,
+              254.5
+            ],
+            "bounds": [
+              21,
+              203,
+              371,
+              306
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              181,
+              268.5
+            ],
+            "bounds": [
+              33,
+              235,
+              329,
+              302
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              212,
+              277.5
+            ],
+            "bounds": [
+              103,
+              257,
+              321,
+              298
+            ]
+          }
+        ]
+      },
+      "stateMs": 2200,
+      "colorSource": "source/effect_firewave_soft_v3_preview.png",
+      "renderAlpha": {
+        "main": 1,
+        "state": 0.65,
+        "mark": 0.9,
+        "markColor": "#b84d16",
+        "settle": 0.75
+      },
+      "colorCorrection": {
+        "tone": [
+          226,
+          93,
+          20
+        ],
+        "blend": 0.55,
+        "saturation": 1.28,
+        "alphaGain": 2.3,
+        "render": {
+          "main": 1,
+          "state": 0.65,
+          "mark": 0.9,
+          "markColor": "#b84d16",
+          "settle": 0.75
+        }
+      },
+      "presentation": "premultiplied-keyframe-blend",
+      "geometryChanged": false
+    },
+    "quake": {
+      "id": "quake",
+      "alias": "quake",
+      "version": 1,
+      "status": "preview",
+      "source": "source/effect_quake_soft_v1_preview.png",
+      "prompt": "source/prompt_quake_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_quake_soft_v1_preview.png",
+      "frames": [
+        "assets/effect_quake_soft_v1_preview_01.png",
+        "assets/effect_quake_soft_v1_preview_02.png",
+        "assets/effect_quake_soft_v1_preview_03.png",
+        "assets/effect_quake_soft_v1_preview_04.png",
+        "assets/effect_quake_soft_v1_preview_05.png",
+        "assets/effect_quake_soft_v1_preview_06.png",
+        "assets/effect_quake_soft_v1_preview_07.png",
+        "assets/effect_quake_soft_v1_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 90,
+      "mainMs": 720,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.5520833333333334,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              213,
+              324
+            ],
+            "bounds": [
+              43,
+              286,
+              383,
+              362
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              191.5,
+              318.5
+            ],
+            "bounds": [
+              0,
+              242,
+              383,
+              395
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              191.5,
+              309.5
+            ],
+            "bounds": [
+              0,
+              223,
+              383,
+              396
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              190,
+              298.5
+            ],
+            "bounds": [
+              0,
+              189,
+              380,
+              408
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              195,
+              240.5
+            ],
+            "bounds": [
+              7,
+              159,
+              383,
+              322
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              191.5,
+              254
+            ],
+            "bounds": [
+              0,
+              198,
+              383,
+              310
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              198,
+              254.5
+            ],
+            "bounds": [
+              37,
+              215,
+              359,
+              294
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              200.5,
+              252
+            ],
+            "bounds": [
+              58,
+              221,
+              343,
+              283
+            ]
+          }
+        ]
+      }
+    },
+    "meteor": {
+      "id": "meteor",
+      "alias": "meteor",
+      "version": 1,
+      "status": "preview",
+      "source": "source/effect_meteor_soft_v1_preview.png",
+      "prompt": "source/prompt_meteor_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_meteor_soft_v1_preview.png",
+      "frames": [
+        "assets/effect_meteor_soft_v1_preview_01.png",
+        "assets/effect_meteor_soft_v1_preview_02.png",
+        "assets/effect_meteor_soft_v1_preview_03.png",
+        "assets/effect_meteor_soft_v1_preview_04.png",
+        "assets/effect_meteor_soft_v1_preview_05.png",
+        "assets/effect_meteor_soft_v1_preview_06.png",
+        "assets/effect_meteor_soft_v1_preview_07.png",
+        "assets/effect_meteor_soft_v1_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 100,
+      "mainMs": 800,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.5047619047619047,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              220.5,
+              227
+            ],
+            "bounds": [
+              58,
+              90,
+              383,
+              364
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              163.5,
+              263.5
+            ],
+            "bounds": [
+              0,
+              93,
+              327,
+              434
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              240,
+              278.5
+            ],
+            "bounds": [
+              97,
+              69,
+              383,
+              488
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              182.5,
+              385.5
+            ],
+            "bounds": [
+              0,
+              277,
+              365,
+              494
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              212.5,
+              286.5
+            ],
+            "bounds": [
+              42,
+              175,
+              383,
+              398
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              181,
+              294
+            ],
+            "bounds": [
+              0,
+              204,
+              362,
+              384
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              205.5,
+              320
+            ],
+            "bounds": [
+              62,
+              253,
+              349,
+              387
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              199.5,
+              344
+            ],
+            "bounds": [
+              144,
+              312,
+              255,
+              376
+            ]
+          }
+        ]
+      }
+    },
+    "bomb": {
+      "id": "bomb",
+      "alias": "bomb",
+      "version": 1,
+      "status": "preview",
+      "source": "source/effect_bomb_soft_v1_preview.png",
+      "prompt": "source/prompt_bomb_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_bomb_soft_v1_preview.png",
+      "frames": [
+        "assets/effect_bomb_soft_v1_preview_01.png",
+        "assets/effect_bomb_soft_v1_preview_02.png",
+        "assets/effect_bomb_soft_v1_preview_03.png",
+        "assets/effect_bomb_soft_v1_preview_04.png",
+        "assets/effect_bomb_soft_v1_preview_05.png",
+        "assets/effect_bomb_soft_v1_preview_06.png",
+        "assets/effect_bomb_soft_v1_preview_07.png",
+        "assets/effect_bomb_soft_v1_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 95,
+      "mainMs": 760,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.5096153846153846,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              203.5,
+              253.5
+            ],
+            "bounds": [
+              107,
+              79,
+              300,
+              428
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              199,
+              323.5
+            ],
+            "bounds": [
+              90,
+              145,
+              308,
+              502
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              198.5,
+              365.5
+            ],
+            "bounds": [
+              21,
+              220,
+              376,
+              511
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              199.5,
+              373
+            ],
+            "bounds": [
+              97,
+              235,
+              302,
+              511
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              205.5,
+              274.5
+            ],
+            "bounds": [
+              28,
+              121,
+              383,
+              428
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              191.5,
+              290
+            ],
+            "bounds": [
+              0,
+              159,
+              383,
+              421
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              191.5,
+              207
+            ],
+            "bounds": [
+              0,
+              0,
+              383,
+              414
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              163,
+              207.5
+            ],
+            "bounds": [
+              0,
+              0,
+              326,
+              415
+            ]
+          }
+        ]
+      }
+    },
+    "freeze": {
+      "id": "freeze",
+      "alias": "freeze",
+      "version": 3,
+      "status": "preview",
+      "source": "source/effect_freeze_soft_v3_preview.png",
+      "prompt": "source/prompt_freeze_soft_v3_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_freeze_soft_v3_preview.png",
+      "frames": [
+        "assets/effect_freeze_soft_v3_preview_01.png",
+        "assets/effect_freeze_soft_v3_preview_02.png",
+        "assets/effect_freeze_soft_v3_preview_03.png",
+        "assets/effect_freeze_soft_v3_preview_04.png",
+        "assets/effect_freeze_soft_v3_preview_05.png",
+        "assets/effect_freeze_soft_v3_preview_06.png",
+        "assets/effect_freeze_soft_v3_preview_07.png",
+        "assets/effect_freeze_soft_v3_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 95,
+      "mainMs": 760,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "interpolation": "linear premultiplied keyframe blend on transparent scratch; final board draw source-over",
+      "alphaMax": 0.96,
+      "registration": {
+        "threshold": 40,
+        "sharedScale": 0.5988700564971752,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              198.5,
+              268
+            ],
+            "bounds": [
+              44,
+              107,
+              353,
+              429
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              195.5,
+              265.5
+            ],
+            "bounds": [
+              32,
+              101,
+              359,
+              430
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              193.5,
+              265.5
+            ],
+            "bounds": [
+              28,
+              99,
+              359,
+              432
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              193,
+              266
+            ],
+            "bounds": [
+              29,
+              96,
+              357,
+              436
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              193.5,
+              233
+            ],
+            "bounds": [
+              28,
+              62,
+              359,
+              404
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              196.5,
+              238.5
+            ],
+            "bounds": [
+              29,
+              62,
+              364,
+              415
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              198,
+              233.5
+            ],
+            "bounds": [
+              35,
+              66,
+              361,
+              401
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              203.5,
+              242
+            ],
+            "bounds": [
+              52,
+              89,
+              355,
+              395
+            ]
+          }
+        ]
+      },
+      "stateMs": 3000,
+      "colorSource": "source/effect_freeze_soft_v3_preview.png",
+      "renderAlpha": {
+        "main": 0.96,
+        "state": 0.68,
+        "thaw": 0.7
+      },
+      "colorCorrection": null,
+      "presentation": "premultiplied-keyframe-blend",
+      "geometryChanged": true,
+      "design": "faceted glacier-blue ice casing, corner crystals, frost cracks; center open"
+    },
+    "blackhole": {
+      "id": "blackhole",
+      "alias": "blackhole",
+      "version": 3,
+      "status": "preview",
+      "source": "source/effect_blackhole_soft_v1_preview.png",
+      "prompt": "source/prompt_blackhole_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_blackhole_soft_v3_preview.png",
+      "frames": [
+        "assets/effect_blackhole_soft_v3_preview_01.png",
+        "assets/effect_blackhole_soft_v3_preview_02.png",
+        "assets/effect_blackhole_soft_v3_preview_03.png",
+        "assets/effect_blackhole_soft_v3_preview_04.png",
+        "assets/effect_blackhole_soft_v3_preview_05.png",
+        "assets/effect_blackhole_soft_v3_preview_06.png",
+        "assets/effect_blackhole_soft_v3_preview_07.png",
+        "assets/effect_blackhole_soft_v3_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 95,
+      "mainMs": 760,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "interpolation": "linear premultiplied keyframe blend on transparent scratch; final board draw source-over",
+      "alphaMax": 1,
+      "registration": {
+        "threshold": 30,
+        "sharedScale": 0.5921787709497207,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              185,
+              302
+            ],
+            "bounds": [
+              100,
+              190,
+              270,
+              414
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              190,
+              286
+            ],
+            "bounds": [
+              70,
+              169,
+              310,
+              403
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              181,
+              293.5
+            ],
+            "bounds": [
+              9,
+              149,
+              353,
+              438
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              190,
+              296.5
+            ],
+            "bounds": [
+              20,
+              166,
+              360,
+              427
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              204.5,
+              257.5
+            ],
+            "bounds": [
+              26,
+              109,
+              383,
+              406
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              172,
+              272.5
+            ],
+            "bounds": [
+              0,
+              147,
+              344,
+              398
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              210,
+              237.5
+            ],
+            "bounds": [
+              145,
+              131,
+              275,
+              344
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              214,
+              245
+            ],
+            "bounds": [
+              172,
+              185,
+              256,
+              305
+            ]
+          }
+        ]
+      },
+      "stateMs": 420,
+      "colorSource": "source/effect_blackhole_soft_v3_preview.png",
+      "renderAlpha": {
+        "main": 1,
+        "trail": 0.85,
+        "trailColor": "#3b61a2"
+      },
+      "colorCorrection": {
+        "tone": [
+          56,
+          65,
+          162
+        ],
+        "blend": 0.62,
+        "saturation": 1.3,
+        "alphaGain": 2.4,
+        "render": {
+          "main": 1,
+          "trail": 0.85,
+          "trailColor": "#3b61a2"
+        }
+      },
+      "presentation": "premultiplied-keyframe-blend",
+      "geometryChanged": false
+    },
+    "storm": {
+      "id": "storm",
+      "alias": "storm",
+      "version": 1,
+      "status": "preview",
+      "source": "source/effect_storm_soft_v1_preview.png",
+      "prompt": "source/prompt_storm_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_storm_soft_v1_preview.png",
+      "frames": [
+        "assets/effect_storm_soft_v1_preview_01.png",
+        "assets/effect_storm_soft_v1_preview_02.png",
+        "assets/effect_storm_soft_v1_preview_03.png",
+        "assets/effect_storm_soft_v1_preview_04.png",
+        "assets/effect_storm_soft_v1_preview_05.png",
+        "assets/effect_storm_soft_v1_preview_06.png",
+        "assets/effect_storm_soft_v1_preview_07.png",
+        "assets/effect_storm_soft_v1_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 100,
+      "mainMs": 800,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.5520833333333334,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              203,
+              282.5
+            ],
+            "bounds": [
+              75,
+              200,
+              331,
+              365
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              191.5,
+              279.5
+            ],
+            "bounds": [
+              28,
+              96,
+              355,
+              463
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              204.5,
+              280.5
+            ],
+            "bounds": [
+              28,
+              117,
+              381,
+              444
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              196.5,
+              278.5
+            ],
+            "bounds": [
+              37,
+              97,
+              356,
+              460
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              210.5,
+              221.5
+            ],
+            "bounds": [
+              38,
+              39,
+              383,
+              404
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              191.5,
+              228
+            ],
+            "bounds": [
+              0,
+              57,
+              383,
+              399
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              185,
+              242
+            ],
+            "bounds": [
+              0,
+              153,
+              370,
+              331
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              201,
+              248.5
+            ],
+            "bounds": [
+              112,
+              187,
+              290,
+              310
+            ]
+          }
+        ]
+      }
+    },
+    "fog": {
+      "id": "fog",
+      "alias": "fog",
+      "version": 1,
+      "status": "preview",
+      "source": "source/effect_fog_soft_v1_preview.png",
+      "prompt": "source/prompt_fog_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_fog_soft_v1_preview.png",
+      "frames": [
+        "assets/effect_fog_soft_v1_preview_01.png",
+        "assets/effect_fog_soft_v1_preview_02.png",
+        "assets/effect_fog_soft_v1_preview_03.png",
+        "assets/effect_fog_soft_v1_preview_04.png",
+        "assets/effect_fog_soft_v1_preview_05.png",
+        "assets/effect_fog_soft_v1_preview_06.png",
+        "assets/effect_fog_soft_v1_preview_07.png",
+        "assets/effect_fog_soft_v1_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 100,
+      "mainMs": 800,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.5653333333333334,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              205,
+              309.5
+            ],
+            "bounds": [
+              112,
+              211,
+              298,
+              408
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              171,
+              279.5
+            ],
+            "bounds": [
+              20,
+              112,
+              322,
+              447
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              196,
+              292.5
+            ],
+            "bounds": [
+              9,
+              121,
+              383,
+              464
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              177.5,
+              290
+            ],
+            "bounds": [
+              0,
+              111,
+              355,
+              469
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              202.5,
+              238.5
+            ],
+            "bounds": [
+              22,
+              64,
+              383,
+              413
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              184,
+              230.5
+            ],
+            "bounds": [
+              0,
+              66,
+              368,
+              395
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              221,
+              243.5
+            ],
+            "bounds": [
+              73,
+              155,
+              369,
+              332
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              213.5,
+              242.5
+            ],
+            "bounds": [
+              102,
+              154,
+              325,
+              331
+            ]
+          }
+        ]
+      }
+    },
+    "overload": {
+      "id": "overload",
+      "alias": "overload",
+      "version": 1,
+      "status": "preview",
+      "source": "source/effect_overload_soft_v1_preview.png",
+      "prompt": "source/prompt_overload_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_overload_soft_v1_preview.png",
+      "frames": [
+        "assets/effect_overload_soft_v1_preview_01.png",
+        "assets/effect_overload_soft_v1_preview_02.png",
+        "assets/effect_overload_soft_v1_preview_03.png",
+        "assets/effect_overload_soft_v1_preview_04.png",
+        "assets/effect_overload_soft_v1_preview_05.png",
+        "assets/effect_overload_soft_v1_preview_06.png",
+        "assets/effect_overload_soft_v1_preview_07.png",
+        "assets/effect_overload_soft_v1_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 95,
+      "mainMs": 760,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.5047619047619047,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              205,
+              291.5
+            ],
+            "bounds": [
+              99,
+              155,
+              311,
+              428
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              190.5,
+              267
+            ],
+            "bounds": [
+              67,
+              77,
+              314,
+              457
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              198.5,
+              263
+            ],
+            "bounds": [
+              76,
+              69,
+              321,
+              457
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              194,
+              260.5
+            ],
+            "bounds": [
+              43,
+              51,
+              345,
+              470
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              198,
+              237
+            ],
+            "bounds": [
+              69,
+              57,
+              327,
+              417
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              202.5,
+              275
+            ],
+            "bounds": [
+              33,
+              135,
+              372,
+              415
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              217,
+              277.5
+            ],
+            "bounds": [
+              133,
+              156,
+              301,
+              399
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              189.5,
+              280
+            ],
+            "bounds": [
+              124,
+              211,
+              255,
+              349
+            ]
+          }
+        ]
+      }
+    },
+    "sage": {
+      "id": "sage",
+      "alias": "sage",
+      "version": 1,
+      "status": "preview",
+      "source": "source/effect_sage_soft_v1_preview.png",
+      "prompt": "source/prompt_sage_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_sage_soft_v1_preview.png",
+      "frames": [
+        "assets/effect_sage_soft_v1_preview_01.png",
+        "assets/effect_sage_soft_v1_preview_02.png",
+        "assets/effect_sage_soft_v1_preview_03.png",
+        "assets/effect_sage_soft_v1_preview_04.png",
+        "assets/effect_sage_soft_v1_preview_05.png",
+        "assets/effect_sage_soft_v1_preview_06.png",
+        "assets/effect_sage_soft_v1_preview_07.png",
+        "assets/effect_sage_soft_v1_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 100,
+      "mainMs": 800,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.5059665871121718,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              216.5,
+              329.5
+            ],
+            "bounds": [
+              92,
+              204,
+              341,
+              455
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              204.5,
+              264.5
+            ],
+            "bounds": [
+              75,
+              71,
+              334,
+              458
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              175.5,
+              266.5
+            ],
+            "bounds": [
+              64,
+              77,
+              287,
+              456
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              178.5,
+              266.5
+            ],
+            "bounds": [
+              17,
+              88,
+              340,
+              445
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              215,
+              238
+            ],
+            "bounds": [
+              55,
+              38,
+              375,
+              438
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              224,
+              238
+            ],
+            "bounds": [
+              87,
+              29,
+              361,
+              447
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              207,
+              298
+            ],
+            "bounds": [
+              86,
+              170,
+              328,
+              426
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              200,
+              305.5
+            ],
+            "bounds": [
+              151,
+              227,
+              249,
+              384
+            ]
+          }
+        ]
+      }
+    },
+    "rainbow": {
+      "id": "rainbow",
+      "alias": "rainbow",
+      "version": 1,
+      "status": "preview",
+      "source": "source/effect_rainbow_soft_v1_preview.png",
+      "prompt": "source/prompt_rainbow_soft_v1_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_rainbow_soft_v1_preview.png",
+      "frames": [
+        "assets/effect_rainbow_soft_v1_preview_01.png",
+        "assets/effect_rainbow_soft_v1_preview_02.png",
+        "assets/effect_rainbow_soft_v1_preview_03.png",
+        "assets/effect_rainbow_soft_v1_preview_04.png",
+        "assets/effect_rainbow_soft_v1_preview_05.png",
+        "assets/effect_rainbow_soft_v1_preview_06.png",
+        "assets/effect_rainbow_soft_v1_preview_07.png",
+        "assets/effect_rainbow_soft_v1_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 100,
+      "mainMs": 800,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.5492227979274611,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              203,
+              277.5
+            ],
+            "bounds": [
+              56,
+              85,
+              350,
+              470
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              199.5,
+              290
+            ],
+            "bounds": [
+              49,
+              101,
+              350,
+              479
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              200,
+              292.5
+            ],
+            "bounds": [
+              49,
+              130,
+              351,
+              455
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              195.5,
+              302
+            ],
+            "bounds": [
+              54,
+              145,
+              337,
+              459
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              193.5,
+              238
+            ],
+            "bounds": [
+              73,
+              119,
+              314,
+              357
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              201.5,
+              236.5
+            ],
+            "bounds": [
+              35,
+              84,
+              368,
+              389
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              196.5,
+              252.5
+            ],
+            "bounds": [
+              93,
+              141,
+              300,
+              364
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              188.5,
+              274
+            ],
+            "bounds": [
+              107,
+              218,
+              270,
+              330
+            ]
+          }
+        ]
+      }
+    },
+    "luck": {
+      "id": "luck",
+      "alias": "luck",
+      "version": 4,
+      "status": "preview",
+      "source": "source/effect_luck_soft_v4_preview.png",
+      "prompt": "source/prompt_luck_soft_v4_preview.txt",
+      "runtimePath": null,
+      "reviewPath": "assets/atlas_luck_soft_v4_preview.png",
+      "frames": [
+        "assets/effect_luck_soft_v4_preview_01.png",
+        "assets/effect_luck_soft_v4_preview_02.png",
+        "assets/effect_luck_soft_v4_preview_03.png",
+        "assets/effect_luck_soft_v4_preview_04.png",
+        "assets/effect_luck_soft_v4_preview_05.png",
+        "assets/effect_luck_soft_v4_preview_06.png",
+        "assets/effect_luck_soft_v4_preview_07.png",
+        "assets/effect_luck_soft_v4_preview_08.png"
+      ],
+      "frameSize": [
+        256,
+        256
+      ],
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "frameMs": 100,
+      "mainMs": 800,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "loop": false,
+      "alphaMax": 1,
+      "presentation": "premultiplied-keyframe-blend",
+      "registration": {
+        "threshold": 45,
+        "sharedScale": 0.6022727272727273,
+        "slots": [
+          {
+            "left": 0,
+            "top": 0,
+            "center": [
+              177.5,
+              224
+            ],
+            "bounds": [
+              81,
+              77,
+              274,
+              371
+            ]
+          },
+          {
+            "left": 384,
+            "top": 0,
+            "center": [
+              213,
+              254
+            ],
+            "bounds": [
+              91,
+              80,
+              335,
+              428
+            ]
+          },
+          {
+            "left": 768,
+            "top": 0,
+            "center": [
+              180.5,
+              296.5
+            ],
+            "bounds": [
+              23,
+              178,
+              338,
+              415
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 0,
+            "center": [
+              183.5,
+              280
+            ],
+            "bounds": [
+              23,
+              115,
+              344,
+              445
+            ]
+          },
+          {
+            "left": 0,
+            "top": 512,
+            "center": [
+              196.5,
+              258.5
+            ],
+            "bounds": [
+              59,
+              159,
+              334,
+              358
+            ]
+          },
+          {
+            "left": 384,
+            "top": 512,
+            "center": [
+              199,
+              213.5
+            ],
+            "bounds": [
+              62,
+              38,
+              336,
+              389
+            ]
+          },
+          {
+            "left": 768,
+            "top": 512,
+            "center": [
+              190,
+              273
+            ],
+            "bounds": [
+              46,
+              194,
+              334,
+              352
+            ]
+          },
+          {
+            "left": 1152,
+            "top": 512,
+            "center": [
+              206,
+              296.5
+            ],
+            "bounds": [
+              108,
+              241,
+              304,
+              352
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "specialTile": {
+    "status": "preview",
+    "source": "assets/effect_rainbow_soft_v1_preview_05.png",
+    "reviewPath": "assets/tile_wild_star_soft_v1_preview.png",
+    "frameSize": [
+      128,
+      128
+    ],
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "runtimePath": null,
+    "uses": [
+      "rainbow",
+      "luck"
+    ],
+    "sourceCrop": {
+      "left": 58,
+      "top": 58,
+      "width": 141,
+      "height": 140
+    }
+  },
+  "previewRules": {
+    "luck": {
+      "userSpecified": true,
+      "effect": "create exactly one wild tile at selected landing; replace former probability buff",
+      "productionChanged": false
+    },
+    "quake": {
+      "userSelected": false,
+      "effect": "four candidates; default nearby four ordinary tiles",
+      "productionChanged": false
+    }
+  }
+}

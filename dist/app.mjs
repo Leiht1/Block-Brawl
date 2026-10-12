@@ -113,7 +113,7 @@ function frame(now){
   if(flow&&!flow.visibleGame){flow.update(now);audioEvents.observeFlow(flow,now);mapScene.draw(flow.arena?.map,null,now,false);requestAnimationFrame(frame);return;}
   if(!flow?.arena)engine.tick(now);flow?.update(now);
   audioEvents.observeFlow(flow,now);
-  if(flow?.arena){opponentView.draw(flow.arena.engines.opponent,now);if(!flow.canInteract){drag=null;selected=null;hint=null;}}
+  if(flow?.arena){opponentView.draw(flow.arena.engines.opponent,now,(c,w,h)=>flow.paintCardUnderlay(c,'opponent',now,w,h));if(!flow.canInteract){drag=null;selected=null;hint=null;}}
   const worldCue=mapPresentation.at(now),worldMotion=mapMotion(worldCue,now,reduced);
   if(flow?.arena){const root=document.documentElement;root.setAttribute('data-event-stage',worldCue?.stage||'idle');root.style.setProperty('--world-shift',worldMotion.camera+'px');root.style.setProperty('--platform-shift',worldMotion.board+'px');root.style.setProperty('--environment-strength',worldCue?(worldCue.phase==='warning'?worldCue.progress:worldCue.type==='freeze'?Math.max(0,1-worldCue.progress):worldCue.stage==='Recovery'?1-worldCue.progress:1):0);}
   mapScene.draw(flow?.arena?.map,worldCue,now,!!flow?.arena,opponentView?.cue(now));
@@ -124,6 +124,7 @@ function frame(now){
   painter.drawTerrain(engine.terrain);
   painter.drawMapSurface(now,worldCue);
   painter.drawMechanism(worldCue);
+  flow?.paintCardUnderlay(ctx,'player',now,width,height);
   const moving=[];
   engine.board.forEach((t,i)=>{if(worldCue?.type==='mechanism'&&worldCue.phase==='fall'&&worldCue.cells.includes(i))return;if(!t)return;let p=xy(i),m=motions.get(t.id);if(m){const progress=Math.max(0,Math.min(1,(now-m.start)/m.duration));let f=ease(progress),squash=0,stretchX=0,stretchY=0;if(m.fall&&!reduced){f=Math.min(1,progress/.78)**2;if(progress>=.78)squash=Math.sin((progress-.78)/.22*Math.PI*2)*THEME.motion.landingSquash;}else if(!reduced){const stretch=Math.sin(progress*Math.PI)*THEME.motion.exchangeStretch,horizontal=m.from.x!==m.to.x;stretchX=horizontal?stretch:-stretch*.55;stretchY=horizontal?-stretch*.55:stretch;}p={x:m.from.x+(m.to.x-m.from.x)*f,y:m.from.y+(m.to.y-m.from.y)*f};if(m.control&&!reduced){const q=1-f;p={x:q*q*m.from.x+2*q*f*m.control.x+f*f*m.to.x,y:q*q*m.from.y+2*q*f*m.control.y+f*f*m.to.y};}if(progress>=1)motions.delete(t.id);else{moving.push({t,p,squash,stretchX,stretchY,segmentTop:m.segmentTop});return;}}
     if(drag?.index===i){moving.push({t,p:{x:p.x+drag.dx,y:p.y+drag.dy}});return;}tile(t,p.x,p.y);

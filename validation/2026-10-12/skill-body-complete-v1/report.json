@@ -1,0 +1,457 @@
+{
+  "status": "passed",
+  "scope": [
+    "quake",
+    "sage"
+  ],
+  "integration": "review-only",
+  "checks": [
+    "2 selected transparent atlases and nonempty centered keyframes exist.",
+    "Selected skill traces and both timelines verified; all production files unchanged.",
+    "Sage comparison switches between veil and backlight; illumination rendered before tiles, ends at 5240ms.",
+    "Quake defaults to user-selected row; historical comparisons remain accessible."
+  ],
+  "errors": [],
+  "skills": {
+    "quake": {
+      "side": "opponent",
+      "cells": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "landing": 27,
+      "effectAt": 240,
+      "isolatedChangedPixels": 13487
+    },
+    "sage": {
+      "side": "player",
+      "cells": [
+        27
+      ],
+      "landing": 27,
+      "isolatedChangedPixels": 129593
+    }
+  },
+  "stateRendering": {
+    "luck": {
+      "totalAlpha": 0,
+      "samples": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "overload": {
+      "totalAlpha": 0,
+      "samples": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "sage": {
+      "totalAlpha": 7483858,
+      "samples": [
+        [
+          255,
+          196,
+          59,
+          69
+        ],
+        [
+          255,
+          196,
+          59,
+          69
+        ],
+        [
+          255,
+          196,
+          59,
+          69
+        ],
+        [
+          255,
+          196,
+          59,
+          69
+        ],
+        [
+          255,
+          196,
+          59,
+          69
+        ],
+        [
+          255,
+          196,
+          59,
+          69
+        ],
+        [
+          255,
+          196,
+          59,
+          69
+        ],
+        [
+          255,
+          196,
+          59,
+          69
+        ],
+        [
+          255,
+          196,
+          59,
+          69
+        ]
+      ]
+    },
+    "sageEnd": {
+      "totalAlpha": 0,
+      "samples": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "fogHold": {
+      "totalAlpha": 3124139,
+      "samples": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          148,
+          167,
+          182,
+          252
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "fogFade": {
+      "totalAlpha": 929901,
+      "samples": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          124,
+          149,
+          165,
+          111
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "fogEnd": {
+      "totalAlpha": 0,
+      "samples": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "protectedFiles": 136
+}

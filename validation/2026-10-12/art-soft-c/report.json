@@ -1,0 +1,64 @@
+{
+  "scope": "Scheme C documentation, card windows, cast presentation and previews only",
+  "checks": [
+    "Six documentation files exist and AGENTS enforces the locked art direction and sample review.",
+    "Existing environment, boards, tiles, gameplay modules and original card masters unchanged.",
+    "All 12 card illustrations installed; original frame and lettering pixels outside each window are identical.",
+    "All 12 card faces load in real selection; six priority cards are visible at battle hand size.",
+    "Three real drags use original hand origins, correct target boards, procedural soft renderer and exact cleanup.",
+    "Interactive cast preview loads, scrubs and displays all three subtle type palettes on captured real boards."
+  ],
+  "errors": [],
+  "protectedFiles": 55,
+  "frameChecks": [
+    {
+      "id": "fire",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "quake",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "meteor",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "bomb",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "freeze",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "blackhole",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "storm",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "fog",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "overload",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "sage",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "rainbow",
+      "outsideWindowDifferences": 0
+    },
+    {
+      "id": "luck",
+      "outsideWindowDifferences": 0
+    }
+  ],
+  "status": "passed"
+}

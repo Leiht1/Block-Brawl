@@ -1,0 +1,296 @@
+{
+  "direction": "方案C：克制雅致",
+  "status": "integrated preview, pending user review",
+  "cards": [
+    {
+      "id": "fire",
+      "name": "火焰冲击",
+      "type": "card_face",
+      "category": "进攻",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_firewave_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_fire_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/fire.webp",
+      "original": "art-preproduction/card-reference-v3/cards/fire.png",
+      "window": {
+        "box": [
+          80,
+          366,
+          864,
+          642
+        ],
+        "path": "M80 412 Q80 377 122 369 Q512 382 902 369 Q944 377 944 412 L944 926 Q944 989 852 1006 L677 1006 L652 985 L372 985 L347 1006 L172 1006 Q80 989 80 926 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "quake",
+      "name": "裂地横扫",
+      "type": "card_face",
+      "category": "进攻",
+      "version": 5,
+      "status": "final",
+      "final": true,
+      "preview": false,
+      "source": "art-preproduction/cards-soft-c/card_skill_quake_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_quake_soft_v5_final.png",
+      "runtime": "dist/assets/cards/quake.webp",
+      "original": "art-preproduction/card-reference-v3/cards/quake.png",
+      "window": {
+        "box": [
+          80,
+          366,
+          864,
+          642
+        ],
+        "path": "M80 412 Q80 377 122 369 Q512 382 902 369 Q944 377 944 412 L944 926 Q944 989 852 1006 L677 1006 L652 985 L372 985 L347 1006 L172 1006 Q80 989 80 926 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask",
+      "lettering": "Native text overlay for the selected-row rule; painted window and frame unchanged",
+      "previousFace": "art-preproduction/cards-soft-c/card_face_quake_soft_v4_preview.png"
+    },
+    {
+      "id": "meteor",
+      "name": "陨石坠落",
+      "type": "card_face",
+      "category": "进攻",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_meteor_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_meteor_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/meteor.webp",
+      "original": "art-preproduction/card-reference-v3/cards/meteor.png",
+      "window": {
+        "box": [
+          80,
+          366,
+          864,
+          642
+        ],
+        "path": "M80 412 Q80 377 122 369 Q512 382 902 369 Q944 377 944 412 L944 926 Q944 989 852 1006 L677 1006 L652 985 L372 985 L347 1006 L172 1006 Q80 989 80 926 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "bomb",
+      "name": "炸弹投放",
+      "type": "card_face",
+      "category": "进攻",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_bomb_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_bomb_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/bomb.webp",
+      "original": "art-preproduction/card-reference-v3/cards/bomb.png",
+      "window": {
+        "box": [
+          80,
+          366,
+          864,
+          642
+        ],
+        "path": "M80 412 Q80 377 122 369 Q512 382 902 369 Q944 377 944 412 L944 926 Q944 989 852 1006 L677 1006 L652 985 L372 985 L347 1006 L172 1006 Q80 989 80 926 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "freeze",
+      "name": "时间冻结",
+      "type": "card_face",
+      "category": "控制",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_freeze_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_freeze_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/freeze.webp",
+      "original": "art-preproduction/card-reference-v3/cards/freeze.png",
+      "window": {
+        "box": [
+          92,
+          300,
+          840,
+          678
+        ],
+        "path": "M92 328 Q92 303 126 300 L898 300 Q932 303 932 328 L932 938 Q930 969 894 977 L677 977 L653 956 L371 956 L347 977 L130 977 Q94 969 92 938 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "blackhole",
+      "name": "黑洞吸引",
+      "type": "card_face",
+      "category": "控制",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_blackhole_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_blackhole_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/blackhole.webp",
+      "original": "art-preproduction/card-reference-v3/cards/blackhole.png",
+      "window": {
+        "box": [
+          92,
+          300,
+          840,
+          678
+        ],
+        "path": "M92 328 Q92 303 126 300 L898 300 Q932 303 932 328 L932 938 Q930 969 894 977 L677 977 L653 956 L371 956 L347 977 L130 977 Q94 969 92 938 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "storm",
+      "name": "混乱风暴",
+      "type": "card_face",
+      "category": "控制",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_storm_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_storm_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/storm.webp",
+      "original": "art-preproduction/card-reference-v3/cards/storm.png",
+      "window": {
+        "box": [
+          92,
+          300,
+          840,
+          678
+        ],
+        "path": "M92 328 Q92 303 126 300 L898 300 Q932 303 932 328 L932 938 Q930 969 894 977 L677 977 L653 956 L371 956 L347 977 L130 977 Q94 969 92 938 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "fog",
+      "name": "迷雾领域",
+      "type": "card_face",
+      "category": "控制",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_fog_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_fog_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/fog.webp",
+      "original": "art-preproduction/card-reference-v3/cards/fog.png",
+      "window": {
+        "box": [
+          92,
+          300,
+          840,
+          678
+        ],
+        "path": "M92 328 Q92 303 126 300 L898 300 Q932 303 932 328 L932 938 Q930 969 894 977 L677 977 L653 956 L371 956 L347 977 L130 977 Q94 969 92 938 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "overload",
+      "name": "超载模式",
+      "type": "card_face",
+      "category": "强化",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_overload_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_overload_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/overload.webp",
+      "original": "art-preproduction/card-reference-v3/cards/overload.png",
+      "window": {
+        "box": [
+          68,
+          274,
+          888,
+          700
+        ],
+        "path": "M68 342 Q68 307 119 293 L174 282 Q190 296 255 283 Q512 264 768 283 Q830 296 850 282 L906 295 Q956 311 956 342 L956 898 Q950 944 879 968 L697 968 Q675 937 634 935 L549 935 L512 923 L475 935 L390 935 Q349 937 327 968 L156 968 Q78 944 68 898 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "sage",
+      "name": "贤者时间",
+      "type": "card_face",
+      "category": "强化",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_sage_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_sage_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/sage.webp",
+      "original": "art-preproduction/card-reference-v3/cards/sage.png",
+      "window": {
+        "box": [
+          68,
+          274,
+          888,
+          700
+        ],
+        "path": "M68 342 Q68 307 119 293 L174 282 Q190 296 255 283 Q512 264 768 283 Q830 296 850 282 L906 295 Q956 311 956 342 L956 898 Q950 944 879 968 L697 968 Q675 937 634 935 L549 935 L512 923 L475 935 L390 935 Q349 937 327 968 L156 968 Q78 944 68 898 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "rainbow",
+      "name": "彩虹核心",
+      "type": "card_face",
+      "category": "强化",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_rainbow_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_rainbow_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/rainbow.webp",
+      "original": "art-preproduction/card-reference-v3/cards/rainbow.png",
+      "window": {
+        "box": [
+          68,
+          274,
+          888,
+          700
+        ],
+        "path": "M68 342 Q68 307 119 293 L174 282 Q190 296 255 283 Q512 264 768 283 Q830 296 850 282 L906 295 Q956 311 956 342 L956 898 Q950 944 879 968 L697 968 Q675 937 634 935 L549 935 L512 923 L475 935 L390 935 Q349 937 327 968 L156 968 Q78 944 68 898 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    },
+    {
+      "id": "luck",
+      "name": "幸运星",
+      "type": "card_face",
+      "category": "强化",
+      "version": 4,
+      "status": "preview",
+      "final": false,
+      "preview": true,
+      "source": "art-preproduction/cards-soft-c/card_skill_luck_soft_v4_preview.png",
+      "face": "art-preproduction/cards-soft-c/card_face_luck_soft_v4_preview.png",
+      "runtime": "dist/assets/cards/luck.webp",
+      "original": "art-preproduction/card-reference-v3/cards/luck.png",
+      "window": {
+        "box": [
+          68,
+          274,
+          888,
+          700
+        ],
+        "path": "M68 342 Q68 307 119 293 L174 282 Q190 296 255 283 Q512 264 768 283 Q830 296 850 282 L906 295 Q956 311 956 342 L956 898 Q950 944 879 968 L697 968 Q675 937 634 935 L549 935 L512 923 L475 935 L390 935 Q349 937 327 968 L156 968 Q78 944 68 898 Z"
+      },
+      "method": "built-in imagegen illustration + original window composition; frame and text preserved outside mask"
+    }
+  ]
+}

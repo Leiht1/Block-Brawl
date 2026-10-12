@@ -1,5 +1,7 @@
 # 卡片美术当前约束 · 2026-10-12
 
+> 当前卡牌/技能方向已锁定为**方案C：克制雅致**，必须先读取 [美术总规范](art/方块乱斗美术总规范.md)、[卡牌技能规范](art/卡牌技能美术规范.md)、[特效规范](art/特效制作规范.md)。以下v3说明保留为卡框、类型、字形基准；技能画窗已由 `art-preproduction/cards-soft-c/manifest.json` 中v4集成审稿稿替换，原PNG保留。
+
 以用户本轮给出的火焰冲击、时间冻结、彩虹核心三张示意图为卡片外观基准，覆盖旧版华丽写实卡框及普通系统字体方案。
 
 当前已确认的完整12张源图为 `art-preproduction/card-reference-v3/cards/`；第三阶段预览与正式游戏均以这套第三版原画为准。用户最后给出的三张并排卡牌截图归档在 `art-preproduction/cast-fx-stage3/spec/approved-card-baseline.png`。原PNG保留，游戏显示版本只做尺寸与编码导出。

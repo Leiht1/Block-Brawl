@@ -1,0 +1,604 @@
+{
+  "change": "color and alpha only",
+  "revision": "tone-v2",
+  "entries": {
+    "fire": {
+      "recipe": {
+        "tone": [
+          211,
+          104,
+          34
+        ],
+        "blend": 0.24,
+        "saturation": 1.14,
+        "alphaGain": 1.6,
+        "render": {
+          "main": 0.94,
+          "state": 0.42,
+          "mark": 0.7,
+          "markColor": "#b66c2f",
+          "settle": 0.5
+        }
+      },
+      "files": [
+        {
+          "from": "assets/atlas_firewave_soft_v1_preview.png",
+          "to": "assets/atlas_firewave_soft_v2_preview.png",
+          "size": [
+            1024,
+            512
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 81285,
+          "changedPixels": 81285,
+          "meanAlphaBefore": 87.36026327120625,
+          "meanAlphaAfter": 95.85384757335302
+        },
+        {
+          "from": "assets/effect_firewave_soft_v1_preview_01.png",
+          "to": "assets/effect_firewave_soft_v2_preview_01.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 5048,
+          "changedPixels": 5048,
+          "meanAlphaBefore": 39.10835974643423,
+          "meanAlphaAfter": 45.12717908082409
+        },
+        {
+          "from": "assets/effect_firewave_soft_v1_preview_02.png",
+          "to": "assets/effect_firewave_soft_v2_preview_02.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 11202,
+          "changedPixels": 11202,
+          "meanAlphaBefore": 90.52499553651134,
+          "meanAlphaAfter": 99.5205320478486
+        },
+        {
+          "from": "assets/effect_firewave_soft_v1_preview_03.png",
+          "to": "assets/effect_firewave_soft_v2_preview_03.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 14231,
+          "changedPixels": 14231,
+          "meanAlphaBefore": 114.07237720469398,
+          "meanAlphaAfter": 123.26990373129084
+        },
+        {
+          "from": "assets/effect_firewave_soft_v1_preview_04.png",
+          "to": "assets/effect_firewave_soft_v2_preview_04.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 15169,
+          "changedPixels": 15169,
+          "meanAlphaBefore": 122.68020304568527,
+          "meanAlphaAfter": 132.13270485859317
+        },
+        {
+          "from": "assets/effect_firewave_soft_v1_preview_05.png",
+          "to": "assets/effect_firewave_soft_v2_preview_05.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 12847,
+          "changedPixels": 12847,
+          "meanAlphaBefore": 116.88495368568537,
+          "meanAlphaAfter": 125.97610337043668
+        },
+        {
+          "from": "assets/effect_firewave_soft_v1_preview_06.png",
+          "to": "assets/effect_firewave_soft_v2_preview_06.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 10358,
+          "changedPixels": 10358,
+          "meanAlphaBefore": 68.24724850357212,
+          "meanAlphaAfter": 78.50308939949797
+        },
+        {
+          "from": "assets/effect_firewave_soft_v1_preview_07.png",
+          "to": "assets/effect_firewave_soft_v2_preview_07.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 7643,
+          "changedPixels": 7643,
+          "meanAlphaBefore": 18.974486458197042,
+          "meanAlphaAfter": 24.668454795237473
+        },
+        {
+          "from": "assets/effect_firewave_soft_v1_preview_08.png",
+          "to": "assets/effect_firewave_soft_v2_preview_08.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 4787,
+          "changedPixels": 4787,
+          "meanAlphaBefore": 10.81073741382912,
+          "meanAlphaAfter": 14.661165656987675
+        },
+        {
+          "from": "source/effect_firewave_soft_v1_preview.png",
+          "to": "source/effect_firewave_soft_v2_preview.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 243240,
+          "changedPixels": 243240,
+          "meanAlphaBefore": 84.27946472619635,
+          "meanAlphaAfter": 92.26291317217563
+        }
+      ]
+    },
+    "freeze": {
+      "recipe": {
+        "tone": [
+          51,
+          136,
+          196
+        ],
+        "blend": 0.36,
+        "saturation": 1.12,
+        "alphaGain": 1.8,
+        "render": {
+          "main": 0.76,
+          "state": 0.4,
+          "thaw": 0.46
+        }
+      },
+      "files": [
+        {
+          "from": "assets/atlas_freeze_soft_v1_preview.png",
+          "to": "assets/atlas_freeze_soft_v2_preview.png",
+          "size": [
+            1024,
+            512
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 369752,
+          "changedPixels": 369752,
+          "meanAlphaBefore": 37.56764804517623,
+          "meanAlphaAfter": 49.89084305155888
+        },
+        {
+          "from": "assets/effect_freeze_soft_v1_preview_01.png",
+          "to": "assets/effect_freeze_soft_v2_preview_01.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 38115,
+          "changedPixels": 38115,
+          "meanAlphaBefore": 12.32150072150072,
+          "meanAlphaAfter": 17.445598845598845
+        },
+        {
+          "from": "assets/effect_freeze_soft_v1_preview_02.png",
+          "to": "assets/effect_freeze_soft_v2_preview_02.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 45111,
+          "changedPixels": 45111,
+          "meanAlphaBefore": 33.380838376449205,
+          "meanAlphaAfter": 45.347742235818316
+        },
+        {
+          "from": "assets/effect_freeze_soft_v1_preview_03.png",
+          "to": "assets/effect_freeze_soft_v2_preview_03.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 47497,
+          "changedPixels": 47497,
+          "meanAlphaBefore": 49.02511737583426,
+          "meanAlphaAfter": 66.10120639198266
+        },
+        {
+          "from": "assets/effect_freeze_soft_v1_preview_04.png",
+          "to": "assets/effect_freeze_soft_v2_preview_04.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 49766,
+          "changedPixels": 49766,
+          "meanAlphaBefore": 62.999718683438495,
+          "meanAlphaAfter": 81.51231764658603
+        },
+        {
+          "from": "assets/effect_freeze_soft_v1_preview_05.png",
+          "to": "assets/effect_freeze_soft_v2_preview_05.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 49832,
+          "changedPixels": 49832,
+          "meanAlphaBefore": 64.06961390271312,
+          "meanAlphaAfter": 82.66573687590304
+        },
+        {
+          "from": "assets/effect_freeze_soft_v1_preview_06.png",
+          "to": "assets/effect_freeze_soft_v2_preview_06.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 50123,
+          "changedPixels": 50123,
+          "meanAlphaBefore": 38.66530335374978,
+          "meanAlphaAfter": 52.51744708018275
+        },
+        {
+          "from": "assets/effect_freeze_soft_v1_preview_07.png",
+          "to": "assets/effect_freeze_soft_v2_preview_07.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 49567,
+          "changedPixels": 49567,
+          "meanAlphaBefore": 19.876026388524622,
+          "meanAlphaAfter": 26.4648859119979
+        },
+        {
+          "from": "assets/effect_freeze_soft_v1_preview_08.png",
+          "to": "assets/effect_freeze_soft_v2_preview_08.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 39741,
+          "changedPixels": 39741,
+          "meanAlphaBefore": 8.442490123549986,
+          "meanAlphaAfter": 12.001484612868323
+        },
+        {
+          "from": "source/effect_freeze_soft_v1_preview.png",
+          "to": "source/effect_freeze_soft_v2_preview.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 1186743,
+          "changedPixels": 1186743,
+          "meanAlphaBefore": 35.42822161158735,
+          "meanAlphaAfter": 46.99923319539277
+        }
+      ]
+    },
+    "blackhole": {
+      "recipe": {
+        "tone": [
+          65,
+          83,
+          165
+        ],
+        "blend": 0.32,
+        "saturation": 1.16,
+        "alphaGain": 1.7,
+        "render": {
+          "main": 0.94,
+          "trail": 0.55,
+          "trailColor": "#638abe"
+        }
+      },
+      "files": [
+        {
+          "from": "assets/atlas_blackhole_soft_v1_preview.png",
+          "to": "assets/atlas_blackhole_soft_v2_preview.png",
+          "size": [
+            1024,
+            512
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 188803,
+          "changedPixels": 188803,
+          "meanAlphaBefore": 64.84261902618073,
+          "meanAlphaAfter": 82.84253428176459
+        },
+        {
+          "from": "assets/effect_blackhole_soft_v1_preview_01.png",
+          "to": "assets/effect_blackhole_soft_v2_preview_01.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 15814,
+          "changedPixels": 15814,
+          "meanAlphaBefore": 49.74705956747186,
+          "meanAlphaAfter": 65.39540913114962
+        },
+        {
+          "from": "assets/effect_blackhole_soft_v1_preview_02.png",
+          "to": "assets/effect_blackhole_soft_v2_preview_02.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 24463,
+          "changedPixels": 24463,
+          "meanAlphaBefore": 61.572006704001964,
+          "meanAlphaAfter": 78.38237338020684
+        },
+        {
+          "from": "assets/effect_blackhole_soft_v1_preview_03.png",
+          "to": "assets/effect_blackhole_soft_v2_preview_03.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 30979,
+          "changedPixels": 30979,
+          "meanAlphaBefore": 72.77223280286645,
+          "meanAlphaAfter": 92.14697052842249
+        },
+        {
+          "from": "assets/effect_blackhole_soft_v1_preview_04.png",
+          "to": "assets/effect_blackhole_soft_v2_preview_04.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 33000,
+          "changedPixels": 33000,
+          "meanAlphaBefore": 96.81551515151516,
+          "meanAlphaAfter": 119.99990909090909
+        },
+        {
+          "from": "assets/effect_blackhole_soft_v1_preview_05.png",
+          "to": "assets/effect_blackhole_soft_v2_preview_05.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 33667,
+          "changedPixels": 33667,
+          "meanAlphaBefore": 71.26307660320195,
+          "meanAlphaAfter": 91.30769002287106
+        },
+        {
+          "from": "assets/effect_blackhole_soft_v1_preview_06.png",
+          "to": "assets/effect_blackhole_soft_v2_preview_06.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 25964,
+          "changedPixels": 25964,
+          "meanAlphaBefore": 54.881297180711755,
+          "meanAlphaAfter": 71.84971498998614
+        },
+        {
+          "from": "assets/effect_blackhole_soft_v1_preview_07.png",
+          "to": "assets/effect_blackhole_soft_v2_preview_07.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 15750,
+          "changedPixels": 15750,
+          "meanAlphaBefore": 35.55873015873016,
+          "meanAlphaAfter": 48.26025396825397
+        },
+        {
+          "from": "assets/effect_blackhole_soft_v1_preview_08.png",
+          "to": "assets/effect_blackhole_soft_v2_preview_08.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 9166,
+          "changedPixels": 9166,
+          "meanAlphaBefore": 12.657647828933014,
+          "meanAlphaAfter": 19.09327951123718
+        },
+        {
+          "from": "source/effect_blackhole_soft_v1_preview.png",
+          "to": "source/effect_blackhole_soft_v2_preview.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 554994,
+          "changedPixels": 554994,
+          "meanAlphaBefore": 63.06716469006872,
+          "meanAlphaAfter": 80.55080595465897
+        }
+      ]
+    },
+    "luck": {
+      "recipe": {
+        "tone": [
+          193,
+          131,
+          35
+        ],
+        "blend": 0.32,
+        "saturation": 1.14,
+        "alphaGain": 1.65,
+        "render": {
+          "main": 0.95,
+          "state": 0.72,
+          "speck": 0.42
+        }
+      },
+      "files": [
+        {
+          "from": "assets/atlas_luck_soft_v1_preview.png",
+          "to": "assets/atlas_luck_soft_v2_preview.png",
+          "size": [
+            1024,
+            512
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 176398,
+          "changedPixels": 176398,
+          "meanAlphaBefore": 59.247225025227046,
+          "meanAlphaAfter": 73.32373949818025
+        },
+        {
+          "from": "assets/effect_luck_soft_v1_preview_01.png",
+          "to": "assets/effect_luck_soft_v2_preview_01.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 12171,
+          "changedPixels": 12171,
+          "meanAlphaBefore": 23.39742009695177,
+          "meanAlphaAfter": 34.577356010188154
+        },
+        {
+          "from": "assets/effect_luck_soft_v1_preview_02.png",
+          "to": "assets/effect_luck_soft_v2_preview_02.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 29535,
+          "changedPixels": 29535,
+          "meanAlphaBefore": 57.65573048925004,
+          "meanAlphaAfter": 76.96021669206027
+        },
+        {
+          "from": "assets/effect_luck_soft_v1_preview_03.png",
+          "to": "assets/effect_luck_soft_v2_preview_03.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 25015,
+          "changedPixels": 25015,
+          "meanAlphaBefore": 89.0236258245053,
+          "meanAlphaAfter": 97.36030381770938
+        },
+        {
+          "from": "assets/effect_luck_soft_v1_preview_04.png",
+          "to": "assets/effect_luck_soft_v2_preview_04.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 38977,
+          "changedPixels": 38977,
+          "meanAlphaBefore": 73.82071478051158,
+          "meanAlphaAfter": 87.87215537368192
+        },
+        {
+          "from": "assets/effect_luck_soft_v1_preview_05.png",
+          "to": "assets/effect_luck_soft_v2_preview_05.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 15815,
+          "changedPixels": 15815,
+          "meanAlphaBefore": 80.46961745178628,
+          "meanAlphaAfter": 89.9396142902308
+        },
+        {
+          "from": "assets/effect_luck_soft_v1_preview_06.png",
+          "to": "assets/effect_luck_soft_v2_preview_06.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 32617,
+          "changedPixels": 32617,
+          "meanAlphaBefore": 51.194561118435175,
+          "meanAlphaAfter": 71.44771131618481
+        },
+        {
+          "from": "assets/effect_luck_soft_v1_preview_07.png",
+          "to": "assets/effect_luck_soft_v2_preview_07.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 15184,
+          "changedPixels": 15184,
+          "meanAlphaBefore": 22.45626975763962,
+          "meanAlphaAfter": 33.52831928345627
+        },
+        {
+          "from": "assets/effect_luck_soft_v1_preview_08.png",
+          "to": "assets/effect_luck_soft_v2_preview_08.png",
+          "size": [
+            256,
+            256
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 7084,
+          "changedPixels": 7084,
+          "meanAlphaBefore": 10.7012987012987,
+          "meanAlphaAfter": 16.648785996612084
+        },
+        {
+          "from": "source/effect_luck_soft_v1_preview.png",
+          "to": "source/effect_luck_soft_v2_preview.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "alphaSupportUnchanged": true,
+          "nonzeroPixels": 491185,
+          "changedPixels": 491185,
+          "meanAlphaBefore": 58.8478862343109,
+          "meanAlphaAfter": 72.74571902643606
+        }
+      ]
+    }
+  }
+}

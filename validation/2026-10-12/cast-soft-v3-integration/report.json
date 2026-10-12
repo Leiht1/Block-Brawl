@@ -1,0 +1,12 @@
+{
+  "scope": "approved 1.5x cast integration and three palettes only",
+  "checks": [
+    "Existing game modules, card art, environments and original masters unchanged.",
+    "All 12 card faces load in real selection; six priority cards are visible at battle hand size.",
+    "Three real drags use original hand origins, correct target boards, procedural soft renderer and exact cleanup.",
+    "Interactive cast preview loads, scrubs and displays all three subtle type palettes on captured real boards."
+  ],
+  "errors": [],
+  "protectedFiles": 146,
+  "status": "passed"
+}

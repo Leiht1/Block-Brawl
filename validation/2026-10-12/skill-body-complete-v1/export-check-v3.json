@@ -1,0 +1,22 @@
+{
+  "animations": {
+    "luck": {
+      "frames": 111,
+      "duration": 10900
+    },
+    "overload": {
+      "frames": 111,
+      "duration": 10900
+    },
+    "sage": {
+      "frames": 72,
+      "duration": 6000
+    },
+    "fog": {
+      "frames": 43,
+      "duration": 7600
+    }
+  },
+  "gallery": 29,
+  "rejectedAurasLoaded": false
+}

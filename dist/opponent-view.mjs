@@ -37,7 +37,7 @@ export function createOpponentView(canvas,reduced=false){
       if(e.kind==='special-trigger'){motions.delete(e.tile.id);effects.push({...e,start:e.time,combo:false});}
       if(e.kind==='combo-trigger'){charges=[];effects.push({...e,start:e.time,combo:true});}
     },
-    draw(engine,now){
+    draw(engine,now,underlay){
       columns=engine.width;
       const width=canvas.getBoundingClientRect().width||240,cell=width/columns,height=cell*engine.height,pixelRatio=Math.min(devicePixelRatio||1,2);
       if(size!==width*pixelRatio||canvas.height!==Math.round(height*pixelRatio)){size=width*pixelRatio;canvas.width=Math.round(size);canvas.height=Math.round(height*pixelRatio);if(canvas.style)canvas.style.height=height+'px';ctx.setTransform(pixelRatio,0,0,pixelRatio,0,0);art.invalidate();}
@@ -47,6 +47,7 @@ export function createOpponentView(canvas,reduced=false){
       const cue=presentation.at(now),motion=mapMotion(cue,now,reduced);ctx.translate(motion.board,motion.board*.35);painter.drawTerrain(engine.terrain);
       painter.drawMapSurface(now,cue);
       painter.drawMechanism(cue);
+      underlay?.(ctx,width,height);
       engine.board.forEach((t,i)=>{if(cue?.type==='mechanism'&&cue.phase==='fall'&&cue.cells.includes(i))return;
         if(!t)return;let p=xy(i,cell),m=motions.get(t.id),squash=0;
         if(m){const progress=Math.max(0,Math.min(1,(now-m.start)/m.duration));

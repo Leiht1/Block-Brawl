@@ -15,9 +15,9 @@ test('all types animate every painted phase with exact row-major loop and termin
     assert.equal(castFrame(type,stage,a.frameCount*a.frameMs),a.loop?0:a.frameCount-1);
   }
 });
-test('meteor landing and quake bottom-row target use the committed cast plan',()=>{
-  const p=new CardCastPlayback();p.cast(event('meteor',{index:4,landing:52}),{x:0,y:0});p.cast(event('quake',{cells:[56,57,58,59,60,61,62,63],landing:4}),{x:0,y:0});
-  assert.equal(p.casts[0].index,52);assert.equal(p.casts[1].index,60);
+test('meteor landing and quake selected-row target use the committed cast plan',()=>{
+  const p=new CardCastPlayback();p.cast(event('meteor',{index:4,landing:52}),{x:0,y:0});p.cast(event('quake',{cells:[24,25,26,27,28,29,30,31],landing:4}),{x:0,y:0});
+  assert.equal(p.casts[0].index,52);assert.equal(p.casts[1].index,28);
 });
 test('rainbow observes the real engine target and can wait without a fabricated impact',()=>{
   const p=new CardCastPlayback();p.cast(event('rainbow',{targetSide:'player'}),{x:300,y:800});

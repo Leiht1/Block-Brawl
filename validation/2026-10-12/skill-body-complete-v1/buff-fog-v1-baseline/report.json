@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "scope": [
+    "fire",
+    "quake",
+    "meteor",
+    "bomb",
+    "freeze",
+    "blackhole",
+    "storm",
+    "fog",
+    "overload",
+    "sage",
+    "rainbow",
+    "luck"
+  ],
+  "integration": "review-only",
+  "checks": [
+    "12 transparent atlases and 96 nonempty 256px keyframes exist, center anchors and 720–800ms principal feedback.",
+    "12 rule traces and two timeline modes verified; delayed attacks settle at actual deadlines; all production files unchanged.",
+    "User-specified Lucky rule creates one wild tile at selected landing and removes probability buff, in isolated preview only.",
+    "Four replacement candidates can switch; map counts use actual terrain fixtures.",
+    "24 current animated previews decode with correct total durations; gallery loads 27 images.",
+    "109 current assets checked identical after rebuild before final render refinement.",
+    "Quake options visible only when quake is selected; direct candidate entry works."
+  ],
+  "errors": [],
+  "skills": {
+    "fire": {
+      "side": "opponent",
+      "cells": [
+        26,
+        27,
+        28
+      ],
+      "landing": 27,
+      "effectAt": 2440,
+      "isolatedChangedPixels": 10449
+    },
+    "quake": {
+      "side": "opponent",
+      "cells": [
+        27,
+        19,
+        26,
+        28
+      ],
+      "landing": 27,
+      "effectAt": 240,
+      "isolatedChangedPixels": 13487
+    },
+    "meteor": {
+      "side": "opponent",
+      "cells": [
+        3,
+        19,
+        35,
+        43,
+        59,
+        58,
+        60
+      ],
+      "landing": 59,
+      "effectAt": 1840,
+      "isolatedChangedPixels": 10743
+    },
+    "bomb": {
+      "side": "opponent",
+      "cells": [
+        18,
+        19,
+        20,
+        26,
+        27,
+        28,
+        34,
+        35,
+        36
+      ],
+      "landing": 27,
+      "effectAt": 2040,
+      "isolatedChangedPixels": 7179
+    },
+    "freeze": {
+      "side": "opponent",
+      "cells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "landing": 27,
+      "isolatedChangedPixels": 38731
+    },
+    "blackhole": {
+      "side": "opponent",
+      "cells": [
+        27,
+        19,
+        26,
+        28,
+        35,
+        11
+      ],
+      "landing": 27,
+      "effectAt": 240,
+      "isolatedChangedPixels": 10684
+    },
+    "storm": {
+      "side": "opponent",
+      "cells": [
+        27
+      ],
+      "landing": 27,
+      "effectAt": 240,
+      "isolatedChangedPixels": 17830
+    },
+    "fog": {
+      "side": "opponent",
+      "cells": [
+        27
+      ],
+      "landing": 27,
+      "isolatedChangedPixels": 20214
+    },
+    "overload": {
+      "side": "player",
+      "cells": [
+        27
+      ],
+      "landing": 27,
+      "isolatedChangedPixels": 8385
+    },
+    "sage": {
+      "side": "player",
+      "cells": [
+        27
+      ],
+      "landing": 27,
+      "isolatedChangedPixels": 10867
+    },
+    "rainbow": {
+      "side": "player",
+      "cells": [
+        27
+      ],
+      "landing": 35,
+      "effectAt": 240,
+      "isolatedChangedPixels": 9416
+    },
+    "luck": {
+      "side": "player",
+      "cells": [
+        27
+      ],
+      "landing": 27,
+      "effectAt": 240,
+      "isolatedChangedPixels": 11190
+    }
+  },
+  "protectedFiles": 136
+}

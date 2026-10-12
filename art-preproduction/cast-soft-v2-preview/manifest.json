@@ -1,0 +1,14 @@
+{
+  "type": "effect_cast",
+  "direction": "方案C：克制雅致",
+  "version": 2,
+  "status": "preview_only_pending_user_confirmation",
+  "final": false,
+  "preview": true,
+  "integrated": false,
+  "source": "art-preproduction/cast-soft-v2-preview/effect_cast_soft_v2_preview.mjs",
+  "runtime": null,
+  "method": "independent editable Canvas preview",
+  "changes": {"orbRadius": [6, 17], "haloRadius": [15, 40], "trailWidth": [1.15, 3.2], "trailAlpha": [0.22, 0.64], "impactAlpha": [0.32, 0.72], "impactRadiusCells": [0.52, 0.95]},
+  "note": "User explicitly requires approval before integration. No dist files, game assets or offline HTML changed in this round. Preview impact duration is 440ms; integration timing remains unapproved."
+}

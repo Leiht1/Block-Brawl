@@ -16,6 +16,7 @@ export function createGameFlow({engine,showHint,message,resize,onSandbox,opponen
     get visibleGame(){return ['sandbox','tutorial','arena'].includes(this.screen);},
     get canInteract(){return this.visibleGame&&(this.arena?this.arena.status==='playing'&&!this.arena.cards?.manualBlocked('player',engine.now):!this.session||this.session.canAct);},
     swap(a,b){return this.canInteract&&(this.arena?this.arena.command('player',{kind:'swap',a,b}):this.session?this.session.swap(a,b):engine.command({kind:'swap',a,b}));},
+    paintCardUnderlay(ctx,side,now,width,height){cardUI?.paintUnderlay(ctx,side,now,width,height);},
     event(e){cardUI?.boardEvent('player',e);this.session?.event(e);if(this.session&&e.kind!=='reset')renderGoals();},
     update(now=performance.now()){
       if(this.reveal){const state=this.reveal.at(now);renderReveal(state);if(state.phase==='complete'){const map=this.reveal.map;this.reveal=null;this.enterArena(map,now);}return;}

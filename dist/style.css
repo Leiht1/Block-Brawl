@@ -222,3 +222,6 @@ html[data-map="furnace"] .board-caption{position:relative;z-index:3;background:#
 .card-face:has(.card-illustration){padding:0!important;border:0;background:transparent;box-shadow:none}
 .card-illustration{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}
 .card-energy.energy-absorbing{box-shadow:0 0 20px #ffdb6b;transform:scale(1.045);filter:brightness(1.2)}
+
+/* Approved large countdown rail, outside the board and without sustained aura. */
+.skill-buff-rail{position:fixed;z-index:35;pointer-events:none;display:grid;gap:8px}.skill-buff{width:100%;padding:calc(5px * var(--buff-scale)) 2px calc(10px * var(--buff-scale));border:2px solid #b78221;border-radius:14px;background:#fff0cbf2;color:#714b14;box-shadow:0 3px 7px #4b391c35;text-align:center;display:grid;justify-items:center;line-height:1.18}.skill-buff.overload{background:#e0f1e8f2;border-color:#428c83;color:#215c58}.skill-buff canvas{width:calc(80px * var(--buff-scale));height:calc(80px * var(--buff-scale))}.skill-buff b{font-size:calc(21px * var(--buff-scale))}.skill-buff strong{font-size:calc(29px * var(--buff-scale));font-variant-numeric:tabular-nums;margin:5px 0}.skill-buff small{font-size:calc(16px * var(--buff-scale));font-weight:700}
