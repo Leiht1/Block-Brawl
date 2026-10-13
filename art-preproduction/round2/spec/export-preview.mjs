@@ -1,0 +1,37 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import http from 'node:http';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('../',import.meta.url)),project=path.resolve(root,'../..'),require=createRequire(import.meta.url);
+const modules='C:/Users/HT/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
+const sharp=require(modules+'/sharp'),{chromium}=require(modules+'/playwright');
+const data=JSON.parse(await fs.readFile(path.join(root,'spec/manifest.json'),'utf8'));
+const cardRules=data.cards.map(c=>{const art='/art-preproduction/round2/'+c.art,frame='/art-preproduction/round2/'+c.frame;const ids=`[data-card-id="${c.id}"],[data-pick="${c.id}"]`;return `${ids}{--review-art:url("${art}");--review-frame:url("${frame}")}`;}).join('\n');
+const finishedRules=data.cards.map(c=>`[data-card-id="${c.id}"],[data-pick="${c.id}"]{--review-card:url("/art-preproduction/round2/previews/card-${c.id}.png")}`).join('\n');
+const previewCSS=`.card-face{background:var(--review-card) center/100% 100% no-repeat;border:0;box-shadow:none}.card-face>*{visibility:hidden}canvas#board:focus-visible{outline:none}${cardRules}${finishedRules}`;
+const injection=`
+window.__artReview={async enter(id){const {MAPS}=await import('./maps.mjs');const m=MAPS.find(m=>m.id===id);flow.arena?.dispose();flow.enterArena(m,0);for(const c of ['quake','bomb','storm','fog','overload','luck'])flow.selection.choose(c);flow.selection.opponent=[...flow.selection.aiPool];flow.selection.opponentReady=true;flow.selection.ready();flow.update(0);flow.update(3000);flow.arena.source.stop();flow.arena.environment?.stop(3000);flow.arena.cards.aiDue=Infinity;const s=flow.arena.cards.sides.player;s.hand=['quake','bomb','storm','fog','overload','luck'].map((id,i)=>({id,uid:100+i}));s.energy=68;s.next={id:'fire',uid:999};flow.update(3020);window.__clock.time=3020;window.__clock.advance(3040);$('toast').classList.remove('show');$('next-card').firstElementChild.dataset.cardId='fire';return {terrain:m.terrain.cells};}};`;
+const mime={'.html':'text/html;charset=utf-8','.mjs':'text/javascript','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.json':'application/json','.md':'text/plain;charset=utf-8','.wav':'audio/wav','.ogg':'audio/ogg'};
+const server=http.createServer(async(req,res)=>{try{const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(pathname==='/'){res.writeHead(302,{'Location':'/art-preproduction/round2/index.html'});res.end();return;}const file=path.resolve(project,'.'+pathname);assert.ok(file.startsWith(project+path.sep));let b=await fs.readFile(file);if(pathname==='/dist/app.mjs')b=b.toString()+injection;if(pathname==='/dist/style.css')b=b.toString()+'\n'+previewCSS;res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'});res.end(b);}catch{res.writeHead(404);res.end('Not found');}});
+await new Promise(r=>server.listen(process.argv.includes('--serve')?4187:0,'127.0.0.1',r));
+const url=`http://127.0.0.1:${server.address().port}`;
+if(process.argv.includes('--serve')){console.log(url);await new Promise(()=>{});}
+const browser=await chromium.launch({channel:'msedge',headless:true}),errors=[];
+try{
+ const page=await browser.newPage({viewport:{width:1672,height:1040},deviceScaleFactor:3,reducedMotion:'reduce'});
+ page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400&&!r.url().endsWith('favicon.ico'))errors.push(r.status()+': '+r.url());});
+ await page.addInitScript(()=>{window.__clock={time:0,raf:null,advance(t){this.time=t;const f=this.raf;this.raf=null;f?.(t);}};Object.defineProperty(performance,'now',{value:()=>__clock.time});requestAnimationFrame=f=>{__clock.raf=f;return 1;};});
+ const qa={maps:[],cards:[],checks:[],errors,limitations:['Map polish remains pending; current map previews restore original native assets.','No production asset bindings changed.']};
+ for(const m of data.maps){await page.goto(url+'/dist/index.html');await page.waitForFunction(()=>window.__artReview);await page.evaluate(id=>__artReview.enter(id),m.id);await page.waitForTimeout(400);await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});await page.evaluate(()=>__clock.advance(3060));await page.screenshot({path:path.join(root,'previews',m.id+'-battle.png'),scale:'css'});
+  const geometry=await page.evaluate(()=>({boards:['board','opponent-board'].map(id=>{const r=document.getElementById(id).getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};}),dock:(()=>{const r=document.getElementById('card-dock').getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};})()}));
+  assert.equal(geometry.boards[0].width,geometry.boards[1].width);assert.ok(geometry.boards.every(b=>b.y+b.height<=geometry.dock.y));
+  qa.maps.push({id:m.id,geometry,playable:m.terrain.filter(s=>s==='cell').length,obstacles:m.terrain.filter(s=>s==='obstacle').length,nativeStructure:'original assets and original CSS restored'});
+ }
+ await page.setViewportSize({width:320,height:440});
+ for(const c of data.cards){if(!c.isNew){await fs.copyFile(path.join(root,'../round1/cards',c.id+'.png'),path.join(root,'previews','card-'+c.id+'.png'));qa.cards.push({id:c.id,unchangedOriginal:true});continue;}await page.goto(url+'/art-preproduction/round2/index.html?card='+c.id);await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.querySelector('body>.card-render').querySelectorAll('img')].map(i=>i.decode()));});await page.locator('body>.card-render').screenshot({path:path.join(root,'previews','card-'+c.id+'-3x.png'),omitBackground:true});await sharp(path.join(root,'previews','card-'+c.id+'-3x.png')).resize(320,440).png().toFile(path.join(root,'previews','card-'+c.id+'.png'));qa.cards.push({id:c.id,art:c.art,new:c.isNew});}
+ await page.setViewportSize({width:1500,height:1100});await page.goto(url+'/art-preproduction/round2/index.html');await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode()));});assert.equal(await page.locator('.card-item').count(),12);assert.equal(await page.locator('#art-grid figure').count(),6);for(const m of data.maps){await page.locator('[data-map='+m.id+']').click();assert.ok((await page.locator('#battle').getAttribute('src')).includes(m.id));}await page.locator('[data-map=forest]').click();await page.screenshot({path:path.join(root,'previews','review-desktop.png')});
+ await page.setViewportSize({width:390,height:844});await page.reload();await page.evaluate(async()=>{await Promise.all([...document.images].map(i=>i.decode()));});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.screenshot({path:path.join(root,'previews','review-mobile.png')});
+ assert.deepEqual(errors,[]);qa.checks=['5 original map structures restored','Original six card exports copied unchanged','New six cards use first-round CSS typography','Dual boards and card dock bounds checked','All images decode; desktop/mobile review checked'];await fs.writeFile(path.join(root,'spec/qa.json'),JSON.stringify(qa,null,2));console.log('Static art review checks passed.');
+}finally{await browser.close();server.close();}

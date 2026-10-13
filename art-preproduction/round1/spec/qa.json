@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-12",
+  "preview": "local file; Edge headless",
+  "passed": [
+    "all images decoded",
+    "6 finished cards exported",
+    "12 frame states loaded",
+    "scheme switch",
+    "hover frame",
+    "selected state",
+    "390px no horizontal overflow",
+    "no page errors",
+    "37 manifest assets exist",
+    "normal frames true alpha"
+  ],
+  "assets": [
+    {
+      "id": "art-fire",
+      "width": 834,
+      "height": 620,
+      "transparentFraction": 0
+    },
+    {
+      "id": "art-freeze",
+      "width": 834,
+      "height": 620,
+      "transparentFraction": 0
+    },
+    {
+      "id": "art-blackhole",
+      "width": 834,
+      "height": 620,
+      "transparentFraction": 0
+    },
+    {
+      "id": "art-sage",
+      "width": 834,
+      "height": 710,
+      "transparentFraction": 0
+    },
+    {
+      "id": "art-rainbow",
+      "width": 834,
+      "height": 700,
+      "transparentFraction": 0
+    },
+    {
+      "id": "art-meteor",
+      "width": 834,
+      "height": 770,
+      "transparentFraction": 0
+    },
+    {
+      "id": "attack-normal",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.494
+    },
+    {
+      "id": "attack-hover",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.344
+    },
+    {
+      "id": "attack-selected",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.327
+    },
+    {
+      "id": "attack-disabled",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.496
+    },
+    {
+      "id": "control-normal",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.467
+    },
+    {
+      "id": "control-hover",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.31
+    },
+    {
+      "id": "control-selected",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.29
+    },
+    {
+      "id": "control-disabled",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.479
+    },
+    {
+      "id": "enhance-normal",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.469
+    },
+    {
+      "id": "enhance-hover",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.244
+    },
+    {
+      "id": "enhance-selected",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.292
+    },
+    {
+      "id": "enhance-disabled",
+      "width": 320,
+      "height": 440,
+      "transparentFraction": 0.479
+    },
+    {
+      "id": "title",
+      "width": 372,
+      "height": 205,
+      "transparentFraction": 0.423
+    },
+    {
+      "id": "deck-player",
+      "width": 360,
+      "height": 310,
+      "transparentFraction": 0.223
+    },
+    {
+      "id": "deck-ai",
+      "width": 350,
+      "height": 310,
+      "transparentFraction": 0.215
+    },
+    {
+      "id": "pool",
+      "width": 368,
+      "height": 235,
+      "transparentFraction": 0.167
+    },
+    {
+      "id": "hand-base",
+      "width": 520,
+      "height": 255,
+      "transparentFraction": 0.561
+    },
+    {
+      "id": "slot",
+      "width": 235,
+      "height": 300,
+      "transparentFraction": 0.527
+    },
+    {
+      "id": "ready",
+      "width": 425,
+      "height": 205,
+      "transparentFraction": 0.332
+    },
+    {
+      "id": "timer",
+      "width": 268,
+      "height": 305,
+      "transparentFraction": 0.432
+    },
+    {
+      "id": "energy-track",
+      "width": 500,
+      "height": 175,
+      "transparentFraction": 0.509
+    },
+    {
+      "id": "energy-fill",
+      "width": 375,
+      "height": 105,
+      "transparentFraction": 0.346
+    },
+    {
+      "id": "next-frame",
+      "width": 295,
+      "height": 345,
+      "transparentFraction": 0.621
+    },
+    {
+      "id": "card-back",
+      "width": 278,
+      "height": 345,
+      "transparentFraction": 0.236
+    },
+    {
+      "id": "activation",
+      "width": 512,
+      "height": 512,
+      "transparentFraction": 0.345
+    },
+    {
+      "id": "release-flash",
+      "width": 512,
+      "height": 512,
+      "transparentFraction": 0.256
+    },
+    {
+      "id": "orb",
+      "width": 512,
+      "height": 512,
+      "transparentFraction": 0.381
+    },
+    {
+      "id": "trail",
+      "width": 512,
+      "height": 512,
+      "transparentFraction": 0.571
+    },
+    {
+      "id": "impact",
+      "width": 512,
+      "height": 512,
+      "transparentFraction": 0.214
+    },
+    {
+      "id": "windup",
+      "width": 512,
+      "height": 512,
+      "transparentFraction": 0.306
+    },
+    {
+      "id": "selection-background",
+      "width": 1672,
+      "height": 941,
+      "transparentFraction": 0
+    }
+  ],
+  "limitations": [
+    "concept image small typography is not final copy",
+    "state glow edges require padding refinement",
+    "static VFX keyposes only; no animation or release logic integrated",
+    "3x PNG is scaled export; source frame effective resolution ~320x440"
+  ]
+}

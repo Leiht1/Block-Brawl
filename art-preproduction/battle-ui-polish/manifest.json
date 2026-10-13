@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-13",
+  "direction": "方案C：克制雅致",
+  "entries": [{
+    "type": "ui",
+    "id": "aim_reticle",
+    "version": 1,
+    "status": "preview",
+    "final": false,
+    "preview": true,
+    "source": "art-preproduction/battle-ui-polish/ui_aim_reticle_soft_v1_preview.png",
+    "runtime": "dist/assets/ui/ui_aim_reticle_soft_v1_preview.png",
+    "method": "Built-in imagegen; transparent hand-painted raster, resized to 128px without changing composition",
+    "anchor": [0.5, 0.5],
+    "displaySize": "28–40px; pointer-centered; 18s rotation, disabled for reduced motion",
+    "userApproved": false,
+    "prompt": "One transparent centered magic aiming reticle for 方块乱斗, cartoon hand-painted light fantasy, Scheme C restrained elegance. Soft ivory gold and pale blue white, darker gold outline, four short rune arcs, tiny central aiming point, open transparent interior. Readable at 34px, no text, no laser, no bloom clouds, no realistic 3D or metallic filigree."
+  }]
+}

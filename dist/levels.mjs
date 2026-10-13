@@ -6,7 +6,7 @@ const activeBoard=base();activeBoard[26].special='column';activeBoard[30].specia
 const comboBoard=base();comboBoard[26].special='row';comboBoard[27].special='blast';
 const finalBoard=base();finalBoard[26].special='blast';finalBoard[27].special='blast';finalBoard[63].special='column';
 // Data only: matching, creation, activation and scoring remain in MatchEngine.
-export const LEVELS=[
+export const LEGACY_LEVELS=[
   {id:'tutorial-1',title:'基础三消',description:'相邻交换，让三个同色积木连成一线。完成三次有效三消。',board:matchBoard(3),hintMove:[11,3],autoHint:true,seed:91,goals:[{kind:'triples',target:3,label:'有效三消'}]},
   {id:'tutorial-2',title:'四消技巧',description:'四个同色连成直线会留下光束块。再把它与相邻方块交换，点亮整行或整列。',board:matchBoard(4),hintMove:[11,3],autoHint:true,seed:1,goals:[{kind:'lineCreated',target:1,label:'制造直线方块'},{kind:'lineActivated',target:1,label:'触发自己制造的直线'}]},
   {id:'tutorial-3',title:'五消技巧',description:'五个同色连成一线，或组成 T / L 型，会留下爆破块。制造后触发它！需要时再点提示。',board:matchBoard(5),hintMove:[11,3],seed:1,goals:[{kind:'blastCreated',target:1,label:'制造爆破方块'},{kind:'blastActivated',target:1,label:'触发自己制造的爆破'}]},
@@ -14,6 +14,14 @@ export const LEVELS=[
   {id:'tutorial-5',title:'组合技巧',description:'两个相邻特殊块，不分颜色，直接交换就能释放组合技。试着自己找到它们。',board:comboBoard,seed:91,goals:[{kind:'combos',target:1,label:'特殊组合技'}]},
   {id:'tutorial-6',title:'综合实战',description:'8 步内获得 300 分。观察特殊块，把三消、主动引爆和组合技用起来！',board:finalBoard,seed:2,moveLimit:8,targetScore:300,goals:[{kind:'score',target:300,label:'目标得分'}]}
 ].map(l=>({...l,refills:{}}));
+
+// Four short lessons reuse the preset loader and the real rule adapters.
+export const LEVELS=[
+  {id:'basics',title:'方块入门',description:'跟随亮框，完成三消、四消，再触发特殊方块。',minutes:'约 1 分钟'},
+  {id:'maps',title:'地图会捣乱',description:'亲眼看一次悬崖落石，再完成事件后的消除。',minutes:'约 1–2 分钟'},
+  {id:'cards',title:'魔法卡牌',description:'消除充能，拖牌瞄准，体验进攻、控制和强化。',minutes:'约 2 分钟'},
+  {id:'strategy',title:'卡牌策略',description:'自由选卡，先留牌，再用控制和进攻组成配合。',minutes:'约 2 分钟'}
+];
 
 export class LevelSession {
   constructor(engine,config){
@@ -65,10 +73,22 @@ export class LevelSession {
   }
 }
 
-export const PROGRESS_KEY='block-brawl.tutorial.v1';
+export const LEGACY_PROGRESS_KEY='block-brawl.tutorial.v1';
+export const PROGRESS_KEY='block-brawl.tutorial.v2';
 export class TutorialProgress {
-  constructor(storage){this.storage=storage;this.completed=0;this.saved=true;try{const data=JSON.parse(storage.getItem(PROGRESS_KEY));if(data?.version===1&&Number.isInteger(data.completed)&&data.completed>=0&&data.completed<=LEVELS.length)this.completed=data.completed;}catch{this.saved=false;}}
+  constructor(storage){
+    this.storage=storage;this.completed=0;this.saved=true;
+    try{
+      const raw=storage.getItem(PROGRESS_KEY);let data;try{data=JSON.parse(raw);}catch{}
+      if(data?.version===2&&Number.isInteger(data.completed)&&data.completed>=0&&data.completed<=LEVELS.length)this.completed=data.completed;
+      // Old partial goals do not teach maps/cards. Only full six-lesson wins
+      // grant the permanent qualification and freedom to replay every lesson.
+      const old=storage.getItem(LEGACY_PROGRESS_KEY);let legacy;try{legacy=JSON.parse(old);}catch{}
+      if(legacy?.version===1&&legacy.completed===6){this.completed=LEVELS.length;this.save();}
+    }catch{this.saved=false;}
+  }
   unlocked(index){return Number.isInteger(index)&&index>=0&&index<LEVELS.length&&index<=this.completed;}
   get qualified(){return this.completed===LEVELS.length;}
-  finish(index){if(!this.unlocked(index))return false;this.completed=Math.max(this.completed,index+1);try{this.storage.setItem(PROGRESS_KEY,JSON.stringify({version:1,completed:this.completed}));this.saved=true;}catch{this.saved=false;}return true;}
+  save(){try{this.storage.setItem(PROGRESS_KEY,JSON.stringify({version:2,completed:this.completed}));this.saved=true;}catch{this.saved=false;}}
+  finish(index){if(!this.unlocked(index))return false;if(index>=this.completed){this.completed=index+1;this.save();}return true;}
 }

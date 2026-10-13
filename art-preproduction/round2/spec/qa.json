@@ -1,0 +1,273 @@
+{
+  "maps": [
+    {
+      "id": "forest",
+      "geometry": {
+        "boards": [
+          {
+            "x": 165.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          },
+          {
+            "x": 869.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          }
+        ],
+        "dock": {
+          "x": 135.5,
+          "y": 777,
+          "width": 1244,
+          "height": 183
+        }
+      },
+      "playable": 64,
+      "obstacles": 0,
+      "nativeStructure": "original assets and original CSS restored"
+    },
+    {
+      "id": "cliff",
+      "geometry": {
+        "boards": [
+          {
+            "x": 165.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          },
+          {
+            "x": 869.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          }
+        ],
+        "dock": {
+          "x": 135.5,
+          "y": 777,
+          "width": 1244,
+          "height": 183
+        }
+      },
+      "playable": 48,
+      "obstacles": 0,
+      "nativeStructure": "original assets and original CSS restored"
+    },
+    {
+      "id": "crystal",
+      "geometry": {
+        "boards": [
+          {
+            "x": 165.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          },
+          {
+            "x": 869.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          }
+        ],
+        "dock": {
+          "x": 135.5,
+          "y": 777,
+          "width": 1244,
+          "height": 183
+        }
+      },
+      "playable": 40,
+      "obstacles": 0,
+      "nativeStructure": "original assets and original CSS restored"
+    },
+    {
+      "id": "ruins",
+      "geometry": {
+        "boards": [
+          {
+            "x": 165.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          },
+          {
+            "x": 869.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          }
+        ],
+        "dock": {
+          "x": 135.5,
+          "y": 777,
+          "width": 1244,
+          "height": 183
+        }
+      },
+      "playable": 54,
+      "obstacles": 10,
+      "nativeStructure": "original assets and original CSS restored"
+    },
+    {
+      "id": "furnace",
+      "geometry": {
+        "boards": [
+          {
+            "x": 165.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          },
+          {
+            "x": 869.5,
+            "y": 222,
+            "width": 480,
+            "height": 480
+          }
+        ],
+        "dock": {
+          "x": 135.5,
+          "y": 777,
+          "width": 1244,
+          "height": 183
+        }
+      },
+      "playable": 52,
+      "obstacles": 0,
+      "nativeStructure": "original assets and original CSS restored"
+    }
+  ],
+  "cards": [
+    {
+      "id": "fire",
+      "unchangedOriginal": true
+    },
+    {
+      "id": "quake",
+      "art": "assets/cards/quake.png",
+      "new": true
+    },
+    {
+      "id": "meteor",
+      "unchangedOriginal": true
+    },
+    {
+      "id": "bomb",
+      "art": "assets/cards/bomb.png",
+      "new": true
+    },
+    {
+      "id": "freeze",
+      "unchangedOriginal": true
+    },
+    {
+      "id": "blackhole",
+      "unchangedOriginal": true
+    },
+    {
+      "id": "storm",
+      "art": "assets/cards/chaos.png",
+      "new": true
+    },
+    {
+      "id": "fog",
+      "art": "assets/cards/fog.png",
+      "new": true
+    },
+    {
+      "id": "overload",
+      "art": "assets/cards/overload.png",
+      "new": true
+    },
+    {
+      "id": "sage",
+      "unchangedOriginal": true
+    },
+    {
+      "id": "rainbow",
+      "unchangedOriginal": true
+    },
+    {
+      "id": "luck",
+      "art": "assets/cards/luck.png",
+      "new": true
+    }
+  ],
+  "checks": [
+    "5 original map structures restored",
+    "Original six card exports copied unchanged",
+    "New six cards use first-round CSS typography",
+    "Dual boards and card dock bounds checked",
+    "All images decode; desktop/mobile review checked",
+    "All six new card computed typography matches approved sage card exactly",
+    "Previous six cards are byte-identical",
+    "All native map asset copies are byte-identical to project originals"
+  ],
+  "errors": [],
+  "limitations": [
+    "Map polish remains pending; current map previews restore original native assets.",
+    "No production asset bindings changed."
+  ],
+  "typography": {
+    ".card-render": {
+      "fontFamily": "\"Microsoft YaHei\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "letterSpacing": "normal",
+      "textAlign": "start",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "left": "0px",
+      "right": "0px",
+      "top": "0px",
+      "height": "440px"
+    },
+    ".card-name": {
+      "fontFamily": "\"Microsoft YaHei\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "800",
+      "letterSpacing": "1px",
+      "textAlign": "start",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "gap": "normal",
+      "left": "41.5938px",
+      "right": "48px",
+      "top": "79.1875px",
+      "height": "39.5938px"
+    },
+    ".description": {
+      "fontFamily": "\"Microsoft YaHei\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": "700",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "gap": "3px",
+      "left": "54.3906px",
+      "right": "60.7969px",
+      "top": "334.391px",
+      "height": "52.7969px"
+    },
+    ".description small": {
+      "fontFamily": "\"Microsoft YaHei\", sans-serif",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "letterSpacing": "normal",
+      "textAlign": "center",
+      "justifyContent": "normal",
+      "alignItems": "normal",
+      "gap": "normal",
+      "left": "auto",
+      "right": "auto",
+      "top": "auto",
+      "height": "15.5938px"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "geometry": {
+    "#board": [
+      244,
+      269.5,
+      480,
+      480
+    ],
+    "#opponent-board": [
+      948,
+      269.5,
+      480,
+      480
+    ],
+    "#arena-scoreboard": [
+      776,
+      345.5,
+      120,
+      311.984375
+    ],
+    ".menu .tools": [
+      1532,
+      396.5,
+      120,
+      148
+    ]
+  },
+  "errors": [],
+  "onlyLayoutCSSChanged": true,
+  "approvedArtUnchanged": true,
+  "otherProductionFilesUnchanged": true
+}

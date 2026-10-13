@@ -1,0 +1,2087 @@
+[
+  {
+    "path": "art-preproduction/方块乱斗-卡牌美术预制作-R1.zip",
+    "bytes": 64850822,
+    "reason": "rebuildable-duplicate-delivery-archive"
+  },
+  {
+    "path": "art-preproduction/card-reference-v3/卡片离线预览.html",
+    "bytes": 52907905,
+    "reason": "duplicate-offline-export-or-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/card-reference-v3/spec/attack-preview.png",
+    "bytes": 12055156,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/card-reference-v3/spec/offline-desktop.png",
+    "bytes": 3171599,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/card-reference-v3/spec/review-desktop.png",
+    "bytes": 3171591,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/card-reference-v3/spec/three-category-preview.png",
+    "bytes": 1351247,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/card-cast-assets.zip",
+    "bytes": 48983702,
+    "reason": "rebuildable-duplicate-delivery-archive"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/attack-activation-scene.png",
+    "bytes": 975991,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/attack-contact.png",
+    "bytes": 740490,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/attack-flight-scene.png",
+    "bytes": 979506,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/attack-impact-scene.png",
+    "bytes": 994773,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/attack-release-scene.png",
+    "bytes": 973531,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/buff-activation-scene.png",
+    "bytes": 975768,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/buff-contact.png",
+    "bytes": 730166,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/buff-flight-scene.png",
+    "bytes": 979099,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/buff-impact-scene.png",
+    "bytes": 990153,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/buff-release-scene.png",
+    "bytes": 973833,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/control-activation-scene.png",
+    "bytes": 976982,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/control-contact.png",
+    "bytes": 683856,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/control-flight-scene.png",
+    "bytes": 978491,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/control-impact-scene.png",
+    "bytes": 992012,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/control-release-scene.png",
+    "bytes": 974823,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/cast-fx-stage3/qa/enemy-self-comparison.png",
+    "bytes": 854043,
+    "reason": "generated-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/layout-centering/check-offline-layout.mjs",
+    "bytes": 3051,
+    "reason": "retired-map-candidate-helper"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-1280x720.png",
+    "bytes": 899019,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-1366x768.png",
+    "bytes": 999991,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-1440x900.png",
+    "bytes": 1169062,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-1672x941.png",
+    "bytes": 1288054,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-1920x1080.png",
+    "bytes": 1622400,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-900x941.png",
+    "bytes": 738543,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-background.png",
+    "bytes": 2524,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-board.png",
+    "bytes": 382327,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-body.png",
+    "bytes": 1497,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/cliff-frame.png",
+    "bytes": 1390,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/crystal-1672x941.png",
+    "bytes": 1104660,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/crystal-background.png",
+    "bytes": 2524,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/crystal-board.png",
+    "bytes": 339908,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/crystal-body.png",
+    "bytes": 1497,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/crystal-frame.png",
+    "bytes": 1411,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/finish-layout.mjs",
+    "bytes": 4389,
+    "reason": "retired-map-candidate-helper"
+  },
+  {
+    "path": "art-preproduction/layout-centering/forest-1672x941.png",
+    "bytes": 1264902,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/forest-background.png",
+    "bytes": 1207655,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/forest-board.png",
+    "bytes": 433859,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/forest-body.png",
+    "bytes": 1497,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/forest-frame.png",
+    "bytes": 487301,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/furnace-1672x941.png",
+    "bytes": 1302540,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/furnace-background.png",
+    "bytes": 2524,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/furnace-board.png",
+    "bytes": 380049,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/furnace-body.png",
+    "bytes": 1497,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/furnace-frame.png",
+    "bytes": 1411,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/game-before.html",
+    "bytes": 12992858,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/ruins-1672x941.png",
+    "bytes": 1142703,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/ruins-background.png",
+    "bytes": 2524,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/ruins-board.png",
+    "bytes": 355153,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/ruins-body.png",
+    "bytes": 1497,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/ruins-frame.png",
+    "bytes": 1411,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/layout-centering/update-preview.mjs",
+    "bytes": 746,
+    "reason": "retired-map-candidate-helper"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/背景棋盘精修预览.html",
+    "bytes": 20399827,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/cliff-after.png",
+    "bytes": 748263,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/cliff-background.png",
+    "bytes": 215817,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/cliff-before.png",
+    "bytes": 744676,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/cliff-board.png",
+    "bytes": 246908,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/cliff-body.png",
+    "bytes": 50802,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/cliff-comparison.png",
+    "bytes": 1335712,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/cliff-frame.png",
+    "bytes": 50177,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/crystal-after.png",
+    "bytes": 493722,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/crystal-background.png",
+    "bytes": 90049,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/crystal-before.png",
+    "bytes": 481428,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/crystal-board.png",
+    "bytes": 218955,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/crystal-body.png",
+    "bytes": 44126,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/crystal-frame.png",
+    "bytes": 57192,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/forest-after.png",
+    "bytes": 1223932,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/forest-background.png",
+    "bytes": 1278336,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/forest-before.png",
+    "bytes": 1219276,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/forest-board.png",
+    "bytes": 361114,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/forest-body.png",
+    "bytes": 46539,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/forest-frame.png",
+    "bytes": 487301,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/furnace-after.png",
+    "bytes": 783782,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/furnace-background.png",
+    "bytes": 114386,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/furnace-before.png",
+    "bytes": 776389,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/furnace-board.png",
+    "bytes": 233416,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/furnace-body.png",
+    "bytes": 61338,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/furnace-frame.png",
+    "bytes": 38242,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/index.html",
+    "bytes": 20399827,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original-offline.html",
+    "bytes": 8559750,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/cliff-board.svg",
+    "bytes": 36453,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/cliff-canyon.svg",
+    "bytes": 7586,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/cliff-stage-left.svg",
+    "bytes": 17218,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/cliff-stage-right.svg",
+    "bytes": 17218,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/crystal-board.svg",
+    "bytes": 39203,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/crystal-landscape.svg",
+    "bytes": 8018,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/crystal-stage.svg",
+    "bytes": 13639,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/furnace-board.svg",
+    "bytes": 40986,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/furnace-hall.svg",
+    "bytes": 7645,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/furnace-stage.svg",
+    "bytes": 10114,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/ruins-board.svg",
+    "bytes": 38249,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/ruins-stage.svg",
+    "bytes": 11293,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/maps/ruins-temple.svg",
+    "bytes": 8429,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/original/toy-board.svg",
+    "bytes": 21049,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/review-loading-proof.png",
+    "bytes": 524663,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/ruins-after.png",
+    "bytes": 511960,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/ruins-background.png",
+    "bytes": 91839,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/ruins-before.png",
+    "bytes": 500583,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/ruins-board.png",
+    "bytes": 234851,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/ruins-body.png",
+    "bytes": 81371,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/native-map-polish/ruins-frame.png",
+    "bytes": 45218,
+    "reason": "historical-map-layout-review-output"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/背景棋盘精修预览.html",
+    "bytes": 38745797,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/after-qa.json",
+    "bytes": 3082,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/approved-reference.png",
+    "bytes": 2895776,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/browser-raster.mjs",
+    "bytes": 1023,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/build-review.mjs",
+    "bytes": 3869164,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/capture-review.mjs",
+    "bytes": 7214,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-after.png",
+    "bytes": 1288054,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-background-painted.png",
+    "bytes": 1797188,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-background.png",
+    "bytes": 991415,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-before.png",
+    "bytes": 748263,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-board.png",
+    "bytes": 382327,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-body.png",
+    "bytes": 386468,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-comparison.png",
+    "bytes": 1856103,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-frame.png",
+    "bytes": 125242,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/cliff-platform-painted.png",
+    "bytes": 1280008,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/crystal-after.png",
+    "bytes": 1104660,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/crystal-background-painted.png",
+    "bytes": 1623994,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/crystal-background.png",
+    "bytes": 897114,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/crystal-before.png",
+    "bytes": 493722,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/crystal-board.png",
+    "bytes": 339908,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/crystal-body.png",
+    "bytes": 360500,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/crystal-frame.png",
+    "bytes": 193006,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/crystal-platform-painted.png",
+    "bytes": 1386637,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/forest-after.png",
+    "bytes": 1264902,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/forest-background-painted.png",
+    "bytes": 2271146,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/forest-background.png",
+    "bytes": 1207667,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/forest-before.png",
+    "bytes": 1223932,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/forest-board-painted.png",
+    "bytes": 1543224,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/forest-board.png",
+    "bytes": 433859,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/forest-body.png",
+    "bytes": 503819,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/forest-frame.png",
+    "bytes": 396403,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/furnace-after.png",
+    "bytes": 1302540,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/furnace-background-painted.png",
+    "bytes": 1623617,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/furnace-background.png",
+    "bytes": 893858,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/furnace-before.png",
+    "bytes": 783782,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/furnace-board.png",
+    "bytes": 380049,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/furnace-body.png",
+    "bytes": 479158,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/furnace-frame.png",
+    "bytes": 208080,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/furnace-platform-painted.png",
+    "bytes": 1729004,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/index.html",
+    "bytes": 38745797,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/cliff-background.png",
+    "bytes": 362550,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/cliff-platform.png",
+    "bytes": 358505,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/cliff-platform.svg",
+    "bytes": 58377,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/crystal-background.png",
+    "bytes": 151122,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/crystal-platform.png",
+    "bytes": 298742,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/crystal-platform.svg",
+    "bytes": 55658,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/forest-background.png",
+    "bytes": 3297919,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/forest-board.png",
+    "bytes": 86225,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/furnace-background.png",
+    "bytes": 161836,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/furnace-platform.png",
+    "bytes": 287984,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/furnace-platform.svg",
+    "bytes": 57501,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/ruins-background.png",
+    "bytes": 124341,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/ruins-platform.png",
+    "bytes": 307667,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/inputs/ruins-platform.svg",
+    "bytes": 54080,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/install-painted-art.mjs",
+    "bytes": 3903,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/loading-qa.json",
+    "bytes": 5635,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/offline-art-update.json",
+    "bytes": 2980,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original-offline.html",
+    "bytes": 8506810,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/cliff-backdrop.svg",
+    "bytes": 7586,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/cliff-board.svg",
+    "bytes": 29102,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/cliff-frame.svg",
+    "bytes": 17218,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/cliff-stageRight.svg",
+    "bytes": 17218,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/crystal-backdrop.svg",
+    "bytes": 8018,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/crystal-board.svg",
+    "bytes": 30015,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/crystal-frame.svg",
+    "bytes": 13639,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/forest-backdrop.webp",
+    "bytes": 245798,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/forest-board.svg",
+    "bytes": 13698,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/forest-frame.webp",
+    "bytes": 251106,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/furnace-backdrop.svg",
+    "bytes": 7645,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/furnace-board.svg",
+    "bytes": 33635,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/furnace-frame.svg",
+    "bytes": 10114,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/ruins-backdrop.svg",
+    "bytes": 8429,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/ruins-board.svg",
+    "bytes": 29785,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/original/ruins-frame.svg",
+    "bytes": 11293,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/prepare-inputs.mjs",
+    "bytes": 2143,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/prepare-review.mjs",
+    "bytes": 4660,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/prompts.json",
+    "bytes": 14102,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/REPORT.md",
+    "bytes": 2736,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/review-page-checked.png",
+    "bytes": 1014368,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/ruins-after.png",
+    "bytes": 1142703,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/ruins-background-painted.png",
+    "bytes": 1725715,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/ruins-background.png",
+    "bytes": 947050,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/ruins-before.png",
+    "bytes": 511960,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/ruins-board.png",
+    "bytes": 355153,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/ruins-body.png",
+    "bytes": 519163,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/ruins-frame.png",
+    "bytes": 189247,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/ruins-platform-painted.png",
+    "bytes": 1715222,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/static-art-qa.json",
+    "bytes": 1212,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/update-offline-art.mjs",
+    "bytes": 1976,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/validate-loading.mjs",
+    "bytes": 3118,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/painted-map-polish/validate-static-art.mjs",
+    "bytes": 3444,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round1/previews/review-desktop-verified.png",
+    "bytes": 1131497,
+    "reason": "duplicate-offline-export-or-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/round1/previews/review-mobile-verified.png",
+    "bytes": 323294,
+    "reason": "duplicate-offline-export-or-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/round2/离线美术预览.html",
+    "bytes": 51119419,
+    "reason": "duplicate-offline-export-or-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-background.png",
+    "bytes": 2067403,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-board.png",
+    "bytes": 306028,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-body-grid.png",
+    "bytes": 214533,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-body.png",
+    "bytes": 218242,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-foliage.png",
+    "bytes": 11941,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-frame.png",
+    "bytes": 94151,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-frame.svg",
+    "bytes": 60682,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-plate.png",
+    "bytes": 1976777,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-well-0.png",
+    "bytes": 8715,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-well-1.png",
+    "bytes": 8707,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/cliff-well-2.png",
+    "bytes": 8821,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-background.png",
+    "bytes": 1973688,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-board.png",
+    "bytes": 277045,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-body-grid.png",
+    "bytes": 200883,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-body.png",
+    "bytes": 204480,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-frame.png",
+    "bytes": 77141,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-frame.svg",
+    "bytes": 30183,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-plate.png",
+    "bytes": 2183998,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-well-0.png",
+    "bytes": 8753,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-well-1.png",
+    "bytes": 8752,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/crystal-well-2.png",
+    "bytes": 8742,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-background.png",
+    "bytes": 2319937,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-board.png",
+    "bytes": 282530,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-body-grid.png",
+    "bytes": 222754,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-body.png",
+    "bytes": 226543,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-foliage.png",
+    "bytes": 11941,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-frame.png",
+    "bytes": 61660,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-frame.svg",
+    "bytes": 61865,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-plate.png",
+    "bytes": 1989597,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-well-0.png",
+    "bytes": 8961,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-well-1.png",
+    "bytes": 8756,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/forest-well-2.png",
+    "bytes": 8671,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-background.png",
+    "bytes": 2058285,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-board.png",
+    "bytes": 252820,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-body-grid.png",
+    "bytes": 195655,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-body.png",
+    "bytes": 199289,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-frame.png",
+    "bytes": 59931,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-frame.svg",
+    "bytes": 26907,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-plate.png",
+    "bytes": 1914989,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-well-0.png",
+    "bytes": 8147,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-well-1.png",
+    "bytes": 7896,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/furnace-well-2.png",
+    "bytes": 7844,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-background.png",
+    "bytes": 2197390,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-board.png",
+    "bytes": 279576,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-body-grid.png",
+    "bytes": 218281,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-body.png",
+    "bytes": 221670,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-foliage.png",
+    "bytes": 11941,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-frame.png",
+    "bytes": 63082,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-frame.svg",
+    "bytes": 58533,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-plate.png",
+    "bytes": 2048450,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-well-0.png",
+    "bytes": 9048,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-well-1.png",
+    "bytes": 8968,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/assets/maps/ruins-well-2.png",
+    "bytes": 8588,
+    "reason": "withdrawn-map-candidate"
+  },
+  {
+    "path": "art-preproduction/round2/previews/review-desktop.png",
+    "bytes": 3638638,
+    "reason": "duplicate-offline-export-or-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/round2/previews/review-mobile.png",
+    "bytes": 973180,
+    "reason": "duplicate-offline-export-or-qa-screenshot"
+  },
+  {
+    "path": "art-preproduction/round2/spec/build-review.mjs",
+    "bytes": 5671,
+    "reason": "retired-map-candidate-helper"
+  },
+  {
+    "path": "references/maps/cliff-canyon-source.png",
+    "bytes": 2288521,
+    "reason": "unadopted-map-source"
+  },
+  {
+    "path": "references/maps/cliff-source.png",
+    "bytes": 2451360,
+    "reason": "unadopted-map-source"
+  },
+  {
+    "path": "references/maps/crystal-source.png",
+    "bytes": 2166136,
+    "reason": "unadopted-map-source"
+  },
+  {
+    "path": "references/maps/ruins-source.png",
+    "bytes": 2747219,
+    "reason": "unadopted-map-source"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/cliff-1366.png",
+    "bytes": 710994,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/cliff-1920.png",
+    "bytes": 861224,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/cliff-390.png",
+    "bytes": 253065,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/crystal-1366.png",
+    "bytes": 678269,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/crystal-1920.png",
+    "bytes": 947831,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/crystal-390.png",
+    "bytes": 218474,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/forest-1366.png",
+    "bytes": 1070509,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/forest-1920.png",
+    "bytes": 1510564,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/forest-390.png",
+    "bytes": 305994,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/furnace-1366.png",
+    "bytes": 948647,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/furnace-1920.png",
+    "bytes": 1351153,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/furnace-390.png",
+    "bytes": 344750,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/ruins-1366.png",
+    "bytes": 555351,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/ruins-1920.png",
+    "bytes": 625177,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/board-decoration/ruins-390.png",
+    "bytes": 188008,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/attack-flight.png",
+    "bytes": 1192004,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/attack-impact.png",
+    "bytes": 1199186,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/attack-release.png",
+    "bytes": 1202803,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/battle-1366.png",
+    "bytes": 977248,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/buff-flight.png",
+    "bytes": 1192536,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/buff-impact.png",
+    "bytes": 1205104,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/buff-release.png",
+    "bytes": 1195259,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/control-flight.png",
+    "bytes": 1431072,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/control-impact.png",
+    "bytes": 1434988,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/control-release.png",
+    "bytes": 1398758,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/card-cast-integration/offline-battle.png",
+    "bytes": 1168451,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/battle-1024.png",
+    "bytes": 545240,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/battle-1366.png",
+    "bytes": 695336,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/battle-1440.png",
+    "bytes": 836381,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/battle-1920.png",
+    "bytes": 994972,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/blackhole.png",
+    "bytes": 826381,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/energy-motes-bright.png",
+    "bytes": 763902,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/energy-motes.png",
+    "bytes": 808353,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/fire-wave.png",
+    "bytes": 761067,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/freeze.png",
+    "bytes": 960731,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/meteor-aim.png",
+    "bytes": 930720,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/meteor-fall.png",
+    "bytes": 781171,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/meteor-impact.png",
+    "bytes": 922422,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/offline-battle.png",
+    "bytes": 453324,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-12/cards-round2/selection.png",
+    "bytes": 350446,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/battle-1366x768.png",
+    "bytes": 1184394,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/battle-1920x1080.png",
+    "bytes": 2008537,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/fog-first-expired.png",
+    "bytes": 995053,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/magic-reticle.png",
+    "bytes": 1137798,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/offline-battle.png",
+    "bytes": 1038437,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/quake-busy-start.png",
+    "bytes": 1078550,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/quake-progress.png",
+    "bytes": 1051312,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/rainbow-selected-edge.png",
+    "bytes": 1031070,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/ruins-fog-overlap.png",
+    "bytes": 994611,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/battle-ui-polish/ruins-fog-pillars.png",
+    "bytes": 987039,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/card-audio-r1/card-audio-r1-review.zip",
+    "bytes": 4779960,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/card-audio-r1/preview-candidates.png",
+    "bytes": 112059,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/card-audio-r1/preview-desktop.png",
+    "bytes": 105252,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/card-audio-r1/preview-mobile.png",
+    "bytes": 52366,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/fog-shape/before-rectangle.png",
+    "bytes": 1058375,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/fog-shape/board-edge.png",
+    "bytes": 1078317,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/fog-shape/fade.png",
+    "bytes": 1086107,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/fog-shape/fog-cast-and-fade.webm",
+    "bytes": 353652,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/fog-shape/partial-overlap.png",
+    "bytes": 1026409,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/fog-shape/ruins-natural-cloud.png",
+    "bytes": 1024256,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/battle-1366x768.png",
+    "bytes": 1144360,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/battle-1440x900.png",
+    "bytes": 1371775,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/battle-1912x914.png",
+    "bytes": 1815903,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/battle-1920x1080.png",
+    "bytes": 1965236,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/draw-in-flight.png",
+    "bytes": 1616637,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/offline-battle.png",
+    "bytes": 1676448,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/offline-selection.png",
+    "bytes": 2007670,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/selection-1024x600.png",
+    "bytes": 692926,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/selection-1366x768.png",
+    "bytes": 1109385,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/selection-1440x960.png",
+    "bytes": 1451242,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/selection-1912x914.png",
+    "bytes": 1992750,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/selection-1920x1080.png",
+    "bytes": 2364550,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/selection-375x568.png",
+    "bytes": 266569,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/selection-390x844.png",
+    "bytes": 402021,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/interface-feedback/selection-844x390.png",
+    "bytes": 401756,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-battle-1024x600.png",
+    "bytes": 721936,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-battle-1024x768.png",
+    "bytes": 853502,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-battle-1366x768.png",
+    "bytes": 1189296,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-battle-1440x960.png",
+    "bytes": 1455257,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-battle-1920x1080.png",
+    "bytes": 2006825,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-battle-375x568.png",
+    "bytes": 210826,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-battle-390x844.png",
+    "bytes": 355448,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-battle-844x390.png",
+    "bytes": 339277,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-selection-1024x600.png",
+    "bytes": 728323,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-selection-1024x768.png",
+    "bytes": 918564,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-selection-1366x768.png",
+    "bytes": 1096800,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-selection-1920x1080.png",
+    "bytes": 2397551,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-selection-375x568.png",
+    "bytes": 289808,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-selection-390x844.png",
+    "bytes": 442670,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/after-selection-844x390.png",
+    "bytes": 445474,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/before-battle-1024x600.png",
+    "bytes": 738880,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/before-battle-1920x1080.png",
+    "bytes": 1972689,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/before-selection-1024x600.png",
+    "bytes": 691620,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/before-selection-1920x1080.png",
+    "bytes": 2359233,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/drag-target.png",
+    "bytes": 1186081,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/hover-1024x600.png",
+    "bytes": 723579,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/hover-1024x768.png",
+    "bytes": 858001,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/hover-1366x768.png",
+    "bytes": 1193522,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/hover-1440x960.png",
+    "bytes": 1457972,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/hover-1920x1080.png",
+    "bytes": 2010249,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/hover-375x568.png",
+    "bytes": 241655,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/hover-390x844.png",
+    "bytes": 364832,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/hover-844x390.png",
+    "bytes": 432496,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/layout-polish/review.html",
+    "bytes": 3621,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/drag-icon.png",
+    "bytes": 1118496,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/fire-progress.png",
+    "bytes": 978222,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/layout-debug.png",
+    "bytes": 85436,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/offline-selection.png",
+    "bytes": 1198247,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/quake-special-row.png",
+    "bytes": 1007041,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/selection-1366x768.png",
+    "bytes": 1159315,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/selection-375x568.png",
+    "bytes": 265992,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/selection-390x844.png",
+    "bytes": 403070,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/play-feedback/selection-844x390.png",
+    "bytes": 404576,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/aim-lesson-4.png",
+    "bytes": 1602588,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/cliff-warning.png",
+    "bytes": 1164988,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-1-1024x600.png",
+    "bytes": 680014,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-1-1024x768.png",
+    "bytes": 683289,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-1-1366x768.png",
+    "bytes": 1107962,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-1-1440x960.png",
+    "bytes": 1365293,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-2-1024x600.png",
+    "bytes": 615099,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-2-1024x768.png",
+    "bytes": 726809,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-2-1366x768.png",
+    "bytes": 917976,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-2-1440x960.png",
+    "bytes": 1161897,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-3-1024x600.png",
+    "bytes": 803341,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-3-1024x768.png",
+    "bytes": 976825,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-3-1366x768.png",
+    "bytes": 1360318,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-3-1440x960.png",
+    "bytes": 1574774,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-4-1024x768.png",
+    "bytes": 953920,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-4-1366x768.png",
+    "bytes": 1339379,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/lesson-4-1440x960.png",
+    "bytes": 1493110,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/offline-first-lesson.png",
+    "bytes": 1608849,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-aim-lesson-3.png",
+    "bytes": 1641094,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-basic.png",
+    "bytes": 1607385,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-buff.png",
+    "bytes": 1700231,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-card.png",
+    "bytes": 1581699,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-energy.png",
+    "bytes": 1563426,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-cliff-1024x600.png",
+    "bytes": 441500,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-cliff-1024x768.png",
+    "bytes": 524681,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-cliff-1366x768.png",
+    "bytes": 782651,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-cliff-1440x960.png",
+    "bytes": 984419,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-crystal-1024x600.png",
+    "bytes": 440605,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-crystal-1024x768.png",
+    "bytes": 523624,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-crystal-1366x768.png",
+    "bytes": 781710,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-crystal-1440x960.png",
+    "bytes": 983198,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-forest-1024x600.png",
+    "bytes": 432073,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-forest-1024x768.png",
+    "bytes": 515240,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-forest-1366x768.png",
+    "bytes": 773439,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-forest-1440x960.png",
+    "bytes": 971095,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-furnace-1024x600.png",
+    "bytes": 441041,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-furnace-1024x768.png",
+    "bytes": 534901,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-furnace-1366x768.png",
+    "bytes": 782122,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-furnace-1440x960.png",
+    "bytes": 984246,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-ruins-1024x600.png",
+    "bytes": 438338,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-ruins-1024x768.png",
+    "bytes": 521637,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-ruins-1366x768.png",
+    "bytes": 779732,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-map-ruins-1440x960.png",
+    "bytes": 981230,
+    "reason": "superseded-validation-media"
+  },
+  {
+    "path": "validation/2026-10-13/tutorial-four/presentation-strategy-row.png",
+    "bytes": 785009,
+    "reason": "superseded-validation-media"
+  }
+]

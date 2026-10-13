@@ -3,22 +3,22 @@ import {TIMING,seeded} from './engine.mjs';
 import {chooseMove,evaluateMove} from './bot.mjs';
 
 export const CARD_CONFIG=Object.freeze({deckSize:6,handLimit:6,selectionMs:60000,targetScore:15000,initialHand:0,
-  energyMax:100,naturalPerSecond:1,energyPerTile:.8,meteorPathHits:5,
-  aiPickMs:550,aiPlayMs:4200,minDrag:48,fireMs:2200,meteorMs:1600,bombMs:1800,
+  energyMax:100,naturalPerSecond:2,energyPerTile:.8,meteorPathHits:5,
+  aiPickMs:550,aiPlayMs:4200,minDrag:48,fireStartMs:640,fireMs:720,meteorMs:1600,bombMs:1800,
   freezeMs:3000,fogMs:6000,overloadMs:10000,overloadMultiplier:2,sageMs:5000,sageStepMs:650,
   luckMs:10000,luckSpecialChance:.22});
 export const CARDS=Object.freeze([
-  {id:'fire',name:'火焰冲击',color:'red',icon:'♨',text:'火浪横扫目标附近 3 格，2.2 秒后烧毁。'},
-  {id:'quake',name:'裂地横扫',color:'red',icon:'裂',text:'横扫落点所在的一横排，清除有效普通方块。'},
+  {id:'fire',name:'火焰冲击',color:'red',icon:'♨',text:'火浪横扫目标附近 3 格，划过时逐格烧毁。'},
+  {id:'quake',name:'裂地横扫',color:'red',icon:'裂',text:'横扫落点所在的一横排，包含特殊和万能方块。'},
   {id:'meteor',name:'陨石坠落',color:'red',icon:'☄',text:'贯穿目标列最多 5 格，冲击落点两侧；障碍阻挡。'},
   {id:'bomb',name:'炸弹投放',color:'red',icon:'✹',text:'指定敌方落点，1.8 秒后引爆周围 3×3 区域。'},
   {id:'freeze',name:'时间冻结',color:'blue',icon:'❄',text:'冻结敌方棋盘 3 秒，暂停新的交换操作。'},
   {id:'blackhole',name:'黑洞吸引',color:'blue',icon:'◉',text:'牵引目标附近 6 个普通方块，轮转位置。'},
   {id:'storm',name:'混乱风暴',color:'blue',icon:'↯',text:'随机改变敌方 6 个普通方块的颜色。'},
-  {id:'fog',name:'迷雾领域',color:'blue',icon:'☁',text:'迷雾遮挡敌方部分棋盘，持续 6 秒。'},
+  {id:'fog',name:'迷雾领域',color:'blue',icon:'☁',text:'遮挡落点附近 4×4 区域，边缘贴边、空洞裁剪，持续 6 秒。'},
   {id:'overload',name:'超载模式',color:'yellow',icon:'ϟ',text:'10 秒内，自己的消除得分翻倍。'},
   {id:'sage',name:'贤者时间',color:'yellow',icon:'✧',text:'自动寻找最佳消除并操作自己的棋盘，持续 5 秒。'},
-  {id:'rainbow',name:'彩虹核心',color:'yellow',icon:'✦',text:'生成 1 个万能方块；与相邻方块交换，清除所有同色。'},
+  {id:'rainbow',name:'彩虹核心',color:'yellow',icon:'✦',text:'将选中的普通方块变为万能块；相邻交换清除所有同色。'},
   {id:'luck',name:'幸运星',color:'yellow',icon:'★',text:'10 秒内，补充方块有 22% 概率变为特殊方块。'}
 ].map(c=>Object.freeze({maxGenerationsPerMatch:c.color==='yellow'?1:Infinity,maxUsesPerMatch:c.color==='yellow'?1:Infinity,drawWeight:c.color==='yellow'?.45:1,...c,target:c.color==='yellow'?'self':'enemy',category:{red:'进攻',blue:'控制',yellow:'强化'}[c.color]})));
 export const cardById=id=>CARDS.find(c=>c.id===id);
@@ -59,7 +59,7 @@ export class CardBattle {
     this.sides={};this.originalTiles={};
     for(const [side,e] of Object.entries(session.engines)){
       const deck=decks?.[side];if(!deck||deck.length!==config.deckSize||new Set(deck).size!==config.deckSize||deck.some(id=>!cardById(id)))throw Error('A card deck must contain six unique basic cards');
-      const state=this.sides[side]={deck:[...deck],hand:[],preview:null,previewQueue:[],next:null,generated:{},used:{},energy:0,buffs:{},fogCells:[],autoDue:0};
+      const state=this.sides[side]={deck:[...deck],hand:[],preview:null,previewQueue:[],next:null,generated:{},used:{},energy:0,buffs:{},fogs:[],fogCells:[],autoDue:0};
       state.next=this.pull(side);for(let i=0;i<config.initialHand;i++)this.draw(side,0,false);
       this.originalTiles[side]=e.tile;
       e.tile=(type)=>{const tile=this.originalTiles[side].call(e,type);if(this.active&&e.now<(state.buffs.luck||0)&&this.random()<config.luckSpecialChance)tile.special=['row','column','blast'][Math.floor(this.random()*3)];return tile;};
@@ -85,10 +85,11 @@ export class CardBattle {
   }
   blocked(side,now){const b=this.sides[side].buffs;return now<(b.freeze||0);}
   manualBlocked(side,now){return this.blocked(side,now)||now<(this.sides[side].buffs.sage||0);}
-  allowed(side,command){const e=this.session.engines[side],s=this.sides[side];return !this.blocked(side,e.now)&&!this.queue.some(a=>a.targetSide===side&&a.due<=e.now)&&(side!=='opponent'||!command||!s.fogCells.includes(command.a)&&!s.fogCells.includes(command.b)||e.now>=(s.buffs.fog||0));}
+  allowed(side,command){const e=this.session.engines[side],s=this.sides[side],hidden=i=>s.fogs.some(f=>e.now<f.until&&f.cells.includes(i));return !this.blocked(side,e.now)&&!this.queue.some(a=>a.targetSide===side&&a.due<=e.now)&&(side!=='opponent'||!command||!hidden(command.a)&&!hidden(command.b));}
+  refreshFog(side,now){const s=this.sides[side];s.fogs=s.fogs.filter(f=>now<f.until);s.fogCells=[...new Set(s.fogs.flatMap(f=>f.cells))];if(s.fogs.length)s.buffs.fog=Math.max(...s.fogs.map(f=>f.until));else delete s.buffs.fog;}
   get deadline(){
     if(!this.active||this.session.status!=='playing')return Infinity;
-    return Math.min(Infinity,...this.queue.map(a=>{const due=Math.max(a.due,this.sides[a.targetSide].buffs.freeze||0);return due>this.last?due:atRest(this.session.engines[a.targetSide])?this.last:Infinity;}));
+    return Math.min(Infinity,...this.queue.map(a=>{const due=a.tx?a.due:Math.max(a.due,this.sides[a.targetSide].buffs.freeze||0);return due>this.last?due:a.tx||atRest(this.session.engines[a.targetSide])?this.last:Infinity;}));
   }
   target(side,card){return card.target==='self'?side:other(side);}
   cast(side,uid,targetSide,index,now){
@@ -104,12 +105,12 @@ export class CardBattle {
     if(s.preview){const next=s.preview;s.preview=s.previewQueue.shift()||null;s.hand.push(next);this.onChange({kind:'promote',side,card:next,destination:'hand',now});}
     const target=this.sides[targetSide];
     const duration={freeze:this.config.freezeMs,fog:this.config.fogMs,overload:this.config.overloadMs,sage:this.config.sageMs,luck:this.config.luckMs}[card.id];
-    if(duration){target.buffs[card.id]=now+duration;if(card.id==='sage')target.autoDue=now;if(card.id==='fog')target.fogCells=[...plan.cells];}
+    if(duration){target.buffs[card.id]=now+duration;if(card.id==='sage')target.autoDue=now;if(card.id==='fog'){target.fogs.push({uid,index,cells:[...plan.cells],region:{...plan.region},start:now,until:now+duration});this.refreshFog(targetSide,now);}}
     else{
       let cells=plan.cells;
-      const delay={fire:this.config.fireMs,meteor:this.config.meteorMs,bomb:this.config.bombMs}[card.id]||0;
-      const action={side,targetSide,id:card.id,index,...plan,cells,due:now+delay,created:now};this.queue.push(action);
-      if(delay)this.cues.push({...action,until:now+delay});
+      const delay={fire:this.config.fireStartMs,meteor:this.config.meteorMs,bomb:this.config.bombMs}[card.id]||0;
+      const action={side,targetSide,id:card.id,uid,index,...plan,cells,targetTileId:e.board[index].id,due:now+delay,created:now};this.queue.push(action);
+      if(delay)this.cues.push({...action,until:now+delay+(card.id==='fire'?this.config.fireMs:0)});
     }
     this.updateEffects(now);return {ok:true};
   }
@@ -117,7 +118,8 @@ export class CardBattle {
   previewTarget(side,id,index){
     const e=this.session.engines[side],valid=i=>e.board[i]&&e.ruleTerrain.cells[i]==='cell'&&!e.frozenCells.has(i);
     if(!Number.isInteger(index)||!e.board[index]||e.ruleTerrain.cells[index]!=='cell'||['fire','meteor','blackhole'].includes(id)&&!valid(index))return {cells:[],path:[],impact:[],valid:false};
-    let cells=[],path=[],impact=[],landing=index;
+    if(id==='rainbow'&&(!valid(index)||e.board[index].special||e.board[index].wild))return {cells:[],path:[],impact:[],valid:false};
+    let cells=[],path=[],impact=[],landing=index,region;
     if(id==='meteor'){
       for(let row=0;row<e.height;row++){const i=row*e.width+index%e.width;if(e.ruleTerrain.cells[i]==='obstacle')break;if(valid(i))path.push(i);}
       landing=path.at(-1)??index;
@@ -126,21 +128,27 @@ export class CardBattle {
     }else if(id==='fire')cells=e.board.flatMap((t,i)=>valid(i)&&Math.floor(i/e.width)===Math.floor(index/e.width)?[i]:[]).sort((a,b)=>Math.abs(a-index)-Math.abs(b-index)||a-b).slice(0,3).sort((a,b)=>a-b);
     else if(id==='blackhole')cells=e.board.flatMap((t,i)=>valid(i)&&!t.special&&!t.wild?[i]:[]).sort((a,b)=>{const distance=i=>Math.abs(i%e.width-index%e.width)+Math.abs(Math.floor(i/e.width)-Math.floor(index/e.width));return distance(a)-distance(b)||a-b;}).slice(0,6);
     else if(id==='bomb')cells=this.area(e,index);
-    else if(id==='quake')cells=e.board.flatMap((t,i)=>valid(i)&&!t.special&&!t.wild&&Math.floor(i/e.width)===Math.floor(index/e.width)?[i]:[]);
-    else if(id==='fog')cells=e.board.flatMap((t,i)=>valid(i)&&!t.special&&!t.wild?[i]:[]).sort((a,b)=>{const distance=i=>(i%e.width-index%e.width)**2+(Math.floor(i/e.width)-Math.floor(index/e.width))**2;return distance(a)-distance(b)||a-b;}).slice(0,12);
+    else if(id==='quake')cells=e.board.flatMap((t,i)=>valid(i)&&Math.floor(i/e.width)===Math.floor(index/e.width)?[i]:[]);
+    else if(id==='fog'){
+      // The target is the upper-left of the central 2×2. Shift the 4×4 at
+      // rectangular edges; clip holes without searching for replacement cells.
+      const width=Math.min(4,e.width),height=Math.min(4,e.height),col=Math.max(0,Math.min(e.width-width,index%e.width-1)),row=Math.max(0,Math.min(e.height-height,Math.floor(index/e.width)-1));
+      region={col,row,width,height};
+      for(let y=row;y<row+height;y++)for(let x=col;x<col+width;x++){const i=y*e.width+x;if(e.ruleTerrain.cells[i]!=='hole')cells.push(i);}
+    }
     else if(id==='freeze')cells=e.board.flatMap((t,i)=>valid(i)?[i]:[]);
     else cells=[index];
-    return {cells,path,impact,landing,valid:cells.length>0};
+    return {cells,path,impact,landing,region,valid:cells.length>0};
   }
   area(e,index){return e.board.flatMap((t,i)=>t&&e.ruleTerrain.cells[i]==='cell'&&Math.abs(i%e.width-index%e.width)<=1&&Math.abs(Math.floor(i/e.width)-Math.floor(index/e.width))<=1?[i]:[]);}
   // Use the existing clear -> fall transaction, without granting attack points.
-  clear(e,cells,points=0){
+  clear(e,cells,points=0,transaction=null,duration=TIMING.clear){
     cells=[...new Set(cells)].filter(i=>e.board[i]&&e.ruleTerrain.cells[i]==='cell');if(!cells.length)return false;
     for(const i of cells)if(e.frozenCells.has(i))e.thawTerrain(i,'clear');
-    const tx={id:++e.nextTx,columns:[...new Set(cells.map(i=>i%e.width))],depth:1,phase:'clear',end:e.now+TIMING.clear,groups:[]};
-    const tiles=cells.map(index=>({index,tile:e.board[index]}));for(const c of tx.columns)e.locks[c]=tx.id;
-    for(const i of cells)e.board[i]=null;e.stableChecked=false;e.transactions.push(tx);e.cleared+=cells.length;
-    e.score+=points;e.emit('clear',{tiles,strength:3,depth:1,points,duration:TIMING.clear,card:true});if(points)e.emit('score',{score:e.score,points,depth:1});return true;
+    const tx=transaction||{id:++e.nextTx,columns:[...new Set(cells.map(i=>i%e.width))],depth:1,phase:'clear',end:e.now+TIMING.clear,groups:[]};
+    const tiles=cells.map(index=>({index,tile:e.board[index]}));if(!transaction){for(const c of tx.columns)e.locks[c]=tx.id;e.transactions.push(tx);}
+    for(const i of cells)e.board[i]=null;e.stableChecked=false;e.cleared+=cells.length;
+    e.score+=points;e.emit('clear',{tiles,strength:3,depth:1,points,duration,card:true});if(points)e.emit('score',{score:e.score,points,depth:1});return true;
   }
   swap(side,command){
     const e=this.session.engines[side],wild=[command.a,command.b].find(i=>e.board[i]?.wild);
@@ -161,18 +169,40 @@ export class CardBattle {
   updateEffects(now){
     if(this.session.status!=='playing')return;
     for(const a of [...this.queue]){
-      const e=this.session.engines[a.targetSide];if(now<a.due||!atRest(e)||this.blocked(a.targetSide,now))continue;
-      let cells=a.cells.filter(i=>e.board[i]&&e.ruleTerrain.cells[i]==='cell'&&(!['fire','meteor','blackhole','quake'].includes(a.id)||!e.frozenCells.has(i))&&(a.id!=='quake'||!e.board[i].special&&!e.board[i].wild));
-      if(['fire','quake','meteor','bomb'].includes(a.id))this.clear(e,cells);
-      else if(a.id==='rainbow'){const i=this.pick(e,1)[0];if(i!==undefined){e.board[i]={...e.board[i],wild:true};e.emit('card-change',{index:i,card:a.id});}}
-      else{
+      const e=this.session.engines[a.targetSide];if(now<a.due||!a.tx&&(!atRest(e)||this.blocked(a.targetSide,now)))continue;
+      e.now=now;
+      let cells=a.cells.filter(i=>e.board[i]&&e.ruleTerrain.cells[i]==='cell'&&(!['fire','meteor','blackhole','quake'].includes(a.id)||!e.frozenCells.has(i)));
+      if(['fire','quake'].includes(a.id)&&cells.length){
+        if(!a.tx){
+          a.cells=cells;a.started=now;a.step=0;a.burned=[];
+          // Hold the affected columns through the sweep so gravity cannot
+          // replace a tile before the flame reaches its original cell.
+          a.hitDelay=n=>a.id==='quake'?(cells[n]-cells[0])*44:Math.max(60,Math.round((cells[n]-cells[0])/Math.max(1,cells.at(-1)-cells[0])*this.config.fireMs*.7));
+          a.tx={id:++e.nextTx,columns:cells.map(i=>i%e.width),depth:1,phase:'clear',end:now+a.hitDelay(cells.length-1)+TIMING.clear,groups:[]};
+          for(const c of a.tx.columns)e.locks[c]=a.tx.id;e.transactions.push(a.tx);e.stableChecked=false;
+          a.due=now+a.hitDelay(0);
+          this.onChange({kind:a.id+'-start',uid:a.uid,side:a.side,targetSide:a.targetSide,cells:[...cells],hitDelays:cells.map((_,n)=>a.hitDelay(n)),now});
+        }
+        while(a.step<a.cells.length&&now>=a.due){
+          const index=a.cells[a.step];if(this.clear(e,[index],0,a.tx,90))a.burned.push(index);
+          a.step++;if(a.step<a.cells.length)a.due=a.started+a.hitDelay(a.step);
+        }
+        if(a.step<a.cells.length)continue;cells=a.burned;
+      }
+      else if(['meteor','bomb'].includes(a.id))this.clear(e,cells);
+      else if(a.id==='rainbow'){
+        const i=a.index,t=e.board[i];
+        if(t?.id===a.targetTileId&&e.ruleTerrain.cells[i]==='cell'&&!e.frozenCells.has(i)&&!t.special&&!t.wild){e.board[i]={...t,wild:true};cells=[i];e.emit('card-change',{index:i,card:a.id,uid:a.uid});}
+        else {cells=[];a.reason='彩虹核心目标已变化，本次转换失效';}
+      }
+      else if(!['fire','quake'].includes(a.id)){
         cells=a.id==='blackhole'?cells.filter(i=>!e.board[i].special&&!e.board[i].wild):this.pick(e,6);
         if(a.id==='blackhole'){const tiles=cells.map(i=>e.board[i]),moves=cells.map((from,n)=>({tile:tiles[n],from,to:cells[(n+cells.length-1)%cells.length],control:a.index}));cells.forEach((i,n)=>e.board[i]=tiles[(n+1)%tiles.length]);e.emit('card-change',{cells,card:a.id,moves,duration:420});}
         if(a.id==='storm')for(const i of cells)e.board[i]={...e.board[i],type:(e.board[i].type+1+Math.floor(this.random()*4))%5};
         e.stableChecked=false;if(a.id!=='blackhole')e.emit('card-change',{cells,card:a.id});
       }
-      this.queue=this.queue.filter(q=>q!==a);this.cues=this.cues.filter(q=>q.created!==a.created||q.id!==a.id||q.targetSide!==a.targetSide);
-      this.onChange({kind:'effect',side:a.side,targetSide:a.targetSide,id:a.id,index:a.index,cells,landing:a.landing,path:a.path,now});
+      this.queue=this.queue.filter(q=>q!==a);this.cues=this.cues.filter(q=>q.uid!==a.uid);
+      this.onChange({kind:'effect',uid:a.uid,side:a.side,targetSide:a.targetSide,id:a.id,index:a.index,cells,landing:a.landing,path:a.path,reason:a.reason,now});
       if(this.session.status!=='playing')break;
     }
   }
@@ -181,7 +211,7 @@ export class CardBattle {
     const dt=Math.max(0,now-this.last)/1000;this.last=now;
     for(const side of ['player','opponent']){
       const s=this.sides[side];this.gain(side,dt*this.config.naturalPerSecond,now);
-      if(now>=(s.buffs.fog||0))s.fogCells=[];
+      this.refreshFog(side,now);
       if(s.buffs.freeze&&now>=s.buffs.freeze){delete s.buffs.freeze;this.onChange({kind:'thaw',side,now});}
     }
     this.updateEffects(now);
@@ -201,9 +231,9 @@ export class CardBattle {
     if(now>=this.aiDue&&this.session.status==='playing'){
       this.aiDue=now+this.config.aiPlayMs;const hand=this.sides.opponent.hand;
       if(hand.length){const instance=hand[Math.floor(this.random()*hand.length)],card=cardById(instance.id),side=this.target('opponent',card),e=this.session.engines[side];
-        const cells=e.board.flatMap((t,i)=>t&&e.ruleTerrain.cells[i]==='cell'?[i]:[]);if(cells.length)this.cast('opponent',instance.uid,side,cells[Math.floor(this.random()*cells.length)],now);}
+        const cells=e.board.flatMap((t,i)=>t&&this.previewTarget(side,card.id,i).valid?[i]:[]);if(cells.length)this.cast('opponent',instance.uid,side,cells[Math.floor(this.random()*cells.length)],now);}
     }
   }
-  stop(){this.active=false;this.queue=[];this.cues=[];for(const s of Object.values(this.sides)){s.buffs={};s.fogCells=[];}}
+  stop(){this.active=false;this.queue=[];this.cues=[];for(const s of Object.values(this.sides)){s.buffs={};s.fogs=[];s.fogCells=[];}}
   dispose(){this.stop();for(const [side,e] of Object.entries(this.session.engines))e.tile=this.originalTiles[side];}
 }

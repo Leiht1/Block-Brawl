@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#a8dcf2"><title>方块乱斗 · 森林训练营</title><meta name="description" content="完成六关新手教学，练习三消、光束、爆破与组合技。"><link rel="icon" href="assets/brandmark.svg" type="image/svg+xml"><link rel="preload" href="assets/jungle-scenery.webp" as="image"><link rel="stylesheet" href="style.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#a8dcf2"><title>方块乱斗 · 森林训练营</title><meta name="description" content="完成四关短教学，动手体验三消、地图环境、魔法卡牌与留牌策略。"><link rel="icon" href="assets/brandmark.svg" type="image/svg+xml"><link rel="preload" href="assets/jungle-scenery.webp" as="image"><link rel="stylesheet" href="style.css"></head>
 <body>
 <div class="tools audio-controls" aria-label="声音设置"><button id="music" data-audio-setting="music" aria-pressed="true">♪ 音乐开</button><button id="sound" data-audio-setting="sound" aria-pressed="true">♫ 音效开</button></div>
 <div id="scene-softener" class="scene-softener" aria-hidden="true" hidden></div>
@@ -10,7 +10,7 @@
   <h1><span class="game-logo"><span class="sr-only">方块乱斗</span></span></h1>
   <div class="sandbox-sign">✦ 森林训练营 ✦</div>
   <div class="home-actions tools">
-    <button id="open-tutorial">★ 新手教学 <small id="home-progress">训练进度 0 / 6</small></button>
+    <button id="open-tutorial">★ 新手教学 <small id="home-progress">训练进度 0 / 4</small></button>
     <button disabled>单人挑战 <small>暂未开放</small></button>
     <button disabled>竞技匹配 <small id="qualification">完成全部教学后获得竞技资格</small></button>
     <button id="open-arena">⚔ 人机对战 <small>消除＋卡牌 · 先到 15000 分获胜</small></button>
@@ -20,14 +20,12 @@
 </section>
 <section id="level-screen" class="front-screen" aria-label="新手教学选关" hidden>
   <h1><span class="game-logo"><span class="sr-only">方块乱斗</span></span></h1>
-  <div class="sandbox-sign">✦ 六关训练 · 点亮竞技资格 ✦</div>
+  <div class="sandbox-sign" id="tutorial-path-status">✦ 四关短教学 · 约6–8分钟 ✦</div>
   <div class="level-path">
-    <button data-level="0"><b>1</b><span>基础三消<small>开始训练</small></span></button>
-    <button data-level="1" disabled><b>2</b><span>四消技巧<small>未解锁</small></span></button>
-    <button data-level="2" disabled><b>3</b><span>五消技巧<small>未解锁</small></span></button>
-    <button data-level="3" disabled><b>4</b><span>主动引爆<small>未解锁</small></span></button>
-    <button data-level="4" disabled><b>5</b><span>组合技巧<small>未解锁</small></span></button>
-    <button data-level="5" disabled><b>6</b><span>综合实战<small>未解锁</small></span></button>
+    <button data-level="0"><b>1</b><span>方块入门<small>开始训练</small></span></button>
+    <button data-level="1" disabled><b>2</b><span>地图会捣乱<small>未解锁</small></span></button>
+    <button data-level="2" disabled><b>3</b><span>魔法卡牌<small>未解锁</small></span></button>
+    <button data-level="3" disabled><b>4</b><span>卡牌策略<small>未解锁</small></span></button>
   </div>
   <div class="tools"><button id="level-back">‹ 返回主界面</button></div>
 </section>
@@ -61,7 +59,7 @@
     <div class="special-guide"><h2>碰出大连击</h2><div class="special-examples" aria-hidden="true"><i class="mini-tile row-tile"></i><i class="mini-tile column-tile"></i><i class="mini-tile blast-tile"></i></div><div class="special-labels"><span>清行</span><span>清列</span><span>爆破</span></div><p>两个特殊方块相邻交换<br>不分颜色，直接触发组合技！</p></div>
   </aside>
   <aside id="tutorial-panel" class="practice-panel" aria-label="教学目标" hidden>
-    <div class="practice tutorial-card"><h2 id="level-title"></h2><p id="level-copy"></p><div id="goal-list" aria-live="polite"></div><strong id="moves-left"></strong><p id="tutorial-tip"></p><small>无效交换与冲突弹回不扣步。<br>一次成功交换扣一步，连击不再扣步。</small></div>
+    <div class="practice tutorial-card"><div class="tutorial-heading"><h2 id="level-title"></h2><div id="goal-list" aria-live="polite"></div></div><div class="tutorial-instruction"><p id="level-copy" aria-live="polite"></p><strong id="moves-left"></strong><p id="tutorial-tip"></p><strong id="tutorial-effect-state" hidden></strong><div id="tutorial-map-guide" hidden><img id="tutorial-map-image" alt="地图棋盘示意"><div><strong id="tutorial-map-name"></strong><p id="tutorial-map-copy"></p></div></div></div><button id="tutorial-continue" class="tutorial-continue" hidden>继续</button></div>
   </aside>
   <aside id="arena-scoreboard" class="arena-scoreboard" aria-label="对战比分" hidden>
     <div id="map-announcement" class="map-announcement" role="status" hidden></div>
@@ -73,20 +71,23 @@
   </aside>
   <section id="arena-panel" class="play opponent-play" aria-label="对手棋盘" hidden>
     <div class="arena-heading"><span class="side-identity"><b class="side-badge">对方</b><span id="opponent-label">森林对手</span></span><small>人机操作 · 仅供观察</small></div>
-    <div class="board-wrap"><canvas id="opponent-board" aria-label="对手的真实8乘8棋盘，仅展示"></canvas><div id="opponent-gate" class="arena-gate" hidden><strong id="opponent-countdown" class="arena-countdown" aria-live="polite"></strong><span class="ready-note">对手已准备</span></div></div>
-    <div class="board-caption"><span id="opponent-state" aria-live="polite">对手已准备</span><span id="opponent-card-summary" hidden></span></div>
+    <div class="board-wrap"><canvas id="opponent-board" aria-label="对手的真实8乘8棋盘，仅展示"></canvas><div id="tutorial-enemy-row" aria-hidden="true" hidden></div><div id="opponent-gate" class="arena-gate" hidden><strong id="opponent-countdown" class="arena-countdown" aria-live="polite"></strong><span class="ready-note">对手已准备</span></div></div>
   </section>
   <section id="card-dock" class="card-dock" aria-label="能量与卡牌手牌" hidden>
-    <aside class="card-resource"><strong id="preview-label">下一张卡牌</strong><div id="next-card"></div><div class="energy-header"><b>能量</b><span id="energy-number">0 / 100</span></div><div id="card-energy" class="card-energy" role="progressbar" aria-label="卡牌能量" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="card-energy-fill"></i></div></aside>
+    <aside id="card-resource" class="card-resource"><strong id="preview-label">下一张卡牌</strong><div id="next-card"></div><div class="energy-header"><b>能量</b><span id="energy-number">0 / 100</span></div><div id="card-energy" class="card-energy" role="progressbar" aria-label="卡牌能量" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="card-energy-fill"></i></div></aside>
     <div class="hand-area"><div class="hand-heading"><strong id="hand-count">手牌 0 / 6</strong></div><div id="card-hand" class="card-hand" aria-label="手牌，可悬停查看、点击选中、按住拖动释放"></div><p id="card-feedback" role="status"></p></div>
+  </section>
+  <section id="opponent-card-dock" class="opponent-card-dock" aria-label="对方手牌，仅显示卡背" hidden>
+    <div class="hand-heading"><strong id="opponent-hand-count">对方手牌 0 / 6</strong></div><div id="opponent-card-hand" class="card-hand" aria-label="对方手牌卡背"></div>
   </section>
   <footer>森林练习场 · 小动作，大连击。</footer>
 </main>
 <section id="deck-selection" class="deck-selection" role="dialog" aria-modal="true" aria-labelledby="deck-title" hidden>
-  <div class="deck-panel"><header class="deck-header"><div><h2 id="deck-title">选择本局卡组</h2><p id="deck-map"></p></div><div class="deck-clock"><small>准备倒计时</small><strong id="deck-timer">60 秒</strong></div></header>
-  <section class="deck-map-info" aria-label="本局地图"><div id="deck-map-preview"><div id="deck-map-platform"></div></div><div class="deck-map-copy"><small>本局地图</small><strong id="deck-map-name"></strong><p id="deck-map-description"></p></div><div id="deck-map-terrain" role="img"></div></section>
-  <div class="deck-sides"><section class="deck-player"><h3>你的卡组 <span id="deck-player-count">0 / 6</span></h3><div id="deck-slots" class="deck-slots"></div><p id="deck-tip">选择 6 张卡牌，超时自动补齐。</p><button id="deck-ready" class="deck-ready" hidden>我准备好了</button></section>
-  <section class="deck-ai"><h3>AI 卡组 <span id="deck-ai-count">0 / 6</span></h3><div id="deck-ai-slots" class="deck-ai-slots"></div><p id="deck-ai-state" aria-live="polite">AI 正在选择…</p><small>对手的选择保密，战斗中双方从 0 张手牌开始。</small></section></div>
+  <div class="deck-panel"><header class="deck-header">
+  <section class="deck-map-info" aria-label="本局地图"><div id="deck-map-preview"><div id="deck-map-platform"></div></div><div class="deck-map-copy"><strong id="deck-map-name"></strong><p id="deck-map-description"></p></div></section>
+  <div class="deck-title-copy"><h2 id="deck-title">选择本局卡组</h2><p>选择 6 张不同卡牌</p></div><div class="deck-clock"><small>准备倒计时</small><strong id="deck-timer"><span>60</span><small>秒</small></strong></div></header>
+  <div class="deck-sides"><section class="deck-player"><h3>我的卡组 <span id="deck-player-count">0 / 6</span></h3><div id="deck-slots" class="deck-slots"></div><p id="deck-tip">超时自动补齐</p><button id="deck-ready" class="deck-ready deck-ready-waiting" disabled aria-hidden="true">我准备好了</button></section>
+  <section class="deck-ai"><h3>AI 卡组 <span id="deck-ai-count">0 / 6</span></h3><div id="deck-ai-slots" class="deck-ai-slots"></div><p id="deck-ai-state" aria-live="polite">AI 正在选择…</p></section></div>
   <div class="deck-pool-heading"><b>基础卡池 · 自由组合</b><div id="deck-category-counts"></div></div><div id="card-pool" class="card-pool"></div><button id="deck-cancel" class="deck-cancel">‹ 返回难度选择</button></div>
 </section>
 <section id="result" class="result-overlay" role="dialog" aria-modal="true" aria-labelledby="result-title" hidden><div class="practice result-card"><div class="result-star" aria-hidden="true">★</div><h2 id="result-title"></h2><p id="result-copy"></p><div class="tools"><button id="result-next">进入下一关</button><button id="result-retry">↻ 重试本关</button><button id="result-back">‹ 返回选关</button></div></div></section>

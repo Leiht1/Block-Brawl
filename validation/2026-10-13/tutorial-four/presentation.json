@@ -1,0 +1,361 @@
+{
+  "date": "2026-10-13",
+  "status": "passed",
+  "checks": [
+    "bright cyan and opaque white canvas cues remain visible, with real three-step completion",
+    "five unchanged map briefs in centered square plaques at four desktop sizes; next button, text and exit state usable",
+    "energy, current card, real targeting, enemy control and self buff use high contrast cues and clear on exit",
+    "retained hand and strategy target row use cyan/white highlight at low desktop height"
+  ],
+  "lessons": [],
+  "layouts": [
+    {
+      "label": "basic-board",
+      "focus": [
+        {
+          "node": "board",
+          "color": "rgb(0, 186, 255)",
+          "shadow": "rgb(255, 255, 255) 0px 0px 0px 3px, rgb(0, 186, 255) 0px 0px 0px 8px, rgb(0, 139, 211) 0px 0px 14px 3px"
+        }
+      ]
+    },
+    {
+      "label": "energy",
+      "focus": [
+        {
+          "node": "card-resource",
+          "color": "rgb(0, 186, 255)",
+          "shadow": "rgb(255, 255, 255) 0px 0px 0px 3px, rgb(0, 186, 255) 0px 0px 0px 8px, rgb(0, 139, 211) 0px 0px 14px 3px"
+        }
+      ]
+    },
+    {
+      "label": "attack-card",
+      "focus": [
+        {
+          "node": "火焰冲击，火浪横扫目标附近 3 格，划过时逐格烧毁。",
+          "color": "rgb(0, 186, 255)",
+          "shadow": "rgb(255, 255, 255) 0px 0px 0px 3px, rgb(0, 186, 255) 0px 0px 0px 8px, rgb(0, 139, 211) 0px 0px 14px 3px"
+        }
+      ]
+    },
+    {
+      "label": "control-board",
+      "focus": [
+        {
+          "node": "opponent-board",
+          "color": "rgb(0, 186, 255)",
+          "shadow": "rgb(255, 255, 255) 0px 0px 0px 3px, rgb(0, 186, 255) 0px 0px 0px 8px, rgb(0, 139, 211) 0px 0px 14px 3px"
+        }
+      ]
+    },
+    {
+      "label": "buff",
+      "focus": [
+        {
+          "node": "己方增益",
+          "color": "rgb(0, 186, 255)",
+          "shadow": "rgb(255, 255, 255) 0px 0px 0px 3px, rgb(0, 186, 255) 0px 0px 0px 8px, rgb(0, 139, 211) 0px 0px 14px 3px"
+        }
+      ]
+    },
+    {
+      "label": "held-hand",
+      "focus": [
+        {
+          "node": "card-hand",
+          "color": "rgb(0, 186, 255)",
+          "shadow": "rgb(255, 255, 255) 0px 0px 0px 3px, rgb(0, 186, 255) 0px 0px 0px 8px, rgb(0, 139, 211) 0px 0px 14px 3px"
+        }
+      ]
+    }
+  ],
+  "readyLayouts": [],
+  "errors": [],
+  "hintPixels": {
+    "cyan": 915,
+    "white": 635
+  },
+  "mapPlaques": [
+    {
+      "map": "forest",
+      "viewport": [
+        1440,
+        960
+      ],
+      "x": 490,
+      "y": 250,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 686,
+      "copyBottom": 592.890625
+    },
+    {
+      "map": "forest",
+      "viewport": [
+        1366,
+        768
+      ],
+      "x": 453,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 496.890625
+    },
+    {
+      "map": "forest",
+      "viewport": [
+        1024,
+        768
+      ],
+      "x": 282,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 496.890625
+    },
+    {
+      "map": "forest",
+      "viewport": [
+        1024,
+        600
+      ],
+      "x": 282,
+      "y": 70,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 506,
+      "copyBottom": 412.890625
+    },
+    {
+      "map": "cliff",
+      "viewport": [
+        1440,
+        960
+      ],
+      "x": 490,
+      "y": 250,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 686,
+      "copyBottom": 604.796875
+    },
+    {
+      "map": "cliff",
+      "viewport": [
+        1366,
+        768
+      ],
+      "x": 453,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 508.796875
+    },
+    {
+      "map": "cliff",
+      "viewport": [
+        1024,
+        768
+      ],
+      "x": 282,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 508.796875
+    },
+    {
+      "map": "cliff",
+      "viewport": [
+        1024,
+        600
+      ],
+      "x": 282,
+      "y": 70,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 506,
+      "copyBottom": 424.796875
+    },
+    {
+      "map": "crystal",
+      "viewport": [
+        1440,
+        960
+      ],
+      "x": 490,
+      "y": 250,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 686,
+      "copyBottom": 604.796875
+    },
+    {
+      "map": "crystal",
+      "viewport": [
+        1366,
+        768
+      ],
+      "x": 453,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 508.796875
+    },
+    {
+      "map": "crystal",
+      "viewport": [
+        1024,
+        768
+      ],
+      "x": 282,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 508.796875
+    },
+    {
+      "map": "crystal",
+      "viewport": [
+        1024,
+        600
+      ],
+      "x": 282,
+      "y": 70,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 506,
+      "copyBottom": 424.796875
+    },
+    {
+      "map": "ruins",
+      "viewport": [
+        1440,
+        960
+      ],
+      "x": 490,
+      "y": 250,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 686,
+      "copyBottom": 604.796875
+    },
+    {
+      "map": "ruins",
+      "viewport": [
+        1366,
+        768
+      ],
+      "x": 453,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 508.796875
+    },
+    {
+      "map": "ruins",
+      "viewport": [
+        1024,
+        768
+      ],
+      "x": 282,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 508.796875
+    },
+    {
+      "map": "ruins",
+      "viewport": [
+        1024,
+        600
+      ],
+      "x": 282,
+      "y": 70,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 506,
+      "copyBottom": 424.796875
+    },
+    {
+      "map": "furnace",
+      "viewport": [
+        1440,
+        960
+      ],
+      "x": 490,
+      "y": 250,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 686,
+      "copyBottom": 604.796875
+    },
+    {
+      "map": "furnace",
+      "viewport": [
+        1366,
+        768
+      ],
+      "x": 453,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 508.796875
+    },
+    {
+      "map": "furnace",
+      "viewport": [
+        1024,
+        768
+      ],
+      "x": 282,
+      "y": 154,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 590,
+      "copyBottom": 508.796875
+    },
+    {
+      "map": "furnace",
+      "viewport": [
+        1024,
+        600
+      ],
+      "x": 282,
+      "y": 70,
+      "w": 460,
+      "h": 460,
+      "overflow": false,
+      "buttonBottom": 506,
+      "copyBottom": 424.796875
+    }
+  ]
+}

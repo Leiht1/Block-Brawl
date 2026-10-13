@@ -1,0 +1,109 @@
+{
+  "canvas": [
+    320,
+    440
+  ],
+  "export": [
+    960,
+    1320
+  ],
+  "layers": [
+    "painted illustration",
+    "painted transparent frame",
+    "editable title",
+    "editable two-line description and target"
+  ],
+  "frame": {
+    "left": -0.06,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "art": {
+    "left": 0.13,
+    "top": 0.26,
+    "width": 0.71,
+    "height": 0.48
+  },
+  "title": {
+    "left": 0.13,
+    "right": 0.15,
+    "top": 0.18,
+    "fontPx": 24
+  },
+  "description": {
+    "left": 0.17,
+    "right": 0.19,
+    "top": 0.76,
+    "height": 0.12,
+    "fontPx": 15
+  },
+  "cards": [
+    {
+      "id": "fire",
+      "name": "火焰冲击",
+      "kind": "attack",
+      "category": "进攻",
+      "lines": [
+        "火浪横扫附近3格",
+        "2.2秒后烧毁"
+      ],
+      "target": "敌方棋盘"
+    },
+    {
+      "id": "freeze",
+      "name": "时间冻结",
+      "kind": "control",
+      "category": "控制",
+      "lines": [
+        "冻结敌方棋盘3秒",
+        "暂停新的交换"
+      ],
+      "target": "敌方棋盘"
+    },
+    {
+      "id": "blackhole",
+      "name": "黑洞吸引",
+      "kind": "control",
+      "category": "控制",
+      "lines": [
+        "牵引附近6个普通方块",
+        "轮转方块位置"
+      ],
+      "target": "敌方棋盘"
+    },
+    {
+      "id": "sage",
+      "name": "贤者时间",
+      "kind": "enhance",
+      "category": "强化",
+      "lines": [
+        "自动寻找最佳消除",
+        "持续5秒"
+      ],
+      "target": "己方棋盘"
+    },
+    {
+      "id": "rainbow",
+      "name": "彩虹核心",
+      "kind": "enhance",
+      "category": "强化",
+      "lines": [
+        "生成1个万能方块",
+        "交换清除所有同色"
+      ],
+      "target": "己方棋盘"
+    },
+    {
+      "id": "meteor",
+      "name": "陨石坠落",
+      "kind": "attack",
+      "category": "进攻",
+      "lines": [
+        "纵向贯穿最多5格",
+        "两侧冲击 · 障碍阻挡"
+      ],
+      "target": "敌方棋盘"
+    }
+  ]
+}

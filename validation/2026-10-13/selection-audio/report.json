@@ -1,0 +1,329 @@
+{
+  "date": "2026-10-13",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Hover, four automatic AI picks and selection countdown changes emit no audio; the timer remains 60 seconds",
+      "passed": true
+    },
+    {
+      "name": "Empty slot and incomplete ready are silent and preserve the deck",
+      "passed": true
+    },
+    {
+      "name": "Pointer selection uses one existing ui.click",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 2340,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Clicking a selected pool card cancels with one ui.click",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 2460,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Enter selection uses the same successful click path",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 2580,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Space cancellation uses the same successful click path",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 2700,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Choose a card before slot cancellation",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 2820,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Clicking a filled deck slot cancels with one ui.click",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 2940,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Choose a card before remove-button cancellation",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 3060,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "The slot remove button cancels with one ui.click",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 3180,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Thirty rapid successful select/cancel operations create one non-overlapping recording and no queued replay",
+      "passed": true,
+      "detail": {
+        "attempts": 30,
+        "accepted": 1,
+        "finalDeck": []
+      }
+    },
+    {
+      "name": "The existing 85ms cooldown suppresses rapid feedback and permits the next settled action",
+      "passed": true
+    },
+    {
+      "name": "A seventh card rejected by the full deck is silent",
+      "passed": true
+    },
+    {
+      "name": "First successful ready plays one ui.confirm and no generic click",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.confirm",
+          "accepted": true,
+          "time": 3490,
+          "volume": 0.34
+        }
+      ]
+    },
+    {
+      "name": "Repeated ready and locked selection/removal are silent; AI and timer updates add no sound",
+      "passed": true
+    },
+    {
+      "name": "Sound off mutes selection, cancellation and ready while successful interaction and lobby music continue",
+      "passed": true
+    },
+    {
+      "name": "Music off retains successful selection sound",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 4650,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Music off retains successful cancellation sound",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.click",
+          "accepted": true,
+          "time": 4770,
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "name": "Music off retains successful ready sound",
+      "passed": true,
+      "detail": [
+        {
+          "id": "ui.confirm",
+          "accepted": true,
+          "time": 4890,
+          "volume": 0.34
+        }
+      ]
+    },
+    {
+      "name": "Music and sound switches remain independent",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "media": [
+    {
+      "action": "Pointer selection uses one existing ui.click",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Clicking a selected pool card cancels with one ui.click",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Enter selection uses the same successful click path",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Space cancellation uses the same successful click path",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Choose a card before slot cancellation",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Clicking a filled deck slot cancels with one ui.click",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Choose a card before remove-button cancellation",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "The slot remove button cancels with one ui.click",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "First successful ready plays one ui.confirm and no generic click",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-confirm-v1.wav",
+      "volume": 0.34,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Music off retains successful selection sound",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Music off retains successful cancellation sound",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "Music off retains successful ready sound",
+      "src": "http://127.0.0.1:60229/assets/audio/ui/ui-confirm-v1.wav",
+      "volume": 0.34,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    }
+  ],
+  "scope": "Selection actions, rejected actions, hover, AI/countdown silence, rapid input, independent sound/music toggles.",
+  "resources": [
+    {
+      "id": "ui.click",
+      "src": "./assets/audio/ui/ui-click-v1.wav",
+      "volume": 0.38,
+      "seconds": 0.09,
+      "cooldownMs": 85,
+      "voiceLimit": 1
+    },
+    {
+      "id": "ui.confirm",
+      "src": "./assets/audio/ui/ui-confirm-v1.wav",
+      "volume": 0.34,
+      "seconds": 0.32,
+      "cooldownMs": 350,
+      "voiceLimit": 1
+    }
+  ]
+}

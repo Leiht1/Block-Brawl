@@ -81,6 +81,8 @@ export function createAudioEvents(audio){
     },
     uiButton(button){
       if(!button||button.disabled||button.closest('[hidden], [inert]'))return false;
+      // Card selection owns its success feedback after choose/remove/ready returns.
+      if(button.id==='deck-ready'||button.closest('#card-pool, #deck-slots'))return false;
       const confirm=button.id==='arena-ready'||button.id==='open-arena';
       return emit(confirm?'ui_confirm':'ui_click');
     }

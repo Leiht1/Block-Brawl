@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13",
+  "status": "passed",
+  "checks": [
+    "selection heading shows four-lesson duration for new players and tutorial completed/free replay for qualified players"
+  ],
+  "lessons": [],
+  "layouts": [],
+  "readyLayouts": [],
+  "errors": []
+}

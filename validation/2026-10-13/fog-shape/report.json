@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-13",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "The original continuous cloud covers all 16 cell centers and keeps its silhouette beyond the 4x4 rule box",
+      "passed": true,
+      "detail": {
+        "centers": [
+          102,
+          251,
+          253,
+          247,
+          251,
+          252,
+          253,
+          252,
+          252,
+          253,
+          253,
+          252,
+          174,
+          252,
+          251,
+          251
+        ],
+        "minCenterAlpha": 102,
+        "outside4x4": 15486,
+        "bounds": {
+          "minX": 45,
+          "minY": 52,
+          "maxX": 276,
+          "maxY": 270
+        },
+        "identical": true,
+        "partialNoAlphaStack": true,
+        "partialNoAlphaStack2x": true,
+        "tailMax": 127,
+        "endMax": 0
+      }
+    },
+    {
+      "name": "Identical and partial overlaps do not add opacity at normal or double pixel density",
+      "passed": true
+    },
+    {
+      "name": "The original 1.2-second fade remains visual only and disappears at 7.2 seconds",
+      "passed": true
+    },
+    {
+      "name": "Actual hand drag retains 4x4 targeting and casts the enlarged original cloud on the real board",
+      "passed": true
+    },
+    {
+      "name": "A real cast and its gradual fade are recorded; both rule and visual instances clear at their own deadlines",
+      "passed": true
+    },
+    {
+      "name": "Natural cloud continues to cover the full planned area, including ruins pillars",
+      "passed": true,
+      "detail": [
+        {
+          "index": 18,
+          "alpha": 93
+        },
+        {
+          "index": 19,
+          "alpha": 251
+        },
+        {
+          "index": 20,
+          "alpha": 253
+        },
+        {
+          "index": 21,
+          "alpha": 247
+        },
+        {
+          "index": 26,
+          "alpha": 251
+        },
+        {
+          "index": 27,
+          "alpha": 252
+        },
+        {
+          "index": 28,
+          "alpha": 253
+        },
+        {
+          "index": 29,
+          "alpha": 252
+        },
+        {
+          "index": 34,
+          "alpha": 253
+        },
+        {
+          "index": 35,
+          "alpha": 252
+        },
+        {
+          "index": 36,
+          "alpha": 253
+        },
+        {
+          "index": 37,
+          "alpha": 253
+        },
+        {
+          "index": 42,
+          "alpha": 176
+        },
+        {
+          "index": 43,
+          "alpha": 252
+        },
+        {
+          "index": 44,
+          "alpha": 251
+        },
+        {
+          "index": 45,
+          "alpha": 251
+        }
+      ]
+    },
+    {
+      "name": "Two partially overlapping real casts retain independent six-second expiry",
+      "passed": true
+    },
+    {
+      "name": "Edge targeting preserves the original cloud and keeps drawing inside the board terrain",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "Original fog silhouette, 4x4 coverage, terrain edges/obstacles, overlap opacity, independent expiry and visual fade only.",
+  "before": {
+    "centers": [
+      207,
+      252,
+      253,
+      248,
+      252,
+      252,
+      252,
+      252,
+      252,
+      253,
+      253,
+      253,
+      246,
+      252,
+      252,
+      252
+    ],
+    "minCenterAlpha": 207,
+    "outside4x4": 0,
+    "bounds": {
+      "minX": 80,
+      "minY": 80,
+      "maxX": 239,
+      "maxY": 239
+    },
+    "identical": true,
+    "partialNoAlphaStack": false,
+    "partialNoAlphaStack2x": false,
+    "tailMax": 127,
+    "endMax": 0
+  },
+  "after": {
+    "centers": [
+      102,
+      251,
+      253,
+      247,
+      251,
+      252,
+      253,
+      252,
+      252,
+      253,
+      253,
+      252,
+      174,
+      252,
+      251,
+      251
+    ],
+    "minCenterAlpha": 102,
+    "outside4x4": 15486,
+    "bounds": {
+      "minX": 45,
+      "minY": 52,
+      "maxX": 276,
+      "maxY": 270
+    },
+    "identical": true,
+    "partialNoAlphaStack": true,
+    "partialNoAlphaStack2x": true,
+    "tailMax": 127,
+    "endMax": 0
+  }
+}

@@ -22,7 +22,23 @@ Thumbs.db
 /validation/**/*.ogg
 /validation/**/*.mp3
 /validation/**/*.mp4
+/validation/**/*.webm
+/validation/**/*.zip
 /validation/**/*.html
+
+# Rebuildable art review exports; keep source paintings and active review pages.
+/art-preproduction/**/*.zip
+/art-preproduction/card-reference-v3/卡片离线预览.html
+/art-preproduction/card-reference-v3/spec/*.png
+/art-preproduction/cast-fx-stage3/qa/*.png
+/art-preproduction/round1/previews/review-*-verified.png
+/art-preproduction/round2/previews/review-*.png
+/art-preproduction/round2/离线美术预览.html
+/art-preproduction/native-map-polish/*.png
+/art-preproduction/native-map-polish/*.html
+/art-preproduction/native-map-polish/original/
+/art-preproduction/layout-centering/*.png
+/art-preproduction/layout-centering/*.html
 
 # Downloaded audio packs and discarded source auditions.
 /references/**/*.zip

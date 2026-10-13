@@ -21,7 +21,7 @@ export class CardCastPlayback {
   }
   boardEvent(side,e,now){
     if(e.kind!=='card-change'||e.card!=='rainbow'||!Number.isInteger(e.index))return;
-    const c=this.casts.find(c=>c.id==='rainbow'&&c.targetSide===side&&!c.resolved);if(!c)return;
+    const c=this.casts.find(c=>c.id==='rainbow'&&c.targetSide===side&&!c.resolved&&(e.uid===undefined||c.uid===e.uid));if(!c)return;
     c.index=e.index;c.resolved=true;
     // If a queued skill had to wait for settlement, depart the hover point once
     // its real landing is known. This never delays the queued skill itself.
@@ -31,7 +31,7 @@ export class CardCastPlayback {
     // A rainbow action can legally finish with no ordinary tile available.
     // In that case there is no target event and no impact to invent.
     if(e.kind==='effect'&&e.id==='rainbow'){
-      const c=this.casts.find(c=>c.id==='rainbow'&&c.side===e.side&&c.targetSide===e.targetSide&&!c.resolved);
+      const c=this.casts.find(c=>c.id==='rainbow'&&c.side===e.side&&c.targetSide===e.targetSide&&!c.resolved&&(e.uid===undefined||c.uid===e.uid));
       if(c){c.noTarget=true;c.resolved=true;}
     }
   }
@@ -47,7 +47,6 @@ export function createCardCastVfx(flow,boards,ctx){
   function target(c){
     const board=boards[c.targetSide],engine=flow.arena?.engines[c.targetSide];
     if(!engine)return center(board);
-    if(!c.resolved)return center(board);
     const r=board.getBoundingClientRect();return {x:r.left+(c.index%engine.width+.5)*r.width/engine.width,y:r.top+(Math.floor(c.index/engine.width)+.5)*r.height/engine.height};
   }
   const unit=c=>{const board=boards[c.targetSide],engine=flow.arena?.engines[c.targetSide];return engine?board.getBoundingClientRect().width/engine.width:60;};
@@ -75,8 +74,8 @@ export function createCardCastVfx(flow,boards,ctx){
     }
   }
   return {render,prepare:(...args)=>playback.prepare(...args),cancel:uid=>playback.cancel(uid),reset:()=>playback.reset(),
-    event(e){if(e.kind==='cast')playback.cast(e,center(document.getElementById(e.side==='opponent'?'opponent-card-summary':'card-hand')));else playback.effect(e);},
-    boardEvent(side,e){const c=playback.casts.find(c=>c.id==='rainbow'&&c.targetSide===side&&!c.resolved);if(c&&!c.hover)c.hover=center(boards[side]);playback.boardEvent(side,e,performance.now());},
+    event(e){if(e.kind==='cast')playback.cast(e,center(document.getElementById(e.side==='opponent'?'opponent-card-hand':'card-hand')));else playback.effect(e);},
+    boardEvent(side,e){const c=playback.casts.find(c=>c.id==='rainbow'&&c.targetSide===side&&!c.resolved&&(e.uid===undefined||c.uid===e.uid));if(c&&!c.hover)c.hover=target(c);playback.boardEvent(side,e,performance.now());},
     snapshot(){return {prepared:[...playback.prepared.values()],casts:playback.casts.map(c=>({...c,origin:{...c.origin},target:target(c)})),renderer:'soft-c-v3',sizeMultiplier:1.5,loaded:0};}
   };
 }

@@ -1,0 +1,263 @@
+{
+  "mode": "after",
+  "errors": [],
+  "maps": [
+    {
+      "id": "forest",
+      "cells": 64,
+      "obstacles": 0,
+      "ui": {
+        "#board": [
+          165.5,
+          172.5,
+          480,
+          480
+        ],
+        "#opponent-board": [
+          869.5,
+          172.5,
+          480,
+          480
+        ],
+        "#arena-scoreboard": [
+          697.5,
+          256,
+          120,
+          311.984375
+        ],
+        ".menu .tools": [
+          1401.5,
+          338,
+          120,
+          148
+        ],
+        ".card-dock": [
+          135.5,
+          727.5,
+          1244,
+          183
+        ]
+      }
+    },
+    {
+      "id": "cliff",
+      "cells": 48,
+      "obstacles": 0,
+      "ui": {
+        "#board": [
+          165.5,
+          172.5,
+          480,
+          480
+        ],
+        "#opponent-board": [
+          869.5,
+          172.5,
+          480,
+          480
+        ],
+        "#arena-scoreboard": [
+          697.5,
+          256,
+          120,
+          311.984375
+        ],
+        ".menu .tools": [
+          1401.5,
+          338,
+          120,
+          148
+        ],
+        ".card-dock": [
+          135.5,
+          727.5,
+          1244,
+          183
+        ]
+      }
+    },
+    {
+      "id": "crystal",
+      "cells": 40,
+      "obstacles": 0,
+      "ui": {
+        "#board": [
+          165.5,
+          172.5,
+          480,
+          480
+        ],
+        "#opponent-board": [
+          869.5,
+          172.5,
+          480,
+          480
+        ],
+        "#arena-scoreboard": [
+          697.5,
+          256,
+          120,
+          311.984375
+        ],
+        ".menu .tools": [
+          1401.5,
+          338,
+          120,
+          148
+        ],
+        ".card-dock": [
+          135.5,
+          727.5,
+          1244,
+          183
+        ]
+      }
+    },
+    {
+      "id": "ruins",
+      "cells": 54,
+      "obstacles": 10,
+      "ui": {
+        "#board": [
+          165.5,
+          172.5,
+          480,
+          480
+        ],
+        "#opponent-board": [
+          869.5,
+          172.5,
+          480,
+          480
+        ],
+        "#arena-scoreboard": [
+          697.5,
+          256,
+          120,
+          311.984375
+        ],
+        ".menu .tools": [
+          1401.5,
+          338,
+          120,
+          148
+        ],
+        ".card-dock": [
+          135.5,
+          727.5,
+          1244,
+          183
+        ]
+      }
+    },
+    {
+      "id": "furnace",
+      "cells": 52,
+      "obstacles": 0,
+      "ui": {
+        "#board": [
+          165.5,
+          172.5,
+          480,
+          480
+        ],
+        "#opponent-board": [
+          869.5,
+          172.5,
+          480,
+          480
+        ],
+        "#arena-scoreboard": [
+          697.5,
+          256,
+          120,
+          311.984375
+        ],
+        ".menu .tools": [
+          1401.5,
+          338,
+          120,
+          148
+        ],
+        ".card-dock": [
+          135.5,
+          727.5,
+          1244,
+          183
+        ]
+      }
+    }
+  ],
+  "geometry": [
+    {
+      "asset": "toy-board.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/cliff-canyon.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/crystal-landscape.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/ruins-temple.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/furnace-hall.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/cliff-stage-left.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/cliff-stage-right.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/crystal-stage.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/ruins-stage.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/furnace-stage.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/cliff-board.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/crystal-board.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/ruins-board.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    },
+    {
+      "asset": "maps/furnace-board.svg",
+      "shapeUnchanged": true,
+      "maskUnchanged": true
+    }
+  ]
+}

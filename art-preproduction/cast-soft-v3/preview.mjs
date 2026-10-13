@@ -1,7 +1,7 @@
 import {paintSoftCast as paintCandidate} from '/effect_cast_soft_v3_final.mjs';
 import {paintSoftCast as paintOld} from '/effect_cast_soft_v1_preview.mjs';
 const $=id=>document.getElementById(id),ctx=$('scene').getContext('2d'),zoom=$('zoom').getContext('2d'),isolated=$('isolated').getContext('2d');
-const geometry=await (await fetch('/validation/2026-10-12/art-soft-c/geometry.json')).json(),background=new Image();background.src='/validation/2026-10-12/art-soft-c/battle-baseline.png';await background.decode();
+const geometry=await (await fetch('/art-preproduction/skill-body-complete-v1/source/geometry_board_soft_v1_preview.json')).json(),background=new Image();background.src='/art-preproduction/skill-body-complete-v1/source/effect_board_forest_soft_v1_preview.png';await background.decode();
 let time=0,cycle=0,playing=true,old=false,last=performance.now();
 function info(){const type=$('type').value,id={attack:'fire',control:'freeze',buff:'luck'}[type],side=type==='buff'?'player':'opponent',b=geometry.boards[side],unit=b.width/8;return {type,unit,from:geometry.origins[id],to:{x:b.x+3.5*unit,y:b.y+3.5*unit}};}
 function point(ms,from,to){const t=Math.max(0,Math.min(1,(ms-420)/380)),s=1-t,lift=Math.min(230,Math.max(70,Math.abs(to.y-from.y)*.5));return {x:s*s*s*from.x+3*s*s*t*from.x+3*s*t*t*to.x+t*t*t*to.x,y:s*s*s*from.y+3*s*s*t*(from.y-lift)+3*s*t*t*(to.y+Math.min(100,lift*.5))+t*t*t*to.y};}

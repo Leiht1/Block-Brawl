@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {MatchEngine,TIMING,findMatches,legalMoves,seeded} from '../dist/engine.mjs';
-import {LEVELS,LevelSession,TutorialProgress,PROGRESS_KEY} from '../dist/levels.mjs';
+import {LEGACY_LEVELS as LEVELS,LevelSession,TutorialProgress,PROGRESS_KEY} from '../dist/levels.mjs';
 
 function game(config){let session;const events=[];const engine=new MatchEngine({random:seeded(9),onEvent:e=>{events.push(e);session?.event(e);}});session=new LevelSession(engine,config);return {engine,session,events};}
 function settle(g){for(let i=0;i<3000;i++){g.engine.tick(g.engine.now+10);g.session.update();if(g.engine.stableChecked&&!g.engine.transactions.length)return;}assert.fail('did not settle');}
@@ -62,16 +62,16 @@ test('preset and per-column refill sequences are reusable, copied, and validated
   assert.deepEqual(config.refills,{1:[4],2:[3],3:[2]});
   assert.throws(()=>g.engine.loadLevel({...config,board:[0]}));assert.throws(()=>g.engine.loadLevel({...config,refills:{8:[0]}}));
 });
-test('progress unlocks in sequence, reloads, permits replays and grants qualification only after six wins',()=>{
+test('progress unlocks in sequence, reloads, permits replays and grants qualification only after four wins',()=>{
   const map=new Map(),storage={getItem:k=>map.get(k)||null,setItem:(k,v)=>map.set(k,v)};
   let p=new TutorialProgress(storage);assert.equal(p.finish(4),false);assert.equal(p.qualified,false);
-  for(let i=0;i<6;i++){assert.equal(p.unlocked(i),true);assert.equal(p.finish(i),true);p=new TutorialProgress(storage);assert.equal(p.completed,i+1);assert.equal(p.qualified,i===5);}
-  p.finish(0);assert.equal(new TutorialProgress(storage).completed,6);assert.equal(p.unlocked(6),false);
+  for(let i=0;i<4;i++){assert.equal(p.unlocked(i),true);assert.equal(p.finish(i),true);p=new TutorialProgress(storage);assert.equal(p.completed,i+1);assert.equal(p.qualified,i===3);}
+  p.finish(0);assert.equal(new TutorialProgress(storage).completed,4);assert.equal(p.unlocked(4),false);
 });
 test('corrupt or unavailable storage degrades safely without phantom unlocks',()=>{
   for(const raw of ['bad','{"version":1,"completed":99}','{"version":1,"completed":2.5}','{"version":2,"completed":6}']){
     const p=new TutorialProgress({getItem:()=>raw});assert.equal(p.completed,0);assert.equal(p.qualified,false);
   }
   const p=new TutorialProgress({getItem(){throw Error('blocked');},setItem(){throw Error('full');}});
-  assert.equal(p.finish(0),true);assert.equal(p.completed,1);assert.equal(p.saved,false);assert.equal(PROGRESS_KEY,'block-brawl.tutorial.v1');
+  assert.equal(p.finish(0),true);assert.equal(p.completed,1);assert.equal(p.saved,false);assert.equal(PROGRESS_KEY,'block-brawl.tutorial.v2');
 });

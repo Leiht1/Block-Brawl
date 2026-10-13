@@ -1,0 +1,889 @@
+[
+  {
+    "slug": "magic-spell-sfx",
+    "author": "JaggedStone",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/magic-spell-sfx",
+    "evidence": "magic-spell-sfx.html",
+    "evidenceSha256": "dc0a427a451d740ae1e66c6c49fab7925e27f259161a7a11a83181d367087cbb",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/magical_1_0.ogg",
+        "file": "magic-spell-sfx/magical_1_0.ogg",
+        "originalFilename": "magical_1.ogg",
+        "sha256": "119f9061a566c72c1c58444b03f8685b833079ef268dda02fe742eb34d3bc68f"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/magical_2.ogg",
+        "file": "magic-spell-sfx/magical_2.ogg",
+        "originalFilename": "magical_2.ogg",
+        "sha256": "84a70f63f3f21e5ba4a48285b760a663d422ad3feddba2f3cbadd94b76cdc52e"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/magical_3.ogg",
+        "file": "magic-spell-sfx/magical_3.ogg",
+        "originalFilename": "magical_3.ogg",
+        "sha256": "9fac648a1de869cf9ca2f4b3f1cd47f1766a3ee9d2fdec45831234401d7b2392"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/magical_4.ogg",
+        "file": "magic-spell-sfx/magical_4.ogg",
+        "originalFilename": "magical_4.ogg",
+        "sha256": "b7862d109b4013dfb2a389a10f8917203beb0efc458444bc5a1b8ada605cc118"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/magical_5.ogg",
+        "file": "magic-spell-sfx/magical_5.ogg",
+        "originalFilename": "magical_5.ogg",
+        "sha256": "69aaaaed729cacb518005a5d24074196db3c5fffc0ed2cd01ad864fbed4a62be"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/magical_6_0.ogg",
+        "file": "magic-spell-sfx/magical_6_0.ogg",
+        "originalFilename": "magical_6.ogg",
+        "sha256": "0a18ee3460cf3fd79c3771bbf94c20c26d34b65ab60d0b0e15694ffcad815955"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/magical_7_0.ogg",
+        "file": "magic-spell-sfx/magical_7_0.ogg",
+        "originalFilename": "magical_7.ogg",
+        "sha256": "2817da4f5df69ff993baffd6594a2f2a069f85ee2a02019f97db2246e350a76b"
+      }
+    ],
+    "files": [
+      {
+        "file": "magic-spell-sfx/magical_1_0.ogg",
+        "sha256": "119f9061a566c72c1c58444b03f8685b833079ef268dda02fe742eb34d3bc68f"
+      },
+      {
+        "file": "magic-spell-sfx/magical_2.ogg",
+        "sha256": "84a70f63f3f21e5ba4a48285b760a663d422ad3feddba2f3cbadd94b76cdc52e"
+      },
+      {
+        "file": "magic-spell-sfx/magical_3.ogg",
+        "sha256": "9fac648a1de869cf9ca2f4b3f1cd47f1766a3ee9d2fdec45831234401d7b2392"
+      },
+      {
+        "file": "magic-spell-sfx/magical_4.ogg",
+        "sha256": "b7862d109b4013dfb2a389a10f8917203beb0efc458444bc5a1b8ada605cc118"
+      },
+      {
+        "file": "magic-spell-sfx/magical_5.ogg",
+        "sha256": "69aaaaed729cacb518005a5d24074196db3c5fffc0ed2cd01ad864fbed4a62be"
+      },
+      {
+        "file": "magic-spell-sfx/magical_6_0.ogg",
+        "sha256": "0a18ee3460cf3fd79c3771bbf94c20c26d34b65ab60d0b0e15694ffcad815955"
+      },
+      {
+        "file": "magic-spell-sfx/magical_7_0.ogg",
+        "sha256": "2817da4f5df69ff993baffd6594a2f2a069f85ee2a02019f97db2246e350a76b"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "pleasing-bell-sound-effect",
+    "author": "Julie Damsgaard / Spring Spring / Spring Enterprises",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/pleasing-bell-sound-effect",
+    "evidence": "pleasing-bell-sound-effect.html",
+    "evidenceSha256": "16654990675df577f65dc5fb75159938365e30a7a48bad4b351479844583c056",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/pleasing-bell.wav",
+        "file": "pleasing-bell-sound-effect/pleasing-bell.wav",
+        "originalFilename": "pleasing-bell.wav",
+        "sha256": "3c851939ccf9146e49c1be0272386fdca1b1442bb034a5e6dcdfb3e0e144a411"
+      }
+    ],
+    "files": [
+      {
+        "file": "pleasing-bell-sound-effect/pleasing-bell.wav",
+        "sha256": "3c851939ccf9146e49c1be0272386fdca1b1442bb034a5e6dcdfb3e0e144a411"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "bell-dingschimes",
+    "author": "PWL",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/bell-dingschimes",
+    "evidence": "bell-dingschimes.html",
+    "evidenceSha256": "016b84505c766ac39de1912750d7e22e79efa380ae6ff80a93c9bbeab066d352",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/bell_ding1.wav",
+        "file": "bell-dingschimes/bell_ding1.wav",
+        "originalFilename": "bell_ding1.wav",
+        "sha256": "8ce40f49cd211125303df59db0da4fe911e8b2f34d3847011b15137c6b5850de"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/bell_ding2.wav",
+        "file": "bell-dingschimes/bell_ding2.wav",
+        "originalFilename": "bell_ding2.wav",
+        "sha256": "e4a764a1e0a6284f5a5ec80caf3d44c76d3ff8db17ddab8b42abb6b143e83529"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/bell_ding3.wav",
+        "file": "bell-dingschimes/bell_ding3.wav",
+        "originalFilename": "bell_ding3.wav",
+        "sha256": "99b9cdb7b9536c97c6738f1e0762cc40a3e7ef81bc774b0b6e0322aa70c96434"
+      },
+      {
+        "url": "https://opengameart.org/sites/default/files/bell_ding4.wav",
+        "file": "bell-dingschimes/bell_ding4.wav",
+        "originalFilename": "bell_ding4.wav",
+        "sha256": "b06e837aa5e5b626eba32ad87264b577164e2eab3b9180a955345d06197b6876"
+      }
+    ],
+    "files": [
+      {
+        "file": "bell-dingschimes/bell_ding1.wav",
+        "sha256": "8ce40f49cd211125303df59db0da4fe911e8b2f34d3847011b15137c6b5850de"
+      },
+      {
+        "file": "bell-dingschimes/bell_ding2.wav",
+        "sha256": "e4a764a1e0a6284f5a5ec80caf3d44c76d3ff8db17ddab8b42abb6b143e83529"
+      },
+      {
+        "file": "bell-dingschimes/bell_ding3.wav",
+        "sha256": "99b9cdb7b9536c97c6738f1e0762cc40a3e7ef81bc774b0b6e0322aa70c96434"
+      },
+      {
+        "file": "bell-dingschimes/bell_ding4.wav",
+        "sha256": "b06e837aa5e5b626eba32ad87264b577164e2eab3b9180a955345d06197b6876"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "swishes-sound-pack",
+    "author": "artisticdude",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/swishes-sound-pack",
+    "evidence": "swishes-sound-pack.html",
+    "evidenceSha256": "7d1e3025d31ae2dc905994e315c0d2f5b2e0bb34211fa527611cda2ad65a003b",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/swishes.zip",
+        "file": "swishes-sound-pack/swishes.zip",
+        "originalFilename": "swishes.zip",
+        "sha256": "7980215241b739a787dcf26f660ce510bb237900968789395a86911619795693"
+      }
+    ],
+    "files": [
+      {
+        "file": "swishes-sound-pack/swishes/swish-1.wav",
+        "sha256": "9a15c881345c1ce1c39cc31f52f081c8c4dc81fa41111e0079400f39d3ba0e45"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-10.wav",
+        "sha256": "4f7381a76f280d3f36f962ac3f44f16f77eec44797f30715d063c81ea3859024"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-11.wav",
+        "sha256": "9e81d548d8215fbb36f7a41b5771d4b52c2fd02fbb9b5ff9a4c65118fd88ee4d"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-12.wav",
+        "sha256": "0513a86d428d9ed8601e93b8554580a5932c6c1a82d39d81a8f48883f1807a67"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-13.wav",
+        "sha256": "698230ba3fe05a68c18d68cd6b3a07fb98e6c1198bb1a4238592ee9912c02c77"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-2.wav",
+        "sha256": "1ce7752cce3d43f16fc222ad7f7ffb69d9a5fc01e64b93d205765fc37b8e9b0d"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-3.wav",
+        "sha256": "55b100e2c67fa43dad8510e31e85bbd51a68d5ce84a6e0259e21e19030083e24"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-4.wav",
+        "sha256": "0060f4a7040edce4cc50d1daa10a9cb76764128a942e4688339e69cd1d5d784c"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-5.wav",
+        "sha256": "4db41f2d2f97caf94627be05ff2870217fecc86534cf30f2aab413b847a0d50a"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-6.wav",
+        "sha256": "edcaacf008da7ae692566f4fe0d6023ea68d0a014149889e95209be7ee0b746d"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-7.wav",
+        "sha256": "e6de737a34de16afed094d6170d7679149022f149e0a8356d2f029b0e8f4a4d7"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-8.wav",
+        "sha256": "113a3709ad889ad2fcf38eaceaf4eb9d67ffe1e96713fed93a6f0aed08769980"
+      },
+      {
+        "file": "swishes-sound-pack/swishes/swish-9.wav",
+        "sha256": "123883f006ce55feecbff11eea5f87c4493df4399989983037144570a23723c1"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "swish-bamboo-stick-weapon-swhoshes",
+    "author": "qubodup / Iwan Gabovitch",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+    "evidence": "swish-bamboo-stick-weapon-swhoshes.html",
+    "evidenceSha256": "e7e677ebd991ea162da4d26a08f75366b301b887b25ab58220458397ad7057a6",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/swoshes.7z",
+        "file": "swish-bamboo-stick-weapon-swhoshes/swoshes.7z",
+        "originalFilename": "swoshes.7z",
+        "sha256": "2d55b26f918a4d8042e2c97a4db81392757195f5aaac9039f5ec2c557b6f11f2"
+      }
+    ],
+    "files": [
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-01.flac",
+        "sha256": "6bacb655b1b6e6669f5b1eb44e7eaea1219b185539486c08e11240193391ebd5"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-02.flac",
+        "sha256": "6148210eed26653d305eedc7f43e0f623864d434f0f4d8e3a540f623a823ff26"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-03.flac",
+        "sha256": "2111003e4c61b8f3589f926f549ffc36094319da7b99238624c7d64e91bddc09"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-04.flac",
+        "sha256": "651afe743f1713c01b46a43a8fe099e5f866b46c22a98682c7d05728cfa4f5ae"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-05.flac",
+        "sha256": "f8e711a61eb4d6f271a2ce71ba355148bc6f53628b21292338a27a9b7673cc1e"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-06.flac",
+        "sha256": "9d21a424c5ff4b8b11974e80f5f051ea3526cc97e41f3dd7494b7037c09ec454"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-07.flac",
+        "sha256": "2c33fea0dd6daed6e68e39d13be78d90455698650415d54a9af3fdfb3f1437b2"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-08.flac",
+        "sha256": "3689120b2577d2cf6ecce7109b40502d9b1f6c96001cf8ae6adaa0d397c5d28f"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-09.flac",
+        "sha256": "df11094a3a0e071e10c78ab4aa79102b22c5efbe62bccec409dac62f2e4540b0"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-10.flac",
+        "sha256": "b475a668c84b3ed78f144793ab328b38d8c4093ceb50df546e91d2af349304f2"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-11.flac",
+        "sha256": "25aff8a91e49adcda54278e9c721657bfa47a38d98aec2c23b31fec67408e404"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-12.flac",
+        "sha256": "52cffd1c1954ce1e20b8ad9d559af30b24bb599ffdb459f148a95a429d1df79b"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-13.flac",
+        "sha256": "a22c0da4eff26f4b6171721c830f291a0ad9fe5383f23d5f4530020e995dc4de"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-14.flac",
+        "sha256": "0ad04647551b6ed65b367b8b2891967bb0ea9c1bb054f2d073a91d5e58e086aa"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-15.flac",
+        "sha256": "a32817276bb9b6029a4c04c9c80ce9cfcb5d11a143b243e57a8187a0a0032ebf"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-16.flac",
+        "sha256": "0e882f9cef2ca536fae1efa9fadcfc5f8f1fc6a1dafc55d8c2ee62a95cd71b16"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-17.flac",
+        "sha256": "4e4722a7146666727a68e72b4174ffdd773617cd3e8207c4855230c5aa8a26b5"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-18.flac",
+        "sha256": "039d324c5e3625ae58dc08743ee119bcc4d8e41a229c37aa329b647ce44aadff"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-19.flac",
+        "sha256": "2221e80d32165d65ace10f9b7539c27b7d4e54a3820bb4a529ab3b9a5df76bcf"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-20.flac",
+        "sha256": "a1c28eddda0cc420159805dc8876fa0938ba1b1a36e6d6159b6bb034ca69d79c"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-21.flac",
+        "sha256": "c282a3c7544a8fcbc8391f64be36a72560a3c0f608f50d08c5e1b77fa1bb8ed8"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-22.flac",
+        "sha256": "c2d125db98ff2d79f3a89a08a24b6618dc1f0410c2cc717e8cc83ebc6956dcca"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-23.flac",
+        "sha256": "0c02c49146094d3fc977a87128aecfaaea76e97daea3655421194374b1cc3848"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-24.flac",
+        "sha256": "4083604a369ede7c34042fe5c3b6588db098428188d6177893dc91e02d076874"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-25.flac",
+        "sha256": "0740d9ba253e7923b4d5b7b7361ba06a5259aea20070b31c54b6e4e37d3db212"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-26.flac",
+        "sha256": "7159ba26b74840da53965989c1472807891298528f94d720119777c251b3109e"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-27.flac",
+        "sha256": "4078224d10cb597c9bb64be23d0f18626701e52a81e35a0535cbf9b77771dc44"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-28.flac",
+        "sha256": "cce797041738f3da47751864391a0a010c33cede19e5aaf2bb05d422dbadac0b"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-29.flac",
+        "sha256": "83e33eabddc940a40766d24b629fb7e5cab0d034eab3ba8143c139fed9215493"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-30.flac",
+        "sha256": "83559d4d9af8bcf02b8feca60132afb3536f511edbeb8323f7ce4c99b40d8b9b"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-31.flac",
+        "sha256": "ccb30350d3310eb848a832e74cdeec5ef8ebbb731898921df29c62fdce3abc65"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-32.flac",
+        "sha256": "d8386368a6ffa8d031e067acf67ff0595888be18205a0377cff61c15b89054d2"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-33.flac",
+        "sha256": "cc1c1fb5484965350658e02fd87935db1e24bad32c3a148abf3ae7d9db38bfcb"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-34.flac",
+        "sha256": "240ef082a64d1aef1269c47551bad465cdcfd1cc1819538e70443451dcb2be9d"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-35.flac",
+        "sha256": "fdbd40ca549625bc89289d190ed938a21d379c2b081af902276bd233d8dcd9f2"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-36.flac",
+        "sha256": "2dc4925b516babed6d19c8538604b906251b1b84304f537ad4ad91466aaecc40"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-37.flac",
+        "sha256": "48d1d168111e565916a71a9d11f862fdbce56c885be8a7555b7795bb9bfa1a80"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-38.flac",
+        "sha256": "96bffd59b26022a1674a17b70a09f12330c0af1fb9a0efde1643990c602476db"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-39.flac",
+        "sha256": "ba8b1d58030abd7c6aa9146d7781429e5b4d16e6853cdfe954c2db8d459f58a1"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-40.flac",
+        "sha256": "a3fe7f88f22b04aabbe47404ddfb32bbb3b37da9a25b9698ff8950e1e63ec675"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-41.flac",
+        "sha256": "44fabafe14eef3e96c383c5e6049009cf97a88c3785721194c4613eff0e4db2b"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-42.flac",
+        "sha256": "8a841530523250872441913666484452cc00637fa99444280bf2a87d8e87b547"
+      },
+      {
+        "file": "swish-bamboo-stick-weapon-swhoshes/swosh-43.flac",
+        "sha256": "1f3936e0c997b7be0806b4d3b36da0b12ec885545819d87c722516becfb09e25"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "short-wind-sound",
+    "author": "remaxim",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/short-wind-sound",
+    "evidence": "short-wind-sound.html",
+    "evidenceSha256": "f7ab3f9aad3d10366941add7a059a6d32dac2e18a7be1a8f8e7bbc7634ce979b",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/short%20wind%20sound.wav",
+        "file": "short-wind-sound/short wind sound.wav",
+        "originalFilename": "short wind sound.wav",
+        "sha256": "4435f5ad1baf171f21f876f778d0a8a7447becea0c4955bb2566e0c63ab20f41"
+      }
+    ],
+    "files": [
+      {
+        "file": "short-wind-sound/short wind sound.wav",
+        "sha256": "4435f5ad1baf171f21f876f778d0a8a7447becea0c4955bb2566e0c63ab20f41"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "air-whoosh",
+    "author": "pyranostudios",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/air-whoosh",
+    "evidence": "air-whoosh.html",
+    "evidenceSha256": "a70ec98caa50841d70b4819efd0622b468bbc7b319d134ba8b17ad6cf1db9395",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/whoosh2_0.wav",
+        "file": "air-whoosh/whoosh2_0.wav",
+        "originalFilename": "whoosh2.wav",
+        "sha256": "d3fbff5bb78b289af16b2dfa29083f07ef83b0cbaff4514c48dfda16d082b468"
+      }
+    ],
+    "files": [
+      {
+        "file": "air-whoosh/whoosh2_0.wav",
+        "sha256": "d3fbff5bb78b289af16b2dfa29083f07ef83b0cbaff4514c48dfda16d082b468"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "wind-whoosh-loop",
+    "author": "SketchMan3",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/wind-whoosh-loop",
+    "evidence": "wind-whoosh-loop.html",
+    "evidenceSha256": "435f1023c67a7f980a183de28dd28fee256420aeb09b51a6cd5d4b2cd7bf078a",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/wind%20woosh%20loop.ogg",
+        "file": "wind-whoosh-loop/wind woosh loop.ogg",
+        "originalFilename": "wind woosh loop.ogg",
+        "sha256": "0cfdbd3f21ed449689a9024264edf267d0037a6495813a7010827672ec191dac"
+      }
+    ],
+    "files": [
+      {
+        "file": "wind-whoosh-loop/wind woosh loop.ogg",
+        "sha256": "0cfdbd3f21ed449689a9024264edf267d0037a6495813a7010827672ec191dac"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "teleport-spell",
+    "author": "Ogrebane",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/teleport-spell",
+    "evidence": "teleport-spell.html",
+    "evidenceSha256": "a5556d8732dc855704c261c817928243f5d2ef30362692dc16a53bea3c1868e5",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/teleport.wav",
+        "file": "teleport-spell/teleport.wav",
+        "originalFilename": "teleport.wav",
+        "sha256": "23fe938e7e82931227196bf6b2978ad9154f627af26623acf52958d12125f3b8"
+      }
+    ],
+    "files": [
+      {
+        "file": "teleport-spell/teleport.wav",
+        "sha256": "23fe938e7e82931227196bf6b2978ad9154f627af26623acf52958d12125f3b8"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "fire-staff-sound-effects",
+    "author": "LEGIT Audio",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/fire-staff-sound-effects",
+    "evidence": "fire-staff-sound-effects.html",
+    "evidenceSha256": "e5779893315964a05c753597edff87467e4dd106c7ef5cb243c59031e37b970a",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/legit_audio_fire_staff_-_free_0.zip",
+        "file": "fire-staff-sound-effects/legit_audio_fire_staff_-_free_0.zip",
+        "originalFilename": "legit_audio_fire_staff_-_free.zip",
+        "sha256": "8c0668fdde03de52b9b201e672244992ae739438937d4bef6908d1618a86b020"
+      }
+    ],
+    "files": [
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 1-Audio.wav",
+        "sha256": "bff2d501b06b6559df64a57228f39df3feabda41c32c9f9dda72600a3e3d0490"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 10-Audio.wav",
+        "sha256": "92b47ce3dc2197f56ad88498de7d3538d855997d25e45e66c215a6e3e50203c8"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 11-Audio.wav",
+        "sha256": "17c6c2f116faa73e92f2e806a11e59886e956b1ea3095582a7e7043a5451ac89"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 12-Audio.wav",
+        "sha256": "c36787955c3c4dcaa1a83f9c9851ea014547f34c29f71839c85e5186a0812b0d"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 13-Audio.wav",
+        "sha256": "5b786d399d27d5388638a835de2351c72ce1340bfcc8ab00eb29e1476b1a5b73"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 14-Audio.wav",
+        "sha256": "49de3e1f4a0821c8515dacbe037f24db8c548a8f06dc49cf0e4e402bc0909659"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 15-Audio.wav",
+        "sha256": "cfdff75541f2757171f4b503ecb6f094a45b49dc3a16ecd54c525d9d961c6b3d"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 16-Audio.wav",
+        "sha256": "14748e8adc45b9d4f5bd9203d6e8ea1ea85eb9447cebbafc97181d07902fc29a"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 17-Audio.wav",
+        "sha256": "54b55dc438ca44cb6cb8c3c4246505bfc3450c5541e72772682cc13f396087ef"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 18-Audio.wav",
+        "sha256": "93aee1c066096f71f469c8767589286a4ad165d25d6305846139f0d572b10778"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 19-Audio.wav",
+        "sha256": "2904f65ac6c3af0273ad237bb1ed1cb6928a43c124c8cd1d485d36e3d19ab37c"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 2-Audio.wav",
+        "sha256": "bef9659a1ff2917d58e1ea0c4d00440dbdb219b28ecc29b406b07349a4f3425f"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 20-Audio.wav",
+        "sha256": "f86cadeeea62301a30870946ddb34f1975ddf189b2719d3459832973955a0eff"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 21-Audio.wav",
+        "sha256": "553bbf9bb6a3c574d1862f03d384f71a335706778e7877588397876dddf42af0"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 22-Audio.wav",
+        "sha256": "5883daa601d9f9399cfa7cd5dd23e9b274994105f9608f0208baf0dd33015aa4"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 23-Audio.wav",
+        "sha256": "ccf4c6ad5438d58c08fbb61147baef8ad73f76365eff9303ff7841ae23875785"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 24-Audio.wav",
+        "sha256": "407e9c0a9dcdb0621991ad4ca20130635e37e4ad1c61656195f07a3ff65cb9f6"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 25-Audio.wav",
+        "sha256": "4020e9c4659d2a56ff6d2023343d86896f8241adfe9c4374bb6aa037815a2697"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 3-Audio.wav",
+        "sha256": "6c6d875244fbec12540307f1c83c5e5a6b71a2b2c9f4742f2b09b4689275a4af"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 4-Audio.wav",
+        "sha256": "d991395b107fe2d910f56ac58bbea6788906d1a3b237d0f34eb1c49b885650f7"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 5-Audio.wav",
+        "sha256": "a414e615106206b6c1e68d805b21b9a3fa800e5749b90c6cf779fa5b3e29f9f7"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 6-Audio.wav",
+        "sha256": "6c9e3eb3293a3ca6112047623eee5839378a96a95c1aed5119e49a59cce071ff"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 7-Audio.wav",
+        "sha256": "458d636dc9f4512c53f90ed65e37e0b68b1dfce1518c95f7606115fcd9a66922"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 8-Audio.wav",
+        "sha256": "f6a12f6b7d892d14de4db70ddc8f9f0f8edc3247d97cec6777a48f83c18e2f74"
+      },
+      {
+        "file": "fire-staff-sound-effects/LEGIT Audio_FIRE STAFF - FREE/Wavs/LEGIT_FIR_Fire_Staff 9-Audio.wav",
+        "sha256": "8c4868b5cd5e788bb83da84fd1d33b0f1aee776884af966570860a7207b26619"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "torch-fire-spell",
+    "author": "spookymodem",
+    "license": "CC-BY-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://opengameart.org/content/torch-fire-spell",
+    "evidence": "torch-fire-spell.html",
+    "evidenceSha256": "0db43af90d0c1a8096751a370dd1fd2ebf26a7f16825a956d1a3c1baf0552c1c",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/Waving%20Torch.wav",
+        "file": "torch-fire-spell/Waving Torch.wav",
+        "originalFilename": "Waving Torch.wav",
+        "sha256": "a027961cae4ffdeccfd497788b229dfe32547dcb32f30b8e0429976ae9e9ef57"
+      }
+    ],
+    "files": [
+      {
+        "file": "torch-fire-spell/Waving Torch.wav",
+        "sha256": "a027961cae4ffdeccfd497788b229dfe32547dcb32f30b8e0429976ae9e9ef57"
+      }
+    ],
+    "attributionRequired": true,
+    "obligations": "署名作者、附来源与许可证链接、注明剪辑修改；禁止额外限制。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "fire-crackling",
+    "author": "AntumDeluge",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/fire-crackling",
+    "evidence": "fire-crackling.html",
+    "evidenceSha256": "79bf412ac8830a09808a1ee2c975ce8a5377290604d2ef2ae418182bfc2bed29",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/fire-1.wav",
+        "file": "fire-crackling/fire-1.wav",
+        "originalFilename": "fire-1.wav",
+        "sha256": "26702de8a195bcbafeae72034861d875a1b7917168a25106f4e1957ecdddf7e5"
+      }
+    ],
+    "files": [
+      {
+        "file": "fire-crackling/fire-1.wav",
+        "sha256": "26702de8a195bcbafeae72034861d875a1b7917168a25106f4e1957ecdddf7e5"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "ice-spells",
+    "author": "bart; original recording Stephan / pdsounds",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/ice-spells",
+    "evidence": "ice-spells.html",
+    "evidenceSha256": "e2c1437e0b7863380a1848669dbfd6a26fe32262522a4480505fc02f625d58bf",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/icespells.zip",
+        "file": "ice-spells/icespells.zip",
+        "originalFilename": "icespells.zip",
+        "sha256": "45f02a204fc7cc896a17487080376c521ac2e564fe3da4d24cffa0086f8d6a54"
+      }
+    ],
+    "files": [
+      {
+        "file": "ice-spells/coldsnap.wav",
+        "sha256": "090977264d65d90a50b04e9f0c1c4e02fb194e5b50d9fe244f0079a4da54158c"
+      },
+      {
+        "file": "ice-spells/ice.wav",
+        "sha256": "c3039c864d056d0e4951b84b96a7bb0044ca8cb58aeae514fc256145872b6a94"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "ice-breakingshattering",
+    "author": "IgnasD",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://opengameart.org/content/ice-breakingshattering",
+    "evidence": "ice-breakingshattering.html",
+    "evidenceSha256": "f7d1deb00e6a55a1ae301c6bd124662d84b10aa45eeb58c9419d94c3c95e8473",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/IceShatters_0.zip",
+        "file": "ice-breakingshattering/IceShatters_0.zip",
+        "originalFilename": "IceShatters.zip",
+        "sha256": "b84ea396fac1af183dd2cb205a01edaa94b493ffb36965eafe59912e41cf9eb7"
+      }
+    ],
+    "files": [
+      {
+        "file": "ice-breakingshattering/IceShatters/LedasLuzta.ogg",
+        "sha256": "4c7304ac47f84e41b62edb71082d00fe01823a2a54ec4e4268a040c973e3510f"
+      },
+      {
+        "file": "ice-breakingshattering/IceShatters/LedasLuzta2.ogg",
+        "sha256": "92a20369f866c852f841ffaef31676cb70f542592504b040327c60f5101f9c47"
+      },
+      {
+        "file": "ice-breakingshattering/IceShatters/LedasLuzta33.ogg",
+        "sha256": "fedcd280ffaea38c365647f131eaae71cf2b9e1721c2fce1b539884c9199074a"
+      },
+      {
+        "file": "ice-breakingshattering/IceShatters/LedasLuzta4.ogg",
+        "sha256": "81558c035953d4e595640be7ba1a645c47c6f4b72f38de43a44d36fa70d52b8c"
+      },
+      {
+        "file": "ice-breakingshattering/IceShatters/LedasLuzta5.ogg",
+        "sha256": "34adbcb652d578b870d5317ec974e9773266ddfd6b4bfc8499ec775e1712b603"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核仍保留作者与来源。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "shimmer-glitter-magic",
+    "author": "The Berklee College of Music; submitted by qubodup",
+    "license": "CC-BY-3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "page": "https://opengameart.org/content/shimmer-glitter-magic",
+    "evidence": "shimmer-glitter-magic.html",
+    "evidenceSha256": "3292e029a97ae9a7e94cea688703c13df4bdc6f03105d1073ff2a59aacc267c4",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://opengameart.org/sites/default/files/shimmer_1.flac",
+        "file": "shimmer-glitter-magic/shimmer_1.flac",
+        "originalFilename": "shimmer_1.flac",
+        "sha256": "b6802e6ef22189058a4406ae5c7bda9a54c47e908fad3fd6212650c1aa0170af"
+      }
+    ],
+    "files": [
+      {
+        "file": "shimmer-glitter-magic/shimmer_1.flac",
+        "sha256": "b6802e6ef22189058a4406ae5c7bda9a54c47e908fad3fd6212650c1aa0170af"
+      }
+    ],
+    "attributionRequired": true,
+    "obligations": "署名作者、附来源与许可证链接、注明剪辑修改；禁止额外限制。",
+    "originalDelivery": "Publisher file-field attachment; compressed originals keep their original format, not advertised as lossless."
+  },
+  {
+    "slug": "vsco-harp",
+    "author": "VSCO 2 CE: Sam Gossner & Simon Dalzell; sample cutting Elan Hickler / Soundemote (repository credits)",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://github.com/sgossner/VSCO-2-CE",
+    "revision": "440300901dfe9275fd84e0b7763af1f8443ae62e",
+    "evidence": "vsco-harp/README.md",
+    "evidenceSha256": "8fbf399338661e6c76585ad9e75eb10324f823935168e0567553293a83f200a0",
+    "licenseEvidence": "vsco-harp/LICENSE.txt",
+    "licenseEvidenceSha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+    "checkedOn": "2026-10-13",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Harp/KSHarp_C5_mf.wav",
+        "file": "vsco-harp/KSHarp_C5_mf.wav",
+        "originalFilename": "KSHarp_C5_mf.wav",
+        "sha256": "7c8b862f6fd3f1442ed87537af976d84bda8c05a5b4900e8907d570b5202a517"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Harp/KSHarp_E5_mf.wav",
+        "file": "vsco-harp/KSHarp_E5_mf.wav",
+        "originalFilename": "KSHarp_E5_mf.wav",
+        "sha256": "95dd9ddb0bd15bee7687906e00f25aafcaa43020cc9501f0e8b6cabf0e9a53ec"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Harp/KSHarp_G5_mf.wav",
+        "file": "vsco-harp/KSHarp_G5_mf.wav",
+        "originalFilename": "KSHarp_G5_mf.wav",
+        "sha256": "f2004dfc617997fbabc6f849add2af06f4f859361c44a8fca0f993dc7f999540"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sgossner/VSCO-2-CE/440300901dfe9275fd84e0b7763af1f8443ae62e/Strings/Harp/KSHarp_A4_mf.wav",
+        "file": "vsco-harp/KSHarp_A4_mf.wav",
+        "originalFilename": "KSHarp_A4_mf.wav",
+        "sha256": "3665f3975cad4a33f46784aa4f896f4b4319ba2b7831e892d975bc38c9f09f23"
+      }
+    ],
+    "files": [
+      {
+        "file": "vsco-harp/KSHarp_C5_mf.wav",
+        "sha256": "7c8b862f6fd3f1442ed87537af976d84bda8c05a5b4900e8907d570b5202a517"
+      },
+      {
+        "file": "vsco-harp/KSHarp_E5_mf.wav",
+        "sha256": "95dd9ddb0bd15bee7687906e00f25aafcaa43020cc9501f0e8b6cabf0e9a53ec"
+      },
+      {
+        "file": "vsco-harp/KSHarp_G5_mf.wav",
+        "sha256": "f2004dfc617997fbabc6f849add2af06f4f859361c44a8fca0f993dc7f999540"
+      },
+      {
+        "file": "vsco-harp/KSHarp_A4_mf.wav",
+        "sha256": "3665f3975cad4a33f46784aa4f896f4b4319ba2b7831e892d975bc38c9f09f23"
+      }
+    ],
+    "attributionRequired": false,
+    "obligations": "CC0，无强制署名；本审核保留采样与编排来源。",
+    "originalDelivery": "Pinned GitHub WAV source samples."
+  }
+]

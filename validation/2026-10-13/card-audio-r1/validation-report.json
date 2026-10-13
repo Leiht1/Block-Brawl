@@ -1,0 +1,404 @@
+{
+  "createdOn": "2026-10-13",
+  "scope": "仅候选、授权记录、离线试听页与混合；未运行游戏全量回归",
+  "checks": [
+    "50 个正式资源／配置／技能实现文件与任务前哈希一致",
+    "21 条独立文件、组内三种来源、许可／附件／原件证据哈希、统一短窗强度与倍率通过",
+    "29条嵌入音频离线解码；21单播、7连续对比、四技能真实时序、顺序对照、组合选择、停止/Esc、导出、正式参照与双边混合均通过",
+    "390px移动端无横向溢出；无页面异常、无网络请求",
+    "停止与Esc增加12ms淡出后，混合播放停止、资源释放和再次播放专项检查通过"
+  ],
+  "plays": [
+    {
+      "id": "cast.release.a",
+      "seconds": 0.26,
+      "peak": 0.13864892721176147
+    },
+    {
+      "id": "cast.release.b",
+      "seconds": 0.3,
+      "peak": 0.12866032123565674
+    },
+    {
+      "id": "cast.release.c",
+      "seconds": 0.24,
+      "peak": 0.13941329717636108
+    },
+    {
+      "id": "cast.travel.a",
+      "seconds": 0.38,
+      "peak": 0.12765172123908997
+    },
+    {
+      "id": "cast.travel.b",
+      "seconds": 0.38,
+      "peak": 0.11333382874727249
+    },
+    {
+      "id": "cast.travel.c",
+      "seconds": 0.38,
+      "peak": 0.13115933537483215
+    },
+    {
+      "id": "cast.impact.a",
+      "seconds": 0.38,
+      "peak": 0.1739048957824707
+    },
+    {
+      "id": "cast.impact.b",
+      "seconds": 0.36,
+      "peak": 0.15916702151298523
+    },
+    {
+      "id": "cast.impact.c",
+      "seconds": 0.4,
+      "peak": 0.1826537847518921
+    },
+    {
+      "id": "skill.fire.a",
+      "seconds": 0.62,
+      "peak": 0.1278781294822693
+    },
+    {
+      "id": "skill.fire.b",
+      "seconds": 0.66,
+      "peak": 0.09519228339195251
+    },
+    {
+      "id": "skill.fire.c",
+      "seconds": 0.48,
+      "peak": 0.2182507961988449
+    },
+    {
+      "id": "skill.freeze.a",
+      "seconds": 0.56,
+      "peak": 0.23335708677768707
+    },
+    {
+      "id": "skill.freeze.b",
+      "seconds": 0.6,
+      "peak": 0.10153753310441971
+    },
+    {
+      "id": "skill.freeze.c",
+      "seconds": 0.58,
+      "peak": 0.0921834409236908
+    },
+    {
+      "id": "skill.blackhole.a",
+      "seconds": 0.56,
+      "peak": 0.1377566009759903
+    },
+    {
+      "id": "skill.blackhole.b",
+      "seconds": 0.62,
+      "peak": 0.16327659785747528
+    },
+    {
+      "id": "skill.blackhole.c",
+      "seconds": 0.58,
+      "peak": 0.20934706926345825
+    },
+    {
+      "id": "skill.luck.a",
+      "seconds": 0.64,
+      "peak": 0.21049676835536957
+    },
+    {
+      "id": "skill.luck.b",
+      "seconds": 0.72,
+      "peak": 0.16720734536647797
+    },
+    {
+      "id": "skill.luck.c",
+      "seconds": 0.62,
+      "peak": 0.2059147208929062
+    }
+  ],
+  "compares": [
+    "cast.release",
+    "cast.travel",
+    "cast.impact",
+    "skill.fire",
+    "skill.freeze",
+    "skill.blackhole",
+    "skill.luck"
+  ],
+  "sequences": [
+    {
+      "skill": "fire",
+      "events": [
+        {
+          "kind": "playing",
+          "id": "cast.release.a",
+          "seconds": 0.029,
+          "side": "己方",
+          "duration": 0.26,
+          "volume": 0.30000001192092896
+        },
+        {
+          "kind": "playing",
+          "id": "cast.travel.a",
+          "seconds": 0.211,
+          "side": "己方",
+          "duration": 0.38,
+          "volume": 0.23999999463558197
+        },
+        {
+          "kind": "playing",
+          "id": "cast.impact.a",
+          "seconds": 0.6,
+          "side": "己方",
+          "duration": 0.38,
+          "volume": 0.3400000035762787
+        },
+        {
+          "kind": "playing",
+          "id": "skill.fire.a",
+          "seconds": 0.68,
+          "side": "己方",
+          "duration": 0.62,
+          "volume": 0.3799999952316284
+        }
+      ]
+    },
+    {
+      "skill": "freeze",
+      "events": [
+        {
+          "kind": "playing",
+          "id": "cast.release.a",
+          "seconds": 0.029,
+          "side": "己方",
+          "duration": 0.26,
+          "volume": 0.30000001192092896
+        },
+        {
+          "kind": "playing",
+          "id": "skill.freeze.a",
+          "seconds": 0.029,
+          "side": "己方",
+          "duration": 0.56,
+          "volume": 0.3799999952316284
+        },
+        {
+          "kind": "playing",
+          "id": "cast.travel.a",
+          "seconds": 0.208,
+          "side": "己方",
+          "duration": 0.38,
+          "volume": 0.23999999463558197
+        },
+        {
+          "kind": "playing",
+          "id": "cast.impact.a",
+          "seconds": 0.589,
+          "side": "己方",
+          "duration": 0.38,
+          "volume": 0.3400000035762787
+        }
+      ]
+    },
+    {
+      "skill": "blackhole",
+      "events": [
+        {
+          "kind": "playing",
+          "id": "cast.release.a",
+          "seconds": 0.032,
+          "side": "己方",
+          "duration": 0.26,
+          "volume": 0.30000001192092896
+        },
+        {
+          "kind": "playing",
+          "id": "skill.blackhole.a",
+          "seconds": 0.032,
+          "side": "己方",
+          "duration": 0.56,
+          "volume": 0.3799999952316284
+        },
+        {
+          "kind": "playing",
+          "id": "cast.travel.a",
+          "seconds": 0.211,
+          "side": "己方",
+          "duration": 0.38,
+          "volume": 0.23999999463558197
+        },
+        {
+          "kind": "playing",
+          "id": "cast.impact.a",
+          "seconds": 0.6,
+          "side": "己方",
+          "duration": 0.38,
+          "volume": 0.3400000035762787
+        }
+      ]
+    },
+    {
+      "skill": "luck",
+      "events": [
+        {
+          "kind": "playing",
+          "id": "cast.release.a",
+          "seconds": 0.029,
+          "side": "己方",
+          "duration": 0.26,
+          "volume": 0.30000001192092896
+        },
+        {
+          "kind": "playing",
+          "id": "skill.luck.a",
+          "seconds": 0.029,
+          "side": "己方",
+          "duration": 0.64,
+          "volume": 0.3799999952316284
+        },
+        {
+          "kind": "playing",
+          "id": "cast.travel.a",
+          "seconds": 0.211,
+          "side": "己方",
+          "duration": 0.38,
+          "volume": 0.23999999463558197
+        },
+        {
+          "kind": "playing",
+          "id": "cast.impact.a",
+          "seconds": 0.6,
+          "side": "己方",
+          "duration": 0.38,
+          "volume": 0.3400000035762787
+        }
+      ]
+    }
+  ],
+  "stress": [
+    {
+      "policy": "limited",
+      "maxVoices": 3,
+      "skipped": 13,
+      "peak": 0.4495786130428314,
+      "played": 17
+    },
+    {
+      "policy": "overlap",
+      "maxVoices": 7,
+      "skipped": 0,
+      "peak": 0.4369669556617737,
+      "played": 30
+    }
+  ],
+  "offlineMix": {
+    "condition": "保守上界：不压低BGM、不限制重叠；实际文件按页面倍率渲染",
+    "metrics": [
+      {
+        "letter": "a",
+        "kind": "fire",
+        "peak": 0.539348840713501,
+        "rms": 0.06282384337105819,
+        "clipped": 0
+      },
+      {
+        "letter": "a",
+        "kind": "freeze",
+        "peak": 0.539348840713501,
+        "rms": 0.062762656368457,
+        "clipped": 0
+      },
+      {
+        "letter": "a",
+        "kind": "blackhole",
+        "peak": 0.539348840713501,
+        "rms": 0.06382894507290086,
+        "clipped": 0
+      },
+      {
+        "letter": "a",
+        "kind": "luck",
+        "peak": 0.539348840713501,
+        "rms": 0.06349030743631781,
+        "clipped": 0
+      },
+      {
+        "letter": "a",
+        "kind": "duel",
+        "peak": 0.5473124980926514,
+        "rms": 0.07031447365845277,
+        "clipped": 0
+      },
+      {
+        "letter": "b",
+        "kind": "fire",
+        "peak": 0.539348840713501,
+        "rms": 0.06317527390945304,
+        "clipped": 0
+      },
+      {
+        "letter": "b",
+        "kind": "freeze",
+        "peak": 0.539348840713501,
+        "rms": 0.06309666974842516,
+        "clipped": 0
+      },
+      {
+        "letter": "b",
+        "kind": "blackhole",
+        "peak": 0.539348840713501,
+        "rms": 0.06368627851888811,
+        "clipped": 0
+      },
+      {
+        "letter": "b",
+        "kind": "luck",
+        "peak": 0.539348840713501,
+        "rms": 0.06421559548238577,
+        "clipped": 0
+      },
+      {
+        "letter": "b",
+        "kind": "duel",
+        "peak": 0.5719912052154541,
+        "rms": 0.07255526719969722,
+        "clipped": 0
+      },
+      {
+        "letter": "c",
+        "kind": "fire",
+        "peak": 0.539348840713501,
+        "rms": 0.06323232069888989,
+        "clipped": 0
+      },
+      {
+        "letter": "c",
+        "kind": "freeze",
+        "peak": 0.539348840713501,
+        "rms": 0.0631532522280354,
+        "clipped": 0
+      },
+      {
+        "letter": "c",
+        "kind": "blackhole",
+        "peak": 0.539348840713501,
+        "rms": 0.06372874446815692,
+        "clipped": 0
+      },
+      {
+        "letter": "c",
+        "kind": "luck",
+        "peak": 0.539348840713501,
+        "rms": 0.0641324329868199,
+        "clipped": 0
+      },
+      {
+        "letter": "c",
+        "kind": "duel",
+        "peak": 0.5569465160369873,
+        "rms": 0.07298744829640026,
+        "clipped": 0
+      }
+    ]
+  },
+  "result": "PASS"
+}

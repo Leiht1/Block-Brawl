@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "checks": [
+    "successful card selection",
+    "successful card cancellation",
+    "successful ready",
+    "All media is embedded; no external resource requests"
+  ],
+  "errors": [],
+  "requests": [
+    "file:///D:/codex%E9%A1%B9%E7%9B%AE/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97/%E6%96%B9%E5%9D%97%E4%B9%B1%E6%96%97-%E6%9C%80%E6%96%B0%E7%89%88.html",
+    "blob:null/6da502be-9d0a-4aae-bedd-e813b8a945f7",
+    "blob:null/7b20c22d-6919-4574-8ee2-066b54254600",
+    "blob:null/683c97e7-2b54-45a2-abde-9dd9d5cef5bc",
+    "blob:null/617531ef-b171-40e4-8a7a-230c0ff74170",
+    "blob:null/9daab07f-99d6-428a-b2c0-a534720d3119",
+    "blob:null/f9884634-b419-491f-9227-099b2f5f255b",
+    "blob:null/bb9d707c-8d48-43e9-9b62-0371d2bfa0e4",
+    "blob:null/708ac63c-bc23-4dd4-bf34-99d0bba02b28",
+    "blob:null/5a3c9115-8155-485c-adf1-fa87dab4a72a",
+    "blob:null/de1a3281-0c2c-47e2-815d-130fef52d3f7",
+    "blob:null/835988ab-faca-4e88-b5ef-13a4e7dfc3c4",
+    "blob:null/3db75e69-9cd0-4f1c-b588-86d2731d9998",
+    "blob:null/7941b6e8-a202-4385-a0b2-4d75548a5196",
+    "blob:null/5542bf0d-2b4d-4516-9c69-9e39c4146b70",
+    "blob:null/15102b75-dd66-4efe-a7ee-2bc2537d0b21",
+    "blob:null/702e01bd-b1d3-4c62-b851-57135a6ad6e7",
+    "blob:null/910ac8c4-d59b-4a41-98a6-e38594c82935",
+    "blob:null/55dc37e6-36fa-4fc2-bf5d-528d808af74a",
+    "blob:null/97d3afc3-4cb6-49bd-b2b5-933b29e228ee",
+    "blob:null/27c6bbc7-4b49-40d0-8208-26be123f9cb9",
+    "blob:null/a59f3745-6f9b-4d26-84df-87e84c4cd7ac",
+    "blob:null/26fc9e0c-fbb0-4827-97d2-d68fa511fe6e",
+    "blob:null/e5f7a14f-3ec0-4ba9-bac1-7ea9ab15c365",
+    "blob:null/28d9a3e7-4501-436c-826b-269226e2be44",
+    "blob:null/79fd8bd4-dd61-4c75-a9aa-f41fccf75cba",
+    "blob:null/feb241de-3a54-423d-892f-39a8a5b29867",
+    "blob:null/8ce39e40-eb55-46ac-8cb8-a9f1c1ba1f1e",
+    "blob:null/7b1280c2-9f42-486e-ab02-aea8043b703f",
+    "blob:null/78d0cd92-8f82-4789-b53c-9a2b9d7454ca",
+    "blob:null/bb430406-74b7-4576-b68e-97b8d4adbd95",
+    "blob:null/b52ebcc5-5157-4c95-a4ff-ca77e8f343f5",
+    "blob:null/5c0c53ed-0061-4d22-95dc-c9a2789139f9",
+    "blob:null/f1e2f8d0-c8cf-4bac-a1c4-2787015cbd55",
+    "blob:null/bf83e23b-7bb1-4b75-bbdb-8edb95f5fd68",
+    "blob:null/effad6fd-13a7-4112-bd6d-bb2910ac06fa",
+    "blob:null/50b3afc1-1616-403b-a639-550f2085315b",
+    "blob:null/23355180-4cb1-4064-9a5c-fdff69b00927",
+    "blob:null/4f551b46-29a0-4f72-9aae-41bf6ccf82e9",
+    "blob:null/1dab3ddf-95d5-42df-8958-c5e83abc9d83",
+    "blob:null/0ffbf4eb-a08e-494c-8cae-85a0fbf98e71",
+    "blob:null/bf83e23b-7bb1-4b75-bbdb-8edb95f5fd68",
+    "blob:null/bcb0d615-5dd9-4e60-b9a3-36a06e0389be",
+    "blob:null/913bd320-4646-4335-9dd1-0ac78973a42a",
+    "blob:null/bf83e23b-7bb1-4b75-bbdb-8edb95f5fd68",
+    "blob:null/68bdf503-b5ac-4279-b9b9-1ba2292c4f7e",
+    "blob:null/3e16df10-54a7-46e3-b675-069961b75458",
+    "blob:null/ca23b337-c82d-48e3-813e-a2870df34cc8",
+    "blob:null/458a5e0e-64e6-4378-89e8-f62cb9bc0711",
+    "blob:null/f1e2f8d0-c8cf-4bac-a1c4-2787015cbd55",
+    "blob:null/f1e2f8d0-c8cf-4bac-a1c4-2787015cbd55",
+    "blob:null/f1e2f8d0-c8cf-4bac-a1c4-2787015cbd55",
+    "blob:null/f1e2f8d0-c8cf-4bac-a1c4-2787015cbd55",
+    "blob:null/b52ebcc5-5157-4c95-a4ff-ca77e8f343f5"
+  ],
+  "media": [
+    {
+      "action": "successful card selection",
+      "src": "blob:null/f1e2f8d0-c8cf-4bac-a1c4-2787015cbd55",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "successful card cancellation",
+      "src": "blob:null/f1e2f8d0-c8cf-4bac-a1c4-2787015cbd55",
+      "volume": 0.38,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    },
+    {
+      "action": "successful ready",
+      "src": "blob:null/b52ebcc5-5157-4c95-a4ff-ca77e8f343f5",
+      "volume": 0.34,
+      "events": [
+        "loadeddata",
+        "playing",
+        "ended"
+      ]
+    }
+  ]
+}

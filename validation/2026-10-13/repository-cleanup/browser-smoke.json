@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "id": "cards",
+      "url": "/art-preproduction/card-reference-v3/index.html",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "cast-v3",
+      "url": "/art-preproduction/cast-soft-v3/index.html",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "cast-v2",
+      "url": "/art-preproduction/cast-soft-v2-preview/index.html",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "skill-body",
+      "url": "/art-preproduction/skill-body-complete-v1/index.html",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "id": "game",
+      "url": "/index.html",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

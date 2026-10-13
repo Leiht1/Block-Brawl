@@ -16,12 +16,43 @@ function keyframe(img,frame){
  cache.set(k,c);if(cache.size>32)cache.delete(cache.keys().next().value);return c;
 }
 export function paintWildTile(ctx,size){if(!SKILL_BODY_ENABLED)return false;const img=skillImages().wild;if(!img?.complete||!img.naturalWidth)return false;ctx.drawImage(img,-size/2,-size/2,size,size);return true;}
-function clipBoard(ctx,b){
+function clipBoard(ctx,b,obstacles=false){
  const u=b.width/b.columns;ctx.beginPath();
- if(b.terrain)for(let i=0;i<b.terrain.length;i++){if(b.terrain[i]==='cell')ctx.rect(b.x+i%b.columns*u,b.y+Math.floor(i/b.columns)*u,u,u);}
+ if(b.terrain)for(let i=0;i<b.terrain.length;i++){if(b.terrain[i]==='cell'||obstacles&&b.terrain[i]==='obstacle')ctx.rect(b.x+i%b.columns*u,b.y+Math.floor(i/b.columns)*u,u,u);}
  else ctx.rect(b.x,b.y,b.width,b.height);
  ctx.clip();
 }
+const fogStrength=(r,now)=>now<r.bodyAt||now>=r.until+1200?0:clamp((now-r.bodyAt)/160)*(1-clamp((now-r.until)/1200)**2*(3-2*clamp((now-r.until)/1200)));
+// Choose one cloud per covered cell. Even identical overlapping casts never
+// accumulate opacity; each record still keeps its own six-second deadline.
+export function fogCoverage(records,now){
+ const coverage=new Map();for(const r of records){const strength=fogStrength(r,now);if(!strength)continue;for(const i of r.cells){const old=coverage.get(i);if(!old||strength>=fogStrength(old,now))coverage.set(i,r);}}
+ return coverage;
+}
+export function paintFogGroup(ctx,records,now,b,imgs=skillImages()){
+ const groups=new Set(fogCoverage(records,now).values());
+ if(groups.size<2){for(const r of groups)paintSkillBody(ctx,r,now,b,imgs);return;}
+ // Keep whole cloud silhouettes. Blend colors smoothly but take the stronger
+ // alpha, without stacking opacity or cutting along rectangular cell edges.
+ const scale=Math.max(1,Math.hypot(ctx.getTransform().a,ctx.getTransform().b)),width=Math.ceil(b.width*scale),height=Math.ceil(b.height*scale);
+ let layer=fogLayers.get(ctx);
+ if(!layer||layer.canvas.width!==width||layer.canvas.height!==height){
+  const canvas=document.createElement('canvas'),merged=document.createElement('canvas');canvas.width=merged.width=width;canvas.height=merged.height=height;
+  const paint=canvas.getContext('2d',{willReadFrequently:true}),output=merged.getContext('2d');layer={canvas,merged,paint,output,pixels:output.createImageData(width,height)};fogLayers.set(ctx,layer);
+ }
+ const data=layer.pixels.data;data.fill(0);layer.paint.setTransform(scale,0,0,scale,0,0);
+ for(const r of groups){
+  layer.paint.clearRect(0,0,b.width,b.height);paintSkillBody(layer.paint,r,now,{...b,x:0,y:0},imgs);
+  const pixels=layer.paint.getImageData(0,0,width,height).data;
+  for(let i=3;i<pixels.length;i+=4)if(pixels[i]){
+   const mix=pixels[i]/(data[i]+pixels[i]);
+   for(let k=i-3;k<i;k++)data[k]+=(pixels[k]-data[k])*mix;
+   data[i]=Math.max(data[i],pixels[i]);
+  }
+ }
+ layer.output.putImageData(layer.pixels,0,0);ctx.save();ctx.globalAlpha=1;ctx.globalCompositeOperation='source-over';ctx.drawImage(layer.merged,b.x,b.y,b.width,b.height);ctx.restore();
+}
+const fogLayers=new WeakMap();
 export function paintSageBacklight(ctx,age,remaining,b){
  if(age<0||remaining<=0)return;
  const envelope=clamp(age/400)*clamp(remaining/220),pulse=.93+.07*Math.sin(age/1800*Math.PI*2),{x,y,width,height}=b;
@@ -39,14 +70,14 @@ export function paintSkillBody(ctx,r,now,b,imgs=skillImages()){
  const sprite=(frame,p,size,alpha=1,rotation=0)=>{if(alpha<=0)return;ctx.save();ctx.translate(p.x,p.y);ctx.rotate(rotation);ctx.globalAlpha=alpha;ctx.globalCompositeOperation='source-over';ctx.drawImage(keyframe(img,frame),-size/2,-size/2,size,size);ctx.restore();};
  const clipCells=cells=>{ctx.beginPath();for(const i of cells){const p=point(i);ctx.rect(p.x-u/2,p.y-u/2,u,u);}ctx.clip();};
  const mark=(cells,c,alpha=.8)=>{ctx.save();ctx.strokeStyle=c;ctx.lineWidth=u*.025;ctx.globalAlpha=alpha;for(const i of cells){const p=point(i);ctx.strokeRect(p.x-u*.44,p.y-u*.44,u*.88,u*.88);}ctx.restore();};
- ctx.save();clipBoard(ctx,b);
+ ctx.save();clipBoard(ctx,b,id==='fog');
  if(id==='fire'){
-  if(main&&r.cells.length){const a=point(r.cells[0]),z=point(r.cells.at(-1));ctx.save();clipCells(r.cells);sprite(f*7,{x:a.x+(z.x-a.x)*clamp(f/.7),y:a.y},u*2.45,fade);ctx.restore();}
-  if(!r.effect){mark(r.cells,color.markColor??'#b84d16',color.mark??.9);if(age>=e.mainMs)for(const i of r.cells){const p=point(i);sprite(6,{x:p.x,y:p.y+u*.3},u*.62,color.state??.65);}}
+  if(r.waveAt!==undefined&&main&&r.cells.length){const a=point(r.cells[0]),z=point(r.cells.at(-1));ctx.save();clipCells(r.cells);sprite(f*7,{x:a.x+(z.x-a.x)*clamp(f/.7),y:a.y},u*2.45,fade);ctx.restore();}
+  if(!r.effect)mark(r.cells,color.markColor??'#b84d16',color.mark??.9);
   if(r.effect&&now<r.effect.now+300){const t=(now-r.effect.now)/300;for(const i of r.effect.cells)sprite(5+2*t,point(i),u,(color.settle??.75)*(1-t));}
  }
  if(id==='quake'){
-  if(main){ctx.save();clipCells(r.cells);for(let n=0;n<r.cells.length;n++){const a=age-n*44;sprite(clamp(a/340)*7,point(r.cells[n]),u*1.55,clamp(a/45)*clamp((340-a)/90));}ctx.restore();}
+  if(r.waveAt!==undefined&&main){ctx.save();clipCells(r.cells);for(let n=0;n<r.cells.length;n++){const a=age-(r.hitDelays?.[n]??n*44);sprite(clamp(a/340)*7,point(r.cells[n]),u*1.55,clamp((a+16)/45)*clamp((340-a)/90));}ctx.restore();}
   // This settlement mark follows the actual clear, including a queued clear.
   if(r.effect&&now<r.effect.now+240){const t=(now-r.effect.now)/240;for(const i of r.effect.cells)sprite(4+3*t,point(i),u,1-t);}
  }
@@ -72,7 +103,10 @@ export function paintSkillBody(ctx,r,now,b,imgs=skillImages()){
   // Use changed cells, never the drop cell as a pretend six-cell effect.
   if(r.effect){const a=now-Math.max(r.bodyAt,r.effect.now),t=clamp(a/e.mainMs);if(a>=0&&a<e.mainMs)for(const i of r.effect.cells)sprite(t*7,point(i),u*1.35,clamp(a/60)*clamp((e.mainMs-a)/120));}
  }
- if(id==='fog'&&age>=0&&now<r.until+1200){const tail=clamp((now-r.until)/1200),frame=age<e.mainMs?f*3.4:now<r.until?3.6+.12*Math.sin(age/1700):4+tail*3;sprite(frame,to,u*4.3*(.8+.2*clamp(age/500)),clamp(age/160)*(1-tail*tail*(3-2*tail)));}
+ if(id==='fog'&&age>=0&&now<r.until+1200){
+  const tail=clamp((now-r.until)/1200),frame=age<e.mainMs?f*3.4:now<r.until?3.6+.12*Math.sin(age/1700):4+tail*3,region=r.region,p=region?{x:b.x+(region.col+region.width/2)*u,y:b.y+(region.row+region.height/2)*u}:to;
+  sprite(frame,p,u*7.2*(.9+.1*clamp(age/500)),fogStrength(r,now));
+ }
  if(id==='sage'&&age>=0&&now<r.until){
   ctx.save();ctx.globalAlpha=clamp(age/250)*clamp((r.until-now)/180);ctx.fillStyle=`rgba(255,197,58,${.29*(.96+.04*Math.sin(age/1800*Math.PI*2))})`;ctx.fillRect(b.x,b.y,b.width,b.height);ctx.shadowColor='#ffcc53';ctx.shadowBlur=u*.25;ctx.strokeStyle='rgba(255,219,101,.8)';ctx.lineWidth=u*.035;ctx.beginPath();ctx.roundRect(b.x+2,b.y+2,b.width-4,b.height-4,u*.12);ctx.stroke();ctx.restore();
  }

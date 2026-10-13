@@ -1,0 +1,35 @@
+{
+  "RemovedFiles": 417,
+  "RemovedBytes": 677329279.0,
+  "RuntimeUnchanged": 165,
+  "BackupVerified": true,
+  "Method": "Moved to local recoverable backup inside .git; backup is never pushed",
+  "Verification": {
+    "RelatedTests": {
+      "Passed": 22,
+      "Failed": 0,
+      "Skipped": 0,
+      "Files": [
+        "tests/card-cast-vfx.test.mjs",
+        "tests/skill-body-vfx.test.mjs",
+        "tests/offline-cards.test.mjs"
+      ]
+    },
+    "BrowserSmoke": {
+      "Passed": 5,
+      "Errors": 0,
+      "Pages": [
+        "card-reference-v3",
+        "cast-soft-v3",
+        "cast-soft-v2-preview",
+        "skill-body-complete-v1",
+        "actual-tutorial-board"
+      ]
+    },
+    "VisualInspection": [
+      "cast-v3-verified.png",
+      "game-verified.png"
+    ],
+    "GitDiffCheck": "Project files passed; original downloaded audio-cards-r1 provenance bytes excluded per .gitattributes"
+  }
+}

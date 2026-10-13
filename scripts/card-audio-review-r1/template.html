@@ -1,0 +1,29 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>方块乱斗 · 卡牌音效候选 R1</title><style>/*STYLE*/</style></head><body>
+<main>
+ <header><span class="eyebrow">方块乱斗 · 声音审核 R1</span><h1>轻盈施法，听见材质</h1><p>7组 · 21条真实候选 · 全部待试听确认。A/B/C代表对照方向，不代表推荐顺序。</p><p class="muted">此页独立播放，离线可用。组合选择仅用于本页；没有接入、替换或确认正式版本的操作。</p></header>
+ <nav id="nav" aria-label="音效分组"></nav>
+ <section class="panel" aria-labelledby="mix-title"><h2 id="mix-title">组合与混音试听</h2>
+  <div class="controls">
+   <label>本体技能 <select id="skill"><option value="fire">火焰冲击</option><option value="freeze">时间冻结</option><option value="blackhole">黑洞吸引</option><option value="luck">幸运星</option></select></label>
+   <label>播放时序 <select id="timing"><option value="real">真实动作时序 · 安定棋盘</option><option value="story">释放 → 飞行 → 命中 → 本体 · 顺序对照</option></select></label>
+   <label><input type="checkbox" id="bgm">混入正式BGM</label>
+   <label>BGM <select id="music"><option value="bgm.battle">对战 · 正式倍率0.60</option><option value="bgm.lobby">大厅 · 正式倍率0.66</option></select></label>
+   <label><input type="checkbox" id="normal">混入普通消除</label>
+   <label><input type="checkbox" id="special">混入特殊消除</label>
+   <label>特殊消除 <select id="special-kind"><option value="special.line">行列消除</option><option value="special.bomb">单爆破</option><option value="special.combo.line-line">线＋线</option><option value="special.combo.line-blast">线＋爆</option><option value="special.combo.blast-blast">爆＋爆</option></select></label>
+   <label>并发 <select id="policy"><option value="limited">参考正式上限 · 音效最多3条</option><option value="overlap">叠加压力对照 · 最多8条</option></select></label>
+   <label>整页总音量 <input id="master" type="range" min="0" max="1" value="1" step="0.05"><output id="master-value">100%</output></label>
+  </div>
+  <div class="actions"><button id="sequence" class="primary">播放完整施法</button><button id="duel">双方连续施法 · 6次</button><button id="reference">只听正式混音参照</button><button id="stop" class="stop">停止全部 · Esc</button></div>
+  <p id="timing-note" class="note"></p>
+  <p class="muted small">默认组合使用各组A，仅是初始试听值。BGM与消除使用当前正式文件和倍率；候选施法按核心反馈模拟音乐保留65%。本页独立模拟限流，不运行游戏AudioManager或写入游戏设置。压力场景仅检查重叠，不重演冻结、棋盘结算等规则。</p>
+  <div class="statusbar"><strong id="status" role="status" aria-live="polite">准备就绪，点击任意播放按钮解锁声音</strong><span id="meter">峰值 —</span><span id="voices">活动 0 · 跳过 0</span></div>
+  <details><summary>本次播放记录与被跳过的声音</summary><ol id="log"></ol></details>
+ </section>
+ <div id="groups"></div>
+ <section class="panel"><h2>其余8张 · 本轮只保留清单</h2><div class="table-wrap"><table><thead><tr><th>技能</th><th>真实触发依据与后续制作重点</th></tr></thead><tbody id="reserved"></tbody></table></div><p class="muted">通用状态消散音另作可选预留，本轮未制作。</p></section>
+ <section class="panel"><h2>声音层级与确认入口</h2><p>通用三阶段保持轻量，技能本体提供材质识别。请特别对比：冻结／幸运星与释放在同一时刻是否拥挤；清晶铃与现有特殊消除是否太相似；火焰的细碎余烬是否被BGM掩盖。短音的客观校准不等同于人耳等响，舒适度与风格由你试听确认。</p><p>参考正式上限可能跳过后来的飞行或命中；切换“叠加压力对照”可听见被限制前的重叠。后续正式接入需另行确定声音优先级，本轮只记录风险。</p><p id="selection-text"></p><label class="feedback-label">试听备注（仅保存在当前页面内存）<textarea id="notes" rows="3" placeholder="例如：释放B，飞行A，命中C；冻结希望更像冰、少一点铃声……"></textarea></label><button id="export">下载本次试听记录</button><p class="muted small">导出是意见记录，不代表确认或接入；刷新会恢复初始试听组合。</p></section>
+ <details class="panel"><summary>正式参照音频的原有署名与许可（随离线页面保留）</summary><pre id="official-credits"></pre></details>
+ <footer>素材与授权逐条展开可查。完整精确记录见同目录 CREDITS.md 与 candidate-manifest.json。声音文件均嵌入本页，解码后按原速播放。资料核对：2026-10-13。</footer>
+</main>
+<script>window.REVIEW_DATA=/*DATA*/;</script><script>/*APP*/</script></body></html>

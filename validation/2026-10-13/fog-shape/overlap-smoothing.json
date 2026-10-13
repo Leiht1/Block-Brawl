@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-13",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Final smooth color blend keeps identical casts unchanged and never stacks partial-overlap alpha at 1x or 2x density",
+      "passed": true
+    },
+    {
+      "name": "Final partial-overlap sample retains smooth cloud texture and natural silhouettes",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "Original fog silhouette, 4x4 coverage, terrain edges/obstacles, overlap opacity, independent expiry and visual fade only.",
+  "after": {
+    "centers": [
+      102,
+      251,
+      253,
+      247,
+      251,
+      252,
+      253,
+      252,
+      252,
+      253,
+      253,
+      252,
+      174,
+      252,
+      251,
+      251
+    ],
+    "minCenterAlpha": 102,
+    "outside4x4": 15486,
+    "bounds": {
+      "minX": 45,
+      "minY": 52,
+      "maxX": 276,
+      "maxY": 270
+    },
+    "identical": true,
+    "partialNoAlphaStack": true,
+    "partialNoAlphaStack2x": true,
+    "tailMax": 127,
+    "endMax": 0
+  }
+}

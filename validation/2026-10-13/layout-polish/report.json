@@ -1,0 +1,4779 @@
+{
+  "status": "passed",
+  "checks": [
+    "Final follow-up: 1024x768, 1024x600, 390x844, 375x568, 844x390; twelve cards, contained timer/ready, symmetric boards/hands, no horizontal overflow; desktop sizes fit one screen",
+    "choose six unique cards, cancel from pool and slot, ready and unchanged 60-second deadline",
+    "buff time updates from real deadlines and expired icons leave no slots",
+    "new card flies from relocated preview, then becomes visible",
+    "hover, drag/release and drawing during drag retain pointer capture",
+    "existing sandbox instruction returns after leaving battle"
+  ],
+  "layouts": [
+    {
+      "screen": "selection",
+      "viewport": [
+        1024,
+        768
+      ],
+      "scroll": [
+        1009,
+        768
+      ],
+      "selectionScroll": [
+        1009,
+        768
+      ],
+      "cards": [
+        {
+          "x": 62.765625,
+          "y": 335.296875,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 183.734375,
+          "bottom": 516.75
+        },
+        {
+          "x": 215.265625,
+          "y": 335.296875,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 336.234375,
+          "bottom": 516.75
+        },
+        {
+          "x": 367.765625,
+          "y": 335.296875,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 488.734375,
+          "bottom": 516.75
+        },
+        {
+          "x": 520.265625,
+          "y": 335.296875,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 641.234375,
+          "bottom": 516.75
+        },
+        {
+          "x": 672.765625,
+          "y": 335.296875,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 793.734375,
+          "bottom": 516.75
+        },
+        {
+          "x": 825.265625,
+          "y": 335.296875,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 946.234375,
+          "bottom": 516.75
+        },
+        {
+          "x": 62.765625,
+          "y": 524.75,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 183.734375,
+          "bottom": 706.203125
+        },
+        {
+          "x": 215.265625,
+          "y": 524.75,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 336.234375,
+          "bottom": 706.203125
+        },
+        {
+          "x": 367.765625,
+          "y": 524.75,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 488.734375,
+          "bottom": 706.203125
+        },
+        {
+          "x": 520.265625,
+          "y": 524.75,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 641.234375,
+          "bottom": 706.203125
+        },
+        {
+          "x": 672.765625,
+          "y": 524.75,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 793.734375,
+          "bottom": 706.203125
+        },
+        {
+          "x": 825.265625,
+          "y": 524.75,
+          "width": 120.96875,
+          "height": 181.453125,
+          "right": 946.234375,
+          "bottom": 706.203125
+        }
+      ],
+      "clock": {
+        "x": 876,
+        "y": 61,
+        "width": 94,
+        "height": 88,
+        "right": 970,
+        "bottom": 149
+      },
+      "timer": {
+        "x": 898.546875,
+        "y": 101.46875,
+        "width": 48.875,
+        "height": 22,
+        "right": 947.421875,
+        "bottom": 123.46875
+      },
+      "ready": {
+        "x": 436.359375,
+        "y": 174,
+        "width": 164,
+        "height": 31,
+        "right": 600.359375,
+        "bottom": 205
+      },
+      "slots": [
+        {
+          "x": 55,
+          "y": 211,
+          "width": 84.21875,
+          "height": 54,
+          "right": 139.21875,
+          "bottom": 265
+        },
+        {
+          "x": 147.21875,
+          "y": 211,
+          "width": 84.234375,
+          "height": 54,
+          "right": 231.453125,
+          "bottom": 265
+        },
+        {
+          "x": 239.453125,
+          "y": 211,
+          "width": 84.21875,
+          "height": 54,
+          "right": 323.671875,
+          "bottom": 265
+        },
+        {
+          "x": 331.671875,
+          "y": 211,
+          "width": 84.234375,
+          "height": 54,
+          "right": 415.90625,
+          "bottom": 265
+        },
+        {
+          "x": 423.90625,
+          "y": 211,
+          "width": 84.21875,
+          "height": 54,
+          "right": 508.125,
+          "bottom": 265
+        },
+        {
+          "x": 516.125,
+          "y": 211,
+          "width": 84.234375,
+          "height": 54,
+          "right": 600.359375,
+          "bottom": 265
+        }
+      ],
+      "board": {
+        "x": 183.046875,
+        "y": 299.546875,
+        "width": 232.90625,
+        "height": 232.90625,
+        "right": 415.953125,
+        "bottom": 532.453125
+      },
+      "enemyBoard": {
+        "x": 593.046875,
+        "y": 299.546875,
+        "width": 232.90625,
+        "height": 232.90625,
+        "right": 825.953125,
+        "bottom": 532.453125
+      },
+      "wrap": {
+        "x": 168.5,
+        "y": 285,
+        "width": 262,
+        "height": 262,
+        "right": 430.5,
+        "bottom": 547
+      },
+      "hand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "enemyHand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "preview": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resource": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "rails": [
+        {
+          "x": 0,
+          "y": 768,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 768
+        },
+        {
+          "x": 0,
+          "y": 768,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 768
+        }
+      ],
+      "handCards": [],
+      "score": {
+        "x": 450.5,
+        "y": 244.5,
+        "width": 108,
+        "height": 294.984375,
+        "right": 558.5,
+        "bottom": 539.484375
+      },
+      "controls": {
+        "x": 875,
+        "y": 310,
+        "width": 116,
+        "height": 148,
+        "right": 991,
+        "bottom": 458
+      },
+      "paintings": [
+        {
+          "width": 36,
+          "height": 54
+        },
+        {
+          "width": 36,
+          "height": 54
+        },
+        {
+          "width": 36,
+          "height": 54
+        },
+        {
+          "width": 36,
+          "height": 54
+        },
+        {
+          "width": 36,
+          "height": 54
+        },
+        {
+          "width": 36,
+          "height": 54
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        },
+        {
+          "width": 120.969,
+          "height": 181.453
+        }
+      ],
+      "buffTimers": [],
+      "text": [
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.55653px",
+          "width": 97,
+          "scrollWidth": 97,
+          "height": 31,
+          "scroll": 31
+        }
+      ]
+    },
+    {
+      "screen": "battle",
+      "viewport": [
+        1024,
+        768
+      ],
+      "scroll": [
+        1009,
+        768
+      ],
+      "selectionScroll": [
+        0,
+        0
+      ],
+      "cards": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "clock": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "timer": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "ready": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "slots": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "board": {
+        "x": 183.046875,
+        "y": 163.34375,
+        "width": 232.90625,
+        "height": 232.90625,
+        "right": 415.953125,
+        "bottom": 396.25
+      },
+      "enemyBoard": {
+        "x": 593.046875,
+        "y": 163.34375,
+        "width": 232.90625,
+        "height": 232.90625,
+        "right": 825.953125,
+        "bottom": 396.25
+      },
+      "wrap": {
+        "x": 168.5,
+        "y": 148.796875,
+        "width": 262,
+        "height": 262,
+        "right": 430.5,
+        "bottom": 410.796875
+      },
+      "hand": {
+        "x": 168.5,
+        "y": 480.796875,
+        "width": 262,
+        "height": 220.390625,
+        "right": 430.5,
+        "bottom": 701.1875
+      },
+      "enemyHand": {
+        "x": 578.5,
+        "y": 480.796875,
+        "width": 262,
+        "height": 220.390625,
+        "right": 840.5,
+        "bottom": 701.1875
+      },
+      "preview": {
+        "x": 16.5,
+        "y": 479.1875,
+        "width": 120,
+        "height": 180,
+        "right": 136.5,
+        "bottom": 659.1875
+      },
+      "resource": {
+        "x": 16.5,
+        "y": 458.796875,
+        "width": 120,
+        "height": 236.6875,
+        "right": 136.5,
+        "bottom": 695.484375
+      },
+      "rails": [
+        {
+          "x": 126.5625,
+          "y": 175.34375,
+          "width": 41.921875,
+          "height": 131.03125,
+          "right": 168.484375,
+          "bottom": 306.375
+        },
+        {
+          "x": 840.5,
+          "y": 175.34375,
+          "width": 41.921875,
+          "height": 131.03125,
+          "right": 882.421875,
+          "bottom": 306.375
+        }
+      ],
+      "handCards": [
+        {
+          "x": 130.50611877441406,
+          "y": 493.39215087890625,
+          "width": 170.07334899902344,
+          "height": 214.4774169921875,
+          "right": 300.5794677734375,
+          "bottom": 707.8695678710938
+        },
+        {
+          "x": 172.2633819580078,
+          "y": 483.92669677734375,
+          "width": 153.5182647705078,
+          "height": 205.71844482421875,
+          "right": 325.7816467285156,
+          "bottom": 689.6451416015625
+        },
+        {
+          "x": 215.00692749023438,
+          "y": 482.505615234375,
+          "width": 135.28121948242188,
+          "height": 194.70550537109375,
+          "right": 350.28814697265625,
+          "bottom": 677.2111206054688
+        },
+        {
+          "x": 248.68057250976562,
+          "y": 482.505615234375,
+          "width": 135.28121948242188,
+          "height": 194.70550537109375,
+          "right": 383.9617919921875,
+          "bottom": 677.2111206054688
+        },
+        {
+          "x": 273.1871032714844,
+          "y": 483.92669677734375,
+          "width": 153.51824951171875,
+          "height": 205.71844482421875,
+          "right": 426.7053527832031,
+          "bottom": 689.6451416015625
+        },
+        {
+          "x": 298.3892822265625,
+          "y": 493.39215087890625,
+          "width": 170.07333374023438,
+          "height": 214.4774169921875,
+          "right": 468.4626159667969,
+          "bottom": 707.8695678710938
+        },
+        {
+          "x": 540.506103515625,
+          "y": 493.39215087890625,
+          "width": 170.0733642578125,
+          "height": 214.4774169921875,
+          "right": 710.5794677734375,
+          "bottom": 707.8695678710938
+        },
+        {
+          "x": 582.2633666992188,
+          "y": 483.92669677734375,
+          "width": 153.51824951171875,
+          "height": 205.71844482421875,
+          "right": 735.7816162109375,
+          "bottom": 689.6451416015625
+        },
+        {
+          "x": 625.0069580078125,
+          "y": 482.505615234375,
+          "width": 135.28118896484375,
+          "height": 194.70550537109375,
+          "right": 760.2881469726562,
+          "bottom": 677.2111206054688
+        },
+        {
+          "x": 658.6806030273438,
+          "y": 482.505615234375,
+          "width": 135.28118896484375,
+          "height": 194.70550537109375,
+          "right": 793.9617919921875,
+          "bottom": 677.2111206054688
+        },
+        {
+          "x": 683.1870727539062,
+          "y": 483.92669677734375,
+          "width": 153.51824951171875,
+          "height": 205.71844482421875,
+          "right": 836.705322265625,
+          "bottom": 689.6451416015625
+        },
+        {
+          "x": 708.3892822265625,
+          "y": 493.39215087890625,
+          "width": 170.0733642578125,
+          "height": 214.4774169921875,
+          "right": 878.462646484375,
+          "bottom": 707.8695678710938
+        }
+      ],
+      "score": {
+        "x": 450.5,
+        "y": 108.296875,
+        "width": 108,
+        "height": 294.984375,
+        "right": 558.5,
+        "bottom": 403.28125
+      },
+      "controls": {
+        "x": 875,
+        "y": 310,
+        "width": 116,
+        "height": 148,
+        "right": 991,
+        "bottom": 458
+      },
+      "paintings": [
+        {
+          "width": 120,
+          "height": 180
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        },
+        {
+          "width": 125.594,
+          "height": 188.391
+        }
+      ],
+      "buffTimers": [
+        {
+          "x": 136.296875,
+          "y": 219.265625,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 158.75,
+          "bottom": 234.859375
+        },
+        {
+          "x": 136.296875,
+          "y": 290.78125,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 158.75,
+          "bottom": 306.375
+        },
+        {
+          "x": 850.234375,
+          "y": 219.265625,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 872.6875,
+          "bottom": 234.859375
+        },
+        {
+          "x": 850.234375,
+          "y": 290.78125,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 872.6875,
+          "bottom": 306.375
+        }
+      ],
+      "text": [
+        {
+          "size": "9.48px",
+          "width": 96,
+          "scrollWidth": 96,
+          "height": 31,
+          "scroll": 31
+        },
+        {
+          "size": "9.92191px",
+          "width": 100,
+          "scrollWidth": 100,
+          "height": 32,
+          "scroll": 32
+        },
+        {
+          "size": "9.92191px",
+          "width": 100,
+          "scrollWidth": 100,
+          "height": 32,
+          "scroll": 32
+        },
+        {
+          "size": "9.92191px",
+          "width": 100,
+          "scrollWidth": 100,
+          "height": 32,
+          "scroll": 32
+        },
+        {
+          "size": "9.92191px",
+          "width": 100,
+          "scrollWidth": 100,
+          "height": 32,
+          "scroll": 32
+        },
+        {
+          "size": "9.92191px",
+          "width": 100,
+          "scrollWidth": 100,
+          "height": 32,
+          "scroll": 32
+        },
+        {
+          "size": "9.92191px",
+          "width": 100,
+          "scrollWidth": 100,
+          "height": 32,
+          "scroll": 32
+        }
+      ]
+    },
+    {
+      "screen": "selection",
+      "viewport": [
+        1024,
+        600
+      ],
+      "scroll": [
+        1009,
+        600
+      ],
+      "selectionScroll": [
+        1009,
+        600
+      ],
+      "cards": [
+        {
+          "x": 63.734375,
+          "y": 269.09375,
+          "width": 92.359375,
+          "height": 138.53125,
+          "right": 156.09375,
+          "bottom": 407.625
+        },
+        {
+          "x": 221.5625,
+          "y": 269.09375,
+          "width": 92.359375,
+          "height": 138.53125,
+          "right": 313.921875,
+          "bottom": 407.625
+        },
+        {
+          "x": 379.390625,
+          "y": 269.09375,
+          "width": 92.359375,
+          "height": 138.53125,
+          "right": 471.75,
+          "bottom": 407.625
+        },
+        {
+          "x": 537.21875,
+          "y": 269.09375,
+          "width": 92.359375,
+          "height": 138.53125,
+          "right": 629.578125,
+          "bottom": 407.625
+        },
+        {
+          "x": 695.0625,
+          "y": 269.09375,
+          "width": 92.359375,
+          "height": 138.53125,
+          "right": 787.421875,
+          "bottom": 407.625
+        },
+        {
+          "x": 852.890625,
+          "y": 269.09375,
+          "width": 92.359375,
+          "height": 138.53125,
+          "right": 945.25,
+          "bottom": 407.625
+        },
+        {
+          "x": 63.71875,
+          "y": 413.640625,
+          "width": 92.375,
+          "height": 138.5625,
+          "right": 156.09375,
+          "bottom": 552.203125
+        },
+        {
+          "x": 221.546875,
+          "y": 413.640625,
+          "width": 92.375,
+          "height": 138.5625,
+          "right": 313.921875,
+          "bottom": 552.203125
+        },
+        {
+          "x": 379.375,
+          "y": 413.640625,
+          "width": 92.375,
+          "height": 138.5625,
+          "right": 471.75,
+          "bottom": 552.203125
+        },
+        {
+          "x": 537.21875,
+          "y": 413.640625,
+          "width": 92.375,
+          "height": 138.5625,
+          "right": 629.59375,
+          "bottom": 552.203125
+        },
+        {
+          "x": 695.046875,
+          "y": 413.640625,
+          "width": 92.375,
+          "height": 138.5625,
+          "right": 787.421875,
+          "bottom": 552.203125
+        },
+        {
+          "x": 852.875,
+          "y": 413.640625,
+          "width": 92.375,
+          "height": 138.5625,
+          "right": 945.25,
+          "bottom": 552.203125
+        }
+      ],
+      "clock": {
+        "x": 906,
+        "y": 53,
+        "width": 78,
+        "height": 72,
+        "right": 984,
+        "bottom": 125
+      },
+      "timer": {
+        "x": 924.71875,
+        "y": 86.109375,
+        "width": 40.546875,
+        "height": 22,
+        "right": 965.265625,
+        "bottom": 108.109375
+      },
+      "ready": {
+        "x": 458,
+        "y": 140.640625,
+        "width": 150,
+        "height": 26,
+        "right": 608,
+        "bottom": 166.640625
+      },
+      "slots": [
+        {
+          "x": 37,
+          "y": 175.9375,
+          "width": 88.5,
+          "height": 50,
+          "right": 125.5,
+          "bottom": 225.9375
+        },
+        {
+          "x": 133.5,
+          "y": 175.9375,
+          "width": 88.5,
+          "height": 50,
+          "right": 222,
+          "bottom": 225.9375
+        },
+        {
+          "x": 230,
+          "y": 175.9375,
+          "width": 88.5,
+          "height": 50,
+          "right": 318.5,
+          "bottom": 225.9375
+        },
+        {
+          "x": 326.5,
+          "y": 175.9375,
+          "width": 88.5,
+          "height": 50,
+          "right": 415,
+          "bottom": 225.9375
+        },
+        {
+          "x": 423,
+          "y": 175.9375,
+          "width": 88.5,
+          "height": 50,
+          "right": 511.5,
+          "bottom": 225.9375
+        },
+        {
+          "x": 519.5,
+          "y": 175.9375,
+          "width": 88.5,
+          "height": 50,
+          "right": 608,
+          "bottom": 225.9375
+        }
+      ],
+      "board": {
+        "x": 234.046875,
+        "y": 236.34375,
+        "width": 184.90625,
+        "height": 184.90625,
+        "right": 418.953125,
+        "bottom": 421.25
+      },
+      "enemyBoard": {
+        "x": 590.046875,
+        "y": 236.34375,
+        "width": 184.90625,
+        "height": 184.90625,
+        "right": 774.953125,
+        "bottom": 421.25
+      },
+      "wrap": {
+        "x": 222.5,
+        "y": 224.796875,
+        "width": 208,
+        "height": 208,
+        "right": 430.5,
+        "bottom": 432.796875
+      },
+      "hand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "enemyHand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "preview": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resource": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "rails": [
+        {
+          "x": 0,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 600
+        },
+        {
+          "x": 0,
+          "y": 600,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 600
+        }
+      ],
+      "handCards": [],
+      "score": {
+        "x": 450.5,
+        "y": 176.796875,
+        "width": 108,
+        "height": 262.390625,
+        "right": 558.5,
+        "bottom": 439.1875
+      },
+      "controls": {
+        "x": 875,
+        "y": 226,
+        "width": 116,
+        "height": 148,
+        "right": 991,
+        "bottom": 374
+      },
+      "paintings": [
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 92.3594,
+          "height": 138.531
+        },
+        {
+          "width": 92.3594,
+          "height": 138.531
+        },
+        {
+          "width": 92.3594,
+          "height": 138.531
+        },
+        {
+          "width": 92.3594,
+          "height": 138.531
+        },
+        {
+          "width": 92.3594,
+          "height": 138.531
+        },
+        {
+          "width": 92.3594,
+          "height": 138.531
+        },
+        {
+          "width": 92.375,
+          "height": 138.562
+        },
+        {
+          "width": 92.375,
+          "height": 138.562
+        },
+        {
+          "width": 92.375,
+          "height": 138.562
+        },
+        {
+          "width": 92.375,
+          "height": 138.562
+        },
+        {
+          "width": 92.375,
+          "height": 138.562
+        },
+        {
+          "width": 92.375,
+          "height": 138.562
+        }
+      ],
+      "buffTimers": [],
+      "text": [
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 74,
+          "scrollWidth": 74,
+          "height": 24,
+          "scroll": 24
+        }
+      ]
+    },
+    {
+      "screen": "battle",
+      "viewport": [
+        1024,
+        600
+      ],
+      "scroll": [
+        1009,
+        600
+      ],
+      "selectionScroll": [
+        0,
+        0
+      ],
+      "cards": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "clock": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "timer": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "ready": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "slots": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "board": {
+        "x": 234.046875,
+        "y": 129.546875,
+        "width": 184.90625,
+        "height": 184.90625,
+        "right": 418.953125,
+        "bottom": 314.453125
+      },
+      "enemyBoard": {
+        "x": 590.046875,
+        "y": 129.546875,
+        "width": 184.90625,
+        "height": 184.90625,
+        "right": 774.953125,
+        "bottom": 314.453125
+      },
+      "wrap": {
+        "x": 222.5,
+        "y": 118,
+        "width": 208,
+        "height": 208,
+        "right": 430.5,
+        "bottom": 326
+      },
+      "hand": {
+        "x": 222.5,
+        "y": 395.203125,
+        "width": 208,
+        "height": 176,
+        "right": 430.5,
+        "bottom": 571.203125
+      },
+      "enemyHand": {
+        "x": 578.5,
+        "y": 402.390625,
+        "width": 208,
+        "height": 176,
+        "right": 786.5,
+        "bottom": 578.390625
+      },
+      "preview": {
+        "x": 74.5,
+        "y": 383.59375,
+        "width": 116,
+        "height": 174,
+        "right": 190.5,
+        "bottom": 557.59375
+      },
+      "resource": {
+        "x": 74.5,
+        "y": 363.203125,
+        "width": 116,
+        "height": 230.6875,
+        "right": 190.5,
+        "bottom": 593.890625
+      },
+      "rails": [
+        {
+          "x": 189.203125,
+          "y": 141.546875,
+          "width": 33.28125,
+          "height": 113.75,
+          "right": 222.484375,
+          "bottom": 255.296875
+        },
+        {
+          "x": 786.5,
+          "y": 141.546875,
+          "width": 33.28125,
+          "height": 113.75,
+          "right": 819.78125,
+          "bottom": 255.296875
+        }
+      ],
+      "handCards": [
+        {
+          "x": 194.72911071777344,
+          "y": 410.191162109375,
+          "width": 129.9988250732422,
+          "height": 163.93994140625,
+          "right": 324.7279357910156,
+          "bottom": 574.131103515625
+        },
+        {
+          "x": 227.6907196044922,
+          "y": 400.1285095214844,
+          "width": 117.34465026855469,
+          "height": 157.24484252929688,
+          "right": 345.0353698730469,
+          "bottom": 557.3733520507812
+        },
+        {
+          "x": 261.4062194824219,
+          "y": 397.62847900390625,
+          "width": 103.40481567382812,
+          "height": 148.826904296875,
+          "right": 364.81103515625,
+          "bottom": 546.4553833007812
+        },
+        {
+          "x": 288.18896484375,
+          "y": 397.62847900390625,
+          "width": 103.40481567382812,
+          "height": 148.826904296875,
+          "right": 391.5937805175781,
+          "bottom": 546.4553833007812
+        },
+        {
+          "x": 307.9646301269531,
+          "y": 400.1285095214844,
+          "width": 117.34463500976562,
+          "height": 157.24484252929688,
+          "right": 425.30926513671875,
+          "bottom": 557.3733520507812
+        },
+        {
+          "x": 328.2720642089844,
+          "y": 410.191162109375,
+          "width": 129.99880981445312,
+          "height": 163.93994140625,
+          "right": 458.2708740234375,
+          "bottom": 574.131103515625
+        },
+        {
+          "x": 550.7291259765625,
+          "y": 417.378662109375,
+          "width": 129.998779296875,
+          "height": 163.93994140625,
+          "right": 680.7279052734375,
+          "bottom": 581.318603515625
+        },
+        {
+          "x": 583.6907348632812,
+          "y": 407.3160095214844,
+          "width": 117.34466552734375,
+          "height": 157.24484252929688,
+          "right": 701.035400390625,
+          "bottom": 564.5608520507812
+        },
+        {
+          "x": 617.40625,
+          "y": 404.81597900390625,
+          "width": 103.40478515625,
+          "height": 148.826904296875,
+          "right": 720.81103515625,
+          "bottom": 553.6428833007812
+        },
+        {
+          "x": 644.18896484375,
+          "y": 404.81597900390625,
+          "width": 103.40478515625,
+          "height": 148.826904296875,
+          "right": 747.59375,
+          "bottom": 553.6428833007812
+        },
+        {
+          "x": 663.964599609375,
+          "y": 407.3160095214844,
+          "width": 117.34466552734375,
+          "height": 157.24484252929688,
+          "right": 781.3092651367188,
+          "bottom": 564.5608520507812
+        },
+        {
+          "x": 684.2720947265625,
+          "y": 417.378662109375,
+          "width": 129.998779296875,
+          "height": 163.93994140625,
+          "right": 814.2708740234375,
+          "bottom": 581.318603515625
+        }
+      ],
+      "score": {
+        "x": 450.5,
+        "y": 70,
+        "width": 108,
+        "height": 262.390625,
+        "right": 558.5,
+        "bottom": 332.390625
+      },
+      "controls": {
+        "x": 875,
+        "y": 226,
+        "width": 116,
+        "height": 148,
+        "right": 991,
+        "bottom": 374
+      },
+      "paintings": [
+        {
+          "width": 116,
+          "height": 174
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        }
+      ],
+      "buffTimers": [
+        {
+          "x": 194.609375,
+          "y": 176.828125,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 217.0625,
+          "bottom": 192.421875
+        },
+        {
+          "x": 194.609375,
+          "y": 239.703125,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 217.0625,
+          "bottom": 255.296875
+        },
+        {
+          "x": 791.90625,
+          "y": 176.828125,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 814.359375,
+          "bottom": 192.421875
+        },
+        {
+          "x": 791.90625,
+          "y": 239.703125,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 814.359375,
+          "bottom": 255.296875
+        }
+      ],
+      "text": [
+        {
+          "size": "9.164px",
+          "width": 93,
+          "scrollWidth": 93,
+          "height": 30,
+          "scroll": 30
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        }
+      ]
+    },
+    {
+      "screen": "selection",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll": [
+        375,
+        844
+      ],
+      "selectionScroll": [
+        375,
+        1025
+      ],
+      "cards": [
+        {
+          "x": 26.5,
+          "y": 356.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 129.15625,
+          "bottom": 510.078125
+        },
+        {
+          "x": 136.15625,
+          "y": 356.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 238.8125,
+          "bottom": 510.078125
+        },
+        {
+          "x": 245.828125,
+          "y": 356.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 348.484375,
+          "bottom": 510.078125
+        },
+        {
+          "x": 26.5,
+          "y": 514.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 129.15625,
+          "bottom": 668.078125
+        },
+        {
+          "x": 136.15625,
+          "y": 514.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 238.8125,
+          "bottom": 668.078125
+        },
+        {
+          "x": 245.828125,
+          "y": 514.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 348.484375,
+          "bottom": 668.078125
+        },
+        {
+          "x": 26.5,
+          "y": 672.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 129.15625,
+          "bottom": 826.078125
+        },
+        {
+          "x": 136.15625,
+          "y": 672.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 238.8125,
+          "bottom": 826.078125
+        },
+        {
+          "x": 245.828125,
+          "y": 672.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 348.484375,
+          "bottom": 826.078125
+        },
+        {
+          "x": 26.5,
+          "y": 830.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 129.15625,
+          "bottom": 984.078125
+        },
+        {
+          "x": 136.15625,
+          "y": 830.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 238.8125,
+          "bottom": 984.078125
+        },
+        {
+          "x": 245.828125,
+          "y": 830.09375,
+          "width": 102.65625,
+          "height": 153.984375,
+          "right": 348.484375,
+          "bottom": 984.078125
+        }
+      ],
+      "clock": {
+        "x": 284,
+        "y": 75.140625,
+        "width": 72,
+        "height": 68,
+        "right": 356,
+        "bottom": 143.140625
+      },
+      "timer": {
+        "x": 301.265625,
+        "y": 106.40625,
+        "width": 37.4375,
+        "height": 21,
+        "right": 338.703125,
+        "bottom": 127.40625
+      },
+      "ready": {
+        "x": 27,
+        "y": 291.09375,
+        "width": 174.140625,
+        "height": 26,
+        "right": 201.140625,
+        "bottom": 317.09375
+      },
+      "slots": [
+        {
+          "x": 27,
+          "y": 200.09375,
+          "width": 56.046875,
+          "height": 42,
+          "right": 83.046875,
+          "bottom": 242.09375
+        },
+        {
+          "x": 86.046875,
+          "y": 200.09375,
+          "width": 56.046875,
+          "height": 42,
+          "right": 142.09375,
+          "bottom": 242.09375
+        },
+        {
+          "x": 145.09375,
+          "y": 200.09375,
+          "width": 56.046875,
+          "height": 42,
+          "right": 201.140625,
+          "bottom": 242.09375
+        },
+        {
+          "x": 27,
+          "y": 245.09375,
+          "width": 56.046875,
+          "height": 42,
+          "right": 83.046875,
+          "bottom": 287.09375
+        },
+        {
+          "x": 86.046875,
+          "y": 245.09375,
+          "width": 56.046875,
+          "height": 42,
+          "right": 142.09375,
+          "bottom": 287.09375
+        },
+        {
+          "x": 145.09375,
+          "y": 245.09375,
+          "width": 56.046875,
+          "height": 42,
+          "right": 201.140625,
+          "bottom": 287.09375
+        }
+      ],
+      "board": {
+        "x": 36.515625,
+        "y": 224.515625,
+        "width": 104.46875,
+        "height": 104.46875,
+        "right": 140.984375,
+        "bottom": 328.984375
+      },
+      "enemyBoard": {
+        "x": 234.015625,
+        "y": 224.515625,
+        "width": 104.46875,
+        "height": 104.46875,
+        "right": 338.484375,
+        "bottom": 328.984375
+      },
+      "wrap": {
+        "x": 30,
+        "y": 218,
+        "width": 117.5,
+        "height": 117.5,
+        "right": 147.5,
+        "bottom": 335.5
+      },
+      "hand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "enemyHand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "preview": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resource": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "rails": [
+        {
+          "x": 0,
+          "y": 844,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 844
+        },
+        {
+          "x": 0,
+          "y": 844,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 844
+        }
+      ],
+      "handCards": [],
+      "score": {
+        "x": 155.5,
+        "y": 159,
+        "width": 64,
+        "height": 251.984375,
+        "right": 219.5,
+        "bottom": 410.984375
+      },
+      "controls": {
+        "x": 30,
+        "y": 113,
+        "width": 315,
+        "height": 34,
+        "right": 345,
+        "bottom": 147
+      },
+      "paintings": [
+        {
+          "width": 28,
+          "height": 42
+        },
+        {
+          "width": 28,
+          "height": 42
+        },
+        {
+          "width": 28,
+          "height": 42
+        },
+        {
+          "width": 28,
+          "height": 42
+        },
+        {
+          "width": 28,
+          "height": 42
+        },
+        {
+          "width": 28,
+          "height": 42
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        },
+        {
+          "width": 102.656,
+          "height": 153.984
+        }
+      ],
+      "buffTimers": [],
+      "text": [
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 82,
+          "scrollWidth": 82,
+          "height": 26,
+          "scroll": 26
+        }
+      ]
+    },
+    {
+      "screen": "battle",
+      "viewport": [
+        390,
+        844
+      ],
+      "scroll": [
+        375,
+        897
+      ],
+      "selectionScroll": [
+        0,
+        0
+      ],
+      "cards": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "clock": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "timer": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "ready": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "slots": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "board": {
+        "x": 36.515625,
+        "y": 224.515625,
+        "width": 104.46875,
+        "height": 104.46875,
+        "right": 140.984375,
+        "bottom": 328.984375
+      },
+      "enemyBoard": {
+        "x": 234.015625,
+        "y": 224.515625,
+        "width": 104.46875,
+        "height": 104.46875,
+        "right": 338.484375,
+        "bottom": 328.984375
+      },
+      "wrap": {
+        "x": 30,
+        "y": 218,
+        "width": 117.5,
+        "height": 117.5,
+        "right": 147.5,
+        "bottom": 335.5
+      },
+      "hand": {
+        "x": 30,
+        "y": 668.984375,
+        "width": 117.5,
+        "height": 176,
+        "right": 147.5,
+        "bottom": 844.984375
+      },
+      "enemyHand": {
+        "x": 227.5,
+        "y": 668.984375,
+        "width": 117.5,
+        "height": 176,
+        "right": 345,
+        "bottom": 844.984375
+      },
+      "preview": {
+        "x": 40.75,
+        "y": 439.984375,
+        "width": 96,
+        "height": 144,
+        "right": 136.75,
+        "bottom": 583.984375
+      },
+      "resource": {
+        "x": 40.75,
+        "y": 422.984375,
+        "width": 96,
+        "height": 200,
+        "right": 136.75,
+        "bottom": 622.984375
+      },
+      "rails": [
+        {
+          "x": 9.703125,
+          "y": 236.515625,
+          "width": 18.796875,
+          "height": 75.1875,
+          "right": 28.5,
+          "bottom": 311.703125
+        },
+        {
+          "x": 346.484375,
+          "y": 236.515625,
+          "width": 18.796875,
+          "height": 75.1875,
+          "right": 365.28125,
+          "bottom": 311.703125
+        }
+      ],
+      "handCards": [
+        {
+          "x": 13.304662704467773,
+          "y": 686.6394653320312,
+          "width": 113.97447967529297,
+          "height": 155.298583984375,
+          "right": 127.27914237976074,
+          "bottom": 841.9380493164062
+        },
+        {
+          "x": 24.164764404296875,
+          "y": 676.3900756835938,
+          "width": 107.00216674804688,
+          "height": 151.088134765625,
+          "right": 131.16693115234375,
+          "bottom": 827.4782104492188
+        },
+        {
+          "x": 35.18544006347656,
+          "y": 672.5247802734375,
+          "width": 99.73658752441406,
+          "height": 146.463623046875,
+          "right": 134.92202758789062,
+          "bottom": 818.9884033203125
+        },
+        {
+          "x": 42.577972412109375,
+          "y": 672.5247802734375,
+          "width": 99.73658752441406,
+          "height": 146.463623046875,
+          "right": 142.31455993652344,
+          "bottom": 818.9884033203125
+        },
+        {
+          "x": 46.33306121826172,
+          "y": 676.3900756835938,
+          "width": 107.0021743774414,
+          "height": 151.088134765625,
+          "right": 153.33523559570312,
+          "bottom": 827.4782104492188
+        },
+        {
+          "x": 50.220855712890625,
+          "y": 686.6394653320312,
+          "width": 113.9744873046875,
+          "height": 155.298583984375,
+          "right": 164.19534301757812,
+          "bottom": 841.9380493164062
+        },
+        {
+          "x": 210.80465698242188,
+          "y": 686.6394653320312,
+          "width": 113.9744873046875,
+          "height": 155.298583984375,
+          "right": 324.7791442871094,
+          "bottom": 841.9380493164062
+        },
+        {
+          "x": 221.66476440429688,
+          "y": 676.3900756835938,
+          "width": 107.00216674804688,
+          "height": 151.088134765625,
+          "right": 328.66693115234375,
+          "bottom": 827.4782104492188
+        },
+        {
+          "x": 232.68544006347656,
+          "y": 672.5247802734375,
+          "width": 99.73658752441406,
+          "height": 146.463623046875,
+          "right": 332.4220275878906,
+          "bottom": 818.9884033203125
+        },
+        {
+          "x": 240.07797241210938,
+          "y": 672.5247802734375,
+          "width": 99.73660278320312,
+          "height": 146.463623046875,
+          "right": 339.8145751953125,
+          "bottom": 818.9884033203125
+        },
+        {
+          "x": 243.83306884765625,
+          "y": 676.3900756835938,
+          "width": 107.00216674804688,
+          "height": 151.088134765625,
+          "right": 350.8352355957031,
+          "bottom": 827.4782104492188
+        },
+        {
+          "x": 247.72085571289062,
+          "y": 686.6394653320312,
+          "width": 113.9744873046875,
+          "height": 155.298583984375,
+          "right": 361.6953430175781,
+          "bottom": 841.9380493164062
+        }
+      ],
+      "score": {
+        "x": 155.5,
+        "y": 159,
+        "width": 64,
+        "height": 251.984375,
+        "right": 219.5,
+        "bottom": 410.984375
+      },
+      "controls": {
+        "x": 30,
+        "y": 113,
+        "width": 315,
+        "height": 34,
+        "right": 345,
+        "bottom": 147
+      },
+      "paintings": [
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        }
+      ],
+      "buffTimers": [
+        {
+          "x": 11.328125,
+          "y": 257.3125,
+          "width": 15.546875,
+          "height": 10.796875,
+          "right": 26.875,
+          "bottom": 268.109375
+        },
+        {
+          "x": 11.328125,
+          "y": 300.90625,
+          "width": 15.546875,
+          "height": 10.796875,
+          "right": 26.875,
+          "bottom": 311.703125
+        },
+        {
+          "x": 348.109375,
+          "y": 257.3125,
+          "width": 15.546875,
+          "height": 10.796875,
+          "right": 363.65625,
+          "bottom": 268.109375
+        },
+        {
+          "x": 348.109375,
+          "y": 300.90625,
+          "width": 15.546875,
+          "height": 10.796875,
+          "right": 363.65625,
+          "bottom": 311.703125
+        }
+      ],
+      "text": [
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        }
+      ]
+    },
+    {
+      "screen": "selection",
+      "viewport": [
+        375,
+        568
+      ],
+      "scroll": [
+        360,
+        568
+      ],
+      "selectionScroll": [
+        360,
+        998
+      ],
+      "cards": [
+        {
+          "x": 25,
+          "y": 330.375,
+          "width": 100.65625,
+          "height": 150.984375,
+          "right": 125.65625,
+          "bottom": 481.359375
+        },
+        {
+          "x": 129.65625,
+          "y": 330.375,
+          "width": 100.671875,
+          "height": 151,
+          "right": 230.328125,
+          "bottom": 481.375
+        },
+        {
+          "x": 234.328125,
+          "y": 330.375,
+          "width": 100.65625,
+          "height": 150.984375,
+          "right": 334.984375,
+          "bottom": 481.359375
+        },
+        {
+          "x": 25,
+          "y": 488.375,
+          "width": 100.65625,
+          "height": 150.984375,
+          "right": 125.65625,
+          "bottom": 639.359375
+        },
+        {
+          "x": 129.65625,
+          "y": 488.375,
+          "width": 100.671875,
+          "height": 151,
+          "right": 230.328125,
+          "bottom": 639.375
+        },
+        {
+          "x": 234.328125,
+          "y": 488.375,
+          "width": 100.65625,
+          "height": 150.984375,
+          "right": 334.984375,
+          "bottom": 639.359375
+        },
+        {
+          "x": 25,
+          "y": 646.375,
+          "width": 100.65625,
+          "height": 150.984375,
+          "right": 125.65625,
+          "bottom": 797.359375
+        },
+        {
+          "x": 129.65625,
+          "y": 646.375,
+          "width": 100.671875,
+          "height": 151,
+          "right": 230.328125,
+          "bottom": 797.375
+        },
+        {
+          "x": 234.328125,
+          "y": 646.375,
+          "width": 100.65625,
+          "height": 150.984375,
+          "right": 334.984375,
+          "bottom": 797.359375
+        },
+        {
+          "x": 25,
+          "y": 804.375,
+          "width": 100.65625,
+          "height": 150.984375,
+          "right": 125.65625,
+          "bottom": 955.359375
+        },
+        {
+          "x": 129.65625,
+          "y": 804.375,
+          "width": 100.671875,
+          "height": 151,
+          "right": 230.328125,
+          "bottom": 955.375
+        },
+        {
+          "x": 234.328125,
+          "y": 804.375,
+          "width": 100.65625,
+          "height": 150.984375,
+          "right": 334.984375,
+          "bottom": 955.359375
+        }
+      ],
+      "clock": {
+        "x": 269,
+        "y": 75.140625,
+        "width": 72,
+        "height": 68,
+        "right": 341,
+        "bottom": 143.140625
+      },
+      "timer": {
+        "x": 286.265625,
+        "y": 106.40625,
+        "width": 37.4375,
+        "height": 21,
+        "right": 323.703125,
+        "bottom": 127.40625
+      },
+      "ready": {
+        "x": 27,
+        "y": 263.875,
+        "width": 165.53125,
+        "height": 26,
+        "right": 192.53125,
+        "bottom": 289.875
+      },
+      "slots": [
+        {
+          "x": 27,
+          "y": 200.09375,
+          "width": 53.171875,
+          "height": 28.390625,
+          "right": 80.171875,
+          "bottom": 228.484375
+        },
+        {
+          "x": 83.171875,
+          "y": 200.09375,
+          "width": 53.171875,
+          "height": 28.390625,
+          "right": 136.34375,
+          "bottom": 228.484375
+        },
+        {
+          "x": 139.34375,
+          "y": 200.09375,
+          "width": 53.171875,
+          "height": 28.390625,
+          "right": 192.515625,
+          "bottom": 228.484375
+        },
+        {
+          "x": 27,
+          "y": 231.484375,
+          "width": 53.171875,
+          "height": 28.390625,
+          "right": 80.171875,
+          "bottom": 259.875
+        },
+        {
+          "x": 83.171875,
+          "y": 231.484375,
+          "width": 53.171875,
+          "height": 28.390625,
+          "right": 136.34375,
+          "bottom": 259.875
+        },
+        {
+          "x": 139.34375,
+          "y": 231.484375,
+          "width": 53.171875,
+          "height": 28.390625,
+          "right": 192.515625,
+          "bottom": 259.875
+        }
+      ],
+      "board": {
+        "x": 36.109375,
+        "y": 224.109375,
+        "width": 97.78125,
+        "height": 97.78125,
+        "right": 133.890625,
+        "bottom": 321.890625
+      },
+      "enemyBoard": {
+        "x": 226.109375,
+        "y": 234.109375,
+        "width": 97.78125,
+        "height": 97.78125,
+        "right": 323.890625,
+        "bottom": 331.890625
+      },
+      "wrap": {
+        "x": 30,
+        "y": 218,
+        "width": 110,
+        "height": 110,
+        "right": 140,
+        "bottom": 328
+      },
+      "hand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "enemyHand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "preview": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resource": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "rails": [
+        {
+          "x": 0,
+          "y": 568,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 568
+        },
+        {
+          "x": 0,
+          "y": 568,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 568
+        }
+      ],
+      "handCards": [],
+      "score": {
+        "x": 148,
+        "y": 159,
+        "width": 64,
+        "height": 251.984375,
+        "right": 212,
+        "bottom": 410.984375
+      },
+      "controls": {
+        "x": 30,
+        "y": 113,
+        "width": 300,
+        "height": 34,
+        "right": 330,
+        "bottom": 147
+      },
+      "paintings": [
+        {
+          "width": 18.9219,
+          "height": 28.3906
+        },
+        {
+          "width": 18.9219,
+          "height": 28.3906
+        },
+        {
+          "width": 18.9219,
+          "height": 28.3906
+        },
+        {
+          "width": 18.9219,
+          "height": 28.3906
+        },
+        {
+          "width": 18.9219,
+          "height": 28.3906
+        },
+        {
+          "width": 18.9219,
+          "height": 28.3906
+        },
+        {
+          "width": 100.656,
+          "height": 150.984
+        },
+        {
+          "width": 100.672,
+          "height": 151
+        },
+        {
+          "width": 100.656,
+          "height": 150.984
+        },
+        {
+          "width": 100.656,
+          "height": 150.984
+        },
+        {
+          "width": 100.672,
+          "height": 151
+        },
+        {
+          "width": 100.656,
+          "height": 150.984
+        },
+        {
+          "width": 100.656,
+          "height": 150.984
+        },
+        {
+          "width": 100.672,
+          "height": 151
+        },
+        {
+          "width": 100.656,
+          "height": 150.984
+        },
+        {
+          "width": 100.656,
+          "height": 150.984
+        },
+        {
+          "width": 100.672,
+          "height": 151
+        },
+        {
+          "width": 100.656,
+          "height": 150.984
+        }
+      ],
+      "buffTimers": [],
+      "text": [
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        },
+        {
+          "size": "9px",
+          "width": 81,
+          "scrollWidth": 81,
+          "height": 26,
+          "scroll": 26
+        }
+      ]
+    },
+    {
+      "screen": "battle",
+      "viewport": [
+        375,
+        568
+      ],
+      "scroll": [
+        360,
+        897
+      ],
+      "selectionScroll": [
+        0,
+        0
+      ],
+      "cards": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "clock": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "timer": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "ready": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "slots": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "board": {
+        "x": 36.109375,
+        "y": 224.109375,
+        "width": 97.78125,
+        "height": 97.78125,
+        "right": 133.890625,
+        "bottom": 321.890625
+      },
+      "enemyBoard": {
+        "x": 226.109375,
+        "y": 234.109375,
+        "width": 97.78125,
+        "height": 97.78125,
+        "right": 323.890625,
+        "bottom": 331.890625
+      },
+      "wrap": {
+        "x": 30,
+        "y": 218,
+        "width": 110,
+        "height": 110,
+        "right": 140,
+        "bottom": 328
+      },
+      "hand": {
+        "x": 30,
+        "y": 668.984375,
+        "width": 110,
+        "height": 176,
+        "right": 140,
+        "bottom": 844.984375
+      },
+      "enemyHand": {
+        "x": 220,
+        "y": 668.984375,
+        "width": 110,
+        "height": 176,
+        "right": 330,
+        "bottom": 844.984375
+      },
+      "preview": {
+        "x": 37,
+        "y": 439.984375,
+        "width": 96,
+        "height": 144,
+        "right": 133,
+        "bottom": 583.984375
+      },
+      "resource": {
+        "x": 37,
+        "y": 422.984375,
+        "width": 96,
+        "height": 200,
+        "right": 133,
+        "bottom": 622.984375
+      },
+      "rails": [
+        {
+          "x": 10.5,
+          "y": 236.109375,
+          "width": 17.59375,
+          "height": 72.78125,
+          "right": 28.09375,
+          "bottom": 308.890625
+        },
+        {
+          "x": 331.890625,
+          "y": 246.109375,
+          "width": 17.59375,
+          "height": 72.78125,
+          "right": 349.484375,
+          "bottom": 318.890625
+        }
+      ],
+      "handCards": [
+        {
+          "x": 9.554662704467773,
+          "y": 686.6394653320312,
+          "width": 113.97447967529297,
+          "height": 155.298583984375,
+          "right": 123.52914237976074,
+          "bottom": 841.9380493164062
+        },
+        {
+          "x": 20.414764404296875,
+          "y": 676.3900756835938,
+          "width": 107.0021743774414,
+          "height": 151.088134765625,
+          "right": 127.41693878173828,
+          "bottom": 827.4782104492188
+        },
+        {
+          "x": 31.435441970825195,
+          "y": 672.5247802734375,
+          "width": 99.73658752441406,
+          "height": 146.463623046875,
+          "right": 131.17202949523926,
+          "bottom": 818.9884033203125
+        },
+        {
+          "x": 38.827972412109375,
+          "y": 672.5247802734375,
+          "width": 99.73658752441406,
+          "height": 146.463623046875,
+          "right": 138.56455993652344,
+          "bottom": 818.9884033203125
+        },
+        {
+          "x": 42.58306121826172,
+          "y": 676.3900756835938,
+          "width": 107.0021743774414,
+          "height": 151.088134765625,
+          "right": 149.58523559570312,
+          "bottom": 827.4782104492188
+        },
+        {
+          "x": 46.470855712890625,
+          "y": 686.6394653320312,
+          "width": 113.9744873046875,
+          "height": 155.298583984375,
+          "right": 160.44534301757812,
+          "bottom": 841.9380493164062
+        },
+        {
+          "x": 199.55465698242188,
+          "y": 686.6394653320312,
+          "width": 113.9744873046875,
+          "height": 155.298583984375,
+          "right": 313.5291442871094,
+          "bottom": 841.9380493164062
+        },
+        {
+          "x": 210.41476440429688,
+          "y": 676.3900756835938,
+          "width": 107.00216674804688,
+          "height": 151.088134765625,
+          "right": 317.41693115234375,
+          "bottom": 827.4782104492188
+        },
+        {
+          "x": 221.43544006347656,
+          "y": 672.5247802734375,
+          "width": 99.73658752441406,
+          "height": 146.463623046875,
+          "right": 321.1720275878906,
+          "bottom": 818.9884033203125
+        },
+        {
+          "x": 228.82797241210938,
+          "y": 672.5247802734375,
+          "width": 99.73660278320312,
+          "height": 146.463623046875,
+          "right": 328.5645751953125,
+          "bottom": 818.9884033203125
+        },
+        {
+          "x": 232.58306884765625,
+          "y": 676.3900756835938,
+          "width": 107.00216674804688,
+          "height": 151.088134765625,
+          "right": 339.5852355957031,
+          "bottom": 827.4782104492188
+        },
+        {
+          "x": 236.47085571289062,
+          "y": 686.6394653320312,
+          "width": 113.9744873046875,
+          "height": 155.298583984375,
+          "right": 350.4453430175781,
+          "bottom": 841.9380493164062
+        }
+      ],
+      "score": {
+        "x": 148,
+        "y": 159,
+        "width": 64,
+        "height": 251.984375,
+        "right": 212,
+        "bottom": 410.984375
+      },
+      "controls": {
+        "x": 30,
+        "y": 113,
+        "width": 300,
+        "height": 34,
+        "right": 330,
+        "bottom": 147
+      },
+      "paintings": [
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 96,
+          "height": 144
+        }
+      ],
+      "buffTimers": [
+        {
+          "x": 11.515625,
+          "y": 255.703125,
+          "width": 15.546875,
+          "height": 10.796875,
+          "right": 27.0625,
+          "bottom": 266.5
+        },
+        {
+          "x": 11.515625,
+          "y": 298.09375,
+          "width": 15.546875,
+          "height": 10.796875,
+          "right": 27.0625,
+          "bottom": 308.890625
+        },
+        {
+          "x": 332.90625,
+          "y": 265.703125,
+          "width": 15.546875,
+          "height": 10.796875,
+          "right": 348.453125,
+          "bottom": 276.5
+        },
+        {
+          "x": 332.90625,
+          "y": 308.09375,
+          "width": 15.546875,
+          "height": 10.796875,
+          "right": 348.453125,
+          "bottom": 318.890625
+        }
+      ],
+      "text": [
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        }
+      ]
+    },
+    {
+      "screen": "selection",
+      "viewport": [
+        844,
+        390
+      ],
+      "scroll": [
+        829,
+        496
+      ],
+      "selectionScroll": [
+        829,
+        645
+      ],
+      "cards": [
+        {
+          "x": 40.25,
+          "y": 269.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 149.578125,
+          "bottom": 433.078125
+        },
+        {
+          "x": 168.078125,
+          "y": 269.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 277.40625,
+          "bottom": 433.078125
+        },
+        {
+          "x": 295.90625,
+          "y": 269.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 405.234375,
+          "bottom": 433.078125
+        },
+        {
+          "x": 423.75,
+          "y": 269.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 533.078125,
+          "bottom": 433.078125
+        },
+        {
+          "x": 551.578125,
+          "y": 269.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 660.90625,
+          "bottom": 433.078125
+        },
+        {
+          "x": 679.40625,
+          "y": 269.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 788.734375,
+          "bottom": 433.078125
+        },
+        {
+          "x": 40.25,
+          "y": 439.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 149.578125,
+          "bottom": 603.078125
+        },
+        {
+          "x": 168.078125,
+          "y": 439.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 277.40625,
+          "bottom": 603.078125
+        },
+        {
+          "x": 295.90625,
+          "y": 439.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 405.234375,
+          "bottom": 603.078125
+        },
+        {
+          "x": 423.75,
+          "y": 439.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 533.078125,
+          "bottom": 603.078125
+        },
+        {
+          "x": 551.578125,
+          "y": 439.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 660.90625,
+          "bottom": 603.078125
+        },
+        {
+          "x": 679.40625,
+          "y": 439.09375,
+          "width": 109.328125,
+          "height": 163.984375,
+          "right": 788.734375,
+          "bottom": 603.078125
+        }
+      ],
+      "clock": {
+        "x": 726,
+        "y": 53,
+        "width": 78,
+        "height": 72,
+        "right": 804,
+        "bottom": 125
+      },
+      "timer": {
+        "x": 744.71875,
+        "y": 86.109375,
+        "width": 40.546875,
+        "height": 22,
+        "right": 785.265625,
+        "bottom": 108.109375
+      },
+      "ready": {
+        "x": 344.65625,
+        "y": 140.640625,
+        "width": 150,
+        "height": 26,
+        "right": 494.65625,
+        "bottom": 166.640625
+      },
+      "slots": [
+        {
+          "x": 37,
+          "y": 175.9375,
+          "width": 69.609375,
+          "height": 50,
+          "right": 106.609375,
+          "bottom": 225.9375
+        },
+        {
+          "x": 114.609375,
+          "y": 175.9375,
+          "width": 69.609375,
+          "height": 50,
+          "right": 184.21875,
+          "bottom": 225.9375
+        },
+        {
+          "x": 192.21875,
+          "y": 175.9375,
+          "width": 69.609375,
+          "height": 50,
+          "right": 261.828125,
+          "bottom": 225.9375
+        },
+        {
+          "x": 269.828125,
+          "y": 175.9375,
+          "width": 69.609375,
+          "height": 50,
+          "right": 339.4375,
+          "bottom": 225.9375
+        },
+        {
+          "x": 347.4375,
+          "y": 175.9375,
+          "width": 69.609375,
+          "height": 50,
+          "right": 417.046875,
+          "bottom": 225.9375
+        },
+        {
+          "x": 425.046875,
+          "y": 175.9375,
+          "width": 69.609375,
+          "height": 50,
+          "right": 494.65625,
+          "bottom": 225.9375
+        }
+      ],
+      "board": {
+        "x": 82.34375,
+        "y": 206.828125,
+        "width": 237.328125,
+        "height": 237.328125,
+        "right": 319.671875,
+        "bottom": 444.15625
+      },
+      "enemyBoard": {
+        "x": 509.328125,
+        "y": 218.828125,
+        "width": 237.328125,
+        "height": 237.328125,
+        "right": 746.65625,
+        "bottom": 456.15625
+      },
+      "wrap": {
+        "x": 67.515625,
+        "y": 192,
+        "width": 266.984375,
+        "height": 266.984375,
+        "right": 334.5,
+        "bottom": 458.984375
+      },
+      "hand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "enemyHand": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "preview": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "resource": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "rails": [
+        {
+          "x": 0,
+          "y": 496.390625,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 496.390625
+        },
+        {
+          "x": 0,
+          "y": 496.390625,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 496.390625
+        }
+      ],
+      "handCards": [],
+      "score": {
+        "x": 354.5,
+        "y": 136,
+        "width": 120,
+        "height": 340.390625,
+        "right": 474.5,
+        "bottom": 476.390625
+      },
+      "controls": {
+        "x": 237.515625,
+        "y": 73,
+        "width": 523.96875,
+        "height": 42,
+        "right": 761.484375,
+        "bottom": 115
+      },
+      "paintings": [
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 33.3281,
+          "height": 50
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        },
+        {
+          "width": 109.328,
+          "height": 163.984
+        }
+      ],
+      "buffTimers": [],
+      "text": [
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        },
+        {
+          "size": "9px",
+          "width": 87,
+          "scrollWidth": 87,
+          "height": 28,
+          "scroll": 28
+        }
+      ]
+    },
+    {
+      "screen": "battle",
+      "viewport": [
+        844,
+        390
+      ],
+      "scroll": [
+        829,
+        968
+      ],
+      "selectionScroll": [
+        0,
+        0
+      ],
+      "cards": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "clock": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "timer": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "ready": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "slots": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      ],
+      "board": {
+        "x": 82.34375,
+        "y": 206.828125,
+        "width": 237.328125,
+        "height": 237.328125,
+        "right": 319.671875,
+        "bottom": 444.15625
+      },
+      "enemyBoard": {
+        "x": 509.328125,
+        "y": 218.828125,
+        "width": 237.328125,
+        "height": 237.328125,
+        "right": 746.65625,
+        "bottom": 456.15625
+      },
+      "wrap": {
+        "x": 67.515625,
+        "y": 192,
+        "width": 266.984375,
+        "height": 266.984375,
+        "right": 334.5,
+        "bottom": 458.984375
+      },
+      "hand": {
+        "x": 67.515625,
+        "y": 728.390625,
+        "width": 266.984375,
+        "height": 200,
+        "right": 334.5,
+        "bottom": 928.390625
+      },
+      "enemyHand": {
+        "x": 494.5,
+        "y": 728.390625,
+        "width": 266.984375,
+        "height": 200,
+        "right": 761.484375,
+        "bottom": 928.390625
+      },
+      "preview": {
+        "x": 153,
+        "y": 505.390625,
+        "width": 96,
+        "height": 144,
+        "right": 249,
+        "bottom": 649.390625
+      },
+      "resource": {
+        "x": 153,
+        "y": 488.390625,
+        "width": 96,
+        "height": 200,
+        "right": 249,
+        "bottom": 688.390625
+      },
+      "rails": [
+        {
+          "x": 24.78125,
+          "y": 218.828125,
+          "width": 42.71875,
+          "height": 132.625,
+          "right": 67.5,
+          "bottom": 351.453125
+        },
+        {
+          "x": 761.484375,
+          "y": 230.828125,
+          "width": 42.71875,
+          "height": 132.625,
+          "right": 804.203125,
+          "bottom": 363.453125
+        }
+      ],
+      "handCards": [
+        {
+          "x": 53.1471061706543,
+          "y": 745.196533203125,
+          "width": 132.97023010253906,
+          "height": 181.18170166015625,
+          "right": 186.11733627319336,
+          "bottom": 926.3782348632812
+        },
+        {
+          "x": 89.75055694580078,
+          "y": 735.2388916015625,
+          "width": 124.83586883544922,
+          "height": 176.26953125,
+          "right": 214.58642578125,
+          "bottom": 911.5084228515625
+        },
+        {
+          "x": 126.54135131835938,
+          "y": 731.7294311523438,
+          "width": 116.35934448242188,
+          "height": 170.87420654296875,
+          "right": 242.90069580078125,
+          "bottom": 902.6036376953125
+        },
+        {
+          "x": 159.09930419921875,
+          "y": 731.7294311523438,
+          "width": 116.35934448242188,
+          "height": 170.87420654296875,
+          "right": 275.4586486816406,
+          "bottom": 902.6036376953125
+        },
+        {
+          "x": 187.41357421875,
+          "y": 735.2388916015625,
+          "width": 124.83587646484375,
+          "height": 176.26953125,
+          "right": 312.24945068359375,
+          "bottom": 911.5084228515625
+        },
+        {
+          "x": 215.88267517089844,
+          "y": 745.196533203125,
+          "width": 132.97023010253906,
+          "height": 181.18170166015625,
+          "right": 348.8529052734375,
+          "bottom": 926.3782348632812
+        },
+        {
+          "x": 480.1314697265625,
+          "y": 745.196533203125,
+          "width": 132.97021484375,
+          "height": 181.18170166015625,
+          "right": 613.1016845703125,
+          "bottom": 926.3782348632812
+        },
+        {
+          "x": 516.7349243164062,
+          "y": 735.2388916015625,
+          "width": 124.83587646484375,
+          "height": 176.26953125,
+          "right": 641.57080078125,
+          "bottom": 911.5084228515625
+        },
+        {
+          "x": 553.5257568359375,
+          "y": 731.7294311523438,
+          "width": 116.35931396484375,
+          "height": 170.87420654296875,
+          "right": 669.8850708007812,
+          "bottom": 902.6036376953125
+        },
+        {
+          "x": 586.0836791992188,
+          "y": 731.7294311523438,
+          "width": 116.35931396484375,
+          "height": 170.87420654296875,
+          "right": 702.4429931640625,
+          "bottom": 902.6036376953125
+        },
+        {
+          "x": 614.39794921875,
+          "y": 735.2388916015625,
+          "width": 124.83587646484375,
+          "height": 176.26953125,
+          "right": 739.2338256835938,
+          "bottom": 911.5084228515625
+        },
+        {
+          "x": 642.8670654296875,
+          "y": 745.196533203125,
+          "width": 132.97021484375,
+          "height": 181.18170166015625,
+          "right": 775.8372802734375,
+          "bottom": 926.3782348632812
+        }
+      ],
+      "score": {
+        "x": 354.5,
+        "y": 136,
+        "width": 120,
+        "height": 340.390625,
+        "right": 474.5,
+        "bottom": 476.390625
+      },
+      "controls": {
+        "x": 237.515625,
+        "y": 73,
+        "width": 523.96875,
+        "height": 42,
+        "right": 761.484375,
+        "bottom": 115
+      },
+      "paintings": [
+        {
+          "width": 96,
+          "height": 144
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        },
+        {
+          "width": 112,
+          "height": 168
+        }
+      ],
+      "buffTimers": [
+        {
+          "x": 34.90625,
+          "y": 263.546875,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 57.359375,
+          "bottom": 279.140625
+        },
+        {
+          "x": 34.90625,
+          "y": 335.859375,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 57.359375,
+          "bottom": 351.453125
+        },
+        {
+          "x": 771.609375,
+          "y": 275.546875,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 794.0625,
+          "bottom": 291.140625
+        },
+        {
+          "x": 771.609375,
+          "y": 347.859375,
+          "width": 22.453125,
+          "height": 15.59375,
+          "right": 794.0625,
+          "bottom": 363.453125
+        }
+      ],
+      "text": [
+        {
+          "size": "9px",
+          "width": 77,
+          "scrollWidth": 77,
+          "height": 24,
+          "scroll": 24
+        },
+        {
+          "size": "9px",
+          "width": 90,
+          "scrollWidth": 90,
+          "height": 29,
+          "scroll": 29
+        },
+        {
+          "size": "9px",
+          "width": 90,
+          "scrollWidth": 90,
+          "height": 29,
+          "scroll": 29
+        },
+        {
+          "size": "9px",
+          "width": 90,
+          "scrollWidth": 90,
+          "height": 29,
+          "scroll": 29
+        },
+        {
+          "size": "9px",
+          "width": 90,
+          "scrollWidth": 90,
+          "height": 29,
+          "scroll": 29
+        },
+        {
+          "size": "9px",
+          "width": 90,
+          "scrollWidth": 90,
+          "height": 29,
+          "scroll": 29
+        },
+        {
+          "size": "9px",
+          "width": 90,
+          "scrollWidth": 90,
+          "height": 29,
+          "scroll": 29
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

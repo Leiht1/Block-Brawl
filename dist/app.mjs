@@ -38,7 +38,7 @@ function scheduleImpact(e,delay=0){
 }
 const xy=index=>({x:(((index%engine.width)+engine.width)%engine.width+.5)*cell,y:(Math.floor(index/engine.width)+.5)*cell});
 const ease=t=>1-Math.pow(1-t,3);
-function message(text){$('message').textContent=text;}
+function message(text){const label=$('message');if(label)label.textContent=text;}
 function toast(text,time=700){$('toast').textContent=text;$('toast').classList.add('show');toastUntil=performance.now()+time;}
 function onEvent(e){
   audioEvents.engine(e);
@@ -143,13 +143,13 @@ function frame(now){
   (rockVisual||[]).forEach(e=>painter.drawEnvironment(e,now));
   rockRestores=rockRestores.filter(e=>now<e.start+e.duration);rockRestores.forEach(e=>painter.drawEnvironment(e,now));
   if(selected!==null)outline(selected,'#ffffff',now);
-  if(hint&&now<hintUntil){ctx.globalAlpha=reduced?1:.65+.35*Math.sin(now*.01);hint.forEach(i=>outline(i,'#f5ffb4',now));if(flow?.session){const a=xy(hint[0]),b=xy(hint[1]),dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy);ctx.strokeStyle='#fff2a0';ctx.lineWidth=3;ctx.beginPath();const x=a.x+dx*.64,y=a.y+dy*.64;ctx.moveTo(a.x+dx*.36,a.y+dy*.36);ctx.lineTo(x,y);ctx.moveTo(x-dx/len*9-dy/len*5,y-dy/len*9+dx/len*5);ctx.lineTo(x,y);ctx.lineTo(x-dx/len*9+dy/len*5,y-dy/len*9-dx/len*5);ctx.stroke();}ctx.globalAlpha=1;}else hint=null;
+  if(hint&&now<hintUntil){ctx.save();ctx.globalAlpha=1;ctx.shadowColor='#075b94';ctx.shadowBlur=4;for(const i of hint){const p=xy(i);ctx.beginPath();ctx.roundRect(p.x-cell*.44,p.y-cell*.44,cell*.88,cell*.88,cell*.13);ctx.strokeStyle='#00baff';ctx.lineWidth=7;ctx.stroke();ctx.shadowBlur=0;ctx.strokeStyle='#fff';ctx.lineWidth=2.5;ctx.stroke();}if(flow?.session){const a=xy(hint[0]),b=xy(hint[1]),dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy);ctx.beginPath();const x=a.x+dx*.64,y=a.y+dy*.64;ctx.moveTo(a.x+dx*.36,a.y+dy*.36);ctx.lineTo(x,y);ctx.moveTo(x-dx/len*9-dy/len*5,y-dy/len*9+dx/len*5);ctx.lineTo(x,y);ctx.lineTo(x-dx/len*9+dy/len*5,y-dy/len*9-dx/len*5);ctx.lineCap='round';ctx.lineJoin='round';ctx.strokeStyle='#075b94';ctx.lineWidth=9;ctx.stroke();ctx.strokeStyle='#00baff';ctx.lineWidth=6;ctx.stroke();ctx.strokeStyle='#fff';ctx.lineWidth=2;ctx.stroke();}ctx.restore();}else hint=null;
   if(document.activeElement===canvas&&!drag)outline(keyboard,'#ffffff66',now);
   ctx.restore();if(now>toastUntil)$('toast').classList.remove('show');
   frameCount++;if(now-fpsSince>=800){$('fps').textContent=Math.round(frameCount*1000/(now-fpsSince));frameCount=0;fpsSince=now;}last=now;requestAnimationFrame(frame);
 }
 function point(e){const r=canvas.getBoundingClientRect();const x=e.clientX-r.left,y=e.clientY-r.top;return{x,y,index:Math.floor(y/cell)*engine.width+Math.floor(x/cell),inside:x>=0&&y>=0&&x<width&&y<height};}
-function attempt(a,b){hint=null;const ok=flow?flow.swap(a,b):engine.command({kind:'swap',a,b});if(!ok)message(flow?.session&&!flow.session.canAct?'等待结算，或重试本关':'这一列正在落下，试试其他空闲列');return ok;}
+function attempt(a,b){hint=null;const ok=flow?flow.swap(a,b):engine.command({kind:'swap',a,b});if(!ok&&!flow?.session)message('这一列正在落下，试试其他空闲列');return ok;}
 canvas.addEventListener('pointerdown',e=>{
   if(flow&&!flow.canInteract)return;
   if(drag||e.button>0)return;const p=point(e);if(!p.inside||engine.terrain.cells[p.index]!=='cell')return;e.preventDefault();canvas.focus({preventScroll:true});keyboard=p.index;
@@ -172,7 +172,7 @@ canvas.addEventListener('keydown',e=>{
   if(e.key==='Enter'||e.key===' '){e.preventDefault();if(selected!==null&&engine.canSwap(selected,keyboard)){attempt(selected,keyboard);selected=null;}else if(engine.terrain.cells[keyboard]==='cell'&&!engine.isBusy(keyboard))selected=keyboard;}
   if(e.key==='Escape'){selected=null;drag=null;}
 });
-function showHint(){hint=flow?.session?flow.session.hint():engine.practiceMove&&engine.score===0?engine.practiceMove:engine.hint();hintUntil=performance.now()+3500;if(hint)message('亮框的两个方块，沿相邻方向交换');else message('方块还在落下，空闲后再提示');}
+function showHint(){hint=flow?.session?flow.session.hint():engine.practiceMove&&engine.score===0?engine.practiceMove:engine.hint();hintUntil=flow?.session?Infinity:performance.now()+3500;if(flow?.session){flow.session.lastPrompt=engine.now;message(flow.session.instruction[0]);}else if(hint)message('亮框的两个方块，沿相邻方向交换');else message('方块还在落下，空闲后再提示');}
 $('hint').addEventListener('click',showHint);
 $('restart').addEventListener('click',()=>{if(flow?.session||flow?.arena){flow.retry();return;}engine.reset(mode);message('重新开局，找到你的节奏');if(mode!=='free')showHint();});
 try{const saved=JSON.parse(localStorage.getItem('block-brawl.audio.v1')||'null');if(typeof saved?.sound==='boolean')audio.setSoundEnabled(saved.sound);if(typeof saved?.music==='boolean')audio.setBgmEnabled(saved.music);}catch{}

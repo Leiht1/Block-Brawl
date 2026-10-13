@@ -44,7 +44,7 @@ export function createCardEffects(flow,boards,energy){
   return {event,render,prepareCast:casts.prepare,cancelCast:casts.cancel,
     boardEvent(side,e){casts.boardEvent(side,e);body.boardEvent(side,e);},paintUnderlay:body.paintUnderlay,
     snapshot:()=>({...casts.snapshot(),skillBody:body.snapshot()}),
-    delayDraw(now,run){pendingDraws.push({at:Math.max(now,...motes.map(m=>m.start+m.duration))+180,run});},
+    delayDraw(now,run,wait=180){pendingDraws.push({at:Math.max(now,...motes.map(m=>m.start+m.duration))+wait,run});},
     reset(){casts.reset();body.reset();motes=[];pulses=[];pendingDraws=[];flashUntil=flashFrom=0;ctx.clearRect(0,0,canvas.width,canvas.height);energy.classList.remove('energy-complete','energy-absorbing');for(const b of Object.values(boards))b.style.translate='';}
   };
 }

@@ -13,7 +13,7 @@
 - 遗迹：`dist/assets/maps/ruins-temple.svg`、`ruins-stage.svg`、`ruins-board.svg`。
 - 熔炉：`dist/assets/maps/furnace-hall.svg`、`furnace-stage.svg`、`furnace-board.svg`。
 - 当前绑定与历史说明：`dist/maps.mjs`、`dist/theme.mjs`、`ART.md`。确认依据是当前正式绑定及用户锁定环境方向；这些资源本轮不改。
-- `art-preproduction/painted-map-polish/` 和部分 `references/maps/*-source.png` 是历史候选，不应当作当前采用稿；见 ART.md 中“未采用”的记录。
+- 未采用的绘画地图精修、统一棋盘候选及 `references/maps/*-source.png` 已于2026-10-13清理；来源说明见 ART.md，清单见 `validation/2026-10-13/repository-cleanup/`，旧文件可从Git历史或本地清理备份追溯。
 
 ## 已确认卡牌体系
 

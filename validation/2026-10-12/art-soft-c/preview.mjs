@@ -1,6 +1,6 @@
 import {createCardCastVfx} from '/card-cast-vfx.mjs';
 const $=id=>document.getElementById(id),canvas=$('scene'),ctx=canvas.getContext('2d'),zoom=$('zoom').getContext('2d');
-const geometry=await (await fetch('./geometry.json')).json(),background=new Image();background.src='./battle-baseline.png';await background.decode();
+const geometry=await (await fetch('./geometry.json')).json(),background=new Image();background.src='/art-preproduction/skill-body-complete-v1/source/effect_board_forest_soft_v1_preview.png';await background.decode();
 const boards=Object.fromEntries(Object.entries(geometry.boards).map(([side,r])=>[side,{getBoundingClientRect:()=>({left:r.x,top:r.y,width:r.width,height:r.height})}]));
 const fx=createCardCastVfx({arena:{engines:{player:{width:8,height:8},opponent:{width:8,height:8}}}},boards,ctx);
 let playing=true,time=0,last=performance.now(),old=false,cycle=0;

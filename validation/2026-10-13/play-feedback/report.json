@@ -1,0 +1,1358 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    "all nine existing painted selection components decode at their original dimensions",
+    "all twelve painted choices, six painted selections and ready/back controls fit eight viewport sizes",
+    "all five map descriptions and painted choices fit the smallest portrait viewport",
+    "painted selections retain remove, reselect and ready behavior",
+    "AI completes its six choices using the painted concealed card back",
+    "entering a board switches to an offset small painted icon, leaving restores the card, Escape cancels",
+    "wrong board uses the small icon and preserves invalid-drop return behavior",
+    "real fire drag clears one, two and three tiles during the sweep with exact ordered zero-score events",
+    "real quake drag previews and clears all eight special/wild tiles in the selected row",
+    "busy-board fire waits for a safe boundary and restarts the complete visual sweep together with real clears",
+    "AI fire uses the same progressive clear on the player board",
+    "exit cleans drag and skill state",
+    "rebuilt standalone file loads all selection paintings, fits one page and enters a match without external requests"
+  ],
+  "layouts": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "overflowX": false,
+      "overflowY": false,
+      "panel": {
+        "x": 402.5,
+        "y": 135,
+        "width": 1100,
+        "height": 850,
+        "bottom": 985,
+        "right": 1502.5
+      },
+      "ready": {
+        "x": 861.59375,
+        "y": 519.1875,
+        "width": 180,
+        "height": 46,
+        "bottom": 565.1875,
+        "right": 1041.59375
+      },
+      "cancel": {
+        "x": 430.5,
+        "y": 946,
+        "width": 1044,
+        "height": 18,
+        "bottom": 964,
+        "right": 1474.5
+      },
+      "pool": [
+        {
+          "x": 482.859375,
+          "y": 638.1875,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 772.09375,
+          "right": 572.125
+        },
+        {
+          "x": 652.859375,
+          "y": 638.1875,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 772.09375,
+          "right": 742.125
+        },
+        {
+          "x": 822.859375,
+          "y": 638.1875,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 772.09375,
+          "right": 912.125
+        },
+        {
+          "x": 992.859375,
+          "y": 638.1875,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 772.09375,
+          "right": 1082.125
+        },
+        {
+          "x": 1162.859375,
+          "y": 638.1875,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 772.09375,
+          "right": 1252.125
+        },
+        {
+          "x": 1332.859375,
+          "y": 636.1875,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 770.09375,
+          "right": 1422.125
+        },
+        {
+          "x": 482.859375,
+          "y": 784.09375,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 918,
+          "right": 572.125
+        },
+        {
+          "x": 652.859375,
+          "y": 784.09375,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 918,
+          "right": 742.125
+        },
+        {
+          "x": 822.859375,
+          "y": 784.09375,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 918,
+          "right": 912.125
+        },
+        {
+          "x": 992.859375,
+          "y": 784.09375,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 918,
+          "right": 1082.125
+        },
+        {
+          "x": 1162.859375,
+          "y": 784.09375,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 918,
+          "right": 1252.125
+        },
+        {
+          "x": 1332.859375,
+          "y": 784.09375,
+          "width": 89.265625,
+          "height": 133.90625,
+          "bottom": 918,
+          "right": 1422.125
+        }
+      ],
+      "slots": [
+        {
+          "loaded": true,
+          "url": "./assets/cards/fire.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/quake.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/meteor.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/bomb.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/freeze.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/blackhole.webp"
+        }
+      ],
+      "images": true
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "overflowX": false,
+      "overflowY": false,
+      "panel": {
+        "x": 162.5,
+        "y": 75,
+        "width": 1100,
+        "height": 850,
+        "bottom": 925,
+        "right": 1262.5
+      },
+      "ready": {
+        "x": 621.59375,
+        "y": 448.390625,
+        "width": 180,
+        "height": 46,
+        "bottom": 494.390625,
+        "right": 801.59375
+      },
+      "cancel": {
+        "x": 190.5,
+        "y": 886,
+        "width": 1044,
+        "height": 18,
+        "bottom": 904,
+        "right": 1234.5
+      },
+      "pool": [
+        {
+          "x": 241.0625,
+          "y": 567.390625,
+          "width": 92.859375,
+          "height": 139.296875,
+          "bottom": 706.6875,
+          "right": 333.921875
+        },
+        {
+          "x": 411.0625,
+          "y": 567.390625,
+          "width": 92.859375,
+          "height": 139.296875,
+          "bottom": 706.6875,
+          "right": 503.921875
+        },
+        {
+          "x": 581.0625,
+          "y": 567.390625,
+          "width": 92.859375,
+          "height": 139.296875,
+          "bottom": 706.6875,
+          "right": 673.921875
+        },
+        {
+          "x": 751.0625,
+          "y": 567.390625,
+          "width": 92.859375,
+          "height": 139.296875,
+          "bottom": 706.6875,
+          "right": 843.921875
+        },
+        {
+          "x": 921.0625,
+          "y": 567.390625,
+          "width": 92.859375,
+          "height": 139.296875,
+          "bottom": 706.6875,
+          "right": 1013.921875
+        },
+        {
+          "x": 1091.0625,
+          "y": 565.390625,
+          "width": 92.859375,
+          "height": 139.296875,
+          "bottom": 704.6875,
+          "right": 1183.921875
+        },
+        {
+          "x": 241.0625,
+          "y": 718.6875,
+          "width": 92.875,
+          "height": 139.3125,
+          "bottom": 858,
+          "right": 333.9375
+        },
+        {
+          "x": 411.0625,
+          "y": 718.6875,
+          "width": 92.875,
+          "height": 139.3125,
+          "bottom": 858,
+          "right": 503.9375
+        },
+        {
+          "x": 581.0625,
+          "y": 718.6875,
+          "width": 92.875,
+          "height": 139.3125,
+          "bottom": 858,
+          "right": 673.9375
+        },
+        {
+          "x": 751.0625,
+          "y": 718.6875,
+          "width": 92.875,
+          "height": 139.3125,
+          "bottom": 858,
+          "right": 843.9375
+        },
+        {
+          "x": 921.0625,
+          "y": 718.6875,
+          "width": 92.875,
+          "height": 139.3125,
+          "bottom": 858,
+          "right": 1013.9375
+        },
+        {
+          "x": 1091.0625,
+          "y": 718.6875,
+          "width": 92.875,
+          "height": 139.3125,
+          "bottom": 858,
+          "right": 1183.9375
+        }
+      ],
+      "slots": [
+        {
+          "loaded": true,
+          "url": "./assets/cards/fire.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/quake.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/meteor.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/bomb.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/freeze.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/blackhole.webp"
+        }
+      ],
+      "images": true
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "overflowX": false,
+      "overflowY": false,
+      "panel": {
+        "x": 125.5,
+        "y": 54,
+        "width": 1100,
+        "height": 688,
+        "bottom": 742,
+        "right": 1225.5
+      },
+      "ready": {
+        "x": 586.296875,
+        "y": 368.5,
+        "width": 180,
+        "height": 46,
+        "bottom": 414.5,
+        "right": 766.296875
+      },
+      "cancel": {
+        "x": 146.5,
+        "y": 709,
+        "width": 1058,
+        "height": 18,
+        "bottom": 727,
+        "right": 1204.5
+      },
+      "pool": [
+        {
+          "x": 213.15625,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 278.65625
+        },
+        {
+          "x": 384.984375,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 450.484375
+        },
+        {
+          "x": 556.8125,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 622.3125
+        },
+        {
+          "x": 728.65625,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 794.15625
+        },
+        {
+          "x": 900.484375,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 965.984375
+        },
+        {
+          "x": 1072.3125,
+          "y": 479.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 577.75,
+          "right": 1137.8125
+        },
+        {
+          "x": 213.15625,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 278.65625
+        },
+        {
+          "x": 384.984375,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 450.484375
+        },
+        {
+          "x": 556.8125,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 622.3125
+        },
+        {
+          "x": 728.65625,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 794.15625
+        },
+        {
+          "x": 900.484375,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 965.984375
+        },
+        {
+          "x": 1072.3125,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 1137.8125
+        }
+      ],
+      "slots": [
+        {
+          "loaded": true,
+          "url": "./assets/cards/fire.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/quake.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/meteor.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/bomb.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/freeze.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/blackhole.webp"
+        }
+      ],
+      "images": true
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "overflowX": false,
+      "overflowY": false,
+      "panel": {
+        "x": 24,
+        "y": 54,
+        "width": 961,
+        "height": 688,
+        "bottom": 742,
+        "right": 985
+      },
+      "ready": {
+        "x": 404.484375,
+        "y": 368.5,
+        "width": 180,
+        "height": 46,
+        "bottom": 414.5,
+        "right": 584.484375
+      },
+      "cancel": {
+        "x": 45,
+        "y": 709,
+        "width": 919,
+        "height": 18,
+        "bottom": 727,
+        "right": 964
+      },
+      "pool": [
+        {
+          "x": 100.078125,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 165.578125
+        },
+        {
+          "x": 248.734375,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 314.234375
+        },
+        {
+          "x": 397.40625,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 462.90625
+        },
+        {
+          "x": 546.078125,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 611.578125
+        },
+        {
+          "x": 694.734375,
+          "y": 481.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 579.75,
+          "right": 760.234375
+        },
+        {
+          "x": 843.40625,
+          "y": 479.5,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 577.75,
+          "right": 908.90625
+        },
+        {
+          "x": 100.078125,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 165.578125
+        },
+        {
+          "x": 248.734375,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 314.234375
+        },
+        {
+          "x": 397.40625,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 462.90625
+        },
+        {
+          "x": 546.078125,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 611.578125
+        },
+        {
+          "x": 694.734375,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 760.234375
+        },
+        {
+          "x": 843.40625,
+          "y": 588.75,
+          "width": 65.5,
+          "height": 98.25,
+          "bottom": 687,
+          "right": 908.90625
+        }
+      ],
+      "slots": [
+        {
+          "loaded": true,
+          "url": "./assets/cards/fire.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/quake.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/meteor.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/bomb.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/freeze.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/blackhole.webp"
+        }
+      ],
+      "images": true
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 600
+      },
+      "overflowX": false,
+      "overflowY": false,
+      "panel": {
+        "x": 24,
+        "y": 48,
+        "width": 961,
+        "height": 540,
+        "bottom": 588,
+        "right": 985
+      },
+      "ready": {
+        "x": 419.953125,
+        "y": 276.6875,
+        "width": 180,
+        "height": 46,
+        "bottom": 322.6875,
+        "right": 599.953125
+      },
+      "cancel": {
+        "x": 39,
+        "y": 559,
+        "width": 931,
+        "height": 18,
+        "bottom": 577,
+        "right": 970
+      },
+      "pool": [
+        {
+          "x": 89.109375,
+          "y": 365.6875,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 451.84375,
+          "right": 146.546875
+        },
+        {
+          "x": 243.765625,
+          "y": 365.6875,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 451.84375,
+          "right": 301.203125
+        },
+        {
+          "x": 398.4375,
+          "y": 365.6875,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 451.84375,
+          "right": 455.875
+        },
+        {
+          "x": 553.109375,
+          "y": 365.6875,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 451.84375,
+          "right": 610.546875
+        },
+        {
+          "x": 707.765625,
+          "y": 365.6875,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 451.84375,
+          "right": 765.203125
+        },
+        {
+          "x": 862.4375,
+          "y": 363.6875,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 449.84375,
+          "right": 919.875
+        },
+        {
+          "x": 89.109375,
+          "y": 460.84375,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 547,
+          "right": 146.546875
+        },
+        {
+          "x": 243.765625,
+          "y": 460.84375,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 547,
+          "right": 301.203125
+        },
+        {
+          "x": 398.4375,
+          "y": 460.84375,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 547,
+          "right": 455.875
+        },
+        {
+          "x": 553.109375,
+          "y": 460.84375,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 547,
+          "right": 610.546875
+        },
+        {
+          "x": 707.765625,
+          "y": 460.84375,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 547,
+          "right": 765.203125
+        },
+        {
+          "x": 862.4375,
+          "y": 460.84375,
+          "width": 57.4375,
+          "height": 86.15625,
+          "bottom": 547,
+          "right": 919.875
+        }
+      ],
+      "slots": [
+        {
+          "loaded": true,
+          "url": "./assets/cards/fire.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/quake.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/meteor.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/bomb.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/freeze.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/blackhole.webp"
+        }
+      ],
+      "images": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflowX": false,
+      "overflowY": false,
+      "panel": {
+        "x": 10,
+        "y": 54,
+        "width": 355,
+        "height": 778,
+        "bottom": 832,
+        "right": 365
+      },
+      "ready": {
+        "x": 33,
+        "y": 435.15625,
+        "width": 166.078125,
+        "height": 29,
+        "bottom": 464.15625,
+        "right": 199.078125
+      },
+      "cancel": {
+        "x": 23,
+        "y": 801,
+        "width": 329,
+        "height": 18,
+        "bottom": 819,
+        "right": 352
+      },
+      "pool": [
+        {
+          "x": 39.453125,
+          "y": 517.15625,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 602.4375,
+          "right": 96.296875
+        },
+        {
+          "x": 119.203125,
+          "y": 517.15625,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 602.4375,
+          "right": 176.046875
+        },
+        {
+          "x": 198.953125,
+          "y": 517.15625,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 602.4375,
+          "right": 255.796875
+        },
+        {
+          "x": 278.703125,
+          "y": 517.15625,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 602.4375,
+          "right": 335.546875
+        },
+        {
+          "x": 39.453125,
+          "y": 608.4375,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 693.71875,
+          "right": 96.296875
+        },
+        {
+          "x": 119.203125,
+          "y": 606.4375,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 691.71875,
+          "right": 176.046875
+        },
+        {
+          "x": 198.953125,
+          "y": 608.4375,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 693.71875,
+          "right": 255.796875
+        },
+        {
+          "x": 278.703125,
+          "y": 608.4375,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 693.71875,
+          "right": 335.546875
+        },
+        {
+          "x": 39.453125,
+          "y": 699.71875,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 785,
+          "right": 96.296875
+        },
+        {
+          "x": 119.203125,
+          "y": 699.71875,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 785,
+          "right": 176.046875
+        },
+        {
+          "x": 198.953125,
+          "y": 699.71875,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 785,
+          "right": 255.796875
+        },
+        {
+          "x": 278.703125,
+          "y": 699.71875,
+          "width": 56.84375,
+          "height": 85.28125,
+          "bottom": 785,
+          "right": 335.546875
+        }
+      ],
+      "slots": [
+        {
+          "loaded": true,
+          "url": "./assets/cards/fire.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/quake.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/meteor.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/bomb.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/freeze.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/blackhole.webp"
+        }
+      ],
+      "images": true
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 568
+      },
+      "overflowX": false,
+      "overflowY": false,
+      "panel": {
+        "x": 10,
+        "y": 48,
+        "width": 340,
+        "height": 508,
+        "bottom": 556,
+        "right": 350
+      },
+      "ready": {
+        "x": 35,
+        "y": 333.6875,
+        "width": 154.984375,
+        "height": 29,
+        "bottom": 362.6875,
+        "right": 189.984375
+      },
+      "cancel": {
+        "x": 25,
+        "y": 527,
+        "width": 310,
+        "height": 18,
+        "bottom": 545,
+        "right": 335
+      },
+      "pool": [
+        {
+          "x": 55.1875,
+          "y": 405.6875,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 438.125,
+          "right": 76.8125
+        },
+        {
+          "x": 131.1875,
+          "y": 405.6875,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 438.125,
+          "right": 152.8125
+        },
+        {
+          "x": 207.1875,
+          "y": 405.6875,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 438.125,
+          "right": 228.8125
+        },
+        {
+          "x": 283.1875,
+          "y": 405.6875,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 438.125,
+          "right": 304.8125
+        },
+        {
+          "x": 55.1875,
+          "y": 444.125,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 476.5625,
+          "right": 76.8125
+        },
+        {
+          "x": 131.1875,
+          "y": 442.125,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 474.5625,
+          "right": 152.8125
+        },
+        {
+          "x": 207.1875,
+          "y": 444.125,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 476.5625,
+          "right": 228.8125
+        },
+        {
+          "x": 283.1875,
+          "y": 444.125,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 476.5625,
+          "right": 304.8125
+        },
+        {
+          "x": 55.1875,
+          "y": 482.5625,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 515,
+          "right": 76.8125
+        },
+        {
+          "x": 131.1875,
+          "y": 482.5625,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 515,
+          "right": 152.8125
+        },
+        {
+          "x": 207.1875,
+          "y": 482.5625,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 515,
+          "right": 228.8125
+        },
+        {
+          "x": 283.1875,
+          "y": 482.5625,
+          "width": 21.625,
+          "height": 32.4375,
+          "bottom": 515,
+          "right": 304.8125
+        }
+      ],
+      "slots": [
+        {
+          "loaded": true,
+          "url": "./assets/cards/fire.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/quake.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/meteor.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/bomb.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/freeze.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/blackhole.webp"
+        }
+      ],
+      "images": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "overflowX": false,
+      "overflowY": false,
+      "panel": {
+        "x": 24,
+        "y": 40,
+        "width": 781,
+        "height": 342,
+        "bottom": 382,
+        "right": 805
+      },
+      "ready": {
+        "x": 305.875,
+        "y": 174.046875,
+        "width": 180,
+        "height": 30.34375,
+        "bottom": 204.390625,
+        "right": 485.875
+      },
+      "cancel": {
+        "x": 39,
+        "y": 355,
+        "width": 751,
+        "height": 18,
+        "bottom": 373,
+        "right": 790
+      },
+      "pool": [
+        {
+          "x": 93.640625,
+          "y": 243.390625,
+          "width": 30.859375,
+          "height": 46.296875,
+          "bottom": 289.6875,
+          "right": 124.5
+        },
+        {
+          "x": 215.8125,
+          "y": 243.390625,
+          "width": 30.859375,
+          "height": 46.296875,
+          "bottom": 289.6875,
+          "right": 246.671875
+        },
+        {
+          "x": 337.96875,
+          "y": 243.390625,
+          "width": 30.859375,
+          "height": 46.296875,
+          "bottom": 289.6875,
+          "right": 368.828125
+        },
+        {
+          "x": 460.140625,
+          "y": 243.390625,
+          "width": 30.859375,
+          "height": 46.296875,
+          "bottom": 289.6875,
+          "right": 491
+        },
+        {
+          "x": 582.3125,
+          "y": 243.390625,
+          "width": 30.859375,
+          "height": 46.296875,
+          "bottom": 289.6875,
+          "right": 613.171875
+        },
+        {
+          "x": 704.46875,
+          "y": 241.390625,
+          "width": 30.859375,
+          "height": 46.296875,
+          "bottom": 287.6875,
+          "right": 735.328125
+        },
+        {
+          "x": 93.640625,
+          "y": 295.6875,
+          "width": 30.875,
+          "height": 46.3125,
+          "bottom": 342,
+          "right": 124.515625
+        },
+        {
+          "x": 215.796875,
+          "y": 295.6875,
+          "width": 30.875,
+          "height": 46.3125,
+          "bottom": 342,
+          "right": 246.671875
+        },
+        {
+          "x": 337.96875,
+          "y": 295.6875,
+          "width": 30.875,
+          "height": 46.3125,
+          "bottom": 342,
+          "right": 368.84375
+        },
+        {
+          "x": 460.125,
+          "y": 295.6875,
+          "width": 30.875,
+          "height": 46.3125,
+          "bottom": 342,
+          "right": 491
+        },
+        {
+          "x": 582.296875,
+          "y": 295.6875,
+          "width": 30.875,
+          "height": 46.3125,
+          "bottom": 342,
+          "right": 613.171875
+        },
+        {
+          "x": 704.46875,
+          "y": 295.6875,
+          "width": 30.875,
+          "height": 46.3125,
+          "bottom": 342,
+          "right": 735.34375
+        }
+      ],
+      "slots": [
+        {
+          "loaded": true,
+          "url": "./assets/cards/fire.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/quake.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/meteor.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/bomb.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/freeze.webp"
+        },
+        {
+          "loaded": true,
+          "url": "./assets/cards/blackhole.webp"
+        }
+      ],
+      "images": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "status": "passed",
+  "selectionArt": [
+    {
+      "id": "selection-background",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "title",
+      "width": 372,
+      "height": 205
+    },
+    {
+      "id": "deck-player",
+      "width": 360,
+      "height": 310
+    },
+    {
+      "id": "deck-ai",
+      "width": 350,
+      "height": 310
+    },
+    {
+      "id": "pool",
+      "width": 368,
+      "height": 235
+    },
+    {
+      "id": "slot",
+      "width": 235,
+      "height": 300
+    },
+    {
+      "id": "ready",
+      "width": 425,
+      "height": 205
+    },
+    {
+      "id": "timer",
+      "width": 268,
+      "height": 305
+    },
+    {
+      "id": "card-back",
+      "width": 278,
+      "height": 345
+    }
+  ],
+  "mapLayouts": [
+    {
+      "map": "forest",
+      "overflow": false,
+      "minimumCardHeight": 32.4375,
+      "lastCardBottom": 515
+    },
+    {
+      "map": "cliff",
+      "overflow": false,
+      "minimumCardHeight": 28.53125,
+      "lastCardBottom": 514.984375
+    },
+    {
+      "map": "crystal",
+      "overflow": false,
+      "minimumCardHeight": 28.53125,
+      "lastCardBottom": 514.984375
+    },
+    {
+      "map": "ruins",
+      "overflow": false,
+      "minimumCardHeight": 28.53125,
+      "lastCardBottom": 514.984375
+    },
+    {
+      "map": "furnace",
+      "overflow": false,
+      "minimumCardHeight": 28.53125,
+      "lastCardBottom": 514.984375
+    }
+  ]
+}

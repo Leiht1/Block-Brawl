@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-13",
+  "integration": "Requested by the user; existing paintings only, with editable live text.",
+  "scaling": "Preserve painted corner proportions with measured panel slices; cover-crop the title and ready button, contain slots and card backs.",
+  "entries": [
+    {
+      "id": "selection-background",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/selection-background.png",
+      "runtime": "./assets/selection/ui_selection_selection_background_v1_preview.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceSha256": "86b81cd20e1567518117d1d375ddc38f7073622ba4483a14b0d12a6a91ab0fb9",
+      "bytes": 1772902
+    },
+    {
+      "id": "title",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/title.png",
+      "runtime": "./assets/selection/ui_selection_title_v1_preview.webp",
+      "width": 372,
+      "height": 205,
+      "sourceSha256": "9c8ceded55e1d6c6b06b66795ddb8be15052948e4988c166c0f3e7f8c9f7bf53",
+      "bytes": 64650
+    },
+    {
+      "id": "deck-player",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/deck-player.png",
+      "runtime": "./assets/selection/ui_selection_deck_player_v1_preview.webp",
+      "width": 360,
+      "height": 310,
+      "sourceSha256": "a56cc7875d88c04f28319bc432e079af71a14475a42ced05fc24f120c93ffdfd",
+      "bytes": 106678
+    },
+    {
+      "id": "deck-ai",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/deck-ai.png",
+      "runtime": "./assets/selection/ui_selection_deck_ai_v1_preview.webp",
+      "width": 350,
+      "height": 310,
+      "sourceSha256": "0ff57f19b2d917076dee17d21f596bfbf3070f75ff2b468a34b1836e97988b33",
+      "bytes": 107762
+    },
+    {
+      "id": "pool",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/pool.png",
+      "runtime": "./assets/selection/ui_selection_pool_v1_preview.webp",
+      "width": 368,
+      "height": 235,
+      "sourceSha256": "6a15b479034326b44ed5b1cd1f8c35fa1cea8471599ed5ce62042ba8d1c1eb3c",
+      "bytes": 82508
+    },
+    {
+      "id": "slot",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/slot.png",
+      "runtime": "./assets/selection/ui_selection_slot_v1_preview.webp",
+      "width": 235,
+      "height": 300,
+      "sourceSha256": "f69bf4ea0bdcba62eb820b364f3cf4268d8b86e6054f8ca752292178fd474c91",
+      "bytes": 52392
+    },
+    {
+      "id": "ready",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/ready.png",
+      "runtime": "./assets/selection/ui_selection_ready_v1_preview.webp",
+      "width": 425,
+      "height": 205,
+      "sourceSha256": "62abba96d759c7d5ead2583c60d2a83a48fce56afcc19dd5c3e2bd5bc38781b9",
+      "bytes": 71784
+    },
+    {
+      "id": "timer",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/timer.png",
+      "runtime": "./assets/selection/ui_selection_timer_v1_preview.webp",
+      "width": 268,
+      "height": 305,
+      "sourceSha256": "3f6b4218be38d09855182dbbd8415616aefafaa64dff9f0153c13f3a6d0a5acb",
+      "bytes": 71864
+    },
+    {
+      "id": "card-back",
+      "type": "selection-ui",
+      "version": 1,
+      "status": "preview",
+      "source": "art-preproduction/round1/assets/card-back.png",
+      "runtime": "./assets/selection/ui_selection_card_back_v1_preview.webp",
+      "width": 278,
+      "height": 345,
+      "sourceSha256": "71a0647ab1c84b582b2fd10fe808249b0c8284b2923113b0b7faff119861c4cc",
+      "bytes": 118946
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    "standalone logo, selection artwork, preview arrival and opponent card backs work without external requests"
+  ],
+  "layouts": [],
+  "errors": [],
+  "status": "passed"
+}

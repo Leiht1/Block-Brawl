@@ -1,0 +1,62 @@
+{
+  "mode": "only replace existing embedded art",
+  "assets": [
+    {
+      "asset": "./assets/toy-board.svg",
+      "hash": "a0746950298a40ba3581b0ece43c83456fcb8af6f6f5d806ea1b8f43ff81a298"
+    },
+    {
+      "asset": "./assets/maps/cliff-canyon.svg",
+      "hash": "812c86df66d53a08d4a8b1904ed250dba7a12d8a490bc7b76e08aba1cf09468b"
+    },
+    {
+      "asset": "./assets/maps/crystal-landscape.svg",
+      "hash": "13e33abcf418e4d3f95ea75eaf317ee2f1e1eda85e528de32f0c432ce8a0ed4a"
+    },
+    {
+      "asset": "./assets/maps/ruins-temple.svg",
+      "hash": "71f13fdfc158ae83e7bc8023ecf97eca9b498e0666840a3f2b371a454ab8b8f0"
+    },
+    {
+      "asset": "./assets/maps/furnace-hall.svg",
+      "hash": "b5bb2f084a4fed17bc7385ab0e084e1974ab836cbaca709109cc2ed024b2d3bc"
+    },
+    {
+      "asset": "./assets/maps/cliff-stage-left.svg",
+      "hash": "8a22dc3b3389f8bc83409b3a110f7d6db622c897b0e0ef6a37bd27e8d3aeec79"
+    },
+    {
+      "asset": "./assets/maps/cliff-stage-right.svg",
+      "hash": "40d406e15e6bb38a7525df218c593d512a018df22f3c44ac9615868135b9c3d4"
+    },
+    {
+      "asset": "./assets/maps/crystal-stage.svg",
+      "hash": "27dc3cbe02180fc1fb1b868178b87b639c70da5732b1658d58a54e2716ff2f39"
+    },
+    {
+      "asset": "./assets/maps/ruins-stage.svg",
+      "hash": "49481f97167bfc76411c7e335152792c2c73b26351b2d7dd0204af358ccbf123"
+    },
+    {
+      "asset": "./assets/maps/furnace-stage.svg",
+      "hash": "897cfd112cf330fa76526c14c9474b895987d16d2b9fe160acf785c0380d36c9"
+    },
+    {
+      "asset": "./assets/maps/cliff-board.svg",
+      "hash": "9d6897d61416a197ea99ad34855381ac016d28540d302b285226dc67b078e664"
+    },
+    {
+      "asset": "./assets/maps/crystal-board.svg",
+      "hash": "f3ce65dcd367f9edf8087cc6a1c9179fe026374d2776634a4b472faf206dc8d5"
+    },
+    {
+      "asset": "./assets/maps/ruins-board.svg",
+      "hash": "e678f9944db5eb014433f9b53673a06304c06f494ad88edc3c42c1df51382e30"
+    },
+    {
+      "asset": "./assets/maps/furnace-board.svg",
+      "hash": "957cc1866b5d7b2d2561014d8ab56c867439ea5bdf2bd4996b6f1ea6d58935cf"
+    }
+  ],
+  "unrelatedContentUnchanged": true
+}

@@ -1,0 +1,219 @@
+{
+  "createdOn": "2026-10-13",
+  "references": [
+    {
+      "id": "bgm.battle",
+      "src": "./assets/audio/bgm/battle/bgm-battle-v1.ogg",
+      "channel": "bgm",
+      "type": "bgm",
+      "loop": true,
+      "volume": 0.6,
+      "cooldownMs": 100,
+      "maxDurationMs": 8000,
+      "bpm": 128,
+      "seconds": 120,
+      "source": {
+        "title": "方块乱斗原创编排 · VSCO 2 Community Edition acoustic recordings",
+        "author": "Project arrangement; samples Sam Gossner & Simon Dalzell / Elan Hickler",
+        "url": "https://github.com/sgossner/VSCO-2-CE",
+        "license": "Project-original arrangement; samples CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "references/audio-stage4/sources.json"
+      },
+      "license": "Project-original arrangement; samples CC0-1.0",
+      "sha256": "753bc25faad50d52c7cd8a2fc6ccdd3f0407a47703bac5b73600e6a930b75c5f"
+    },
+    {
+      "id": "bgm.lobby",
+      "src": "./assets/audio/bgm/lobby/bgm-lobby-v1.ogg",
+      "channel": "bgm",
+      "type": "bgm",
+      "loop": true,
+      "volume": 0.66,
+      "cooldownMs": 100,
+      "maxDurationMs": 8000,
+      "bpm": 100,
+      "seconds": 153.6,
+      "source": {
+        "title": "方块乱斗原创编排 · VSCO 2 Community Edition acoustic recordings",
+        "author": "Project arrangement; samples Sam Gossner & Simon Dalzell / Elan Hickler",
+        "url": "https://github.com/sgossner/VSCO-2-CE",
+        "license": "Project-original arrangement; samples CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "evidence": "references/audio-stage4/sources.json"
+      },
+      "license": "Project-original arrangement; samples CC0-1.0",
+      "sha256": "3447c405629dc4cef9a28a836ab923211c0a1f1f3cbcc6d51139c0c1b56b8686"
+    },
+    {
+      "id": "block.match3",
+      "src": "./assets/audio/block/block-match3-v2.wav",
+      "channel": "effect",
+      "type": "sfx",
+      "loop": false,
+      "volume": 0.46,
+      "cooldownMs": 120,
+      "maxDurationMs": 1600,
+      "mergeGroup": "match",
+      "voiceLimit": 1,
+      "sha256": "cec025367d5fb93c936fa2cf5c8c19832fee29aac67d40dd1e5f4b31271ed896"
+    },
+    {
+      "id": "special.line",
+      "src": "./assets/audio/special/special-line-v3.wav",
+      "channel": "effect",
+      "type": "sfx",
+      "loop": false,
+      "volume": 0.46,
+      "cooldownMs": 100,
+      "maxDurationMs": 1600,
+      "mergeGroup": "special",
+      "voiceLimit": 1,
+      "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63"
+    },
+    {
+      "id": "special.bomb",
+      "src": "./assets/audio/special/special-bomb-v3.wav",
+      "channel": "effect",
+      "type": "sfx",
+      "loop": false,
+      "volume": 0.48,
+      "cooldownMs": 100,
+      "maxDurationMs": 1600,
+      "mergeGroup": "special",
+      "voiceLimit": 1,
+      "sha256": "1c3b0b9f892f374d4cf178fc8127e0edc03a803c10a239975c5329d644c20a20"
+    },
+    {
+      "id": "special.combo.line-line",
+      "src": "./assets/audio/special/special-line-v3.wav",
+      "channel": "effect",
+      "type": "sfx",
+      "loop": false,
+      "volume": 0.5,
+      "cooldownMs": 150,
+      "maxDurationMs": 1600,
+      "mergeGroup": "special",
+      "voiceLimit": 1,
+      "variants": {
+        "line-line": {
+          "src": "./assets/audio/special/special-line-v3.wav",
+          "volume": 0.5
+        },
+        "line-blast": {
+          "src": "./assets/audio/special/special-combo-line-blast-v5.wav",
+          "volume": 0.56
+        },
+        "blast-blast": {
+          "src": "./assets/audio/special/special-combo-blasts-v3.wav",
+          "volume": 0.28
+        }
+      },
+      "sha256": "c51d536b28ba2187d969dcf08422413e48d05361e71d26a243166ab95b0f1c63"
+    },
+    {
+      "id": "special.combo.line-blast",
+      "src": "./assets/audio/special/special-combo-line-blast-v5.wav",
+      "channel": "effect",
+      "type": "sfx",
+      "loop": false,
+      "volume": 0.56,
+      "cooldownMs": 150,
+      "maxDurationMs": 1600,
+      "mergeGroup": "special",
+      "voiceLimit": 1,
+      "variants": {
+        "line-line": {
+          "src": "./assets/audio/special/special-line-v3.wav",
+          "volume": 0.5
+        },
+        "line-blast": {
+          "src": "./assets/audio/special/special-combo-line-blast-v5.wav",
+          "volume": 0.56
+        },
+        "blast-blast": {
+          "src": "./assets/audio/special/special-combo-blasts-v3.wav",
+          "volume": 0.28
+        }
+      },
+      "sha256": "4b5118336ba662480348f424d8f692caf62c16d7df872d0fc8136bfd91ab4c4b"
+    },
+    {
+      "id": "special.combo.blast-blast",
+      "src": "./assets/audio/special/special-combo-blasts-v3.wav",
+      "channel": "effect",
+      "type": "sfx",
+      "loop": false,
+      "volume": 0.28,
+      "cooldownMs": 150,
+      "maxDurationMs": 1600,
+      "mergeGroup": "special",
+      "voiceLimit": 1,
+      "variants": {
+        "line-line": {
+          "src": "./assets/audio/special/special-line-v3.wav",
+          "volume": 0.5
+        },
+        "line-blast": {
+          "src": "./assets/audio/special/special-combo-line-blast-v5.wav",
+          "volume": 0.56
+        },
+        "blast-blast": {
+          "src": "./assets/audio/special/special-combo-blasts-v3.wav",
+          "volume": 0.28
+        }
+      },
+      "sha256": "d8cd5cde2a4293a0f2a4587ca5f8a82fec4ad86a99fe1c1d3f14000e805a939c"
+    }
+  ],
+  "timing": {
+    "releaseMs": 200,
+    "flightStartMs": 180,
+    "flightMs": 380,
+    "impactAtMs": 560,
+    "bodyVisualMs": 640,
+    "fireStartMs": 640
+  },
+  "reservedDetails": [
+    {
+      "id": "skill.quake",
+      "name": "裂地横扫",
+      "note": "quake-start启动时；目标横排含特殊／万能块，按列间隔44ms推进。不可等末格清除后的effect才发声。"
+    },
+    {
+      "id": "skill.meteor",
+      "name": "陨石坠落",
+      "note": "下降与撞击分开；实际清除最早在1600ms的队列结算，忙碌／冻结时顺延。撞击跟实际effect，不仅靠固定倒计时。"
+    },
+    {
+      "id": "skill.bomb",
+      "name": "炸弹投放",
+      "note": "先投放／轻引信；真正爆破最早1800ms，目标忙碌或冻结时可能推迟，跟真实effect。"
+    },
+    {
+      "id": "skill.storm",
+      "name": "混乱风暴",
+      "note": "实际card-change改变6个普通块颜色时反馈，空闲棋盘可立即提交；视觉本体不早于光团落地后80ms。"
+    },
+    {
+      "id": "skill.fog",
+      "name": "迷雾领域",
+      "note": "cast时立即生效6秒；当前代码是落点附近4×4区域、边缘贴边、空洞裁剪。1.2秒视觉消散不延长控制。"
+    },
+    {
+      "id": "skill.overload",
+      "name": "超载模式",
+      "note": "cast激活10秒得分×2；仅启动一次，状态期间安静。"
+    },
+    {
+      "id": "skill.sage",
+      "name": "贤者时间",
+      "note": "cast激活5秒，每650ms尝试自动操作；只播激活反馈，后续操作沿用核心音。"
+    },
+    {
+      "id": "skill.rainbow",
+      "name": "彩虹核心",
+      "note": "实际card-change指定index变成万能块时反馈；目标tile id不符则转换失效，不伪造命中。忙碌时光团可悬停，实际落点确定后继续飞180ms。"
+    }
+  ]
+}

@@ -60,7 +60,7 @@
 
 石台由`scripts/build-cliff-art.mjs`从`TEST_TERRAINS.cliff`提取边界；轮廓与规则共用一份来源。素材的黑色有效格遮罩让岩体及装饰不覆盖操作区，缺失格中只允许相邻石层下沿及局部藤蔓进入，其他部分露出峡谷。CSS在原540px棋盘外盒内按照480pxCanvas坐标定位，左右背景层均`pointer-events:none`，不改变命中、UI布局和方块特效。只对`data-map="cliff"`生效，退出恢复森林；悬崖取消九切片矩形边框及背景磨砂，以统一静态图形建立空间。没有逐帧场景绘制、随机装饰或动态滤镜。
 
-背景源就是可编辑SVG，石台重建运行`node scripts/build-cliff-art.mjs`，不会重做其他地图。未采用的内置imagegen候选源图保存在`references/maps/cliff-canyon-source.png`，提示词在`references/maps/cliff-canyon-candidate-prompt.txt`；同名WebP候选未绑定到游戏。验收图在`validation/2026-10-11/cliff-art/`。
+背景源就是可编辑SVG，石台重建运行`node scripts/build-cliff-art.mjs`，不会重做其他地图。未采用的内置imagegen候选源图已于2026-10-13清理，提示词继续保留在`references/maps/cliff-canyon-candidate-prompt.txt`；同名WebP候选未绑定到游戏。历史验收数据在`validation/2026-10-11/cliff-art/`，截图已清理，旧源图可从Git历史或本地清理备份恢复。
 
 ## 2026-10-11 · 四地图素材
 

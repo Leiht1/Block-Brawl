@@ -1,0 +1,1756 @@
+{
+  "date": "2026-10-13",
+  "status": "passed",
+  "checks": [
+    "three real basic operations; unlock survives replay, restart, exit and refresh",
+    "real cliff warning, impact/obstacle and player elimination; five current map briefs",
+    "real clear energy, full charge and preview-to-hand input-gated arrival",
+    "reticle drag, wrong target returns card, enemy attack/control and self buff/countdown; no score goal",
+    "formal free deck selection, retain two cards, freeze real command then chain attack; permanent four-level replay and qualification",
+    "four lessons fit four desktop window sizes with prompt, boards, hands, resources and controls visible",
+    "ready reveal/hide after selecting/removing sixth card has zero layout drift at five window sizes",
+    "old six-win browser save migrates to four unlocked and permanent qualification",
+    "all sixteen sandbox entries remain usable"
+  ],
+  "lessons": [
+    {
+      "index": 0,
+      "stage": "special",
+      "status": "won",
+      "moves": 3,
+      "evidence": {},
+      "score": 170,
+      "blocks": 0
+    },
+    {
+      "index": 1,
+      "stage": "mapGuide",
+      "status": "won",
+      "moves": 1,
+      "evidence": {
+        "warning": true,
+        "rockCells": [
+          59
+        ],
+        "afterRock": true
+      },
+      "score": 180,
+      "round": 1,
+      "blocks": 1
+    },
+    {
+      "index": 2,
+      "stage": "handGuide",
+      "status": "won",
+      "moves": 1,
+      "evidence": {
+        "clearEnergy": 2.4000000000000004,
+        "charged": true,
+        "draw": true,
+        "casts": [
+          "fire",
+          "freeze",
+          "overload"
+        ],
+        "fireEffect": true,
+        "freezeUntil": 13710,
+        "buffUntil": 21810
+      },
+      "score": 30,
+      "hand": [],
+      "energy": 0,
+      "blocks": 0
+    },
+    {
+      "index": 3,
+      "stage": "comboEffect",
+      "status": "won",
+      "moves": 0,
+      "evidence": {
+        "charged": true,
+        "draw": true,
+        "held": true,
+        "casts": [
+          "freeze",
+          "fire"
+        ],
+        "blockedSwap": true,
+        "combo": true,
+        "fireEffect": true
+      },
+      "score": 0,
+      "hand": [],
+      "energy": 60,
+      "blocks": 0
+    }
+  ],
+  "layouts": [
+    {
+      "label": "basic-1440x960",
+      "viewport": [
+        1440,
+        960
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 946.5,
+          "y": 400.25,
+          "w": 260,
+          "h": 217.5,
+          "right": 1206.5,
+          "bottom": 617.75
+        },
+        {
+          "id": "board",
+          "x": 450.265625,
+          "y": 317.265625,
+          "w": 444.46875,
+          "h": 444.46875,
+          "right": 894.734375,
+          "bottom": 761.734375
+        },
+        {
+          "id": "hint",
+          "x": 218.5,
+          "y": 504.5,
+          "w": 180,
+          "h": 48,
+          "right": 398.5,
+          "bottom": 552.5
+        },
+        {
+          "id": "restart",
+          "x": 218.5,
+          "y": 568.5,
+          "w": 180,
+          "h": 48,
+          "right": 398.5,
+          "bottom": 616.5
+        },
+        {
+          "id": "exit-game",
+          "x": 218.5,
+          "y": 632.5,
+          "w": 180,
+          "h": 48,
+          "right": 398.5,
+          "bottom": 680.5
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-1-1440x960",
+      "viewport": [
+        1440,
+        960
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 946.5,
+          "y": 400.25,
+          "w": 260,
+          "h": 217.5,
+          "right": 1206.5,
+          "bottom": 617.75
+        },
+        {
+          "id": "board",
+          "x": 450.265625,
+          "y": 317.265625,
+          "w": 444.46875,
+          "h": 444.46875,
+          "right": 894.734375,
+          "bottom": 761.734375
+        },
+        {
+          "id": "hint",
+          "x": 218.5,
+          "y": 504.5,
+          "w": 180,
+          "h": 48,
+          "right": 398.5,
+          "bottom": 552.5
+        },
+        {
+          "id": "restart",
+          "x": 218.5,
+          "y": 568.5,
+          "w": 180,
+          "h": 48,
+          "right": 398.5,
+          "bottom": 616.5
+        },
+        {
+          "id": "exit-game",
+          "x": 218.5,
+          "y": 632.5,
+          "w": 180,
+          "h": 48,
+          "right": 398.5,
+          "bottom": 680.5
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-2-1440x960",
+      "viewport": [
+        1440,
+        960
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 1125,
+          "h": 100,
+          "right": 1275,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 194.609375,
+          "y": 377.109375,
+          "w": 417.78125,
+          "h": 417.78125,
+          "right": 612.390625,
+          "bottom": 794.890625
+        },
+        {
+          "id": "hint",
+          "x": 1291,
+          "y": 406,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 446
+        },
+        {
+          "id": "restart",
+          "x": 1291,
+          "y": 460,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 500
+        },
+        {
+          "id": "exit-game",
+          "x": 1291,
+          "y": 514,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 554
+        },
+        {
+          "id": "opponent-board",
+          "x": 812.609375,
+          "y": 377.109375,
+          "w": 417.78125,
+          "h": 417.78125,
+          "right": 1230.390625,
+          "bottom": 794.890625
+        },
+        {
+          "id": "tutorial-continue",
+          "x": 1087,
+          "y": 95,
+          "w": 170,
+          "h": 40,
+          "right": 1257,
+          "bottom": 135
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-3-1440x960",
+      "viewport": [
+        1440,
+        960
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 1125,
+          "h": 100,
+          "right": 1275,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 262.609375,
+          "y": 266.40625,
+          "w": 353.78125,
+          "h": 353.78125,
+          "right": 616.390625,
+          "bottom": 620.1875
+        },
+        {
+          "id": "hint",
+          "x": 1291,
+          "y": 406,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 446
+        },
+        {
+          "id": "restart",
+          "x": 1291,
+          "y": 460,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 500
+        },
+        {
+          "id": "exit-game",
+          "x": 1291,
+          "y": 514,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 554
+        },
+        {
+          "id": "opponent-board",
+          "x": 808.609375,
+          "y": 266.40625,
+          "w": 353.78125,
+          "h": 353.78125,
+          "right": 1162.390625,
+          "bottom": 620.1875
+        },
+        {
+          "id": "card-resource",
+          "x": 112.5,
+          "y": 670.296875,
+          "w": 96,
+          "h": 217.390625,
+          "right": 208.5,
+          "bottom": 887.6875
+        },
+        {
+          "id": "card-hand",
+          "x": 240.5,
+          "y": 703.6875,
+          "w": 398,
+          "h": 224,
+          "right": 638.5,
+          "bottom": 927.6875
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-4-1440x960",
+      "viewport": [
+        1440,
+        960
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 1125,
+          "h": 100,
+          "right": 1275,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 262.609375,
+          "y": 266.40625,
+          "w": 353.78125,
+          "h": 353.78125,
+          "right": 616.390625,
+          "bottom": 620.1875
+        },
+        {
+          "id": "hint",
+          "x": 1291,
+          "y": 406,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 446
+        },
+        {
+          "id": "restart",
+          "x": 1291,
+          "y": 460,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 500
+        },
+        {
+          "id": "exit-game",
+          "x": 1291,
+          "y": 514,
+          "w": 116,
+          "h": 40,
+          "right": 1407,
+          "bottom": 554
+        },
+        {
+          "id": "opponent-board",
+          "x": 808.609375,
+          "y": 266.40625,
+          "w": 353.78125,
+          "h": 353.78125,
+          "right": 1162.390625,
+          "bottom": 620.1875
+        },
+        {
+          "id": "card-resource",
+          "x": 112.5,
+          "y": 670.296875,
+          "w": 96,
+          "h": 217.390625,
+          "right": 208.5,
+          "bottom": 887.6875
+        },
+        {
+          "id": "card-hand",
+          "x": 240.5,
+          "y": 703.6875,
+          "w": 398,
+          "h": 224,
+          "right": 638.5,
+          "bottom": 927.6875
+        },
+        {
+          "id": "tutorial-continue",
+          "x": 1087,
+          "y": 95,
+          "w": 170,
+          "h": 40,
+          "right": 1257,
+          "bottom": 135
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-1-1366x768",
+      "viewport": [
+        1366,
+        768
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 909.5,
+          "y": 304.25,
+          "w": 260,
+          "h": 217.5,
+          "right": 1169.5,
+          "bottom": 521.75
+        },
+        {
+          "id": "board",
+          "x": 413.265625,
+          "y": 221.265625,
+          "w": 444.46875,
+          "h": 444.46875,
+          "right": 857.734375,
+          "bottom": 665.734375
+        },
+        {
+          "id": "hint",
+          "x": 181.5,
+          "y": 408.5,
+          "w": 180,
+          "h": 48,
+          "right": 361.5,
+          "bottom": 456.5
+        },
+        {
+          "id": "restart",
+          "x": 181.5,
+          "y": 472.5,
+          "w": 180,
+          "h": 48,
+          "right": 361.5,
+          "bottom": 520.5
+        },
+        {
+          "id": "exit-game",
+          "x": 181.5,
+          "y": 536.5,
+          "w": 180,
+          "h": 48,
+          "right": 361.5,
+          "bottom": 584.5
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-2-1366x768",
+      "viewport": [
+        1366,
+        768
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 1051,
+          "h": 100,
+          "right": 1201,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 192.546875,
+          "y": 297.546875,
+          "w": 384.90625,
+          "h": 384.90625,
+          "right": 577.453125,
+          "bottom": 682.453125
+        },
+        {
+          "id": "hint",
+          "x": 1217,
+          "y": 310,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 350
+        },
+        {
+          "id": "restart",
+          "x": 1217,
+          "y": 364,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 404
+        },
+        {
+          "id": "exit-game",
+          "x": 1217,
+          "y": 418,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 458
+        },
+        {
+          "id": "opponent-board",
+          "x": 773.546875,
+          "y": 297.546875,
+          "w": 384.90625,
+          "h": 384.90625,
+          "right": 1158.453125,
+          "bottom": 682.453125
+        },
+        {
+          "id": "tutorial-continue",
+          "x": 1013,
+          "y": 95,
+          "w": 170,
+          "h": 40,
+          "right": 1183,
+          "bottom": 135
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-3-1366x768",
+      "viewport": [
+        1366,
+        768
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 1051,
+          "h": 100,
+          "right": 1201,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 384.625,
+          "y": 238.484375,
+          "w": 204.125,
+          "h": 204.125,
+          "right": 588.75,
+          "bottom": 442.609375
+        },
+        {
+          "id": "hint",
+          "x": 1217,
+          "y": 310,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 350
+        },
+        {
+          "id": "restart",
+          "x": 1217,
+          "y": 364,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 404
+        },
+        {
+          "id": "exit-game",
+          "x": 1217,
+          "y": 418,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 458
+        },
+        {
+          "id": "opponent-board",
+          "x": 762.25,
+          "y": 238.484375,
+          "w": 204.125,
+          "h": 204.125,
+          "right": 966.375,
+          "bottom": 442.609375
+        },
+        {
+          "id": "card-resource",
+          "x": 243.875,
+          "y": 520.515625,
+          "w": 96,
+          "h": 217.390625,
+          "right": 339.875,
+          "bottom": 737.90625
+        },
+        {
+          "id": "card-hand",
+          "x": 371.875,
+          "y": 553.90625,
+          "w": 229.625,
+          "h": 200.359375,
+          "right": 601.5,
+          "bottom": 754.265625
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-4-1366x768",
+      "viewport": [
+        1366,
+        768
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 1051,
+          "h": 100,
+          "right": 1201,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 384.625,
+          "y": 238.484375,
+          "w": 204.125,
+          "h": 204.125,
+          "right": 588.75,
+          "bottom": 442.609375
+        },
+        {
+          "id": "hint",
+          "x": 1217,
+          "y": 310,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 350
+        },
+        {
+          "id": "restart",
+          "x": 1217,
+          "y": 364,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 404
+        },
+        {
+          "id": "exit-game",
+          "x": 1217,
+          "y": 418,
+          "w": 116,
+          "h": 40,
+          "right": 1333,
+          "bottom": 458
+        },
+        {
+          "id": "opponent-board",
+          "x": 762.25,
+          "y": 238.484375,
+          "w": 204.125,
+          "h": 204.125,
+          "right": 966.375,
+          "bottom": 442.609375
+        },
+        {
+          "id": "card-resource",
+          "x": 243.875,
+          "y": 520.515625,
+          "w": 96,
+          "h": 217.390625,
+          "right": 339.875,
+          "bottom": 737.90625
+        },
+        {
+          "id": "card-hand",
+          "x": 371.875,
+          "y": 553.90625,
+          "w": 229.625,
+          "h": 200.359375,
+          "right": 601.5,
+          "bottom": 754.265625
+        },
+        {
+          "id": "tutorial-continue",
+          "x": 1013,
+          "y": 95,
+          "w": 170,
+          "h": 40,
+          "right": 1183,
+          "bottom": 135
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-1-1024x768",
+      "viewport": [
+        1024,
+        768
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 725,
+          "y": 304.25,
+          "w": 260,
+          "h": 217.5,
+          "right": 985,
+          "bottom": 521.75
+        },
+        {
+          "id": "board",
+          "x": 254.265625,
+          "y": 227.515625,
+          "w": 420.46875,
+          "h": 420.46875,
+          "right": 674.734375,
+          "bottom": 647.984375
+        },
+        {
+          "id": "hint",
+          "x": 24,
+          "y": 408.5,
+          "w": 180,
+          "h": 48,
+          "right": 204,
+          "bottom": 456.5
+        },
+        {
+          "id": "restart",
+          "x": 24,
+          "y": 472.5,
+          "w": 180,
+          "h": 48,
+          "right": 204,
+          "bottom": 520.5
+        },
+        {
+          "id": "exit-game",
+          "x": 24,
+          "y": 536.5,
+          "w": 180,
+          "h": 48,
+          "right": 204,
+          "bottom": 584.5
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-2-1024x768",
+      "viewport": [
+        1024,
+        768
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 709,
+          "h": 100,
+          "right": 859,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 183.046875,
+          "y": 371.15625,
+          "w": 232.90625,
+          "h": 232.90625,
+          "right": 415.953125,
+          "bottom": 604.0625
+        },
+        {
+          "id": "hint",
+          "x": 875,
+          "y": 310,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 350
+        },
+        {
+          "id": "restart",
+          "x": 875,
+          "y": 364,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 404
+        },
+        {
+          "id": "exit-game",
+          "x": 875,
+          "y": 418,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 458
+        },
+        {
+          "id": "opponent-board",
+          "x": 593.046875,
+          "y": 371.15625,
+          "w": 232.90625,
+          "h": 232.90625,
+          "right": 825.953125,
+          "bottom": 604.0625
+        },
+        {
+          "id": "tutorial-continue",
+          "x": 671,
+          "y": 95,
+          "w": 170,
+          "h": 40,
+          "right": 841,
+          "bottom": 135
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-3-1024x768",
+      "viewport": [
+        1024,
+        768
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 709,
+          "h": 100,
+          "right": 859,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 213.625,
+          "y": 238.484375,
+          "w": 204.125,
+          "h": 204.125,
+          "right": 417.75,
+          "bottom": 442.609375
+        },
+        {
+          "id": "hint",
+          "x": 875,
+          "y": 310,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 350
+        },
+        {
+          "id": "restart",
+          "x": 875,
+          "y": 364,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 404
+        },
+        {
+          "id": "exit-game",
+          "x": 875,
+          "y": 418,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 458
+        },
+        {
+          "id": "opponent-board",
+          "x": 591.25,
+          "y": 238.484375,
+          "w": 204.125,
+          "h": 204.125,
+          "right": 795.375,
+          "bottom": 442.609375
+        },
+        {
+          "id": "card-resource",
+          "x": 72.875,
+          "y": 520.515625,
+          "w": 96,
+          "h": 217.390625,
+          "right": 168.875,
+          "bottom": 737.90625
+        },
+        {
+          "id": "card-hand",
+          "x": 200.875,
+          "y": 553.90625,
+          "w": 229.625,
+          "h": 200.359375,
+          "right": 430.5,
+          "bottom": 754.265625
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-4-1024x768",
+      "viewport": [
+        1024,
+        768
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 709,
+          "h": 105.390625,
+          "right": 859,
+          "bottom": 170.390625
+        },
+        {
+          "id": "board",
+          "x": 213.625,
+          "y": 238.484375,
+          "w": 204.125,
+          "h": 204.125,
+          "right": 417.75,
+          "bottom": 442.609375
+        },
+        {
+          "id": "hint",
+          "x": 875,
+          "y": 310,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 350
+        },
+        {
+          "id": "restart",
+          "x": 875,
+          "y": 364,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 404
+        },
+        {
+          "id": "exit-game",
+          "x": 875,
+          "y": 418,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 458
+        },
+        {
+          "id": "opponent-board",
+          "x": 591.25,
+          "y": 238.484375,
+          "w": 204.125,
+          "h": 204.125,
+          "right": 795.375,
+          "bottom": 442.609375
+        },
+        {
+          "id": "card-resource",
+          "x": 72.875,
+          "y": 520.515625,
+          "w": 96,
+          "h": 217.390625,
+          "right": 168.875,
+          "bottom": 737.90625
+        },
+        {
+          "id": "card-hand",
+          "x": 200.875,
+          "y": 553.90625,
+          "w": 229.625,
+          "h": 200.359375,
+          "right": 430.5,
+          "bottom": 754.265625
+        },
+        {
+          "id": "tutorial-continue",
+          "x": 671,
+          "y": 97.6875,
+          "w": 170,
+          "h": 40,
+          "right": 841,
+          "bottom": 137.6875
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-1-1024x600",
+      "viewport": [
+        1024,
+        600
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 658.5,
+          "y": 220.25,
+          "w": 260,
+          "h": 217.5,
+          "right": 918.5,
+          "bottom": 437.75
+        },
+        {
+          "id": "board",
+          "x": 313.375,
+          "y": 202.625,
+          "w": 302.25,
+          "h": 302.25,
+          "right": 615.625,
+          "bottom": 504.875
+        },
+        {
+          "id": "hint",
+          "x": 90.5,
+          "y": 324.5,
+          "w": 180,
+          "h": 48,
+          "right": 270.5,
+          "bottom": 372.5
+        },
+        {
+          "id": "restart",
+          "x": 90.5,
+          "y": 388.5,
+          "w": 180,
+          "h": 48,
+          "right": 270.5,
+          "bottom": 436.5
+        },
+        {
+          "id": "exit-game",
+          "x": 90.5,
+          "y": 452.5,
+          "w": 180,
+          "h": 48,
+          "right": 270.5,
+          "bottom": 500.5
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-2-1024x600",
+      "viewport": [
+        1024,
+        600
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 709,
+          "h": 100,
+          "right": 859,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 183.046875,
+          "y": 289.546875,
+          "w": 232.90625,
+          "h": 232.90625,
+          "right": 415.953125,
+          "bottom": 522.453125
+        },
+        {
+          "id": "hint",
+          "x": 875,
+          "y": 226,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 266
+        },
+        {
+          "id": "restart",
+          "x": 875,
+          "y": 280,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 320
+        },
+        {
+          "id": "exit-game",
+          "x": 875,
+          "y": 334,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 374
+        },
+        {
+          "id": "opponent-board",
+          "x": 593.046875,
+          "y": 289.546875,
+          "w": 232.90625,
+          "h": 232.90625,
+          "right": 825.953125,
+          "bottom": 522.453125
+        },
+        {
+          "id": "tutorial-continue",
+          "x": 671,
+          "y": 95,
+          "w": 170,
+          "h": 40,
+          "right": 841,
+          "bottom": 135
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-3-1024x600",
+      "viewport": [
+        1024,
+        600
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 709,
+          "h": 100,
+          "right": 859,
+          "bottom": 165
+        },
+        {
+          "id": "board",
+          "x": 269.9375,
+          "y": 227.734375,
+          "w": 151.125,
+          "h": 151.125,
+          "right": 421.0625,
+          "bottom": 378.859375
+        },
+        {
+          "id": "hint",
+          "x": 875,
+          "y": 226,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 266
+        },
+        {
+          "id": "restart",
+          "x": 875,
+          "y": 280,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 320
+        },
+        {
+          "id": "exit-game",
+          "x": 875,
+          "y": 334,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 374
+        },
+        {
+          "id": "opponent-board",
+          "x": 587.9375,
+          "y": 227.734375,
+          "w": 151.125,
+          "h": 151.125,
+          "right": 739.0625,
+          "bottom": 378.859375
+        },
+        {
+          "id": "card-resource",
+          "x": 148.5,
+          "y": 404.296875,
+          "w": 80,
+          "h": 193.390625,
+          "right": 228.5,
+          "bottom": 597.6875
+        },
+        {
+          "id": "card-hand",
+          "x": 260.5,
+          "y": 437.6875,
+          "w": 170,
+          "h": 152,
+          "right": 430.5,
+          "bottom": 589.6875
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "label": "lesson-4-1024x600",
+      "viewport": [
+        1024,
+        600
+      ],
+      "rects": [
+        {
+          "id": "tutorial-panel",
+          "x": 150,
+          "y": 65,
+          "w": 709,
+          "h": 105.390625,
+          "right": 859,
+          "bottom": 170.390625
+        },
+        {
+          "id": "board",
+          "x": 269.9375,
+          "y": 227.734375,
+          "w": 151.125,
+          "h": 151.125,
+          "right": 421.0625,
+          "bottom": 378.859375
+        },
+        {
+          "id": "hint",
+          "x": 875,
+          "y": 226,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 266
+        },
+        {
+          "id": "restart",
+          "x": 875,
+          "y": 280,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 320
+        },
+        {
+          "id": "exit-game",
+          "x": 875,
+          "y": 334,
+          "w": 116,
+          "h": 40,
+          "right": 991,
+          "bottom": 374
+        },
+        {
+          "id": "opponent-board",
+          "x": 587.9375,
+          "y": 227.734375,
+          "w": 151.125,
+          "h": 151.125,
+          "right": 739.0625,
+          "bottom": 378.859375
+        },
+        {
+          "id": "card-resource",
+          "x": 148.5,
+          "y": 404.296875,
+          "w": 80,
+          "h": 193.390625,
+          "right": 228.5,
+          "bottom": 597.6875
+        },
+        {
+          "id": "card-hand",
+          "x": 260.5,
+          "y": 437.6875,
+          "w": 170,
+          "h": 152,
+          "right": 430.5,
+          "bottom": 589.6875
+        },
+        {
+          "id": "tutorial-continue",
+          "x": 671,
+          "y": 97.6875,
+          "w": 170,
+          "h": 40,
+          "right": 841,
+          "bottom": 137.6875
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "readyLayouts": [
+    {
+      "viewport": [
+        1440,
+        960
+      ],
+      "before": [
+        {
+          "q": ".deck-panel",
+          "x": 18,
+          "y": 48,
+          "w": 1389,
+          "h": 900
+        },
+        {
+          "q": ".deck-header",
+          "x": 39,
+          "y": 61,
+          "w": 1347,
+          "h": 95
+        },
+        {
+          "q": ".deck-sides",
+          "x": 39,
+          "y": 162,
+          "w": 1347,
+          "h": 146.484375
+        },
+        {
+          "q": "#card-pool",
+          "x": 39,
+          "y": 338.484375,
+          "w": 1347,
+          "h": 569.71875
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 39,
+          "y": 914.203125,
+          "w": 1347,
+          "h": 20.796875
+        }
+      ],
+      "after": [
+        {
+          "q": ".deck-panel",
+          "x": 18,
+          "y": 48,
+          "w": 1389,
+          "h": 900
+        },
+        {
+          "q": ".deck-header",
+          "x": 39,
+          "y": 61,
+          "w": 1347,
+          "h": 95
+        },
+        {
+          "q": ".deck-sides",
+          "x": 39,
+          "y": 162,
+          "w": 1347,
+          "h": 146.484375
+        },
+        {
+          "q": "#card-pool",
+          "x": 39,
+          "y": 338.484375,
+          "w": 1347,
+          "h": 569.71875
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 39,
+          "y": 914.203125,
+          "w": 1347,
+          "h": 20.796875
+        }
+      ],
+      "drift": 0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "before": [
+        {
+          "q": ".deck-panel",
+          "x": 18,
+          "y": 48,
+          "w": 1315,
+          "h": 708
+        },
+        {
+          "q": ".deck-header",
+          "x": 39,
+          "y": 61,
+          "w": 1273,
+          "h": 95
+        },
+        {
+          "q": ".deck-sides",
+          "x": 39,
+          "y": 162,
+          "w": 1273,
+          "h": 133.296875
+        },
+        {
+          "q": "#card-pool",
+          "x": 39,
+          "y": 325.296875,
+          "w": 1273,
+          "h": 390.90625
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 39,
+          "y": 722.203125,
+          "w": 1273,
+          "h": 20.796875
+        }
+      ],
+      "after": [
+        {
+          "q": ".deck-panel",
+          "x": 18,
+          "y": 48,
+          "w": 1315,
+          "h": 708
+        },
+        {
+          "q": ".deck-header",
+          "x": 39,
+          "y": 61,
+          "w": 1273,
+          "h": 95
+        },
+        {
+          "q": ".deck-sides",
+          "x": 39,
+          "y": 162,
+          "w": 1273,
+          "h": 133.296875
+        },
+        {
+          "q": "#card-pool",
+          "x": 39,
+          "y": 325.296875,
+          "w": 1273,
+          "h": 390.90625
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 39,
+          "y": 722.203125,
+          "w": 1273,
+          "h": 20.796875
+        }
+      ],
+      "drift": 0
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "before": [
+        {
+          "q": ".deck-panel",
+          "x": 18,
+          "y": 48,
+          "w": 973,
+          "h": 708
+        },
+        {
+          "q": ".deck-header",
+          "x": 39,
+          "y": 61,
+          "w": 931,
+          "h": 95
+        },
+        {
+          "q": ".deck-sides",
+          "x": 39,
+          "y": 162,
+          "w": 931,
+          "h": 133.296875
+        },
+        {
+          "q": "#card-pool",
+          "x": 39,
+          "y": 325.296875,
+          "w": 931,
+          "h": 390.90625
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 39,
+          "y": 722.203125,
+          "w": 931,
+          "h": 20.796875
+        }
+      ],
+      "after": [
+        {
+          "q": ".deck-panel",
+          "x": 18,
+          "y": 48,
+          "w": 973,
+          "h": 708
+        },
+        {
+          "q": ".deck-header",
+          "x": 39,
+          "y": 61,
+          "w": 931,
+          "h": 95
+        },
+        {
+          "q": ".deck-sides",
+          "x": 39,
+          "y": 162,
+          "w": 931,
+          "h": 133.296875
+        },
+        {
+          "q": "#card-pool",
+          "x": 39,
+          "y": 325.296875,
+          "w": 931,
+          "h": 390.90625
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 39,
+          "y": 722.203125,
+          "w": 931,
+          "h": 20.796875
+        }
+      ],
+      "drift": 0
+    },
+    {
+      "viewport": [
+        1024,
+        600
+      ],
+      "before": [
+        {
+          "q": ".deck-panel",
+          "x": 12,
+          "y": 44,
+          "w": 985,
+          "h": 550
+        },
+        {
+          "q": ".deck-header",
+          "x": 25,
+          "y": 53,
+          "w": 959,
+          "h": 73
+        },
+        {
+          "q": ".deck-sides",
+          "x": 25,
+          "y": 130,
+          "w": 959,
+          "h": 106.59375
+        },
+        {
+          "q": "#card-pool",
+          "x": 25,
+          "y": 261.09375,
+          "w": 959,
+          "h": 299.109375
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 25,
+          "y": 564.203125,
+          "w": 959,
+          "h": 20.796875
+        }
+      ],
+      "after": [
+        {
+          "q": ".deck-panel",
+          "x": 12,
+          "y": 44,
+          "w": 985,
+          "h": 550
+        },
+        {
+          "q": ".deck-header",
+          "x": 25,
+          "y": 53,
+          "w": 959,
+          "h": 73
+        },
+        {
+          "q": ".deck-sides",
+          "x": 25,
+          "y": 130,
+          "w": 959,
+          "h": 106.59375
+        },
+        {
+          "q": "#card-pool",
+          "x": 25,
+          "y": 261.09375,
+          "w": 959,
+          "h": 299.109375
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 25,
+          "y": 564.203125,
+          "w": 959,
+          "h": 20.796875
+        }
+      ],
+      "drift": 0
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "before": [
+        {
+          "q": ".deck-panel",
+          "x": 8,
+          "y": -146,
+          "w": 359,
+          "h": 990.484375
+        },
+        {
+          "q": ".deck-header",
+          "x": 19,
+          "y": -135,
+          "w": 337,
+          "h": 120.296875
+        },
+        {
+          "q": ".deck-sides",
+          "x": 19,
+          "y": -9.703125,
+          "w": 337,
+          "h": 153.796875
+        },
+        {
+          "q": "#card-pool",
+          "x": 19,
+          "y": 169.09375,
+          "w": 337,
+          "h": 640
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 19,
+          "y": 814.09375,
+          "w": 337,
+          "h": 19.390625
+        }
+      ],
+      "after": [
+        {
+          "q": ".deck-panel",
+          "x": 8,
+          "y": -146,
+          "w": 359,
+          "h": 990.484375
+        },
+        {
+          "q": ".deck-header",
+          "x": 19,
+          "y": -135,
+          "w": 337,
+          "h": 120.296875
+        },
+        {
+          "q": ".deck-sides",
+          "x": 19,
+          "y": -9.703125,
+          "w": 337,
+          "h": 153.796875
+        },
+        {
+          "q": "#card-pool",
+          "x": 19,
+          "y": 169.09375,
+          "w": 337,
+          "h": 640
+        },
+        {
+          "q": "#deck-cancel",
+          "x": 19,
+          "y": 814.09375,
+          "w": 337,
+          "h": 19.390625
+        }
+      ],
+      "drift": 0
+    }
+  ],
+  "errors": []
+}

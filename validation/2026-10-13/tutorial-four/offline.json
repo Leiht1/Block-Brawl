@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13",
+  "status": "passed",
+  "checks": [
+    "standalone four-lesson entry runs real first swap without external requests"
+  ],
+  "lessons": [],
+  "layouts": [],
+  "readyLayouts": [],
+  "errors": []
+}

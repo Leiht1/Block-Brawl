@@ -1,0 +1,85 @@
+{
+  "scope": "background and board artwork only",
+  "readyForExistingBindings": true,
+  "files": [
+    {
+      "file": "dist/assets/toy-board.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/cliff-canyon.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/crystal-landscape.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/ruins-temple.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/furnace-hall.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/cliff-stage-left.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/cliff-stage-right.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/crystal-stage.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/ruins-stage.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/furnace-stage.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/cliff-board.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/crystal-board.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/ruins-board.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    },
+    {
+      "file": "dist/assets/maps/furnace-board.svg",
+      "status": "原位接入",
+      "geometryUnchanged": true
+    }
+  ],
+  "unchanged": {
+    "forestBackground": true,
+    "forestFrame": true,
+    "cards": true,
+    "layout": true,
+    "gameplay": true
+  },
+  "review": "背景棋盘精修预览.html",
+  "offlineGame": "../../方块乱斗-最新版.html"
+}
